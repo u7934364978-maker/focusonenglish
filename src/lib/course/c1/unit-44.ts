@@ -28,18 +28,6 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u44-g4', type: 'fill-blank', level: 'C1', topic: 'fronting', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[It-Cleft for Emphasis|Cleft con "It" para énfasis]]', instructions: 'Complete the cleft sentence.',
-      questions: [{ question: '_______ the failure of international burden-sharing mechanisms — rather than the scale of migration itself — that has created humanitarian emergencies at European borders, as the uneven distribution of arrivals across member states has produced acute pressure in specific locations.', options: ['[[It is|Es]]', '[[It has been|Ha sido]]', '[[There is|Hay]]'], correctAnswer: 'It is', acceptableAnswers: ['It is', 'It has been', 'It was'], explanation: '"It is + focused element + that + rest of clause" = cleft sentence for emphasis. Here "It is the failure of…that has created" focuses attention on the cause rather than migration scale. "There is" introduces existence, not emphasis.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u44-g5', type: 'multiple-choice', level: 'C1', topic: 'fronting', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[The Issue of X is One That…|El tema de X es uno que…]]', instructions: 'Choose the most sophisticated topicalised sentence.',
-      questions: [{ question: 'Which sentence uses topicalisation and fronting most effectively in a migration policy context?', options: ['[[The question of how societies integrate large numbers of newcomers in a relatively short time is one that no democratic government has yet resolved satisfactorily, and it is arguably the central challenge facing European immigration policy — combining legal, social, economic and cultural dimensions that resist simple technocratic solutions.|La pregunta de cómo integran las sociedades un gran número de recién llegados en un tiempo relativamente corto es una que ningún gobierno democrático ha resuelto satisfactoriamente, y es posiblemente el desafío central de la política de inmigración europea.]]', '[[The question of integration is one that governments find hard to deal with. It involves many things like law, society and culture. No government has managed to solve it properly and it remains a big challenge in European politics today.|La pregunta de la integración es una que los gobiernos encuentran difícil de abordar. Implica muchas cosas como la ley, la sociedad y la cultura.]]', '[[Integration is an important question that is one that no government has fully resolved yet. This is because it is a challenge that involves many dimensions — legal, social, economic and cultural — that are hard to solve technically.|La integración es una pregunta importante que es una que ningún gobierno ha resuelto completamente todavía.]]'], correctAnswer: 0, explanation: '"The question of X is one that…" is a formal topicalisation pattern. Option A deploys it accurately with sophisticated subordinate clauses and a formal academic register throughout.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u44-v1', type: 'multiple-choice', level: 'C1', topic: 'migration-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Migration Categories|Categorías de migración]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'A person who flees their country of origin due to armed conflict, generalised violence or a well-founded fear of persecution on the grounds of race, religion, nationality, political opinion or membership of a particular social group — as defined by the 1951 Refugee Convention — is classified as a _______.', options: ['[[refugee|refugiado]]', '[[economic migrant|migrante económico]]', '[[internally displaced person|persona desplazada internamente]]'], correctAnswer: 0, explanation: '"Refugee" = legal status under the 1951 Convention. "Economic migrant" = someone who moves primarily for employment or better living conditions — different legal category with fewer international protections. "IDP" = displaced within their own country, not covered by the Refugee Convention.' }] },
@@ -58,18 +46,6 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u44-v4', type: 'fill-blank', level: 'C1', topic: 'migration-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Migration and Economy|Migración y economía]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The phenomenon whereby skilled professionals — particularly doctors, engineers and academics — emigrate from lower-income countries to higher-income nations in search of better pay and opportunities, depriving their countries of origin of the human capital needed for development, is known as brain _______.', options: ['[[drain|fuga]]', '[[gain|ganancia]]', '[[wave|ola]]'], correctAnswer: 'drain', acceptableAnswers: ['drain'], explanation: '"Brain drain" = emigration of highly skilled or educated people, causing a loss of human capital in origin countries. "Brain gain" = the opposite — receiving country benefits. "Brain circulation" = when migrants return with skills and investment.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u44-v5', type: 'multiple-choice', level: 'C1', topic: 'migration-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Social Attitudes|Actitudes sociales]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'The political ideology characterised by hostility towards immigration and cultural diversity, a strong emphasis on national identity and cultural homogeneity, and the belief that immigration represents a demographic and cultural threat to the nation is broadly described as _______.', options: ['[[nativism|nativismo]]', '[[cosmopolitanism|cosmopolitismo]]', '[[multiculturalism|multiculturalismo]]'], correctAnswer: 0, explanation: '"Nativism" = the political preference for the interests of native-born inhabitants over immigrants; often combined with ethnonationalism. "Cosmopolitanism" = embracing cultural diversity. "Multiculturalism" = a policy framework acknowledging and celebrating cultural diversity.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u44-r1', type: 'reading', level: 'C1', topic: 'migration-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Economics of Migration|La economía de la migración]]', instructions: 'Read and answer.',
       passage: 'What the economic evidence on migration consistently demonstrates is that the relationship between immigration and host-country labour markets is considerably more nuanced than is suggested by either enthusiastic pro-immigration arguments or by nativist claims about wage depression and job displacement. As for the effect on wages, the research indicates that the impact is largely concentrated at the lower end of the skill distribution and primarily affects earlier cohorts of migrants rather than native workers. The fiscal contribution of migrants, by contrast, is widely reported to be positive across most receiving countries, particularly when migrants are of working age and when their skills complement rather than directly substitute for those of the existing workforce. It is the failure to communicate this complexity, rather than the phenomenon of migration itself, that has arguably allowed populist narratives to fill the information vacuum with simplifications that bear limited relationship to the empirical record.',
@@ -84,10 +60,85 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u44-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'migration-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Migration and Displacement), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u44-l1', type: 'listening', level: 'C1', topic: 'migration-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Seminar on Migration Policy|Un seminario sobre política migratoria]]', instructions: 'Read the transcript and answer.',
       passage: 'Professor: What I want to highlight today is the gap between the political and the empirical debate about migration. As for public perception, surveys consistently show that people overestimate both the number of migrants in their country and the proportion receiving welfare benefits. The issue of integration is one that tends to be discussed as though it were solely a question of immigrant behaviour — what migrants do or fail to do — when in fact what the research shows is that host society reception, institutional support and labour market access are at least as determinative of integration outcomes as any characteristic of migrants themselves. It is the framing of integration as a one-way street — assimilation demanded of the newcomer, adaptation expected of no one else — that has, in my view, produced many of the policy failures we observe. Student: Does that mean host society attitudes cannot be changed by policy? Professor: Not at all. What effective integration policy requires is investment on both sides: language and civic education for newcomers, and active anti-discrimination measures and cross-cultural contact programmes for receiving communities.',
       questions: [{ question: 'What does the professor argue about the determinants of integration outcomes?', options: ['[[Host society reception, institutional support and labour market access are at least as determinative of integration outcomes as migrant characteristics — making integration a two-way process rather than a demand placed solely on migrants.|La recepción de la sociedad de acogida, el apoyo institucional y el acceso al mercado laboral son al menos tan determinantes de los resultados de integración como las características de los migrantes, lo que hace que la integración sea un proceso bidireccional.]]', '[[The professor argues that individual migrant characteristics — including language skills, educational background and cultural flexibility — are the primary determinants of integration success, with host society attitudes playing a secondary role.|El profesor argumenta que las características individuales del migrante son los principales determinantes del éxito de la integración, con las actitudes de la sociedad de acogida desempeñando un papel secundario.]]', '[[Integration outcomes are determined almost entirely by economic factors: migrants who find stable employment integrate successfully regardless of host society attitudes or institutional support structures.|Los resultados de integración están determinados casi en su totalidad por factores económicos: los migrantes que encuentran empleo estable se integran con éxito independientemente de las actitudes de la sociedad de acogida.]]'], correctAnswer: 0, explanation: 'The professor says "host society reception, institutional support and labour market access are at least as determinative of integration outcomes as any characteristic of migrants themselves".' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u44-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'migration-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u44-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'migration-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u44-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'migration-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u44-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'migration-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u44-s1', type: 'speaking', level: 'C1', topic: 'migration-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Migration and National Identity|Migración e identidad nacional]]', instructions: 'Which response demonstrates C1 spoken proficiency on migration?',
       questions: [{ question: 'Question: "Do you think migration enriches or threatens national identity?"', options: ['[[What the historical record suggests, quite unambiguously, is that national identities are not static entities that can be threatened by demographic change but rather ongoing constructions that have always incorporated external influences. As for the claim that migration dilutes cultural identity, I would argue that it is more accurate to say it transforms it — and transformation is not the same as loss. It is the anxiety about change itself, rather than evidence of cultural harm, that tends to drive nativist political sentiment.|Lo que sugiere el registro histórico es que las identidades nacionales no son entidades estáticas sino construcciones en curso que siempre han incorporado influencias externas. En cuanto a la afirmación de que la migración diluye la identidad cultural, yo diría que la transforma, y la transformación no es lo mismo que la pérdida.]]', '[[I think migration enriches national identity because it brings new food, music and ideas. As for the threat argument, I do not think it is true. What we need is more tolerance and understanding. National identity can include everyone.|Creo que la migración enriquece la identidad nacional porque aporta nueva comida, música e ideas.]]', '[[Migration is a complex topic. As for identity, it is important. What I think is that it can be both good and bad depending on the context. It is hard to say if it enriches or threatens identity without more information.|La migración es un tema complejo. En cuanto a la identidad, es importante.]]'], correctAnswer: 0, explanation: 'Option A uses "What the historical record suggests" (topicalisation), "As for the claim" (topicaliser), and "It is the anxiety…that" (cleft) — three fronting structures within a coherent, analytically sophisticated argument.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u44-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'migration-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u44-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'migration-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

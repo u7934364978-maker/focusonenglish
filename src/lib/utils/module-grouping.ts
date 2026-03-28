@@ -1,4 +1,5 @@
 import { UnitMetadata, ModuleMetadata } from '@/types/premium-course';
+import { C1_UI_MODULES } from '../course/c1/c1-curriculum';
 
 const MODULE_TITLES = [
   'Basics & Greetings',
@@ -6,7 +7,7 @@ const MODULE_TITLES = [
   'People & Relationships',
   'Shopping & Services',
   'Travel & Directions',
-  'Food & Leisure'
+  'Food & Leisure',
 ];
 
 const MODULE_DESCRIPTIONS = [
@@ -15,10 +16,43 @@ const MODULE_DESCRIPTIONS = [
   'Describe yourself and others, talk about family, friends, and build social connections in English.',
   'Navigate shopping situations, handle transactions, and interact with various service providers.',
   'Get around confidently by asking for directions, booking accommodations, and traveling independently.',
-  'Explore dining, entertainment, hobbies, and cultural topics to enrich your English experience.'
+  'Explore dining, entertainment, hobbies, and cultural topics to enrich your English experience.',
 ];
 
-export function groupUnitsIntoModules(units: UnitMetadata[]): ModuleMetadata[] {
+export interface GroupUnitsOptions {
+  /** Cuando es `ingles-c1`, se usan módulos definidos en `c1-curriculum.ts`, no trozos genéricos de 10. */
+  courseId?: string;
+}
+
+function groupC1UnitsIntoModules(units: UnitMetadata[]): ModuleMetadata[] {
+  const sorted = [...units].sort((a, b) => a.unitNumber - b.unitNumber);
+  const modules: ModuleMetadata[] = [];
+
+  C1_UI_MODULES.forEach((def, idx) => {
+    const [from, to] = def.unitRange;
+    const moduleUnits = sorted.filter((u) => u.unitNumber >= from && u.unitNumber <= to);
+    if (moduleUnits.length === 0) return;
+
+    const totalDuration = moduleUnits.reduce((sum, unit) => sum + unit.estimatedDuration, 0);
+    modules.push({
+      moduleNumber: idx + 1,
+      title: def.titleEs,
+      unitCount: moduleUnits.length,
+      totalDuration,
+      description: def.descriptionEs,
+      units: moduleUnits,
+    });
+  });
+
+  return modules;
+}
+
+/** Agrupa unidades en módulos para la vista del selector. C1 usa estructura propia; el resto, bloques de 10 (A1). */
+export function groupUnitsIntoModules(units: UnitMetadata[], options?: GroupUnitsOptions): ModuleMetadata[] {
+  if (options?.courseId === 'ingles-c1') {
+    return groupC1UnitsIntoModules(units);
+  }
+
   const unitsPerModule = 10;
   const moduleCount = Math.ceil(units.length / unitsPerModule);
   const modules: ModuleMetadata[] = [];
@@ -37,7 +71,7 @@ export function groupUnitsIntoModules(units: UnitMetadata[]): ModuleMetadata[] {
       unitCount: moduleUnits.length,
       totalDuration,
       description: MODULE_DESCRIPTIONS[i] || 'Continue advancing your English skills with engaging topics.',
-      units: moduleUnits
+      units: moduleUnits,
     });
   }
 

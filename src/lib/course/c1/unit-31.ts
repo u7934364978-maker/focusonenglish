@@ -28,18 +28,6 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u31-g4', type: 'fill-blank', level: 'C1', topic: 'it-structures', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[It seems/appears|Parece/Parece que]]', instructions: 'Complete the sentence.',
-      questions: [{ question: '_______ that a growing number of professionals are choosing portfolio careers over traditional employment, blending freelance projects with part-time roles to achieve greater autonomy.', options: ['[[It would appear|Parecería]]', '[[It is appeared|Parece haberse]]', '[[It has appeared|Ha parecido]]'], correctAnswer: 'It would appear', acceptableAnswers: ['It would appear', 'It appears', 'It seems', 'It would seem'], explanation: '"It would appear that…" = hedged impersonal construction suggesting a tentative conclusion based on available evidence. More cautious than "it is clear that".' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u31-g5', type: 'multiple-choice', level: 'C1', topic: 'it-structures', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[It takes/costs/requires|Se requiere/toma/cuesta]]', instructions: 'Choose the correct it-structure.',
-      questions: [{ question: 'Which sentence uses an impersonal "it" structure most accurately?', options: ['[[It takes considerable interpersonal skill, professional experience and emotional resilience to succeed in senior management positions, where conflicting demands and high-stakes decisions are routine.|Se necesitan considerables habilidades interpersonales, experiencia profesional y resiliencia emocional para tener éxito en puestos de alta dirección, donde las exigencias contradictorias y las decisiones de alto riesgo son habituales.]]', '[[It takes considerable interpersonal skill and it also takes professional experience, and furthermore it takes emotional resilience to succeed in senior management.|Se necesitan considerables habilidades interpersonales y también experiencia profesional, y además resiliencia emocional para tener éxito en la alta dirección.]]', '[[There takes considerable interpersonal skill, professional experience and emotional resilience to succeed in senior management positions where conflicting demands are routine.|Se necesitan considerables habilidades interpersonales, experiencia profesional y resiliencia emocional para tener éxito en puestos directivos.]]'], correctAnswer: 0, explanation: '"It takes + noun phrase + to-infinitive" = impersonal construction expressing requirements. "It" is a dummy subject; the infinitive clause is the real subject.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u31-v1', type: 'multiple-choice', level: 'C1', topic: 'work-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Careers and Employment|Carreras y empleo]]', instructions: 'Choose the correct word.',
       questions: [{ question: 'A worker who moves between short-term contracts, freelance assignments and self-employment rather than holding a permanent position is said to be part of the _______ economy.', options: ['[[gig|economía gig]]', '[[black|economía negra]]', '[[grey|economía gris]]'], correctAnswer: 0, explanation: '"The gig economy" = the sector characterised by short-term, flexible work arrangements. "The black economy" = unregulated or illegal work. "The grey economy" = economic activity not fully regulated.' }] },
@@ -58,18 +46,6 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u31-v4', type: 'fill-blank', level: 'C1', topic: 'work-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Corporate Language|Lenguaje corporativo]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The consultant recommended a programme of _______ — the elimination of management layers and reduction of bureaucratic structures — to improve decision-making speed and reduce overhead costs.', options: ['[[delayering|reducción de niveles jerárquicos]]', '[[downsizing|reducción de plantilla]]', '[[outsourcing|externalización]]'], correctAnswer: 'delayering', acceptableAnswers: ['delayering'], explanation: '"Delayering" = removing hierarchical management levels. "Downsizing" = reducing workforce size. "Outsourcing" = contracting work externally. Each term refers to a distinct restructuring strategy.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u31-v5', type: 'multiple-choice', level: 'C1', topic: 'work-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Labour Market|Mercado laboral]]', instructions: 'Choose the correct word.',
-      questions: [{ question: 'The concept of _______ refers to the idea that employees should have control over when and how they work, balancing professional responsibilities with personal commitments without compromising performance.', options: ['[[work-life balance|equilibrio entre vida y trabajo]]', '[[job security|seguridad laboral]]', '[[career progression|progresión profesional]]'], correctAnswer: 0, explanation: '"Work-life balance" = the equilibrium between professional and personal life. "Job security" = stability of employment. "Career progression" = advancement through roles.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u31-r1', type: 'reading', level: 'C1', topic: 'work-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Future of Work|El futuro del trabajo]]', instructions: 'Read and answer.',
       passage: 'It is increasingly accepted that the traditional model of lifelong employment with a single organisation is no longer the dominant paradigm for professional life in advanced economies. It has been observed that workers entering the labour market today are likely to hold an average of ten to fifteen different positions across multiple sectors during their careers. It is perhaps unsurprising, therefore, that younger generations place greater emphasis on skill transferability, personal fulfilment and flexibility than on institutional loyalty. It should be noted, however, that this shift carries risks: without the stability of long-term employment, workers may lack access to pension provision, healthcare and the legal protections historically associated with permanent contracts.',
@@ -84,10 +60,85 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u31-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'work-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (The World of Work: Careers and Ambition), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u31-l1', type: 'listening', level: 'C1', topic: 'work-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Career Change Interview|Entrevista sobre cambio de carrera]]', instructions: 'Read the transcript and answer.',
       passage: 'Interviewer: You left a senior position in finance to retrain as a nurse. It must have seemed a radical decision to many people. | Guest: It did. It is fair to say that most of my colleagues thought I had lost my mind. But it had become clear to me that the work I was doing — however well-compensated — lacked the direct human impact I was looking for. It seemed to me that nursing offered exactly that. | Interviewer: Was it financially difficult? | Guest: It was. It is worth pointing out that training grants are available, but they do not fully offset the loss of income during a two-year programme. It was only possible because my partner was working full-time and we had made sacrifices in advance.',
       questions: [{ question: 'Why did the guest leave finance?', options: ['[[The guest felt the work lacked direct human impact, despite being well paid.|El invitado sintió que el trabajo carecía de impacto humano directo, a pesar de estar bien remunerado.]]', '[[The guest was dismissed from the finance role and had no option but to retrain as a nurse.|El invitado fue despedido del puesto de finanzas y no tuvo más opción que formarse como enfermero.]]', '[[The guest left because finance salaries had fallen significantly and nursing offered better pay.|El invitado se fue porque los salarios en finanzas habían caído significativamente y la enfermería ofrecía mejor remuneración.]]'], correctAnswer: 0, explanation: 'The guest says the finance work "lacked the direct human impact I was looking for", not that it was badly paid.' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u31-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'work-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u31-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'work-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u31-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'work-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u31-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'work-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u31-s1', type: 'speaking', level: 'C1', topic: 'work-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Discussing Career Values|Hablar sobre valores profesionales]]', instructions: 'Which response demonstrates C1 spoken fluency on career values?',
       questions: [{ question: 'Question: "Is financial reward the most important factor in career satisfaction?"', options: ['[[It would be an oversimplification to claim that financial reward is the primary driver of career satisfaction, though it is undeniable that economic security forms an essential baseline. What tends to matter more, once that baseline is met, is the degree to which a role offers autonomy, a sense of purpose and opportunities for meaningful professional growth.|Sería una simplificación excesiva afirmar que la recompensa económica es el principal motor de la satisfacción profesional, aunque es innegable que la seguridad económica forma una base esencial. Lo que tiende a importar más, una vez alcanzada esa base, es el grado en que un rol ofrece autonomía, sentido de propósito y oportunidades de crecimiento profesional significativo.]]', '[[Money is important but it is not everything. You need to like your job too. If you hate going to work every day, you will not be happy even if you earn a lot. So I think both money and happiness at work are important.|El dinero es importante pero no lo es todo. También necesitas que te guste tu trabajo. Si odias ir a trabajar todos los días, no serás feliz aunque ganes mucho.]]', '[[Yes, money is the most important thing because without money you cannot live well. Also, a good salary shows that your employer respects you. I think everyone would prefer to earn more money in their job.|Sí, el dinero es lo más importante porque sin dinero no puedes vivir bien. Además, un buen salario muestra que tu empleador te respeta.]]'], correctAnswer: 0, explanation: 'Option A uses it-structures ("It would be an oversimplification", "it is undeniable"), hedging ("tends to"), nominalisation ("the degree to which") and develops a nuanced, substantiated argument.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u31-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'work-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u31-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'work-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

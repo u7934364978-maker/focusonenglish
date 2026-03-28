@@ -16,6 +16,7 @@ const MatchingExercise = dynamic(() => import('./exercises/MatchingExercise').th
 import Markdown from './course/Markdown';
 import { TranslatedText, TRANSLATION_TOOLTIP_SPACING } from './course/exercises/TranslatedText';
 import { AudioPlayer } from './course/preview/AudioPlayer';
+import { resolveListeningScript } from '@/lib/listening-script';
 import { useGamification } from '@/lib/hooks/use-gamification';
 import SpeakButton from './SpeakButton';
 
@@ -96,6 +97,12 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   const exerciseContent = exercise.content || exercise;
   const questions = exerciseContent.questions || [];
 
+  const longFormText =
+    (typeof exercise.transcript === 'string' && exercise.transcript) ||
+    (typeof exerciseContent.text === 'string' && exerciseContent.text) ||
+    (typeof exerciseContent.passage === 'string' && exerciseContent.passage) ||
+    '';
+
   const isReadingExercise = (
     exercise.type === 'reading' ||
     exercise.type === 'reading-comprehension' ||
@@ -110,7 +117,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       (exercise.topicName?.toLowerCase().includes('reading') ||
        exercise.topic?.toLowerCase().includes('reading'))
     )
-  ) && (!!exercise.transcript || !!exerciseContent.text);
+  ) && !!longFormText;
 
   useEffect(() => {
     setUserAnswer(null);
@@ -687,10 +694,12 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   const typeInfo = getTypeInfo(exercise.type);
   const typeTheme = getTypeTheme(exercise.type);
   const TypeIcon = typeInfo.icon;
-  const listeningTranscript = exercise.transcript || exerciseContent.transcript || '';
+  const listeningTranscript = resolveListeningScript(exercise, exerciseContent);
   const isListeningExercise =
     exercise.type === 'listening' || exercise.type === 'listening-comprehension';
-  const resolvedExerciseAudioUrl = resolvePublicAudioUrl(exercise.audioUrl || exerciseContent.audioUrl);
+  const resolvedExerciseAudioUrl = resolvePublicAudioUrl(
+    (exercise.audioUrl || exerciseContent.audioUrl) as string | undefined
+  );
 
   return (
     <div className="animate-in fade-in slide-in-from-bottom-4 duration-300">
@@ -741,7 +750,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                   Lee el texto con calma antes de responder
                 </p>
                 <div className="text-slate-800 text-base md:text-lg leading-relaxed font-normal">
-                  <Markdown content={(exerciseContent.text || exercise.transcript)!} />
+                  <Markdown content={longFormText} />
                 </div>
               </div>
               {resolvedExerciseAudioUrl && (

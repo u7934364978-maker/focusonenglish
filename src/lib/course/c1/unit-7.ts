@@ -28,18 +28,6 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u7-g4', type: 'fill-blank', level: 'C1', topic: 'passive-reporting', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Passive with Reporting Verbs|Pasiva con verbos de reporte]]', instructions: 'Complete with the correct passive reporting structure.',
-      questions: [{ question: 'The new vaccine _______ _______ to be highly effective in preliminary trials.', options: ['[[is believed|se cree que es]]', '[[believes|cree que es]]', '[[is believing|está creyendo que es]]'], correctAnswer: 'is believed', acceptableAnswers: ['is believed', 'is reported', 'is thought', 'is claimed'], explanation: '"It is believed/reported/thought + to be" = impersonal passive reporting for academic distancing.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u7-g5', type: 'multiple-choice', level: 'C1', topic: 'nominal-clauses', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Nominal Clauses|Oraciones nominales]]', instructions: 'Choose the correct form.',
-      questions: [{ question: '_______ this treatment remains unaffordable for most patients is a serious indictment of the healthcare system.', options: ['[[That|Que]]', '[[How|Cómo]]', '[[Whether|Si]]'], correctAnswer: 0, explanation: '"That + clause" as subject: "That this treatment is unaffordable is a serious indictment..."' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u7-v1', type: 'multiple-choice', level: 'C1', topic: 'health-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Health and Mind|Salud y mente]]', instructions: 'Choose the correct word.',
       questions: [{ question: 'The study found that _______ stress — ongoing pressure over months or years — significantly increases the risk of cardiovascular disease.', options: ['[[chronic|crónico]]', '[[acute|agudo]]', '[[mild|leve]]'], correctAnswer: 0, explanation: 'Chronic = persisting for a long time; contrasts with acute (sudden/severe but short).' }] },
@@ -58,18 +46,6 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u7-v4', type: 'fill-blank', level: 'C1', topic: 'health-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Health and Mind|Salud y mente]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'All treatments were _______ — based on robust clinical trial data rather than anecdotal evidence.', options: ['[[evidence-based|basados en evidencia]]', '[[theoretical|teóricos]]', '[[holistic|holísticos]]'], correctAnswer: 'evidence-based', acceptableAnswers: ['evidence-based'], explanation: 'Evidence-based = based on careful analysis of data and research.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u7-v5', type: 'multiple-choice', level: 'C1', topic: 'health-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Health and Mind|Salud y mente]]', instructions: 'Choose the correct word.',
-      questions: [{ question: 'The _______ of the disease refers to the factors and processes that cause it — understanding these is key to developing effective treatments.', options: ['[[aetiology|etiología]]', '[[prognosis|pronóstico]]', '[[morbidity|morbilidad]]'], correctAnswer: 0, explanation: 'Aetiology = the cause or set of causes of a disease or condition.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u7-r1', type: 'reading-comprehension', level: 'C1', topic: 'health-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Mental Health|Salud mental]]', instructions: 'Read and answer.',
       questions: [{ question: 'Text: "It is widely held that mental health conditions are primarily neurobiological in origin; however, a growing body of research suggests that social determinants — poverty, inequality, isolation — play an equally significant role." What does the text suggest about the causes of mental health conditions?', options: ['[[they are exclusively neurobiological|son exclusivamente neurobiológicos]]', '[[both biological and social factors contribute|tanto los factores biológicos como los sociales contribuyen]]', '[[social factors are more important than biological ones|los factores sociales son más importantes que los biológicos]]'], correctAnswer: 1, explanation: '"Equally significant role" = the text presents both biological and social factors as important.' }] },
@@ -82,9 +58,84 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u7-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'health-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Health and Mind), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u7-l1', type: 'listening-comprehension', level: 'C1', topic: 'health-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[Healthcare Systems|Sistemas sanitarios]]', instructions: 'Listen and choose the correct answer.',
       questions: [{ question: 'A health policy expert says: "Notwithstanding recent investment, it is contended by many in the field that mental health services remain chronically underfunded relative to physical healthcare." What is the speaker\'s main point?', options: ['[[mental health funding is adequate|la financiación de salud mental es adecuada]]', '[[despite some investment, mental health services are still insufficiently funded|a pesar de cierta inversión, los servicios de salud mental siguen siendo insuficientemente financiados]]', '[[physical healthcare receives too much funding|la atención de salud física recibe demasiada financiación]]'], correctAnswer: 1, explanation: '"Notwithstanding" (despite) + "chronically underfunded" = concession followed by critical assessment.' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u7-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'health-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u7-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'health-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -94,9 +145,105 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u7-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'discursive-essay',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u7-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'discursive-essay',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u7-s1', type: 'multiple-choice', level: 'C1', topic: 'speaking-health', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Discussing Health Issues|Debatir sobre salud]]', instructions: 'Choose the most sophisticated way to discuss a health topic.',
       questions: [{ question: 'How would you best express your view on the relationship between lifestyle and mental health?', options: ['[[The link between lifestyle choices and mental health outcomes is now well-documented across numerous clinical studies. Regular physical activity, in particular, has been shown to have a measurable positive effect on mood, anxiety levels and cognitive function, findings that should inform both individual behaviour and public health policy more broadly.|El vínculo entre las opciones de estilo de vida y los resultados de salud mental está ahora bien documentado en numerosos estudios clínicos. La actividad física regular, en particular, ha demostrado tener un efecto positivo mensurable en el estado de ánimo, los niveles de ansiedad y la función cognitiva.]]', '[[There is compelling evidence to suggest that lifestyle factors — including physical activity, nutrition, and sleep quality — exert a considerable influence on mental wellbeing, albeit as part of a far more complex biopsychosocial picture.|Hay evidencia convincente que sugiere que los factores del estilo de vida ejercen una influencia considerable en el bienestar mental, aunque como parte de un cuadro biopsicosocial mucho más complejo.]]', '[[It would of course be an oversimplification to suggest that lifestyle alone determines mental wellbeing, given the complex interplay of genetic, neurological and social factors at work. That said, there is a growing consensus in the research community that physical and mental health are considerably more intertwined than was previously appreciated by mainstream medicine.|Por supuesto sería una simplificación excesiva sugerir que el estilo de vida solo determina el bienestar mental, dado el complejo juego de factores genéticos, neurológicos y sociales. Dicho esto, hay un creciente consenso en la comunidad investigadora de que la salud física y mental están considerablemente más entrelazadas de lo que se apreciaba anteriormente.]]'], correctAnswer: 1, explanation: '"There is compelling evidence", "albeit as part of", "biopsychosocial" = C1 academic register with hedging and precision.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u7-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-health',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u7-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-health',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

@@ -28,18 +28,6 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u40-g4', type: 'fill-blank', level: 'C1', topic: 'concession', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[In spite of / Notwithstanding|A pesar de / No obstante]]', instructions: 'Complete the sentence.',
-      questions: [{ question: '_______ the growing volume of research into caloric restriction and its potential to extend lifespan in model organisms, translating these findings to human populations remains scientifically and ethically contentious.', options: ['[[Notwithstanding|No obstante]]', '[[Because of|Debido a]]', '[[Provided that|Siempre que]]'], correctAnswer: 'Notwithstanding', acceptableAnswers: ['Notwithstanding', 'Despite', 'In spite of'], explanation: '"Notwithstanding + noun phrase" = highly formal concession connector meaning "despite". It is common in legal, academic and formal written registers. "Because of" expresses cause, not concession.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u40-g5', type: 'multiple-choice', level: 'C1', topic: 'concession', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Concession with Yet / Still|Concesión con "Yet" / "Still"]]', instructions: 'Choose the sentence that uses concession most effectively.',
-      questions: [{ question: 'Which sentence integrates concession structures most effectively in academic health writing?', options: ['[[Although genetic factors account for roughly twenty to thirty per cent of the variance in human lifespan, the majority of longevity research now converges on lifestyle, environmental and social determinants as the more modifiable — and hence more policy-relevant — contributors to healthy ageing; yet even these factors operate within biological constraints that no amount of behavioural intervention can entirely overcome.|Aunque los factores genéticos representan aproximadamente el veinte a treinta por ciento de la varianza en la esperanza de vida humana, la mayoría de la investigación sobre longevidad converge ahora en los determinantes del estilo de vida, ambientales y sociales como los contribuidores más modificables al envejecimiento saludable; sin embargo, incluso estos factores operan dentro de restricciones biológicas que ninguna intervención conductual puede superar por completo.]]', '[[Although genetics is important for lifespan, lifestyle is also important. Despite this, people can still live longer if they take care of their health. Yet, there are some biological limits that cannot be changed no matter what you do.|Aunque la genética es importante para la esperanza de vida, el estilo de vida también es importante. A pesar de esto, la gente todavía puede vivir más tiempo si cuida su salud.]]', '[[Even though genetics and lifestyle both affect how long people live, the research shows that lifestyle is more important. Nevertheless, some people live long despite bad habits, which is confusing for scientists.|Aunque la genética y el estilo de vida afectan cuánto tiempo viven las personas, la investigación muestra que el estilo de vida es más importante.]]'], correctAnswer: 0, explanation: 'Option A uses "Although", "yet even" and implicit "despite" within a complex, multi-clause sentence that maintains formal register and substantive analytical content throughout.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u40-v1', type: 'multiple-choice', level: 'C1', topic: 'ageing-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Gerontology|Gerontología]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'The scientific study of the biological, psychological and social aspects of ageing — as distinct from the medical treatment of age-related diseases — is known as _______.', options: ['[[gerontology|gerontología]]', '[[geriatrics|geriatría]]', '[[palliative care|cuidados paliativos]]'], correctAnswer: 0, explanation: '"Gerontology" = the scientific study of ageing as a process. "Geriatrics" = the medical specialty treating diseases in older adults. "Palliative care" = care focused on comfort and quality of life in serious illness.' }] },
@@ -58,18 +46,6 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u40-v4', type: 'fill-blank', level: 'C1', topic: 'ageing-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Ageing Society|Sociedad envejecida]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The projected increase in the proportion of elderly people relative to working-age adults — with significant implications for pension sustainability, healthcare demand and intergenerational equity — is described by demographers as the _______ of the population.', options: ['[[ageing|envejecimiento]]', '[[shrinking|reducción]]', '[[diversifying|diversificación]]'], correctAnswer: 'ageing', acceptableAnswers: ['ageing', 'aging'], explanation: '"Ageing of the population" / "demographic ageing" = the increasing median age of a population due to falling birth rates and rising life expectancy. A central challenge for public policy in most OECD countries.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u40-v5', type: 'multiple-choice', level: 'C1', topic: 'ageing-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[End of Life|Final de vida]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'The concept of _______ — the aspiration to not merely extend the number of years lived but to ensure that additional years are free from significant disability, dependence and chronic disease — has become central to public health and gerontological research agendas.', options: ['[[healthy life expectancy / healthspan|esperanza de vida saludable]]', '[[life expectancy|esperanza de vida]]', '[[maximum lifespan|vida máxima]]'], correctAnswer: 0, explanation: '"Healthy life expectancy" (HALE) or "healthspan" = years lived in good health, free from disabling illness. Contrasts with "lifespan" (total years lived) and "maximum lifespan" (biological upper limit).' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u40-r1', type: 'reading', level: 'C1', topic: 'ageing-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Compression of Morbidity|La compresión de la morbilidad]]', instructions: 'Read and answer.',
       passage: 'Despite the remarkable extension of average life expectancy over the twentieth century, questions about the quality of those additional years remain deeply contested. James Fries proposed the "compression of morbidity" hypothesis in 1980, arguing that although people would live longer, the period of significant illness and disability could be compressed into a shorter window immediately preceding death — allowing individuals to remain healthy and active for a greater proportion of their lifespan. Notwithstanding the intuitive appeal of this framework, the empirical evidence has proved mixed. Whilst some studies support the compression hypothesis in higher-educated populations with better access to preventive care, others suggest that increased longevity has, in many cases, expanded the period of chronic disease burden rather than compressing it. Nevertheless, the goal of extending healthspan — rather than merely lifespan — has become the organising principle of much contemporary gerontological research.',
@@ -84,10 +60,85 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u40-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'ageing-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Ageing and Longevity), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u40-l1', type: 'listening', level: 'C1', topic: 'ageing-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Gerontology Lecture|Una conferencia de gerontología]]', instructions: 'Read the transcript and answer.',
       passage: 'Lecturer: The question I want to address today is why some individuals remain cognitively sharp and physically active well into their nineties whilst others experience significant decline in their sixties and seventies. Despite extensive twin studies, genetic factors account for only around twenty-five percent of the variance in healthy lifespan. Even though socioeconomic status is a significant predictor, it is neither necessary nor sufficient — centenarians have been found across all income brackets. What the evidence converges on, notwithstanding significant methodological variation across studies, is a cluster of behaviours: regular moderate physical activity, a varied diet with minimal ultra-processed food, strong social ties, a sense of purpose, and — perhaps most surprisingly — relatively low levels of health anxiety. Nevertheless, translating this into prescriptive public health guidance is complicated by the fact that the relative importance of each factor appears to vary considerably across individuals.',
       questions: [{ question: 'What cluster of behaviours does the lecturer say the evidence converges on for healthy ageing?', options: ['[[Regular moderate exercise, a varied minimally processed diet, strong social ties, a sense of purpose and low health anxiety — though their relative importance varies by individual.|Ejercicio moderado regular, una dieta variada con alimentos mínimamente procesados, fuertes lazos sociales, un sentido de propósito y baja ansiedad por la salud, aunque su importancia relativa varía según el individuo.]]', '[[The lecturer argues that genetic factors are the single most important determinant of healthy ageing and that lifestyle interventions have a negligible effect on longevity outcomes.|El conferenciante argumenta que los factores genéticos son el determinante más importante del envejecimiento saludable y que las intervenciones de estilo de vida tienen un efecto insignificante.]]', '[[High socioeconomic status is identified as the primary predictor of healthy ageing because it provides access to superior healthcare, nutrition and residential environments.|El alto nivel socioeconómico se identifica como el principal predictor del envejecimiento saludable porque proporciona acceso a atención médica, nutrición y entornos residenciales superiores.]]'], correctAnswer: 0, explanation: 'The lecturer lists: regular moderate physical activity, varied diet, minimal ultra-processed food, strong social ties, sense of purpose, low health anxiety — noting individual variation.' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u40-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'ageing-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u40-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'ageing-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u40-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'ageing-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u40-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'ageing-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u40-s1', type: 'speaking', level: 'C1', topic: 'ageing-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Discussing Ageing Society|Hablar sobre la sociedad envejecida]]', instructions: 'Which response demonstrates C1 spoken fluency on ageing and society?',
       questions: [{ question: 'Question: "Is an ageing population a problem or an opportunity for society?"', options: ['[[Whilst demographic ageing undeniably creates fiscal and healthcare pressures — particularly in countries where pension systems were designed around very different dependency ratios — I would argue that framing it purely as a problem misses the broader picture. Despite the challenges, an ageing population also represents an accumulation of experience, knowledge and civic engagement. Nevertheless, realising that potential requires societies to rethink retirement, invest in active ageing and fundamentally redesign social systems built on the assumption of a young majority.|Aunque el envejecimiento demográfico crea indudablemente presiones fiscales y sanitarias, especialmente en países donde los sistemas de pensiones fueron diseñados en torno a ratios de dependencia muy diferentes, argumentaría que enmarcarlo puramente como un problema pierde la perspectiva más amplia. A pesar de los desafíos, una población envejecida también representa una acumulación de experiencia, conocimiento y compromiso cívico.]]', '[[An ageing population is a big problem because there are more old people and fewer young people to work and pay taxes. This makes it hard for governments to pay for pensions and hospitals. However, old people are also very experienced and can contribute a lot.|Una población envejecida es un gran problema porque hay más personas mayores y menos jóvenes para trabajar y pagar impuestos.]]', '[[I think ageing populations are both a problem and an opportunity. Although there are challenges, there are also good things. Despite the difficulties, society can adapt. Nevertheless, it will require a lot of changes in the way things work today.|Creo que las poblaciones envejecidas son tanto un problema como una oportunidad. Aunque hay desafíos, también hay cosas buenas.]]'], correctAnswer: 0, explanation: 'Option A uses "Whilst", "Despite", "Nevertheless" accurately in a nuanced, balanced C1 argument that goes beyond simple agreement/disagreement with the question.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u40-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'ageing-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u40-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'ageing-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

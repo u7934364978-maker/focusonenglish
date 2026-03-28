@@ -28,18 +28,6 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u32-g4', type: 'fill-blank', level: 'C1', topic: 'cause-result-linkers', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Hence / Thus|De ahí / Así]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'Global supply chains were severely disrupted during the pandemic; _______, the cost of raw materials escalated dramatically, accelerating inflationary pressures that had been building for some time.', options: ['[[hence|de ahí que]]', '[[otherwise|de otro modo]]', '[[nevertheless|sin embargo]]'], correctAnswer: 'hence', acceptableAnswers: ['hence', 'thus', 'consequently', 'therefore', 'as a result'], explanation: '"Hence" = formal result connector used after a semicolon to introduce the consequence of the preceding clause. It is equivalent to "therefore" in academic and business writing.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u32-g5', type: 'multiple-choice', level: 'C1', topic: 'cause-result-linkers', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Cause vs Result Linkers|Conectores de causa vs resultado]]', instructions: 'Identify the sentence with an error in the cause-result linker.',
-      questions: [{ question: 'Which sentence contains an incorrect cause-result linker?', options: ['[[As a result of declining export revenues and rising production costs, the manufacturer announced a strategic pivot towards domestic markets and higher-margin product lines.|Como resultado de la caída de los ingresos por exportaciones y el aumento de los costes de producción, el fabricante anunció un giro estratégico hacia los mercados domésticos y líneas de productos con mayor margen.]]', '[[As a consequence of the regulatory changes, financial institutions were required to hold significantly higher capital reserves, thereby limiting their capacity to extend new credit.|Como consecuencia de los cambios regulatorios, las instituciones financieras debían mantener reservas de capital considerablemente mayores, lo que limitaba su capacidad para ampliar el nuevo crédito.]]', '[[Due to the fact of declining export revenues, rising production costs consequently the manufacturer announced a strategic pivot towards domestic markets.|Debido al hecho de la caída de los ingresos por exportaciones, el aumento de los costes de producción consecuentemente el fabricante anunció un giro estratégico.]]'], correctAnswer: 2, explanation: 'Option C mixes "due to the fact of" (non-standard) with a misplaced "consequently" that creates a run-on clause. "Due to + noun phrase" and "consequently + full clause" must be used separately.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u32-v1', type: 'multiple-choice', level: 'C1', topic: 'economics-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Economic Cycles|Ciclos económicos]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'An economy characterised by rising inflation combined with stagnant economic growth and high unemployment is described as experiencing _______.', options: ['[[stagflation|estanflación]]', '[[deflation|deflación]]', '[[hyperinflation|hiperinflación]]'], correctAnswer: 0, explanation: '"Stagflation" = simultaneous stagnation and inflation. "Deflation" = falling prices. "Hyperinflation" = extremely rapid price increases. Each represents a distinct macroeconomic condition.' }] },
@@ -58,18 +46,6 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u32-v4', type: 'fill-blank', level: 'C1', topic: 'economics-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Trade and Commerce|Comercio]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The imposition of punitive _______ on imported steel and aluminium triggered an immediate retaliatory response from trading partners, risking a full-scale trade conflict that economists warned could damage both economies.', options: ['[[tariffs|aranceles]]', '[[taxes|impuestos]]', '[[fines|multas]]'], correctAnswer: 'tariffs', acceptableAnswers: ['tariffs'], explanation: '"Tariffs" = import/export duties imposed by governments on traded goods. "Taxes" is a broader term for domestic levies. "Fines" are penalties for violations, not trade instruments.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u32-v5', type: 'multiple-choice', level: 'C1', topic: 'economics-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Investment|Inversión]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'Governments seeking to attract international business often offer reduced corporation tax rates and simplified regulatory frameworks — what economists call a _______ — to companies willing to establish their headquarters or manufacturing operations domestically.', options: ['[[competitive advantage|ventaja competitiva]]', '[[incentive package|paquete de incentivos]]', '[[fiscal stimulus|estímulo fiscal]]'], correctAnswer: 1, explanation: '"Incentive package" = a set of financial and regulatory benefits offered to attract investment. "Competitive advantage" = a broader strategic concept. "Fiscal stimulus" = government spending to boost demand.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u32-r1', type: 'reading', level: 'C1', topic: 'economics-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Supply Chain Disruption|Interrupción de la cadena de suministro]]', instructions: 'Read and answer.',
       passage: 'The pandemic exposed fundamental vulnerabilities in globally integrated supply chains. Owing to decades of cost-optimisation strategies that prioritised efficiency over resilience, many manufacturers had reduced their inventory buffers to near zero, adopting so-called "just-in-time" production models. As a consequence, when shipping routes were disrupted and factory output fell, the knock-on effects rippled rapidly through multiple industries. Semiconductor shortages, for instance, halted automobile production lines on three continents. Hence, the post-pandemic period has seen a significant reconsideration of supply chain strategy, with many corporations investing in nearshoring and buffer stock maintenance — thereby accepting higher short-term costs in exchange for greater long-term operational security.',
@@ -84,10 +60,85 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u32-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'economics-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Business and Economic Trends), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u32-l1', type: 'listening', level: 'C1', topic: 'economics-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Business Analysis Podcast|Podcast de análisis empresarial]]', instructions: 'Read the transcript and answer.',
       passage: 'Host: You have argued that the current wave of corporate mergers is causing long-term harm. Can you explain why? | Analyst: Certainly. Owing to the substantial capital reserves accumulated by major corporations over the past decade, we have seen an acceleration of merger and acquisition activity. As a consequence, market concentration has increased substantially in sectors from healthcare to digital infrastructure. The danger is that reduced competition leads — almost inevitably — to pricing power, thereby allowing dominant firms to extract higher margins from consumers and business customers alike. Hence, what may appear as a rational business strategy at the firm level produces outcomes that are economically harmful at the systemic level.',
       questions: [{ question: 'What is the analyst\'s core argument about corporate mergers?', options: ['[[Mergers are individually rational for firms but collectively harmful because they reduce competition and enable dominant companies to raise prices.|Las fusiones son individualmente racionales para las empresas pero colectivamente dañinas porque reducen la competencia y permiten a las empresas dominantes subir los precios.]]', '[[Mergers are always harmful at the firm level and governments should prohibit all merger and acquisition activity immediately.|Las fusiones siempre son perjudiciales a nivel empresarial y los gobiernos deberían prohibir inmediatamente toda la actividad de fusiones y adquisiciones.]]', '[[Mergers are beneficial because they allow corporations to invest their capital reserves in innovation, generating competitive advantages for all market participants.|Las fusiones son beneficiosas porque permiten a las corporaciones invertir sus reservas de capital en innovación, generando ventajas competitivas para todos los participantes del mercado.]]'], correctAnswer: 0, explanation: 'The analyst distinguishes between rational firm-level strategy and harmful systemic outcomes (reduced competition, pricing power).' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u32-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'economics-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u32-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'economics-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u32-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'economics-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u32-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'economics-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u32-s1', type: 'speaking', level: 'C1', topic: 'economics-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Analysing Economic Issues|Analizar problemas económicos]]', instructions: 'Which response demonstrates C1 analytical spoken English on economics?',
       questions: [{ question: 'Question: "What are the main consequences of a country having a large national debt?"', options: ['[[A substantial national debt creates several compounding pressures. Owing to the obligation to service interest payments, governments face a reduced fiscal capacity to invest in public services and infrastructure. Consequently, long-term economic competitiveness may erode. Furthermore, high debt levels can undermine investor confidence, hence raising borrowing costs further — thereby creating a self-reinforcing cycle of fiscal constraint.|Una deuda pública sustancial crea varias presiones acumuladas. Debido a la obligación de pagar intereses, los gobiernos tienen una capacidad fiscal reducida para invertir en servicios públicos e infraestructuras. Consecuentemente, la competitividad económica a largo plazo puede erosionarse. Además, los altos niveles de deuda pueden minar la confianza de los inversores, aumentando así los costes de endeudamiento, creando un ciclo de restricción fiscal.]]', '[[A big national debt is a problem because the government has to pay a lot of interest. So the government has less money for schools and hospitals. Also investors might not trust the country. This is a big problem and the government should try to reduce the debt.|Una deuda pública grande es un problema porque el gobierno tiene que pagar mucho en intereses. Así que el gobierno tiene menos dinero para escuelas y hospitales. También es posible que los inversores no confíen en el país.]]', '[[National debt is complicated. Some economists say it is fine because you owe it to yourself, but others say it is bad. I think it depends on the situation, like how high the interest rates are and what the money was spent on originally.|La deuda pública es complicada. Algunos economistas dicen que está bien porque te la debes a ti mismo, pero otros dicen que es mala. Creo que depende de la situación.]]'], correctAnswer: 0, explanation: 'Option A chains cause-result linkers ("owing to", "consequently", "hence", "thereby") to build a logical analytical argument at C1 academic register.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u32-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'economics-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u32-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'economics-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

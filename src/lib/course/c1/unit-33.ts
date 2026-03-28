@@ -28,18 +28,6 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u33-g4', type: 'fill-blank', level: 'C1', topic: 'business-conditionals', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[On condition that|Con la condición de que]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The investor agreed to provide additional capital _______ the management team restructured its governance procedures and implemented a transparent quarterly reporting framework acceptable to all shareholders.', options: ['[[on condition that|con la condición de que]]', '[[despite|a pesar de que]]', '[[whenever|siempre que]]'], correctAnswer: 'on condition that', acceptableAnswers: ['on condition that', 'provided that', 'as long as', 'on the condition that'], explanation: '"On condition that" = formal stipulative conditional. It imposes a prerequisite that must be fulfilled for the main action to take place. Typical in investment and negotiation contexts.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u33-g5', type: 'multiple-choice', level: 'C1', topic: 'business-conditionals', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Conditional Nuance|Matiz condicional]]', instructions: 'Choose the option that correctly identifies the difference in meaning.',
-      questions: [{ question: 'What is the key difference between: (A) "We will proceed unless the board objects." and (B) "We will proceed provided that the board approves."', options: ['[[A assumes the action will happen by default, stopping only if the board objects; B requires explicit positive approval before the action can proceed.|A asume que la acción ocurrirá por defecto, deteniéndose solo si la junta se opone; B requiere una aprobación positiva explícita antes de que la acción pueda proceder.]]', '[[A and B express identical meanings because both involve the board and both determine whether the action proceeds.|A y B expresan significados idénticos porque ambos involucran a la junta y ambos determinan si la acción procede.]]', '[[A requires positive approval while B assumes the action will proceed unless stopped, making them logical opposites.|A requiere aprobación positiva mientras que B asume que la acción procederá a menos que se detenga, lo que los hace opuestos lógicos.]]'], correctAnswer: 0, explanation: '"Unless" = default forward motion blocked only by the condition. "Provided that" = no action until the condition is positively fulfilled. These represent opposite logical structures.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u33-v1', type: 'multiple-choice', level: 'C1', topic: 'entrepreneurship-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Start-ups and Investment|Start-ups e inversión]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'The initial investment round in which early-stage investors — typically friends, family or angel investors — provide capital to help a start-up move from concept to prototype is known as _______ funding.', options: ['[[seed|semilla / inicial]]', '[[series A|serie A]]', '[[venture|riesgo]]'], correctAnswer: 0, explanation: '"Seed funding" = the earliest investment stage, used to develop the initial concept. "Series A" = first major institutional funding after proof of concept. "Venture capital" is a broader category of risk investment.' }] },
@@ -58,18 +46,6 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u33-v4', type: 'fill-blank', level: 'C1', topic: 'entrepreneurship-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Corporate Finance|Finanzas corporativas]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'Rather than seeking external investors, the founders chose to _______ the business — funding growth entirely from operating revenues, retaining full ownership and avoiding equity dilution.', options: ['[[bootstrap|autofinanciar]]', '[[leverage|apalancar]]', '[[float|cotizar en bolsa]]'], correctAnswer: 'bootstrap', acceptableAnswers: ['bootstrap'], explanation: '"Bootstrap" = to build and grow a business using only personal or internal revenue resources, without external funding. "Leverage" = use debt to amplify returns. "Float" = list on a public stock exchange.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u33-v5', type: 'multiple-choice', level: 'C1', topic: 'entrepreneurship-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Business Strategy|Estrategia empresarial]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'A company\'s _______ — the unique combination of products, pricing, distribution and service that distinguishes it from competitors in the eyes of customers — is central to its commercial success.', options: ['[[value proposition|propuesta de valor]]', '[[profit margin|margen de beneficio]]', '[[market share|cuota de mercado]]'], correctAnswer: 0, explanation: '"Value proposition" = the distinctive value a company offers to customers that motivates their preference. "Profit margin" = financial performance metric. "Market share" = percentage of total market sales.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u33-r1', type: 'reading', level: 'C1', topic: 'entrepreneurship-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Start-up Failure Rates|Tasas de fracaso de start-ups]]', instructions: 'Read and answer.',
       passage: 'Research consistently demonstrates that the majority of start-up ventures fail within their first five years of operation. Provided that we define failure as the involuntary cessation of business activity — as opposed to strategic exits or acquisitions — the failure rate across most sectors hovers between sixty and ninety per cent. As long as founders understand this landscape, the data need not be read as discouragement; rather, it illuminates the conditions most strongly associated with success. Studies identify several recurring factors: market timing, team composition, product-market fit and access to sustained capital. On condition that these variables are managed effectively, the probability of survival increases substantially. In the event that any of these critical dimensions is neglected, even well-funded ventures with strong early traction can lose competitive momentum rapidly.',
@@ -84,10 +60,85 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u33-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'entrepreneurship-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Entrepreneurship and Innovation), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u33-l1', type: 'listening', level: 'C1', topic: 'entrepreneurship-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Negotiation Scenario|Un escenario de negociación]]', instructions: 'Read the transcript and answer.',
       passage: 'Supplier: We can offer the revised pricing structure, on condition that the order volume is guaranteed at a minimum of five thousand units per quarter for the duration of the contract. | Buyer: That is a significant commitment. We could consider it, provided that the quality assurance protocols are independently verified and the delivery lead times are reduced from sixty days to forty-five. | Supplier: Forty-five days is achievable as long as your purchase orders are submitted with a minimum of three weeks\' advance notice. In the event that orders arrive with shorter notice, we would need to revert to the standard sixty-day lead time. | Buyer: That seems workable. Unless our projections change significantly, we should be able to meet both conditions.',
       questions: [{ question: 'What is the buyer\'s key condition for accepting the supplier\'s volume commitment?', options: ['[[The buyer requires independent verification of quality assurance and a reduction in delivery lead times from sixty to forty-five days.|El comprador requiere una verificación independiente del control de calidad y una reducción en los plazos de entrega de sesenta a cuarenta y cinco días.]]', '[[The buyer requires that the minimum order volume be reduced from five thousand to two thousand units per quarter before agreeing.|El comprador requiere que el volumen mínimo de pedido se reduzca de cinco mil a dos mil unidades por trimestre antes de aceptar.]]', '[[The buyer has no specific conditions and is prepared to accept the supplier\'s original proposal without modification.|El comprador no tiene condiciones específicas y está dispuesto a aceptar la propuesta original del proveedor sin modificaciones.]]'], correctAnswer: 0, explanation: 'The buyer says "provided that the quality assurance protocols are independently verified and the delivery lead times are reduced from sixty days to forty-five".' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u33-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'entrepreneurship-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u33-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'entrepreneurship-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u33-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'entrepreneurship-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u33-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'entrepreneurship-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u33-s1', type: 'speaking', level: 'C1', topic: 'entrepreneurship-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Pitching an Idea|Presentar una idea de negocio]]', instructions: 'Which response demonstrates C1 spoken fluency in a business pitch?',
       questions: [{ question: 'Question: "What conditions need to be met for your start-up to succeed in its first year?"', options: ['[[Several conditions are critical. Provided that we secure the Series A funding we are seeking, we will have sufficient runway to reach the product-market fit stage within twelve months. As long as our customer acquisition costs remain below the industry benchmark, the unit economics become viable at around ten thousand active users. In the event that our initial market proves slower than projected, we have identified two adjacent segments that offer comparable opportunity.|Varias condiciones son críticas. Siempre y cuando aseguremos la financiación Serie A que buscamos, tendremos recursos suficientes para alcanzar la etapa de ajuste producto-mercado en doce meses. Siempre que nuestros costes de adquisición de clientes se mantengan por debajo del punto de referencia del sector, la economía unitaria se vuelve viable en torno a los diez mil usuarios activos.]]', '[[If we get the money we need and people like the product, we should do well in the first year. We also need to make sure our costs are not too high. If things do not go as planned, we will just try a different type of customer.|Si conseguimos el dinero que necesitamos y a la gente le gusta el producto, deberíamos ir bien en el primer año. También necesitamos asegurarnos de que nuestros costes no sean demasiado altos.]]', '[[Our start-up will succeed if we work hard enough and believe in the idea. The most important thing is passion and commitment. With the right team and a good attitude, we can overcome any obstacle that comes our way.|Nuestra start-up tendrá éxito si trabajamos lo suficientemente duro y creemos en la idea. Lo más importante es la pasión y el compromiso.]]'], correctAnswer: 0, explanation: 'Option A uses "provided that", "as long as" and "in the event that" with precise business metrics, demonstrating C1 conditional fluency in a professional register.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u33-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'entrepreneurship-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u33-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'entrepreneurship-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

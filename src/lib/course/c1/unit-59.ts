@@ -28,18 +28,6 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u59-g4', type: 'fill-blank', level: 'C1', topic: 'full-consolidation', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Mixed Conditional for Philosophical Argument|Condicional mixto para la argumentación filosófica]]', instructions: 'Complete with the correct verb forms.',
-      questions: [{ question: 'If humanity _______ adequate governance frameworks for artificial intelligence in the previous decade — rather than deferring regulation while allowing capabilities to advance unconstrained — the ethical and political challenges now confronting society might well be significantly more manageable than they currently are.', options: ['[[had established|hubiera establecido]]', '[[established|estableciera]]', '[[would have established|habría establecido]]'], correctAnswer: 'had established', acceptableAnswers: ['had established'], explanation: '"If + past perfect (had established)" + "would/might be (present)" = mixed conditional: referring to a past unfulfilled condition ("had established in the previous decade") with a present-result consequence ("might be more manageable now"). The time references are deliberately split: past (if-clause) and present (result clause). "Established" would be a second conditional (present). "Would have established" is the result form, not the if-clause form.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u59-g5', type: 'multiple-choice', level: 'C1', topic: 'full-consolidation', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Full C1 Range — Identifying Structures|Rango completo C1 — Identificar estructuras]]', instructions: 'Identify all the C1 grammar structures present in the passage.',
-      questions: [{ question: 'Passage: "Were international institutions to develop genuinely binding mechanisms for AI governance — mechanisms with real enforcement capacity rather than what might be called aspirational guidelines — it is widely argued that the risks of catastrophic misuse would be significantly reduced; not only would such frameworks constrain the most dangerous applications, but they would also, having established a baseline of shared expectations, make the development of mutual trust between competing technological powers considerably more likely." Which C1 structures are present?', options: ['[[Inversion ("Were international institutions to"), distancing language ("what might be called"), impersonal passive ("it is widely argued"), "Not only would" inversion, perfect participle clause ("having established") — five distinct C1 structures|Inversión ("Were international institutions to"), lenguaje distanciador ("what might be called"), pasiva impersonal ("it is widely argued"), inversión "Not only would", oración de participio perfecto ("having established") — cinco estructuras C1 distintas]]', '[[Only two structures are present: the impersonal passive "it is widely argued" (Module 9) and the "Not only would" inversion (Module 3). The other elements — the opening conditional, the distancing language and the participle clause — are not specific C1 grammar structures.|Solo hay dos estructuras: la pasiva impersonal y la inversión "Not only would". Los demás elementos no son estructuras gramaticales C1 específicas.]]', '[[Three structures are present: the conditional inversion ("Were...to"), the "Not only" inversion and the perfect participle. The distancing language "what might be called" and the impersonal passive are standard features of any formal register, not specifically C1 structures.|Hay tres estructuras: la inversión condicional, la inversión "Not only" y el participio perfecto.]]'], correctAnswer: 0, explanation: 'The passage contains: "Were international institutions to" (conditional inversion = subjunctive), "what might be called" (distancing), "it is widely argued" (impersonal passive), "Not only would such frameworks" (emphatic inversion) and "having established" (perfect participle clause) — five distinct C1 grammar structures in one paragraph.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u59-v1', type: 'multiple-choice', level: 'C1', topic: 'consolidation-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[C1 Formal Register — Collocations|Colocaciones del registro formal C1]]', instructions: 'Choose the correct collocation.',
       questions: [{ question: 'In formal academic and journalistic writing, which collocation is most appropriate to describe a situation that has gradually become more urgent or serious?', options: ['[[an increasingly acute situation / growing urgency / mounting pressure|una situación cada vez más aguda / creciente urgencia / presión creciente]]', '[[a situation that is getting more acute / growing urgentness / pressure that is mounting|una situación que se está volviendo más aguda / urgentez creciente / presión que está aumentando]]', '[[a more and more acute situation / urgency that is growing more and more / increasing pressures that are mounting|una situación cada vez más aguda / urgencia que crece cada vez más / presiones crecientes que aumentan]]'], correctAnswer: 0, explanation: '"Increasingly acute" = standard formal collocation (not "more and more acute"). "Growing urgency" and "mounting pressure" = common formal collocations. "Urgentness" is not a standard English noun. "More and more acute" is informal/redundant in academic prose.' }] },
@@ -58,18 +46,6 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u59-v4', type: 'fill-blank', level: 'C1', topic: 'consolidation-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Formal Discourse Markers|Marcadores discursivos formales]]', instructions: 'Complete with the most appropriate discourse marker.',
-      questions: [{ question: 'The theory has attracted considerable empirical support from laboratory studies; _______, critics have argued that laboratory conditions are systematically different from real-world decision-making environments in ways that limit the generalisability of the findings.', options: ['[[nonetheless|no obstante]]', '[[therefore|por lo tanto]]', '[[similarly|del mismo modo]]'], correctAnswer: 'nonetheless', acceptableAnswers: ['nonetheless', 'however', 'nevertheless', 'notwithstanding this'], explanation: '"Nonetheless/nevertheless/however" = adversative discourse markers signalling that what follows is in tension with or partially contradicts the preceding claim — appropriate here because the critics\' argument partially qualifies the "considerable empirical support". "Therefore" signals logical consequence (same direction). "Similarly" signals addition of a parallel point.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u59-v5', type: 'multiple-choice', level: 'C1', topic: 'consolidation-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Academic Noun Phrases|Sintagmas nominales académicos]]', instructions: 'Choose the most precise and formal academic noun phrase.',
-      questions: [{ question: 'Which phrase most precisely describes "when the bad effects of something become clear a long time after the decision that caused them"?', options: ['[[the long-term adverse consequences of poorly calibrated decisions made under conditions of uncertainty|las consecuencias adversas a largo plazo de decisiones mal calibradas tomadas en condiciones de incertidumbre]]', '[[the bad things that happen a long time later because of wrong decisions that people made when they did not know what would happen|las cosas malas que ocurren mucho tiempo después debido a decisiones incorrectas que las personas tomaron cuando no sabían qué pasaría]]', '[[when people make bad decisions and then the effects are really bad after a long time and it turns out the consequences were not expected at all|cuando las personas toman malas decisiones y luego los efectos son realmente malos después de un largo tiempo]]'], correctAnswer: 0, explanation: 'Option A uses precise academic language: "adverse consequences" (instead of "bad things"), "poorly calibrated" (a precise formal term for poorly adjusted/misjudged), "conditions of uncertainty" (formal noun phrase). Academic noun phrases are dense, specific and avoid vague colloquial terms like "bad things" or "turns out".' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u59-r1', type: 'reading', level: 'C1', topic: 'consolidation-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[A Complex Academic Text|Un texto académico complejo]]', instructions: 'Read this complex C1-level text and answer.',
       passage: 'Were the history of moral philosophy to be distilled into a single tension, it might be characterised as the conflict between two fundamental intuitions: that what matters morally is how things turn out — the welfare of actual beings, the reduction of suffering, the increase in well-being — and that certain actions are wrong in themselves, regardless of their consequences, because they violate duties, rights or the dignity of persons. Neither intuition can be dismissed without significant cost. A consequentialism that ignores individual rights produces monstrous conclusions in enough cases that even committed consequentialists have found it necessary to introduce deontological constraints through the back door. A deontology so rigid that it forbids lying to protect the innocent, or refuses to divert a trolley to save five at the cost of one, seems to be imposing formal consistency at the expense of the things that morality is supposed to serve. The most plausible moral theories are therefore hybrid: they take outcomes seriously without making them the sole criterion, and they respect persons as ends in themselves without treating rights as absolute constraints that override every other consideration. Whether this pragmatic pluralism represents genuine theoretical progress or a sophisticated evasion of the hard questions remains, notwithstanding the sophistication of contemporary ethical theory, deeply contested.',
@@ -84,10 +60,85 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u59-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'consolidation-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Full Grammar Consolidation), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u59-l1', type: 'listening', level: 'C1', topic: 'consolidation-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Seminar on Global Ethics|Un seminario sobre ética global]]', instructions: 'Read the transcript and answer.',
       passage: 'Professor: I want to conclude by returning to a question we raised at the start of the course: is there such a thing as a genuinely universal ethics — principles that apply to all human beings by virtue of their humanity, regardless of cultural context — or is morality irreducibly local, embedded in particular traditions, practices and forms of life that cannot be evaluated against some external standard? The cosmopolitan tradition answers: yes, there is. Were we to accept the premise that every human being possesses fundamental dignity and equal moral worth, it would follow that their basic interests — not to be tortured, not to starve when others have abundance, not to be arbitrarily killed — generate obligations on all of us, not just on fellow citizens. The communitarian response is that this cosmopolitanism, whilst appealing in the abstract, fails to account for the moral weight of special relationships and particular identities — it asks us to be citizens of the world rather than members of specific communities, and in doing so asks us to shed the very things that make us who we are. Student: So neither view is fully satisfactory? Professor: What most contemporary philosophers argue is that both capture something important — that universal obligations are real but not unlimited, that special relationships generate genuine but not absolute priority, and that working out where these competing claims should yield to one another is precisely what ethical reasoning requires.',
       questions: [{ question: 'How does the professor characterise the contemporary philosophical consensus on cosmopolitanism versus communitarianism?', options: ['[[That both views capture something important: universal obligations are real but not unlimited, special relationships generate genuine but not absolute priority, and working out where these competing claims yield to one another is precisely what ethical reasoning requires — a pluralist position that does not fully endorse either cosmopolitanism or communitarianism.|Que ambos puntos de vista capturan algo importante: las obligaciones universales son reales pero no ilimitadas, las relaciones especiales generan prioridad genuina pero no absoluta, y determinar dónde estas reclamaciones en competencia deben ceder entre sí es precisamente lo que requiere el razonamiento ético.]]', '[[The professor argues that the cosmopolitan view is correct and that communitarianism, while psychologically understandable, is ultimately a rationalisation of parochialism that should be overcome through moral education and the cultivation of impartial concern for all human beings.|El profesor argumenta que la visión cosmopolita es correcta y que el comunitarismo, aunque psicológicamente comprensible, es en última instancia una racionalización del provincialismo.]]', '[[The contemporary consensus favours communitarianism because empirical social science has shown that impartial universal obligations are psychologically unsustainable and that people reliably and legitimately prioritise the welfare of those to whom they are connected by ties of family, community and citizenship.|El consenso contemporáneo favorece el comunitarismo porque la ciencia social empírica ha demostrado que las obligaciones universales imparciales son psicológicamente insostenibles.]]'], correctAnswer: 0, explanation: 'The professor says: "What most contemporary philosophers argue is that both capture something important — that universal obligations are real but not unlimited, that special relationships generate genuine but not absolute priority, and that working out where these competing claims should yield to one another is precisely what ethical reasoning requires."' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u59-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'consolidation-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u59-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'consolidation-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u59-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'consolidation-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u59-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'consolidation-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u59-s1', type: 'speaking', level: 'C1', topic: 'consolidation-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Full C1 Oral Integration|Integración oral completa C1]]', instructions: 'Which response demonstrates the most complete C1 oral integration across all areas?',
       questions: [{ question: 'Question: "What does it mean to live a good life?"', options: ['[[That question has occupied moral philosophers for millennia, and I do not think there is a single correct answer — not because the question is meaningless, but because the good life, insofar as we can articulate it philosophically, appears to have multiple genuine dimensions that resist reduction to a single metric: Aristotle was surely right that flourishing requires the active exercise of distinctively human capacities; Mill was surely right that experiences of higher pleasure — intellectual, aesthetic, relational — matter more than mere satisfaction; and what contemporary positive psychology suggests, notwithstanding the limitations of self-report research, is that meaning and engagement matter as much as pleasure and that relationships are central in a way that more individualistic accounts tend to underestimate.|Esa pregunta ha ocupado a los filósofos morales durante milenios, y no creo que haya una respuesta única correcta, no porque la pregunta no tenga sentido, sino porque la buena vida, en la medida en que podemos articularla filosóficamente, parece tener múltiples dimensiones genuinas que resisten la reducción a una única métrica.]]', '[[A good life is about being happy. Aristotle wrote about this. He said we need to use our abilities. Mill also wrote about it. He thought pleasure was important. Modern psychology also studies this topic. Relationships and meaning are important. This is a complex question.|Una buena vida se trata de ser feliz. Aristóteles escribió sobre esto.]]', '[[I think a good life means different things to different people. Some people value family, others value work. It depends on your culture and background. Philosophers have different opinions. There is no single answer. What matters is finding meaning in your life.|Creo que una buena vida significa cosas diferentes para personas diferentes.]]'], correctAnswer: 0, explanation: 'Option A demonstrates C1 range: "insofar as" (complex conjunction), "resist reduction to" (formal academic collocation), philosophical references to Aristotle and Mill (cultural knowledge), "notwithstanding the limitations" (complex conjunction), "tend to underestimate" (formal pattern), and genuine intellectual engagement — the hallmarks of C1 oral performance.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u59-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'consolidation-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u59-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'consolidation-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

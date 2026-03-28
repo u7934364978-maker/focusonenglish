@@ -75,47 +75,6 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u2-g4',
-    type: 'fill-blank',
-    level: 'C1',
-    topic: 'inversion-emphasis',
-    difficulty: 'hard',
-    content: {
-      title: '[[Grammar|Gramática]]: [[Inversion for Emphasis|Inversión para énfasis]]',
-      instructions: 'Rewrite using inversion. Choose the correct auxiliary.',
-      questions: [
-        {
-          question: 'Under no circumstances ____ you reveal the contents of this report.',
-          options: ['[[should|deberías]]', '[[would|deberías]]', '[[must|debes]]'],
-          correctAnswer: 'should',
-          acceptableAnswers: ['should'],
-          explanation: 'Under no circumstances + should + subject (modal inversion for prohibition).',
-        },
-      ],
-    },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u2-g5',
-    type: 'multiple-choice',
-    level: 'C1',
-    topic: 'inversion-emphasis',
-    difficulty: 'hard',
-    content: {
-      title: '[[Grammar|Gramática]]: [[Inversion for Emphasis|Inversión para énfasis]]',
-      instructions: 'Choose the correct inversion.',
-      questions: [
-        {
-          question: 'Hardly _______ sat down when the phone rang.',
-          options: ['[[had I|había yo]]', '[[I had|yo había]]', '[[have I|he yo]]'],
-          correctAnswer: 0,
-          explanation: 'Hardly + had + subject (past perfect inversion for immediacy).',
-        },
-      ],
-    },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u2-v1',
     type: 'multiple-choice',
     level: 'C1',
@@ -177,47 +136,6 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u2-v4',
-    type: 'fill-blank',
-    level: 'C1',
-    topic: 'communication-vocabulary',
-    difficulty: 'hard',
-    content: {
-      title: '[[Vocabulary|Vocabulario]]: [[Language and Rhetoric|Lenguaje y retórica]]',
-      instructions: 'Complete the sentence.',
-      questions: [
-        {
-          question: 'The word "home" carries strong emotional _______ for most people — far beyond its literal meaning of "a place to live".',
-          options: ['[[connotations|connotaciones]]', '[[definitions|definiciones]]', '[[translations|traducciones]]'],
-          correctAnswer: 'connotations',
-          acceptableAnswers: ['connotations'],
-          explanation: 'Connotation = the emotional or cultural associations of a word beyond its literal meaning.',
-        },
-      ],
-    },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u2-v5',
-    type: 'multiple-choice',
-    level: 'C1',
-    topic: 'communication-vocabulary',
-    difficulty: 'hard',
-    content: {
-      title: '[[Vocabulary|Vocabulario]]: [[Language and Rhetoric|Lenguaje y retórica]]',
-      instructions: 'Choose the best option.',
-      questions: [
-        {
-          question: 'The report was written in highly technical _______ that most non-specialists found impossible to understand.',
-          options: ['[[jargon|jerga técnica]]', '[[slang|argot]]', '[[rhetoric|retórica]]'],
-          correctAnswer: 0,
-          explanation: 'Jargon = specialised technical language used by experts in a field.',
-        },
-      ],
-    },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u2-r1',
     type: 'reading-comprehension',
     level: 'C1',
@@ -266,6 +184,31 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u2-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'language-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Language and Communication), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u2-l1',
     type: 'listening-comprehension',
     level: 'C1',
@@ -290,6 +233,56 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Listening',
   },
   {
+    id: 'c1-u2-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'language-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u2-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'language-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
     id: 'c1-u2-w1',
     type: 'writing',
     level: 'C1',
@@ -306,8 +299,56 @@ export const UNIT_2_EXERCISES: Exercise[] = [
             '[[Never before have the forces shaping language evolved so rapidly as in the era of social media.|Nunca antes las fuerzas que moldean el lenguaje habían evolucionado tan rápidamente como en la era de las redes sociales.]]',
             '[[It cannot be denied that social media has had a considerable impact on English, particularly among younger speakers. The question that this article will seek to answer, however, is whether this impact should ultimately be viewed as an enrichment of the language or as a symptom of its deterioration.|No puede negarse que las redes sociales han tenido un impacto considerable en el inglés, especialmente entre los hablantes más jóvenes. La pregunta que este artículo intentará responder es si este impacto debe verse como un enriquecimiento del lenguaje o como un síntoma de su deterioro.]]',
           ],
-          correctAnswer: 1,
-          explanation: 'Option B uses inversion (Never before have...) for emphasis, appropriate register, and a compelling opening hook.',
+          correctAnswer: 0,
+          explanation: 'The task asks for an opening on **social media and language**. Option A engages the prompt directly (platforms, vocabulary, formal language, what the article will argue). Option B is stylish but stays generic about "forces shaping language"; Option C is strong but less specific to *language* change than A.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u2-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'opinion-article',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u2-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'opinion-article',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
         },
       ],
     },
@@ -332,6 +373,54 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           ],
           correctAnswer: 1,
           explanation: '"Notwithstanding this" is a sophisticated C1 discourse marker used to qualify or add nuance.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u2-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-presentation',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u2-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-presentation',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
         },
       ],
     },

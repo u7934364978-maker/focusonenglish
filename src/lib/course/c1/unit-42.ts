@@ -28,18 +28,6 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u42-g4', type: 'fill-blank', level: 'C1', topic: 'module7-review', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Comparatives in Health Contexts|Comparativos en contextos de salud]]', instructions: 'Complete with the correct comparative structure.',
-      questions: [{ question: 'The _______ sedentary the lifestyle of a population, the higher the observed rates of type 2 diabetes, cardiovascular disease and certain mood disorders tend to be — a correlation that appears to hold across diverse cultural and economic contexts worldwide.', options: ['[[more|más]]', '[[most|el más]]', '[[very|muy]]'], correctAnswer: 'more', acceptableAnswers: ['more'], explanation: '"The more + adjective + subject + verb, the + comparative + subject + verb" = correlative comparative. "The more sedentary the lifestyle…the higher the rates" is the correct pattern here.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u42-g5', type: 'multiple-choice', level: 'C1', topic: 'module7-review', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Module 7 Mixed Structures|Estructuras mixtas del Módulo 7]]', instructions: 'Choose the most sophisticated sentence integrating multiple Module 7 structures.',
-      questions: [{ question: 'Which sentence best integrates nominal clause, passive reporting and concession?', options: ['[[What is perhaps most remarkable is that sleep deprivation is now reported to have consequences extending far beyond fatigue — affecting immune competence, metabolic regulation and emotional processing — yet despite this, chronic undersleeping is considered to be systematically normalised in many high-performance professional cultures.|Lo que quizás es más notable es que ahora se informa que la privación del sueño tiene consecuencias que van mucho más allá de la fatiga — afectando la competencia inmune, la regulación metabólica y el procesamiento emocional — sin embargo, a pesar de esto, se considera que el sueño insuficiente crónico está sistémicamente normalizado en muchas culturas profesionales de alto rendimiento.]]', '[[Sleep deprivation is bad for people in many ways. It affects the immune system and the brain. Despite this, many people do not sleep enough because of work. It is reported to be a big problem in modern society and scientists are worried about it.|La privación del sueño es perjudicial para las personas de muchas maneras. Afecta el sistema inmune y el cerebro.]]', '[[What we know about sleep shows it is important. It is reported that not sleeping is harmful. Even though people know this, they still do not sleep well. This is a problem that needs more research and public health attention.|Lo que sabemos sobre el sueño muestra que es importante. Se informa que no dormir es perjudicial.]]'], correctAnswer: 0, explanation: 'Option A chains a "What" nominal clause, "is reported to have" (passive reporting), and "yet despite this" (concession) in a sophisticated, unified academic sentence.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u42-v1', type: 'multiple-choice', level: 'C1', topic: 'health-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Mental Health Terminology|Terminología de salud mental]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'The therapeutic approach that focuses on identifying and restructuring unhelpful patterns of thought — operating on the principle that cognitions directly influence emotions and behaviour — and is currently the most widely recommended psychological treatment for anxiety and depression in clinical guidelines worldwide is _______.', options: ['[[cognitive behavioural therapy (CBT)|terapia cognitivo-conductual (TCC)]]', '[[psychoanalysis|psicoanálisis]]', '[[applied behaviour analysis|análisis de conducta aplicada]]'], correctAnswer: 0, explanation: '"Cognitive behavioural therapy" (CBT) = the most evidence-supported psychological therapy for anxiety/depression. "Psychoanalysis" = Freudian approach focusing on unconscious processes. "ABA" = primarily used in autism spectrum conditions.' }] },
@@ -58,18 +46,6 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u42-v4', type: 'fill-blank', level: 'C1', topic: 'health-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Lifestyle Medicine|Medicina del estilo de vida]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The chronic physiological response to perceived threat — involving sustained activation of the hypothalamic-pituitary-adrenal axis, elevated cortisol levels and systemic inflammation — is known as chronic _______, and is now understood to be a significant contributing factor to cardiovascular disease, immune dysfunction and accelerated cellular ageing.', options: ['[[stress|estrés]]', '[[fatigue|fatiga]]', '[[anxiety|ansiedad]]'], correctAnswer: 'stress', acceptableAnswers: ['stress'], explanation: '"Chronic stress" = prolonged activation of the body\'s stress-response systems, with wide-ranging physiological consequences including HPA axis dysregulation, elevated cortisol and pro-inflammatory cytokine production.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u42-v5', type: 'multiple-choice', level: 'C1', topic: 'health-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Healthcare Policy|Política sanitaria]]', instructions: 'Choose the correct collocation.',
-      questions: [{ question: 'The measure used to evaluate the cost-effectiveness of medical interventions by quantifying the benefit of a treatment in terms of both the quantity and quality of life gained — used extensively in health technology assessment — is the _______.', options: ['[[quality-adjusted life year (QALY)|año de vida ajustado por calidad (AVAC)]]', '[[disability-adjusted life year (DALY)|año de vida ajustado por discapacidad (AVAD)]]', '[[standardised mortality ratio (SMR)|razón de mortalidad estandarizada (RME)]]'], correctAnswer: 0, explanation: '"QALY" = quality-adjusted life year, used to value health outcomes in cost-utility analysis. "DALY" = burden of disease metric combining years of life lost and years lived with disability. "SMR" = compares observed vs expected deaths in a population.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u42-r1', type: 'reading', level: 'C1', topic: 'health-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Social Determinants of Health|Los determinantes sociales de la salud]]', instructions: 'Read and answer.',
       passage: 'It is now well established that the conditions in which people are born, grow, live and work — rather than individual behaviour or access to healthcare alone — are the primary determinants of population health outcomes. Income, education, housing quality, exposure to environmental pollutants, social cohesion and early childhood experiences are all reported to exert independent and cumulative effects on physical and mental health across the life course. What distinguishes this perspective from earlier biomedical models is its emphasis on the upstream causes of illness: the social, economic and political structures that generate health inequalities in the first place. It has been contended that addressing these structural determinants requires policy interventions at a scale and ambition that most health systems — designed primarily to treat illness rather than prevent it — are institutionally ill-equipped to provide.',
@@ -84,10 +60,85 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u42-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'health-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Health and Mind: Consolidation), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u42-l1', type: 'listening', level: 'C1', topic: 'health-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Public Health Policy Discussion|Un debate sobre política de salud pública]]', instructions: 'Read the transcript and answer.',
       passage: 'Host: Today we are discussing the relationship between mental health and the workplace. What does the research tell us? Guest: The evidence is quite compelling. It is now widely accepted that working conditions — including job insecurity, excessive demands, lack of autonomy and poor management — are among the strongest predictors of depression, anxiety and burnout. What concerns me most is that despite this knowledge being available for decades, workplace mental health is still largely treated as an individual problem rather than a structural one. Host: Can you give an example of what structural intervention would look like? Guest: Certainly. What has been shown to be most effective is not simply providing employees with access to counselling, though that has its place, but redesigning work itself — reducing demands, increasing autonomy and ensuring that workloads are manageable. It is contended by some researchers that presenteeism — being at work while unwell — costs economies considerably more than absenteeism, yet it receives far less policy attention.',
       questions: [{ question: 'What does the guest say is the most effective structural intervention for workplace mental health?', options: ['[[Redesigning work itself — reducing demands, increasing autonomy and ensuring manageable workloads — rather than simply providing individual counselling access.|Rediseñar el trabajo en sí — reduciendo las exigencias, aumentando la autonomía y garantizando cargas de trabajo manejables — en lugar de simplemente proporcionar acceso a asesoramiento individual.]]', '[[The guest recommends that all organisations implement mandatory mindfulness training programmes for employees, as these have been shown to be the most cost-effective intervention for reducing workplace stress.|El invitado recomienda que todas las organizaciones implementen programas obligatorios de mindfulness para empleados, ya que estos han demostrado ser la intervención más rentable.]]', '[[Providing comprehensive employee assistance programmes including counselling, gym membership and flexible working hours — which the guest identifies as the gold standard for workplace mental health.|Proporcionar programas de asistencia al empleado que incluyan asesoramiento, membresía de gimnasio y horarios de trabajo flexibles, que el invitado identifica como el estándar de oro para la salud mental en el trabajo.]]'], correctAnswer: 0, explanation: 'The guest says "What has been shown to be most effective is not simply providing…counselling…but redesigning work itself — reducing demands, increasing autonomy and ensuring that workloads are manageable".' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u42-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'health-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u42-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'health-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u42-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'health-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u42-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'health-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u42-s1', type: 'speaking', level: 'C1', topic: 'health-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Health and Society|Salud y sociedad]]', instructions: 'Which response demonstrates the broadest and most accurate use of C1 health language?',
       questions: [{ question: 'Question: "Is modern medicine too focused on treatment rather than prevention?"', options: ['[[That is a criticism that is widely contended within public health circles, and I think it has considerable merit. What the evidence strongly suggests is that the majority of the leading causes of premature death — cardiovascular disease, type 2 diabetes, many cancers — are substantially preventable through lifestyle and structural interventions; yet healthcare systems are reported to allocate a far smaller proportion of their budgets to prevention than to acute treatment, a pattern that is considerably more pronounced in countries with insurance-based funding models.|Es una crítica que se sostiene ampliamente en los círculos de salud pública, y creo que tiene un mérito considerable. Lo que la evidencia sugiere firmemente es que la mayoría de las principales causas de muerte prematura son sustancialmente prevenibles.]]', '[[Yes, modern medicine is too focused on treatment. It is reported that prevention is cheaper and more effective. What concerns me is that governments do not invest enough in prevention. Despite knowing this, they still spend most money on hospitals and drugs.|Sí, la medicina moderna está demasiado enfocada en el tratamiento. Se informa que la prevención es más barata y más eficaz.]]', '[[I agree that prevention is important. What is interesting is that lifestyle choices affect health a lot. It is said that diet and exercise are the most important factors. Despite this, people still get sick and need treatment in hospitals.|Estoy de acuerdo en que la prevención es importante. Lo que es interesante es que las elecciones de estilo de vida afectan mucho a la salud.]]'], correctAnswer: 0, explanation: 'Option A chains "is widely contended", "What the evidence suggests" (nominal clause), "are reported to allocate" (passive reporting) and an implicit comparative — the full Module 7 range in one coherent spoken turn.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u42-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'health-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u42-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'health-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

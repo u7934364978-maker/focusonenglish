@@ -28,18 +28,6 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u15-g4', type: 'fill-blank', level: 'C1', topic: 'emphatic-do-fronting', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Emphatic Do/Did|Do/did enfático]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The coach admitted he had doubted the team, but added: "They _______ prove me wrong in the most spectacular fashion."', options: ['[[did|sí que]]', '[[do|sí que]]', '[[have|han]]'], correctAnswer: 'did', acceptableAnswers: ['did'], explanation: '"Did + bare infinitive" in past context = emphatic auxiliary, stressing that the action actually happened.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u15-g5', type: 'multiple-choice', level: 'C1', topic: 'emphatic-do-fronting', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Fronting and Inversion|Frontalización e inversión]]', instructions: 'Choose the correct sentence.',
-      questions: [{ question: 'Which sentence correctly uses fronting with inversion?', options: ['[[Rarely before had a team recovered from such a deficit to win a championship in overtime.|Pocas veces antes un equipo había remontado un déficit tan grande para ganar un campeonato en tiempo extra.]]', '[[Rarely a team had recovered before from such a deficit to win a championship in overtime.|Pocas veces un equipo había remontado antes de tal déficit para ganar un campeonato en tiempo extra.]]', '[[A team had rarely recovered before from such a deficit in order to win a championship in overtime.|Un equipo había remontado pocas veces antes de tal déficit para ganar un campeonato en tiempo extra.]]'], correctAnswer: 0, explanation: '"Rarely + inversion (had + subject + past participle)" = correct negative adverbial fronting structure.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u15-v1', type: 'multiple-choice', level: 'C1', topic: 'sport-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Sport and Performance|Deporte y rendimiento]]', instructions: 'Choose the correct word.',
       questions: [{ question: 'Athletes at the elite level often work with psychologists to develop _______ — the ability to maintain focus, manage pressure and perform consistently regardless of external circumstances.', options: ['[[mental resilience|resiliencia mental]]', '[[physical endurance|resistencia física]]', '[[tactical awareness|conciencia táctica]]'], correctAnswer: 0, explanation: '"Mental resilience" = the psychological capacity to cope with pressure and adversity and return to high performance.' }] },
@@ -58,18 +46,6 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u15-v4', type: 'multiple-choice', level: 'C1', topic: 'sport-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Sport and Performance|Deporte y rendimiento]]', instructions: 'Choose the best option.',
-      questions: [{ question: 'The athlete credited her success to the _______ of her training regime — every session, every meal and every night\'s sleep was carefully planned and monitored.', options: ['[[rigour|rigor]]', '[[discipline|disciplina]]', '[[dedication|dedicación]]'], correctAnswer: 0, explanation: '"Rigour" = extreme thoroughness and precision; in the context of training, it implies systematic, disciplined exactness.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u15-v5', type: 'fill-blank', level: 'C1', topic: 'sport-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Sport and Society|Deporte y sociedad]]', instructions: 'Complete with the correct word.',
-      questions: [{ question: 'The governing body took decisive action to protect the _______ of the competition after evidence emerged that several officials had accepted payments to influence match results.', options: ['[[integrity|integridad]]', '[[prestige|prestigio]]', '[[credibility|credibilidad]]'], correctAnswer: 'integrity', acceptableAnswers: ['integrity'], explanation: '"Integrity" of a competition = its honesty and fairness; the quality of being free from corruption or manipulation.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u15-r1', type: 'reading-comprehension', level: 'C1', topic: 'sport-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Elite Sport|Deporte de élite]]', instructions: 'Read the extract and answer the question.',
       questions: [{ question: 'Text: "The pursuit of sporting excellence increasingly resembles an arms race, with wealthier nations and clubs investing in marginal gains — those incremental improvements in nutrition, sleep, equipment and psychology that collectively make the difference between winning and losing at the highest level. Critics argue this trend entrenches inequality, favouring those with resources over those with raw talent."\n\nWhat is the author\'s main concern?', options: ['[[That athletes are investing too much time in nutrition and psychology at the expense of developing natural athletic talent.|Que los atletas invierten demasiado tiempo en nutrición y psicología a expensas del desarrollo del talento atlético natural.]]', '[[That the increasing financial investment in marginal gains gives wealthier nations an unfair advantage over less resourced competitors.|Que la creciente inversión financiera en ganancias marginales da a las naciones más ricas una ventaja injusta sobre los competidores con menos recursos.]]', '[[That the pursuit of marginal gains has made elite sport less entertaining and more scientific, reducing its appeal to spectators.|Que la búsqueda de ganancias marginales ha hecho que el deporte de élite sea menos entretenido y más científico, reduciendo su atractivo para los espectadores.]]'], correctAnswer: 1, explanation: 'The "arms race" metaphor and the phrase "entrenches inequality" show the author is concerned about financial inequality in elite sport.' }] },
@@ -82,15 +58,138 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u15-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'sport-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Sport, Competition and Performance), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u15-l1', type: 'listening-comprehension', level: 'C1', topic: 'sport-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[Sport and Society|Deporte y sociedad]]', instructions: 'Listen and choose the correct answer.',
       questions: [{ question: 'A journalist says: "The problem with the narrative of sporting meritocracy is that it implies a level playing field that has never existed. Access to coaching, nutrition, facilities and recovery support varies enormously, and pretending otherwise obscures structural disadvantage behind the language of individual effort."\n\nWhat argument is the journalist making?', options: ['[[Individual effort and personal dedication are the most important factors determining success in elite sport, regardless of background.|El esfuerzo individual y la dedicación personal son los factores más importantes que determinan el éxito en el deporte de élite, independientemente del origen.]]', '[[The idea that sport rewards talent and effort equally is misleading, because access to resources varies widely and creates structural disadvantages.|La idea de que el deporte recompensa igualmente el talento y el esfuerzo es engañosa, porque el acceso a los recursos varía ampliamente y crea desventajas estructurales.]]', '[[Sporting success is primarily determined by access to facilities and coaching rather than by any innate talent or individual psychological resilience.|El éxito deportivo está determinado principalmente por el acceso a instalaciones y entrenamiento, más que por ningún talento innato o resiliencia psicológica individual.]]'], correctAnswer: 1, explanation: 'The journalist argues that "meritocracy" hides structural inequality — access to resources, not just effort, determines outcomes.' }] },
     topicName: 'Listening',
   },
   {
+    id: 'c1-u15-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'sport-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u15-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'sport-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
     id: 'c1-u15-w1', type: 'multiple-choice', level: 'C1', topic: 'argumentative-writing', difficulty: 'hard',
     content: { title: '[[Writing|Escritura]]: [[Argumentative Essay|Ensayo argumentativo]]', instructions: 'Choose the best concluding paragraph for an essay arguing that sport builds character.',
       questions: [{ question: 'Essay title: "Competitive sport builds character. Discuss." Choose the most effective conclusion:', options: ['[[In conclusion, the relationship between competitive sport and character development is more nuanced than a simple causal claim allows. Sport can indeed foster resilience, discipline and teamwork — but only when embedded in an environment that prioritises these values over winning at all costs. The character it builds depends entirely on the culture it creates.|En conclusión, la relación entre el deporte competitivo y el desarrollo del carácter es más matizada de lo que permite una simple afirmación causal. El deporte puede efectivamente fomentar la resiliencia, la disciplina y el trabajo en equipo — pero solo cuando está integrado en un entorno que prioriza estos valores por encima de ganar a cualquier precio.]]', '[[In conclusion, sport is very good for building character and everyone should do sport. It helps you become a better person and teaches you important life skills. Therefore, sport should definitely be compulsory in schools.|En conclusión, el deporte es muy bueno para el desarrollo del carácter y todo el mundo debería practicar deporte. Te ayuda a convertirte en una persona mejor y te enseña habilidades importantes para la vida. Por ello, el deporte debería ser obligatorio en los colegios.]]', '[[To conclude, whether sport builds character or not is a very complicated question that many people have different opinions about. Some think it does and some think it does not. It is difficult to say which view is correct because it depends on many factors.|Para concluir, si el deporte desarrolla el carácter o no es una pregunta muy complicada sobre la que mucha gente tiene opiniones diferentes. Unos creen que sí y otros que no. Es difícil decir cuál es la opinión correcta porque depende de muchos factores.]]'], correctAnswer: 0, explanation: 'Option A restates the thesis with nuance, uses a conditional structure and ends with a sophisticated qualifying statement — the hallmarks of a C1 conclusion.' }] },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u15-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'argumentative-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u15-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'argumentative-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
     topicName: 'Writing',
   },
   {
@@ -105,6 +204,54 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         correctAnswer: 1,
         explanation: 'Option B presents two arguments for, identifies a key counterargument, and ends with a philosophical question — demonstrating C1 balanced discussion skills.',
       }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u15-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-sport',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u15-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-sport',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

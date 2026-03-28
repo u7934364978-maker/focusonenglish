@@ -28,18 +28,6 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u18-g4', type: 'fill-blank', level: 'C1', topic: 'advanced-comparatives', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Advanced Comparatives|Comparativos avanzados]]', instructions: 'Complete the sentence.',
-      questions: [{ question: '_______ a designer\'s brand recognition, _______ premium they can charge for essentially identical garments.', options: ['[[The greater / the greater|Cuanto mayor es / mayor es el]]', '[[Greater / greater|Mayor / mayor]]', '[[The greater / the more|Cuanto mayor es / más]]'], correctAnswer: 'The greater / the more', acceptableAnswers: ['The greater / the more'], explanation: '"The + comparative + subject, the + comparative + subject" — different comparatives can be combined in the double comparative structure.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u18-g5', type: 'multiple-choice', level: 'C1', topic: 'advanced-comparatives', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Superlatives and Intensifiers|Superlativos e intensificadores]]', instructions: 'Choose the most natural and grammatically correct sentence.',
-      questions: [{ question: 'Which sentence uses a superlative structure correctly at C1 level?', options: ['[[Of all the fashion capitals, Paris remains by far the most influential in setting global trends for luxury and high-end design.|De todas las capitales de la moda, París sigue siendo con diferencia la más influyente en marcar tendencias globales de lujo y diseño de alta gama.]]', '[[Paris is the most influential of all fashion capitals by far in the world for setting luxury trends and high-end design.|París es la más influyente de todas las capitales de la moda con diferencia en el mundo para marcar tendencias de lujo y diseño de alta gama.]]', '[[Of all the fashion capitals in the world Paris is the most influential that exists for luxury and high-end design trends globally.|De todas las capitales de la moda en el mundo París es la más influyente que existe para las tendencias de lujo y diseño de alta gama.]]'], correctAnswer: 0, explanation: '"By far + the + superlative" = emphatic superlative. The sentence structure in A is the most natural and idiomatic.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u18-v1', type: 'multiple-choice', level: 'C1', topic: 'fashion-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Fashion and Society|Moda y sociedad]]', instructions: 'Choose the correct word.',
       questions: [{ question: 'The term _______ refers to the practice of companies making misleading claims about the environmental credentials of their products to appeal to conscious consumers.', options: ['[[greenwashing|lavado verde]]', '[[upcycling|suprareciclaje]]', '[[fast fashion|moda rápida]]'], correctAnswer: 0, explanation: '"Greenwashing" = the practice of making false or misleading environmental claims to improve a brand\'s image.' }] },
@@ -58,18 +46,6 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u18-v4', type: 'multiple-choice', level: 'C1', topic: 'fashion-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Fashion and Ethics|Moda y ética]]', instructions: 'Choose the best word.',
-      questions: [{ question: 'The collapse of the Rana Plaza garment factory in 2013 brought global attention to the appalling _______ conditions endured by workers at the bottom of the fashion supply chain.', options: ['[[labour|laborales]]', '[[social|sociales]]', '[[industrial|industriales]]'], correctAnswer: 0, explanation: '"Labour conditions" = the conditions under which workers perform their jobs, including pay, safety and working hours.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u18-v5', type: 'fill-blank', level: 'C1', topic: 'fashion-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Fashion and Culture|Moda y cultura]]', instructions: 'Complete with the correct word.',
-      questions: [{ question: 'Street fashion has always been a site of cultural _______ — a space where marginalised groups challenge mainstream aesthetic norms and assert their own identity and visibility.', options: ['[[subversion|subversión]]', '[[rebellion|rebelión]]', '[[innovation|innovación]]'], correctAnswer: 'subversion', acceptableAnswers: ['subversion'], explanation: '"Subversion" = the systematic undermining or challenge to established norms, values or authority.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u18-r1', type: 'reading-comprehension', level: 'C1', topic: 'fashion-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Fashion and Identity|Moda e identidad]]', instructions: 'Read the extract and answer the question.',
       questions: [{ question: 'Text: "Dress is never merely utilitarian — it is a form of non-verbal communication, a daily act of identity construction. What we wear broadcasts information about our social class, our cultural affiliations, our professional aspirations and our self-perception, often before we have spoken a single word."\n\nWhat does the author argue about clothing?', options: ['[[Clothing is primarily a form of social signalling that communicates class and professional status, which is why dress codes exist in formal contexts.|La ropa es principalmente una forma de señalización social que comunica clase y estatus profesional, razón por la que existen códigos de vestimenta en contextos formales.]]', '[[Clothing communicates multiple layers of identity and self-perception non-verbally, functioning as a form of daily social messaging before speech takes place.|La ropa comunica múltiples capas de identidad y autopercepción de forma no verbal, funcionando como una forma de mensajería social diaria antes de que tenga lugar el habla.]]', '[[The primary function of dress is to reflect our professional aspirations and cultural affiliations, which are more stable aspects of identity than class or self-perception.|La función principal de la vestimenta es reflejar nuestras aspiraciones profesionales y afiliaciones culturales, que son aspectos más estables de la identidad que la clase o la autopercepción.]]'], correctAnswer: 1, explanation: 'The text says dress communicates class, affiliations, aspirations AND self-perception, often before speaking — i.e., multiple layers of identity, non-verbally.' }] },
@@ -82,15 +58,138 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u18-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'fashion-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Fashion, Identity and Society), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u18-l1', type: 'listening-comprehension', level: 'C1', topic: 'fashion-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[Fashion and Ethics|Moda y ética]]', instructions: 'Listen and choose the correct answer.',
       questions: [{ question: 'A fashion journalist says: "Luxury brands have become extraordinarily skilled at selling aspiration rather than product — the bag is almost incidental; what you are really purchasing is a story about who you are, or more precisely, who you aspire to be."\n\nWhat does the journalist argue?', options: ['[[Luxury brands charge excessive prices for bags and accessories that are not significantly different in quality from cheaper alternatives.|Las marcas de lujo cobran precios excesivos por bolsos y accesorios que no son significativamente diferentes en calidad de las alternativas más baratas.]]', '[[Luxury brands sell identity and social aspiration rather than the physical product itself, which is merely the vehicle for a narrative about status.|Las marcas de lujo venden identidad y aspiración social más que el producto físico en sí, que es meramente el vehículo de una narrativa sobre el estatus.]]', '[[The success of luxury brands depends primarily on the exceptional quality of their products rather than on marketing, heritage or celebrity endorsement.|El éxito de las marcas de lujo depende principalmente de la calidad excepcional de sus productos más que del marketing, el patrimonio o el respaldo de celebridades.]]'], correctAnswer: 1, explanation: 'The journalist says the product ("the bag") is "almost incidental" — what is sold is "a story about who you aspire to be" = identity narrative.' }] },
     topicName: 'Listening',
   },
   {
+    id: 'c1-u18-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'fashion-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u18-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'fashion-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
     id: 'c1-u18-w1', type: 'multiple-choice', level: 'C1', topic: 'opinion-essay', difficulty: 'hard',
     content: { title: '[[Writing|Escritura]]: [[Opinion Essay|Ensayo de opinión]]', instructions: 'Choose the best opening for an opinion essay on fashion and identity.',
       questions: [{ question: 'Essay title: "Fashion is a form of self-expression, not trivial consumerism." Choose the most effective opening paragraph:', options: ['[[To dismiss fashion as mere consumerism is to misunderstand its deeper function: clothing is one of the oldest and most sophisticated systems of human communication, through which individuals negotiate identity, signal belonging and challenge social norms. The question is not whether fashion matters, but why we are so reluctant to take it seriously.|Descartar la moda como mero consumismo es malentender su función más profunda: la ropa es uno de los sistemas de comunicación humana más antiguos y sofisticados, a través del cual los individuos negocian la identidad, señalan la pertenencia y desafían las normas sociales.]]', '[[In this essay I will discuss whether fashion is a form of self-expression or just consumerism. Fashion is a very interesting topic that affects everyone in modern society. I will look at both sides of the argument before reaching a conclusion.|En este ensayo discutiré si la moda es una forma de autoexpresión o simplemente consumismo. La moda es un tema muy interesante que afecta a todos en la sociedad moderna. Examinaré ambos lados del argumento antes de llegar a una conclusión.]]', '[[Fashion has been around for thousands of years and has always been important to people. Today it is a massive global industry worth billions of dollars. Some people think it is trivial but others think it is very important for expressing who you are.|La moda existe desde hace miles de años y siempre ha sido importante para las personas. Hoy es una industria global masiva que vale miles de millones de dólares. Algunas personas piensan que es trivial pero otras creen que es muy importante para expresar quién eres.]]'], correctAnswer: 0, explanation: 'Option A opens with a counter-argument, establishes a sophisticated position immediately and signals the essay\'s direction without announcing "In this essay I will..."' }] },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u18-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'opinion-essay',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u18-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'opinion-essay',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
     topicName: 'Writing',
   },
   {
@@ -105,6 +204,54 @@ export const UNIT_18_EXERCISES: Exercise[] = [
         correctAnswer: 1,
         explanation: 'Option B acknowledges the tension without resolving it simplistically, introduces key concepts ("abstinence", "awareness", "supply chains") and frames the dilemma as a broader condition of modern consumerism.',
       }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u18-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-fashion',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u18-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-fashion',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

@@ -6,7 +6,6 @@ import ExerciseRenderer from '@/components/ExerciseRenderer';
 import { X, Zap, ChevronLeft, ChevronRight, Trophy, Flame, Heart, Target } from 'lucide-react';
 import type { Exercise } from '@/lib/exercise-generator';
 
-const CHUNK_SIZE = 15;
 type FeedbackState = 'idle' | 'correct' | 'incorrect';
 
 interface GameClientProps {

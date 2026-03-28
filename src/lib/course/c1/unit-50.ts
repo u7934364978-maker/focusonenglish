@@ -28,18 +28,6 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u50-g4', type: 'fill-blank', level: 'C1', topic: 'distancing-language', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[It is Claimed / It has been Alleged|Se afirma / Se ha alegado]]', instructions: 'Complete the sentence.',
-      questions: [{ question: '_______ that the coordinated disinformation campaign — involving thousands of automated accounts posting near-identical content across multiple platforms in a short window of time — was orchestrated by a state-linked actor, though no government has claimed responsibility and the attribution evidence remains contested among independent cybersecurity analysts.', options: ['[[It has been alleged|Se ha alegado]]', '[[It is confirmed|Se confirma]]', '[[It was proven|Se demostró]]'], correctAnswer: 'It has been alleged', acceptableAnswers: ['It has been alleged', 'It is claimed', 'It has been suggested', 'It has been reported'], explanation: '"It has been alleged/claimed that + clause" = the formal impersonal passive distancing structure, attributing an assertion to unspecified sources without the writer asserting it as fact. Essential in contexts of unverified or disputed attribution.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u50-g5', type: 'multiple-choice', level: 'C1', topic: 'distancing-language', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Distancing Language in Academic and Journalistic Prose|Lenguaje distanciador en prosa académica y periodística]]', instructions: 'Choose the most sophisticated use of distancing language.',
-      questions: [{ question: 'Which sentence best integrates multiple distancing devices in a formally appropriate way?', options: ['[[What has been termed a "post-truth" political environment — in which, it is widely claimed, the emotional resonance of a message has become more determinative of its persuasive impact than its factual accuracy — is, arguably, less a novel development than an intensification of tendencies that have long characterised populist political communication; the so-called information crisis is, on this reading, as much a crisis of institutional trust and political engagement as it is of media literacy or technological change.|Lo que ha sido denominado un entorno político "posverdad", en el que, según se afirma ampliamente, la resonancia emocional de un mensaje ha llegado a ser más determinante de su impacto persuasivo que su exactitud factual, es, podría decirse, menos un desarrollo novedoso que una intensificación de tendencias que han caracterizado durante mucho tiempo a la comunicación política populista.]]', '[[The so-called "post-truth" environment allegedly exists and it is claimed that facts do not matter any more. What is described as an information crisis is supposedly a new problem, though arguably it has always existed in some form in political communication.|El llamado entorno "posverdad" presuntamente existe y se afirma que los hechos ya no importan.]]', '[[Post-truth politics are allegedly real and supposedly getting worse. It is claimed by some people that disinformation is the biggest threat, though others supposedly disagree with this claim which has been described as exaggerated by critics.|La política posverdad es presuntamente real y supuestamente está empeorando.]]'], correctAnswer: 0, explanation: 'Option A uses "what has been termed", "it is widely claimed", "the so-called" and "arguably" — four distancing devices deployed with precision and without over-accumulation, sustaining a coherent argument throughout.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u50-v1', type: 'multiple-choice', level: 'C1', topic: 'disinformation-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Types of False Information|Tipos de información falsa]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'False information deliberately created and spread with the intent to deceive or manipulate public opinion — as opposed to misinformation, which may be shared without intent to deceive — is most precisely termed _______.', options: ['[[disinformation|desinformación]]', '[[misinformation|información errónea]]', '[[propaganda|propaganda]]'], correctAnswer: 0, explanation: '"Disinformation" = false information deliberately created and disseminated with intent to deceive. "Misinformation" = inaccurate information shared without deliberate deceptive intent. "Propaganda" = information, especially biased, used to promote a political cause — may be true or false.' }] },
@@ -58,18 +46,6 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u50-v4', type: 'fill-blank', level: 'C1', topic: 'disinformation-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Fact-Checking|Verificación de hechos]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'Organisations that systematically investigate claims made in political speeches, news articles or viral social media posts — assessing their accuracy against available evidence and publishing verdicts with supporting documentation — are known as _______ organisations.', options: ['[[fact-checking|verificadoras de hechos]]', '[[watchdog|perro guardián]]', '[[advocacy|de defensa]]'], correctAnswer: 'fact-checking', acceptableAnswers: ['fact-checking', 'fact checking'], explanation: '"Fact-checking organisation" = a body that investigates factual claims and publishes assessments of their accuracy (e.g., Snopes, PolitiFact, FullFact). "Watchdog organisation" = monitors compliance with standards or regulations more broadly. "Advocacy organisation" = promotes a particular cause or policy.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u50-v5', type: 'multiple-choice', level: 'C1', topic: 'disinformation-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Manipulation Techniques|Técnicas de manipulación]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'The practice of creating a false impression of widespread public support for a position or product — typically through fake grassroots campaigns, coordinated inauthentic social media behaviour or the use of bots — by disguising the organised, centrally directed nature of the campaign to make it appear as spontaneous popular opinion is known as _______.', options: ['[[astroturfing|astroturfing (apariencia de movimiento popular falso)]]', '[[sockpuppeting|sockpuppeting (uso de identidades falsas)]]', '[[dogwhistling|dogwhistling (mensajes codificados)]]'], correctAnswer: 0, explanation: '"Astroturfing" = manufacturing the appearance of grassroots support (named after AstroTurf artificial grass). "Sockpuppeting" = using fake online identities to manipulate discussions or deceive others. "Dogwhistling" = using coded language that carries a specific meaning for a target audience whilst being innocuous to others.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u50-r1', type: 'reading', level: 'C1', topic: 'disinformation-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Epistemology of Disinformation|La epistemología de la desinformación]]', instructions: 'Read and answer.',
       passage: 'What has been termed the "post-truth" condition — in which it is allegedly possible for the same set of events to be simultaneously described in entirely incompatible ways by different media ecosystems, each apparently credible to its own audience — presents a significant challenge not merely to journalism and public communication but to democratic deliberation itself. Democratic theory, in most of its variants, presupposes a shared epistemic commons: a set of facts, however contested in their interpretation, about which reasoned disagreement is possible. The so-called information crisis arguably threatens this precondition by enabling the construction of hermetically sealed alternative realities in which the very premises required for shared argument are disputed. It is claimed by some researchers that corrections and fact-checks rarely change the minds of those who have already encountered and accepted a false narrative, owing to well-documented psychological mechanisms including confirmation bias, motivated reasoning and identity-protective cognition. Supposedly, the provision of accurate information is therefore insufficient as a response to strategic disinformation — what may be required, rather, is the rebuilding of the institutional trust that makes accuracy persuasive in the first place.',
@@ -84,10 +60,85 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u50-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'disinformation-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Fake News and Disinformation), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u50-l1', type: 'listening', level: 'C1', topic: 'disinformation-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Panel Discussion on Disinformation|Un debate en panel sobre la desinformación]]', instructions: 'Read the transcript and answer.',
       passage: 'Moderator: Is disinformation really a new problem, or is this something we have always faced? First Panellist: What is described as the "disinformation crisis" is, in many respects, a new name for an old phenomenon. Propaganda, rumour, politically motivated misinformation — these predate the internet by centuries. What has changed is the speed and scale at which false information now circulates, and the architecture of the platforms that carry it. Moderator: Does that mean our responses should be the same as historical responses? Second Panellist: Not entirely. The so-called toolkit of historical responses — legal prohibitions on specific types of harmful speech, codes of journalistic ethics, public education — remains relevant, but it is allegedly insufficient on its own. The algorithmic infrastructure that distributes information is new and requires new governance frameworks. What I find most troubling is that the incentive structures of the platforms are, supposedly, still not aligned with the public interest in accurate information — the attention economy rewards outrage and novelty, not accuracy. First Panellist: I would add that what has been termed "prebunking" — inoculating people against manipulation techniques before they encounter them, rather than correcting false beliefs after the fact — shows considerable promise in the research literature and arguably represents a more sustainable approach than reactive fact-checking alone.',
       questions: [{ question: 'What does the second panellist identify as the fundamental problem with platform incentive structures?', options: ['[[The algorithmic infrastructure and incentive structures of platforms are not aligned with the public interest in accurate information — the attention economy rewards outrage and novelty rather than accuracy, and this requires new governance frameworks beyond the historical toolkit of legal prohibitions and journalistic ethics.|La infraestructura algorítmica y las estructuras de incentivos de las plataformas no están alineadas con el interés público en la información precisa: la economía de la atención recompensa la indignación y la novedad en lugar de la precisión, y esto requiere nuevos marcos de gobernanza.]]', '[[The second panellist argues that the fundamental problem is the absence of legal liability for platforms that distribute false information, which means they have no financial incentive to invest in content moderation or to prioritise accuracy in their recommendation algorithms.|La segunda panelista argumenta que el problema fundamental es la ausencia de responsabilidad legal para las plataformas que distribuyen información falsa.]]', '[[The fundamental problem according to the second panellist is that platform companies are too large and powerful to be effectively regulated by individual national governments, requiring global governance frameworks that do not currently exist.|El problema fundamental según la segunda panelista es que las empresas de plataformas son demasiado grandes y poderosas para ser efectivamente reguladas por gobiernos nacionales individuales.]]'], correctAnswer: 0, explanation: 'The second panellist says "the incentive structures of the platforms are, supposedly, still not aligned with the public interest in accurate information — the attention economy rewards outrage and novelty, not accuracy."' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u50-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'disinformation-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u50-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'disinformation-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u50-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'disinformation-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u50-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'disinformation-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u50-s1', type: 'speaking', level: 'C1', topic: 'disinformation-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Discussing Disinformation|Hablar sobre desinformación]]', instructions: 'Which response best demonstrates C1 spoken proficiency on disinformation?',
       questions: [{ question: 'Question: "Do you think social media companies should be legally responsible for the disinformation spread on their platforms?"', options: ['[[This is genuinely contested terrain, and I think the distancing language we use to discuss it matters: rather than asserting that platforms "cause" polarisation or "spread" disinformation as settled facts, it is more accurate to say it is claimed — and the evidence does support the claim with various degrees of strength in different contexts — that what has been described as the algorithmic amplification of emotionally charged content is associated with a range of harms; as for legal responsibility, arguably the more productive question is not whether platforms should bear liability but what specific forms of liability, applied to which specific decisions, would create the right incentive structures without simultaneously creating unacceptable risks to free expression.|Este es un terreno genuinamente controvertido: en lugar de afirmar que las plataformas "causan" polarización como hechos establecidos, es más preciso decir que se afirma — y la evidencia apoya la afirmación con distintos grados de fuerza — que lo que ha sido descrito como la amplificación algorítmica del contenido cargado emocionalmente está asociado con una serie de daños; en cuanto a la responsabilidad legal, posiblemente la pregunta más productiva no es si las plataformas deben tener responsabilidad sino qué formas específicas de responsabilidad crearían las estructuras de incentivos correctas.]]', '[[Social media companies allegedly spread disinformation and it is claimed they should be responsible. The so-called tech giants supposedly know what they are doing is harmful but do not stop it. I think they should allegedly be made responsible for what is supposedly harmful content.|Las empresas de redes sociales presuntamente difunden desinformación y se afirma que deberían ser responsables.]]', '[[I think social media is supposedly bad for society. It is claimed to cause problems. The so-called algorithms allegedly make things worse. Supposedly we should do something about this but it is hard to know what the right answer is for this important question.|Creo que las redes sociales supuestamente son malas para la sociedad.]]'], correctAnswer: 0, explanation: 'Option A uses distancing devices with genuine epistemic purpose — "it is claimed…the evidence does support with various degrees of strength", "what has been described as" — and adds analytical sophistication by reframing the question productively.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u50-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'disinformation-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u50-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'disinformation-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

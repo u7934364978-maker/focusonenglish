@@ -28,18 +28,6 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u38-g4', type: 'fill-blank', level: 'C1', topic: 'reporting-verbs', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Allege / Assert|Alegar / Afirmar]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The whistleblower _______ that the clinical trial data had been selectively reported to obscure adverse outcomes in a subset of participants — claims that the company strongly denied and that a regulatory investigation subsequently found to be unsubstantiated.', options: ['[[alleged|alegó]]', '[[acknowledged|reconoció]]', '[[conceded|concedió]]'], correctAnswer: 'alleged', acceptableAnswers: ['alleged', 'claimed', 'asserted'], explanation: '"Allege" = claim without proven evidence, often in a legal or investigative context. It introduces the claim while implying it has not yet been established as fact. "Acknowledged" and "conceded" would imply the company accepted the claims.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u38-g5', type: 'multiple-choice', level: 'C1', topic: 'reporting-verbs', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Insist / Assert|Insistir / Afirmar]]', instructions: 'Choose the most precise reporting verb for the context.',
-      questions: [{ question: 'A scientist strongly and repeatedly defends the validity of their findings against criticism. Which reporting verb best captures this?', options: ['[[insists|insiste]]', '[[wonders|se pregunta]]', '[[estimates|estima]]'], correctAnswer: 0, explanation: '"Insist" = maintain a position firmly and repeatedly, especially against opposition. "Wonder" = speculate or question. "Estimate" = calculate approximately. "Insist" conveys persistent, forceful assertion.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u38-v1', type: 'multiple-choice', level: 'C1', topic: 'neuroscience-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Neuroscience Terms|Términos de neurociencia]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'The brain\'s ability to reorganise its structure, form new neural connections and adapt its functional organisation in response to learning, experience or injury is known as _______.', options: ['[[neuroplasticity|neuroplasticidad]]', '[[neurogenesis|neurogénesis]]', '[[neurotransmission|neurotransmisión]]'], correctAnswer: 0, explanation: '"Neuroplasticity" = the brain\'s capacity to reorganise and adapt throughout life. "Neurogenesis" = the formation of new neurons. "Neurotransmission" = the process of chemical signal transmission between neurons.' }] },
@@ -58,18 +46,6 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u38-v4', type: 'fill-blank', level: 'C1', topic: 'neuroscience-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Psychology Research|Investigación en psicología]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The tendency to interpret new information in a way that confirms pre-existing beliefs while ignoring contradictory evidence is known as _______ bias — a significant obstacle to objective reasoning in both scientific and everyday contexts.', options: ['[[confirmation|de confirmación]]', '[[selection|de selección]]', '[[hindsight|de retrospectiva]]'], correctAnswer: 'confirmation', acceptableAnswers: ['confirmation'], explanation: '"Confirmation bias" = the tendency to favour information that confirms existing beliefs. "Selection bias" = non-random sample selection. "Hindsight bias" = believing past events were predictable.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u38-v5', type: 'multiple-choice', level: 'C1', topic: 'neuroscience-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Pharmacology|Farmacología]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'Drugs that increase the availability of serotonin in the synaptic cleft by blocking its reuptake into the presynaptic neuron — the most widely prescribed class of antidepressants — are known as _______.', options: ['[[SSRIs (selective serotonin reuptake inhibitors)|ISRS (inhibidores selectivos de la recaptación de serotonina)]]', '[[MAOIs (monoamine oxidase inhibitors)|IMAOs (inhibidores de la monoaminooxidasa)]]', '[[benzodiazepines|benzodiacepinas]]'], correctAnswer: 0, explanation: '"SSRIs" = selective serotonin reuptake inhibitors (e.g., fluoxetine, sertraline) — the standard first-line antidepressant treatment. "MAOIs" = older antidepressants. "Benzodiazepines" = anxiolytics/sedatives, not antidepressants.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u38-r1', type: 'reading', level: 'C1', topic: 'neuroscience-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Placebo Effect|El efecto placebo]]', instructions: 'Read and answer.',
       passage: 'The placebo effect — in which patients experience genuine physiological or psychological improvement after receiving an inert treatment — has long been dismissed as a mere artefact of measurement error or subjective bias. Neuroscientists now contend, however, that this view fundamentally misrepresents the phenomenon. Researchers have demonstrated that placebos trigger measurable neurobiological changes, including the release of endogenous opioids, dopamine and serotonin — the same neurotransmitters targeted by many active medications. Sceptics maintain that these findings, while intriguing, do not establish that placebos produce durable clinical benefit comparable to pharmacological intervention. Proponents acknowledge this limitation but assert that understanding placebo mechanisms could dramatically enhance the therapeutic potential of all treatments, including active drugs, through optimised patient-clinician communication.',
@@ -84,10 +60,85 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u38-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'neuroscience-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (The Science of the Brain), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u38-l1', type: 'listening', level: 'C1', topic: 'neuroscience-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Neuroscience Panel|Un panel de neurociencia]]', instructions: 'Read the transcript and answer.',
       passage: 'Moderator: There is an ongoing debate about whether memory is reconstructive or reproductive. Could you summarise the key positions? | Panellist A: Those who contend that memory is reproductive maintain that recall is essentially a playback of stored information — like accessing a file. But I would argue this view fundamentally misrepresents what we know neurologically. | Panellist B: I agree. The evidence I find most compelling is that memory is reconstructive — that every act of recall involves active neural rebuilding, which is why memories are susceptible to distortion, suggestion and interference. Those who dispute this are, I would allege, largely working from pre-neuroscientific assumptions that have long been superseded by experimental evidence.',
       questions: [{ question: 'What does Panellist B argue about memory, and how does she characterise those who disagree?', options: ['[[Panellist B argues memory is reconstructive and alleges that those who dispute this are working from outdated pre-neuroscientific assumptions.|La panelista B argumenta que la memoria es reconstructiva y alega que quienes disputan esto trabajan con suposiciones pre-neurocientíficas anticuadas.]]', '[[Panellist B acknowledges that memory is reproductive and concedes that the reconstructive model has been definitively disproved by recent experimental evidence.|La panelista B reconoce que la memoria es reproductiva y concede que el modelo reconstructivo ha sido definitivamente refutado por evidencia experimental reciente.]]', '[[Panellist B maintains that both the reproductive and reconstructive models of memory are equally valid and should be integrated into a unified theoretical framework.|La panelista B mantiene que tanto el modelo reproductivo como el reconstructivo de la memoria son igualmente válidos y deberían integrarse en un marco teórico unificado.]]'], correctAnswer: 0, explanation: 'Panellist B argues memory is reconstructive and uses "allege" to characterise opponents as working from "pre-neuroscientific assumptions that have long been superseded".' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u38-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'neuroscience-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u38-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'neuroscience-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u38-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'neuroscience-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u38-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'neuroscience-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u38-s1', type: 'speaking', level: 'C1', topic: 'neuroscience-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Discussing Scientific Controversy|Hablar sobre controversia científica]]', instructions: 'Which response demonstrates C1 spoken fluency in reporting a scientific debate?',
       questions: [{ question: 'Question: "Is there a scientific consensus on the causes of Alzheimer\'s disease?"', options: ['[[The field has long been dominated by the amyloid hypothesis, which contends that the accumulation of amyloid-beta plaques is the primary driver of neuronal degeneration. However, a growing number of researchers dispute whether amyloid is causative or merely correlational — noting that many individuals die with significant plaque burden but without clinical dementia. Some now maintain that neuroinflammation or tau pathology may be equally or more important, and several allege that excessive focus on amyloid has significantly delayed the development of alternative therapeutic strategies.|El campo ha estado dominado durante mucho tiempo por la hipótesis del amiloide, que sostiene que la acumulación de placas de amiloide-beta es el principal impulsor de la degeneración neuronal. Sin embargo, un número creciente de investigadores disputa si el amiloide es causativo o simplemente correlacional.]]', '[[Scientists think Alzheimer\'s is caused by plaques in the brain called amyloid. Some scientists agree with this and others do not. They are still researching the disease and hope to find a cure soon. It is a very complex disease that affects millions of people.|Los científicos creen que el Alzheimer está causado por placas en el cerebro llamadas amiloide. Algunos científicos están de acuerdo y otros no.]]', '[[I am not sure about Alzheimer\'s but I know it is related to memory loss. Scientists are working on it and there are some drugs that help. I think genetics also plays a role but I cannot remember the details.|No estoy seguro sobre el Alzheimer, pero sé que está relacionado con la pérdida de memoria. Los científicos están trabajando en ello.]]'], correctAnswer: 0, explanation: 'Option A uses "contends", "dispute whether", "maintain", "allege" appropriately across multiple positions in the scientific debate, demonstrating full C1 command of reporting verb range.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u38-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'neuroscience-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u38-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'neuroscience-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

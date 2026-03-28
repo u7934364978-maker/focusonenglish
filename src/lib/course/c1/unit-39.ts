@@ -28,18 +28,6 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u39-g4', type: 'fill-blank', level: 'C1', topic: 'advanced-comparatives', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Double Comparatives|Comparativos dobles]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'As the evidence for the benefits of time-restricted eating accumulates, the _______ difficult it becomes to dismiss the approach as a passing dietary trend without robust scientific foundation.', options: ['[[more|más]]', '[[most|el más]]', '[[much|mucho]]'], correctAnswer: 'more', acceptableAnswers: ['more'], explanation: '"The more + clause, the more/less/comparative + clause" — in the second clause, "the more difficult" follows the pattern. "Most" would form a superlative, not a comparative. "Much" cannot introduce the clause.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u39-g5', type: 'multiple-choice', level: 'C1', topic: 'advanced-comparatives', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Comparative Structures in Academic Writing|Estructuras comparativas en escritura académica]]', instructions: 'Choose the most sophisticated sentence.',
-      questions: [{ question: 'Which sentence uses comparative structures most effectively in a health and nutrition context?', options: ['[[The longer individuals adhere to a Mediterranean dietary pattern, the more pronounced the protective effect on cognitive decline appears to be — an association that is considerably stronger than that observed with any single nutrient supplementation strategy studied to date.|Cuanto más tiempo siguen los individuos un patrón dietético mediterráneo, más pronunciado parece ser el efecto protector sobre el deterioro cognitivo, una asociación que es considerablemente más fuerte que la observada con cualquier estrategia de suplementación de nutrientes individuales estudiada hasta la fecha.]]', '[[People who follow the Mediterranean diet for longer have better cognitive health. This diet is much better than taking vitamin supplements. The evidence is quite strong according to the research.|Las personas que siguen la dieta mediterránea durante más tiempo tienen mejor salud cognitiva. Esta dieta es mucho mejor que tomar suplementos vitamínicos.]]', '[[The Mediterranean diet is good for the brain and is better than supplements. The more you follow it the more benefits you get. It is far more popular than other diets in health research.|La dieta mediterránea es buena para el cerebro y es mejor que los suplementos. Cuanto más la sigues, más beneficios obtienes.]]'], correctAnswer: 0, explanation: 'Option A integrates "the longer…the more pronounced" (correlative), "considerably stronger than" (amplified comparative) with precise health-science vocabulary in formal academic register.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u39-v1', type: 'multiple-choice', level: 'C1', topic: 'nutrition-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Nutrition Science|Ciencias de la nutrición]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'Foods that have been minimally altered from their natural state — retaining most of their original nutritional properties without significant addition of salt, sugar, fat or additives — are classified as _______ foods in the NOVA food classification system.', options: ['[[unprocessed or minimally processed|no procesados o mínimamente procesados]]', '[[ultra-processed|ultraprocesados]]', '[[processed culinary ingredients|ingredientes culinarios procesados]]'], correctAnswer: 0, explanation: '"Unprocessed/minimally processed" = NOVA Group 1 (e.g., fruits, vegetables, meat, milk). "Ultra-processed" = NOVA Group 4 (industrial formulations). "Processed culinary ingredients" = NOVA Group 2 (oils, flour, sugar).' }] },
@@ -58,18 +46,6 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u39-v4', type: 'fill-blank', level: 'C1', topic: 'nutrition-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Lifestyle Medicine|Medicina del estilo de vida]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The concept of _______ — understanding that genetic predispositions can be switched on or off by environmental factors including diet, exercise, stress and sleep — has revolutionised the way scientists understand the relationship between lifestyle and chronic disease risk.', options: ['[[epigenetics|epigenética]]', '[[genetics|genética]]', '[[proteomics|proteómica]]'], correctAnswer: 'epigenetics', acceptableAnswers: ['epigenetics'], explanation: '"Epigenetics" = the study of heritable changes in gene expression not caused by DNA sequence changes, but by environmental and lifestyle factors. "Genetics" = the study of genes themselves. "Proteomics" = the study of proteins.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u39-v5', type: 'multiple-choice', level: 'C1', topic: 'nutrition-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Public Health|Salud pública]]', instructions: 'Choose the correct collocation.',
-      questions: [{ question: 'The global increase in the prevalence of obesity, type 2 diabetes, cardiovascular disease and certain cancers — conditions primarily attributable to lifestyle and dietary factors rather than infectious agents — is collectively described as the _______ of chronic disease.', options: ['[[epidemic|epidemia]]', '[[explosion|explosión]]', '[[surge|oleada]]'], correctAnswer: 0, explanation: '"Epidemic of chronic disease" = the standard public health term for widespread and increasing prevalence. While "epidemic" typically describes infectious disease, it is used metaphorically in the context of non-communicable disease prevalence.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u39-r1', type: 'reading', level: 'C1', topic: 'nutrition-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Gut-Brain Axis|El eje intestino-cerebro]]', instructions: 'Read and answer.',
       passage: 'The gut-brain axis — the bidirectional communication network linking the enteric nervous system of the gastrointestinal tract with the central nervous system — has emerged as one of the most rapidly developing areas of biomedical research. The more scientists investigate this interface, the more complex the relationship appears. It is now understood that the gut microbiome — the trillion-strong community of microorganisms inhabiting the intestinal tract — exerts a far more significant influence on mood, cognition and stress reactivity than was appreciated even a decade ago. Studies in both animal models and human participants have demonstrated that individuals with a greater diversity of gut bacteria tend to exhibit considerably lower rates of anxiety and depression than those with less diverse microbiomes. The implications for nutritional psychiatry — the emerging field that investigates the bidirectional relationship between diet and mental health — are potentially transformative.',
@@ -84,10 +60,85 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u39-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'nutrition-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Nutrition and Lifestyle Medicine), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u39-l1', type: 'listening', level: 'C1', topic: 'nutrition-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Nutrition Science Podcast|Un podcast de ciencias de la nutrición]]', instructions: 'Read the transcript and answer.',
       passage: 'Host: Is there a single dietary pattern that the evidence most strongly supports? | Dietitian: The more I examine the literature, the more convinced I become that no single nutrient or food is as important as the overall dietary pattern. The Mediterranean diet has far more robust evidence behind it than almost any other pattern studied — and the longer the follow-up periods in the research, the more pronounced the benefits appear, particularly for cardiovascular and cognitive outcomes. That said, what the evidence also shows is that adherence is considerably more predictive of outcomes than the precise diet chosen. A slightly less optimal diet followed consistently will produce much better results than a theoretically perfect diet followed intermittently.',
       questions: [{ question: 'What does the dietitian say is the most important predictor of dietary outcomes?', options: ['[[Adherence to a dietary pattern is considerably more predictive of outcomes than the precise diet chosen, even if the pattern is slightly less optimal.|La adherencia a un patrón dietético es considerablemente más predictiva de los resultados que la dieta precisa elegida, incluso si el patrón es ligeramente menos óptimo.]]', '[[The Mediterranean diet is the only dietary pattern with sufficient evidence to be recommended, and all other patterns produce significantly inferior health outcomes.|La dieta mediterránea es el único patrón dietético con evidencia suficiente para ser recomendado, y todos los demás patrones producen resultados de salud significativamente inferiores.]]', '[[Individual nutrients are far more important than overall dietary patterns, and people should focus on optimising their intake of specific vitamins and minerals.|Los nutrientes individuales son mucho más importantes que los patrones dietéticos generales, y las personas deberían centrarse en optimizar su ingesta de vitaminas y minerales específicos.]]'], correctAnswer: 0, explanation: 'The dietitian says "adherence is considerably more predictive of outcomes than the precise diet chosen" and that consistent moderate adherence beats intermittent perfect adherence.' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u39-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'nutrition-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u39-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'nutrition-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u39-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'nutrition-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u39-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'nutrition-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u39-s1', type: 'speaking', level: 'C1', topic: 'nutrition-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Discussing Health Evidence|Hablar sobre evidencia de salud]]', instructions: 'Which response demonstrates C1 spoken fluency on nutrition and health?',
       questions: [{ question: 'Question: "What does the evidence say about the health benefits of plant-based diets?"', options: ['[[The evidence for plant-rich diets is considerably stronger now than it was twenty years ago. The more diverse the range of plant foods consumed, the more beneficial the effects appear to be on markers of metabolic and cardiovascular health — largely because of the broader spectrum of fibre, polyphenols and micronutrients involved. That said, a well-planned plant-based diet is far more nuanced in practice than popular discourse suggests, and whether it is the absence of animal products or the presence of greater vegetable diversity that drives the benefit is still considerably more contested than media reporting implies.|La evidencia para las dietas ricas en plantas es considerablemente más fuerte ahora que hace veinte años. Cuanto más diverso sea el rango de alimentos vegetales consumidos, más beneficiosos parecen ser los efectos sobre los marcadores de salud metabólica y cardiovascular.]]', '[[Plant-based diets are very healthy and everyone should eat more vegetables and less meat. Studies show they are much better for you and for the planet. I try to eat more plants and I feel much better than before.|Las dietas basadas en plantas son muy saludables y todos deberían comer más verduras y menos carne. Los estudios muestran que son mucho mejores para ti y para el planeta.]]', '[[I think plant-based diets are good but I am not sure if they are better than diets with meat. Some people are vegetarian and they are healthy, but also some people eat meat and are also healthy. It depends on the person.|Creo que las dietas basadas en plantas son buenas pero no estoy seguro de si son mejores que las dietas con carne.]]'], correctAnswer: 0, explanation: 'Option A uses "considerably stronger", "the more diverse…the more beneficial", "far more nuanced" and "considerably more contested" — full C1 comparative range in an evidence-based analytical response.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u39-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'nutrition-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u39-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'nutrition-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

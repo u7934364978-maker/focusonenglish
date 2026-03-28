@@ -1,25 +1,20 @@
 'use client';
 
 import { useParams, useSearchParams } from 'next/navigation';
-import { useEffect, useState, Suspense } from 'react';
+import { useEffect, useMemo, useState, Suspense } from 'react';
 import ExerciseRenderer from '@/components/ExerciseRenderer';
 import { ArrowLeft, ArrowRight, Home, CheckCircle, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 import { trackUnitTimeSpent, trackExerciseCompletion, trackUnitCompletion } from '@/lib/analytics';
 import AIExercisePractice from '@/components/course/AIExercisePractice';
 import { useSpacedRepetition } from '@/hooks/use-spaced-repetition';
-
-const CHUNK_SIZE = 15;
-
-function lessonSkillFromType(t: string) {
-  const type = (t || '').toLowerCase();
-  if (type.includes('speaking') || type === 'pronunciation') return 'speaking';
-  if (type.includes('listening')) return 'listening';
-  if (type.includes('reading')) return 'reading';
-  if (type.includes('writing')) return 'writing';
-  if (type.includes('vocab')) return 'vocabulary';
-  return 'grammar';
-}
+import {
+  buildSixLessonLayout,
+  getSixLessonNavState,
+  getSixLessonSlotAtGlobalIndex,
+  shouldShowSixLessonCompleteInterstitial,
+  SIX_LESSON_KEYS,
+} from '@/lib/course/six-lesson-layout';
 
 function UnitPreviewContent() {
   const params = useParams();
@@ -40,7 +35,7 @@ function UnitPreviewContent() {
   const isFinalTest = unitId === 'test-final';
 
   const handleAIPracticeReady = (aiExercises: any[]) => {
-    setExercises(aiExercises);
+    setExercises(buildSixLessonLayout(aiExercises).orderedExercises);
     setCurrentIndex(0);
     setFailedIndexes([]);
     setShowUnitSummary(false);
@@ -69,12 +64,12 @@ function UnitPreviewContent() {
       setLessonKeyCounts({});
       return;
     }
+    const layout = buildSixLessonLayout(exercises);
     const counts: Record<string, number> = {};
     for (let i = 0; i < exercises.length; i++) {
-      const ex = exercises[i];
-      const lessonNumber = Math.floor(i / CHUNK_SIZE) + 1;
-      const skill = lessonSkillFromType((ex?.type as string) ?? 'unknown');
-      const key = `lesson-${lessonNumber}-${skill}`;
+      const slot = getSixLessonSlotAtGlobalIndex(layout, i);
+      const skill = SIX_LESSON_KEYS[slot];
+      const key = `lesson-${slot + 1}-${skill}`;
       counts[key] = (counts[key] ?? 0) + 1;
     }
     setLessonKeyCounts(counts);
@@ -92,11 +87,12 @@ function UnitPreviewContent() {
             setError('No se encontraron ejercicios del test final');
             setExercises([]);
           } else {
-            setExercises(unitExercises);
+            const ordered = buildSixLessonLayout(unitExercises).orderedExercises;
+            setExercises(ordered);
             const indexParam = searchParams.get('index');
             if (indexParam) {
               const idx = parseInt(indexParam);
-              if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
+              if (!isNaN(idx) && idx >= 0 && idx < ordered.length) setCurrentIndex(idx);
             }
           }
         } else {
@@ -115,11 +111,12 @@ function UnitPreviewContent() {
             setExercises([]);
           } else {
             setUnitTitle(unitModule.UNIT_TITLE || unitModule.title || `Unidad ${unitNumber}`);
-            setExercises(unitExercises);
+            const ordered = buildSixLessonLayout(unitExercises).orderedExercises;
+            setExercises(ordered);
             const indexParam = searchParams.get('index');
             if (indexParam) {
               const idx = parseInt(indexParam);
-              if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
+              if (!isNaN(idx) && idx >= 0 && idx < ordered.length) setCurrentIndex(idx);
             }
           }
         }
@@ -131,6 +128,12 @@ function UnitPreviewContent() {
     }
     loadUnit();
   }, [unitId, searchParams, isFinalTest]);
+
+  const sixLayout = useMemo(() => buildSixLessonLayout(exercises), [exercises]);
+  const lessonNav = useMemo(() => {
+    const idx = exercises.length ? Math.min(currentIndex, exercises.length - 1) : 0;
+    return getSixLessonNavState(sixLayout, idx);
+  }, [sixLayout, currentIndex, exercises.length]);
 
   if (loading) return (
     <div className="min-h-screen flex items-center justify-center bg-slate-50">
@@ -169,10 +172,10 @@ function UnitPreviewContent() {
   );
 
   const currentExercise = exercises[currentIndex];
-  const lessonNumber = Math.floor(currentIndex / CHUNK_SIZE) + 1;
-  const totalLessons = Math.ceil(exercises.length / CHUNK_SIZE);
-  const exerciseInLesson = (currentIndex % CHUNK_SIZE) + 1;
-  const exercisesInThisLesson = Math.min(CHUNK_SIZE, exercises.length - (lessonNumber - 1) * CHUNK_SIZE);
+  const lessonNumber = lessonNav.lessonNumber;
+  const totalLessons = lessonNav.totalPedagogicalLessons;
+  const exerciseInLesson = lessonNav.exerciseInLesson;
+  const exercisesInThisLesson = lessonNav.exercisesInThisLesson;
 
   if (showUnitSummary) {
     const durationMinutes = Math.round((Date.now() - startTime) / 60000);
@@ -323,9 +326,9 @@ function UnitPreviewContent() {
               // Unified academic progress (best-effort).
               try {
                 const progressUnitId = isFinalTest ? 0 : parseInt(unitId.replace('unit-', ''), 10);
-                const lessonNumber = Math.floor(currentIndex / CHUNK_SIZE) + 1;
-                const lessonSkill = lessonSkillFromType((ex?.type as string) ?? 'unknown');
-                const lessonKey = `lesson-${lessonNumber}-${lessonSkill}`;
+                const slot = getSixLessonSlotAtGlobalIndex(sixLayout, currentIndex);
+                const lessonSkill = SIX_LESSON_KEYS[slot];
+                const lessonKey = `lesson-${slot + 1}-${lessonSkill}`;
                 const expectedExercisesTotal = lessonKeyCounts[lessonKey] ?? 0;
 
                 fetch('/api/progress/record', {
@@ -348,7 +351,7 @@ function UnitPreviewContent() {
             }
             if (currentIndex === exercises.length - 1) {
               setShowUnitSummary(true);
-            } else if (!isFinalTest && (currentIndex + 1) % CHUNK_SIZE === 0) {
+            } else if (!isFinalTest && shouldShowSixLessonCompleteInterstitial(sixLayout, currentIndex, exercises.length)) {
               setShowLessonComplete(true);
             } else {
               setCurrentIndex(prev => prev + 1);

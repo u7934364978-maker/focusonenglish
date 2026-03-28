@@ -58,6 +58,18 @@ import { UNIT_57_EXERCISES } from './unit-57';
 import { UNIT_58_EXERCISES } from './unit-58';
 import { UNIT_59_EXERCISES } from './unit-59';
 import { UNIT_60_EXERCISES } from './unit-60';
+import { UNIT_61_EXERCISES } from './unit-61';
+import { UNIT_62_EXERCISES } from './unit-62';
+import { UNIT_63_EXERCISES } from './unit-63';
+import { UNIT_64_EXERCISES } from './unit-64';
+import { UNIT_65_EXERCISES } from './unit-65';
+import { UNIT_66_EXERCISES } from './unit-66';
+import { UNIT_67_EXERCISES } from './unit-67';
+import { UNIT_68_EXERCISES } from './unit-68';
+import { UNIT_69_EXERCISES } from './unit-69';
+import { UNIT_70_EXERCISES } from './unit-70';
+import { UNIT_71_EXERCISES } from './unit-71';
+import { UNIT_72_EXERCISES } from './unit-72';
 
 export const C1_COURSE = {
   units: [
@@ -121,5 +133,17 @@ export const C1_COURSE = {
     { id: 58, title: 'The Future of Humanity',                   exercises: UNIT_58_EXERCISES },
     { id: 59, title: 'Full Grammar Consolidation',               exercises: UNIT_59_EXERCISES },
     { id: 60, title: 'Exam Preparation: CAE, IELTS and TOEFL',  exercises: UNIT_60_EXERCISES },
+    { id: 61, title: 'C1 Language Lab — Phrasal Verbs in Argument', exercises: UNIT_61_EXERCISES },
+    { id: 62, title: 'C1 Language Lab — Verb and Adjective + Preposition', exercises: UNIT_62_EXERCISES },
+    { id: 63, title: 'C1 Language Lab — Word Formation and Precision', exercises: UNIT_63_EXERCISES },
+    { id: 64, title: 'C1 Language Lab — Fixed Expressions and Academic Stems', exercises: UNIT_64_EXERCISES },
+    { id: 65, title: 'C1 Language Lab — Advanced Conditionals', exercises: UNIT_65_EXERCISES },
+    { id: 66, title: 'C1 Language Lab — Mandative Subjunctive', exercises: UNIT_66_EXERCISES },
+    { id: 67, title: 'C1 Language Lab — Inversion and Emphatic Fronting', exercises: UNIT_67_EXERCISES },
+    { id: 68, title: 'C1 Language Lab — Clefts and Pseudo-clefts', exercises: UNIT_68_EXERCISES },
+    { id: 69, title: 'C1 Language Lab — Hedging and Stance', exercises: UNIT_69_EXERCISES },
+    { id: 70, title: 'C1 Language Lab — Discourse Cohesion', exercises: UNIT_70_EXERCISES },
+    { id: 71, title: 'C1 Language Lab — Participle and Reduced Clauses', exercises: UNIT_71_EXERCISES },
+    { id: 72, title: 'C1 Language Lab — Nominalisation', exercises: UNIT_72_EXERCISES },
   ],
 };

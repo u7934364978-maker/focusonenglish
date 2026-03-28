@@ -28,18 +28,6 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u23-g4', type: 'fill-blank', level: 'C1', topic: 'comment-clauses', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Additive Comment Clauses|Cláusulas de comentario aditivas]]', instructions: 'Complete with the correct additive comment clause.',
-      questions: [{ question: 'The evacuation procedures proved remarkably efficient; _______, the communication infrastructure remained operational throughout the emergency, which was critical to coordinating the response.', options: ['[[what is more|además]]', '[[what is less|lo que es menos]]', '[[on the other hand|por otro lado]]'], correctAnswer: 'what is more', acceptableAnswers: ['what is more', "what's more"], explanation: '"What is more" / "What\'s more" = an additive comment clause meaning "additionally" or "furthermore", used to introduce an extra, often more significant, point.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u23-g5', type: 'multiple-choice', level: 'C1', topic: 'comment-clauses', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Comment Clauses|Cláusulas de comentario]]', instructions: 'Choose the correct option.',
-      questions: [{ question: 'Which sentence correctly uses a parenthetical comment clause to express the writer\'s viewpoint?', options: ['[[The government\'s failure to invest in flood defence infrastructure, as many analysts see it, reflects a systematic undervaluation of long-term climate risk relative to short-term fiscal constraints.|El fracaso del gobierno en invertir en infraestructura de defensa contra inundaciones, en opinión de muchos analistas, refleja una infravaloración sistemática del riesgo climático a largo plazo.]]', '[[The government failed to invest in flood defences as many analysts see it, which reflects that short-term fiscal constraints are more important than long-term climate risk.|El gobierno no invirtió en defensas contra inundaciones como muchos analistas lo ven, lo que refleja que las limitaciones fiscales a corto plazo son más importantes que el riesgo climático.]]', '[[As many analysts see it the government\'s failure to invest in flood defence reflects how short-term fiscal constraints are which undervalues long-term climate risk.|Como muchos analistas lo ven, el fracaso del gobierno en invertir en defensa contra inundaciones refleja cuánto las limitaciones fiscales a corto plazo infravalorar el riesgo climático.]]'], correctAnswer: 0, explanation: '"As many analysts see it" = a parenthetical comment clause (attributed viewpoint), set off by commas, noting whose perspective the evaluation represents.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u23-v1', type: 'multiple-choice', level: 'C1', topic: 'disaster-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Natural Disasters|Desastres naturales]]', instructions: 'Choose the correct word.',
       questions: [{ question: 'The concept of _______ refers to the capacity of communities to withstand, adapt to and recover from the impacts of natural disasters, drawing on both social capital and physical infrastructure.', options: ['[[resilience|resiliencia]]', '[[resistance|resistencia]]', '[[endurance|resistencia física]]'], correctAnswer: 0, explanation: '"Resilience" = the capacity to recover and adapt after a disaster. "Resistance" implies not being affected; "endurance" refers to physical stamina — neither captures the recovery/adaptation dimension.' }] },
@@ -58,18 +46,6 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u23-v4', type: 'multiple-choice', level: 'C1', topic: 'disaster-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Emergency Response|Respuesta a emergencias]]', instructions: 'Choose the best word.',
-      questions: [{ question: 'The term _______ refers to the process of organising, directing and coordinating resources and responsibilities to respond effectively to an emergency — typically according to a pre-established plan.', options: ['[[incident command|mando de incidentes]]', '[[crisis management|gestión de crisis]]', '[[emergency response|respuesta de emergencia]]'], correctAnswer: 1, explanation: '"Crisis management" = the organised response to and recovery from an unexpected event. "Incident command" is a specific US/UK framework; "emergency response" is a broader colloquial term.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u23-v5', type: 'fill-blank', level: 'C1', topic: 'disaster-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Disaster Risk|Riesgo de desastres]]', instructions: 'Complete with the correct word.',
-      questions: [{ question: 'The Sendai Framework identifies four priorities for disaster risk reduction, with the first being a better _______ of disaster risk — understanding the hazard, exposure, vulnerability and capacity dimensions of risk at all scales.', options: ['[[understanding|comprensión]]', '[[prevention|prevención]]', '[[awareness|concienciación]]'], correctAnswer: 'understanding', acceptableAnswers: ['understanding'], explanation: '"Understanding of disaster risk" = the first priority in the Sendai Framework (2015-2030 UN disaster risk reduction agreement).' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u23-r1', type: 'reading-comprehension', level: 'C1', topic: 'disaster-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Disasters and Inequality|Desastres y desigualdad]]', instructions: 'Read and answer.',
       questions: [{ question: 'Text: "Natural disasters are not naturally distributed — their impacts fall disproportionately on the poorest and most marginalised communities. The same earthquake that kills thousands in one country may cause minimal casualties in another, the difference lying not in geology but in building standards, governance quality, early warning systems and the capacity to recover. In this sense, disaster vulnerability is primarily a political and economic phenomenon."\n\nWhat is the central argument?', options: ['[[Earthquakes and other natural disasters should be redesignated as man-made disasters because human factors always determine their scale, regardless of their geological or meteorological origins.|Los terremotos y otros desastres naturales deberían reclasificarse como desastres provocados por el hombre porque los factores humanos siempre determinan su escala.]]', '[[The severity of disaster impacts is determined more by social, political and economic factors than by the natural hazard itself — making vulnerability primarily a human, not natural, problem.|La gravedad de los impactos de los desastres está determinada más por factores sociales, políticos y económicos que por el peligro natural en sí, lo que hace que la vulnerabilidad sea principalmente un problema humano.]]', '[[Wealthy countries suffer fewer casualties in natural disasters because they can better predict and model geological events using advanced early warning technologies not available to poorer nations.|Los países ricos sufren menos bajas en los desastres naturales porque pueden predecir y modelar mejor los eventos geológicos usando tecnologías avanzadas de alerta temprana no disponibles para las naciones más pobres.]]'], correctAnswer: 1, explanation: 'The text explicitly says disaster impacts fall on the poorest, the difference lies in "governance quality" and "capacity to recover", and concludes vulnerability is "a political and economic phenomenon".' }] },
@@ -82,15 +58,138 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u23-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'disaster-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Natural Disasters and Risk), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u23-l1', type: 'listening-comprehension', level: 'C1', topic: 'disaster-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[Risk Communication|Comunicación del riesgo]]', instructions: 'Listen and choose the correct answer.',
       questions: [{ question: 'An emergency planner says: "One of the most persistent challenges in disaster risk communication is what we call the normalcy bias — the tendency of people to underestimate the likelihood of a disaster occurring and to assume that things will continue as normal. This leads communities to discount warnings, delay evacuations and neglect preparedness measures that they perceive as unnecessarily alarmist."\n\nWhat is the "normalcy bias"?', options: ['[[The scientific tendency to normalise disaster data by adjusting for population size and development level, making it easier to compare disaster impacts across different countries and regions.|La tendencia científica a normalizar los datos de desastres ajustando por tamaño de población y nivel de desarrollo, facilitando la comparación de impactos entre diferentes países y regiones.]]', '[[The psychological tendency to assume things will continue as normal and to underestimate disaster risk, leading people to ignore warnings, delay evacuations and neglect preparation.|La tendencia psicológica a asumir que las cosas seguirán como de costumbre y a subestimar el riesgo de desastres, lo que lleva a la gente a ignorar advertencias, retrasar evacuaciones y descuidar la preparación.]]', '[[The normal distribution of disaster risk across populations, meaning that vulnerability is spread evenly across communities regardless of wealth, governance quality or physical location.|La distribución normal del riesgo de desastres entre las poblaciones, lo que significa que la vulnerabilidad se distribuye uniformemente entre las comunidades independientemente de la riqueza o la ubicación.]]'], correctAnswer: 1, explanation: 'The planner defines normalcy bias as the tendency to "underestimate the likelihood" and "assume things will continue as normal" → discounting warnings and delaying evacuations.' }] },
     topicName: 'Listening',
   },
   {
+    id: 'c1-u23-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'disaster-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u23-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'disaster-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
     id: 'c1-u23-w1', type: 'multiple-choice', level: 'C1', topic: 'report-writing', difficulty: 'hard',
     content: { title: '[[Writing|Escritura]]: [[Report Writing|Redacción de informes]]', instructions: 'Choose the best paragraph for a report on improving disaster preparedness.',
       questions: [{ question: 'Choose the most effective recommendation paragraph for a formal report on disaster risk reduction:', options: ['[[It is recommended that local authorities invest substantially in community-based early warning systems, prioritising the most socially vulnerable populations who are statistically most exposed to disaster risk and least equipped to self-evacuate without structured support.|Se recomienda que las autoridades locales inviertan sustancialmente en sistemas de alerta temprana basados en la comunidad, priorizando las poblaciones socialmente más vulnerables que están estadísticamente más expuestas al riesgo de desastres.]]', '[[Local authorities should invest more in early warning systems because this would help communities be better prepared. Vulnerable communities especially need help because they cannot evacuate on their own very easily.|Las autoridades locales deberían invertir más en sistemas de alerta temprana porque esto ayudaría a las comunidades a estar mejor preparadas. Las comunidades vulnerables especialmente necesitan ayuda porque no pueden evacuar fácilmente por sí solas.]]', '[[We think that local authorities need to do more about early warning systems. The problem is very serious and something needs to be done. Vulnerable people are the most affected and they need help urgently.|Creemos que las autoridades locales necesitan hacer más sobre los sistemas de alerta temprana. El problema es muy serio y hay que hacer algo. Las personas vulnerables son las más afectadas y necesitan ayuda urgentemente.]]'], correctAnswer: 0, explanation: 'Option A uses the impersonal passive ("It is recommended"), nominalisation, precise qualification ("statistically most exposed") and formal register — all features of a formal report recommendation.' }] },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u23-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'report-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u23-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'report-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
     topicName: 'Writing',
   },
   {
@@ -101,6 +200,54 @@ export const UNIT_23_EXERCISES: Exercise[] = [
         '[[The economic case for prevention is, needless to say, overwhelming — research consistently shows that every dollar invested in disaster risk reduction saves multiple dollars in post-disaster costs. The real question is why, given this evidence, prevention remains so chronically underfunded, which brings us back to the political economy of disaster response.|El caso económico para la prevención es, huelga decirlo, abrumador: la investigación muestra consistentemente que cada dólar invertido en reducción del riesgo de desastres ahorra múltiples dólares en costes posteriores. La pregunta real es por qué, dada esta evidencia, la prevención sigue estando tan crónicamente infrafinanciada.]]',
         '[[I think reconstruction is more important because after a disaster people need immediate help. You cannot just ignore people who are suffering and tell them to wait while you invest in prevention for the future.|Creo que la reconstrucción es más importante porque después de un desastre las personas necesitan ayuda inmediata. No puedes ignorar a las personas que sufren y decirles que esperen mientras inviertes en prevención para el futuro.]]',
       ], correctAnswer: 1, explanation: 'Option B uses a comment clause ("needless to say"), cites evidence, and then reframes the question to a deeper policy puzzle — demonstrating the analytical sophistication expected at C1.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u23-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-disasters',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u23-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-disasters',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

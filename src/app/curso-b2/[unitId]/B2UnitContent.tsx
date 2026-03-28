@@ -1,25 +1,20 @@
 'use client';
 
 import { useParams, useSearchParams } from 'next/navigation';
-import { useEffect, useState, Suspense } from 'react';
+import { useEffect, useMemo, useState, Suspense } from 'react';
 import ExerciseRenderer from '@/components/ExerciseRenderer';
 import { ArrowLeft, ArrowRight, Home, CheckCircle, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 import { trackUnitTimeSpent, trackExerciseCompletion, trackUnitCompletion } from '@/lib/analytics';
 import AIExercisePractice from '@/components/course/AIExercisePractice';
 import { useSpacedRepetition } from '@/hooks/use-spaced-repetition';
-
-const CHUNK_SIZE = 18; // B2: 18 ejercicios por lección (vs 15 en B1)
-
-function lessonSkillFromType(t: string) {
-  const type = (t || '').toLowerCase();
-  if (type.includes('speaking') || type === 'pronunciation') return 'speaking';
-  if (type.includes('listening')) return 'listening';
-  if (type.includes('reading')) return 'reading';
-  if (type.includes('writing')) return 'writing';
-  if (type.includes('vocab')) return 'vocabulary';
-  return 'grammar';
-}
+import {
+  buildSixLessonLayout,
+  getSixLessonNavState,
+  getSixLessonSlotAtGlobalIndex,
+  shouldShowSixLessonCompleteInterstitial,
+  SIX_LESSON_KEYS,
+} from '@/lib/course/six-lesson-layout';
 
 function B2UnitContentInner() {
   const params = useParams();
@@ -39,7 +34,7 @@ function B2UnitContentInner() {
   const { recordResult } = useSpacedRepetition('B2');
 
   const handleAIPracticeReady = (aiExercises: any[]) => {
-    setExercises(aiExercises);
+    setExercises(buildSixLessonLayout(aiExercises).orderedExercises);
     setCurrentIndex(0);
     setFailedIndexes([]);
     setShowUnitSummary(false);
@@ -66,12 +61,12 @@ function B2UnitContentInner() {
       setLessonKeyCounts({});
       return;
     }
+    const layout = buildSixLessonLayout(exercises);
     const counts: Record<string, number> = {};
     for (let i = 0; i < exercises.length; i++) {
-      const ex = exercises[i];
-      const lessonNumber = Math.floor(i / CHUNK_SIZE) + 1;
-      const skill = lessonSkillFromType((ex?.type as string) ?? 'unknown');
-      const key = `lesson-${lessonNumber}-${skill}`;
+      const slot = getSixLessonSlotAtGlobalIndex(layout, i);
+      const skill = SIX_LESSON_KEYS[slot];
+      const key = `lesson-${slot + 1}-${skill}`;
       counts[key] = (counts[key] ?? 0) + 1;
     }
     setLessonKeyCounts(counts);
@@ -105,7 +100,7 @@ function B2UnitContentInner() {
             }
             return ex;
           });
-          setExercises(normalizedExercises);
+          setExercises(buildSixLessonLayout(normalizedExercises).orderedExercises);
           const indexParam = searchParams.get('index');
           if (indexParam) {
             const idx = parseInt(indexParam);
@@ -120,6 +115,14 @@ function B2UnitContentInner() {
     }
     loadUnit();
   }, [unitId, searchParams]);
+
+  const sixLayout = useMemo(() => buildSixLessonLayout(exercises), [exercises]);
+  const lessonNav = useMemo(
+    () => getSixLessonNavState(sixLayout, Math.min(currentIndex, Math.max(0, exercises.length - 1))),
+    [sixLayout, currentIndex, exercises.length]
+  );
+  const { lessonNumber, totalPedagogicalLessons, exerciseInLesson, exercisesInThisLesson, lessonLabelEs } =
+    lessonNav;
 
   if (loading) return (
     <div className="min-h-screen flex items-center justify-center bg-slate-50">
@@ -155,10 +158,6 @@ function B2UnitContentInner() {
   );
 
   const currentExercise = exercises[currentIndex];
-  const lessonNumber = Math.floor(currentIndex / CHUNK_SIZE) + 1;
-  const totalLessons = Math.ceil(exercises.length / CHUNK_SIZE);
-  const exerciseInLesson = (currentIndex % CHUNK_SIZE) + 1;
-  const exercisesInThisLesson = Math.min(CHUNK_SIZE, exercises.length - (lessonNumber - 1) * CHUNK_SIZE);
 
   if (showUnitSummary) {
     const durationMinutes = Math.round((Date.now() - startTime) / 60000);
@@ -208,9 +207,10 @@ function B2UnitContentInner() {
           </div>
           <h2 className="text-3xl font-black text-slate-800 mb-2 italic flex items-center justify-center gap-2">
             <Sparkles className="w-6 h-6 text-amber-400" />
-            ¡Lección {lessonNumber} Completada!
+            ¡Lección {lessonNumber} completada!
             <Sparkles className="w-6 h-6 text-amber-400" />
           </h2>
+          <p className="text-violet-600 font-bold text-lg mb-2">{lessonLabelEs}</p>
           <p className="text-slate-600 mb-8 text-lg">
             Has completado {exercisesInThisLesson} ejercicios con éxito. ¡Sigue así!
           </p>
@@ -236,7 +236,8 @@ function B2UnitContentInner() {
           <h1 className="font-black text-xl text-slate-800 uppercase tracking-tight">
             B2: {unitTitle}
             <span className="ml-4 text-slate-400 font-medium text-sm">
-              Lección {lessonNumber} de {totalLessons} • Ejercicio {exerciseInLesson} de {exercisesInThisLesson}
+              Lección {lessonNumber} de {totalPedagogicalLessons} · {lessonLabelEs} • Ejercicio {exerciseInLesson}{' '}
+              de {exercisesInThisLesson}
             </span>
           </h1>
         </div>
@@ -266,9 +267,9 @@ function B2UnitContentInner() {
               // Unified academic progress (best-effort).
               try {
                 const progressUnitId = parseInt(unitId.replace('unit-', ''), 10);
-                const lessonNumber = Math.floor(currentIndex / CHUNK_SIZE) + 1;
-                const lessonSkill = lessonSkillFromType((ex?.type as string) ?? 'unknown');
-                const lessonKey = `lesson-${lessonNumber}-${lessonSkill}`;
+                const slot = getSixLessonSlotAtGlobalIndex(sixLayout, currentIndex);
+                const lessonSkill = SIX_LESSON_KEYS[slot];
+                const lessonKey = `lesson-${slot + 1}-${lessonSkill}`;
                 const expectedExercisesTotal = lessonKeyCounts[lessonKey] ?? 0;
 
                 fetch('/api/progress/record', {
@@ -288,7 +289,7 @@ function B2UnitContentInner() {
             }
             if (currentIndex === exercises.length - 1) {
               setShowUnitSummary(true);
-            } else if ((currentIndex + 1) % CHUNK_SIZE === 0) {
+            } else if (shouldShowSixLessonCompleteInterstitial(sixLayout, currentIndex, exercises.length)) {
               setShowLessonComplete(true);
             } else {
               setCurrentIndex(prev => prev + 1);

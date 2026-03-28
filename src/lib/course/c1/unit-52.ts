@@ -28,18 +28,6 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u52-g4', type: 'fill-blank', level: 'C1', topic: 'cleft-sentences', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[What Matters / What Concerns|Lo que importa / Lo que preocupa]]', instructions: 'Complete the sentence.',
-      questions: [{ question: '_______ most about the trajectory of artificial general intelligence research is not the current capabilities of existing systems, which remain narrow and brittle despite their impressive surface performance, but the pace of progress and the question of whether the field has adequate frameworks for anticipating and managing qualitative capability jumps when and if they occur.', options: ['[[What concerns researchers|Lo que preocupa a los investigadores]]', '[[That concerns researchers|Lo que preocupa a los investigadores]]', '[[Which concerns researchers|Que preocupa a los investigadores]]'], correctAnswer: 'What concerns researchers', acceptableAnswers: ['What concerns researchers', 'What concerns experts', 'What concerns many'], explanation: '"What concerns/worries/matters to + subject + most is + noun/clause" = what-cleft that focuses the complement as the new information. "That" as a demonstrative pronoun cannot begin this type of cleft sentence. "Which" requires a prior noun antecedent.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u52-g5', type: 'multiple-choice', level: 'C1', topic: 'cleft-sentences', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Combining Cleft Structures|Combinar estructuras hendidas]]', instructions: 'Choose the response that most effectively integrates multiple cleft sentence types.',
-      questions: [{ question: 'Which sentence most sophisticatedly integrates multiple cleft structures in a formal context?', options: ['[[What makes the governance of artificial intelligence so uniquely difficult is not the technology itself but the mismatch between its pace of development and the pace of regulatory response; it is precisely this gap that bad actors — whether state or commercial — are most likely to exploit, and it is therefore the closing of this gap, rather than the prohibition of any particular application, that ought to be the primary objective of any serious governance framework.|Lo que hace tan difícil la gobernanza de la inteligencia artificial no es la tecnología en sí sino la discordancia entre el ritmo de su desarrollo y el ritmo de la respuesta regulatoria; es precisamente esta brecha la que los actores malintencionados tienen más probabilidades de explotar, y es por lo tanto el cierre de esta brecha lo que debería ser el objetivo primario de cualquier marco de gobernanza serio.]]', '[[What makes AI governance difficult is the technology. It is the development pace that is the problem. The reason why this is hard is because regulation is slow. What matters most is that we solve this.|Lo que hace difícil la gobernanza de la IA es la tecnología. Es el ritmo de desarrollo lo que es el problema.]]', '[[The reason why AI governance is difficult is that the technology is advancing. It is this which is the problem, and what matters is the regulatory response. What is needed is better frameworks that address what the problem is.|La razón por la que la gobernanza de la IA es difícil es que la tecnología está avanzando.]]'], correctAnswer: 0, explanation: 'Option A uses "What makes…is not X but Y" (what-cleft with contrast), "it is precisely this gap that" (it-cleft), and "it is therefore X…that ought to be" (second it-cleft) — three cleft structures building a coherent argument.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u52-v1', type: 'multiple-choice', level: 'C1', topic: 'ai-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Artificial Intelligence Concepts|Conceptos de inteligencia artificial]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'The phenomenon in which AI systems trained on historical data learn and reproduce the biases present in that data — including gender, racial and socioeconomic biases — thereby perpetuating and potentially amplifying existing patterns of discrimination when deployed in consequential decision-making contexts is known as _______.', options: ['[[algorithmic bias|sesgo algorítmico]]', '[[overfitting|sobreajuste]]', '[[hallucination|alucinación]]'], correctAnswer: 0, explanation: '"Algorithmic bias" = the systematic and repeatable errors in AI outputs that create unfair outcomes — typically arising from biased training data or biased model design. "Overfitting" = a model performing well on training data but poorly on new data. "Hallucination" = AI generating confident but factually incorrect outputs.' }] },
@@ -58,18 +46,6 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u52-v4', type: 'fill-blank', level: 'C1', topic: 'ai-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Machine Learning|Aprendizaje automático]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The subset of artificial intelligence in which systems learn to perform tasks by identifying statistical patterns in large datasets — rather than being explicitly programmed with rules — and improve their performance through experience is known as _______ learning.', options: ['[[machine|automático]]', '[[deep|profundo]]', '[[supervised|supervisado]]'], correctAnswer: 'machine', acceptableAnswers: ['machine'], explanation: '"Machine learning" = the broad category of AI approaches where systems learn from data. "Deep learning" = a subset of machine learning using multi-layered neural networks. "Supervised learning" = a machine learning method using labelled training examples. The sentence describes machine learning in general terms.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u52-v5', type: 'multiple-choice', level: 'C1', topic: 'ai-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[AI Governance|Gobernanza de la IA]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'The principle that AI systems used in consequential decisions — hiring, lending, sentencing, medical diagnosis — should be capable of explaining their outputs in terms that humans can understand and evaluate, and that affected individuals should have the right to such explanations, is known as _______.', options: ['[[explainability or interpretability|explicabilidad o interpretabilidad]]', '[[scalability|escalabilidad]]', '[[tokenisation|tokenización]]'], correctAnswer: 0, explanation: '"Explainability" (or "interpretability") = the capacity of an AI system to provide human-understandable accounts of its outputs. Enshrined in the GDPR as a right to explanation for automated decisions. "Scalability" = the ability to handle increasing loads. "Tokenisation" = how AI models process text.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u52-r1', type: 'reading', level: 'C1', topic: 'ai-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Alignment Problem|El problema de la alineación]]', instructions: 'Read and answer.',
       passage: 'What makes the alignment problem — the challenge of ensuring that advanced AI systems pursue goals that are actually beneficial to humanity rather than merely the proxies that humans have specified — so technically and philosophically difficult is not its novelty but its structure. It is a problem of specification under uncertainty: what we want AI systems to do is not fully articulable in advance, because it depends on values, contexts and trade-offs that we cannot exhaustively enumerate. The reason why this matters far more than it might seem is that even small misspecifications in an objective function can, in sufficiently capable systems, produce dramatically unaligned behaviour as the system optimises efficiently for the wrong thing. What has come to be known as Goodhart\'s Law — "when a measure becomes a target, it ceases to be a good measure" — captures part of this problem: systems optimised for measurable proxies of human welfare tend to find ways of satisfying the measure without satisfying the underlying value. It is this structural feature of the alignment problem, rather than any science-fiction scenario of malicious AI, that most concerns researchers working seriously in the field.',
@@ -84,10 +60,85 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u52-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'ai-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Artificial Intelligence and Society), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u52-l1', type: 'listening', level: 'C1', topic: 'ai-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Conference on AI Ethics|Una conferencia sobre ética de la IA]]', instructions: 'Read the transcript and answer.',
       passage: 'Speaker: What I want to challenge today is what I think of as the "governance gap" framing of the AI challenge — the idea that the problem is simply that regulation is lagging behind technology. This framing is correct as far as it goes, but what it misses is that closing the gap requires not merely writing more rules but developing the institutional capacity to understand, evaluate and monitor systems of enormous and rapidly increasing complexity. The reason why existing regulatory frameworks are inadequate is not primarily that they lack authority, but that they lack expertise. It is the combination of technical opacity, rapid capability change and commercial incentives to obscure how systems work that makes AI governance qualitatively different from regulating previous industries. What is needed, therefore, is not merely more regulation but a new kind of regulatory institution — one that embeds deep technical expertise, operates with genuine independence from both government and industry, and has both the mandate and the resources to conduct its own technical evaluations rather than relying on the self-reporting of the companies being regulated. What the history of financial regulation should have taught us is that regulatory capture is the default outcome when regulators lack the resources and expertise to be genuinely independent.',
       questions: [{ question: 'What does the speaker identify as the primary inadequacy of existing regulatory frameworks for AI?', options: ['[[Not primarily a lack of authority but a lack of expertise — the combination of technical opacity, rapid capability change and commercial incentives to obscure how systems work makes AI governance qualitatively different, requiring regulators with deep technical expertise and genuine independence rather than simply more rules.|No principalmente una falta de autoridad sino una falta de experiencia: la combinación de opacidad técnica, cambio rápido de capacidades e incentivos comerciales para oscurecer cómo funcionan los sistemas hace que la gobernanza de la IA sea cualitativamente diferente, requiriendo reguladores con profunda experiencia técnica e independencia genuina.]]', '[[The primary inadequacy is that existing frameworks were designed for physical products and services and cannot easily be adapted to govern software systems that operate invisibly, update continuously and have no physical presence in any single jurisdiction.|La principal inadecuación es que los marcos existentes fueron diseñados para productos y servicios físicos y no pueden adaptarse fácilmente para gobernar sistemas de software que operan de forma invisible.]]', '[[The speaker argues that existing frameworks are inadequate primarily because they are national in scope, while AI systems are global, and any effective regulation must therefore be international and coordinated across jurisdictions through binding treaty obligations.|El orador argumenta que los marcos existentes son inadecuados principalmente porque tienen alcance nacional, mientras que los sistemas de IA son globales.]]'], correctAnswer: 0, explanation: 'The speaker states: "The reason why existing regulatory frameworks are inadequate is not primarily that they lack authority, but that they lack expertise" — and identifies "technical opacity, rapid capability change and commercial incentives to obscure" as the key challenges.' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u52-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'ai-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u52-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'ai-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u52-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'ai-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u52-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'ai-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u52-s1', type: 'speaking', level: 'C1', topic: 'ai-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Debating AI Governance|Debatir sobre la gobernanza de la IA]]', instructions: 'Which response best demonstrates C1 spoken proficiency on AI?',
       questions: [{ question: 'Question: "Should AI development be regulated more strictly?"', options: ['[[What I find most striking about this debate is how often it frames "more regulation" versus "less regulation" as the key choice, when the more fundamental question is what kind of regulatory capacity we need to build — and it is the absence of that capacity, rather than the absence of rules per se, that is the real gap; it is precisely the combination of technical complexity, rapid change and concentrated commercial power that makes AI governance so different from any sector we have successfully regulated before, which is why what is needed is not just more rules but fundamentally different regulatory institutions.|Lo que me parece más llamativo de este debate es cómo a menudo enmarca "más regulación" versus "menos regulación" como la elección clave, cuando la pregunta más fundamental es qué tipo de capacidad regulatoria necesitamos construir; es precisamente la combinación de complejidad técnica, cambio rápido y poder comercial concentrado lo que hace que la gobernanza de la IA sea tan diferente de cualquier sector que hayamos regulado con éxito antes.]]', '[[What AI needs is more regulation. It is the lack of rules that is the problem. The reason why this matters is that AI affects everyone. What we need is stricter laws and better enforcement by governments.|Lo que la IA necesita es más regulación. Es la falta de reglas lo que es el problema.]]', '[[AI should be regulated more. What is happening now is not enough. It is the technology companies that are the problem. The reason why they are a problem is because they do not regulate themselves.|La IA debería regularse más. Lo que está sucediendo ahora no es suficiente.]]'], correctAnswer: 0, explanation: 'Option A uses "What I find most striking is how", "it is the absence…that is the real gap", "it is precisely…that makes" and "what is needed is not just…but" — four cleft or focusing structures building a genuinely analytical argument.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u52-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'ai-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u52-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'ai-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

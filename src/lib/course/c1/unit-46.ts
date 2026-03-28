@@ -28,18 +28,6 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u46-g4', type: 'fill-blank', level: 'C1', topic: 'adverbial-clauses', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Time Clauses: Once / As soon as / By the time|Cláusulas temporales: una vez que / tan pronto como / para cuando]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'By the time international mediators arrived in the region, fighting had already spread to three neighbouring provinces, _______ the initial mandate of the peacekeeping force — which had been designed for a contained, localised conflict — entirely obsolete.', options: ['[[rendering|dejando]]', '[[rendered|dejó]]', '[[to render|para dejar]]'], correctAnswer: 'rendering', acceptableAnswers: ['rendering'], explanation: '"By the time + past perfect main clause, + present participle phrase" — the participle "rendering" expresses a result occurring simultaneously with or as a consequence of the main clause event. "Rendered" would need "which rendered". "To render" is infinitive of purpose — wrong here.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u46-g5', type: 'multiple-choice', level: 'C1', topic: 'adverbial-clauses', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Complex Adverbial Clauses in Formal Prose|Cláusulas adverbiales complejas en prosa formal]]', instructions: 'Choose the most sophisticated sentence.',
-      questions: [{ question: 'Which sentence integrates advanced adverbial clauses most effectively in a conflict context?', options: ['[[Such was the scale of the humanitarian catastrophe that followed the breakdown of the ceasefire that international donors were compelled to increase emergency funding substantially, so that aid organisations could maintain the minimum operational capacity required to prevent a total collapse of civilian services in the most affected areas.|Tal fue la escala de la catástrofe humanitaria que siguió al colapso del alto el fuego que los donantes internacionales se vieron compelidos a aumentar sustancialmente la financiación de emergencia, de modo que las organizaciones de ayuda pudieran mantener la capacidad operativa mínima necesaria.]]', '[[The humanitarian catastrophe was very big after the ceasefire broke down. Donors gave more money so that aid organisations could work. They needed this money in order to help people in the affected areas.|La catástrofe humanitaria fue muy grande después del colapso del alto el fuego. Los donantes dieron más dinero para que las organizaciones de ayuda pudieran trabajar.]]', '[[After the ceasefire broke down, the humanitarian catastrophe was so big that donors had to give more money. Aid organisations needed this funding in order that they work in the affected areas.|Después del colapso del alto el fuego, la catástrofe humanitaria fue tan grande que los donantes tuvieron que dar más dinero.]]'], correctAnswer: 0, explanation: '"Such was the scale…that" (result) + "so that…could" (purpose) — two advanced adverbial clause types integrated into a single, formally registered complex sentence.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u46-v1', type: 'multiple-choice', level: 'C1', topic: 'conflict-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Conflict and Peacebuilding|Conflicto y construcción de paz]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'The process of rebuilding political institutions, the rule of law and social cohesion in a society that has emerged from prolonged armed conflict — designed to address the root causes of the violence and prevent recurrence — is known as _______.', options: ['[[post-conflict reconstruction|reconstrucción post-conflicto]]', '[[deterrence|disuasión]]', '[[containment|contención]]'], correctAnswer: 0, explanation: '"Post-conflict reconstruction" = the comprehensive process of rebuilding political, economic and social systems. "Deterrence" = preventing conflict through threat of retaliation. "Containment" = limiting the spread of a conflict or ideology.' }] },
@@ -58,18 +46,6 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u46-v4', type: 'fill-blank', level: 'C1', topic: 'conflict-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Responsibility to Protect|Responsabilidad de proteger]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The doctrine — adopted by the United Nations at the 2005 World Summit — holding that sovereignty entails a responsibility to protect citizens from genocide, war crimes, crimes against humanity and ethnic cleansing, and that the international community may intervene if a state fails to fulfil this responsibility, is known as the Responsibility to _______ (R2P).', options: ['[[Protect|Proteger]]', '[[Prosecute|Procesar]]', '[[Prevent|Prevenir]]'], correctAnswer: 'Protect', acceptableAnswers: ['Protect'], explanation: '"Responsibility to Protect" (R2P) = the 2005 norm that sovereignty is conditional on protecting citizens from mass atrocity crimes. If a state fails, the international community has a responsibility to intervene. Highly contested in practice.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u46-v5', type: 'multiple-choice', level: 'C1', topic: 'conflict-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Transitional Justice|Justicia transicional]]', instructions: 'Choose the correct collocation.',
-      questions: [{ question: 'An official body established to investigate patterns of human rights violations committed under a prior authoritarian regime or during armed conflict — providing victims with acknowledgement, establishing an historical record and making recommendations for institutional reform — is called a _______.', options: ['[[truth and reconciliation commission|comisión de verdad y reconciliación]]', '[[war crimes tribunal|tribunal de crímenes de guerra]]', '[[constitutional court|tribunal constitucional]]'], correctAnswer: 0, explanation: '"Truth and reconciliation commission" = a form of transitional justice that prioritises acknowledgement, historical truth and reconciliation over criminal prosecution. Notable examples: South Africa (1996), Colombia (2016). "War crimes tribunal" = criminal prosecution body.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u46-r1', type: 'reading', level: 'C1', topic: 'conflict-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Limits of Humanitarian Intervention|Los límites de la intervención humanitaria]]', instructions: 'Read and answer.',
       passage: 'The concept of humanitarian intervention — the use of military force by external actors so that civilian populations can be protected from mass atrocities — occupies deeply contested terrain in international law and political theory. Proponents argue that the principle of sovereignty cannot function as an absolute shield behind which governments may commit atrocities against their own citizens, and that the international community has both the right and the responsibility to intervene in such circumstances. Critics, by contrast, contend that the doctrine has been applied selectively — determined more by the strategic interests of powerful intervening states than by the severity of the humanitarian emergency — and that military intervention, even when well-intentioned, frequently destabilises states further, such that the harm caused by intervention may exceed the harm it sought to prevent. The experience of Libya following the 2011 NATO intervention is frequently cited lest advocates of humanitarian intervention overlook the unintended consequences of removing authoritarian regimes without credible post-conflict governance plans.',
@@ -84,10 +60,85 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u46-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'conflict-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (War, Conflict and Peacekeeping), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u46-l1', type: 'listening', level: 'C1', topic: 'conflict-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Security Studies Lecture|Una conferencia de estudios de seguridad]]', instructions: 'Read the transcript and answer.',
       passage: 'Lecturer: Today I want to discuss why peace agreements fail. Historically, peace deals have been concluded so that fighting stops in the short term, but such has been the inadequacy of implementation mechanisms that a significant proportion collapse within five years. The root causes of this failure are structural. By the time external mediators exit the scene, the deep grievances — over land, power and resources — that fuelled the conflict remain unaddressed. Parties sign agreements lest they lose international support, but without genuine commitment to the political compromises required. In order that a peace agreement endures, it must resolve the underlying political economy of the conflict: who controls resources, who has access to state institutions and how security forces are reformed and made accountable. Student: What is the single most important factor? Lecturer: Such is the complexity of post-conflict environments that no single factor determines success. But if I were to identify one, it would be the quality of local ownership — the degree to which the agreement is seen as legitimate by the populations affected, rather than as something imposed from outside in order that external actors can declare the mission accomplished.',
       questions: [{ question: 'What does the lecturer identify as a key reason many peace agreements fail?', options: ['[[Parties sign lest they lose international support but without genuine commitment, and implementation mechanisms are inadequate; deep underlying grievances over land, power and resources remain unaddressed by the time mediators leave.|Los partidos firman por temor a perder el apoyo internacional pero sin compromiso genuino, y los mecanismos de implementación son inadecuados; las profundas quejas subyacentes sobre tierra, poder y recursos siguen sin abordarse.]]', '[[The lecturer argues that peace agreements fail primarily because international mediators lack the military capacity to enforce implementation once they have withdrawn from the region.|El conferenciante argumenta que los acuerdos de paz fracasan principalmente porque los mediadores internacionales carecen de la capacidad militar para hacer cumplir la implementación.]]', '[[Peace agreements fail because they are typically negotiated too quickly, before the warring parties have exhausted their military options and concluded that continued fighting is no longer in their interest.|Los acuerdos de paz fracasan porque generalmente se negocian demasiado rápido, antes de que las partes beligerantes hayan agotado sus opciones militares.]]'], correctAnswer: 0, explanation: 'The lecturer says parties "sign agreements lest they lose international support, but without genuine commitment" and that "implementation mechanisms" are inadequate, leaving deep grievances over land, power and resources unresolved.' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u46-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'conflict-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u46-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'conflict-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u46-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'conflict-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u46-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'conflict-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u46-s1', type: 'speaking', level: 'C1', topic: 'conflict-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Peacekeeping and Sovereignty|Mantenimiento de la paz y soberanía]]', instructions: 'Which response demonstrates C1 spoken proficiency on conflict and international order?',
       questions: [{ question: 'Question: "Should the UN Security Council have greater powers to intervene in civil wars?"', options: ['[[There is a real tension here between two foundational principles of the international order: state sovereignty and the responsibility to protect civilians. In order that the Security Council become more effective, the veto power — which currently allows any permanent member to block action in order to protect its own allies regardless of the humanitarian cost — would need to be reformed; such are the geopolitical interests at stake, however, that achieving this seems, at present, deeply unlikely.|Hay una tensión real aquí entre dos principios fundamentales del orden internacional: la soberanía estatal y la responsabilidad de proteger a los civiles. Para que el Consejo de Seguridad sea más eficaz, el poder de veto necesitaría reformarse; sin embargo, dados los intereses geopolíticos en juego, lograr esto parece, en este momento, profundamente improbable.]]', '[[I think the UN should have more power to stop civil wars. So that it can do this, it needs more resources and less veto power. Such a problem is the veto that nothing gets done. In order to fix this, reform is needed.|Creo que la ONU debería tener más poder para detener las guerras civiles. Para que pueda hacerlo, necesita más recursos y menos poder de veto.]]', '[[The UN Security Council should intervene more. So that peace can be achieved, the veto should be removed. Such intervention would help protect civilians from their own governments. In order that this happens, member states must agree to reform.|El Consejo de Seguridad de la ONU debería intervenir más. Para que se pueda lograr la paz, el veto debería eliminarse.]]'], correctAnswer: 0, explanation: 'Option A uses "In order that…would need to" (purpose with conditional nuance) and "Such are the geopolitical interests…that" (result with inversion) — both advanced adverbial structures in a coherent spoken argument.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u46-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'conflict-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u46-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'conflict-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

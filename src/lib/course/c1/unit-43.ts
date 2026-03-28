@@ -28,18 +28,6 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u43-g4', type: 'fill-blank', level: 'C1', topic: 'advanced-obligation', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Obligation in Formal Legal Register|Obligación en registro jurídico formal]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'Member states that have ratified the Convention Against Torture _______ ensure that no person is subjected to torture or cruel, inhuman or degrading treatment, and must prosecute or extradite any individual within their jurisdiction alleged to have committed such acts.', options: ['[[are obliged to|están obligados a]]', '[[are obliging to|están obligando a]]', '[[have the obligation being|tienen la obligación de ser]]'], correctAnswer: 'are obliged to', acceptableAnswers: ['are obliged to', 'are required to', 'are compelled to', 'must'], explanation: '"Are obliged to + infinitive" = formal legal obligation. "Are obliging to" is ungrammatical. "Have the obligation being" is ungrammatical — the correct form would be "have the obligation to + infinitive".' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u43-g5', type: 'multiple-choice', level: 'C1', topic: 'advanced-obligation', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Obligation Structures in Academic Writing|Estructuras de obligación en escritura académica]]', instructions: 'Choose the most formally sophisticated sentence.',
-      questions: [{ question: 'Which sentence uses obligation structures most effectively in an international law context?', options: ['[[Whilst states are not compelled to incorporate international human rights norms directly into their domestic legal systems, they are nonetheless required to ensure that their national legislation is compatible with the treaty obligations they have freely undertaken, and may be called upon to account for any discrepancies before the relevant treaty monitoring bodies.|Aunque los estados no están compelidos a incorporar directamente las normas internacionales de derechos humanos en sus sistemas jurídicos nacionales, están no obstante obligados a garantizar que su legislación nacional sea compatible con las obligaciones convencionales que han asumido libremente.]]', '[[States must follow human rights law because they have to. They are obliged to do this when they sign treaties. If they do not, they need to explain why to the UN, which insists on knowing what is happening.|Los estados deben seguir el derecho de derechos humanos porque tienen que hacerlo. Están obligados a hacerlo cuando firman tratados.]]', '[[States are obliged and required and compelled to follow human rights law if they have signed the relevant treaties. They insist on following them. They are required to report to treaty bodies and explain what they are doing.|Los estados están obligados y requeridos y compelidos a seguir el derecho de derechos humanos si han firmado los tratados pertinentes.]]'], correctAnswer: 0, explanation: 'Option A uses "are not compelled to", "are nonetheless required to", and "may be called upon to" — three different obligation structures — appropriately and with sustained formal register.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u43-v1', type: 'multiple-choice', level: 'C1', topic: 'human-rights-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[International Law|Derecho internacional]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'A formal agreement between two or more sovereign states that creates binding legal obligations under international law — and which, once ratified, takes precedence over conflicting domestic legislation in monist legal systems — is known as a _______.', options: ['[[treaty|tratado]]', '[[resolution|resolución]]', '[[declaration|declaración]]'], correctAnswer: 0, explanation: '"Treaty" = binding international legal instrument creating enforceable obligations. "Resolution" = a formal expression of intent by an international body, not necessarily legally binding. "Declaration" = a statement of principles, typically non-binding (e.g., UDHR).' }] },
@@ -58,18 +46,6 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u43-v4', type: 'fill-blank', level: 'C1', topic: 'human-rights-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[International Criminal Law|Derecho penal internacional]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The permanent international court established by the Rome Statute in 1998, with jurisdiction over genocide, crimes against humanity, war crimes and — since 2018 — the crime of aggression, is the International Criminal _______.', options: ['[[Court|Tribunal]]', '[[Commission|Comisión]]', '[[Tribunal|Tribunal (antiguo)]]'], correctAnswer: 'Court', acceptableAnswers: ['Court'], explanation: '"International Criminal Court" (ICC) = established by the Rome Statute, seated in The Hague. Distinct from the International Court of Justice (ICJ), which deals with disputes between states rather than individual criminal responsibility.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u43-v5', type: 'multiple-choice', level: 'C1', topic: 'human-rights-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Human Rights Mechanisms|Mecanismos de derechos humanos]]', instructions: 'Choose the correct collocation.',
-      questions: [{ question: 'The process by which states formally accept the legal force of an international treaty and incorporate it into their legal obligations — typically requiring parliamentary approval and the deposit of a formal instrument with the treaty depository — is known as _______.', options: ['[[ratification|ratificación]]', '[[signature|firma]]', '[[accession|adhesión]]'], correctAnswer: 0, explanation: '"Ratification" = the formal domestic process by which a state confirms its intention to be bound by a treaty it has signed. "Signature" = the initial step, indicating consent to negotiate; not binding. "Accession" = joining a treaty one did not originally sign.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u43-r1', type: 'reading', level: 'C1', topic: 'human-rights-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Universality Debate in Human Rights|El debate sobre la universalidad de los derechos humanos]]', instructions: 'Read and answer.',
       passage: 'The claim that human rights are universal — applying equally to all persons by virtue of their humanity alone, irrespective of nationality, culture or legal status — is both the foundational premise of the international human rights system and its most contested assertion. Critics from non-Western traditions have argued that the frameworks codified in instruments such as the Universal Declaration of Human Rights reflect particular liberal, individualist and Western assumptions about the relationship between the individual and the state, and are not therefore genuinely universal in either origin or application. Proponents of universalism counter that this critique, however intellectually sophisticated, is frequently weaponised by authoritarian governments to insulate abusive practices from external scrutiny — invoking cultural relativism as a shield rather than engaging with it in good faith. States are nonetheless required to engage with the treaty monitoring process, regardless of the philosophical position they adopt, if they have ratified the relevant instruments.',
@@ -84,10 +60,85 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u43-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'human-rights-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Human Rights and International Law), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u43-l1', type: 'listening', level: 'C1', topic: 'human-rights-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Panel Discussion on International Justice|Un debate en panel sobre justicia internacional]]', instructions: 'Read the transcript and answer.',
       passage: 'Panellist A: The International Criminal Court faces a fundamental credibility problem: it has been compelled to focus disproportionately on African defendants, while the nationals of powerful states — including permanent members of the Security Council — appear to operate with effective impunity. Panellist B: That critique has merit, but I would argue that the structural constraints explain the pattern without excusing it. The Court is required to rely on state cooperation for arrests, evidence collection and enforcement of sentences, and states are simply not obliged — in practical terms — to hand over their own nationals. Panellist A: Which is precisely the problem. If the ICC insists on operating only within cases where state cooperation is guaranteed, it will never be more than a court for the weak. Justice requires that all parties be equally accountable, and the Court must find ways to insist on that principle without becoming dependent on the goodwill of the very states it may need to prosecute.',
       questions: [{ question: 'What does Panellist B identify as the structural reason for the ICC\'s focus on African defendants?', options: ['[[The Court is required to rely on state cooperation for arrests and enforcement, and states are not compelled in practice to hand over their own nationals — making prosecutions of powerful states\' nationals structurally unlikely.|El Tribunal está obligado a depender de la cooperación estatal para detenciones y cumplimiento, y los estados en la práctica no están compelidos a entregar a sus propios nacionales, lo que hace que los procesamientos de nacionales de estados poderosos sean estructuralmente improbables.]]', '[[The ICC has deliberately chosen to focus on African defendants because most of the worst human rights violations are concentrated on the African continent, according to both the Court and the UN Security Council.|El TPI ha elegido deliberadamente centrarse en acusados africanos porque la mayoría de las peores violaciones de derechos humanos se concentran en el continente africano, según tanto el Tribunal como el Consejo de Seguridad de la ONU.]]', '[[Panellist B argues that the Court\'s focus on Africa reflects genuine prosecutorial independence and demonstrates that the ICC is willing to act wherever evidence of serious crimes exists, regardless of geopolitics.|El panelista B argumenta que el enfoque del Tribunal en África refleja una independencia procesal genuina y demuestra que el TPI está dispuesto a actuar dondequiera que exista evidencia de crímenes graves.]]'], correctAnswer: 0, explanation: 'Panellist B says "The Court is required to rely on state cooperation for arrests…and states are simply not obliged — in practical terms — to hand over their own nationals".' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u43-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'human-rights-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u43-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'human-rights-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u43-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'human-rights-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u43-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'human-rights-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u43-s1', type: 'speaking', level: 'C1', topic: 'human-rights-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Debating International Justice|Debatir sobre justicia internacional]]', instructions: 'Which response demonstrates C1 spoken proficiency on international law?',
       questions: [{ question: 'Question: "Is international law effective in protecting human rights?"', options: ['[[International law creates a framework of obligation that states are required to take seriously, but its effectiveness is fundamentally contingent on political will — and that will is unevenly distributed. Powerful states have consistently managed to avoid being compelled to account for their own violations, whilst smaller states with fewer geopolitical allies have found themselves subject to far more robust scrutiny. The system insists on formal equality between states, but the practice tells a very different story.|El derecho internacional crea un marco de obligación que los estados están obligados a tomar en serio, pero su eficacia depende fundamentalmente de la voluntad política, que está distribuida de manera desigual. Los estados poderosos han conseguido sistemáticamente evitar verse compelidos a rendir cuentas por sus propias violaciones.]]', '[[International law is sometimes effective but not always. States are required to follow it but some do not. Powerful countries can avoid consequences. The UN insists on following the rules but cannot always force states to comply. It depends on the situation.|El derecho internacional a veces es eficaz pero no siempre. Los estados están obligados a seguirlo pero algunos no lo hacen.]]', '[[I think international law is good but needs improvement. States should be compelled to follow it more strictly. The ICC should insist on prosecuting all war criminals. Countries must be required to cooperate with international courts.|Creo que el derecho internacional es bueno pero necesita mejorar. Los estados deberían verse compelidos a seguirlo más estrictamente.]]'], correctAnswer: 0, explanation: 'Option A uses "are required to take seriously", "being compelled to account", "insists on formal equality" — obligation structures integrated into a nuanced, analytically coherent spoken argument.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u43-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'human-rights-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u43-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'human-rights-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

@@ -28,18 +28,6 @@ export const UNIT_37_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u37-g4', type: 'fill-blank', level: 'C1', topic: 'nominal-clauses', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Nominal Clauses as Object|Cláusulas nominales como objeto]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'Researchers have demonstrated _______ mindfulness-based cognitive therapy significantly reduces the risk of depressive relapse in patients with a history of recurrent depression, with efficacy broadly comparable to maintenance antidepressant medication.', options: ['[[that|que]]', '[[what|lo que]]', '[[which|lo cual]]'], correctAnswer: 'that', acceptableAnswers: ['that'], explanation: '"Demonstrate + that + clause" = nominal that-clause as direct object of the reporting verb. "What" would require the object to refer to an unknown thing, not a specific established finding.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u37-g5', type: 'multiple-choice', level: 'C1', topic: 'nominal-clauses', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Complex Nominal Clause Structures|Estructuras complejas de cláusulas nominales]]', instructions: 'Choose the most grammatically accurate sentence.',
-      questions: [{ question: 'Which sentence correctly uses multiple nominal clause types?', options: ['[[What psychiatrists find most puzzling is that the dramatic rise in self-reported mental health difficulties has not been accompanied by a proportional increase in the severity of life circumstances — suggesting that whether diagnostic criteria or social norms around disclosure have shifted may be as important as the underlying epidemiology.|Lo que los psiquiatras encuentran más desconcertante es que el dramático aumento en las dificultades de salud mental autoinformadas no ha ido acompañado de un aumento proporcional en la gravedad de las circunstancias vitales, lo que sugiere que si los criterios diagnósticos o las normas sociales en torno a la divulgación han cambiado puede ser tan importante como la epidemiología subyacente.]]', '[[What psychiatrists find most puzzling is the dramatic rise in self-reported mental health difficulties has not been accompanied by a proportional increase in severity — suggesting that whether diagnostic criteria or social norms have shifted may be as important as the epidemiology.|Lo que los psiquiatras encuentran más desconcertante es el dramático aumento en las dificultades de salud mental autoinformadas no ha ido acompañado de un aumento proporcional en la gravedad.]]', '[[What psychiatrists find most puzzling is that the dramatic rise has not been accompanied by proportional increase in life circumstances — suggesting what diagnostic criteria or social norms around disclosure have shifted may be important.|Lo que los psiquiatras encuentran más desconcertante es que el dramático aumento no ha ido acompañado de un aumento proporcional, lo que sugiere lo que los criterios diagnósticos o las normas sociales han cambiado puede ser importante.]]'], correctAnswer: 0, explanation: 'Option A: "What…" (nominal what-clause as subject), "is that…" (nominal that-clause as complement), "whether…" (nominal whether-clause as subject of embedded clause) — all correct.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u37-v1', type: 'multiple-choice', level: 'C1', topic: 'health-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Mental Health Terminology|Terminología de salud mental]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'The evidence-based therapeutic approach that helps patients identify and modify unhelpful thought patterns and behaviours — widely used for depression, anxiety disorders and phobias — is known as _______.', options: ['[[cognitive behavioural therapy (CBT)|terapia cognitivo-conductual (TCC)]]', '[[psychoanalysis|psicoanálisis]]', '[[pharmacotherapy|farmacoterapia]]'], correctAnswer: 0, explanation: '"Cognitive behavioural therapy" (CBT) = structured, evidence-based therapy focused on thought-behaviour connections. "Psychoanalysis" = Freudian exploration of the unconscious. "Pharmacotherapy" = treatment using medication.' }] },
@@ -58,18 +46,6 @@ export const UNIT_37_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u37-v4', type: 'fill-blank', level: 'C1', topic: 'health-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Neuroscience and Psychology|Neurociencia y psicología]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The persistent association of mental illness with weakness, unreliability or danger — which discourages people from seeking help and perpetuates discrimination in employment, housing and social relationships — is known as _______.', options: ['[[stigma|estigma]]', '[[bias|sesgo]]', '[[phobia|fobia]]'], correctAnswer: 'stigma', acceptableAnswers: ['stigma'], explanation: '"Stigma" = the negative social label applied to a condition or characteristic, causing shame and discrimination. "Bias" = systematic cognitive preference. "Phobia" = an irrational specific fear.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u37-v5', type: 'multiple-choice', level: 'C1', topic: 'health-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Wellbeing and Lifestyle|Bienestar y estilo de vida]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'The state of being excessively absorbed in work to the detriment of physical health, personal relationships and psychological wellbeing — increasingly recognised as a significant occupational health risk — is described as _______.', options: ['[[burnout|agotamiento / burnout]]', '[[absenteeism|absentismo laboral]]', '[[presenteeism|presentismo laboral]]'], correctAnswer: 0, explanation: '"Burnout" = chronic work-related exhaustion with cynicism and reduced efficacy (WHO recognised occupational phenomenon). "Absenteeism" = absence from work. "Presenteeism" = being physically present but unproductive due to illness.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u37-r1', type: 'reading', level: 'C1', topic: 'health-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Loneliness Epidemic|La epidemia de soledad]]', instructions: 'Read and answer.',
       passage: 'That loneliness has reached epidemic proportions in many high-income societies is a conclusion supported by an expanding body of research. What makes this finding particularly alarming is that the health consequences of chronic loneliness are not merely psychological: longitudinal studies have found that it is associated with a fifteen per cent increase in the risk of premature mortality — an effect comparable in magnitude to smoking fifteen cigarettes per day. Whether this risk is mediated through chronic inflammation, disrupted sleep architecture, reduced immune function or heightened stress reactivity remains the subject of active investigation. What is clear, however, is that social connection should be treated as a public health priority rather than a personal lifestyle matter.' ,
@@ -84,10 +60,85 @@ export const UNIT_37_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u37-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'health-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Mental Health and Wellbeing), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u37-l1', type: 'listening', level: 'C1', topic: 'health-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Mental Health Policy Discussion|Un debate sobre política de salud mental]]', instructions: 'Read the transcript and answer.',
       passage: 'Host: What do you see as the central obstacle to improving mental health services? | Expert: What I consistently find in my work with health systems is that the obstacle is rarely financial in isolation. That mental health receives a fraction of the health budget relative to its disease burden is undeniable. But what perpetuates this underfunding is something more deeply structural: the persistent stigma that leads decision-makers — consciously or not — to treat mental illness as less legitimate than physical illness. Whether investing more would automatically produce better outcomes is also worth examining. You can increase funding, but if the workforce is undertrained and the service models are outdated, what you get is simply more of the same inadequate provision.',
       questions: [{ question: 'What does the expert identify as the root cause of mental health underfunding?', options: ['[[The expert identifies structural stigma among decision-makers as the deeper cause, which leads to mental illness being treated as less legitimate than physical illness.|El experto identifica el estigma estructural entre los responsables de la toma de decisiones como la causa más profunda, que lleva a que la enfermedad mental sea tratada como menos legítima que la enfermedad física.]]', '[[The expert argues that mental health services are underfunded solely because governments lack the tax revenues necessary to increase health spending in any area.|El experto argumenta que los servicios de salud mental están subfinanciados únicamente porque los gobiernos no tienen los ingresos fiscales necesarios para aumentar el gasto sanitario.]]', '[[The expert concludes that more funding would immediately resolve all problems in mental health services, provided it is distributed equitably across all regions.|El experto concluye que más financiación resolvería inmediatamente todos los problemas en los servicios de salud mental, siempre que se distribuya equitativamente en todas las regiones.]]'], correctAnswer: 0, explanation: 'The expert says the "more deeply structural" cause is "persistent stigma that leads decision-makers to treat mental illness as less legitimate than physical illness".' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u37-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'health-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u37-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'health-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_37_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u37-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'health-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u37-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'health-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u37-s1', type: 'speaking', level: 'C1', topic: 'health-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Discussing Mental Health Policy|Hablar sobre política de salud mental]]', instructions: 'Which response demonstrates C1 spoken fluency on mental health?',
       questions: [{ question: 'Question: "Why do you think mental health is still underfunded compared to physical health?"', options: ['[[What I think underlies this disparity is a deeply ingrained cultural assumption that mental illness is somehow less real or less urgent than physical illness. That this assumption persists despite compelling epidemiological evidence to the contrary suggests that what we are dealing with is not primarily a knowledge deficit, but a values problem — one that manifests in budget allocation decisions and shapes whether policymakers treat mental health as a genuine priority.|Lo que creo que subyace a esta disparidad es una suposición cultural profundamente arraigada de que la enfermedad mental es de alguna manera menos real o menos urgente que la enfermedad física. Que esta suposición persista a pesar de la evidencia epidemiológica convincente en contrario sugiere que lo que estamos tratando no es principalmente un déficit de conocimiento, sino un problema de valores.]]', '[[Mental health is underfunded because people do not understand it very well. Physical health is easier to see and understand, like a broken arm. Mental illness is invisible so people think it is less serious. This needs to change with better education.|La salud mental está subfinanciada porque la gente no la entiende muy bien. La salud física es más fácil de ver y entender, como un brazo roto.]]', '[[I think governments just do not care about mental health. They only spend money on things that are visible and easy to measure. Mental health is complicated and expensive so they avoid it.|Creo que los gobiernos simplemente no se preocupan por la salud mental. Solo gastan dinero en cosas que son visibles y fáciles de medir.]]'], correctAnswer: 0, explanation: 'Option A uses three nominal clause types ("What I think underlies", "That this assumption persists…suggests", "what we are dealing with") in a sophisticated, evidence-referenced C1 argument.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u37-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'health-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u37-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'health-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

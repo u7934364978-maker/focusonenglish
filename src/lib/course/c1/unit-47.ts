@@ -28,18 +28,6 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u47-g4', type: 'fill-blank', level: 'C1', topic: 'speculation', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Degrees of Certainty in Speculation|Grados de certeza en la especulación]]', instructions: 'Complete with the most appropriate speculative modal.',
-      questions: [{ question: 'The 1.5°C warming threshold established by the Paris Agreement _______ already be locked in as an inevitability, given current emissions trajectories and the inertia of global energy systems — though some climate scientists argue that aggressive decarbonisation, if pursued immediately and at sufficient scale, could still meaningfully constrain long-run temperature rise.', options: ['[[might well|bien podría]]', '[[must|debe]]', '[[should|debería]]'], correctAnswer: 'might well', acceptableAnswers: ['might well', 'could conceivably', 'may well'], explanation: '"Might well + infinitive" = speculation that the threshold is probably already locked in — appropriate where there is strong reason to believe something but genuine uncertainty remains. "Must" = logical deduction (too certain). "Should" = expectation/obligation (wrong meaning here).' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u47-g5', type: 'multiple-choice', level: 'C1', topic: 'speculation', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Calibrated Speculation in Academic Writing|Especulación calibrada en escritura académica]]', instructions: 'Choose the most sophisticated speculative sentence.',
-      questions: [{ question: 'Which sentence best demonstrates calibrated academic speculation about climate policy futures?', options: ['[[It is entirely feasible that the combination of declining renewable energy costs, increasing climate-related economic damages and evolving geopolitical coalitions could, over the coming decades, create the conditions under which more ambitious climate governance architectures become not merely desirable but politically unavoidable — though it would be unwise to rely on this prospect in the absence of sustained policy effort.|Es del todo factible que la combinación de costes decrecientes de energías renovables, daños económicos crecientes relacionados con el clima y coaliciones geopolíticas en evolución pueda, en las próximas décadas, crear las condiciones bajo las cuales arquitecturas de gobernanza climática más ambiciosas se vuelvan no meramente deseables sino políticamente inevitables.]]', '[[It is feasible that climate change will be solved in the future because technology is improving and governments are taking it more seriously. There is every chance that we will succeed if everyone works together.|Es factible que el cambio climático se resuelva en el futuro porque la tecnología mejora y los gobiernos lo toman más en serio.]]', '[[Climate policy might improve and there is a chance that it could be better. It is conceivable that maybe in the future we might well possibly be able to reduce emissions enough to stop climate change.|La política climática podría mejorar y hay una posibilidad de que pueda ser mejor.]]'], correctAnswer: 0, explanation: 'Option A uses "It is entirely feasible that…could" with a nuanced conditional structure and self-correcting caveat ("though it would be unwise to rely on this") — hallmarks of rigorous academic speculation.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u47-v1', type: 'multiple-choice', level: 'C1', topic: 'climate-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Climate Diplomacy|Diplomacia climática]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'The 2015 international agreement — under which countries submitted nationally determined contribution targets for greenhouse gas emissions reductions and agreed to pursue efforts to limit global average temperature increase to 1.5°C above pre-industrial levels — is known as the _______.', options: ['[[Paris Agreement|Acuerdo de París]]', '[[Kyoto Protocol|Protocolo de Kioto]]', '[[Montreal Protocol|Protocolo de Montreal]]'], correctAnswer: 0, explanation: '"Paris Agreement" (2015) = the current international climate framework. "Kyoto Protocol" (1997) = the predecessor, with binding targets only for developed countries. "Montreal Protocol" (1987) = addresses ozone-depleting substances, not greenhouse gases per se.' }] },
@@ -58,18 +46,6 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u47-v4', type: 'fill-blank', level: 'C1', topic: 'climate-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Climate Science|Ciencia climática]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The self-reinforcing processes through which initial warming triggers further warming — such as the release of methane from thawing permafrost or the reduced reflectivity of the earth\'s surface as ice melts — are known as climate _______ loops.', options: ['[[feedback|retroalimentación]]', '[[carbon|carbono]]', '[[mitigation|mitigación]]'], correctAnswer: 'feedback', acceptableAnswers: ['feedback'], explanation: '"Climate feedback loops" = processes that amplify (positive feedback) or dampen (negative feedback) climate change. Melting permafrost releasing methane and reducing albedo from ice loss are both positive (amplifying) feedback mechanisms.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u47-v5', type: 'multiple-choice', level: 'C1', topic: 'climate-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Climate Justice|Justicia climática]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'The principle that the burden of reducing greenhouse gas emissions and adapting to climate impacts should be distributed according to countries\' historical contribution to the problem and their capacity to act — with wealthier, historically high-emitting nations bearing a disproportionate share of the costs — is known as _______.', options: ['[[common but differentiated responsibilities (CBDR)|responsabilidades comunes pero diferenciadas]]', '[[the polluter pays principle|el principio de quien contamina paga]]', '[[carbon neutrality|neutralidad de carbono]]'], correctAnswer: 0, explanation: '"Common But Differentiated Responsibilities" (CBDR) = the foundational equity principle of the UNFCCC, enshrined since 1992. Distinguishes between developed and developing country obligations. "Polluter pays" = a domestic environmental law principle.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u47-r1', type: 'reading', level: 'C1', topic: 'climate-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Collective Action Problem in Climate Governance|El problema de la acción colectiva en la gobernanza climática]]', instructions: 'Read and answer.',
       passage: 'Climate change presents one of the most intractable collective action problems in the history of international governance. There is every reason to believe that the structural incentives facing individual states — short electoral cycles, competitive pressures, domestic industry lobbying — systematically bias decision-making away from the long-term, costly emissions reductions that the scientific consensus demands. The problem is compounded by the fact that the costs of action are immediate and concentrated, whilst the benefits are deferred and diffuse: any country might well calculate that it is in its rational short-term interest to free-ride on the commitments of others whilst continuing to emit. This is not merely theoretical: the history of multilateral climate negotiations is replete with examples of states pledging ambitious targets whilst quietly undermining implementation through domestic policy decisions. It is conceivable that only the direct, visible experience of severe climate impacts on economically and politically significant populations will generate the political will for transformative action — a deeply troubling prospect from any perspective.',
@@ -84,10 +60,85 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u47-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'climate-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Climate Diplomacy and International Cooperation), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u47-l1', type: 'listening', level: 'C1', topic: 'climate-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Climate Policy Podcast|Un pódcast de política climática]]', instructions: 'Read the transcript and answer.',
       passage: 'Host: There is a lot of pessimism about the pace of climate action. Is it warranted? Guest: To a degree. The gap between pledges and implementation is real and well-documented. But it would be equally mistaken to dismiss what has been achieved. There is every reason to believe that the cost reductions in solar and wind energy over the past decade — which have been considerably faster than almost any forecaster predicted — might well continue, potentially reaching a tipping point where fossil fuels become economically uncompetitive across most applications within a generation. Host: But is that fast enough? Guest: That is the key question. It is conceivable that market forces alone, without more aggressive policy intervention, could deliver decarbonisation in power generation whilst leaving transport, industry, buildings and agriculture largely unreformed. The sectors where emissions are hardest to abate might well require very different policy instruments — potentially including public investment at scales that most governments have yet to contemplate. Host: What is your overall assessment? Guest: Cautiously optimistic about technology trajectories; considerably less optimistic about the political will to deploy the revenues and regulations needed to ensure a just and timely transition.',
       questions: [{ question: 'What does the guest say about the limitations of relying on market forces alone for decarbonisation?', options: ['[[Market forces might deliver decarbonisation in power generation but leave transport, industry, buildings and agriculture largely unreformed — the hardest-to-abate sectors that might well require different policy instruments, including large-scale public investment.|Las fuerzas del mercado podrían ofrecer descarbonización en la generación de energía pero dejar el transporte, la industria, los edificios y la agricultura en gran medida sin reformar, los sectores más difíciles de descarbonizar que bien podrían requerir diferentes instrumentos de política.]]', '[[The guest argues that market forces alone are entirely sufficient to deliver full decarbonisation across all economic sectors, and that additional government policy intervention risks distorting market signals and slowing the energy transition.|El invitado argumenta que las fuerzas del mercado por sí solas son suficientes para ofrecer una descarbonización completa en todos los sectores económicos.]]', '[[Market forces have already failed completely to deliver any meaningful emissions reductions, and the guest argues that only mandatory government intervention with binding sector-specific targets can achieve the required decarbonisation.|Las fuerzas del mercado ya han fracasado completamente en ofrecer reducciones de emisiones significativas.]]'], correctAnswer: 0, explanation: 'The guest says "It is conceivable that market forces alone…could deliver decarbonisation in power generation whilst leaving transport, industry, buildings and agriculture largely unreformed" with hardest-to-abate sectors needing different instruments.' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u47-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'climate-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u47-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'climate-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u47-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'climate-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u47-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'climate-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u47-s1', type: 'speaking', level: 'C1', topic: 'climate-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[The Future of Climate Action|El futuro de la acción climática]]', instructions: 'Which response demonstrates C1 spoken proficiency on climate diplomacy?',
       questions: [{ question: 'Question: "Are you optimistic or pessimistic about international climate action?"', options: ['[[I would describe my position as cautiously optimistic — but I think that optimism needs to be earned through analysis rather than assumed through hope. There is every reason to believe that the technological trajectory — particularly in renewable energy — is moving in the right direction faster than most expected. But it is equally conceivable that technological progress alone, without the political will to deploy it equitably and rapidly across all sectors, might well produce a world that is somewhat less warm than the worst projections but considerably warmer than is safe.|Describiría mi posición como cautelosamente optimista, pero creo que ese optimismo debe ganarse a través del análisis. Hay todas las razones para creer que la trayectoria tecnológica se mueve en la dirección correcta. Pero también es concebible que el progreso tecnológico solo, sin la voluntad política para desplegarlo, bien podría producir un mundo algo menos cálido que las peores proyecciones pero considerablemente más cálido de lo que es seguro.]]', '[[I am optimistic about climate action because technology is improving fast. There is every chance that solar and wind energy will solve the problem. It is conceivable that we might reach net zero. Countries might well cooperate better in the future.|Soy optimista sobre la acción climática porque la tecnología mejora rápidamente.]]', '[[I am pessimistic about climate action. It might well be too late already. There is every reason to believe countries will not cooperate. It is conceivable that climate change will get worse. I think we need to be worried.|Soy pesimista sobre la acción climática. Bien podría ser demasiado tarde ya.]]'], correctAnswer: 0, explanation: 'Option A uses "There is every reason to believe", "it is equally conceivable that", and "might well produce" — three speculation structures deployed to build a genuinely nuanced, analytically sophisticated position.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u47-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'climate-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u47-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'climate-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

@@ -28,18 +28,6 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u26-g4', type: 'fill-blank', level: 'C1', topic: 'adjectival-phrases', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Compound Adjectives|Adjetivos compuestos]]', instructions: 'Complete with the correct compound adjective.',
-      questions: [{ question: 'The Impressionists favoured _______ brushwork and natural, outdoor settings over the polished, studio-controlled compositions demanded by the Academy.', options: ['[[loose-limbed|de trazos libres]]', '[[free-flowing|fluido]]', '[[broad-stroked|de pincelada amplia]]'], correctAnswer: 'broad-stroked', acceptableAnswers: ['broad-stroked', 'free-flowing', 'loose'], explanation: '"Broad-stroked" = a compound adjective (adjective + past participle) describing brushwork with wide, visible strokes. "Free-flowing" and "loose" are also acceptable in context.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u26-g5', type: 'multiple-choice', level: 'C1', topic: 'adjectival-phrases', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Adjectival Clauses and Phrases|Cláusulas y frases adjetivales]]', instructions: 'Choose the most sophisticated sentence.',
-      questions: [{ question: 'Which sentence demonstrates the most advanced use of adjectival modification?', options: ['[[Basquiat\'s canvases — visually explosive, intellectually dense and saturated with references to race, power and cultural memory — occupy a unique position at the intersection of fine art, graffiti and social critique.|Los lienzos de Basquiat, visualmente explosivos, intelectualmente densos y saturados de referencias a la raza, el poder y la memoria cultural, ocupan una posición única en la intersección del arte, el grafiti y la crítica social.]]', '[[Basquiat\'s canvases are visually explosive and intellectually dense and they have many references to race and power and cultural memory and they are unique because they combine fine art with graffiti and social criticism.|Los lienzos de Basquiat son visualmente explosivos e intelectualmente densos y tienen muchas referencias a la raza y el poder y la memoria cultural y son únicos porque combinan el arte con el grafiti.]]', '[[Basquiat made canvases that were visually explosive and intellectually dense with lots of references to race, power and cultural memory and they occupied a unique position in fine art, graffiti and social critique.|Basquiat hizo lienzos que eran visualmente explosivos e intelectualmente densos con muchas referencias a la raza, el poder y la memoria cultural y ocupaban una posición única.]]'], correctAnswer: 0, explanation: 'Option A uses a three-part parallel adjectival phrase chain ("visually explosive, intellectually dense and saturated") in parenthetical apposition (dashes), then postmodified noun phrase.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u26-v1', type: 'multiple-choice', level: 'C1', topic: 'art-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Art and Aesthetics|Arte y estética]]', instructions: 'Choose the correct word.',
       questions: [{ question: 'The concept of _______ — the philosophical category describing the experience of awe in the face of something so vast or powerful that it overwhelms the human capacity for comprehension — distinguishes the art of Turner and Friedrich from the merely beautiful.', options: ['[[the sublime|lo sublime]]', '[[the beautiful|lo bello]]', '[[the uncanny|lo inquietante]]'], correctAnswer: 0, explanation: '"The sublime" = the aesthetic/philosophical category (Burke, Kant) associated with vastness, power and awe that overwhelms comprehension. Distinct from "the beautiful" (pleasurable harmony) and "the uncanny" (Freud\'s strangely familiar).' }] },
@@ -58,18 +46,6 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u26-v4', type: 'multiple-choice', level: 'C1', topic: 'art-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Visual Arts|Artes visuales]]', instructions: 'Choose the best word.',
-      questions: [{ question: 'The term _______ refers to the overall visual composition of a painting or photograph — the arrangement of elements, the direction of lines, the balance of light and dark areas — that guides the viewer\'s eye and creates a sense of movement and coherence.', options: ['[[composition|composición]]', '[[perspective|perspectiva]]', '[[chiaroscuro|claroscuro]]'], correctAnswer: 0, explanation: '"Composition" = the overall arrangement of visual elements. "Perspective" refers specifically to spatial representation on a flat surface. "Chiaroscuro" refers specifically to the contrast of light and shadow.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u26-v5', type: 'fill-blank', level: 'C1', topic: 'art-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Art and Society|Arte y sociedad]]', instructions: 'Complete with the correct word.',
-      questions: [{ question: 'The _______ of art — its commodification by financial markets, the role of galleries and auction houses in determining value, and the concentration of major collections in private hands — raises questions about who truly benefits from public investment in the arts.', options: ['[[marketisation|mercantilización]]', '[[privatisation|privatización]]', '[[commercialisation|comercialización]]'], correctAnswer: 'marketisation', acceptableAnswers: ['marketisation', 'marketization', 'commercialisation', 'commodification'], explanation: '"Marketisation" = the process of treating something as a commodity subject to market forces. "Commodification" is also correct. "Privatisation" refers specifically to transferring from state to private ownership.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u26-r1', type: 'reading-comprehension', level: 'C1', topic: 'art-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Art and Value|Arte y valor]]', instructions: 'Read and answer.',
       questions: [{ question: 'Text: "The contemporary art market operates on a logic that bears little resemblance to aesthetic merit. Works are valued not for their beauty, originality or emotional depth but for the status of their maker, the prestige of their provenance, and their capacity to function as financial instruments — appreciating in value, diversifying portfolios, and offering their owners a tax-efficient store of wealth. The result is a system in which art\'s cultural value and its market value have become almost entirely decoupled."\n\nWhat does the text argue about the contemporary art market?', options: ['[[The art market is dominated by a small number of extremely wealthy collectors who use their purchasing power to manipulate valuations and prevent talented emerging artists from gaining recognition.|El mercado del arte está dominado por un pequeño número de coleccionistas extremadamente ricos que usan su poder adquisitivo para manipular las valoraciones e impedir que los artistas emergentes ganen reconocimiento.]]', '[[Art market valuations are driven primarily by financial and social factors rather than aesthetic merit, resulting in a disconnect between an artwork\'s cultural significance and its commercial price.|Las valoraciones del mercado del arte están impulsadas principalmente por factores financieros y sociales más que por el mérito estético, lo que resulta en una desconexión entre la importancia cultural de una obra y su precio comercial.]]', '[[The art market has become so corrupted by financial speculation that it no longer serves any cultural purpose, and public funding for the arts should be redirected to more socially beneficial activities.|El mercado del arte se ha corrompido tanto por la especulación financiera que ya no sirve ningún propósito cultural, y la financiación pública de las artes debería redirigirse a actividades más socialmente beneficiosas.]]'], correctAnswer: 1, explanation: 'The text argues valuations reflect "status, provenance, financial instruments" rather than beauty/originality/depth — "cultural value and market value have become... decoupled".' }] },
@@ -82,15 +58,138 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u26-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'art-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Visual Arts and Aesthetics), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u26-l1', type: 'listening-comprehension', level: 'C1', topic: 'art-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[Art Criticism Lecture|Conferencia de crítica artística]]', instructions: 'Listen and choose the correct answer.',
       questions: [{ question: 'An art critic says: "There\'s a tendency to assume that because conceptual art requires no technical virtuosity, it requires no skill at all. But the skill in conceptual art is precisely the skill of the idea — the capacity to identify a gesture, an object, a relationship that crystallises something about the human condition that no amount of technical proficiency could communicate. Duchamp\'s urinal required no brushwork; it required genius."\n\nWhat argument does the critic make about conceptual art?', options: ['[[Conceptual art is inferior to traditional art forms because it lacks the technical skill and craftsmanship that are the genuine measures of artistic achievement and talent.|El arte conceptual es inferior a las formas artísticas tradicionales porque carece de la habilidad técnica y la artesanía que son las verdaderas medidas del logro y el talento artístico.]]', '[[Conceptual art demands a different kind of skill — the intellectual ability to identify an idea or gesture that communicates something profound — rather than the technical proficiency of traditional art.|El arte conceptual demanda un tipo diferente de habilidad — la capacidad intelectual de identificar una idea o gesto que comunique algo profundo — en lugar de la destreza técnica del arte tradicional.]]', '[[All art forms require both technical and conceptual skill in equal measure, which is why the distinction between traditional and conceptual art is a false one that critics have over-simplified.|Todas las formas artísticas requieren habilidades técnicas y conceptuales en igual medida, razón por la cual la distinción entre arte tradicional y conceptual es falsa y los críticos la han sobre-simplificado.]]'], correctAnswer: 1, explanation: 'The critic argues conceptual art has a different skill — "the skill of the idea" — not no skill. Duchamp\'s genius was in identifying the right gesture, not in technical execution.' }] },
     topicName: 'Listening',
   },
   {
+    id: 'c1-u26-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'art-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u26-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'art-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
     id: 'c1-u26-w1', type: 'multiple-choice', level: 'C1', topic: 'art-writing', difficulty: 'hard',
     content: { title: '[[Writing|Escritura]]: [[Art Analysis|Análisis artístico]]', instructions: 'Choose the best analytical paragraph about a painting.',
       questions: [{ question: 'Choose the paragraph that most effectively analyses a painting at C1 level:', options: ['[[Frida Kahlo\'s The Two Fridas presents a visually and symbolically dense interrogation of identity, duality and belonging: the two figures, one in European dress and one in Tehuana costume, are connected by an anatomically exposed and partially severed vein — a visceral, image rendered with clinical precision that transforms the personal into the universal.|Las dos Fridas de Frida Kahlo presenta una interrogación visual y simbólicamente densa de la identidad, la dualidad y la pertenencia: las dos figuras, una con vestido europeo y otra con traje tehuana, están conectadas por una vena anatómicamente expuesta y parcialmente seccionada.]]', '[[Frida Kahlo\'s The Two Fridas is a very interesting painting that shows two versions of the artist herself. One is in European clothes and one is in traditional Mexican clothes. They are connected by a vein which is cut. It represents her mixed identity.|Las dos Fridas de Frida Kahlo es una pintura muy interesante que muestra dos versiones de la propia artista. Una está en ropa europea y otra en ropa tradicional mexicana. Están conectadas por una vena que está cortada. Representa su identidad mixta.]]', '[[In The Two Fridas, Kahlo paints herself twice to show that she has two different identities. The painting is symbolic and uses the image of a heart and vein to show her pain. The colours are very meaningful and important.|En Las dos Fridas, Kahlo se pinta a sí misma dos veces para mostrar que tiene dos identidades diferentes. La pintura es simbólica y usa la imagen de un corazón y una vena para mostrar su dolor. Los colores son muy significativos e importantes.]]'], correctAnswer: 0, explanation: 'Option A uses compound adjectival phrases ("visually and symbolically dense"), lists symbolic elements precisely, and uses a sophisticated appositive structure — C1 art analysis writing.' }] },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u26-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'art-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u26-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'art-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
     topicName: 'Writing',
   },
   {
@@ -101,6 +200,54 @@ export const UNIT_26_EXERCISES: Exercise[] = [
         '[[That depends entirely on what we mean by "uncomfortable" or "offensive" — terms that invariably reflect the norms of a particular historical moment. The history of art is largely a history of work that disturbed its contemporaries and was subsequently recognised as necessary: Manet, Mapplethorpe, Bacon. The question is not whether art should comfort but whether it serves a truthful purpose.|Eso depende completamente de lo que entendamos por "incómodo" u "ofensivo", términos que invariablemente reflejan las normas de un momento histórico particular. La historia del arte es en gran medida una historia de obras que perturbaron a sus contemporáneos y fueron posteriormente reconocidas como necesarias.]]',
         '[[Yes, all art is justified even if it is offensive because art freedom is very important. Artists should be able to express whatever they want without any limits or censorship from governments or institutions.|Sí, todo arte está justificado incluso si es ofensivo porque la libertad artística es muy importante. Los artistas deberían poder expresar lo que quieran sin ningún límite o censura de gobiernos o instituciones.]]',
       ], correctAnswer: 1, explanation: 'Option B questions the terms of the question, provides historical examples (Manet, Mapplethorpe, Bacon), and reframes toward a purposive criterion — sophisticated C1 argumentative speaking.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u26-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-art',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u26-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-art',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

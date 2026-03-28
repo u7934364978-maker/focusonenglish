@@ -1,25 +1,20 @@
 'use client';
 
 import { useParams } from 'next/navigation';
-import { useEffect, useState, Suspense } from 'react';
+import { useEffect, useMemo, useState, Suspense } from 'react';
 import ExerciseRenderer from '@/components/ExerciseRenderer';
 import { ArrowLeft, ArrowRight, Home, CheckCircle, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 import { trackUnitTimeSpent, trackExerciseCompletion, trackUnitCompletion } from '@/lib/analytics';
 import AIExercisePractice from '@/components/course/AIExercisePractice';
 import { useSpacedRepetition } from '@/hooks/use-spaced-repetition';
-
-const CHUNK_SIZE = 15;
-
-function lessonSkillFromType(t: string) {
-  const type = (t || '').toLowerCase();
-  if (type.includes('speaking') || type === 'pronunciation') return 'speaking';
-  if (type.includes('listening')) return 'listening';
-  if (type.includes('reading')) return 'reading';
-  if (type.includes('writing')) return 'writing';
-  if (type.includes('vocab')) return 'vocabulary';
-  return 'grammar';
-}
+import {
+  buildSixLessonLayout,
+  getSixLessonNavState,
+  getSixLessonSlotAtGlobalIndex,
+  shouldShowSixLessonCompleteInterstitial,
+  SIX_LESSON_KEYS,
+} from '@/lib/course/six-lesson-layout';
 
 function getIndexFromUrl(): number | null {
   if (typeof window === 'undefined') return null;
@@ -48,7 +43,7 @@ function B1UnitContent() {
   const isFinalTest = unitId === 'test-final';
 
   const handleAIPracticeReady = (aiExercises: any[]) => {
-    setExercises(aiExercises);
+    setExercises(buildSixLessonLayout(aiExercises).orderedExercises);
     setCurrentIndex(0);
     setFailedIndexes([]);
     setShowUnitSummary(false);
@@ -81,7 +76,7 @@ function B1UnitContent() {
             setError('No se encontraron ejercicios del test final');
             setExercises([]);
           } else {
-            setExercises(unitExercises);
+            setExercises(buildSixLessonLayout(unitExercises).orderedExercises);
             const idx = getIndexFromUrl();
             if (idx !== null && idx < unitExercises.length) setCurrentIndex(idx);
           }
@@ -100,7 +95,7 @@ function B1UnitContent() {
             setExercises([]);
           } else {
             setUnitTitle(unitModule.UNIT_TITLE || unitModule.title || `Unidad ${unitNumber}`);
-            setExercises(unitExercises);
+            setExercises(buildSixLessonLayout(unitExercises).orderedExercises);
             const idx = getIndexFromUrl();
             if (idx !== null && idx < unitExercises.length) setCurrentIndex(idx);
           }
@@ -120,16 +115,24 @@ function B1UnitContent() {
       setLessonKeyCounts({});
       return;
     }
+    const layout = buildSixLessonLayout(exercises);
     const counts: Record<string, number> = {};
     for (let i = 0; i < exercises.length; i++) {
-      const ex = exercises[i];
-      const lessonNumber = Math.floor(i / CHUNK_SIZE) + 1;
-      const skill = lessonSkillFromType((ex?.type as string) ?? 'unknown');
-      const key = `lesson-${lessonNumber}-${skill}`;
+      const slot = getSixLessonSlotAtGlobalIndex(layout, i);
+      const skill = SIX_LESSON_KEYS[slot];
+      const key = `lesson-${slot + 1}-${skill}`;
       counts[key] = (counts[key] ?? 0) + 1;
     }
     setLessonKeyCounts(counts);
   }, [exercises]);
+
+  const sixLayout = useMemo(() => buildSixLessonLayout(exercises), [exercises]);
+  const lessonNav = useMemo(
+    () => getSixLessonNavState(sixLayout, Math.min(currentIndex, Math.max(0, exercises.length - 1))),
+    [sixLayout, currentIndex, exercises.length]
+  );
+  const { lessonNumber, totalPedagogicalLessons, exerciseInLesson, exercisesInThisLesson, lessonLabelEs } =
+    lessonNav;
 
   if (loading) {
     return (
@@ -171,10 +174,6 @@ function B1UnitContent() {
   }
 
   const currentExercise = exercises[currentIndex];
-  const lessonNumber = Math.floor(currentIndex / CHUNK_SIZE) + 1;
-  const totalLessons = Math.ceil(exercises.length / CHUNK_SIZE);
-  const exerciseInLesson = (currentIndex % CHUNK_SIZE) + 1;
-  const exercisesInThisLesson = Math.min(CHUNK_SIZE, exercises.length - (lessonNumber - 1) * CHUNK_SIZE);
 
   if (showUnitSummary) {
     const durationMinutes = Math.round((Date.now() - startTime) / 60000);
@@ -214,7 +213,8 @@ function B1UnitContent() {
           <div className="w-24 h-24 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto mb-6">
             <CheckCircle className="w-12 h-12" />
           </div>
-          <h2 className="text-3xl font-black text-slate-800 mb-2">¡Lección {lessonNumber} Completada!</h2>
+          <h2 className="text-3xl font-black text-slate-800 mb-2">¡Lección {lessonNumber} completada!</h2>
+          <p className="text-emerald-600 font-bold text-lg mb-2">{lessonLabelEs}</p>
           <p className="text-slate-600 mb-8 text-lg">Has completado {exercisesInThisLesson} ejercicios.</p>
           <button onClick={() => { setCurrentIndex((prev) => prev + 1); setShowLessonComplete(false); }} className="w-full bg-emerald-500 text-white py-5 rounded-2xl font-black text-xl hover:bg-emerald-600 transition-all flex items-center justify-center gap-3">
             Continuar <ArrowRight className="w-6 h-6" />
@@ -234,7 +234,8 @@ function B1UnitContent() {
           <h1 className="font-black text-xl text-slate-800 uppercase tracking-tight">
             B1: {isFinalTest ? unitTitle : `Unidad ${unitId.replace('unit-', '')}`}
             <span className="ml-4 text-slate-400 font-medium text-sm">
-              Lección {lessonNumber} de {totalLessons} • Ejercicio {exerciseInLesson} de {exercisesInThisLesson}
+              Lección {lessonNumber} de {totalPedagogicalLessons} · {lessonLabelEs} • Ejercicio {exerciseInLesson}{' '}
+              de {exercisesInThisLesson}
             </span>
           </h1>
         </div>
@@ -264,9 +265,9 @@ function B1UnitContent() {
               // Unified academic progress (best-effort).
               try {
                 const progressUnitId = isFinalTest ? 0 : parseInt(unitId.replace('unit-', ''), 10);
-                const lessonNumber = Math.floor(currentIndex / CHUNK_SIZE) + 1;
-                const lessonSkill = lessonSkillFromType((ex?.type as string) ?? 'unknown');
-                const lessonKey = `lesson-${lessonNumber}-${lessonSkill}`;
+                const slot = getSixLessonSlotAtGlobalIndex(sixLayout, currentIndex);
+                const lessonSkill = SIX_LESSON_KEYS[slot];
+                const lessonKey = `lesson-${slot + 1}-${lessonSkill}`;
                 const expectedExercisesTotal = lessonKeyCounts[lessonKey] ?? 0;
 
                 fetch('/api/progress/record', {
@@ -286,7 +287,11 @@ function B1UnitContent() {
             }
             if (isFinalTest && result?.success === false) setFailedIndexes((prev) => prev.includes(currentIndex) ? prev : [...prev, currentIndex]);
             if (currentIndex === exercises.length - 1) setShowUnitSummary(true);
-            else if (!isFinalTest && (currentIndex + 1) % CHUNK_SIZE === 0) setShowLessonComplete(true);
+            else if (
+              !isFinalTest &&
+              shouldShowSixLessonCompleteInterstitial(sixLayout, currentIndex, exercises.length)
+            )
+              setShowLessonComplete(true);
             else setCurrentIndex((prev) => prev + 1);
           }}
         />

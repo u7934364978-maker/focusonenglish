@@ -38,6 +38,7 @@
     "demo-cat-assets": "ts-node --esm scripts/demo-cat-assets.ts",
     "generate-game-choices": "ts-node --esm scripts/generate-game-choice-assets.ts",
     "validate-exercises": "node scripts/validate-exercises.mjs",
+    "validate:c1-units": "node scripts/validate-c1-units.mjs",
     "validate-exercise-types": "node scripts/validate-exercise-types.mjs",
     "validate-course-exercises-zod": "ts-node scripts/validate-course-exercises-zod.ts",
     "validate-c2-structure": "node scripts/validate-c2-structure.mjs",

@@ -28,18 +28,6 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u58-g4', type: 'fill-blank', level: 'C1', topic: 'abstract-expression', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Nominalisation of Complex Actions|Nominalización de acciones complejas]]', instructions: 'Rewrite using nominalisation by selecting the correct option.',
-      questions: [{ question: 'Original: "Governments failed to coordinate their responses to the pandemic, and this had serious consequences." Nominalised version: "The _______ of governmental pandemic response, resulting from the absence of adequate international coordination mechanisms, had serious consequences."', options: ['[[fragmentation|fragmentación]]', '[[failing|fracaso]]', '[[unsuccessfulness|falta de éxito]]'], correctAnswer: 'fragmentation', acceptableAnswers: ['fragmentation', 'failure'], explanation: '"Fragmentation of governmental pandemic response" = a nominalised abstract noun expressing the concept of "responses were fragmented/uncoordinated". More precise and academic than "failing" (which is a gerund/noun but less specific) or "unsuccessfulness" (which is not standard). Nominalisation converts the verb + complement into a noun phrase, creating academic density.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u58-g5', type: 'multiple-choice', level: 'C1', topic: 'abstract-expression', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Full Abstract Register — Future of Humanity|Registro abstracto completo — El futuro de la humanidad]]', instructions: 'Choose the most accomplished use of abstract academic register.',
-      questions: [{ question: 'Which passage most completely achieves the abstract, impersonal and precise register of academic writing about the future?', options: ['[[The governance of existential and catastrophic risks — risks whose realisation would permanently curtail humanity\'s future potential — has been identified as a neglected priority in global governance, inasmuch as the institutional mechanisms through which such risks are monitored, assessed and mitigated tend to be underfunded, fragmented across competing jurisdictions and poorly calibrated to threats that are simultaneously global in scope and long-term in their temporal horizon.|La gobernanza de los riesgos existenciales y catastróficos, riesgos cuya realización limitaría permanentemente el potencial futuro de la humanidad, ha sido identificada como una prioridad descuidada en la gobernanza global, en la medida en que los mecanismos institucionales a través de los cuales se monitorean, evalúan y mitigan tales riesgos tienden a estar subfinanciados y fragmentados.]]', '[[We need to govern existential risks because they could end humanity. These risks are neglected. Institutions are underfunded and fragmented. They are not well calibrated to global, long-term threats. This is a serious problem that needs to be addressed urgently by global leaders.|Necesitamos gobernar los riesgos existenciales porque podrían acabar con la humanidad.]]', '[[Existential risks are very dangerous. Global governance needs to deal with them. The institutions are not good enough. They do not have enough money and are fragmented. Long-term global risks are a big problem for the future of humanity.|Los riesgos existenciales son muy peligrosos. La gobernanza global necesita lidiar con ellos.]]'], correctAnswer: 0, explanation: 'Option A nominalises throughout ("governance of existential risks", "realisation", "curtailment", "governance"), uses passive impersonal ("has been identified", "are monitored, assessed and mitigated"), includes formal conjunction ("inasmuch as"), and produces dense, precise academic prose appropriate for philosophy, political science or international relations.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u58-v1', type: 'multiple-choice', level: 'C1', topic: 'future-humanity-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Existential Risk|Riesgo existencial]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'Risks that could permanently and severely curtail the long-term potential of humanity — whether by causing human extinction, permanent global civilisational collapse, or the irreversible reduction in the diversity and quality of possible futures — are technically classified as _______ risks.', options: ['[[existential|existenciales]]', '[[catastrophic|catastróficos]]', '[[systemic|sistémicos]]'], correctAnswer: 0, explanation: '"Existential risks" (terminology developed by Nick Bostrom and the Global Priorities Institute) = threats to humanity\'s long-term potential, including extinction. "Catastrophic risks" = large-scale harms falling short of existential impact. "Systemic risks" = risks that cascade across interconnected systems (financial, ecological) — a narrower, more specific category.' }] },
@@ -58,18 +46,6 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u58-v4', type: 'fill-blank', level: 'C1', topic: 'future-humanity-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Planetary Boundaries|Límites planetarios]]', instructions: 'Complete.',
-      questions: [{ question: 'The concept, developed by environmental scientists including Johan Rockstrom, that defines the safe operating space for human civilisation by identifying the _______ boundaries within which humanity can operate without triggering irreversible, large-scale changes to the Earth system that would threaten stable, Holocene-like conditions.', options: ['[[planetary|planetarios]]', '[[ecological|ecológicos]]', '[[geographical|geográficos]]'], correctAnswer: 'planetary', acceptableAnswers: ['planetary'], explanation: '"Planetary boundaries" (Rockstrom et al., 2009) = a framework identifying nine Earth-system processes — including climate change, biodiversity loss and nitrogen cycle disruption — for which there are proposed boundaries within which humanity can safely operate. "Ecological boundaries" is a related concept but not the specific technical framework. "Geographical boundaries" refers to physical/political borders.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u58-v5', type: 'multiple-choice', level: 'C1', topic: 'future-humanity-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Global Governance|Gobernanza global]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'The challenge of coordinating global action on problems — such as climate change, pandemic preparedness and nuclear proliferation — where each individual country or actor has incentives to free-ride on the contributions of others, resulting in collective under-provision of public goods despite universal interest in their provision, is known as a _______ problem.', options: ['[[collective action|acción colectiva]]', '[[principal-agent|principal-agente]]', '[[adverse selection|selección adversa]]'], correctAnswer: 0, explanation: '"Collective action problem" (Mancur Olson) = when individual incentives lead to outcomes that are worse for the group as a whole — including free-riding on public goods, prisoner\'s dilemmas and tragedy-of-the-commons situations. "Principal-agent problem" = misaligned incentives between a delegator and agent. "Adverse selection" = a market failure caused by information asymmetry (insurance, lending).' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u58-r1', type: 'reading', level: 'C1', topic: 'future-humanity-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Long-termism and the Future|El largo-placismo y el futuro]]', instructions: 'Read and answer.',
       passage: 'The philosophical movement known as "longtermism" holds that the primary moral priority of the present generation should be the improvement of the long-term future — a position that follows logically from the observation that the number of people who could exist in the future vastly exceeds the number alive today, such that even small improvements in the probability of civilisational flourishing could, on an expected-value calculation, outweigh in importance the alleviation of all current suffering. Critics have raised several objections. First, there is the empirical uncertainty objection: our ability to predict which current actions will benefit people who will live millions of years from now is so limited that longtermist interventions cannot be evaluated with any confidence, making them liable to manipulation and waste. Second, there is the demandingness objection: if longtermism is correct, the needs of existing people are relatively trivial compared to the astronomical stakes of the long-term future, a conclusion that strikes many ethicists as morally repugnant. Third, there is the legitimacy objection: future people cannot consent to the political and social arrangements made on their behalf, raising questions about the authority of current generations to make binding decisions about the far future.',
@@ -84,10 +60,85 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u58-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'future-humanity-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (The Future of Humanity), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u58-l1', type: 'listening', level: 'C1', topic: 'future-humanity-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Lecture on Global Catastrophic Risk|Una conferencia sobre riesgo catastrófico global]]', instructions: 'Read the transcript and answer.',
       passage: 'Lecturer: What is distinctive about the set of risks that researchers classify as global catastrophic or existential is not simply their scale — the fact that they could harm many people — but their irreversibility. A war, however devastating, leaves survivors who can rebuild. A pandemic, however lethal, leaves enough of the population intact that civilisation can recover. What makes risks like misaligned advanced artificial intelligence, engineered pandemic pathogens or cascading nuclear exchange categorically different is the possibility of an outcome from which no recovery is possible — a permanent foreclosure of the range of futures that might otherwise have been open to humanity. The governance challenge this creates is severe. Normal risk management operates retrospectively: we learn from failures, revise protocols, update regulations. For existential risks, that option is unavailable. We cannot learn from an extinction event. This asymmetry — between the cost of caution and the cost of insufficient caution — suggests that the appropriate response is not expected-value maximisation in the standard sense, but something closer to what decision theorists call minimax regret: prioritising the avoidance of the worst possible outcomes even at significant cost to expected outcomes.',
       questions: [{ question: 'What does the lecturer identify as the key reason why existential risks require a different governance approach from normal risks?', options: ['[[Their irreversibility: normal risk management learns from failures and updates protocols, but for existential risks that retrospective option is unavailable because we cannot learn from an extinction event — suggesting that the appropriate decision strategy is minimax regret (avoiding the worst possible outcome) rather than standard expected-value maximisation.|Su irreversibilidad: la gestión normal del riesgo aprende de los fracasos y actualiza los protocolos, pero para los riesgos existenciales esa opción retrospectiva no está disponible porque no podemos aprender de un evento de extinción, lo que sugiere que la estrategia de decisión apropiada es el minimax regret en lugar de la maximización del valor esperado.]]', '[[The lecturer argues that existential risks require different governance because they are politically controversial and therefore resistant to the international consensus-building that effective global governance requires — making them harder to address than conventional global challenges like infectious disease.|El conferenciante argumenta que los riesgos existenciales requieren una gobernanza diferente porque son políticamente controvertidos y por lo tanto resistentes a la construcción de consenso internacional.]]', '[[The different governance approach is required because existential risks disproportionately threaten developing countries that lack the technical capacity to monitor and mitigate them, creating a justice dimension that normal risk frameworks — focused on cost-benefit analysis — are not designed to capture.|El enfoque de gobernanza diferente es necesario porque los riesgos existenciales amenazan desproporcionadamente a los países en desarrollo que carecen de la capacidad técnica para monitorearlos y mitigarlos.]]'], correctAnswer: 0, explanation: 'The lecturer explicitly identifies irreversibility as the key: "Normal risk management operates retrospectively: we learn from failures…For existential risks, that option is unavailable. We cannot learn from an extinction event." This leads to the recommendation of minimax regret rather than expected-value maximisation.' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u58-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'future-humanity-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u58-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'future-humanity-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u58-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'future-humanity-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u58-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'future-humanity-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u58-s1', type: 'speaking', level: 'C1', topic: 'future-humanity-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Discussing the Future of Humanity|Hablar sobre el futuro de la humanidad]]', instructions: 'Which response demonstrates the best C1 oral academic register?',
       questions: [{ question: 'Question: "What do you think is the most significant challenge humanity faces in the next century?"', options: ['[[I would identify the coordination problem — the gap between the global scale of the challenges we face and the national and institutional structures through which our responses are organised — as the most fundamental obstacle. Climate change, pandemic risk, AI governance, nuclear proliferation: what these have in common is not their technical difficulty, which is real but in principle soluble, but the fact that they require sustained cooperation among actors with competing interests and short time horizons. It is widely argued, and I find the argument compelling, that the bottleneck is not knowledge or technology but political will and institutional architecture.|Identificaría el problema de coordinación, la brecha entre la escala global de los desafíos que enfrentamos y las estructuras nacionales e institucionales a través de las cuales se organizan nuestras respuestas, como el obstáculo más fundamental. Lo que el cambio climático, el riesgo pandémico, la gobernanza de la IA y la proliferación nuclear tienen en común no es su dificultad técnica, sino el hecho de que requieren una cooperación sostenida entre actores con intereses en competencia.]]', '[[I think the biggest challenge is climate change. It affects everyone in the world. It is a very serious problem. The world needs to work together. Technology can help but also causes problems. It is a complicated situation with many factors involved.|Creo que el mayor desafío es el cambio climático. Afecta a todos en el mundo.]]', '[[Humanity faces many challenges. AI, climate change, inequality and pandemics are all important. It is hard to say which is the most significant. Different people have different opinions about this. I think cooperation is important. We need to work together as a planet.|La humanidad enfrenta muchos desafíos. La IA, el cambio climático, la desigualdad y las pandemias son todos importantes.]]'], correctAnswer: 0, explanation: 'Option A uses nominalisation ("the coordination problem", "the gap", "our responses"), impersonal structures ("It is widely argued"), specific academic vocabulary ("institutional architecture", "competing interests", "short time horizons"), makes a precise analytical argument, and demonstrates the range and depth of C1 oral academic register.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u58-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'future-humanity-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u58-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'future-humanity-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

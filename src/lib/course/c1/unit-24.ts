@@ -28,18 +28,6 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u24-g4', type: 'fill-blank', level: 'C1', topic: 'mixed-module4', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Comment Clauses|Cláusulas de comentario]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'Coral bleaching events are becoming more frequent and severe — _______, a direct consequence of rising ocean temperatures driven by climate change.', options: ['[[it must be said|hay que decirlo]]', '[[what is more|además]]', '[[needless to say|huelga decir]]'], correctAnswer: 'needless to say', acceptableAnswers: ['needless to say', 'it must be said'], explanation: '"Needless to say" = the link between bleaching events and ocean warming is widely known; the comment clause signals the speaker regards it as established fact.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u24-g5', type: 'multiple-choice', level: 'C1', topic: 'mixed-module4', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Module 4 Mixed Review|Repaso mixto del módulo 4]]', instructions: 'Choose the most grammatically sophisticated sentence.',
-      questions: [{ question: 'Which sentence best demonstrates a range of Module 4 C1 structures (relative clause, hedging, comment clause)?', options: ['[[Ocean acidification, which arguably poses as great a long-term threat to marine ecosystems as warming itself, would appear to be accelerating at a rate that, it must be said, few models had predicted a decade ago.|La acidificación del océano, que podría decirse que representa una amenaza a largo plazo para los ecosistemas marinos tan grande como el calentamiento en sí, parece estar acelerándose a un ritmo que, hay que decirlo, pocos modelos habían predicho hace una década.]]', '[[Ocean acidification is a very big problem that is getting worse and worse because of CO2 emissions which are very harmful to marine ecosystems including corals and shellfish.|La acidificación del océano es un problema muy grande que empeora cada vez más debido a las emisiones de CO2 que son muy dañinas para los ecosistemas marinos.]]', '[[Ocean acidification is accelerating faster than models predicted and this is a serious problem for marine ecosystems, it must be said, especially for corals.|La acidificación del océano se está acelerando más rápido de lo que predijeron los modelos y esto es un problema serio para los ecosistemas marinos, hay que decirlo, especialmente para los corales.]]'], correctAnswer: 0, explanation: 'Option A uses: "which" non-defining relative, "arguably" hedging, "would appear to be" modal hedge, "it must be said" comment clause — a sophisticated integration of Module 4 structures.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u24-v1', type: 'multiple-choice', level: 'C1', topic: 'ocean-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Oceans and Marine Science|Océanos y ciencias marinas]]', instructions: 'Choose the correct word.',
       questions: [{ question: 'The _______ zone — the layer of ocean from the surface to a depth of approximately 200 metres where sunlight penetrates sufficiently for photosynthesis to occur — supports the vast majority of known marine life.', options: ['[[photic|fótica]]', '[[abyssal|abisal]]', '[[benthic|bentónica]]'], correctAnswer: 0, explanation: '"Photic zone" = the sunlit layer where photosynthesis occurs (0-200m). "Abyssal" refers to the deep ocean (2000-6000m). "Benthic" refers to the sea floor environment.' }] },
@@ -58,18 +46,6 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u24-v4', type: 'multiple-choice', level: 'C1', topic: 'ocean-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Oceanography|Oceanografía]]', instructions: 'Choose the best word.',
-      questions: [{ question: 'Ocean _______ — the sinking of cold, dense, saline water and the rising of warmer water — drives the global thermohaline circulation system that distributes heat around the planet and influences climate patterns on every continent.', options: ['[[thermohaline circulation|circulación termohalina]]', '[[tidal movement|movimiento de mareas]]', '[[upwelling|afloramiento]]'], correctAnswer: 0, explanation: '"Thermohaline circulation" (also called the "ocean conveyor belt") = the global circulation driven by temperature and salinity differences. "Upwelling" is the local rising of deep water; tides are lunar-driven.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u24-v5', type: 'fill-blank', level: 'C1', topic: 'ocean-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Marine Biology|Biología marina]]', instructions: 'Complete with the correct word.',
-      questions: [{ question: 'Bioluminescence — the production of light by living organisms — is _______ in the deep ocean, where it serves functions ranging from predator attraction to species recognition in an environment devoid of sunlight.', options: ['[[widespread|extendida]]', '[[common|común]]', '[[prevalent|prevalente]]'], correctAnswer: 'widespread', acceptableAnswers: ['widespread', 'prevalent', 'common'], explanation: '"Widespread" = common over a wide area; all three options are technically acceptable, but "widespread" is the most neutral and common collocation with bioluminescence.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u24-r1', type: 'reading-comprehension', level: 'C1', topic: 'ocean-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Marine Conservation|Conservación marina]]', instructions: 'Read and answer.',
       questions: [{ question: 'Text: "The high seas — ocean areas beyond national jurisdiction, covering some 60% of the world\'s ocean surface — were, until recently, effectively ungoverned. The 2023 High Seas Treaty represents the first binding international agreement to protect biodiversity in international waters, allowing for the creation of marine protected areas beyond national boundaries and establishing environmental impact assessment requirements for activities in the global commons."\n\nWhat does the text say about the High Seas Treaty?', options: ['[[The High Seas Treaty is a non-binding international agreement that encourages but does not require countries to protect biodiversity in international waters beyond their national boundaries.|El Tratado de Alta Mar es un acuerdo internacional no vinculante que anima pero no obliga a los países a proteger la biodiversidad en aguas internacionales.]]', '[[The 2023 High Seas Treaty is the first legally binding international agreement to protect biodiversity in international waters and enables the creation of marine protected areas beyond national jurisdiction.|El Tratado de Alta Mar de 2023 es el primer acuerdo internacional jurídicamente vinculante para proteger la biodiversidad en aguas internacionales y permite la creación de áreas marinas protegidas más allá de la jurisdicción nacional.]]', '[[The High Seas Treaty was established because existing national marine protected areas had proven completely ineffective at protecting biodiversity in international waters over the preceding decades.|El Tratado de Alta Mar se estableció porque las áreas marinas protegidas nacionales existentes habían demostrado ser completamente ineficaces para proteger la biodiversidad en aguas internacionales.]]'], correctAnswer: 1, explanation: 'The text explicitly calls it "the first binding international agreement" allowing marine protected areas beyond national boundaries — the key facts from the passage.' }] },
@@ -82,15 +58,138 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u24-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'ocean-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Oceans and Marine Life), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u24-l1', type: 'listening-comprehension', level: 'C1', topic: 'ocean-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[Marine Policy Debate|Debate sobre política marina]]', instructions: 'Listen and choose the correct answer.',
       questions: [{ question: 'A marine biologist says: "What we tend to underestimate is the degree to which the ocean regulates conditions on land. Absorbing roughly a quarter of anthropogenic CO₂ and producing over half of the world\'s oxygen, the ocean is not merely an aquatic environment — it is an active, dynamic partner in maintaining the atmospheric conditions that make terrestrial life possible. Protecting it is not a matter of environmental sentiment; it is a matter of self-preservation."\n\nWhat argument does the biologist make about the ocean?', options: ['[[The ocean is primarily important as a source of food and economic resources, which is why protecting it from pollution and overfishing should be the main priority for marine conservation policy.|El océano es principalmente importante como fuente de alimentos y recursos económicos, por lo que protegerlo de la contaminación y la sobrepesca debería ser la principal prioridad.]]', '[[Ocean protection is not merely about preserving aquatic life but is fundamentally about maintaining the atmospheric systems that support all life on Earth, making it a matter of human self-interest.|La protección del océano no es solo sobre preservar la vida acuática, sino que se trata fundamentalmente de mantener los sistemas atmosféricos que sustentan toda la vida en la Tierra.]]', '[[Because the ocean produces more than half the world\'s oxygen, the main concern should be preventing eutrophication and algal blooms that could disrupt oxygen production in coastal waters.|Dado que el océano produce más de la mitad del oxígeno del mundo, la principal preocupación debería ser prevenir la eutrofización y las proliferaciones de algas.]]'], correctAnswer: 1, explanation: 'The biologist frames ocean protection as "self-preservation" for humans — the ocean regulates CO₂ and oxygen, making it an active partner in supporting all terrestrial life.' }] },
     topicName: 'Listening',
   },
   {
+    id: 'c1-u24-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'ocean-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u24-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'ocean-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
     id: 'c1-u24-w1', type: 'multiple-choice', level: 'C1', topic: 'academic-writing', difficulty: 'hard',
     content: { title: '[[Writing|Escritura]]: [[Mixed C1 Structures in Writing|Estructuras C1 mixtas en escritura]]', instructions: 'Choose the best paragraph demonstrating a range of C1 structures.',
       questions: [{ question: 'You are writing about threats to ocean health. Choose the paragraph that best demonstrates C1 writing quality:', options: ['[[What arguably threatens the long-term viability of marine ecosystems most profoundly is not any single stressor but the compounding interaction of multiple simultaneous pressures — warming, acidification, deoxygenation and overfishing — which, it must be said, no management framework currently in existence was designed to address in combination.|Lo que posiblemente amenaza más profundamente la viabilidad a largo plazo de los ecosistemas marinos no es ningún factor estresante individual, sino la interacción compuesta de múltiples presiones simultáneas — calentamiento, acidificación, desoxigenación y sobrepesca — que, hay que decirlo, ningún marco de gestión existente fue diseñado para abordar en combinación.]]', '[[There are many threats to the ocean. These include warming, acidification and overfishing. These problems are all happening at the same time and this makes them much worse. No management framework exists to deal with all of them together.|Hay muchas amenazas para el océano. Entre ellas se incluyen el calentamiento, la acidificación y la sobrepesca. Estos problemas ocurren al mismo tiempo y esto los hace mucho peores. No existe ningún marco de gestión para abordarlos todos juntos.]]', '[[The ocean faces serious threats from climate change, acidification and fishing. These threats are interacting with each other in complex ways that scientists are still trying to understand. Better policies are urgently needed to address all these threats together.|El océano enfrenta serias amenazas del cambio climático, la acidificación y la pesca. Estas amenazas interactúan entre sí de formas complejas que los científicos aún intentan comprender. Se necesitan urgentemente mejores políticas.]]'], correctAnswer: 0, explanation: 'Option A uses: pseudo-cleft fronting ("What threatens most"), "arguably" hedging, nominalisation ("compounding interaction"), listing, "which" non-defining relative, "it must be said" comment clause.' }] },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u24-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'academic-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u24-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'academic-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
     topicName: 'Writing',
   },
   {
@@ -101,6 +200,54 @@ export const UNIT_24_EXERCISES: Exercise[] = [
         '[[There\'s a compelling case, I would argue, for applying the precautionary principle here: precisely because we know so little, the potential consequences of degrading deep-sea ecosystems are unpredictable. What is more, the argument that we cannot protect what we do not understand has it the wrong way round — it is arguably an additional reason for caution, not a justification for inaction.|Hay un argumento convincente, diría yo, para aplicar el principio de precaución aquí: precisamente porque sabemos tan poco, las consecuencias potenciales de degradar los ecosistemas de las profundidades marinas son impredecibles. Además, el argumento de que no podemos proteger lo que no entendemos tiene la lógica al revés.]]',
         '[[I don\'t think we need to worry too much about the deep ocean because it is so far from the surface that human activities cannot really reach it. The real problems are in shallow coastal waters where fishing and pollution cause most damage.|No creo que necesitemos preocuparnos demasiado por el océano profundo porque está tan lejos de la superficie que las actividades humanas realmente no pueden llegar a él. Los problemas reales están en las aguas costeras poco profundas.]]',
       ], correctAnswer: 1, explanation: 'Option B uses hedging ("I would argue"), applies an academic principle (precautionary principle), uses "What is more" comment clause, and sophisticatedly inverts the opposing argument.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u24-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-oceans',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u24-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-oceans',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

@@ -28,18 +28,6 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u57-g4', type: 'fill-blank', level: 'C1', topic: 'complex-conjunctions', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[To the Extent That|En la medida en que (grado)]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'Moral intuitions serve as evidence in ethical theory _______ they are widely shared, survive careful reflection, and cannot plausibly be explained away as the products of cultural conditioning, evolutionary adaptation or motivated reasoning — though determining which intuitions meet these criteria is itself a deeply contested philosophical exercise.', options: ['[[to the extent that|en la medida en que]]', '[[as long as that|siempre que]]', '[[despite that|a pesar de que]]'], correctAnswer: 'to the extent that', acceptableAnswers: ['to the extent that', 'insofar as'], explanation: '"To the extent that" = specifies the degree or conditions under which the claim holds — here, the conditions under which intuitions serve as evidence. "As long as that" is ungrammatical ("as long as" requires no "that" directly after it in this construction). "Despite that" is adversative — wrong direction.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u57-g5', type: 'multiple-choice', level: 'C1', topic: 'complex-conjunctions', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Combining Complex Conjunctions|Combinar conjunciones complejas]]', instructions: 'Choose the sentence that most effectively combines multiple complex conjunctions.',
-      questions: [{ question: 'Which sentence most effectively and naturally combines two or more complex conjunctions from this unit?', options: ['[[Rawls\'s theory of justice is valuable insofar as it provides a procedure — the original position and the veil of ignorance — for deriving principles of distribution that are not contaminated by the self-interest of those who benefit from existing arrangements; notwithstanding the well-known objections to his difference principle, the framework remains influential to the extent that it forces us to consider what principles we would choose if we did not know our place in the social order.|La teoría de la justicia de Rawls es valiosa en la medida en que proporciona un procedimiento para derivar principios de distribución que no están contaminados por el interés propio; no obstante las conocidas objeciones a su principio de diferencia, el marco sigue siendo influyente en la medida en que nos obliga a considerar qué principios elegiríamos si no supiéramos nuestro lugar en el orden social.]]', '[[Rawls\'s theory is valuable insofar as that it is important, and notwithstanding the objections, it is still used. To the extent that it works, it is a good theory. Inasmuch as justice matters, Rawls matters, insofar as philosophers study it.|La teoría de Rawls es valiosa en la medida en que es importante, y no obstante las objeciones, todavía se usa.]]', '[[Rawls is important in philosophy. His theory of justice is widely studied. Insofar as it is about distribution, it matters. Notwithstanding that some disagree, it is a key text. To the extent that justice is important, Rawls is important.|Rawls es importante en filosofía.]]'], correctAnswer: 0, explanation: 'Option A uses "insofar as" (specifying the value of the theory), "notwithstanding" (acknowledging objections without conceding the main point), and "to the extent that" (specifying the framework\'s ongoing influence) — three complex conjunctions integrated naturally and meaningfully.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u57-v1', type: 'multiple-choice', level: 'C1', topic: 'ethics-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Ethical Theory Terms|Términos de teoría ética]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'The ethical framework, associated with Immanuel Kant, that holds that the moral worth of an action depends entirely on whether it conforms to a universal moral law — independently of its consequences — and that rational beings should never be treated merely as means to an end but always also as ends in themselves, is known as _______.', options: ['[[deontology|deontología]]', '[[consequentialism|consecuencialismo]]', '[[contractarianism|contractarianismo]]'], correctAnswer: 0, explanation: '"Deontology" (from Greek "deon", duty) = ethics of duty and rules rather than outcomes. Key features: categorical imperatives, duties that hold regardless of consequences, the formula of humanity (never treat persons merely as means). "Consequentialism" judges acts by their outcomes. "Contractarianism" grounds morality in hypothetical agreements.' }] },
@@ -58,18 +46,6 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u57-v4', type: 'fill-blank', level: 'C1', topic: 'ethics-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Moral Dilemmas|Dilemas morales]]', instructions: 'Complete.',
-      questions: [{ question: 'The classic moral thought experiment in which a runaway trolley is heading towards five people and can be diverted to a track where it will kill one person, used to test and compare moral intuitions across different ethical frameworks — particularly consequentialist and deontological — is known as the _______ problem.', options: ['[[trolley|problema del tranvía]]', '[[lifeboat|bote salvavidas]]', '[[prisoner|prisionero]]'], correctAnswer: 'trolley', acceptableAnswers: ['trolley'], explanation: 'The "trolley problem" (introduced by Philippa Foot, developed by Judith Jarvis Thomson) = a thought experiment designed to probe moral intuitions about the permissibility of killing one to save five. The variant involving pushing someone off a bridge to stop the trolley produces very different intuitions, revealing that factors beyond outcome calculation — such as means vs. side-effects — influence moral judgement.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u57-v5', type: 'multiple-choice', level: 'C1', topic: 'ethics-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Justice and Fairness|Justicia e imparcialidad]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'John Rawls\'s hypothetical device for deriving principles of justice, in which rational agents are asked to choose principles governing the basic structure of society from behind a "veil of ignorance" that prevents them knowing their place in the social order, their natural talents or their conception of the good, is called the _______.', options: ['[[original position|posición original]]', '[[state of nature|estado de naturaleza]]', '[[categorical imperative|imperativo categórico]]'], correctAnswer: 0, explanation: '"Original position" (Rawls, A Theory of Justice, 1971) = a hypothetical choosing situation designed to ensure fair, impartial principles by removing self-interested reasoning. The "veil of ignorance" is the epistemic condition imposed within the original position. "State of nature" = Hobbes\'s/Locke\'s pre-political condition. "Categorical imperative" = Kant\'s supreme principle of morality.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u57-r1', type: 'reading', level: 'C1', topic: 'ethics-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Limits of Consequentialism|Los límites del consecuencialismo]]', instructions: 'Read and answer.',
       passage: 'Consequentialism\'s appeal lies in its apparent simplicity and its alignment with the intuition that what ultimately matters morally is whether the world goes well or badly. Its difficulties, however, are equally well documented. The most powerful objection is that consequentialism, taken seriously, seems to require actions that almost everyone would regard as monstrous: framing an innocent person to prevent a riot, harvesting organs from one healthy patient to save five who need them, sacrificing an entire community to prevent a slightly larger harm to a different community. Consequentialists have developed sophisticated responses to these cases — ruling out certain acts on rule-consequentialist grounds, appealing to indirect effects and the systemic value of rights-respecting institutions, or arguing that the monstrous intuitions themselves reveal something important about which outcomes we should count. But critics argue that these responses are ad hoc adjustments designed to avoid intuitive counterexamples rather than principled extensions of the core theory, and that insofar as consequentialism must be modified to avoid its most counterintuitive implications, the modifications reveal that something other than pure outcome-aggregation is doing the moral work.',
@@ -84,10 +60,85 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u57-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'ethics-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Ethics and Moral Philosophy), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u57-l1', type: 'listening', level: 'C1', topic: 'ethics-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Debate on Global Justice|Un debate sobre justicia global]]', instructions: 'Read the transcript and answer.',
       passage: 'Moderator: Is affluent individuals in wealthy countries morally obligated to give substantially to alleviate global poverty? Speaker A: Yes, insofar as we accept that suffering and death from preventable poverty is bad, and that affluent people can prevent such suffering at relatively little cost to themselves without sacrificing anything of comparable moral importance, we are obligated to do so — and the obligation is not diminished by the fact that others are failing to discharge it, or by the physical distance between the affluent person and those suffering. Speaker B: I accept the premise that poverty is bad and that we can help, but I would resist the conclusion that distant suffering generates the same obligations as proximate suffering. To the extent that special obligations — to family, community, compatriots — are a genuine feature of our moral lives, they necessarily reduce the resources available for impartial giving, and a moral theory that ignores or overrides them notwithstanding their evident depth in human experience seems to me to be asking more of moral agents than any realistically motivating account of ethics can require. Moderator: Is this a principled position or a rationalisation of comfortable inaction?',
       questions: [{ question: 'What is Speaker B\'s main argument against the full extent of the obligation to alleviate global poverty?', options: ['[[That special obligations to family, community and compatriots are a genuine feature of our moral lives that necessarily reduce resources available for impartial giving, and a moral theory that overrides these obligations notwithstanding their evident depth in human experience demands more than any realistically motivating ethics can require.|Que las obligaciones especiales hacia la familia, la comunidad y los compatriotas son una característica genuina de nuestras vidas morales que reduce los recursos disponibles para dar de manera imparcial, y una teoría moral que anule estas obligaciones a pesar de su evidente profundidad en la experiencia humana exige más de lo que cualquier ética motivadoramente realista puede requerir.]]', '[[Speaker B argues that the premise of Singer\'s argument is false — that death from preventable poverty is not necessarily bad from an impartial perspective, because population ethics is more complex than Singer allows and increasing population may reduce average well-being.|El orador B argumenta que la premisa del argumento de Singer es falsa: que la muerte por pobreza prevenible no es necesariamente mala desde una perspectiva imparcial.]]', '[[Speaker B\'s main argument is that affluent individuals lack the information and institutional capacity to effectively direct resources to where they will do the most good, making the obligation practically undeliverable regardless of its theoretical validity.|El argumento principal del orador B es que los individuos adinerados carecen de la información y la capacidad institucional para dirigir efectivamente los recursos a donde harán más bien.]]'], correctAnswer: 0, explanation: 'Speaker B argues: "special obligations — to family, community, compatriots — are a genuine feature of our moral lives, they necessarily reduce the resources available for impartial giving, and a moral theory that ignores or overrides them notwithstanding their evident depth in human experience seems to me to be asking more of moral agents than any realistically motivating account of ethics can require."' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u57-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'ethics-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u57-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'ethics-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u57-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'ethics-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u57-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'ethics-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u57-s1', type: 'speaking', level: 'C1', topic: 'ethics-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Discussing Moral Obligations|Hablar sobre las obligaciones morales]]', instructions: 'Which response demonstrates the best C1 formal register in ethical discussion?',
       questions: [{ question: 'Question: "Are we morally obliged to give to charity?"', options: ['[[Insofar as we accept that suffering is bad and that we can relieve it at reasonable cost, something like an obligation does seem to follow — though I would resist the conclusion that this obligation is as demanding as Singer\'s original argument implies, notwithstanding the force of his logic, because a moral framework that leaves no legitimate space for personal projects and special relationships seems to me to be asking us to become something other than persons. To the extent that morality must be action-guiding for ordinary human beings with finite time and resources and genuine personal attachments, there has to be room for imperfect but real obligations rather than perfect but psychologically unliveable ones.|En la medida en que aceptamos que el sufrimiento es malo y que podemos aliviarlo a un costo razonable, algo parecido a una obligación parece seguirse, aunque resistiría la conclusión de que esta obligación es tan exigente como el argumento original de Singer implica, no obstante la fuerza de su lógica.]]', '[[Yes, we should give to charity. It is good to help people. Morally, we have obligations. Insofar as we can help, we should. Notwithstanding other priorities, charity is important. To the extent that we are able, we should donate.|Sí, deberíamos dar a la caridad. Es bueno ayudar a las personas.]]', '[[We have some obligation to give. It depends on how much we can give. Philosophers disagree about this. Singer says we must give a lot. Others say less. It is a complex question with no easy answer.|Tenemos alguna obligación de dar. Depende de cuánto podamos dar.]]'], correctAnswer: 0, explanation: 'Option A uses "insofar as", "notwithstanding" and "to the extent that" — all three complex conjunctions — with real philosophical content (Singer, special relationships, action-guidingness), appropriate hedging ("something like an obligation", "seems to me"), and sophisticated C1 register throughout.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u57-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'ethics-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u57-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'ethics-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

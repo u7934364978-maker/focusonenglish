@@ -28,18 +28,6 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u11-g4', type: 'fill-blank', level: 'C1', topic: 'cleft-sentences', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Cleft Sentences|Oraciones escindidas]]', instructions: 'Complete the pseudo-cleft sentence.',
-      questions: [{ question: '_______ we need in education is greater investment in teacher training, not just in infrastructure.', options: ['[[What|Lo que]]', '[[That|Que]]', '[[Which|El cual]]'], correctAnswer: 'What', acceptableAnswers: ['What'], explanation: '"What we need is..." = pseudo-cleft (wh-cleft) sentence; "what" = the thing that.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u11-g5', type: 'multiple-choice', level: 'C1', topic: 'cleft-sentences', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Cleft Sentences|Oraciones escindidas]]', instructions: 'Which sentence uses a cleft construction correctly?',
-      questions: [{ question: 'Which sentence correctly uses a cleft to emphasise time?', options: ['[[It was during the Industrial Revolution that mass schooling first became widespread.|Fue durante la Revolución Industrial cuando la escolarización masiva se generalizó por primera vez.]]', '[[During the Industrial Revolution it was that mass schooling became widespread.|Durante la Revolución Industrial fue cuando la escolarización masiva se generalizó.]]', '[[Mass schooling was first widespread during the Industrial Revolution it was.|La escolarización masiva se generalizó por primera vez durante la Revolución Industrial fue.]]'], correctAnswer: 0, explanation: '"It was + time phrase + that" = standard cleft emphasising when something happened.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u11-v1', type: 'multiple-choice', level: 'C1', topic: 'education-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Education and Learning|Educación y aprendizaje]]', instructions: 'Choose the word that best completes the sentence.',
       questions: [{ question: 'The university operates on a _______ approach, combining traditional lectures with problem-based learning and self-directed study.', options: ['[[pedagogical|pedagógico]]', '[[blended|mixto]]', '[[rigorous|riguroso]]'], correctAnswer: 1, explanation: '"Blended approach/learning" = a teaching method that combines face-to-face and independent/online learning.' }] },
@@ -58,18 +46,6 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u11-v4', type: 'multiple-choice', level: 'C1', topic: 'education-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Education and Learning|Educación y aprendizaje]]', instructions: 'Choose the best option.',
-      questions: [{ question: 'The debate over _______ testing — whether students should be assessed on accumulated skills or fixed academic standards — remains unresolved.', options: ['[[criterion-referenced|evaluación por criterios]]', '[[norm-referenced|evaluación normativa]]', '[[formative|formativa]]'], correctAnswer: 0, explanation: '"Criterion-referenced testing" measures achievement against defined criteria, not against other students.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u11-v5', type: 'fill-blank', level: 'C1', topic: 'education-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Education and Learning|Educación y aprendizaje]]', instructions: 'Complete with the correct academic word.',
-      questions: [{ question: 'The report called for a complete _______ of the national curriculum to better prepare students for a rapidly changing job market.', options: ['[[overhaul|reforma integral]]', '[[overview|resumen]]', '[[outlook|perspectiva]]'], correctAnswer: 'overhaul', acceptableAnswers: ['overhaul'], explanation: '"Overhaul" = a thorough examination and redesign of a system.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u11-r1', type: 'reading-comprehension', level: 'C1', topic: 'education-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Education Systems|Sistemas educativos]]', instructions: 'Read the extract and choose the best answer.',
       questions: [{ question: 'Text: "The Finnish model of education, widely admired for its consistently high outcomes, rests not on standardised testing or competitive ranking, but on deep trust in teachers as autonomous professionals and a firm belief that equity and excellence are not mutually exclusive."\n\nWhat is the key principle of Finnish education according to the text?', options: ['[[Regular standardised testing ensures consistently high outcomes across all schools.|Las evaluaciones estandarizadas regulares garantizan resultados consistentemente altos en todas las escuelas.]]', '[[Teacher autonomy and a commitment to equity underpin its success rather than competition or ranking.|La autonomía docente y el compromiso con la equidad sustentan su éxito más que la competencia o la clasificación.]]', '[[It has succeeded by combining competitive ranking systems with a strong focus on academic excellence.|Ha tenido éxito combinando sistemas de clasificación competitivos con un fuerte enfoque en la excelencia académica.]]'], correctAnswer: 1, explanation: 'The text explicitly says the model rests on trust in teachers and belief that equity and excellence can coexist.' }] },
@@ -82,15 +58,138 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u11-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'education-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Education and Learning), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u11-l1', type: 'listening-comprehension', level: 'C1', topic: 'education-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[Rethinking Assessment|Repensar la evaluación]]', instructions: 'Listen to the professor and choose the correct answer.',
       questions: [{ question: 'A professor says: "What concerns me about purely summative assessment is that it captures a snapshot of performance under pressure rather than the depth of understanding a student has developed over time."\n\nWhat is the professor\'s main concern?', options: ['[[Students perform worse when under pressure during exams, so summative tests are an unfair measure.|Los alumnos rinden peor bajo presión durante los exámenes, por lo que los exámenes sumativos son una medida injusta.]]', '[[End-of-course tests may not accurately reflect the genuine learning a student has achieved throughout the course.|Los exámenes finales pueden no reflejar con precisión el aprendizaje genuino que un estudiante ha logrado a lo largo del curso.]]', '[[Continuous assessment is always superior to summative tests because it reduces student anxiety effectively.|La evaluación continua es siempre superior a los exámenes sumativos porque reduce eficazmente la ansiedad del alumnado.]]'], correctAnswer: 1, explanation: 'The professor says summative assessment captures a "snapshot under pressure", not the depth of understanding developed over time.' }] },
     topicName: 'Listening',
   },
   {
+    id: 'c1-u11-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'education-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u11-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'education-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
     id: 'c1-u11-w1', type: 'multiple-choice', level: 'C1', topic: 'academic-writing', difficulty: 'hard',
     content: { title: '[[Writing|Escritura]]: [[Academic Essay Structure|Estructura del ensayo académico]]', instructions: 'Choose the sentence that best develops an academic argument at C1 level.',
       questions: [{ question: 'You are writing about whether exams should be replaced by continuous assessment. Choose the best sentence to introduce a counterargument:', options: ['[[While there is considerable merit in the argument for continuous assessment, it would be an oversimplification to dismiss examinations entirely, given that they cultivate skills of synthesis, time management and performance under constraint.|Si bien hay considerable mérito en el argumento a favor de la evaluación continua, sería una simplificación excesiva descartar los exámenes por completo, dado que cultivan habilidades de síntesis, gestión del tiempo y rendimiento bajo presión.]]', '[[Some people think exams are good and should be kept, but others strongly disagree and prefer continuous assessment instead.|Algunas personas creen que los exámenes son buenos y deben mantenerse, pero otras están en desacuerdo y prefieren la evaluación continua.]]', '[[Exams are very important in education and have always been used, so they should definitely continue to be used in schools and universities everywhere.|Los exámenes son muy importantes en la educación y siempre se han utilizado, por lo que definitivamente deben seguir usándose en escuelas y universidades.]]'], correctAnswer: 0, explanation: 'Option A introduces the counterargument with hedging ("while there is merit"), uses nominalisation and a complex conjunction ("given that").' }] },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u11-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'academic-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u11-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'academic-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
     topicName: 'Writing',
   },
   {
@@ -105,6 +204,54 @@ export const UNIT_11_EXERCISES: Exercise[] = [
         correctAnswer: 1,
         explanation: 'Option A uses hedging ("It\'s genuinely complex"), concession before argument, sophisticated vocabulary ("systematically undervalued") and a balanced academic register.',
       }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u11-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-education',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u11-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-education',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

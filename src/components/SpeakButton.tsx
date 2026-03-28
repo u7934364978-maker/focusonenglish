@@ -67,6 +67,7 @@ export default function SpeakButton({
       const res = await fetch('/api/tts', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
+        credentials: 'same-origin',
         body: JSON.stringify({ text: english }),
         signal,
       });

@@ -21,9 +21,9 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       questions: [
         {
           question: 'The Amazon rainforest, _______ deforestation rates have accelerated alarmingly, is home to millions of species.',
-          options: ["[[whose|cuyas]]", '[[which|cuya]]', '[[that|cuya]]'],
+          options: ["[[whose|cuyo/a (relativo posesivo)]]", '[[which|which (no expresa posesión con el antecedente)]]', '[[that|that (no suele usarse tras coma en este tipo de oración)]]'],
           correctAnswer: 0,
-          explanation: 'Whose = possessive relative pronoun. "The forest whose deforestation rates..." = its deforestation rates.',
+          explanation: '*Whose* links the noun phrase to something it "possesses" or is associated with (*the rainforest whose deforestation rates...*). *Which* and *that* do not mark possession here.',
         },
       ],
     },
@@ -65,51 +65,6 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           options: ['[[would appear to|parecerían]]', '[[definitely|definitivamente]]', '[[obviously|obviamente]]'],
           correctAnswer: 0,
           explanation: '"Would appear to" is a sophisticated hedging phrase that qualifies a claim without overstating certainty.',
-        },
-      ],
-    },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u4-g4',
-    type: 'fill-blank',
-    level: 'C1',
-    topic: 'hedging-language',
-    difficulty: 'hard',
-    content: {
-      title: '[[Grammar|Gramática]]: [[Hedging Language|Lenguaje de cobertura]]',
-      instructions: 'Complete the sentence with appropriate hedging language.',
-      questions: [
-        {
-          question: 'The evidence _______ to suggest a direct link between habitat destruction and species extinction.',
-          options: ['[[tends|tiende]]', '[[proves|prueba]]', '[[confirms|confirma]]'],
-          correctAnswer: 'tends',
-          acceptableAnswers: ['tends'],
-          explanation: '"Tends to suggest" = hedging expression indicating probability, not certainty.',
-        },
-      ],
-    },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u4-g5',
-    type: 'multiple-choice',
-    level: 'C1',
-    topic: 'emphasis-structures',
-    difficulty: 'hard',
-    content: {
-      title: '[[Grammar|Gramática]]: [[Emphasis Structures|Estructuras de énfasis]]',
-      instructions: 'Choose the sentence with the most effective emphasis structure.',
-      questions: [
-        {
-          question: 'Which sentence uses an emphasis structure correctly?',
-          options: [
-            '[[Such was the scale of the destruction that entire ecosystems collapsed overnight.|Tal fue la escala de la destrucción que ecosistemas enteros colapsaron de la noche a la mañana.]]',
-            '[[The scale of destruction was very big and ecosystems collapsed.|La escala de la destrucción era muy grande y los ecosistemas colapsaron.]]',
-            '[[Very big was the scale of the destruction that ecosystems collapsed.|Muy grande fue la escala de la destrucción que los ecosistemas colapsaron.]]',
-          ],
-          correctAnswer: 0,
-          explanation: '"Such was the + noun + that..." = emphasis structure for dramatic effect at C1 level.',
         },
       ],
     },
@@ -177,47 +132,6 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u4-v4',
-    type: 'fill-blank',
-    level: 'C1',
-    topic: 'environment-vocabulary',
-    difficulty: 'hard',
-    content: {
-      title: '[[Vocabulary|Vocabulario]]: [[The Natural World|El mundo natural]]',
-      instructions: 'Complete the sentence.',
-      questions: [
-        {
-          question: 'The country committed to achieving _______ _______ by 2050, meaning it will offset all carbon emissions.',
-          options: ['[[net zero|cero neto]]', '[[carbon free|libre de carbono]]', '[[zero waste|residuo cero]]'],
-          correctAnswer: 'net zero',
-          acceptableAnswers: ['net zero'],
-          explanation: 'Net zero = the state where greenhouse gas emissions are balanced by removal.',
-        },
-      ],
-    },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u4-v5',
-    type: 'multiple-choice',
-    level: 'C1',
-    topic: 'environment-vocabulary',
-    difficulty: 'hard',
-    content: {
-      title: '[[Vocabulary|Vocabulario]]: [[The Natural World|El mundo natural]]',
-      instructions: 'Choose the best word.',
-      questions: [
-        {
-          question: 'The charity focuses on _______ — reintroducing native species and restoring wild landscapes to their natural state.',
-          options: ['[[rewilding|rewilding]]', '[[farming|agricultura]]', '[[urbanisation|urbanización]]'],
-          correctAnswer: 0,
-          explanation: 'Rewilding = the process of protecting and restoring wild areas by reintroducing native species.',
-        },
-      ],
-    },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u4-r1',
     type: 'reading-comprehension',
     level: 'C1',
@@ -266,6 +180,31 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u4-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'environment-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (The Natural World), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u4-l1',
     type: 'listening-comprehension',
     level: 'C1',
@@ -284,6 +223,56 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           ],
           correctAnswer: 1,
           explanation: '"While important" concedes individual action has value, but "insufficient without" stresses systemic change is necessary.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u4-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'environment-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u4-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'environment-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
         },
       ],
     },
@@ -314,6 +303,54 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u4-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'argumentative-essay',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u4-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'argumentative-essay',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u4-s1',
     type: 'multiple-choice',
     level: 'C1',
@@ -332,6 +369,54 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           ],
           correctAnswer: 1,
           explanation: '"What is particularly alarming is..." = cleft sentence for emphasis + sophisticated vocabulary and hedging.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u4-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-environment',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u4-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-environment',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
         },
       ],
     },

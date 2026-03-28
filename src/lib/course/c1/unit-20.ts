@@ -28,18 +28,6 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u20-g4', type: 'fill-blank', level: 'C1', topic: 'nominalisation', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Nominalisation|Nominalización]]', instructions: 'Complete with the nominalised form.',
-      questions: [{ question: 'The _______ (to regulate) of multinational corporations poses enormous challenges for national governments, whose jurisdiction ends at the border while the companies themselves operate seamlessly across them.', options: ['[[regulation|regulación]]', '[[regulating|regulación]]', '[[regulated|regulado]]'], correctAnswer: 'regulation', acceptableAnswers: ['regulation'], explanation: '"Regulation" = noun from "regulate". The sentence requires a noun subject for the formal, impersonal style typical of economic discourse.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u20-g5', type: 'multiple-choice', level: 'C1', topic: 'nominalisation', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Abstract Nouns|Sustantivos abstractos]]', instructions: 'Choose the most appropriate nominalized alternative.',
-      questions: [{ question: 'Rewrite: "Countries have become more and more dependent on each other economically" using nominalisation:', options: ['[[The growing economic interdependence of nations has fundamentally altered the conditions under which individual states exercise fiscal and monetary sovereignty.|La creciente interdependencia económica de las naciones ha alterado fundamentalmente las condiciones bajo las cuales los estados individuales ejercen la soberanía fiscal y monetaria.]]', '[[Nations are growing in economic interdependence and this has fundamentally altered how individual states exercise their fiscal and monetary sovereignty globally.|Las naciones crecen en interdependencia económica y esto ha alterado fundamentalmente cómo los estados individuales ejercen su soberanía fiscal y monetaria globalmente.]]', '[[Countries depending on each other more and more economically has fundamentally altered the conditions for individual states to exercise fiscal and monetary sovereignty.|El hecho de que los países dependan cada vez más unos de otros económicamente ha alterado fundamentalmente las condiciones para que los estados individuales ejerzan la soberanía fiscal y monetaria.]]'], correctAnswer: 0, explanation: '"Growing economic interdependence" (noun phrase) replaces "have become more and more dependent". This is characteristic formal nominalisation: abstract, impersonal, condensed.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u20-v1', type: 'multiple-choice', level: 'C1', topic: 'economics-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Economics and Trade|Economía y comercio]]', instructions: 'Choose the correct word.',
       questions: [{ question: 'A country that consistently spends more on imports than it earns from exports is said to have a trade _______ — a situation that may eventually require borrowing from abroad to finance domestic consumption.', options: ['[[deficit|déficit]]', '[[surplus|superávit]]', '[[balance|equilibrio]]'], correctAnswer: 0, explanation: '"Trade deficit" = imports exceed exports. "Trade surplus" = exports exceed imports. "Trade balance" = the general measurement of the difference.' }] },
@@ -58,18 +46,6 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u20-v4', type: 'multiple-choice', level: 'C1', topic: 'economics-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Economic Policy|Política económica]]', instructions: 'Choose the best word.',
-      questions: [{ question: 'An economic policy based on cutting government spending and raising taxes in order to reduce public debt during a recession is known as _______ — a highly controversial approach given its potential to deepen economic downturns.', options: ['[[austerity|austeridad]]', '[[quantitative easing|flexibilización cuantitativa]]', '[[fiscal stimulus|estímulo fiscal]]'], correctAnswer: 0, explanation: '"Austerity" = reducing government spending to cut debt; controversial because it can worsen recessions. "Quantitative easing" = expanding money supply. "Fiscal stimulus" = the opposite — increasing spending.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u20-v5', type: 'fill-blank', level: 'C1', topic: 'economics-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[International Economics|Economía internacional]]', instructions: 'Complete with the correct word.',
-      questions: [{ question: 'The Gini _______ is a statistical measure used to express the degree of economic inequality within a society, where zero represents perfect equality and one represents maximum inequality.', options: ['[[coefficient|coeficiente]]', '[[index|índice]]', '[[ratio|ratio]]'], correctAnswer: 'coefficient', acceptableAnswers: ['coefficient'], explanation: '"Gini coefficient" is the standard term for this inequality measure, not "Gini index" (though "index" is sometimes used informally).' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u20-r1', type: 'reading-comprehension', level: 'C1', topic: 'economics-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Globalisation Debate|Debate sobre globalización]]', instructions: 'Read and answer.',
       questions: [{ question: 'Text: "Globalisation has simultaneously generated unprecedented wealth and exacerbated inequality — lifting hundreds of millions out of poverty in the Global South while hollowing out manufacturing communities in advanced economies. The winners and losers do not map neatly onto national boundaries; the wealthiest citizens of every country have benefited disproportionately, while working-class communities across the world have borne a disproportionate share of the adjustment costs."\n\nWhat is the central argument?', options: ['[[Globalisation has been largely beneficial overall, as the evidence from poverty reduction in the Global South demonstrates that its economic benefits outweigh the more localised losses in advanced economies.|La globalización ha sido en general bastante beneficiosa, ya que la evidencia de la reducción de la pobreza en el Sur Global demuestra que sus beneficios económicos superan las pérdidas más localizadas en las economías avanzadas.]]', '[[The benefits and costs of globalisation are distributed unequally, falling disproportionately along class rather than national lines, with the wealthy gaining more and working-class communities absorbing greater adjustment costs everywhere.|Los beneficios y costes de la globalización se distribuyen de forma desigual, cayendo desproporcionadamente según líneas de clase más que nacionales, con los ricos ganando más y las comunidades trabajadoras absorbiendo mayores costes de ajuste en todas partes.]]', '[[Globalisation has failed because although some countries have benefited through poverty reduction, it has destroyed working-class communities in wealthy nations and created a net negative economic outcome for the world as a whole.|La globalización ha fracasado porque aunque algunos países se han beneficiado mediante la reducción de la pobreza, ha destruido las comunidades de clase trabajadora en las naciones ricas y ha creado un resultado económico neto negativo para el mundo.]]'], correctAnswer: 1, explanation: 'The text explicitly states: "The winners and losers do not map neatly onto national boundaries" — the key point is that inequality is along class lines, not national lines.' }] },
@@ -82,9 +58,84 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u20-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'economics-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Economics and Globalisation), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u20-l1', type: 'listening-comprehension', level: 'C1', topic: 'economics-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[Economic Panel Discussion|Debate económico]]', instructions: 'Listen and choose the correct answer.',
       questions: [{ question: 'An economist says: "The premise that markets self-correct — that if left alone they will reliably allocate resources efficiently and return to equilibrium after shocks — proved devastatingly wrong in 2008. What we witnessed was not a temporary aberration but a structural failure that required massive state intervention to prevent total collapse. The theoretical models simply did not account for the systemic risks embedded in the architecture of the financial system itself."\n\nWhat does the economist argue?', options: ['[[The 2008 financial crisis was an unusual, temporary event caused by specific regulatory failures, but the underlying principle that markets self-correct remains fundamentally valid under normal conditions and appropriate oversight.|La crisis financiera de 2008 fue un evento inusual y temporal causado por fallos regulatorios específicos, pero el principio subyacente de que los mercados se autocorrigen sigue siendo fundamentalmente válido bajo condiciones normales.]]', '[[The 2008 crisis exposed that the theory of self-correcting markets is flawed because it ignores systemic structural risks and required large-scale state intervention rather than self-correction to prevent collapse.|La crisis de 2008 expuso que la teoría de los mercados de autocorrección es defectuosa porque ignora los riesgos estructurales sistémicos y requirió una intervención estatal a gran escala en lugar de autocorrección para evitar el colapso.]]', '[[The main lesson of 2008 is that economic models need to be updated to include more sophisticated risk calculations, but this is primarily a technical modelling challenge rather than a fundamental challenge to market economics.|La principal lección de 2008 es que los modelos económicos necesitan actualizarse para incluir cálculos de riesgo más sofisticados, pero esto es principalmente un desafío técnico de modelado más que un desafío fundamental.]]'], correctAnswer: 1, explanation: 'The economist calls it "a structural failure" requiring "massive state intervention" and says it "proved devastatingly wrong" — a fundamental, not technical, critique of self-correcting market theory.' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u20-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'economics-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u20-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'economics-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -102,6 +153,54 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u20-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'academic-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u20-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'academic-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u20-s1', type: 'multiple-choice', level: 'C1', topic: 'speaking-economics', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Economic Debate|Debate económico]]', instructions: 'Choose the most appropriate C1 response.',
       questions: [{ question: 'An interviewer asks: "Do you believe that free trade ultimately benefits all countries involved?" Choose the most sophisticated and balanced response:',
@@ -113,6 +212,54 @@ export const UNIT_20_EXERCISES: Exercise[] = [
         correctAnswer: 1,
         explanation: 'Option B acknowledges the theoretical basis, engages critically with the empirical evidence, uses hedging ("far more ambiguous", "demonstrably"), and reframes with a higher-order question — C1 discourse markers.',
       }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u20-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-economics',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u20-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-economics',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

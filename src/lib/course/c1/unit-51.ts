@@ -28,18 +28,6 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u51-g4', type: 'fill-blank', level: 'C1', topic: 'impersonal-constructions', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[There is a Tendency to / a General Inclination|Existe una tendencia a / una inclinación general]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'There is a general _______ to conflate the related but distinct concepts of privacy, anonymity and confidentiality in public and policy discourse, which can lead to imprecise legal frameworks that inadequately protect individuals from different forms of surveillance and data exploitation.', options: ['[[tendency|tendencia]]', '[[possibility|posibilidad]]', '[[requirement|requisito]]'], correctAnswer: 'tendency', acceptableAnswers: ['tendency', 'inclination'], explanation: '"There is a general tendency/inclination to + infinitive" = impersonal construction noting a habitual pattern without attributing it to a specific agent. Contrasts with "there is a possibility to" (suggests a potential opportunity) and "there is a requirement to" (obligation).' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u51-g5', type: 'multiple-choice', level: 'C1', topic: 'impersonal-constructions', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Integrating Impersonal Constructions|Integrar construcciones impersonales]]', instructions: 'Choose the most sophisticated use of impersonal constructions.',
-      questions: [{ question: 'Which sentence integrates multiple impersonal constructions most effectively?', options: ['[[It is widely recognised that surveillance capitalism — the business model through which personal data is monetised without adequate compensation or consent — represents a qualitatively new form of economic extraction; one tends to assume that digital services provided at no monetary cost are genuinely free, when it is now generally understood that the user\'s attention and data constitute the actual commodity being traded.|Se reconoce ampliamente que el capitalismo de vigilancia representa una nueva forma de extracción económica; se tiende a asumir que los servicios digitales provistos sin coste monetario son genuinamente gratuitos, cuando ahora se entiende generalmente que la atención y los datos del usuario constituyen la mercancía real.]]', '[[It is widely recognised that surveillance capitalism is bad. One tends to think that free services are really free. People are known to not realise that their data is the product. There is a tendency to ignore this problem.|Se reconoce ampliamente que el capitalismo de vigilancia es malo. Se tiende a pensar que los servicios gratuitos son realmente gratuitos.]]', '[[The widely recognised fact about surveillance capitalism is that one tends to see the business model as extractive. People are known for not understanding this and there is tendency that users do not realise their data is the product being sold.|El hecho ampliamente reconocido sobre el capitalismo de vigilancia es que se tiende a ver el modelo de negocio como extractivo.]]'], correctAnswer: 0, explanation: 'Option A uses "It is widely recognised that", "one tends to assume" and "it is now generally understood that" — three distinct impersonal constructions woven into a coherent analytical argument with substantive C1-level content.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u51-v1', type: 'multiple-choice', level: 'C1', topic: 'privacy-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Privacy and Surveillance|Privacidad y vigilancia]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'The systematic collection and analysis of personal data by corporations for the purpose of predicting and influencing behaviour — and the broader economic system built on this practice — has been theorised by Shoshana Zuboff as _______ capitalism.', options: ['[[surveillance|de vigilancia]]', '[[digital|digital]]', '[[platform|de plataforma]]'], correctAnswer: 0, explanation: '"Surveillance capitalism" = Shoshana Zuboff\'s term for the economic logic under which personal experience is a free raw material to be converted into behavioural data, then into behavioural predictions sold to business customers. Central to understanding the data economy.' }] },
@@ -58,18 +46,6 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u51-v4', type: 'fill-blank', level: 'C1', topic: 'privacy-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Digital Rights|Derechos digitales]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The practice of encoding communications so that only the intended recipient can read them — rendering them unreadable to third parties including internet service providers, governments and hackers — is known as end-to-end _______.', options: ['[[encryption|cifrado]]', '[[authentication|autenticación]]', '[[compression|compresión]]'], correctAnswer: 'encryption', acceptableAnswers: ['encryption'], explanation: '"End-to-end encryption" (E2EE) = a security method where only communicating users can read messages. Even the service provider cannot access the content. Used by WhatsApp, Signal and other secure messaging applications.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u51-v5', type: 'multiple-choice', level: 'C1', topic: 'privacy-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Data Protection|Protección de datos]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'The principle that personal data should be collected only for specified, explicit and legitimate purposes and not further processed in a manner incompatible with those purposes — a core requirement of modern data protection law — is known as the principle of _______.', options: ['[[purpose limitation|limitación de finalidad]]', '[[data minimisation|minimización de datos]]', '[[storage limitation|limitación de conservación]]'], correctAnswer: 0, explanation: '"Purpose limitation" = one of the six lawfulness principles under the GDPR (Article 5(1)(b)). "Data minimisation" = collecting only what is necessary for the stated purpose. "Storage limitation" = not keeping data longer than necessary. All are GDPR principles but distinct.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u51-r1', type: 'reading', level: 'C1', topic: 'privacy-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Panopticon and Digital Surveillance|El panóptico y la vigilancia digital]]', instructions: 'Read and answer.',
       passage: 'One tends to invoke Jeremy Bentham\'s eighteenth-century panopticon — the prison designed so that any inmate could be observed at any time by a single unseen guard — as a metaphor for contemporary digital surveillance. The analogy is instructive but imperfect. In Bentham\'s panopticon, it is generally understood that the power of surveillance derived from its potential omnipresence: inmates could never know when they were being watched, and so were compelled to behave as though they were always being watched. Contemporary digital surveillance shares this feature, but differs in important respects: it is far more granular, collecting not merely observable behaviour but the metadata of thought — search histories, drafts never sent, location data revealing places never spoken of; it is largely invisible and consented to, in theory, through terms of service agreements that people are known to accept without reading; and it is deployed not primarily by the state to maintain order but by private corporations to extract economic value. Whether this represents a qualitatively different form of social control — or merely a more efficient version of older practices — is, it is widely agreed, one of the defining questions of our age.',
@@ -84,10 +60,85 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u51-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'privacy-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Privacy, Surveillance and Digital Rights), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u51-l1', type: 'listening', level: 'C1', topic: 'privacy-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Debate on Data Regulation|Un debate sobre la regulación de datos]]', instructions: 'Read the transcript and answer.',
       passage: 'Interviewer: Is the GDPR working? Expert: It is widely regarded as a landmark piece of legislation — and one tends to acknowledge that it has changed corporate behaviour and raised global awareness of data rights in significant ways. But it would be equally mistaken to regard it as a solution. There is a general tendency in regulatory discourse to focus on consent mechanisms as the primary instrument of privacy protection, when people are known to click through cookie consent forms without reading them, rendering the consent largely fictional. What is needed, it is generally argued by privacy advocates, is a shift from individual consent as the primary safeguard to structural prohibitions on the most harmful forms of data exploitation — regardless of whether users have nominally consented. One tends to compare this to food safety regulation: we do not rely solely on consumers reading ingredient labels to protect them from harmful additives; we prohibit the additives. Interviewer: Is that politically feasible? Expert: It is increasingly accepted that it is necessary. Whether it is politically feasible in the current environment — given the lobbying power of the technology industry — is a different question entirely.',
       questions: [{ question: 'What analogy does the expert use to argue for structural data regulation?', options: ['[[Food safety regulation: just as we do not rely solely on consumers reading ingredient labels to protect them from harmful additives but instead prohibit the additives, data regulation should move from individual consent mechanisms to structural prohibitions on harmful data exploitation.|Regulación de seguridad alimentaria: así como no dependemos únicamente de que los consumidores lean las etiquetas de ingredientes para protegerlos de aditivos dañinos sino que prohibimos los aditivos, la regulación de datos debería pasar de los mecanismos de consentimiento individual a las prohibiciones estructurales.]]', '[[Medical regulation: just as pharmaceutical companies must demonstrate drug safety in clinical trials before approval rather than relying on patients to self-assess risks, data companies should be required to demonstrate privacy compliance before deploying new data collection systems.|Regulación médica: así como las empresas farmacéuticas deben demostrar la seguridad de los medicamentos en ensayos clínicos antes de su aprobación.]]', '[[Financial regulation: just as banks are prohibited from certain forms of market manipulation regardless of whether customers have consented to them in account terms, technology companies should be prohibited from manipulative data practices regardless of consent forms.|Regulación financiera: así como los bancos tienen prohibidas ciertas formas de manipulación del mercado independientemente de si los clientes han consentido en los términos de la cuenta.]]'], correctAnswer: 0, explanation: 'The expert explicitly uses food safety regulation: "we do not rely solely on consumers reading ingredient labels to protect them from harmful additives; we prohibit the additives" — arguing for structural prohibition rather than consent-based protection.' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u51-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'privacy-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u51-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'privacy-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u51-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'privacy-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u51-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'privacy-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u51-s1', type: 'speaking', level: 'C1', topic: 'privacy-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Privacy in the Digital Age|La privacidad en la era digital]]', instructions: 'Which response best demonstrates C1 spoken proficiency on privacy?',
       questions: [{ question: 'Question: "How much privacy should people reasonably expect in the digital age?"', options: ['[[One tends to frame this question as a trade-off between convenience and privacy, but it is now widely argued that this framing is itself a product of industry rhetoric designed to make the erosion of privacy appear inevitable and individually chosen, when it is generally recognised that the structural conditions — monopolistic platforms, opaque algorithms, inadequate regulation — remove meaningful choice for most users; the more productive question, it seems to me, is not how much privacy people should expect but what institutional and legal conditions are required to make the exercise of privacy rights genuinely possible.|Se tiende a enmarcar esta cuestión como un intercambio entre conveniencia y privacidad, pero ahora se argumenta ampliamente que este encuadre es en sí mismo un producto de la retórica industrial; la pregunta más productiva no es cuánta privacidad deberían esperar las personas sino qué condiciones institucionales y legales se requieren para que el ejercicio de los derechos de privacidad sea genuinamente posible.]]', '[[It is widely believed that people should have some privacy. One tends to want privacy. People are known to care about it. There is a tendency to give away data, but it is generally accepted that this is a problem that needs to be addressed.|Se cree ampliamente que las personas deberían tener algo de privacidad. Se tiende a querer privacidad.]]', '[[One tends to think privacy is important. It is widely accepted that surveillance is bad. People are known to not like being watched. There is a general tendency to value privacy, though it is recognised that the situation is complicated.|Se tiende a pensar que la privacidad es importante. Se acepta ampliamente que la vigilancia es mala.]]'], correctAnswer: 0, explanation: 'Option A reframes the question itself, uses "one tends to frame", "it is now widely argued", "it is generally recognised" and ends with a substantive analytical reorientation — the hallmark of C1 critical thinking expressed through impersonal constructions.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u51-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'privacy-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u51-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'privacy-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

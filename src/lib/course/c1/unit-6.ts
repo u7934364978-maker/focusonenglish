@@ -28,18 +28,6 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u6-g4', type: 'fill-blank', level: 'C1', topic: 'gerund-infinitive', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Gerund vs Infinitive|Gerundio vs infinitivo]]', instructions: 'Complete the sentence correctly.',
-      questions: [{ question: 'We look forward _______ _______ from you regarding your application.', options: ['[[to hearing|a escuchar]]', '[[to hear|a escuchar]]', '[[hearing|escuchando]]'], correctAnswer: 'to hearing', acceptableAnswers: ['to hearing'], explanation: '"Look forward to + -ing" — "to" is a preposition here, not part of the infinitive.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u6-g5', type: 'multiple-choice', level: 'C1', topic: 'cause-result', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Cause and Result Linkers|Conectores de causa y resultado]]', instructions: 'Choose the most appropriate linker.',
-      questions: [{ question: 'Wages stagnated for a decade, _______ widening the gap between the rich and poor.', options: ['[[thereby|con ello]]', '[[despite|a pesar de ello]]', '[[whereas|mientras que]]'], correctAnswer: 0, explanation: '"Thereby + -ing" = by doing this; expresses result in a single clause.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u6-v1', type: 'multiple-choice', level: 'C1', topic: 'work-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Work and Economy|Trabajo y economía]]', instructions: 'Choose the correct word.',
       questions: [{ question: 'The startup failed to achieve _______ — it worked well for 100 users but collapsed under the weight of 10,000.', options: ['[[scalability|escalabilidad]]', '[[productivity|productividad]]', '[[turnover|facturación]]'], correctAnswer: 0, explanation: 'Scalability = the ability of a system to grow and manage increased demand.' }] },
@@ -58,18 +46,6 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u6-v4', type: 'fill-blank', level: 'C1', topic: 'work-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Work and Economy|Trabajo y economía]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'Many workers in the _______ _______ lack employment protections such as sick pay and pension contributions.', options: ['[[gig economy|economía gig]]', '[[public sector|sector público]]', '[[informal economy|economía informal]]'], correctAnswer: 'gig economy', acceptableAnswers: ['gig economy'], explanation: 'The gig economy = a labour market characterised by short-term contracts and freelance work.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u6-v5', type: 'multiple-choice', level: 'C1', topic: 'work-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Work and Economy|Trabajo y economía]]', instructions: 'Choose the best collocation.',
-      questions: [{ question: 'Companies must invest in _______ to ensure their workforce remains competitive in an era of rapid technological change.', options: ['[[upskilling|formación continua]]', '[[outsourcing|externalización]]', '[[downsizing|reducción de plantilla]]'], correctAnswer: 0, explanation: 'Upskilling = training employees to develop new skills.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u6-r1', type: 'reading-comprehension', level: 'C1', topic: 'work-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Future of Work|El futuro del trabajo]]', instructions: 'Read and answer.',
       questions: [{ question: 'Text: "It is increasingly argued that the traditional nine-to-five model is not merely outdated but fundamentally incompatible with the expectations of a workforce that has been irrevocably transformed by the pandemic." What does the author claim?', options: ['[[remote working is a temporary trend|el trabajo remoto es una tendencia temporal]]', '[[the traditional work model is fundamentally unsuitable for the post-pandemic workforce|el modelo de trabajo tradicional es fundamentalmente inadecuado para la fuerza laboral pospandémica]]', '[[the pandemic had little effect on work culture|la pandemia tuvo poco efecto en la cultura del trabajo]]'], correctAnswer: 1, explanation: '"Fundamentally incompatible" and "irrevocably transformed" signal a deep, permanent change.' }] },
@@ -82,9 +58,84 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u6-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'work-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Work and Economy), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u6-l1', type: 'listening-comprehension', level: 'C1', topic: 'work-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[Entrepreneurship|Emprendimiento]]', instructions: 'Listen and choose the correct answer.',
       questions: [{ question: 'An entrepreneur says: "Had we secured funding in that first round, we would never have been forced to innovate so aggressively — in hindsight, the failure was the making of us." What does she imply?', options: ['[[early failure was entirely negative|el fracaso inicial fue totalmente negativo]]', '[[the lack of initial funding ultimately drove innovation and success|la falta de financiación inicial impulsó la innovación y el éxito]]', '[[securing funding is never important for startups|conseguir financiación nunca es importante para las startups]]'], correctAnswer: 1, explanation: '"The failure was the making of us" = the failure caused their eventual success.' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u6-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'work-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u6-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'work-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -94,9 +145,105 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u6-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'formal-report',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u6-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'formal-report',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u6-s1', type: 'multiple-choice', level: 'C1', topic: 'speaking-work', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Work-Life Balance|Equilibrio trabajo-vida]]', instructions: 'Choose the most sophisticated way to discuss work-life balance.',
       questions: [{ question: 'How would you best introduce the topic of work-life balance in a professional discussion?', options: ['[[Work-life balance has become a central concern in contemporary management literature, and the evidence suggests that organisations which invest in employee wellbeing tend to outperform those that do not, particularly on key metrics such as talent retention, absenteeism rates and long-term productivity.|El equilibrio trabajo-vida se ha convertido en una preocupación central en la literatura de gestión contemporánea, y la evidencia sugiere que las organizaciones que invierten en el bienestar de los empleados tienden a superar a las que no lo hacen, particularmente en métricas como la retención de talento y la productividad.]]', '[[The growing discourse around work-life integration raises fundamental questions about what we value as a society and how we define professional success.|El creciente discurso sobre la integración trabajo-vida plantea preguntas fundamentales sobre lo que valoramos como sociedad.]]', '[[The concept of work-life balance, despite its popularity in policy and management circles, remains remarkably ill-defined, with significant variation in how different cultures, industries and professional groups interpret the appropriate boundary between professional obligations and personal time.|El concepto de equilibrio trabajo-vida, a pesar de su popularidad en los círculos de política y gestión, sigue siendo notablemente mal definido, con una variación significativa en cómo diferentes culturas e industrias interpretan el límite apropiado entre las obligaciones profesionales y el tiempo personal.]]'], correctAnswer: 1, explanation: '"Growing discourse", "fundamental questions", "define professional success" = sophisticated C1 academic register.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u6-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-work',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u6-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-work',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

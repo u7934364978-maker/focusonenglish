@@ -28,18 +28,6 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u49-g4', type: 'fill-blank', level: 'C1', topic: 'comparison-contrast', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Comparative Structures in Academic Prose|Estructuras comparativas en prosa académica]]', instructions: 'Complete with the correct comparative phrase.',
-      questions: [{ question: 'The relationship between media consumers and content producers has changed fundamentally in the digital era: _______ passive recipients of a fixed editorial product determined by professional journalists and editors, contemporary audiences actively participate in the production, curation and dissemination of information through social networks, comment sections and citizen journalism platforms.', options: ['[[rather than being|en lugar de ser]]', '[[despite being|a pesar de ser]]', '[[because of being|a causa de ser]]'], correctAnswer: 'rather than being', acceptableAnswers: ['rather than being', 'far from being'], explanation: '"Rather than being + past role, + main clause" = formal comparison that contrasts an outdated model with a current reality. "Far from being" also works here. "Despite being" implies a concession rather than a replacement/contrast.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u49-g5', type: 'multiple-choice', level: 'C1', topic: 'comparison-contrast', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Integration of Multiple Contrast Structures|Integración de múltiples estructuras de contraste]]', instructions: 'Choose the most sophisticated sentence integrating multiple contrast devices.',
-      questions: [{ question: 'Which sentence integrates the widest range of comparison and contrast structures most effectively?', options: ['[[Far from being the democratic equaliser that early internet theorists envisaged — in which the collapse of publication barriers would give voice to the previously voiceless and disrupt entrenched concentrations of media power — the digital information environment has, in several respects, produced outcomes closer to the opposite: compared to the era of broadcast dominance, information is simultaneously more abundant and less reliable, whilst power over what billions of people see and read is more concentrated than ever, albeit in different and less visible hands.|Lejos de ser el igualador democrático que los primeros teóricos de internet preveían, el entorno de información digital ha producido en varios aspectos resultados más cercanos a lo opuesto: en comparación con la era de dominio de la radiodifusión, la información es simultáneamente más abundante y menos fiable, mientras que el poder sobre lo que miles de millones de personas ven y leen está más concentrado que nunca.]]', '[[Digital media was supposed to be democratic but it is not. Far from being equal, it is concentrated. Compared to traditional media, digital media is different. Unlike the old system, the new system has algorithms. Whereas broadcast media was centralised, digital media seems decentralised but actually is not.|Se suponía que los medios digitales serían democráticos pero no lo son. Lejos de ser iguales, están concentrados.]]', '[[In contrast with old media, new media is very different. It is compared to a revolution but unlike a real revolution, it has not changed power. Far from being better, it might even be worse in some ways compared to what we had before with newspapers and television.|En contraste con los medios antiguos, los nuevos medios son muy diferentes.]]'], correctAnswer: 0, explanation: 'Option A deploys "Far from being", "compared to", "whilst" and "albeit" — four distinct comparison/contrast structures — within a coherent argument that sustains critical analysis throughout.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u49-v1', type: 'multiple-choice', level: 'C1', topic: 'media-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Media and Journalism|Medios de comunicación y periodismo]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'The phenomenon in which algorithmic personalisation causes individuals to encounter primarily information that confirms their existing beliefs and opinions — limiting exposure to contrary viewpoints and reinforcing polarisation — is known as a _______.', options: ['[[filter bubble|burbuja de filtro]]', '[[paywall|muro de pago]]', '[[clickbait|cebo de clics]]'], correctAnswer: 0, explanation: '"Filter bubble" = coined by Eli Pariser (2011); the personalised information environment created by algorithmic curation that limits exposure to ideologically diverse content. "Paywall" = a subscription barrier to content access. "Clickbait" = sensationalist content designed to generate clicks.' }] },
@@ -58,18 +46,6 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u49-v4', type: 'fill-blank', level: 'C1', topic: 'media-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Digital Media|Medios digitales]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The revenue model in which online platforms provide free access to content in exchange for displaying targeted _______ to users — whose data on behaviour, preferences and demographics is collected and sold to advertisers — underpins the business model of most major social media companies.', options: ['[[advertisements|anuncios]]', '[[subscriptions|suscripciones]]', '[[paywalls|muros de pago]]'], correctAnswer: 'advertisements', acceptableAnswers: ['advertisements', 'advertising', 'ads'], explanation: 'The "free-to-user, advertising-funded" model, in which user data is the product, underpins platforms including Google, Facebook, Instagram and X. This is sometimes described as the "surveillance capitalism" model.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u49-v5', type: 'multiple-choice', level: 'C1', topic: 'media-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Public Service Media|Medios de servicio público]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'Broadcasting organisations — such as the BBC or France Televisions — that are publicly funded, mandated to serve the public interest across all demographics, required to maintain editorial independence from government and commercial interests, and subject to specific obligations regarding accuracy and impartiality are collectively known as _______ broadcasters.', options: ['[[public service|servicio público]]', '[[state|estatales]]', '[[commercial|comerciales]]'], correctAnswer: 0, explanation: '"Public service broadcaster" = publicly funded and mandated to serve the public interest (BBC, ABC, ARD). Distinct from "state broadcaster" (directly controlled by government) and "commercial broadcaster" (funded by advertising, without public interest mandate).' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u49-r1', type: 'reading', level: 'C1', topic: 'media-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Attention Economy|La economía de la atención]]', instructions: 'Read and answer.',
       passage: 'The concept of the attention economy — in which the scarce resource being competed for is not capital or labour but the limited cognitive bandwidth of human consumers — goes some way towards explaining the design features of contemporary digital platforms. Far from being neutral technological conduits, social media platforms are engineered, through iterative A/B testing and behavioural feedback loops, to maximise the time users spend on them. Compared to earlier media forms, in which engagement was largely passive and constrained by fixed broadcast schedules, digital platforms deploy sophisticated psychological mechanisms — variable reward schedules, social validation signals, algorithmically curated feeds — that exploit well-documented vulnerabilities in human attention and decision-making. The commercial logic is straightforward: unlike subscription models, in which revenue is generated directly by users, advertising-funded platforms derive value from selling access to user attention; the longer users stay, the more advertisements they see, and the more data they generate to improve targeting. The consequence, critics argue, is a structural misalignment between the interests of platforms and the interests of users and society.',
@@ -84,10 +60,85 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u49-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'media-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Traditional vs Digital Media), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u49-l1', type: 'listening', level: 'C1', topic: 'media-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Media Studies Lecture|Una conferencia de estudios de medios]]', instructions: 'Read the transcript and answer.',
       passage: 'Lecturer: I want to revisit an argument we encountered last week — the idea that digital media represents a straightforward democratisation of information. I want to argue that this is, at best, a partial truth, and that when we examine it carefully, the picture is considerably more complex. Far from being a levelling force, the digital information environment has, in several measurable dimensions, concentrated power. Compared to the era of broadcast dominance — in which editorial gatekeepers were few but visible and subject to regulatory oversight — algorithmic gatekeeping is both more pervasive and less transparent. Unlike a newspaper editor, whose decisions are at least nominally accountable, a recommendation algorithm makes billions of editorial decisions per day with no editorial responsibility whatsoever. Whilst it is true that anyone can publish content and potentially reach a global audience, the attention and credibility signals that determine whether content actually reaches anyone are controlled by a small number of private companies operating largely without public accountability. This is not an argument against digital media per se — it is an argument for taking seriously the governance of digital information infrastructure as a matter of democratic importance.',
       questions: [{ question: 'What contrast does the lecturer draw between traditional editorial gatekeepers and algorithmic gatekeeping?', options: ['[[Traditional editorial gatekeepers were few but visible and subject to regulatory oversight, whereas algorithmic gatekeeping is both more pervasive and less transparent, making billions of decisions daily with no editorial responsibility and controlled by companies operating largely without public accountability.|Los guardianes editoriales tradicionales eran pocos pero visibles y sujetos a supervisión regulatoria, mientras que la selección algorítmica es al mismo tiempo más generalizada y menos transparente, tomando miles de millones de decisiones diariamente sin responsabilidad editorial alguna.]]', '[[The lecturer argues that traditional editorial gatekeepers were actually more dangerous than algorithmic systems, because human editors had personal biases and political allegiances that directly shaped content in partisan ways, whereas algorithms are at least neutral in their application of engagement metrics.|La conferenciante argumenta que los guardianes editoriales tradicionales eran en realidad más peligrosos que los sistemas algorítmicos.]]', '[[The key contrast is that traditional gatekeepers worked slowly and could only reach limited audiences through print and broadcast, whereas algorithms work at unprecedented speed and scale, which makes them more effective but also more difficult for users to understand and navigate.|El contraste clave es que los guardianes tradicionales trabajaban lentamente y solo podían llegar a audiencias limitadas.]]'], correctAnswer: 0, explanation: 'The lecturer says: "Compared to the era of broadcast dominance — in which editorial gatekeepers were few but visible and subject to regulatory oversight — algorithmic gatekeeping is both more pervasive and less transparent."' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u49-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'media-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u49-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'media-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u49-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'media-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u49-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'media-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u49-s1', type: 'speaking', level: 'C1', topic: 'media-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Traditional vs Digital Media Debate|Debate sobre medios tradicionales vs digitales]]', instructions: 'Which response best demonstrates C1 spoken proficiency when comparing media?',
       questions: [{ question: 'Question: "Is the rise of digital media good or bad for democracy?"', options: ['[[I would resist both the utopian and the dystopian accounts, because far from being a straightforwardly good or bad development, the rise of digital media involves genuine trade-offs that play out differently across different contexts; compared to the broadcast era, the gains in pluralism and citizen access to information are real, but unlike a simple democratisation story, the picture is complicated by the concentration of platform power, the degradation of local journalism and the structural incentives that systematically reward content that is emotionally provocative over content that is accurate or constructive — which is why the quality of democratic information environments depends less on the technology itself than on the governance choices we make around it.|Me resistiría tanto a los relatos utópicos como a los distópicos, porque lejos de ser un desarrollo claramente bueno o malo, el auge de los medios digitales implica compromisos genuinos; en comparación con la era de la radiodifusión, las ganancias en pluralismo son reales, pero a diferencia de una simple historia de democratización, el panorama se complica por la concentración del poder de las plataformas y los incentivos estructurales que recompensan el contenido emocionalmente provocador.]]', '[[Digital media is good and bad for democracy. Far from being perfect, it has problems. Compared to traditional media, it is more democratic but unlike a fully democratic system, it has issues with fake news and filter bubbles and concentration of ownership by large tech companies.|Los medios digitales son buenos y malos para la democracia. Lejos de ser perfectos, tienen problemas.]]', '[[I think digital media is mostly bad for democracy because unlike traditional media with professional standards, anyone can post anything online. Compared to newspapers which were reliable, social media spreads fake news. Far from helping democracy, it mostly undermines it.|Creo que los medios digitales son principalmente malos para la democracia porque a diferencia de los medios tradicionales con estándares profesionales, cualquiera puede publicar cualquier cosa en línea.]]'], correctAnswer: 0, explanation: 'Option A uses "far from being", "compared to", "unlike" and adds a sophisticated meta-point — that democratic quality depends on governance choices, not technology per se — demonstrating genuine C1 analytical depth.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u49-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'media-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u49-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'media-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

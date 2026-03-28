@@ -28,18 +28,6 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u27-g4', type: 'fill-blank', level: 'C1', topic: 'degree-result', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Enough + Infinitive|Suficiente + infinitivo]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The young actor was technically accomplished _______ to impress critics, but not yet emotionally mature enough to fully inhabit the psychological complexity that the role of Hamlet demands.', options: ['[[enough|suficiente]]', '[[much|mucho]]', '[[sufficiently|suficientemente]]'], correctAnswer: 'enough', acceptableAnswers: ['enough'], explanation: '"Adjective + enough + to-infinitive" = degree + result. "Technically accomplished enough to impress" — "enough" follows the adjective it modifies.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u27-g5', type: 'multiple-choice', level: 'C1', topic: 'degree-result', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Purpose Structures|Estructuras de finalidad]]', instructions: 'Choose the correct purpose structure.',
-      questions: [{ question: 'Which sentence uses a purpose structure correctly?', options: ['[[The set designer stripped the stage back to bare boards and a single spotlight so as to focus the audience\'s attention exclusively on the actors\' physical presence and vocal delivery.|El diseñador de escenografía redujo el escenario a tablas desnudas y un único foco de luz con el fin de centrar la atención del público exclusivamente en la presencia física y la entrega vocal de los actores.]]', '[[The set designer stripped the stage so as for the audience to focus their attention exclusively on the actors\' physical presence and vocal delivery which was intended.|El diseñador de escenografía redujo el escenario para que el público centrara su atención exclusivamente en la presencia física y la entrega vocal de los actores, que era la intención.]]', '[[The set designer stripped the stage back so as to that the audience could focus their attention exclusively on the actors\' physical presence and vocal delivery.|El diseñador de escenografía redujo el escenario de modo que el público pudiera centrar su atención exclusivamente en la presencia física y la entrega vocal de los actores.]]'], correctAnswer: 0, explanation: '"So as to + infinitive" = formal purpose structure (same subject). "So as to focus" = correct. "So as to that" is ungrammatical. For different subjects, use "so that + clause".' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u27-v1', type: 'multiple-choice', level: 'C1', topic: 'theatre-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Theatre and Drama|Teatro y drama]]', instructions: 'Choose the correct word.',
       questions: [{ question: 'The term _______ refers to the ancient Greek concept — articulated by Aristotle in the Poetics — of the emotional purification or release that an audience experiences through witnessing the suffering of tragic characters.', options: ['[[catharsis|catarsis]]', '[[mimesis|mímesis]]', '[[anagnorisis|anagnórisis]]'], correctAnswer: 0, explanation: '"Catharsis" = Aristotle\'s concept of emotional purification or release through witnessing tragedy. "Mimesis" = imitation/representation. "Anagnorisis" = the moment of recognition/discovery in a narrative.' }] },
@@ -58,18 +46,6 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u27-v4', type: 'multiple-choice', level: 'C1', topic: 'theatre-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Theatre|Teatro]]', instructions: 'Choose the best word.',
-      questions: [{ question: 'A form of theatre that uses techniques from everyday life — improvised dialogue, documentary material, community participation — to explore real social and political issues is known as _______ theatre.', options: ['[[verbatim|verbatim (literalista)]]', '[[immersive|inmersivo]]', '[[physical|físico]]'], correctAnswer: 0, explanation: '"Verbatim theatre" = theatre based on the real words of real people, reconstructed from interviews and documentary sources. "Immersive" involves audience participation in the space; "physical" emphasises body over text.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u27-v5', type: 'fill-blank', level: 'C1', topic: 'theatre-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Theatre Terms|Términos teatrales]]', instructions: 'Complete with the correct term.',
-      questions: [{ question: 'The term _______ refers to the written text of a play — the complete words and stage directions as created by the playwright — as distinct from the performance itself, which interprets and realises the text.', options: ['[[script|guión teatral]]', '[[score|partitura]]', '[[libretto|libreto]]'], correctAnswer: 'script', acceptableAnswers: ['script', 'play text', 'text'], explanation: '"Script" = the written text of a play or performance. "Score" = musical notation. "Libretto" = the text of an opera or musical.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u27-r1', type: 'reading-comprehension', level: 'C1', topic: 'theatre-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Theatre Review|Crítica teatral]]', instructions: 'Read and answer.',
       questions: [{ question: 'Text: "What distinguishes the live theatrical experience from film is precisely its contingency — the knowledge that what is happening cannot be rewound, edited or repeated. The actor\'s slight hesitation, the unscripted laugh, the electricity between performers that ignites on some nights and not others: these imperfections are not flaws but the very substance of theatre\'s claim on us. Theatre asks us to be present in the full sense of the word."\n\nWhat does the writer argue is unique about live theatre?', options: ['[[Live theatre is superior to film because it involves greater technical skill from performers who must remember lines and deliver them without the benefit of multiple takes and editing.|El teatro en vivo es superior al cine porque implica mayor habilidad técnica de los intérpretes que deben recordar sus líneas y entregarlas sin el beneficio de múltiples tomas y edición.]]', '[[The unrepeatable, contingent nature of live performance — its imperfections and unpredictability — is precisely what makes theatre distinct from film and constitutes its unique claim on audiences.|La naturaleza irrepetible y contingente de la actuación en vivo, sus imperfecciones e imprevisibilidad, es precisamente lo que hace al teatro distinto del cine y constituye su reclamo único sobre las audiencias.]]', '[[Theatre requires audience presence in a physical space, which creates a social experience that is becoming increasingly rare in modern culture where most entertainment is consumed alone at home.|El teatro requiere la presencia del público en un espacio físico, lo que crea una experiencia social que es cada vez más rara en la cultura moderna donde la mayor parte del entretenimiento se consume en casa.]]'], correctAnswer: 1, explanation: 'The writer focuses on "contingency" and "imperfections" as the essence of theatre\'s appeal — "these imperfections are not flaws but the very substance of theatre\'s claim on us".' }] },
@@ -82,15 +58,138 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u27-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'theatre-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Theatre and Performance), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u27-l1', type: 'listening-comprehension', level: 'C1', topic: 'theatre-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[Theatre Direction Talk|Charla sobre dirección teatral]]', instructions: 'Listen and choose the correct answer.',
       questions: [{ question: 'A theatre director says: "The most dangerous thing a director can do is decide what a play means before rehearsal begins. The text is not a blueprint to be executed but a set of questions to be explored. The meaning emerges in the rehearsal room — from the specific bodies, voices and intelligences of these particular actors, at this particular cultural moment, in dialogue with a script that was written for a world that no longer exists."\n\nWhat is the director\'s view on interpretation?', options: ['[[Directors should always respect the playwright\'s original intentions and avoid imposing their own interpretations on classic texts, since the text\'s meaning was fixed at the moment of its creation and should not be altered.|Los directores siempre deben respetar las intenciones originales del dramaturgo y evitar imponer sus propias interpretaciones en los textos clásicos, ya que el significado del texto fue fijado en el momento de su creación.]]', '[[Meaning in theatre is not predetermined but emerges through the process of rehearsal, shaped by the specific performers and cultural context of each particular production rather than fixed in the text itself.|El significado en el teatro no está predeterminado sino que emerge a través del proceso de ensayo, moldeado por los intérpretes específicos y el contexto cultural de cada producción particular más que fijado en el texto en sí.]]', '[[Directors should prioritise their own vision over the text itself, since theatre is primarily a director\'s medium and the playwright\'s script is merely raw material to be transformed into something entirely new.|Los directores deben priorizar su propia visión sobre el texto en sí, ya que el teatro es principalmente un medio del director y el guión del dramaturgo es simplemente materia prima para ser transformada.]]'], correctAnswer: 1, explanation: 'The director says "meaning emerges in the rehearsal room" from specific actors at a specific cultural moment — not from the director\'s predetermined interpretation nor fixed in the text.' }] },
     topicName: 'Listening',
   },
   {
+    id: 'c1-u27-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'theatre-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u27-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'theatre-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
     id: 'c1-u27-w1', type: 'multiple-choice', level: 'C1', topic: 'theatre-writing', difficulty: 'hard',
     content: { title: '[[Writing|Escritura]]: [[Theatre Review Writing|Escritura de crítica teatral]]', instructions: 'Choose the best passage from a theatre review.',
       questions: [{ question: 'Choose the paragraph that best demonstrates C1 writing in a theatre review context:', options: ['[[The production was so technically accomplished that even its inevitable imperfections — a fractional hesitation in the third act, the slightly underplayed resolution — felt like deliberate choices rather than errors, such was the authority with which the ensemble inhabited the play\'s world.|La producción era tan técnicamente lograda que incluso sus inevitables imperfecciones, una hesitación fraccionaria en el tercer acto, la resolución ligeramente subejectuada, parecían opciones deliberadas más que errores, tal era la autoridad con la que el conjunto habitaba el mundo de la obra.]]', '[[The production was very good and technically accomplished. There were a few small problems but overall it was excellent. The actors were very talented and the set design was impressive. I would recommend it.|La producción fue muy buena y técnicamente lograda. Hubo algunos pequeños problemas pero en general fue excelente. Los actores eran muy talentosos y el diseño del escenario era impresionante. Lo recomendaría.]]', '[[The production had good technical quality and the actors did a good job. Some moments were not so good and the ending was a bit too fast but most of it was very impressive and worth seeing.|La producción tenía buena calidad técnica y los actores hicieron un buen trabajo. Algunos momentos no fueron tan buenos y el final fue un poco demasiado rápido pero la mayor parte fue muy impresionante.]]'], correctAnswer: 0, explanation: 'Option A uses "so...that" (degree/result), specific examples, "such was the authority" (inverted such-clause for emphasis), and precise critical vocabulary — C1 review writing.' }] },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u27-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'theatre-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u27-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'theatre-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
     topicName: 'Writing',
   },
   {
@@ -101,6 +200,54 @@ export const UNIT_27_EXERCISES: Exercise[] = [
         '[[The question perhaps inverts the real issue: it is not whether theatre can remain relevant in the digital age, but whether the digital age — so saturated with content that nothing accumulates sufficient weight to matter — might actually make theatre\'s liveness more necessary rather than less. The irreversible, shared, unmediated experience is precisely what the screen cannot replicate.|La pregunta quizás invierte el problema real: no es si el teatro puede seguir siendo relevante en la era digital, sino si la era digital, tan saturada de contenido que nada acumula suficiente peso, podría hacer que la inmediatez del teatro sea más necesaria en lugar de menos.]]',
         '[[No, I think theatre is becoming less relevant because fewer young people go to the theatre now. Most people prefer to watch things on Netflix or other streaming platforms, which is cheaper and more convenient.|No, creo que el teatro es cada vez menos relevante porque cada vez menos jóvenes van al teatro. La mayoría de la gente prefiere ver cosas en Netflix u otras plataformas de streaming, que es más barato y más conveniente.]]',
       ], correctAnswer: 1, explanation: 'Option B reframes the question, introduces a counterintuitive argument (saturation makes liveness more valuable), and contrasts the screen\'s mediation with theatre\'s unmediated experience — sophisticated C1 speaking.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u27-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-theatre',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u27-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-theatre',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

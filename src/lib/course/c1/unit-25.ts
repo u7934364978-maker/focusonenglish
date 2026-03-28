@@ -28,18 +28,6 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u25-g4', type: 'fill-blank', level: 'C1', topic: 'narrative-tenses', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Narrative Tenses|Tiempos narrativos]]', instructions: 'Complete the passage with the correct tense.',
-      questions: [{ question: 'The screening _______ (begin) when a late arrival stumbled noisily to their seat, breaking the spell that the opening sequence had so carefully constructed over the preceding twenty minutes.', options: ['[[had already begun|ya había comenzado]]', '[[already began|ya comenzó]]', '[[was already beginning|ya estaba comenzando]]'], correctAnswer: 'had already begun', acceptableAnswers: ['had already begun'], explanation: '"Had already begun" = past perfect simple; the screening started (completed past event) before the interruption occurred. "Already" reinforces the sequence.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u25-g5', type: 'multiple-choice', level: 'C1', topic: 'narrative-tenses', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Advanced Tense Sequences|Secuencias de tiempos avanzadas]]', instructions: 'Choose the most accurate narrative sequence.',
-      questions: [{ question: 'Which passage uses the most accurate and sophisticated tense sequence to describe a film director\'s life?', options: ['[[Bergman had been exploring the themes of faith and mortality throughout his career, but it was not until Wild Strawberries that he fully crystallised the introspective style he had been gradually refining since his earliest Swedish productions.|Bergman había estado explorando los temas de la fe y la mortalidad a lo largo de su carrera, pero no fue hasta Fresas salvajes cuando cristalizó plenamente el estilo introspectivo que había estado refinando gradualmente desde sus primeras producciones suecas.]]', '[[Bergman explored themes of faith and mortality throughout his career, but it was not until Wild Strawberries that he fully crystallised the introspective style he was gradually refining since his earliest Swedish productions.|Bergman exploró los temas de la fe y la mortalidad a lo largo de su carrera, pero no fue hasta Fresas salvajes cuando cristalizó plenamente el estilo introspectivo que estaba refinando gradualmente.]]', '[[Bergman was exploring the themes of faith and mortality throughout his career and it was not until Wild Strawberries that he fully crystallised the introspective style that he was gradually refining since his earliest Swedish productions.|Bergman estaba explorando los temas de la fe y la mortalidad a lo largo de su carrera y no fue hasta Fresas salvajes cuando cristalizó plenamente el estilo introspectivo que estaba refinando gradualmente.]]'], correctAnswer: 0, explanation: '"Had been exploring" (ongoing past process) / "had been refining" (ongoing gradual process) = past perfect continuous x2; "crystallised" = past simple completed action. Three-level tense sequence.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u25-v1', type: 'multiple-choice', level: 'C1', topic: 'cinema-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Cinema and Film|Cine y película]]', instructions: 'Choose the correct word.',
       questions: [{ question: 'A film whose narrative structure moves backward in time, revealing earlier events that explain the circumstances of a scene already shown, employs an _______.', options: ['[[analepsis / flashback|analepsis / retrospección]]', '[[prolepsis / flash-forward|prolepsis / premonición]]', '[[montage / crosscut|montaje / corte cruzado]]'], correctAnswer: 0, explanation: '"Analepsis" (academic) / "flashback" (common) = a narrative device in which the story moves back in time. "Prolepsis" / "flash-forward" = the reverse.' }] },
@@ -58,18 +46,6 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u25-v4', type: 'multiple-choice', level: 'C1', topic: 'cinema-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Film Language|Lenguaje cinematográfico]]', instructions: 'Choose the best word.',
-      questions: [{ question: 'The practice of _______ — cutting between two or more scenes that occur in different locations but are implied to be happening simultaneously — is a fundamental tool for building suspense and showing parallel storylines.', options: ['[[cross-cutting|montaje paralelo]]', '[[jump-cutting|corte brusco]]', '[[match-cutting|corte por continuidad]]'], correctAnswer: 0, explanation: '"Cross-cutting" = alternating between simultaneous events in different locations. "Jump cut" = elliptical cut within a scene (jarring). "Match cut" = cut between visually similar images.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u25-v5', type: 'fill-blank', level: 'C1', topic: 'cinema-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Film Industry|Industria del cine]]', instructions: 'Complete with the correct word.',
-      questions: [{ question: 'A film produced independently of the major studio system, typically with a smaller budget, greater creative freedom and a focus on artistic ambition over commercial returns, is known as an _______ film.', options: ['[[indie|independiente]]', '[[art house|de arte y ensayo]]', '[[foreign|extranjero]]'], correctAnswer: 'indie', acceptableAnswers: ['indie', 'independent', 'art-house', 'arthouse'], explanation: '"Indie film" = independent film, made outside the major studio system. "Art-house" often overlaps but specifically refers to films aimed at cinephile audiences; "foreign film" refers to language, not production model.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u25-r1', type: 'reading-comprehension', level: 'C1', topic: 'cinema-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Film Criticism|Crítica cinematográfica]]', instructions: 'Read and answer.',
       questions: [{ question: 'Text: "The rise of streaming platforms has democratised access to film in ways previously unimaginable — a single subscriber can now access more films in a month than a dedicated cinephile could have viewed in a decade thirty years ago. Yet this abundance has produced a paradox: the more films are available, the harder any single film finds it to accumulate the cultural weight that once turned cinema into a shared social experience."\n\nWhat paradox does the text identify?', options: ['[[Streaming has made films cheaper to produce, but higher volume production has lowered average quality and made it harder to find genuinely worthwhile films among the large number of mediocre releases.|El streaming ha abaratado la producción de películas, pero el mayor volumen de producción ha reducido la calidad media y hace más difícil encontrar películas realmente valiosas.]]', '[[Greater accessibility and abundance of films through streaming may paradoxically undermine the cultural impact of individual films by preventing any single work from becoming a shared cultural event.|La mayor accesibilidad y abundancia de películas a través del streaming puede paradójicamente socavar el impacto cultural de las películas individuales al impedir que ninguna obra se convierta en un evento cultural compartido.]]', '[[Streaming platforms have been unsuccessful at attracting cinema audiences back from traditional theatres, which continue to dominate the industry despite the convenience of home viewing.|Las plataformas de streaming no han logrado atraer al público de cine de vuelta desde los cines tradicionales, que continúan dominando la industria a pesar de la comodidad del visionado en casa.]]'], correctAnswer: 1, explanation: 'The text says greater availability produces a "paradox" — abundance makes it "harder for any single film to accumulate the cultural weight" of a shared social experience.' }] },
@@ -82,15 +58,138 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u25-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'cinema-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Cinema and Film), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u25-l1', type: 'listening-comprehension', level: 'C1', topic: 'cinema-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[Film Studies Lecture|Conferencia de estudios cinematográficos]]', instructions: 'Listen and choose the correct answer.',
       questions: [{ question: 'A film critic says: "What separates a great film from a merely competent one is rarely technical proficiency — the industry is full of competent cinematographers and editors. What distinguishes the masterwork is something harder to quantify: a coherent and original vision that inflects every decision, from casting to colour palette, in service of a unified emotional and thematic purpose."\n\nAccording to the critic, what makes a film great?', options: ['[[Technical excellence in cinematography and editing is the key distinguishing factor between great films and merely competent ones, because these skills are rare and hard to develop to a professional standard.|La excelencia técnica en la fotografía y el montaje es el factor diferenciador clave entre las grandes películas y las meramente competentes, porque estas habilidades son raras y difíciles de desarrollar.]]', '[[A coherent, original directorial vision that shapes every creative decision toward a unified emotional and thematic purpose distinguishes great films from technically competent but ordinary ones.|Una visión directorial coherente y original que moldea cada decisión creativa hacia un propósito emocional y temático unificado distingue a las grandes películas de las técnicamente competentes pero ordinarias.]]', '[[Great films are defined by their commercial success and cultural impact — only films that resonate widely with audiences over time deserve to be considered truly great works of cinema.|Las grandes películas se definen por su éxito comercial e impacto cultural: solo las películas que resuenan ampliamente con las audiencias a lo largo del tiempo merecen considerarse obras verdaderamente grandes del cine.]]'], correctAnswer: 1, explanation: 'The critic says greatness is "a coherent and original vision that inflects every decision... in service of a unified emotional and thematic purpose" — not technical skill.' }] },
     topicName: 'Listening',
   },
   {
+    id: 'c1-u25-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'cinema-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u25-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'cinema-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
     id: 'c1-u25-w1', type: 'multiple-choice', level: 'C1', topic: 'film-writing', difficulty: 'hard',
     content: { title: '[[Writing|Escritura]]: [[Film Review|Crítica cinematográfica]]', instructions: 'Choose the best opening paragraph for a film review at C1 level.',
       questions: [{ question: 'You are reviewing a challenging art-house film. Choose the best opening paragraph:', options: ['[[Few contemporary directors have proved as willing as Yorgos Lanthimos to sacrifice audience comfort in pursuit of a singular vision — and in Poor Things, the accumulated strangeness of his aesthetic choices resolves, with unexpected emotional clarity, into something approaching genuine profundity.|Pocos directores contemporáneos han demostrado tanta disposición como Yorgos Lanthimos a sacrificar la comodidad del público en pos de una visión singular — y en Pobres criaturas, la acumulada extrañeza de sus elecciones estéticas se resuelve, con inesperada claridad emocional, en algo próximo a la verdadera profundidad.]]', '[[Poor Things is a very strange and unusual film directed by Yorgos Lanthimos. It has some very interesting scenes and good acting but it is not easy to watch. Some people will like it and others will not.|Pobres criaturas es una película muy extraña e inusual dirigida por Yorgos Lanthimos. Tiene algunas escenas muy interesantes y buena actuación pero no es fácil de ver. A algunas personas les gustará y a otras no.]]', '[[I really enjoyed watching Poor Things because it is such a creative and original film. Yorgos Lanthimos is a very talented director who makes films that are different from most Hollywood movies.|Realmente disfruté viendo Pobres criaturas porque es una película tan creativa y original. Yorgos Lanthimos es un director muy talentoso que hace películas diferentes de la mayoría de las películas de Hollywood.]]'], correctAnswer: 0, explanation: 'Option A uses sophisticated vocabulary ("singular vision", "accumulated strangeness", "profundity"), a complex syntactic structure and evaluative literary language expected in a C1 film review.' }] },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u25-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'film-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u25-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'film-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
     topicName: 'Writing',
   },
   {
@@ -101,6 +200,54 @@ export const UNIT_25_EXERCISES: Exercise[] = [
         '[[That\'s a claim I\'d want to interrogate. Cinema\'s unique power has traditionally derived from its capacity to create a collective emotional experience in a darkened room — what had been building for four hours being released in an instant. Whether that power survives the fragmentation of viewing experience in the streaming era is, I think, genuinely uncertain.|Es una afirmación que querría interrogar. El poder único del cine ha derivado tradicionalmente de su capacidad de crear una experiencia emocional colectiva en una sala oscura. Si ese poder sobrevive a la fragmentación de la experiencia de visionado en la era del streaming es, creo, genuinamente incierto.]]',
         '[[No, I don\'t think cinema is the most powerful art form anymore. Literature is more powerful because it makes you use your imagination. Books have been around much longer and many people still prefer reading to watching films.|No, no creo que el cine sea la forma artística más poderosa hoy en día. La literatura es más poderosa porque te hace usar tu imaginación. Los libros existen desde hace mucho más tiempo y muchas personas todavía prefieren leer a ver películas.]]',
       ], correctAnswer: 1, explanation: 'Option B challenges the premise of the question, defines cinema\'s power precisely, and introduces a nuanced temporal qualification about the streaming era — C1 intellectual engagement.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u25-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-cinema',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u25-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-cinema',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

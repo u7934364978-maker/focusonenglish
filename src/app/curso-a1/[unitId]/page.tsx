@@ -1,7 +1,7 @@
 'use client';
 
 import { useParams, useSearchParams } from 'next/navigation';
-import { useEffect, useState, useRef, Suspense } from 'react';
+import { useEffect, useMemo, useState, useRef, Suspense } from 'react';
 import ExerciseRenderer from '@/components/ExerciseRenderer';
 import StreakBurst from '@/components/gamification/StreakBurst';
 import { useGamification } from '@/lib/hooks/use-gamification';
@@ -15,8 +15,13 @@ const FEEDBACK_INCORRECT_SUBTEXTS = ['Cada intento te acerca más. Sigue practic
 import Link from 'next/link';
 import AIExercisePractice from '@/components/course/AIExercisePractice';
 import { useSpacedRepetition } from '@/hooks/use-spaced-repetition';
-
-const CHUNK_SIZE = 15;
+import {
+  buildSixLessonLayout,
+  getSixLessonNavState,
+  getSixLessonSlotAtGlobalIndex,
+  shouldShowSixLessonCompleteInterstitial,
+  SIX_LESSON_KEYS,
+} from '@/lib/course/six-lesson-layout';
 const STREAK_THRESHOLDS = [3, 5, 10];
 const MAX_DOTS = 15;
 
@@ -42,16 +47,6 @@ const EXERCISE_TYPES: Record<string, { label: string; emoji: string; gradient: s
 
 function getExerciseType(type: string) {
   return EXERCISE_TYPES[type] ?? EXERCISE_TYPES['default'];
-}
-
-function lessonSkillFromType(t: string) {
-  const type = (t || '').toLowerCase();
-  if (type.includes('speaking') || type === 'pronunciation') return 'speaking';
-  if (type.includes('listening')) return 'listening';
-  if (type.includes('reading')) return 'reading';
-  if (type.includes('writing')) return 'writing';
-  if (type.includes('vocab')) return 'vocabulary';
-  return 'grammar';
 }
 
 // ── CONFETTI ───────────────────────────────────────────────────────────────
@@ -175,11 +170,12 @@ function UnitPreviewContent() {
           if (!unitExercises.length) {
             setError('No se encontraron ejercicios');
           } else {
-            setExercises(unitExercises);
+            const ordered = buildSixLessonLayout(unitExercises).orderedExercises;
+            setExercises(ordered);
             const indexParam = searchParams.get('index');
             if (indexParam) {
               const idx = parseInt(indexParam);
-              if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
+              if (!isNaN(idx) && idx >= 0 && idx < ordered.length) setCurrentIndex(idx);
             }
           }
         } else {
@@ -197,11 +193,12 @@ function UnitPreviewContent() {
           if (!unitExercises || !Array.isArray(unitExercises)) {
             setError('No se encontraron ejercicios');
           } else {
-            setExercises(unitExercises);
+            const ordered = buildSixLessonLayout(unitExercises).orderedExercises;
+            setExercises(ordered);
             const indexParam = searchParams.get('index');
             if (indexParam) {
               const idx = parseInt(indexParam);
-              if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
+              if (!isNaN(idx) && idx >= 0 && idx < ordered.length) setCurrentIndex(idx);
             }
           }
         }
@@ -224,22 +221,28 @@ function UnitPreviewContent() {
       return;
     }
 
+    const layout = buildSixLessonLayout(exercises);
     const counts: Record<string, number> = {};
     for (let i = 0; i < exercises.length; i++) {
-      const ex = exercises[i];
-      const lessonNumber = Math.floor(i / CHUNK_SIZE) + 1;
-      const skill = lessonSkillFromType((ex?.type as string) ?? 'unknown');
-      const key = `lesson-${lessonNumber}-${skill}`;
+      const slot = getSixLessonSlotAtGlobalIndex(layout, i);
+      const skill = SIX_LESSON_KEYS[slot];
+      const key = `lesson-${slot + 1}-${skill}`;
       counts[key] = (counts[key] ?? 0) + 1;
     }
     setLessonKeyCounts(counts);
   }, [exercises]);
 
+  const sixLayout = useMemo(() => buildSixLessonLayout(exercises), [exercises]);
+  const lessonNav = useMemo(() => {
+    const idx = exercises.length ? Math.min(currentIndex, exercises.length - 1) : 0;
+    return getSixLessonNavState(sixLayout, idx);
+  }, [sixLayout, currentIndex, exercises.length]);
+
   const advanceExercise = (idx: number, total: number) => {
     setSlideDir('out-left');
     setTimeout(() => {
       const isLast = idx === total - 1;
-      const isLessonEnd = !isFinalTest && (idx + 1) % CHUNK_SIZE === 0;
+      const isLessonEnd = !isFinalTest && shouldShowSixLessonCompleteInterstitial(sixLayout, idx, total);
 
       if (isLast) {
         setShowUnitSummary(true);
@@ -254,7 +257,7 @@ function UnitPreviewContent() {
   };
 
   const handleAIPracticeReady = (aiExercises: any[]) => {
-    setExercises(aiExercises);
+    setExercises(buildSixLessonLayout(aiExercises).orderedExercises);
     setCurrentIndex(0);
     setFailedIndexes([]);
     setFailCount(0);
@@ -282,9 +285,9 @@ function UnitPreviewContent() {
     if (!Number.isNaN(progressUnitId) && recordExercise && exercises[currentIndex]) {
       const ex = exercises[currentIndex];
 
-      const lessonNumber = Math.floor(currentIndex / CHUNK_SIZE) + 1;
-      const lessonSkill = lessonSkillFromType((ex?.type as string) ?? 'unknown');
-      const lessonKey = `lesson-${lessonNumber}-${lessonSkill}`;
+      const slot = getSixLessonSlotAtGlobalIndex(sixLayout, currentIndex);
+      const lessonSkill = SIX_LESSON_KEYS[slot];
+      const lessonKey = `lesson-${slot + 1}-${lessonSkill}`;
       const expectedExercisesTotal = lessonKeyCounts[lessonKey] ?? 0;
 
       recordExercise({
@@ -369,10 +372,10 @@ function UnitPreviewContent() {
   );
 
   const unitNumber = unitId.replace('unit-', '');
-  const lessonNumber = Math.floor(currentIndex / CHUNK_SIZE) + 1;
-  const totalLessons = Math.ceil(exercises.length / CHUNK_SIZE);
-  const exerciseInLesson = (currentIndex % CHUNK_SIZE) + 1;
-  const exercisesInThisLesson = Math.min(CHUNK_SIZE, exercises.length - (lessonNumber - 1) * CHUNK_SIZE);
+  const lessonNumber = lessonNav.lessonNumber;
+  const totalLessons = lessonNav.totalPedagogicalLessons;
+  const exerciseInLesson = lessonNav.exerciseInLesson;
+  const exercisesInThisLesson = lessonNav.exercisesInThisLesson;
   const progressPct = (exerciseInLesson - 1) / exercisesInThisLesson * 100;
   const displayXp = xp + sessionScore;
   const showDots = exercises.length <= MAX_DOTS;

@@ -28,18 +28,6 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u22-g4', type: 'fill-blank', level: 'C1', topic: 'hedging-language', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Hedging Adverbs|Adverbios de cobertura]]', instructions: 'Complete with the correct hedging adverb.',
-      questions: [{ question: 'The sixth mass extinction, _______, represents the most significant biodiversity loss since the end of the Cretaceous period 66 million years ago.', options: ['[[arguably|podría decirse que]]', '[[undoubtedly|indudablemente]]', '[[obviously|obviamente]]'], correctAnswer: 'arguably', acceptableAnswers: ['arguably'], explanation: '"Arguably" = a hedging adverb meaning "one could argue that"; it signals a strong claim that is nonetheless open to debate.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u22-g5', type: 'multiple-choice', level: 'C1', topic: 'hedging-language', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Reporting Verb Hedges|Verbos de reporte como cobertura]]', instructions: 'Choose the correct sentence.',
-      questions: [{ question: 'Which sentence most appropriately hedges a scientific claim using a reporting verb?', options: ['[[Research suggests that keystone species loss may trigger cascade effects disproportionate to the species\' relative abundance within the ecosystem.|La investigación sugiere que la pérdida de especies clave puede desencadenar efectos en cascada desproporcionados con respecto a la abundancia relativa de la especie en el ecosistema.]]', '[[Research is clearly showing that keystone species loss definitely triggers cascade effects which are always disproportionate in every ecosystem studied.|La investigación muestra claramente que la pérdida de especies clave definitivamente desencadena efectos en cascada que siempre son desproporcionados en cada ecosistema estudiado.]]', '[[According to research done by scientists, keystone species are important and losing them will cause serious problems in many ecosystems around the world.|Según investigaciones realizadas por científicos, las especies clave son importantes y perderlas causará graves problemas en muchos ecosistemas del mundo.]]'], correctAnswer: 0, explanation: '"Suggests that" + "may trigger" = double hedging (reporting verb + modal). This is the standard pattern in academic scientific writing.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u22-v1', type: 'multiple-choice', level: 'C1', topic: 'biodiversity-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Biodiversity and Ecology|Biodiversidad y ecología]]', instructions: 'Choose the correct word.',
       questions: [{ question: 'The wolf is considered a _______ species in Yellowstone — its reintroduction triggered a cascade of ecological changes that transformed river courses, vegetation patterns and the populations of multiple species.', options: ['[[keystone|clave]]', '[[dominant|dominante]]', '[[apex|ápice]]'], correctAnswer: 0, explanation: '"Keystone species" = a species that has a disproportionately large effect on its ecosystem relative to its abundance. An "apex predator" refers specifically to position in the food chain.' }] },
@@ -58,18 +46,6 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u22-v4', type: 'multiple-choice', level: 'C1', topic: 'biodiversity-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Conservation|Conservación]]', instructions: 'Choose the best word.',
-      questions: [{ question: 'The practice of restoring degraded ecosystems to a wilder state — reintroducing predators, removing barriers to natural processes and reducing human management — is known as _______.', options: ['[[rewilding|reintroducción de fauna salvaje]]', '[[reforestation|reforestación]]', '[[rehabilitation|rehabilitación]]'], correctAnswer: 0, explanation: '"Rewilding" = a conservation approach focused on restoring natural processes and wild species, including apex predators, to allow ecosystems to self-regulate.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u22-v5', type: 'fill-blank', level: 'C1', topic: 'biodiversity-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Environmental Science|Ciencias medioambientales]]', instructions: 'Complete with the correct term.',
-      questions: [{ question: 'The rapid decline in insect populations — including pollinators such as bees — has been described as an "insect _______ crisis", with potentially catastrophic consequences for agricultural systems that depend on pollination services.', options: ['[[apocalypse|apocalipsis]]', '[[extinction|extinción]]', '[[collapse|colapso]]'], correctAnswer: 'apocalypse', acceptableAnswers: ['apocalypse', 'extinction', 'collapse'], explanation: '"Insect apocalypse" has become a common media term, though scientists often prefer "insect decline" or "biodiversity crisis".' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u22-r1', type: 'reading-comprehension', level: 'C1', topic: 'biodiversity-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Conservation Strategies|Estrategias de conservación]]', instructions: 'Read and answer.',
       questions: [{ question: 'Text: "The 30x30 initiative — a global commitment to protect 30% of the planet\'s land and oceans by 2030 — has been welcomed by conservation biologists but criticised by indigenous rights advocates, who argue that historically, protected area designation has often meant displacing local and indigenous communities from their traditional lands in the name of conservation."\n\nWhat tension does the text identify?', options: ['[[Scientists disagree about whether protecting 30% of land and ocean is sufficient to halt biodiversity loss, with many arguing that 50% would be needed for meaningful impact on extinction rates.|Los científicos discrepan sobre si proteger el 30% de la tierra y el océano es suficiente para detener la pérdida de biodiversidad.]]', '[[The 30x30 conservation goal may conflict with the rights of indigenous and local communities who have historically been displaced when protected areas are established.|El objetivo de conservación 30x30 puede entrar en conflicto con los derechos de las comunidades indígenas y locales que históricamente han sido desplazadas cuando se establecen áreas protegidas.]]', '[[Protected areas are generally ineffective at conserving biodiversity because they cover too small an area and governments fail to enforce conservation rules within their boundaries.|Las áreas protegidas son generalmente ineficaces para conservar la biodiversidad porque cubren un área demasiado pequeña y los gobiernos no hacen cumplir las reglas.]]'], correctAnswer: 1, explanation: 'The text explicitly identifies the tension between conservation goals and indigenous rights — protected areas welcomed by scientists but criticised by rights advocates.' }] },
@@ -82,15 +58,138 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u22-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'biodiversity-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Biodiversity and Conservation), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u22-l1', type: 'listening-comprehension', level: 'C1', topic: 'biodiversity-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[Conservation Debate|Debate sobre conservación]]', instructions: 'Listen and choose the correct answer.',
       questions: [{ question: 'A biologist says: "There is a tendency in conservation policy to focus on charismatic megafauna — pandas, tigers, elephants — at the expense of invertebrates, fungi and microorganisms, which arguably underpin the very ecosystem functions that make vertebrate life possible. A world with elephants but without earthworms would not be a world elephants could survive in for long."\n\nWhat point does the biologist make?', options: ['[[Charismatic animals like elephants and tigers should be the priority for conservation funding because they are the most endangered species and attract the most public support and media attention.|Los animales carismáticos como los elefantes y los tigres deben ser la prioridad para la financiación de la conservación porque son las especies más amenazadas.]]', '[[Conservation policy over-prioritises visible, appealing animals while neglecting less glamorous organisms like invertebrates and fungi that are fundamental to ecosystem functioning.|La política de conservación prioriza en exceso los animales visibles y atractivos mientras descuida organismos menos glamurosos como los invertebrados y los hongos que son fundamentales para el funcionamiento del ecosistema.]]', '[[Invertebrates and microorganisms are more important than mammals for ecosystem health, which is why conservation biologists should abandon all efforts to protect charismatic megafauna.|Los invertebrados y microorganismos son más importantes que los mamíferos para la salud del ecosistema, por lo que los biólogos de conservación deberían abandonar todos los esfuerzos para proteger la megafauna carismática.]]'], correctAnswer: 1, explanation: 'The biologist argues that policy over-focuses on charismatic megafauna "at the expense of" invertebrates/fungi that "underpin ecosystem functions" — a critique of priorities, not an absolute dismissal of megafauna.' }] },
     topicName: 'Listening',
   },
   {
+    id: 'c1-u22-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'biodiversity-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u22-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'biodiversity-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
     id: 'c1-u22-w1', type: 'multiple-choice', level: 'C1', topic: 'academic-writing', difficulty: 'hard',
     content: { title: '[[Writing|Escritura]]: [[Hedging in Academic Writing|Cobertura epistémica en escritura académica]]', instructions: 'Choose the best sentence using appropriate hedging for an academic essay on biodiversity.',
       questions: [{ question: 'You are arguing that economic development is responsible for biodiversity loss. Choose the most academically appropriate sentence:', options: ['[[The available evidence strongly suggests that unsustainable patterns of economic development constitute the primary driver of biodiversity loss, though the precise weighting of causal factors varies significantly across regions and ecosystems.|La evidencia disponible sugiere firmemente que los patrones insostenibles de desarrollo económico constituyen el principal impulsor de la pérdida de biodiversidad, aunque la ponderación precisa de los factores causales varía significativamente.]]', '[[Economic development is completely destroying all biodiversity everywhere in the world and this is totally proven by all the available scientific evidence beyond any doubt.|El desarrollo económico está destruyendo completamente toda la biodiversidad en todo el mundo y esto está completamente probado por toda la evidencia científica disponible.]]', '[[It seems like economic development is probably one of the causes of biodiversity loss, though it is hard to say for sure because the evidence is not very clear on this issue.|Parece que el desarrollo económico es probablemente una de las causas de la pérdida de biodiversidad, aunque es difícil decirlo con certeza porque la evidencia no es muy clara.]]'], correctAnswer: 0, explanation: 'Option A combines strong hedging ("strongly suggests"), qualifying concession ("though... varies") and precise academic language — appropriate C1 academic register.' }] },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u22-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'academic-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u22-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'academic-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
     topicName: 'Writing',
   },
   {
@@ -101,6 +200,54 @@ export const UNIT_22_EXERCISES: Exercise[] = [
         '[[That tension is arguably the defining environmental challenge of our time. The evidence from some regions does suggest that growth and conservation can coexist when governance is strong and economic incentives are properly aligned. But this tends to be the exception rather than the rule under current economic frameworks.|Esa tensión es posiblemente el desafío ambiental definitorio de nuestro tiempo. La evidencia de algunas regiones sí sugiere que el crecimiento y la conservación pueden coexistir cuando la gobernanza es sólida y los incentivos económicos están bien alineados. Pero esto tiende a ser la excepción más que la regla.]]',
         '[[Yes, definitely. With the right policies and technology we can have both economic growth and biodiversity conservation at the same time. Many countries are already doing this successfully.|Sí, definitivamente. Con las políticas y la tecnología adecuadas podemos tener tanto crecimiento económico como conservación de la biodiversidad al mismo tiempo. Muchos países ya lo están haciendo con éxito.]]',
       ], correctAnswer: 1, explanation: 'Option B uses "arguably", hedging verbs ("does suggest", "tends to be"), acknowledges evidence on both sides and frames it as a systemic challenge — hallmarks of C1 nuanced spoken discourse.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u22-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-biodiversity',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u22-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-biodiversity',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

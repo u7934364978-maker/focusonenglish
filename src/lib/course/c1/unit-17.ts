@@ -28,18 +28,6 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u17-g4', type: 'fill-blank', level: 'C1', topic: 'reported-speech', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Reporting Verbs|Verbos de reporte]]', instructions: 'Complete with the correct reporting structure.',
-      questions: [{ question: 'The novelist _______ having been influenced by Borges throughout her entire career as a writer.', options: ['[[acknowledged|reconoció]]', '[[admitted|admitió]]', '[[confessed|confesó]]'], correctAnswer: 'acknowledged', acceptableAnswers: ['acknowledged', 'admitted', 'confessed'], explanation: 'All three work here, but "acknowledged" is most neutral and appropriate for professional/intellectual influence.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u17-g5', type: 'multiple-choice', level: 'C1', topic: 'reported-speech', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Complex Reported Speech|Estilo indirecto complejo]]', instructions: 'Choose the correct option.',
-      questions: [{ question: 'The critic wrote: "This novel may well be the most important work of fiction this decade." Which report correctly preserves the uncertainty?', options: ['[[The critic wrote that the novel might well be the most important work of fiction of that decade.|El crítico escribió que la novela podría bien ser la obra de ficción más importante de esa década.]]', '[[The critic wrote that the novel may well have been the most important work of fiction of that decade.|El crítico escribió que la novela puede que haya sido la obra de ficción más importante de esa década.]]', '[[The critic wrote that the novel could well be the most important work of fiction of this decade.|El crítico escribió que la novela podría bien ser la obra de ficción más importante de esta década.]]'], correctAnswer: 0, explanation: '"May" backshifts to "might" in reported speech. "This decade" → "that decade". Option C incorrectly keeps "this decade".' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u17-v1', type: 'multiple-choice', level: 'C1', topic: 'literature-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Literary Terms|Términos literarios]]', instructions: 'Choose the correct literary term.',
       questions: [{ question: 'The technique by which a narrative moves between different time periods, disrupting chronological order to create thematic connections, is called:', options: ['[[anachrony|anacronía]]', '[[foreshadowing|presagio]]', '[[stream of consciousness|flujo de conciencia]]'], correctAnswer: 0, explanation: '"Anachrony" = any disruption of chronological order in narrative, including flashbacks (analepsis) and flash-forwards (prolepsis).' }] },
@@ -58,18 +46,6 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u17-v4', type: 'multiple-choice', level: 'C1', topic: 'literature-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Narrative Techniques|Técnicas narrativas]]', instructions: 'Choose the correct definition.',
-      questions: [{ question: 'Which definition best describes "in medias res" as a narrative technique?', options: ['[[Beginning the narrative at the chronological start of events and proceeding forward in time from that point.|Comenzar la narrativa en el inicio cronológico de los eventos y avanzar en el tiempo desde ese punto.]]', '[[Opening a narrative in the middle of the action, without prior exposition, plunging the reader directly into events already in progress.|Abrir una narrativa en el medio de la acción, sin exposición previa, sumergiendo al lector directamente en eventos ya en curso.]]', '[[Ending a narrative at an earlier point than where the story began, creating a circular structure that returns to the opening moment.|Terminar una narrativa en un punto anterior al comienzo de la historia, creando una estructura circular que vuelve al momento inicial.]]'], correctAnswer: 1, explanation: '"In medias res" (Latin: in the middle of things) = beginning in the middle of action without prior context, then filling in background.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u17-v5', type: 'fill-blank', level: 'C1', topic: 'literature-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Literary Criticism|Crítica literaria]]', instructions: 'Complete with the correct term.',
-      questions: [{ question: 'The _______ reading of the novel focuses on how it reflects and critiques the class structures and economic inequalities of Victorian Britain.', options: ['[[Marxist|marxista]]', '[[psychoanalytic|psicoanalítico]]', '[[feminist|feminista]]'], correctAnswer: 'Marxist', acceptableAnswers: ['Marxist', 'marxist'], explanation: '"Marxist literary criticism" analyses literature through the lens of class, economic power and social structures.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u17-r1', type: 'reading-comprehension', level: 'C1', topic: 'literature-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Power of Fiction|El poder de la ficción]]', instructions: 'Read the extract and answer the question.',
       questions: [{ question: 'Text: "What literature does that no other art form can quite replicate is grant us unmediated access to another consciousness — not the filtered version of a person they choose to present to the world, but the raw, contradictory, morally ambiguous interior of a thinking, feeling mind. In this sense, a great novel is less a story than a consciousness simulator."\n\nWhat claim does the author make about literature?', options: ['[[That literature is superior to all other art forms because it is more morally complex and psychologically truthful in its exploration of human nature.|Que la literatura es superior a todas las demás formas de arte porque es más moralmente compleja y psicológicamente veraz en su exploración de la naturaleza humana.]]', '[[That literature uniquely allows readers direct access to an interior consciousness — the private, unfiltered experience of another mind — in a way other art forms cannot.|Que la literatura permite de forma única a los lectores acceso directo a una conciencia interior — la experiencia privada y sin filtros de otra mente — de una manera que otras formas de arte no pueden.]]', '[[That the primary value of literature is its ability to simulate consciousness and thus provide readers with a form of psychological therapy and emotional self-understanding.|Que el valor primario de la literatura es su capacidad de simular la conciencia y así proporcionar a los lectores una forma de terapia psicológica y autocomprensión emocional.]]'], correctAnswer: 1, explanation: 'The author claims literature grants "unmediated access to another consciousness" — the key phrase describing what no other art can replicate.' }] },
@@ -82,15 +58,138 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u17-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'literature-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Literature and Storytelling), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u17-l1', type: 'listening-comprehension', level: 'C1', topic: 'literature-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[Author Interview|Entrevista con autor]]', instructions: 'Listen and choose the correct answer.',
       questions: [{ question: 'An author says: "I am always suspicious of writers who claim their characters \'took over\' and \'wrote themselves\'. It is a charming mystification, but it obscures the real craft — the thousands of deliberate decisions that make a character feel inevitable."\n\nWhat is the author\'s view of character development?', options: ['[[Characters in fiction are genuinely autonomous and do sometimes take over from the writer, producing unexpected and surprising narrative developments.|Los personajes de ficción son genuinamente autónomos y a veces sí toman el control del escritor, produciendo desarrollos narrativos inesperados y sorprendentes.]]', '[[The idea that characters write themselves is a romantic myth that conceals the careful, conscious craft involved in making a character feel authentic and inevitable.|La idea de que los personajes se escriben solos es un mito romántico que oculta el cuidadoso y consciente arte que supone hacer que un personaje parezca auténtico e inevitable.]]', '[[Writers should resist making deliberate decisions about their characters and instead allow the unconscious to guide the narrative towards its natural destination.|Los escritores deberían resistirse a tomar decisiones deliberadas sobre sus personajes y en cambio dejar que el inconsciente guíe la narrativa hacia su destino natural.]]'], correctAnswer: 1, explanation: 'The author calls the "characters took over" claim a "charming mystification" and stresses deliberate decisions — so writing is conscious craft, not mystical inspiration.' }] },
     topicName: 'Listening',
   },
   {
+    id: 'c1-u17-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'literature-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u17-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'literature-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
     id: 'c1-u17-w1', type: 'multiple-choice', level: 'C1', topic: 'literary-analysis-writing', difficulty: 'hard',
     content: { title: '[[Writing|Escritura]]: [[Literary Analysis|Análisis literario]]', instructions: 'Choose the best analytical sentence.',
       questions: [{ question: 'You are analysing the use of an unreliable narrator in a novel. Choose the sentence that best demonstrates C1 analytical writing:', options: ['[[Fitzgerald\'s deployment of Nick Carraway as narrator is a masterstroke of unreliability: his self-professed honesty is systematically undermined by his social sycophancy, rendering him simultaneously an intimate witness and a morally compromised one.|El despliegue de Fitzgerald de Nick Carraway como narrador es una brillante maniobra de no fiabilidad: su honestidad autoproclamada está sistemáticamente socavada por su servilismo social, convirtiéndole simultáneamente en testigo íntimo y moralmente comprometido.]]', '[[Nick Carraway is not a reliable narrator in the novel because he is too friendly with Gatsby and does not tell the reader everything that is happening. The reader has to read carefully to understand the full truth.|Nick Carraway no es un narrador fiable en la novela porque es demasiado amigo de Gatsby y no le cuenta al lector todo lo que está pasando. El lector tiene que leer con cuidado para entender la verdad completa.]]', '[[The author uses an unreliable narrator which is interesting because the reader cannot trust everything they are told. This makes the novel more complex and the reader has to think more carefully about what is true and what is not.|El autor usa un narrador no fiable lo cual es interesante porque el lector no puede confiar en todo lo que se le dice. Esto hace la novela más compleja y el lector tiene que pensar más cuidadosamente sobre qué es verdad y qué no.]]'], correctAnswer: 0, explanation: 'Option A uses precise literary vocabulary ("deployment", "self-professed", "sycophancy"), makes a specific textual point, and builds a complex argument concisely.' }] },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u17-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'literary-analysis-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u17-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'literary-analysis-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
     topicName: 'Writing',
   },
   {
@@ -105,6 +204,54 @@ export const UNIT_17_EXERCISES: Exercise[] = [
         correctAnswer: 1,
         explanation: 'Option B qualifies the "yes" with nuance ("with effort, not transparently"), introduces the concept of "active translation" and reframes the difficulty as a potential gain.',
       }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u17-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-literature',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u17-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-literature',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

@@ -28,18 +28,6 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u21-g4', type: 'fill-blank', level: 'C1', topic: 'emphatic-fronting', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Inversion after Negative Fronting|Inversión tras frontalización negativa]]', instructions: 'Complete the sentence correctly.',
-      questions: [{ question: 'Under no circumstances _______ the release of untreated industrial waste into protected river systems be permitted.', options: ['[[should|debería]]', '[[it should|debería que]]', '[[do|lo hace]]'], correctAnswer: 'should', acceptableAnswers: ['should'], explanation: '"Under no circumstances + inverted auxiliary + subject" = negative fronting triggering inversion. "Should" is the auxiliary.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u21-g5', type: 'multiple-choice', level: 'C1', topic: 'emphatic-fronting', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Emphatic Structures|Estructuras enfáticas]]', instructions: 'Choose the correct option.',
-      questions: [{ question: 'Which sentence correctly uses emphatic fronting with a negative adverbial?', options: ['[[Rarely have governments shown such collective political will as in the signing of the Paris Agreement — however imperfect its mechanisms may prove in practice.|Raramente los gobiernos han mostrado tal voluntad política colectiva como en la firma del Acuerdo de París, por muy imperfectos que resulten sus mecanismos en la práctica.]]', '[[Governments have rarely shown such collective political will as in the Paris Agreement, however imperfect it is.|Los gobiernos raramente han mostrado tal voluntad política colectiva como en el Acuerdo de París, por muy imperfecto que sea.]]', '[[It is rarely that governments show collective political will as they did in the signing of the Paris Agreement.|Es raramente que los gobiernos muestran voluntad política colectiva como lo hicieron en la firma del Acuerdo de París.]]'], correctAnswer: 0, explanation: '"Rarely + have/has + subject + past participle" = fronted negative adverb triggering subject-auxiliary inversion.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u21-v1', type: 'multiple-choice', level: 'C1', topic: 'environment-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Climate Change|Cambio climático]]', instructions: 'Choose the correct word.',
       questions: [{ question: 'Scientists warn that we are approaching multiple climate _______ — thresholds beyond which changes become self-reinforcing and potentially irreversible, such as the collapse of ice sheets or Amazon dieback.', options: ['[[tipping points|puntos de inflexión]]', '[[breaking points|puntos de ruptura]]', '[[turning points|puntos de giro]]'], correctAnswer: 0, explanation: '"Tipping point" = the specific scientific/environmental term for a threshold at which a system shifts irreversibly. A "turning point" is a positive change; a "breaking point" is personal/mechanical.' }] },
@@ -58,18 +46,6 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u21-v4', type: 'multiple-choice', level: 'C1', topic: 'environment-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Ecological Terms|Términos ecológicos]]', instructions: 'Choose the best word.',
-      questions: [{ question: 'The conversion of natural habitats — forests, wetlands, grasslands — into agricultural or urban land is the primary driver of _______ loss, the most immediate threat to global biodiversity.', options: ['[[habitat|hábitat]]', '[[ecosystem|ecosistema]]', '[[territory|territorio]]'], correctAnswer: 0, explanation: '"Habitat loss" = the correct ecological term for the destruction or degradation of the natural environments species depend on.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u21-v5', type: 'fill-blank', level: 'C1', topic: 'environment-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Environmental Policy|Política medioambiental]]', instructions: 'Complete with the correct word.',
-      questions: [{ question: 'A carbon _______ — a fee levied on the carbon content of fossil fuels — is widely regarded by economists as one of the most efficient mechanisms for reducing greenhouse gas emissions by internalising environmental costs.', options: ['[[tax|impuesto]]', '[[price|precio]]', '[[offset|compensación]]'], correctAnswer: 'tax', acceptableAnswers: ['tax', 'levy'], explanation: '"Carbon tax" = a tax on greenhouse gas emissions, designed to make carbon-intensive activities more expensive.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u21-r1', type: 'reading-comprehension', level: 'C1', topic: 'environment-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Climate Change Debate|Debate sobre el cambio climático]]', instructions: 'Read and answer.',
       questions: [{ question: 'Text: "The framing of climate change as an issue of individual behaviour — encouraging consumers to reduce their carbon footprint, recycle more, drive less — has been criticised as a deliberate distraction from the structural changes needed: decarbonising industry, transforming energy systems, and holding corporations accountable for the overwhelming majority of global emissions."\n\nWhat argument does the text make about individual behaviour campaigns?', options: ['[[Individual behaviour changes are an important complement to structural reform and should be encouraged alongside regulation of corporate emissions and industrial decarbonisation.|Los cambios de comportamiento individual son un complemento importante de la reforma estructural y deben fomentarse junto con la regulación de las emisiones corporativas.]]', '[[Focusing on individual behaviour may serve to distract from the structural and corporate changes that are responsible for the vast majority of climate damage.|Centrarse en el comportamiento individual puede servir para distraer de los cambios estructurales y corporativos responsables de la gran mayoría del daño climático.]]', '[[Individual behaviour change is insufficient to address climate change because most people are unwilling to make the necessary sacrifices to reduce their personal carbon footprint.|El cambio de comportamiento individual es insuficiente para abordar el cambio climático porque la mayoría de las personas no están dispuestas a hacer los sacrificios necesarios.]]'], correctAnswer: 1, explanation: 'The text says individual behaviour framing has been "criticised as a deliberate distraction" from structural changes — a critique of the framing strategy, not just its effectiveness.' }] },
@@ -82,15 +58,138 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u21-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'environment-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (The Environment and Climate Change), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u21-l1', type: 'listening-comprehension', level: 'C1', topic: 'environment-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[Climate Policy Lecture|Conferencia sobre política climática]]', instructions: 'Listen and choose the correct answer.',
       questions: [{ question: 'A climate scientist says: "The most dangerous narrative in climate discourse is the one that presents adaptation and mitigation as either/or choices. We cannot simply adapt our way out of 4 degrees of warming, nor can we mitigate fast enough to avoid significant adaptation demands. What\'s needed is a coherent strategy that pursues both with equal urgency — and is honest about the limits of each."\n\nWhat is the scientist\'s main argument?', options: ['[[Mitigation — reducing emissions — should be the absolute priority in climate policy because adaptation alone cannot protect human societies from the most severe consequences of unchecked warming.|La mitigación — reducción de emisiones — debe ser la prioridad absoluta en la política climática porque la adaptación sola no puede proteger a las sociedades humanas.]]', '[[Adaptation and mitigation are both necessary and should be pursued simultaneously, as neither alone can adequately address the full scale and urgency of the climate challenge.|La adaptación y la mitigación son ambas necesarias y deben perseguirse simultáneamente, ya que ninguna por sí sola puede abordar adecuadamente la escala y urgencia del desafío climático.]]', '[[The distinction between adaptation and mitigation is a false one created by policymakers to justify inaction, since all effective climate responses combine elements of both approaches.|La distinción entre adaptación y mitigación es falsa, creada por los responsables políticos para justificar la inacción, ya que todas las respuestas climáticas efectivas combinan elementos de ambos enfoques.]]'], correctAnswer: 1, explanation: 'The scientist explicitly argues against the "either/or" framing and calls for "both with equal urgency" — simultaneous pursuit of adaptation and mitigation.' }] },
     topicName: 'Listening',
   },
   {
+    id: 'c1-u21-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'environment-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u21-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'environment-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
     id: 'c1-u21-w1', type: 'multiple-choice', level: 'C1', topic: 'persuasive-writing', difficulty: 'hard',
     content: { title: '[[Writing|Escritura]]: [[Formal Report|Informe formal]]', instructions: 'Choose the best conclusion paragraph for a formal report on climate policy.',
       questions: [{ question: 'You are concluding a formal report on the effectiveness of international climate agreements. Choose the most appropriate conclusion:', options: ['[[In conclusion, international climate agreements have achieved some progress but remain inadequate. Without binding enforcement mechanisms, transparent reporting requirements and a genuine commitment to climate justice, the gap between stated ambitions and measurable outcomes will continue to widen.|En conclusión, los acuerdos climáticos internacionales han logrado algún progreso pero siguen siendo inadecuados. Sin mecanismos de aplicación vinculantes, requisitos de informes transparentes y un compromiso genuino con la justicia climática, la brecha seguirá ampliándose.]]', '[[In conclusion, climate agreements are not working very well. Countries are not doing what they promised and the planet is still getting warmer. More needs to be done urgently.|En conclusión, los acuerdos climáticos no están funcionando muy bien. Los países no están cumpliendo sus promesas y el planeta sigue calentándose. Se necesita hacer más urgentemente.]]', '[[In conclusion, I think that climate agreements are quite good but could be better. There are many problems with them but also some good things. Overall they are probably better than having nothing at all.|En conclusión, creo que los acuerdos climáticos son bastante buenos pero podrían ser mejores. Hay muchos problemas con ellos pero también cosas buenas. En general probablemente sean mejor que no tener nada.]]'], correctAnswer: 0, explanation: 'Option A uses formal register, nominalisation, specific policy criteria and a conditional structure to present a nuanced, evidence-based conclusion.' }] },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u21-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'persuasive-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u21-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'persuasive-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
     topicName: 'Writing',
   },
   {
@@ -101,6 +200,54 @@ export const UNIT_21_EXERCISES: Exercise[] = [
         '[[That\'s a question where I think the honest answer is: both yes and no. Individual choices do aggregate into collective demand patterns that shape markets. Yet the evidence suggests structural change — decarbonising energy grids, reforming agriculture, regulating industry — would dwarf the impact of any conceivable shift in individual behaviour.|Es una pregunta donde creo que la respuesta honesta es: sí y no. Las elecciones individuales se agregan en patrones de demanda colectivos que moldean los mercados. Sin embargo, la evidencia sugiere que el cambio estructural tendría un impacto mucho mayor.]]',
         '[[Individual actions are completely pointless because corporations are responsible for almost all emissions. There is no point in recycling or reducing your carbon footprint when industry pollutes thousands of times more than any single person could.|Las acciones individuales son completamente inútiles porque las corporaciones son responsables de casi todas las emisiones. No tiene sentido reciclar cuando la industria contamina miles de veces más.]]',
       ], correctAnswer: 1, explanation: 'Option B uses hedging ("the honest answer is"), acknowledges nuance from both perspectives, references evidence and distinguishes individual from structural impact — C1 sophisticated discourse.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u21-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-environment',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u21-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-environment',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

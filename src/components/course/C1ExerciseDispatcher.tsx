@@ -9,7 +9,14 @@ import MultipleMatchingExercise from '@/components/exercises/MultipleMatchingExe
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { CheckCircle2, XCircle, Lightbulb, Play, Volume2, ArrowRight, BookOpen as BookOpenIcon } from 'lucide-react';
+import { CheckCircle2, XCircle, Lightbulb, Volume2, ArrowRight, BookOpen as BookOpenIcon } from 'lucide-react';
+import { AudioPlayer } from '@/components/course/preview/AudioPlayer';
+import { resolveListeningScript } from '@/lib/listening-script';
+
+function resolvePublicAudioUrl(url?: string | null): string {
+  if (!url) return '';
+  return url.startsWith('/') ? url : `/${url}`;
+}
 
 interface C1ExerciseDispatcherProps {
   exercise: Exercise;
@@ -22,6 +29,74 @@ export default function C1ExerciseDispatcher({ exercise, onComplete, onQuestionC
   const [submitted, setSubmitted] = useState(false);
   const [scores, setScores] = useState<Record<string, boolean>>({});
   const [finalScore, setFinalScore] = useState<number | null>(null);
+
+  const exerciseContent = (exercise as any).content || exercise;
+  const isListening =
+    exercise.type === 'listening' || exercise.type === 'listening-comprehension';
+  const listeningScript = resolveListeningScript(exercise as any, exerciseContent);
+  const staticAudioUrl = resolvePublicAudioUrl(
+    (exercise as any).audioUrl || exerciseContent.audioUrl
+  );
+
+  const longBody =
+    (exercise as any).text ||
+    (exercise as any).transcript ||
+    exerciseContent.passage ||
+    exerciseContent.text ||
+    '';
+  /** Evita duplicar el guion si ya va al reproductor TTS (transcripción en el icono del player). */
+  const showTranscriptCard = longBody.trim().length > 0 && (!isListening || !listeningScript);
+
+  const questionList = (exerciseContent.questions || []) as any[];
+  const questionKey = (q: any, idx: number) => (q?.id != null && q.id !== '' ? String(q.id) : `q-${idx}`);
+
+  function stripMarkup(s: string): string {
+    return s.replace(/\[\[([^\]|]+)\|[^\]]+\]\]/g, '$1').replace(/\[\[([^\]]+)\]\]/g, '$1');
+  }
+
+  function normalizeAns(s: string): string {
+    return stripMarkup(s).toLowerCase().trim().replace(/\s+/g, ' ');
+  }
+
+  function isMcOptionCorrect(q: any, optIdx: number): boolean {
+    const ca = q.correctAnswer;
+    if (typeof ca === 'number') return ca === optIdx;
+    if (typeof ca === 'boolean') return ca === (optIdx === 0);
+    const opt = q.options?.[optIdx];
+    const optText = typeof opt === 'string' ? opt : opt?.text ?? '';
+    if (typeof ca === 'string') return normalizeAns(optText) === normalizeAns(ca);
+    return false;
+  }
+
+  function isUserMcCorrect(q: any, userVal: string): boolean {
+    if (!q.options || !Array.isArray(q.options)) return false;
+    const ca = q.correctAnswer;
+    if (typeof ca === 'number') {
+      const opt = q.options[ca];
+      const t = typeof opt === 'string' ? opt : opt?.text ?? '';
+      return normalizeAns(userVal) === normalizeAns(t);
+    }
+    for (let i = 0; i < q.options.length; i++) {
+      if (isMcOptionCorrect(q, i)) {
+        const opt = q.options[i];
+        const t = typeof opt === 'string' ? opt : opt?.text ?? '';
+        if (normalizeAns(userVal) === normalizeAns(t)) return true;
+      }
+    }
+    return false;
+  }
+
+  function isFillCorrect(q: any, userVal: string): boolean {
+    const u = normalizeAns(userVal);
+    const primary = q.correctAnswer != null ? normalizeAns(String(q.correctAnswer)) : '';
+    if (primary && u === primary) return true;
+    const alts = q.acceptableAnswers;
+    if (Array.isArray(alts)) {
+      return alts.some((a: string) => normalizeAns(String(a)) === u);
+    }
+    if (typeof alts === 'string') return normalizeAns(alts) === u;
+    return false;
+  }
 
   if (exercise.type === 'key-word-transformation') {
     return <KeyWordTransformationExercise exercise={exercise as any} onComplete={onComplete} onQuestionCorrect={onQuestionCorrect} />;
@@ -47,27 +122,29 @@ export default function C1ExerciseDispatcher({ exercise, onComplete, onQuestionC
   const checkAnswers = () => {
     const newScores: Record<string, boolean> = {};
     let correctCount = 0;
-    
-    const exerciseWithQuestions = exercise as any;
-    if (exerciseWithQuestions.questions) {
-      exerciseWithQuestions.questions.forEach((q: any) => {
-        const userAnswer = (answers[q.id] || '').trim().toLowerCase();
-        const correctAnswer = (q.correctAnswer || '').trim().toLowerCase();
-        const isCorrect = userAnswer === correctAnswer;
-        newScores[q.id] = isCorrect;
+
+    if (questionList.length > 0) {
+      questionList.forEach((q: any, idx: number) => {
+        const key = questionKey(q, idx);
+        const raw = answers[key] || '';
+        let isCorrect = false;
+        if (q.options && Array.isArray(q.options)) {
+          isCorrect = isUserMcCorrect(q, raw);
+        } else {
+          isCorrect = isFillCorrect(q, raw);
+        }
+        newScores[key] = isCorrect;
         if (isCorrect) {
           correctCount++;
-          if (onQuestionCorrect) {
-            onQuestionCorrect(q.id);
-          }
+          const pid = q.id != null && q.id !== '' ? String(q.id) : exercise.id;
+          onQuestionCorrect?.(pid);
         }
       });
 
       setScores(newScores);
       setSubmitted(true);
-      
-      const calculatedScore = (correctCount / exerciseWithQuestions.questions.length) * 100;
-      setFinalScore(calculatedScore);
+
+      setFinalScore((correctCount / questionList.length) * 100);
     }
   };
 
@@ -87,29 +164,42 @@ export default function C1ExerciseDispatcher({ exercise, onComplete, onQuestionC
         </Card>
       )}
 
-      {(((exercise as any).text || (exercise as any).transcript)) && (
+      {isListening && (staticAudioUrl || listeningScript) && (
+        <AudioPlayer
+          audioUrl={staticAudioUrl || undefined}
+          ttsText={!staticAudioUrl && listeningScript ? listeningScript : undefined}
+          transcript={listeningScript || undefined}
+          className="border-teal-100 bg-teal-50/40"
+        />
+      )}
+
+      {showTranscriptCard && (
         <Card className="border-slate-200 shadow-sm overflow-hidden">
           <CardHeader className="bg-slate-50 border-b border-slate-200">
             <CardTitle className="text-lg font-black text-slate-900 flex items-center gap-2">
-              {exercise.type === 'listening' ? <Volume2 className="h-5 w-5" /> : <BookOpenIcon className="h-5 w-5" />}
-              {exercise.type === 'listening' ? 'Audio Transcript' : 'Reading Passage'}
+              {isListening ? <Volume2 className="h-5 w-5" /> : <BookOpenIcon className="h-5 w-5" />}
+              {isListening ? 'Transcripción (tras escuchar)' : 'Reading Passage'}
             </CardTitle>
           </CardHeader>
           <CardContent className="p-6">
             <div className="prose prose-slate max-w-none">
-              {((((exercise as any).text || (exercise as any).transcript || '').split('\n').map((para: any, i: number) => (
-                <p key={i} className="mb-4 text-slate-700 leading-relaxed text-lg">{para}</p>
-              ))))}
+              {longBody.split('\n').map((para: string, i: number) => (
+                <p key={i} className="mb-4 text-slate-700 leading-relaxed text-lg">
+                  {para}
+                </p>
+              ))}
             </div>
           </CardContent>
         </Card>
       )}
 
       <div className="space-y-4">
-        {(exercise as any).questions?.map((q: any, idx: number) => (
-          <Card key={q.id} className={`transition-all border-2 ${
+        {questionList.map((q: any, idx: number) => {
+          const key = questionKey(q, idx);
+          return (
+          <Card key={key} className={`transition-all border-2 ${
             submitted 
-              ? scores[q.id] 
+              ? scores[key] 
                 ? 'border-green-200 bg-green-50/30' 
                 : 'border-red-200 bg-red-50/30'
               : 'border-slate-100 hover:border-blue-200'
@@ -128,15 +218,16 @@ export default function C1ExerciseDispatcher({ exercise, onComplete, onQuestionC
                   {q.options ? (
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       {q.options.map((option: any, optIdx: number) => {
-                        const isSelected = answers[q.id] === option;
-                        const isCorrect = option === q.correctAnswer;
-                        const showCorrect = submitted && isCorrect;
-                        const showWrong = submitted && isSelected && !isCorrect;
+                        const optStr = typeof option === 'string' ? option : option?.text ?? '';
+                        const isSelected = answers[key] === optStr;
+                        const isCorrectOpt = isMcOptionCorrect(q, optIdx);
+                        const showCorrect = submitted && isCorrectOpt;
+                        const showWrong = submitted && isSelected && !isCorrectOpt;
 
                         return (
                           <button
                             key={optIdx}
-                            onClick={() => handleAnswerChange(q.id, option)}
+                            onClick={() => handleAnswerChange(key, optStr)}
                             disabled={submitted}
                             className={`text-left p-4 rounded-xl border-2 transition-all font-medium ${
                               isSelected && !submitted
@@ -149,7 +240,7 @@ export default function C1ExerciseDispatcher({ exercise, onComplete, onQuestionC
                             }`}
                           >
                             <div className="flex items-center justify-between">
-                              <span>{option}</span>
+                              <span>{optStr}</span>
                               {showCorrect && <CheckCircle2 className="h-5 w-5 text-green-500" />}
                               {showWrong && <XCircle className="h-5 w-5 text-red-500" />}
                             </div>
@@ -162,12 +253,12 @@ export default function C1ExerciseDispatcher({ exercise, onComplete, onQuestionC
                       <div className="flex gap-2 items-center">
                         <Input
                           placeholder="Type your answer..."
-                          value={answers[q.id] || ''}
-                          onChange={(e) => handleAnswerChange(q.id, e.target.value)}
+                          value={answers[key] || ''}
+                          onChange={(e) => handleAnswerChange(key, e.target.value)}
                           disabled={submitted}
                           className={`h-12 text-lg font-bold ${
                             submitted
-                              ? scores[q.id]
+                              ? scores[key]
                                 ? 'bg-green-50 border-green-500 text-green-700'
                                 : 'bg-red-50 border-red-500 text-red-700'
                               : 'bg-white border-slate-200 focus:border-blue-500'
@@ -175,7 +266,7 @@ export default function C1ExerciseDispatcher({ exercise, onComplete, onQuestionC
                         />
                         {submitted && (
                           <div className="flex-shrink-0">
-                            {scores[q.id] ? (
+                            {scores[key] ? (
                               <CheckCircle2 className="h-8 w-8 text-green-500" />
                             ) : (
                               <XCircle className="h-8 w-8 text-red-500" />
@@ -184,7 +275,7 @@ export default function C1ExerciseDispatcher({ exercise, onComplete, onQuestionC
                         )}
                       </div>
                       
-                      {submitted && !scores[q.id] && (
+                      {submitted && !scores[key] && (
                         <div className="text-sm font-bold text-green-600 bg-green-50 p-2 rounded-lg inline-block">
                           Correct answer: {q.correctAnswer}
                         </div>
@@ -201,7 +292,8 @@ export default function C1ExerciseDispatcher({ exercise, onComplete, onQuestionC
               </div>
             </CardContent>
           </Card>
-        ))}
+        );
+        })}
       </div>
 
       {!submitted ? (
@@ -209,7 +301,7 @@ export default function C1ExerciseDispatcher({ exercise, onComplete, onQuestionC
           <Button 
             size="lg" 
             onClick={checkAnswers}
-            disabled={Object.keys(answers).length < (exercise.questions?.length || 0)}
+            disabled={Object.keys(answers).length < questionList.length}
             className="bg-blue-600 hover:bg-blue-700 text-white px-12 h-16 rounded-2xl text-xl font-black shadow-xl shadow-blue-200 transition-all hover:scale-105 active:scale-95"
           >
             Check Answers

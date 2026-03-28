@@ -1,13 +1,16 @@
 'use client';
 
 import { useParams, useSearchParams } from 'next/navigation';
-import { useEffect, useState, Suspense } from 'react';
+import { useEffect, useMemo, useState, Suspense } from 'react';
 import ExerciseRenderer from '@/components/ExerciseRenderer';
 import Link from 'next/link';
 import AIExercisePractice from '@/components/course/AIExercisePractice';
 import { useSpacedRepetition } from '@/hooks/use-spaced-repetition';
-
-const CHUNK_SIZE = 15;
+import {
+  buildSixLessonLayout,
+  getSixLessonNavState,
+  shouldShowSixLessonCompleteInterstitial,
+} from '@/lib/course/six-lesson-layout';
 
 function UnitContent() {
   const params = useParams();
@@ -25,7 +28,7 @@ function UnitContent() {
   const { recordResult } = useSpacedRepetition('CAM_A2');
 
   const handleAIPracticeReady = (aiExercises: any[]) => {
-    setExercises(aiExercises);
+    setExercises(buildSixLessonLayout(aiExercises).orderedExercises);
     setCurrentIndex(0);
     setFailedIndexes([]);
     setShowUnitSummary(false);
@@ -49,7 +52,7 @@ function UnitContent() {
         if (!unitExercises || !Array.isArray(unitExercises)) {
           setError('No se encontraron ejercicios');
         } else {
-          setExercises(unitExercises);
+          setExercises(buildSixLessonLayout(unitExercises).orderedExercises);
           const idx = parseInt(searchParams.get('index') || '0');
           if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
         }
@@ -62,11 +65,17 @@ function UnitContent() {
     loadUnit();
   }, [unitId, searchParams]);
 
+  const sixLayout = useMemo(() => buildSixLessonLayout(exercises), [exercises]);
+  const lessonNav = useMemo(
+    () => getSixLessonNavState(sixLayout, Math.min(currentIndex, Math.max(0, exercises.length - 1))),
+    [sixLayout, currentIndex, exercises.length]
+  );
+
   const advanceExercise = (idx: number, total: number) => {
     setTimeout(() => {
       if (idx === total - 1) {
         setShowUnitSummary(true);
-      } else if ((idx + 1) % CHUNK_SIZE === 0) {
+      } else if (shouldShowSixLessonCompleteInterstitial(sixLayout, idx, total)) {
         setShowLessonComplete(true);
       } else {
         setCurrentIndex(idx + 1);
@@ -152,10 +161,9 @@ function UnitContent() {
   );
 
   const ex = exercises[currentIndex];
-  const lessonNum = Math.floor(currentIndex / CHUNK_SIZE) + 1;
-  const totalLessons = Math.ceil(exercises.length / CHUNK_SIZE);
-  const exInLesson = (currentIndex % CHUNK_SIZE) + 1;
-  const progress = ((exInLesson - 1) / Math.min(CHUNK_SIZE, exercises.length - (lessonNum - 1) * CHUNK_SIZE)) * 100;
+  const { lessonNumber: lessonNum, totalPedagogicalLessons: totalLessons, exerciseInLesson: exInLesson, exercisesInThisLesson } =
+    lessonNav;
+  const progress = ((exInLesson - 1) / exercisesInThisLesson) * 100;
 
   return (
     <div className="min-h-screen bg-slate-50">
@@ -167,7 +175,9 @@ function UnitContent() {
           <div className="flex-1 max-w-xs">
             <div className="flex items-center justify-between text-xs text-slate-500 mb-1">
               <span>Lección {lessonNum}/{totalLessons}</span>
-              <span>{exInLesson}/{Math.min(CHUNK_SIZE, exercises.length - (lessonNum - 1) * CHUNK_SIZE)}</span>
+              <span>
+                {exInLesson}/{exercisesInThisLesson}
+              </span>
             </div>
             <div className="h-1.5 bg-slate-200 rounded-full overflow-hidden">
               <div className="h-full bg-blue-500 rounded-full transition-all" style={{ width: `${progress}%` }} />

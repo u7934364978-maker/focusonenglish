@@ -28,18 +28,6 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u45-g4', type: 'fill-blank', level: 'C1', topic: 'contrast', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[While / Whilst|Mientras que / Aunque]]', instructions: 'Complete the sentence.',
-      questions: [{ question: '_______ absolute poverty — measured as survival on less than two dollars a day — has declined significantly at the global level over the past twenty years, primarily driven by economic growth in China and South Asia, relative poverty and inequality within most middle-income countries have increased substantially over the same period.', options: ['[[While|Mientras que]]', '[[Therefore|Por lo tanto]]', '[[Hence|De ahí]]'], correctAnswer: 'While', acceptableAnswers: ['While', 'Whilst', 'Although', 'Even though'], explanation: '"While/Whilst" introduces a contrasting or qualifying clause at the start of a sentence. Used here to acknowledge a positive trend whilst highlighting a countervailing one. "Therefore" and "hence" introduce results, not contrasts.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u45-g5', type: 'multiple-choice', level: 'C1', topic: 'contrast', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Integrated Contrast Structures|Estructuras de contraste integradas]]', instructions: 'Choose the most sophisticated sentence using contrast.',
-      questions: [{ question: 'Which sentence integrates contrast structures most effectively in a development context?', options: ['[[Whereas proponents of free market globalisation argue that trade liberalisation has lifted hundreds of millions out of poverty — a claim supported by aggregate income data — critics contend that the gains have been distributed so unequally as to constitute a qualitative worsening of inequality; on the other hand, the evidence on whether inequality itself, as distinct from absolute poverty, retards long-run development remains genuinely contested.|Mientras que los defensores de la globalización de libre mercado argumentan que la liberalización comercial ha sacado a cientos de millones de la pobreza, los críticos sostienen que las ganancias se han distribuido de forma tan desigual que constituyen un empeoramiento cualitativo de la desigualdad.]]', '[[Whereas free market globalisation is good for some people, on the other hand it is bad for others. Conversely, some countries have done well and others have not. By contrast, the evidence is mixed and it is hard to know what the truth is.|Mientras que la globalización de libre mercado es buena para algunas personas, por otro lado es mala para otras.]]', '[[While globalisation has helped some countries, by contrast it has hurt others. Unlike free markets, regulated markets are different. Conversely this shows that the debate is still open and requires more research.|Mientras que la globalización ha ayudado a algunos países, por el contrario ha perjudicado a otros. A diferencia de los mercados libres, los mercados regulados son diferentes.]]'], correctAnswer: 0, explanation: 'Option A uses "Whereas…claim — critics contend…" and "on the other hand" in a complex argumentative structure, maintaining formal register and analytical precision throughout.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u45-v1', type: 'multiple-choice', level: 'C1', topic: 'development-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Development Economics|Economía del desarrollo]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'The composite index combining measures of life expectancy, education and per capita income — published annually by the United Nations to rank countries by overall levels of human wellbeing rather than by GDP alone — is the _______.', options: ['[[Human Development Index (HDI)|Índice de Desarrollo Humano (IDH)]]', '[[Gini coefficient|Coeficiente de Gini]]', '[[Gross National Income (GNI)|Ingreso Nacional Bruto (INB)]]'], correctAnswer: 0, explanation: '"HDI" = composite UNDP index combining life expectancy, education and income. "Gini coefficient" = a measure of income inequality distribution. "GNI" = total income earned by a country\'s residents, regardless of location.' }] },
@@ -58,18 +46,6 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u45-v4', type: 'fill-blank', level: 'C1', topic: 'development-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Global Goals|Objetivos globales]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The seventeen global goals adopted by all United Nations member states in 2015, encompassing targets on poverty, education, gender equality, climate action and sustainable economic growth — intended to be achieved by 2030 — are known as the Sustainable Development _______.', options: ['[[Goals|Objetivos]]', '[[Pledges|Compromisos]]', '[[Frameworks|Marcos]]'], correctAnswer: 'Goals', acceptableAnswers: ['Goals'], explanation: '"Sustainable Development Goals" (SDGs) = the 17 goals agreed in 2015 as part of the UN 2030 Agenda, replacing the Millennium Development Goals (MDGs). Each goal has multiple specific, measurable targets.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u45-v5', type: 'multiple-choice', level: 'C1', topic: 'development-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Political Economy|Economía política]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'The economic policy framework — dominant in international development institutions from the 1980s through the early 2000s — that prescribed trade liberalisation, privatisation of state enterprises, deregulation and fiscal austerity as the path to economic development in lower-income countries is known as the _______.', options: ['[[Washington Consensus|Consenso de Washington]]', '[[Keynesian framework|Marco keynesiano]]', '[[dependency theory|teoría de la dependencia]]'], correctAnswer: 0, explanation: '"Washington Consensus" = the set of market-liberal policy prescriptions promoted by the IMF, World Bank and US Treasury from the 1980s. Associated with structural adjustment programmes. Now widely critiqued for producing mixed or negative development outcomes.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u45-r1', type: 'reading', level: 'C1', topic: 'development-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Aid Effectiveness|Eficacia de la ayuda]]', instructions: 'Read and answer.',
       passage: 'The debate over whether foreign aid promotes or retards economic development in recipient countries remains one of the most contested in development economics. Proponents argue that aid fills critical financing gaps for public investment in health, education and infrastructure that domestic revenues cannot cover, particularly in the least developed countries. Critics, by contrast, contend that aid creates a dependency relationship, distorts domestic political incentives, crowds out local private enterprise and undermines the accountability relationship between governments and their citizens. Unlike commercial flows, which generate demand signals aligned with market efficiency, aid allocation reflects donor strategic interests and domestic political pressures rather than the absorptive capacity or developmental priorities of recipients. On the other hand, to dismiss aid entirely ignores cases — such as global health initiatives targeting malaria, HIV/AIDS and tuberculosis — where targeted aid has demonstrably saved millions of lives at modest cost.',
@@ -84,10 +60,85 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u45-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'development-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Development and Global Inequality), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u45-l1', type: 'listening', level: 'C1', topic: 'development-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Debate on Global Trade|Un debate sobre el comercio mundial]]', instructions: 'Read the transcript and answer.',
       passage: 'Economist A: The evidence on trade and development is unambiguous: countries that opened their economies to trade grew faster than those that maintained protectionist policies. Whereas East Asian economies that embraced export-led growth achieved spectacular development outcomes, by contrast Latin American countries that pursued import substitution industrialisation for decades stagnated. Economist B: I would challenge that framing. While it is true that some export-oriented economies thrived, the conditions that made that possible — undervalued exchange rates, industrial policy, state investment in education — are precisely what the Washington Consensus then forbade other developing countries from replicating. Unlike the East Asian tigers, countries that followed IMF prescriptions in the 1980s and 1990s were denied the policy space to replicate that model. Economist A: A fair point. The mechanism matters as much as the outcome. On the other hand, I would argue that the correlation between openness and growth holds even when controlling for policy context.',
       questions: [{ question: 'What is Economist B\'s main challenge to Economist A\'s argument?', options: ['[[The conditions that made East Asian export-led growth successful — undervalued exchange rates, industrial policy, state investment in education — were precisely what the Washington Consensus forbade other developing countries from replicating.|Las condiciones que hicieron exitoso el crecimiento orientado a las exportaciones de Asia Oriental fueron precisamente lo que el Consenso de Washington impidió a otros países en desarrollo replicar.]]', '[[Economist B argues that the East Asian development model was unique to the cultural and institutional context of those societies and cannot be replicated in other developing regions regardless of policy choices.|El economista B argumenta que el modelo de desarrollo de Asia Oriental era único para el contexto cultural e institucional de esas sociedades y no puede replicarse en otras regiones en desarrollo.]]', '[[The main challenge is that free trade is fundamentally incompatible with human rights and labour standards, and that any development model based on export competitiveness necessarily relies on the exploitation of low-wage workers.|El desafío principal es que el libre comercio es fundamentalmente incompatible con los derechos humanos y las normas laborales.]]'], correctAnswer: 0, explanation: 'Economist B says the conditions enabling East Asian success — undervalued exchange rates, industrial policy, state education investment — "are precisely what the Washington Consensus then forbade other developing countries from replicating".' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u45-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'development-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u45-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'development-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u45-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'development-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u45-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'development-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u45-s1', type: 'speaking', level: 'C1', topic: 'development-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Inequality and Development|Desigualdad y desarrollo]]', instructions: 'Which response demonstrates C1 spoken proficiency on global inequality?',
       questions: [{ question: 'Question: "Is globalisation the cause of rising inequality or its solution?"', options: ['[[I think the framing of the question as "cause or solution" sets up a false binary. Whereas globalisation has clearly generated enormous aggregate wealth, the distribution of that wealth has been so unequal — both within countries and between them — as to make characterising it as a solution to inequality difficult to sustain. By contrast, the periods of greatest reduction in global inequality have tended to coincide with active state intervention, redistribution and investment in public goods — not with laissez-faire market integration alone.|Creo que el encuadre de la pregunta como "causa o solución" establece un falso binario. Mientras que la globalización ha generado claramente una enorme riqueza agregada, la distribución de esa riqueza ha sido tan desigual que caracterizarla como una solución a la desigualdad es difícil de sostener.]]', '[[Globalisation is both good and bad for inequality. Whereas it has helped some countries, on the other hand it has hurt others. By contrast, some nations have used it well. It is a complex issue with no easy answer depending on the context.|La globalización es tanto buena como mala para la desigualdad. Mientras que ha ayudado a algunos países, por otro lado ha perjudicado a otros.]]', '[[Globalisation can cause inequality but can also help reduce it. Unlike the past, today there are more trade opportunities. Conversely, inequality has increased in many countries. While some people have benefited, others have not seen the same results from globalisation.|La globalización puede causar desigualdad pero también puede ayudar a reducirla. A diferencia del pasado, hoy hay más oportunidades comerciales.]]'], correctAnswer: 0, explanation: 'Option A rejects the false binary, uses "Whereas" and "By contrast" precisely to structure a nuanced analytical argument, maintaining formal register with substantive content throughout.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u45-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'development-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u45-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'development-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

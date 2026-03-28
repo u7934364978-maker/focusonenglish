@@ -28,18 +28,6 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u10-g4', type: 'fill-blank', level: 'C1', topic: 'abstract-nominalisation', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Abstract Noun Structures|Estructuras nominales abstractas]]', instructions: 'Complete with the correct nominalised form.',
-      questions: [{ question: 'The _______ (inexorable) march of time forces us to confront fundamental questions about purpose and legacy.', options: ['[[inexorable|inexorable]]', '[[inexorably|inexorablemente]]', '[[inexorability|inexorabilidad]]'], correctAnswer: 'inexorable', acceptableAnswers: ['inexorable'], explanation: '"The inexorable march of time" = abstract noun phrase with pre-modifying adjective.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u10-g5', type: 'multiple-choice', level: 'C1', topic: 'full-review', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Full C1 Grammar Review|Repaso completo de gramática C1]]', instructions: 'Identify the sentence that correctly combines two C1 structures.',
-      questions: [{ question: 'Which sentence correctly combines inversion AND a cleft structure?', options: ['[[Not only is it the case that free will remains contested, but what is equally unclear is whether the very concept is coherent.|No solo es el caso de que el libre albedrío sigue siendo controvertido, sino que lo que igualmente no está claro es si el propio concepto es coherente.]]', '[[Free will is not only contested but also unclear if it is coherent.|El libre albedrío no solo es controvertido sino también incierto si es coherente.]]', '[[It is the case that free will is contested. Also the concept is not clear.|Es el caso de que el libre albedrío es controvertido. También el concepto no es claro.]]'], correctAnswer: 0, explanation: '"Not only is it the case that..." = inversion; "what is equally unclear is whether..." = cleft. Both correctly combined.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u10-v1', type: 'multiple-choice', level: 'C1', topic: 'philosophy-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Philosophy and Ethics|Filosofía y ética]]', instructions: 'Choose the correct word.',
       questions: [{ question: 'The philosopher argued that human behaviour is governed by _______ — that every event, including every decision, is the inevitable result of prior causes.', options: ['[[determinism|determinismo]]', '[[altruism|altruismo]]', '[[nihilism|nihilismo]]'], correctAnswer: 0, explanation: 'Determinism = the philosophy that all events, including human choices, are determined by prior causes.' }] },
@@ -58,18 +46,6 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u10-v4', type: 'fill-blank', level: 'C1', topic: 'philosophy-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Philosophy and Ethics|Filosofía y ética]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'Critics of the government argued that it held power through _______ rather than consent — imposing its will rather than earning it.', options: ['[[coercion|coerción]]', '[[virtue|virtud]]', '[[contingency|contingencia]]'], correctAnswer: 'coercion', acceptableAnswers: ['coercion'], explanation: 'Coercion = the practice of persuading someone to do something using force or threats.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u10-v5', type: 'multiple-choice', level: 'C1', topic: 'philosophy-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Philosophy and Ethics|Filosofía y ética]]', instructions: 'Choose the correct word.',
-      questions: [{ question: 'The novel presents a _______ vision of the future: a world of perfect equality achieved at the cost of all individual freedom.', options: ['[[dystopian|distópica]]', '[[utopian|utópica]]', '[[existential|existencial]]'], correctAnswer: 1, explanation: 'Utopian = relating to an imagined ideal perfect society; dystopian = a frightening, oppressive future society.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u10-r1', type: 'reading-comprehension', level: 'C1', topic: 'philosophy-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Philosophy of Mind|Filosofía de la mente]]', instructions: 'Read and answer.',
       questions: [{ question: 'Text: "Consciousness remains, perhaps, the last great mystery — not in the sense of being temporarily unexplained, but in the sense that it may be, in principle, inexplicable through the methods of natural science alone. What is it like to be something? No algorithm, however sophisticated, has yet answered this." What is the author\'s view of consciousness?', options: ['[[it will eventually be fully explained by science|eventualmente será explicada completamente por la ciencia]]', '[[it may be fundamentally beyond scientific explanation|puede estar fundamentalmente más allá de la explicación científica]]', '[[algorithms will soon explain consciousness|los algoritmos pronto explicarán la conciencia]]'], correctAnswer: 1, explanation: '"In principle, inexplicable" = the author suggests consciousness may be permanently beyond scientific methods.' }] },
@@ -82,9 +58,84 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u10-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'philosophy-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Philosophy, Ethics and the Future), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u10-l1', type: 'listening-comprehension', level: 'C1', topic: 'philosophy-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[The Meaning of Life|El sentido de la vida]]', instructions: 'Listen and choose the correct answer.',
       questions: [{ question: 'A philosopher says: "Not only is the question of meaning deeply personal, but what strikes me as equally significant is that it is also deeply social — we derive meaning not in isolation but through our connections to others and to something larger than ourselves." What is the philosopher\'s view?', options: ['[[meaning is purely personal and subjective|el significado es puramente personal y subjetivo]]', '[[meaning is both personal and relational — found through connection|el significado es tanto personal como relacional: se encuentra a través de la conexión]]', '[[social connection is the only source of meaning|la conexión social es la única fuente de significado]]'], correctAnswer: 1, explanation: '"Not only... but what strikes me as equally significant is..." = inversion + cleft; both dimensions (personal AND social) are emphasised.' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u10-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'philosophy-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u10-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'philosophy-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -94,9 +145,105 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u10-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'reflective-essay',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u10-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'reflective-essay',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u10-s1', type: 'multiple-choice', level: 'C1', topic: 'speaking-philosophy', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Extended Monologue|Monólogo extendido]]', instructions: 'Choose the most sophisticated way to introduce a philosophical argument in a monologue.',
       questions: [{ question: 'You want to open a 2-minute monologue on whether humans have free will. Which opening is most effective at C1 level?', options: ['[[The question of free will is among the oldest and most contested in the history of philosophy, touching on fundamental concerns about moral responsibility, the nature of human consciousness and whether the future is, in any meaningful sense, genuinely open to multiple possible outcomes or already determined by prior causes.|La pregunta del libre albedrío es una de las más antiguas y debatidas en la historia de la filosofía, tocando preocupaciones fundamentales sobre la responsabilidad moral, la naturaleza de la conciencia humana y si el futuro está, en algún sentido significativo, genuinamente abierto a múltiples resultados posibles.]]', '[[Few questions have occupied philosophical enquiry more persistently — or more inconclusively — than whether human beings are the genuine authors of their own choices, or whether deterministic forces, however imperceptible, ultimately govern all we do.|Pocas preguntas han ocupado la investigación filosófica de manera más persistente — o más inconclusiva — que si los seres humanos son los verdaderos autores de sus propias elecciones.]]', '[[To open a discussion on so philosophically contested a topic as free will, it is necessary first to acknowledge the enormous breadth of the terrain — from ancient debates on fate and causation through Enlightenment arguments about reason and autonomy to contemporary neuroscientific challenges to the coherence of conscious deliberation.|Para abrir una discusión sobre un tema tan filosóficamente controvertido como el libre albedrío, es necesario primero reconocer la enorme amplitud del terreno — desde los debates antiguos sobre el destino y la causalidad hasta los desafíos neurocientíficos contemporáneos a la coherencia de la deliberación consciente.]]'], correctAnswer: 1, explanation: '"Few questions have occupied... more persistently" = inversion-adjacent structure; "however imperceptible" = hedging; highly sophisticated C1 academic register.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u10-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-philosophy',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u10-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-philosophy',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

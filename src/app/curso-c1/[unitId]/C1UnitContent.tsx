@@ -1,15 +1,19 @@
 'use client';
 
 import { useParams, useSearchParams } from 'next/navigation';
-import { useEffect, useState, Suspense } from 'react';
+import { useEffect, useMemo, useState, Suspense } from 'react';
 import ExerciseRenderer from '@/components/ExerciseRenderer';
 import { ArrowLeft, ArrowRight, Home, CheckCircle, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 import { trackUnitTimeSpent, trackExerciseCompletion, trackUnitCompletion } from '@/lib/analytics';
 import AIExercisePractice from '@/components/course/AIExercisePractice';
 import { useSpacedRepetition } from '@/hooks/use-spaced-repetition';
-
-const CHUNK_SIZE = 15;
+import {
+  buildSixLessonLayout,
+  getSixLessonNavState,
+  shouldShowSixLessonCompleteInterstitial,
+  SIX_LESSON_LABEL_ES_C1,
+} from '@/lib/course/six-lesson-layout';
 
 function C1UnitContentInner() {
   const params = useParams();
@@ -27,7 +31,7 @@ function C1UnitContentInner() {
   const { recordResult } = useSpacedRepetition('C1');
 
   const handleAIPracticeReady = (aiExercises: any[]) => {
-    setExercises(aiExercises);
+    setExercises(buildSixLessonLayout(aiExercises).orderedExercises);
     setCurrentIndex(0);
     setShowUnitSummary(false);
     setShowLessonComplete(false);
@@ -64,11 +68,12 @@ function C1UnitContentInner() {
           setExercises([]);
         } else {
           setUnitTitle(unitModule.UNIT_TITLE || unitModule.title || `Unidad ${unitNumber}`);
-          setExercises(unitExercises);
+          const ordered = buildSixLessonLayout(unitExercises).orderedExercises;
+          setExercises(ordered);
           const indexParam = searchParams.get('index');
           if (indexParam) {
             const idx = parseInt(indexParam);
-            if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
+            if (!isNaN(idx) && idx >= 0 && idx < ordered.length) setCurrentIndex(idx);
           }
         }
       } catch (err: any) {
@@ -79,6 +84,19 @@ function C1UnitContentInner() {
     }
     loadUnit();
   }, [unitId, searchParams]);
+
+  const sixLayout = useMemo(() => buildSixLessonLayout(exercises), [exercises]);
+  const lessonNav = useMemo(
+    () =>
+      getSixLessonNavState(
+        sixLayout,
+        Math.min(currentIndex, Math.max(0, exercises.length - 1)),
+        SIX_LESSON_LABEL_ES_C1
+      ),
+    [sixLayout, currentIndex, exercises.length]
+  );
+  const { lessonNumber, totalPedagogicalLessons, exerciseInLesson, exercisesInThisLesson, lessonLabelEs } =
+    lessonNav;
 
   if (loading) return (
     <div className="min-h-screen flex items-center justify-center bg-slate-50">
@@ -114,10 +132,6 @@ function C1UnitContentInner() {
   );
 
   const currentExercise = exercises[currentIndex];
-  const lessonNumber = Math.floor(currentIndex / CHUNK_SIZE) + 1;
-  const totalLessons = Math.ceil(exercises.length / CHUNK_SIZE);
-  const exerciseInLesson = (currentIndex % CHUNK_SIZE) + 1;
-  const exercisesInThisLesson = Math.min(CHUNK_SIZE, exercises.length - (lessonNumber - 1) * CHUNK_SIZE);
 
   if (showUnitSummary) {
     const durationMinutes = Math.round((Date.now() - startTime) / 60000);
@@ -166,9 +180,10 @@ function C1UnitContentInner() {
           </div>
           <h2 className="text-3xl font-black text-slate-800 mb-2 italic flex items-center justify-center gap-2">
             <Sparkles className="w-6 h-6 text-amber-400" />
-            ¡Lección {lessonNumber} Completada!
+            ¡Lección {lessonNumber} completada!
             <Sparkles className="w-6 h-6 text-amber-400" />
           </h2>
+          <p className="text-indigo-600 font-bold text-lg mb-2">{lessonLabelEs}</p>
           <p className="text-slate-600 mb-8 text-lg">
             Has completado {exercisesInThisLesson} ejercicios con éxito. ¡Sigue así!
           </p>
@@ -194,7 +209,8 @@ function C1UnitContentInner() {
           <h1 className="font-black text-xl text-slate-800 uppercase tracking-tight">
             C1: {unitTitle}
             <span className="ml-4 text-slate-400 font-medium text-sm">
-              Lección {lessonNumber} de {totalLessons} · Ejercicio {exerciseInLesson} de {exercisesInThisLesson}
+              Lección {lessonNumber} de {totalPedagogicalLessons} · {lessonLabelEs} · Ejercicio {exerciseInLesson}{' '}
+              de {exercisesInThisLesson}
             </span>
           </h1>
         </div>
@@ -223,7 +239,7 @@ function C1UnitContentInner() {
             }
             if (currentIndex === exercises.length - 1) {
               setShowUnitSummary(true);
-            } else if ((currentIndex + 1) % CHUNK_SIZE === 0) {
+            } else if (shouldShowSixLessonCompleteInterstitial(sixLayout, currentIndex, exercises.length)) {
               setShowLessonComplete(true);
             } else {
               setCurrentIndex(prev => prev + 1);

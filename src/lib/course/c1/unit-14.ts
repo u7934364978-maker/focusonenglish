@@ -28,18 +28,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u14-g4', type: 'fill-blank', level: 'C1', topic: 'subjunctive', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[The Subjunctive|El subjuntivo en inglés]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'Were _______ to fail the health inspection, the restaurant would face an immediate closure order.', options: ['[[it|ello]]', '[[the restaurant|el restaurante]]', '[[they|ellos]]'], correctAnswer: 'it', acceptableAnswers: ['it', 'the restaurant', 'they'], explanation: '"Were it to + infinitive" = formal conditional with subjunctive "were" as an alternative to "if it were to".' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u14-g5', type: 'multiple-choice', level: 'C1', topic: 'subjunctive', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[The Subjunctive|El subjuntivo en inglés]]', instructions: 'Identify the correct sentence using the subjunctive.',
-      questions: [{ question: 'Which sentence correctly uses the mandative subjunctive?', options: ['[[The board suggested that the head chef is replaced before the restaurant reopens.|La junta sugirió que el chef principal sea reemplazado antes de que el restaurante reabra.]]', '[[The board suggested that the head chef be replaced before the restaurant reopens.|La junta sugirió que el chef principal fuera reemplazado antes de que el restaurante reabra.]]', '[[The board suggested that the head chef should replaced before the restaurant reopens.|La junta sugirió que el chef principal debería reemplazarse antes de que el restaurante reabra.]]'], correctAnswer: 1, explanation: '"Suggest that + subject + bare infinitive (be replaced)" is the standard mandative subjunctive. Option A incorrectly uses indicative "is".' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u14-v1', type: 'multiple-choice', level: 'C1', topic: 'gastronomy-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Food and Gastronomy|Gastronomía y alimentación]]', instructions: 'Choose the correct word.',
       questions: [{ question: 'The chef was praised for her remarkable ability to _______ traditional recipes with contemporary techniques, creating dishes that honoured the past while embracing innovation.', options: ['[[marry|casar/combinar]]', '[[merge|fusionar]]', '[[blend|mezclar]]'], correctAnswer: 0, explanation: '"Marry" (culinary use) = to combine two elements harmoniously so they complement each other perfectly.' }] },
@@ -58,18 +46,6 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u14-v4', type: 'multiple-choice', level: 'C1', topic: 'gastronomy-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Food and Gastronomy|Gastronomía y alimentación]]', instructions: 'Choose the correct word.',
-      questions: [{ question: 'The slow food movement was founded as a _______ to fast food culture, advocating for locally sourced ingredients, traditional preparation methods and mindful eating.', options: ['[[countermovement|contramovimiento]]', '[[supplement|complemento]]', '[[alternative|alternativa]]'], correctAnswer: 0, explanation: '"Countermovement" = a movement that arises in opposition to another, aiming to reverse or challenge its values.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u14-v5', type: 'fill-blank', level: 'C1', topic: 'gastronomy-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Food Systems|Sistemas alimentarios]]', instructions: 'Complete with the correct word.',
-      questions: [{ question: 'There is growing concern about the _______ of our food supply — the concentration of agricultural production in the hands of a small number of multinational corporations.', options: ['[[commodification|mercantilización]]', '[[corporatisation|corporativización]]', '[[industrialisation|industrialización]]'], correctAnswer: 'commodification', acceptableAnswers: ['commodification', 'commoditisation', 'commoditization'], explanation: '"Commodification" = the transformation of something into a commodity that can be bought and sold, often at the expense of other values.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u14-r1', type: 'reading-comprehension', level: 'C1', topic: 'food-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Food and Identity|Comida e identidad]]', instructions: 'Read the extract and answer the question.',
       questions: [{ question: 'Text: "Culinary appropriation — the adoption of another culture\'s food practices without acknowledgement of their origins — sits in an uneasy position between cultural exchange and exploitation. The debate hinges on questions of power, context and acknowledgement: who is cooking whose food, under what conditions, and to whose benefit?"\n\nWhat is the central question in the debate about culinary appropriation?', options: ['[[Whether professional chefs should be permitted to cook dishes from cultures other than their own in their restaurants.|Si los chefs profesionales deberían tener permitido cocinar platos de culturas que no son las propias en sus restaurantes.]]', '[[Whether cooking food from another culture constitutes exchange or exploitation, depending on power dynamics and acknowledgement.|Si cocinar comida de otra cultura constituye intercambio o explotación, dependiendo de las dinámicas de poder y el reconocimiento.]]', '[[Whether traditional recipes should be legally protected from commercial use by people outside the originating culture.|Si las recetas tradicionales deben estar legalmente protegidas del uso comercial por personas ajenas a la cultura de origen.]]'], correctAnswer: 1, explanation: 'The text says the debate hinges on power, context and acknowledgement — i.e., whether adoption is exchange or exploitation.' }] },
@@ -82,15 +58,138 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u14-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'food-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Food, Gastronomy and Culture), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u14-l1', type: 'listening-comprehension', level: 'C1', topic: 'food-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[Gastronomy and Identity|Gastronomía e identidad]]', instructions: 'Listen and choose the correct answer.',
       questions: [{ question: 'A food anthropologist says: "What we eat is never merely a matter of nutrition — it is a performance of identity, a declaration of belonging, and sometimes a quiet act of resistance against dominant cultural norms."\n\nWhat does the speaker suggest about the act of eating?', options: ['[[That people choose food primarily based on nutritional needs, cultural performances and social declarations of group identity.|Que la gente elige los alimentos principalmente en función de las necesidades nutricionales, las actuaciones culturales y las declaraciones sociales de identidad de grupo.]]', '[[That eating is a culturally loaded act that expresses who we are, where we belong and can even be a form of cultural defiance.|Que comer es un acto culturalmente cargado que expresa quiénes somos, dónde pertenecemos y puede incluso ser una forma de desafío cultural.]]', '[[That nutritional science and cultural performance are equally important in determining why individuals make the food choices they do.|Que la ciencia nutricional y la actuación cultural son igualmente importantes para determinar por qué los individuos hacen las elecciones alimentarias que hacen.]]'], correctAnswer: 1, explanation: 'The speaker identifies three roles of eating: identity, belonging, and resistance — all cultural, not primarily nutritional.' }] },
     topicName: 'Listening',
   },
   {
+    id: 'c1-u14-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'food-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u14-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'food-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
     id: 'c1-u14-w1', type: 'multiple-choice', level: 'C1', topic: 'review-writing', difficulty: 'hard',
     content: { title: '[[Writing|Escritura]]: [[Review Writing|Escritura de reseñas]]', instructions: 'Choose the most effective review paragraph at C1 level.',
       questions: [{ question: 'You are writing a restaurant review. Choose the paragraph that best demonstrates C1 writing skills:', options: ['[[The meal began promisingly with an amuse-bouche that showcased the kitchen\'s technical precision — a single oyster set in a vivid sea-green yuzu gel, its minerality playing beautifully against the sharp citrus. It set the tone for a tasting menu that was, throughout, more interested in conversation between ingredients than in culinary showmanship.|La comida comenzó prometedoramente con un amuse-bouche que mostró la precisión técnica de la cocina — una sola ostra colocada en un vívido gel de yuzu verde mar, cuya mineralidad jugaba maravillosamente con el cítrico agudo. Estableció el tono para un menú de degustación que estuvo, en todo momento, más interesado en la conversación entre ingredientes que en el virtuosismo culinario.]]', '[[The food was excellent and the service was very good. We started with an oyster dish which was very tasty and nicely presented. The main course was also very good. Overall it was a very enjoyable meal and I would recommend it to anyone who likes good food.|La comida era excelente y el servicio era muy bueno. Empezamos con un plato de ostras que estaba muy rico y bien presentado. El plato principal también era muy bueno. En general fue una comida muy agradable y lo recomendaría a cualquiera que le guste la buena comida.]]', '[[We went to the restaurant on Saturday. It was quite expensive but the food was okay. Some dishes were better than others. The oyster starter was interesting but strange. I think the chef is trying too hard to be creative and the result is not always successful.|Fuimos al restaurante el sábado. Era bastante caro pero la comida estaba bien. Algunos platos eran mejores que otros. El entrante de ostras era interesante pero extraño. Creo que el chef intenta demasiado ser creativo y el resultado no siempre tiene éxito.]]'], correctAnswer: 0, explanation: 'Option A uses specific sensory detail, sophisticated vocabulary and a critical metaphor ("conversation between ingredients") — characteristic of high-level review writing.' }] },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u14-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'review-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u14-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'review-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
     topicName: 'Writing',
   },
   {
@@ -105,6 +204,54 @@ export const UNIT_14_EXERCISES: Exercise[] = [
         correctAnswer: 1,
         explanation: 'Option B challenges the premise, uses a memorable phrase ("useful fiction"), grounds the argument historically, and frames tradition as living practice rather than fixed heritage.',
       }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u14-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-food',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u14-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-food',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

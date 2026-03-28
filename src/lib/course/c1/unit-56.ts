@@ -28,18 +28,6 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u56-g4', type: 'fill-blank', level: 'C1', topic: 'figurative-language', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Allusion for Depth|La alusión para añadir profundidad]]', instructions: 'Complete with the correct allusion.',
-      questions: [{ question: 'Plato\'s allegory of the _______ has lost none of its force as a metaphor for the way in which culturally mediated representations of reality — news media, social platforms, political rhetoric — may substitute for direct contact with the phenomena they purport to describe, leaving those inside the representational system unable to recognise that they are perceiving shadows rather than objects.', options: ['[[cave|cueva]]', '[[ship|barco]]', '[[ring|anillo]]'], correctAnswer: 'cave', acceptableAnswers: ['cave'], explanation: 'Plato\'s "allegory of the cave" (Republic, Book VII) = prisoners in a cave see only shadows on a wall, mistaking representations for reality — one of the most influential metaphors in Western philosophy for epistemological limitation and the distorting role of culturally mediated knowledge. The "ship of Theseus" is a metaphor for identity. The "ring of Gyges" is about morality and power.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u56-g5', type: 'multiple-choice', level: 'C1', topic: 'figurative-language', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Combining Figurative Techniques|Combinar técnicas figurativas]]', instructions: 'Choose the sentence that most effectively combines figurative techniques.',
-      questions: [{ question: 'Which sentence most sophisticatedly combines metaphor, personification and allusion?', options: ['[[Consciousness is, in Nagel\'s phrase, irreducibly perspectival — it has, as it were, a point of view, and no amount of objective third-person description, however fine-grained, can fully capture what it is like to be the subject of experience; in this sense, the hard problem resembles Achilles\' famous race with the tortoise, where the gap between the objective account and the subjective reality perpetually recedes as the former advances, never quite reaching the finish line it promises.|La conciencia es, en la frase de Nagel, irreduciblemente perspectival; tiene, por así decirlo, un punto de vista, y ninguna cantidad de descripción objetiva en tercera persona puede capturar completamente lo que es ser el sujeto de la experiencia.]]', '[[Consciousness is like a point of view. It is also like a race. These metaphors help us understand it. Nagel wrote about this. The hard problem is difficult. It is personified in some accounts as a mystery that cannot be solved.|La conciencia es como un punto de vista. También es como una carrera.]]', '[[The philosophy of mind uses many figurative devices. Metaphors are used to explain consciousness. Similes help compare it to other things. Allusions reference philosophers like Nagel and Zeno, who also had problems that were hard to solve.|La filosofía de la mente usa muchos recursos figurativos. Las metáforas se usan para explicar la conciencia.]]'], correctAnswer: 0, explanation: 'Option A uses: allusion ("Nagel\'s phrase"), metaphor ("consciousness...has a point of view"), personification of the problem ("perpetually recedes...never quite reaching"), and allusion to Zeno\'s paradox (Achilles and the tortoise) — three figurative techniques integrated into a coherent philosophical argument.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u56-v1', type: 'multiple-choice', level: 'C1', topic: 'philosophy-of-mind-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Philosophy of Mind Terms|Términos de la filosofía de la mente]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'The philosophical position that mental states are identical to physical states of the brain — that thoughts, feelings and experiences just are, and are nothing over and above, certain patterns of neural activity — is known as _______.', options: ['[[physicalism or materialism|fisicalismo o materialismo]]', '[[dualism|dualismo]]', '[[idealism|idealismo]]'], correctAnswer: 0, explanation: '"Physicalism" (or "materialism") = the view that everything, including the mind, is physical. "Dualism" = mind and matter are fundamentally different substances (Descartes). "Idealism" = reality is fundamentally mental (Berkeley: "to be is to be perceived"). Physicalism is the dominant position in contemporary philosophy of mind.' }] },
@@ -58,18 +46,6 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u56-v4', type: 'fill-blank', level: 'C1', topic: 'philosophy-of-mind-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Thought Experiments|Experimentos mentales]]', instructions: 'Complete.',
-      questions: [{ question: 'John Searle\'s _______ argument imagines a person in a room who follows rules to manipulate Chinese symbols without understanding Chinese, concluding that syntactic symbol manipulation alone — however complex — cannot constitute genuine semantic understanding, and therefore that digital computers running programs cannot have genuine mental states.', options: ['[[Chinese Room|Habitación China]]', '[[Twin Earth|Tierra Gemela]]', '[[Inverted Spectrum|Espectro Invertido]]'], correctAnswer: 'Chinese Room', acceptableAnswers: ['Chinese Room'], explanation: 'The "Chinese Room" (Searle, 1980) = a thought experiment against strong AI: syntax (formal symbol manipulation) is not sufficient for semantics (meaning and understanding). The "Twin Earth" thought experiment (Putnam) concerns the externalisation of meaning. The "Inverted Spectrum" concerns the subjective character of colour experience.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u56-v5', type: 'multiple-choice', level: 'C1', topic: 'philosophy-of-mind-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Other Minds|La mente de los demás]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'The philosophical problem of justifying our ordinary belief that other people have inner mental lives — thoughts, feelings and experiences — given that we can only observe their behaviour and never directly access their conscious states, is known as the problem of _______.', options: ['[[other minds|otras mentes]]', '[[self-knowledge|autoconocimiento]]', '[[moral relativism|relativismo moral]]'], correctAnswer: 0, explanation: '"The problem of other minds" = a classic sceptical problem: how can we know that other people are conscious, given that we only observe their behaviour? My access to my own mind is direct; my access to others\' minds is inferential. This creates the philosophical asymmetry between first-person and third-person access to mental states.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u56-r1', type: 'reading', level: 'C1', topic: 'philosophy-of-mind-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Explanatory Gap|La brecha explicativa]]', instructions: 'Read and answer.',
       passage: 'Joseph Levine coined the phrase "the explanatory gap" to describe what he saw as a distinctive feature of consciousness that distinguishes it from other natural phenomena. We can explain water\'s transparency by reference to the way its molecular structure interacts with light — and once we understand that explanation, there is no residual question about why water with this structure should be transparent. The explanation is, as philosophers say, a priori: we could have worked it out without looking at water. Consciousness is different. Even if we were given a complete account of which neural processes in the brain are correlated with, or identical to, which conscious experiences, we could still meaningfully ask: but why does this brain process — rather than none at all, or some other experience — give rise to this particular sensation? The explanation always seems to leave a gap. The knowledge that C-fibres fire during pain explains the physiology of pain; it does not explain why there is something it is like to be in pain. This gap is not, Levine argued, merely a symptom of our current ignorance; it reflects something deep and possibly ineliminable about the relationship between the physical and the experiential.',
@@ -84,10 +60,85 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u56-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'philosophy-of-mind-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Philosophy of Mind), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u56-l1', type: 'listening', level: 'C1', topic: 'philosophy-of-mind-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Lecture on the Self|Una conferencia sobre el yo]]', instructions: 'Read the transcript and answer.',
       passage: 'Lecturer: Hume notoriously looked inward for the self and found, he said, nothing but a bundle of perceptions — impressions and ideas following one another in rapid succession, with no underlying "I" perceiving them. The self, on this account, is less like a theatre with a fixed stage on which the drama of mental life unfolds, and more like the drama itself: a series of scenes with no permanent backstage. This is a profoundly disorienting thought. We experience ourselves as unified, continuous persons persisting through time; Hume is saying that this experience is, at least in its metaphysical implications, an illusion — a construction imposed by memory and association on what is, in itself, a flux of disconnected events. Contemporary neuroscience has, interestingly, produced findings consistent with Hume\'s bundle theory: there is no single "self centre" in the brain, no neural correlate of the unified persisting subject of experience. The sense of self appears to be a construction — assembled from multiple, partly dissociable systems — rather than a discovery. Whether this vindicates Hume\'s metaphysics or merely describes the neural implementation of an otherwise legitimate concept remains, of course, contested.',
       questions: [{ question: 'What does the lecturer say contemporary neuroscience has found regarding the self?', options: ['[[That there is no single "self centre" in the brain and no neural correlate of the unified persisting subject of experience — the sense of self appears to be a construction assembled from multiple partly dissociable systems, findings the lecturer notes are consistent with Hume\'s bundle theory, though their precise philosophical implications remain contested.|Que no hay un único "centro del yo" en el cerebro y ningún correlato neural del sujeto persistente unificado de la experiencia; el sentido del yo parece ser una construcción ensamblada a partir de múltiples sistemas parcialmente disociables, hallazgos que el conferenciante señala son consistentes con la teoría del haz de Hume.]]', '[[Contemporary neuroscience has confirmed the existence of a unified self in a specific region of the prefrontal cortex, which the lecturer presents as contradicting Hume\'s bundle theory and supporting a more traditional Cartesian conception of the unified subject of experience.|La neurociencia contemporánea ha confirmado la existencia de un yo unificado en una región específica de la corteza prefrontal.]]', '[[The lecturer says neuroscience has found that the self is located in the limbic system and that this discovery vindicates Hume\'s metaphysics conclusively, settling the philosophical debate about personal identity in favour of the bundle theory.|El conferenciante dice que la neurociencia ha encontrado que el yo está ubicado en el sistema límbico y que este descubrimiento vindica conclusivamente la metafísica de Hume.]]'], correctAnswer: 0, explanation: 'The lecturer states: "there is no single \'self centre\' in the brain, no neural correlate of the unified persisting subject of experience. The sense of self appears to be a construction — assembled from multiple, partly dissociable systems" — and notes these findings are "consistent with Hume\'s bundle theory", though their philosophical implications "remain contested".' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u56-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'philosophy-of-mind-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u56-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'philosophy-of-mind-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u56-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'philosophy-of-mind-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u56-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'philosophy-of-mind-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u56-s1', type: 'speaking', level: 'C1', topic: 'philosophy-of-mind-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Discussing Consciousness|Hablar sobre la conciencia]]', instructions: 'Which response best demonstrates C1 oral philosophical discussion with figurative language?',
       questions: [{ question: 'Question: "Do you think machines will ever be truly conscious?"', options: ['[[That depends on what "truly conscious" means — and that is not a dodge but the actual crux of the difficulty. If consciousness is like the pattern that software instantiates rather than the specific hardware it runs on, then in principle there is no reason machines cannot be conscious; the question is whether they implement the right kind of pattern. But if consciousness is more like the specific texture of experience — the redness of red, the painfulness of pain — then we genuinely do not know whether that kind of inner life can emerge from processes that are not biological, and I am not sure our current conceptual tools are adequate to settle the question.|Eso depende de lo que significa "verdaderamente consciente", y eso no es una evasiva sino el verdadero meollo de la dificultad. Si la conciencia es como el patrón que instancia el software en lugar del hardware específico en el que se ejecuta, entonces en principio no hay razón para que las máquinas no puedan ser conscientes; la pregunta es si implementan el tipo correcto de patrón.]]', '[[I think machines could be conscious one day. Consciousness is complicated. We do not fully understand it. Machines are getting smarter. Maybe they will be conscious eventually. It is an interesting question that scientists and philosophers study.|Creo que las máquinas podrían ser conscientes algún día. La conciencia es complicada.]]', '[[Machines are not conscious now. They may be in the future. It is hard to say. The brain is complex. Computers are different. Whether machines can be conscious is a philosophical question. Some people say yes and some say no.|Las máquinas no son conscientes ahora. Pueden serlo en el futuro.]]'], correctAnswer: 0, explanation: 'Option A uses figurative language ("the pattern that software instantiates...the hardware it runs on" as a metaphor for functionalism; "the texture of experience", "the redness of red"), shows genuine philosophical engagement with the question, and demonstrates C1 oral complexity: conditional reasoning, hedging, conceptual distinction-making.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u56-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'philosophy-of-mind-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u56-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'philosophy-of-mind-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

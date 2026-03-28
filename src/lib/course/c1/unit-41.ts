@@ -28,18 +28,6 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u41-g4', type: 'fill-blank', level: 'C1', topic: 'passive-reporting', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Perfect Infinitive with Passive Reporting|Infinitivo perfecto con pasiva de reporte]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'Mindfulness-based cognitive therapy _______ to reduce relapse rates in patients with recurrent depression by approximately forty percent, according to a series of randomised controlled trials published in leading psychiatric journals.', options: ['[[has been shown|ha demostrado]]', '[[is showing|está mostrando]]', '[[was shown being|fue mostrándose]]'], correctAnswer: 'has been shown', acceptableAnswers: ['has been shown', 'has been found', 'has been demonstrated', 'has been reported'], explanation: '"Has been shown to + infinitive" = present perfect passive reporting verb. This construction signals that evidence has accumulated up to the present. "Is showing" is active. "Was shown being" is ungrammatical.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u41-g5', type: 'multiple-choice', level: 'C1', topic: 'passive-reporting', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Passive Reporting in Academic Prose|Pasiva de reporte en prosa académica]]', instructions: 'Choose the most sophisticated academic sentence.',
-      questions: [{ question: 'Which sentence integrates passive reporting structures most effectively in a medical context?', options: ['[[Whilst herbal remedies are frequently assumed to be inherently safe on the grounds that they are "natural", it has been documented that several widely used botanical preparations interact adversely with prescribed medications, a risk that is considered to be significantly underreported in clinical consultations.|Aunque los remedios herbales se asumen frecuentemente como inherentemente seguros por ser "naturales", se ha documentado que varias preparaciones botánicas de uso generalizado interactúan de forma adversa con medicamentos prescritos, un riesgo que se considera significativamente infranotificado en las consultas clínicas.]]', '[[Herbal remedies are thought by many people to be safe because they come from nature. However, it is known that some of them can interact with medicines. This is said to be underreported by doctors.|Muchas personas piensan que los remedios herbales son seguros porque provienen de la naturaleza. Sin embargo, se sabe que algunos pueden interactuar con los medicamentos.]]', '[[People assume that herbal remedies are safe and natural. It is claimed they can be dangerous though, because some herbs interact with medicines. Scientists say that doctors do not report this enough.|Las personas asumen que los remedios herbales son seguros y naturales. Sin embargo, se afirma que pueden ser peligrosos, porque algunas hierbas interactúan con los medicamentos.]]'], correctAnswer: 0, explanation: 'Option A chains three passive reporting structures ("are assumed", "has been documented", "is considered") within a complex concessive sentence in sustained academic register.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u41-v1', type: 'multiple-choice', level: 'C1', topic: 'medicine-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Complementary Medicine|Medicina complementaria]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'Medical practices that are used alongside — rather than instead of — conventional biomedical treatments, such as acupuncture alongside chemotherapy for pain management, are described as _______ medicine.', options: ['[[complementary|complementaria]]', '[[alternative|alternativa]]', '[[integrative|integrativa]]'], correctAnswer: 0, explanation: '"Complementary" = used alongside conventional medicine. "Alternative" = used instead of conventional medicine. "Integrative" = a broader term combining both, though it often implies a coordinated whole-person approach incorporating both systems.' }] },
@@ -58,18 +46,6 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u41-v4', type: 'fill-blank', level: 'C1', topic: 'medicine-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Evidence-Based Medicine|Medicina basada en evidencia]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'A _______ is a rigorous synthesis of all available high-quality evidence on a specific clinical question — typically combining data from multiple randomised controlled trials using statistical techniques — and is considered the highest form of evidence in evidence-based medicine.', options: ['[[systematic review and meta-analysis|revisión sistemática y metaanálisis]]', '[[case study|estudio de caso]]', '[[expert opinion|opinión de expertos]]'], correctAnswer: 'systematic review and meta-analysis', acceptableAnswers: ['systematic review', 'meta-analysis', 'systematic review and meta-analysis'], explanation: '"Systematic review and meta-analysis" = the apex of the evidence hierarchy. Synthesises all available RCT data on a question. "Case study" = individual patient report (low evidence level). "Expert opinion" = lowest level.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u41-v5', type: 'multiple-choice', level: 'C1', topic: 'medicine-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Mind-Body Practices|Prácticas mente-cuerpo]]', instructions: 'Choose the correct collocation.',
-      questions: [{ question: 'The concept that psychological states — including stress, anxiety and depression — can directly influence physiological functioning and immune system competence is studied within the field of _______.', options: ['[[psychoneuroimmunology|psiconeuroinmunología]]', '[[psychopharmacology|psicofarmacología]]', '[[epidemiology|epidemiología]]'], correctAnswer: 0, explanation: '"Psychoneuroimmunology" = the study of interactions between psychological processes, the nervous system and immune function. "Psychopharmacology" = drug treatments for mental health. "Epidemiology" = the study of disease distribution in populations.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u41-r1', type: 'reading', level: 'C1', topic: 'medicine-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Limits of Evidence in Complementary Medicine|Los límites de la evidencia en medicina complementaria]]', instructions: 'Read and answer.',
       passage: 'The relationship between complementary medicine and evidence-based practice is frequently characterised by mutual suspicion. Proponents of practices such as acupuncture, osteopathy and certain herbal therapies argue that the double-blind randomised controlled trial — the gold standard of biomedical research — is poorly suited to evaluating holistic interventions in which the therapeutic relationship, individualised treatment and the patient\'s belief in the therapy are themselves integral to the outcome. Critics, however, contend that abandoning rigorous trial design creates conditions in which ineffective or harmful treatments may be falsely validated. It is claimed that some complementary practices exploit cognitive biases — including confirmation bias and the regression to the mean — to generate the impression of efficacy in the absence of genuine pharmacological or physiological mechanisms. The challenge, it has been argued, is not to dismiss patient-reported outcomes but to develop methodologies sufficiently robust to distinguish genuine therapeutic effects from artefacts of expectation.',
@@ -84,10 +60,85 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u41-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'medicine-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Alternative Medicine and Treatment), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u41-l1', type: 'listening', level: 'C1', topic: 'medicine-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Medical Ethics Debate|Un debate de ética médica]]', instructions: 'Read the transcript and answer.',
       passage: 'Speaker A: The issue I want to raise is the ethics of prescribing therapies whose mechanisms are not scientifically understood. If a patient is found to benefit from acupuncture for chronic back pain, and we cannot replicate that benefit in controlled conditions, are we obliged to withhold it? Speaker B: That is the critical tension, isn\'t it. It is widely agreed that patient outcomes — including self-reported wellbeing — are the primary metric. If a treatment is reported to improve quality of life, is safe and does not preclude evidence-based care, withholding it on epistemological grounds seems unnecessarily paternalistic. Speaker A: But there is also a concern about informed consent. Patients are said to often overestimate the efficacy of complementary therapies because practitioners frame outcomes in highly positive terms, without adequately communicating the uncertainty of the evidence. Speaker B: That is a legitimate concern. It has been argued that informed consent in complementary medicine is systematically weaker than in biomedical practice. The solution, it seems to me, is not prohibition but more rigorous standards of communication.',
       questions: [{ question: 'What concern does Speaker A raise about complementary medicine and informed consent?', options: ['[[Patients are said to often overestimate efficacy because practitioners frame outcomes positively without adequately communicating the uncertainty of the evidence base.|Se dice que los pacientes frecuentemente sobreestiman la eficacia porque los practicantes enmarcan los resultados de forma positiva sin comunicar adecuadamente la incertidumbre de la base de evidencia.]]', '[[Speaker A argues that complementary medicine should be prohibited entirely because practitioners systematically misrepresent the scientific status of their therapies to vulnerable patients.|El orador A argumenta que la medicina complementaria debería prohibirse por completo porque los practicantes tergiversan sistemáticamente el estatus científico de sus terapias.]]', '[[The main concern raised is that complementary medicine is unaffordable for most patients and that practitioners exploit financial vulnerabilities to promote expensive treatments without evidence.|La preocupación principal planteada es que la medicina complementaria es inasequible para la mayoría de los pacientes y que los practicantes explotan las vulnerabilidades financieras.]]'], correctAnswer: 0, explanation: 'Speaker A says "Patients are said to often overestimate the efficacy of complementary therapies because practitioners frame outcomes in highly positive terms, without adequately communicating the uncertainty of the evidence".' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u41-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'medicine-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u41-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'medicine-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u41-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'medicine-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u41-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'medicine-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u41-s1', type: 'speaking', level: 'C1', topic: 'medicine-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Evaluating Evidence|Evaluar la evidencia]]', instructions: 'Which response demonstrates C1 spoken proficiency on medical evidence?',
       questions: [{ question: 'Question: "Should complementary medicine be available on public health systems?"', options: ['[[That is a question where the answer, I would argue, depends entirely on the threshold of evidence we require before public funding is justified. Practices that are reported to produce clinically significant outcomes in rigorous trials — such as mindfulness-based therapies for depression or acupuncture for chronic pain — seem defensible inclusions, provided they are offered alongside rather than instead of evidence-based care. Practices that are merely claimed to be effective on the basis of anecdotal reports and theoretical frameworks with no empirical support are, in my view, a poor use of finite public resources.|Es una pregunta cuya respuesta, yo argumentaría, depende enteramente del umbral de evidencia que exigimos antes de que la financiación pública esté justificada. Las prácticas que se informa producen resultados clínicamente significativos en ensayos rigurosos parecen inclusiones defendibles.]]', '[[I think complementary medicine should be available because many people use it and find it helpful. Although it is not always proven, it can work for some people. It is claimed to be effective and safe for most conditions, so I think it is worth trying.|Creo que la medicina complementaria debería estar disponible porque muchas personas la usan y la encuentran útil.]]', '[[Complementary medicine is said to be good but I am not sure. Some people believe it works and others do not. It depends on what kind of medicine it is. The government should decide after looking at what the evidence says about each treatment.|Se dice que la medicina complementaria es buena pero no estoy seguro.]]'], correctAnswer: 0, explanation: 'Option A uses passive reporting ("are reported", "are merely claimed") appropriately, structures a nuanced conditional argument, and sustains formal analytical register throughout.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u41-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'medicine-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u41-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'medicine-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

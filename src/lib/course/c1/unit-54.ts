@@ -28,18 +28,6 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u54-g4', type: 'fill-blank', level: 'C1', topic: 'module9-consolidation', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Cleft — What / It is X that|Hendida — Lo que / Es X lo que]]', instructions: 'Complete with the correct cleft structure.',
-      questions: [{ question: '_______ the transition to a primarily digital media environment so difficult to manage from a policy perspective is not the technology itself — which is, in principle, subject to regulation like any other communications infrastructure — but the unprecedented speed of adoption and the global, jurisdictionally complex nature of the major platforms, which operate across borders in ways that national regulatory frameworks were never designed to address.', options: ['[[What makes|Lo que hace]]', '[[That makes|Lo que hace]]', '[[Which makes|Que hace]]'], correctAnswer: 'What makes', acceptableAnswers: ['What makes'], explanation: '"What makes + X + so + adjective + is not Y but Z" = a what-cleft that focuses the explanation as new, highlighted information. "That" as a demonstrative cannot begin this construction. "Which" requires a specific antecedent noun.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u54-g5', type: 'multiple-choice', level: 'C1', topic: 'module9-consolidation', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Full Module Review — Structure Identification|Revisión completa del módulo — Identificación de estructuras]]', instructions: 'Identify which Module 9 grammar structures appear in the following text.',
-      questions: [{ question: 'Text: "Unlike traditional broadcast media, where editorial control was concentrated in relatively few hands, the internet was widely celebrated as a technology that would democratise information production. Far from fulfilling this promise uniformly, however, the web appears, it is widely argued, to have concentrated power in different but no less significant ways — not in the hands of editors and proprietors, but in those of the platform companies whose what might be called algorithmic governance shapes which voices are amplified and which are suppressed." Which structures are used?', options: ['[[Unlike (contrast), it is widely argued (impersonal), Far from (contrast), what might be called (distancing) — four Module 9 structures|A diferencia de (contraste), se argumenta ampliamente (impersonal), Lejos de (contraste), lo que podría llamarse (distanciamiento) — cuatro estructuras del Módulo 9]]', '[[Only one structure is used: "it is widely argued" — an impersonal construction. The rest of the sentence uses standard linking words and comparisons that are not specific Module 9 structures.|Solo se usa una estructura: "se argumenta ampliamente", una construcción impersonal. El resto de la oración usa palabras de enlace estándar.]]', '[[The text uses a what-cleft ("What might be called"), an it-cleft ("it is widely argued"), and two types of distancing language ("allegedly" and "so-called"), but no contrast structures from Module 9.|El texto usa una hendida con "what", una hendida con "it", y dos tipos de lenguaje distanciador, pero ninguna estructura de contraste.]]'], correctAnswer: 0, explanation: 'The text uses "Unlike" (Module 9 contrast: comparing and contrasting), "Far from" (Module 9 contrast), "it is widely argued" (Module 9 impersonal), and "what might be called" (Module 9 distancing) — four structures from Module 9.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u54-v1', type: 'multiple-choice', level: 'C1', topic: 'media-vocabulary-review', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Module 9 Vocabulary Review — Media Concepts|Revisión del vocabulario del Módulo 9 — Conceptos de medios]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'The deliberate creation and strategic dissemination of false information designed to deceive audiences — typically for political, commercial or ideological purposes — as distinct from misinformation, which may be spread without deliberate intent to deceive, is technically referred to as _______.', options: ['[[disinformation|desinformación]]', '[[misinformation|información errónea]]', '[[propaganda|propaganda]]'], correctAnswer: 0, explanation: '"Disinformation" = false information spread deliberately (with intent to deceive). "Misinformation" = false information spread without deliberate intent. "Propaganda" = information (true or false) used to promote a particular political viewpoint — broader category that includes both accurate and inaccurate content used to influence.' }] },
@@ -58,18 +46,6 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u54-v4', type: 'fill-blank', level: 'C1', topic: 'media-vocabulary-review', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Platform Economics|Economía de las plataformas]]', instructions: 'Complete.',
-      questions: [{ question: 'The business model in which digital platforms offer services to users at no monetary cost whilst monetising those users\' attention and data by selling targeted advertising — making the user the product rather than the customer — is sometimes described as the _______ economy.', options: ['[[attention|economía de la atención]]', '[[sharing|economía compartida]]', '[[creative|economía creativa]]'], correctAnswer: 'attention', acceptableAnswers: ['attention'], explanation: '"Attention economy" = the concept (developed by economists including Herbert Simon) that human attention is the scarce resource that digital platforms compete to capture and monetise through advertising. Distinct from the "sharing economy" (peer-to-peer transactions) and "creative economy" (cultural/creative industries).' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u54-v5', type: 'multiple-choice', level: 'C1', topic: 'media-vocabulary-review', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Content Moderation|Moderación de contenidos]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'The process by which digital platforms review and remove or restrict content that violates their policies — including hate speech, incitement, disinformation, non-consensual intimate images and intellectual property violations — typically performed by a combination of automated systems and human reviewers, is known as _______.', options: ['[[content moderation|moderación de contenidos]]', '[[editorial curation|curación editorial]]', '[[platform censorship|censura de plataformas]]'], correctAnswer: 0, explanation: '"Content moderation" = the systematic process of managing user-generated content against platform rules — a neutral descriptive term. "Editorial curation" suggests active selection for quality (newspapers, magazines). "Platform censorship" is a politically charged characterisation that implies illegitimate suppression, not a neutral technical descriptor.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u54-r1', type: 'reading', level: 'C1', topic: 'media-reading-review', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Political Economy of Media|La economía política de los medios]]', instructions: 'Read and answer.',
       passage: 'The political economy of media — the study of how ownership, market structures and financial incentives shape media content and the conditions for journalistic practice — has generated a substantial body of research whose central conclusions are, it is fair to say, widely known within academic circles but rarely influential in public debate. Far from being a natural expression of freedom of speech, the contemporary media landscape is shaped by ownership structures, regulatory frameworks and market incentives that determine, often in ways invisible to audiences, what information is produced, how it is framed and whose interests it serves. It is widely acknowledged that the most commercially successful media enterprises — measured by audience size, revenue and influence — are not necessarily those that best serve the public-interest functions traditionally attributed to journalism in democratic theory. What distinguishes the political-economy tradition from conventional media studies is its emphasis on structural determinants rather than individual editorial choices: the argument is not that journalists are corrupt or biased individuals, but that the conditions within which they work systematically shape the range of perspectives and stories that are viable to pursue.',
@@ -84,10 +60,85 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u54-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'media-reading-review',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Media and Information: Module Consolidation), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u54-l1', type: 'listening', level: 'C1', topic: 'media-listening-review', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[Media Regulation Debate|Debate sobre regulación de los medios]]', instructions: 'Read the transcript and answer.',
       passage: 'Interviewer: Should social media platforms be regulated like traditional broadcasters? Expert A: Far from being a simple technical question, this is one that involves fundamental questions about the nature of public discourse and the role of private corporations in managing it. Unlike broadcasters, who have always operated under licences that require adherence to standards of accuracy and fairness, social media platforms have, it is widely noted, successfully resisted the application of equivalent standards, partly by positioning themselves as neutral conduits for user-generated speech rather than as editors. What makes this distinction increasingly difficult to sustain, however, is the evidence — now widely documented — that platform algorithms do not neutrally distribute content but actively curate what users see in ways that have measurable effects on political attitudes and social behaviour. Expert B: I would push back on that framing. It might well be argued that applying broadcast-style regulation to social media would, far from improving the information environment, restrict the scope for the kind of genuine public deliberation that the internet makes possible for the first time at scale. What is described as algorithmic curation is also, from another perspective, a form of personalised editorial service. There is a tendency to treat regulation as a solution when the underlying problems are deeper.',
       questions: [{ question: 'What does Expert A identify as the key evidence making the "neutral conduit" argument increasingly difficult to sustain?', options: ['[[The widely documented evidence that platform algorithms do not neutrally distribute content but actively curate what users see in ways that have measurable effects on political attitudes and social behaviour — undermining the platform claim to be mere conduits rather than editors.|La evidencia ampliamente documentada de que los algoritmos de las plataformas no distribuyen contenido de manera neutral sino que curan activamente lo que los usuarios ven de maneras que tienen efectos medibles en las actitudes políticas y el comportamiento social.]]', '[[Expert A argues that the increasing use of AI content moderation tools makes it impossible to claim neutrality because AI systems inevitably reflect the biases of their designers, introducing systematic editorial distortions.|El Experto A argumenta que el uso creciente de herramientas de moderación de contenido de IA hace imposible reclamar neutralidad porque los sistemas de IA inevitablemente reflejan los sesgos de sus diseñadores.]]', '[[The expert identifies the commercial advertising model — not the algorithm — as the decisive evidence against neutrality, because advertising incentives determine which content is promoted and which is suppressed based on engagement metrics.|El experto identifica el modelo de publicidad comercial, no el algoritmo, como la evidencia decisiva contra la neutralidad.]]'], correctAnswer: 0, explanation: 'Expert A says: "What makes this distinction increasingly difficult to sustain, however, is the evidence — now widely documented — that platform algorithms do not neutrally distribute content but actively curate what users see in ways that have measurable effects on political attitudes and social behaviour."' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u54-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'media-listening-review',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u54-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'media-listening-review',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u54-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'media-writing-review',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u54-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'media-writing-review',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u54-s1', type: 'speaking', level: 'C1', topic: 'media-speaking-review', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Module 9 Consolidation Discussion|Discusión de consolidación del Módulo 9]]', instructions: 'Which response demonstrates the best Module 9 oral integration?',
       questions: [{ question: 'Question: "What responsibility do social media platforms have for the content they host?"', options: ['[[Far from being a settled legal or ethical question, the responsibility of platforms for hosted content is one that is widely acknowledged to vary significantly across jurisdictions and to resist simple categorisation: unlike broadcasters, who take editorial responsibility for what they transmit, platforms have traditionally operated under what might be described as a conditional immunity framework — liability protection contingent on not actively editing content — though it is increasingly argued that the distinction collapses once algorithmic curation is recognised as a form of editorial judgement, and it is precisely this collapse that has driven the push for new regulatory frameworks in the EU, the UK and elsewhere.|Lejos de ser una cuestión legal o ética establecida, la responsabilidad de las plataformas por el contenido alojado se reconoce ampliamente como variable según las jurisdicciones y resistente a una categorización simple; a diferencia de los emisores, las plataformas han operado tradicionalmente bajo lo que podría describirse como un marco de inmunidad condicional, aunque se argumenta cada vez más que la distinción colapsa una vez que se reconoce la curación algorítmica como una forma de juicio editorial.]]', '[[Platforms have a lot of responsibility. Unlike before, they are very powerful. It is widely known they should do more. Far from being responsible, they often fail. What matters is that they fix the problem.|Las plataformas tienen mucha responsabilidad. A diferencia de antes, son muy poderosas.]]', '[[Social media platforms should be responsible for what they show. It is alleged they are not doing enough. One tends to think the internet should be regulated like TV. What is described as freedom of speech is complicated.|Las plataformas de redes sociales deberían ser responsables de lo que muestran.]]'], correctAnswer: 0, explanation: 'Option A uses "Far from being" (contrast), "it is widely acknowledged" (impersonal), "unlike broadcasters" (contrast), "what might be described as" (distancing), "it is increasingly argued" (impersonal), and "it is precisely this collapse that" (cleft) — six Module 9 structures in natural, substantive oral language.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u54-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'media-speaking-review',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u54-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'media-speaking-review',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

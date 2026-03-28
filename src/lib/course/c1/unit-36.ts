@@ -28,18 +28,6 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u36-g4', type: 'fill-blank', level: 'C1', topic: 'mixed-module6', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Modal Review|Revisión de modales]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The government _______ invested in preventive healthcare infrastructure decades ago; the catastrophic costs of managing chronic disease at scale are now a direct consequence of that longstanding policy failure.', options: ["[[needn't have|no era necesario que hubiera]]", '[[should have|debería haber]]', '[[had better have|más valía que hubiera]]'], correctAnswer: "should have", acceptableAnswers: ["should have", "ought to have", "could have"], explanation: '"Should have + past participle" = criticism or regret about a past action that did NOT happen. "Needn\'t have" = something was done but was unnecessary (implies it WAS done). The text implies investment did NOT happen.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u36-g5', type: 'multiple-choice', level: 'C1', topic: 'mixed-module6', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Module 6 Integration|Integración del módulo 6]]', instructions: 'Choose the most sophisticated sentence integrating multiple Module 6 structures.',
-      questions: [{ question: 'Which sentence most effectively integrates multiple C1 Module 6 structures?', options: ['[[It has been argued that the platform economy, while generating significant aggregate wealth, risks entrenching precarity for the lowest-paid participants; consequently, governments would do well to stop treating gig workers as self-employed contractors and go on to extend full employment rights provided that this does not inadvertently suppress innovation.|Se ha argumentado que la economía de plataformas, aunque genera una riqueza agregada significativa, corre el riesgo de consolidar la precariedad para los participantes peor pagados; en consecuencia, los gobiernos harían bien en dejar de tratar a los trabajadores de la economía gig como contratistas autónomos y pasar a ampliar los derechos laborales plenos.]]', '[[The platform economy makes a lot of money but it is bad for workers at the bottom. Governments should help these workers and give them better rights, but they need to be careful not to stop companies from innovating.|La economía de plataformas genera mucho dinero pero es mala para los trabajadores en la parte inferior. Los gobiernos deberían ayudar a estos trabajadores y darles mejores derechos.]]', '[[It is argued that the platform economy generates wealth but also creates problems for low-paid workers. Therefore, governments need to do something about this, as long as it is carefully considered before acting.|Se argumenta que la economía de plataformas genera riqueza pero también crea problemas para los trabajadores con salarios bajos. Por lo tanto, los gobiernos necesitan hacer algo al respecto.]]'], correctAnswer: 0, explanation: '"It has been argued that" (it-structure) + "consequently" (result linker) + "stop treating / go on to extend" (gerund/infinitive change) + "provided that" (business conditional) = all Module 6 structures integrated.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u36-v1', type: 'multiple-choice', level: 'C1', topic: 'economy-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Economic Policy|Política económica]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'Government spending on infrastructure, education and public services — used as a tool to stimulate aggregate demand during economic downturns — is an example of _______ policy.', options: ['[[fiscal|fiscal]]', '[[monetary|monetaria]]', '[[supply-side|de oferta]]'], correctAnswer: 0, explanation: '"Fiscal policy" = government decisions on taxation and spending. "Monetary policy" = central bank decisions on interest rates and money supply. "Supply-side policy" = measures to increase productive capacity.' }] },
@@ -58,18 +46,6 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u36-v4', type: 'fill-blank', level: 'C1', topic: 'economy-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Financial Concepts|Conceptos financieros]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The phenomenon by which a currency that is perceived as fundamentally overvalued gradually loses purchasing power as market confidence erodes — often culminating in a sudden, disorderly adjustment — is described by economists as a _______ correction.', options: ['[[hard landing|aterrizaje brusco]]', '[[soft landing|aterrizaje suave]]', '[[dead cat bounce|rebote del gato muerto]]'], correctAnswer: 'hard landing', acceptableAnswers: ['hard landing'], explanation: '"Hard landing" = a sharp economic contraction following overheating or rapid adjustment. "Soft landing" = a gentle slowdown avoiding recession. "Dead cat bounce" = a brief recovery within a broader decline.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u36-v5', type: 'multiple-choice', level: 'C1', topic: 'economy-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Globalisation|Globalización]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'The process by which companies relocate production from low-cost distant locations back to their home country or nearby countries — driven by concerns about supply chain security, rising transport costs and geopolitical risk — is known as _______.', options: ['[[reshoring / nearshoring|relocalización / acercamiento de la producción]]', '[[offshoring|deslocalización]]', '[[outsourcing|externalización]]'], correctAnswer: 0, explanation: '"Reshoring" = bringing production back to the home country. "Nearshoring" = moving production to nearby countries. "Offshoring" = moving production to distant low-cost countries. "Outsourcing" = contracting work to a third party.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u36-r1', type: 'reading', level: 'C1', topic: 'economy-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Universal Basic Income|Renta básica universal]]', instructions: 'Read and answer.',
       passage: 'It has been proposed by economists across the political spectrum that a universal basic income — a regular, unconditional cash payment to all citizens regardless of employment status — could address structural inequalities generated by automation and the erosion of traditional employment. Provided that such a scheme were funded through progressive taxation or a robot tax on automation-derived profits, proponents argue it would avoid exacerbating existing wealth disparities. Critics, however, contend that it risks undermining the incentive to work, thereby reducing labour market participation and hence aggregate economic output. It has been suggested, furthermore, that existing targeted welfare systems are better suited to meeting the needs of the most vulnerable, making UBI an inefficient use of public resources.',
@@ -84,10 +60,85 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u36-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'economy-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (The Economy and Society), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u36-l1', type: 'listening', level: 'C1', topic: 'economy-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[An Economic Policy Debate|Un debate de política económica]]', instructions: 'Read the transcript and answer.',
       passage: 'Host: Is austerity or investment the right response to a post-recession deficit? | Economist A: It is now well-established that the austerity measures applied in many European economies after 2010 significantly worsened outcomes. Owing to the sharp reduction in public investment, growth stalled precisely when economies needed stimulus most. Consequently, the debt-to-GDP ratios that austerity was supposed to reduce actually increased in several cases. | Economist B: That analysis is too simplistic. As long as deficits are structural rather than cyclical, borrowing to invest simply means passing the problem to future generations. Provided that investment is genuinely productive, I am not opposed to it — but governments have a poor track record in identifying productive investments, and we had better not pretend otherwise.',
       questions: [{ question: 'What is Economist B\'s qualified position on investment spending?', options: ['[[Economist B accepts investment spending only when it is genuinely productive, while warning that governments have historically struggled to identify productive investments reliably.|El economista B acepta el gasto en inversión solo cuando es genuinamente productivo, al tiempo que advierte que los gobiernos históricamente han tenido dificultades para identificar inversiones productivas de manera fiable.]]', '[[Economist B fully endorses all forms of deficit-financed investment as the optimal response to post-recession economic conditions, regardless of the government\'s capacity to allocate capital productively.|El economista B respalda plenamente todas las formas de inversión financiada con déficit como la respuesta óptima a las condiciones económicas post-recesión.]]', '[[Economist B argues that structural deficits and cyclical deficits should be treated identically because the distinction has no practical relevance to fiscal policy.|El economista B argumenta que los déficits estructurales y los cíclicos deben tratarse de manera idéntica porque la distinción no tiene relevancia práctica para la política fiscal.]]'], correctAnswer: 0, explanation: 'Economist B says "provided that investment is genuinely productive, I am not opposed" but adds that "governments have a poor track record in identifying productive investments".' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u36-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'economy-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u36-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'economy-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u36-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'economy-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u36-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'economy-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u36-s1', type: 'speaking', level: 'C1', topic: 'economy-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Module 6 Consolidation Discussion|Discusión de consolidación del módulo 6]]', instructions: 'Which response demonstrates C1 spoken fluency integrating Module 6 structures?',
       questions: [{ question: 'Question: "How should governments balance economic growth with reducing inequality?"', options: ['[[It would be an oversimplification to treat growth and equality as inherently opposed goals. It has been demonstrated that high inequality is, in fact, bound to suppress long-term growth by concentrating purchasing power among a narrow segment of the population, thereby reducing aggregate demand. Provided that redistribution is designed to complement rather than replace market incentives, there is no reason why governments should stop pursuing both objectives simultaneously.|Sería una simplificación excesiva tratar el crecimiento y la igualdad como objetivos inherentemente opuestos. Se ha demostrado que la alta desigualdad está, de hecho, destinada a suprimir el crecimiento a largo plazo al concentrar el poder adquisitivo en un segmento estrecho de la población, reduciendo así la demanda agregada.]]', '[[Growth and equality are both important. Governments should try to grow the economy and also help poor people. This is not easy because sometimes these things conflict with each other, but I think it is possible to do both.|El crecimiento y la igualdad son ambos importantes. Los gobiernos deberían intentar hacer crecer la economía y también ayudar a los pobres.]]', '[[I think equality is more important than growth because growth benefits mostly rich people. Governments should focus on redistributing existing wealth rather than trying to grow the economy, which mainly helps the people at the top.|Creo que la igualdad es más importante que el crecimiento porque el crecimiento beneficia principalmente a los ricos.]]'], correctAnswer: 0, explanation: 'Option A uses "it would be", "it has been demonstrated", "is bound to", "thereby", "provided that", "no reason why should stop" — multiple Module 6 structures in a coherent analytical response.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u36-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'economy-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u36-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'economy-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

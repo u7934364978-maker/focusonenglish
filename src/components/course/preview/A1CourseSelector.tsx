@@ -42,7 +42,9 @@ export function A1CourseSelector({ units, courseId }: A1CourseSelectorProps) {
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
   const [selectedDifficulty, setSelectedDifficulty] = useState<number[]>([]);
   const [showFilters, setShowFilters] = useState(false);
-  const [viewMode, setViewMode] = useState<ViewMode>('grid');
+  const [viewMode, setViewMode] = useState<ViewMode>(() =>
+    courseId === 'ingles-c1' ? 'modules' : 'grid'
+  );
 
   useEffect(() => {
     trackA1PreviewLanding();
@@ -85,8 +87,8 @@ export function A1CourseSelector({ units, courseId }: A1CourseSelectorProps) {
   }, [units, searchQuery, selectedTopics, selectedDifficulty]);
 
   const modules = useMemo(() => {
-    return groupUnitsIntoModules(filteredUnits);
-  }, [filteredUnits]);
+    return groupUnitsIntoModules(filteredUnits, { courseId });
+  }, [filteredUnits, courseId]);
 
   const hasActiveFilters = searchQuery.trim() !== '' || selectedTopics.length > 0 || selectedDifficulty.length > 0;
 

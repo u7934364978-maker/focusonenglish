@@ -29,18 +29,6 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u48-g4', type: 'fill-blank', level: 'C1', topic: 'module8-review', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Advanced Adverbial Clauses — Review|Cláusulas adverbiales avanzadas — Repaso]]', instructions: 'Complete with the correct adverbial structure.',
-      questions: [{ question: 'Humanitarian corridors must be established and maintained _______ aid organisations can reach the civilian population of the besieged areas, ensuring that medical supplies, food and clean water reach those most in need before the window of access closes entirely.', options: ['[[so that|para que]]', '[[lest|no sea que]]', '[[by the time|para cuando]]'], correctAnswer: 'so that', acceptableAnswers: ['so that', 'in order that'], explanation: '"So that + subject + can/could + infinitive" = purpose adverbial clause. The context requires a positive purpose (establishing corridors FOR a positive outcome). "Lest" = negative purpose (to prevent something). "By the time" = time clause — wrong function here.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u48-g5', type: 'multiple-choice', level: 'C1', topic: 'module8-review', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Speculation — Review|Especulación — Repaso]]', instructions: 'Choose the most accurately calibrated speculative sentence.',
-      questions: [{ question: 'Which sentence demonstrates the most sophisticated use of calibrated speculation about global issues?', options: ['[[It is entirely conceivable that the combination of climate stress, resource depletion, demographic pressure and governance failure could, within the next generation, generate levels of involuntary migration that current international legal frameworks and resettlement mechanisms are wholly unprepared to manage — a prospect that might well require not merely incremental policy adjustments but a fundamental reimagination of what global solidarity and shared responsibility actually mean in practice.|Es del todo concebible que la combinación de estrés climático, agotamiento de recursos, presión demográfica y fracaso de gobernanza pueda generar niveles de migración involuntaria que los marcos jurídicos internacionales actuales no están preparados para gestionar, una perspectiva que bien podría requerir una reimaginación fundamental de lo que significa la solidaridad global.]]', '[[There is every reason to believe that global problems will get worse in the future. It is conceivable that climate change might cause problems. Migration could conceivably increase. It might well be a serious issue.|Hay todas las razones para creer que los problemas globales empeorarán en el futuro. Es concebible que el cambio climático pueda causar problemas.]]', '[[We can speculate that things will change. It might well happen that countries have to work together. There is every chance that the world could be a better or worse place in the future, which is something to think about.|Podemos especular que las cosas cambiarán. Bien podría suceder que los países tengan que trabajar juntos.]]'], correctAnswer: 0, explanation: 'Option A uses "It is entirely conceivable that…could generate", "might well require", with substantive content and a nuanced final clause about "what global solidarity actually means" — hallmarks of sophisticated C1 academic speculation.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u48-v1', type: 'multiple-choice', level: 'C1', topic: 'global-issues-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Global Issues — Key Terms|Problemas globales — Términos clave]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'The approach to addressing complex global problems — such as climate change, migration and public health — that recognises they cannot be resolved by any single government acting alone and therefore require coordinated, rules-based cooperation between states through international institutions is known as _______.', options: ['[[multilateralism|multilateralismo]]', '[[sovereignty|soberanía]]', '[[bilateralism|bilateralismo]]'], correctAnswer: 0, explanation: '"Multilateralism" = the approach involving three or more countries cooperating through shared institutions and rules. Contrasts with bilateralism (two countries) and unilateralism (acting alone). A cornerstone of the post-1945 international order.' }] },
@@ -59,18 +47,6 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u48-v4', type: 'fill-blank', level: 'C1', topic: 'global-issues-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Global Inequality|Desigualdad global]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The idea that economic growth alone is insufficient as a measure of human progress, and that development should instead be assessed in terms of people\'s capabilities and freedoms — including access to health, education and political participation — was articulated in the _______ Development Index, developed by the United Nations Development Programme.', options: ['[[Human|Humano]]', '[[Gross|Bruto]]', '[[Social|Social]]'], correctAnswer: 'Human', acceptableAnswers: ['Human'], explanation: '"Human Development Index" (HDI) = the UNDP\'s composite index measuring life expectancy, education and income per capita. Contrasts with GDP-focused measures by incorporating non-economic dimensions of wellbeing.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u48-v5', type: 'multiple-choice', level: 'C1', topic: 'global-issues-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Migration and Displacement|Migración y desplazamiento]]', instructions: 'Choose the correct definition.',
-      questions: [{ question: 'A person who, owing to well-founded fear of persecution for reasons of race, religion, nationality, membership of a particular social group or political opinion, is outside their country of nationality and is unable or unwilling to return — as defined by the 1951 Refugee Convention — is legally termed a _______.', options: ['[[refugee|refugiado/a]]', '[[migrant worker|trabajador/a migrante]]', '[[internally displaced person|persona desplazada internamente]]'], correctAnswer: 0, explanation: '"Refugee" = a specific legal status under the 1951 Refugee Convention and 1967 Protocol. Distinct from "migrant worker" (moves for economic reasons) and "internally displaced person" (displaced within their own country — not protected by the 1951 Convention).' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u48-r1', type: 'reading', level: 'C1', topic: 'global-issues-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Erosion of Multilateralism|La erosión del multilateralismo]]', instructions: 'Read and answer.',
       passage: 'The post-1945 international order — built around multilateral institutions, binding treaty regimes and the progressive codification of international law — is under strain in ways that were not anticipated even two decades ago. Whereas the decade following the end of the Cold War was characterised by an optimistic expansion of multilateral cooperation, the current period is marked by the fragmentation of global governance, the rise of great power competition and the retreat of leading states from international obligations they previously championed. What is most troubling is not merely the weakening of specific institutions but the erosion of the normative consensus — the shared belief that multilateral rules-based cooperation is both legitimate and preferable to unilateral action — that underpinned the system. It is conceivable that this consensus could be rebuilt, but there is every reason to believe that such a reconstruction would require a level of political leadership and long-term vision that is currently conspicuous by its absence from the world stage.',
@@ -85,10 +61,85 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u48-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'global-issues-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Global Issues: Module Consolidation), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u48-l1', type: 'listening', level: 'C1', topic: 'global-issues-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Seminar on Global Governance|Un seminario sobre gobernanza global]]', instructions: 'Read the transcript and answer.',
       passage: 'Lecturer: Today I want to bring together the themes we have examined across this module — obligation, contrast, fronting, adverbial clauses and speculation — and apply them to a single integrating question: what does effective global governance require, and are we currently capable of delivering it? As for the requirement side of the question, there are several things we are obliged to acknowledge. First: effective global governance requires institutions with sufficient authority and resources to enforce agreed rules, lest they be treated as optional by powerful states that find compliance costly. Second: whereas developing countries have consistently advocated for stronger redistributive mechanisms, developed countries have resisted commitments they regard as open-ended financial obligations — this contrast is the central tension in virtually every area of global policy. Third: there is every reason to believe that governance gaps in areas such as digital technology, artificial intelligence and synthetic biology might well prove more consequential than any of the challenges we have yet managed to address multilaterally. It is conceivable that the 21st century will demand governance architectures that current institutional frameworks are wholly unprepared to provide.',
       questions: [{ question: 'What tension does the lecturer identify as central to virtually every area of global policy?', options: ['[[Developing countries have consistently advocated for stronger redistributive mechanisms, while developed countries have resisted commitments they regard as open-ended financial obligations — a contrast that runs through virtually every area of global policy.|Los países en desarrollo han abogado constantemente por mecanismos redistributivos más sólidos, mientras que los países desarrollados han resistido compromisos que consideran obligaciones financieras abiertas, un contraste que recorre prácticamente todas las áreas de la política global.]]', '[[The central tension is between democratic and authoritarian governance models, with democratic multilateralism facing increasing challenge from authoritarian states that reject human rights norms and seek to reshape international institutions.|La tensión central es entre los modelos de gobernanza democrática y autoritaria.]]', '[[The central tension is between the pace of technological change and the slow adaptation of international governance frameworks — a gap that is widening as artificial intelligence, synthetic biology and digital platforms create new governance challenges.|La tensión central es entre el ritmo del cambio tecnológico y la lenta adaptación de los marcos de gobernanza internacional.]]'], correctAnswer: 0, explanation: 'The lecturer says: "whereas developing countries have consistently advocated for stronger redistributive mechanisms, developed countries have resisted commitments they regard as open-ended financial obligations — this contrast is the central tension in virtually every area of global policy."' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u48-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'global-issues-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u48-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'global-issues-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -98,9 +149,105 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u48-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'global-issues-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u48-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'global-issues-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u48-s1', type: 'speaking', level: 'C1', topic: 'global-issues-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Consolidation: Global Issues Discussion|Consolidación: Debate sobre problemas globales]]', instructions: 'Which response best demonstrates integrated C1 spoken proficiency on global issues?',
       questions: [{ question: 'Question: "What is the single most important challenge facing the international community today?"', options: ['[[I would argue that the defining challenge is not any single issue but the erosion of the institutional and normative capacity to address collective problems at all — because whereas we face urgent crises across climate, health, inequality and conflict simultaneously, what is most alarming is that we are facing them at precisely the moment when the multilateral frameworks designed to coordinate responses are under their greatest strain in decades; it is conceivable that without urgent institutional renewal, the individual crises might well interact in ways that produce compounding, systemic disruption — which is precisely why there is every reason to believe that rebuilding the foundations of cooperative global governance is, in the end, more important than any single policy priority.|Argumentaría que el desafío definitorio no es ningún problema individual sino la erosión de la capacidad institucional para abordar problemas colectivos, porque mientras enfrentamos crisis urgentes simultáneamente, lo más alarmante es que las estamos enfrentando cuando los marcos multilaterales están bajo su mayor tensión; es concebible que sin renovación institucional urgente, las crisis individuales podrían bien interactuar produciendo perturbaciones sistémicas compuestas.]]', '[[I think the most important challenge is climate change because it affects everyone. Whereas some countries act, others do not. What we need is more cooperation. It is conceivable that we might solve it. Countries are obliged to do more and there is every reason to believe we can succeed if we work together.|Creo que el desafío más importante es el cambio climático porque afecta a todos. Mientras algunos países actúan, otros no.]]', '[[The biggest challenge is poverty. By contrast, rich countries have enough money but do not share it. There is every chance that this could change. Might well the world be more equal in the future? I think so, if there is the political will to make the necessary changes.|El mayor desafío es la pobreza. Por el contrario, los países ricos tienen suficiente dinero pero no lo comparten.]]'], correctAnswer: 0, explanation: 'Option A deploys five Module 8 structures (contrast "whereas", fronting "what is most alarming", "it is conceivable that", "might well interact", "there is every reason to believe") into a coherent, nuanced, analytically sophisticated argument.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u48-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'global-issues-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u48-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'global-issues-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

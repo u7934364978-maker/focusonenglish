@@ -75,47 +75,6 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u3-g4',
-    type: 'fill-blank',
-    level: 'C1',
-    topic: 'conditional-inversion',
-    difficulty: 'hard',
-    content: {
-      title: '[[Grammar|Gramática]]: [[Conditional Inversion|Inversión en condicionales]]',
-      instructions: 'Complete the formal conditional using inversion.',
-      questions: [
-        {
-          question: '_______ we to invest now, the returns would be significant.',
-          options: ['[[Were|Si fuéramos a]]', '[[If were|Si fuera]]', '[[Should were|Debería fuera]]'],
-          correctAnswer: 'Were',
-          acceptableAnswers: ['Were'],
-          explanation: 'Were + subject + to + infinitive = formal conditional inversion replacing "If we were to...".',
-        },
-      ],
-    },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u3-g5',
-    type: 'multiple-choice',
-    level: 'C1',
-    topic: 'conditional-inversion',
-    difficulty: 'hard',
-    content: {
-      title: '[[Grammar|Gramática]]: [[Conditional Inversion|Inversión en condicionales]]',
-      instructions: 'Choose the correct formal conditional inversion.',
-      questions: [
-        {
-          question: '_______ the experiment failed, the entire project would be cancelled.',
-          options: ['[[Should|Si llegara a]]', '[[Were|Si fuera]]', '[[Had|Si hubiera]]'],
-          correctAnswer: 0,
-          explanation: 'Should + subject + infinitive = formal way of saying "If the experiment were to fail...".',
-        },
-      ],
-    },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u3-v1',
     type: 'multiple-choice',
     level: 'C1',
@@ -177,47 +136,6 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u3-v4',
-    type: 'fill-blank',
-    level: 'C1',
-    topic: 'science-vocabulary',
-    difficulty: 'hard',
-    content: {
-      title: '[[Vocabulary|Vocabulario]]: [[Science and Technology|Ciencia y tecnología]]',
-      instructions: 'Complete the sentence.',
-      questions: [
-        {
-          question: 'The widespread _______ of tasks previously done by humans is one of the defining challenges of the 21st century.',
-          options: ['[[automation|automatización]]', '[[innovation|innovación]]', '[[disruption|disrupción]]'],
-          correctAnswer: 'automation',
-          acceptableAnswers: ['automation'],
-          explanation: 'Automation = the use of technology to perform tasks without human input.',
-        },
-      ],
-    },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u3-v5',
-    type: 'multiple-choice',
-    level: 'C1',
-    topic: 'science-vocabulary',
-    difficulty: 'hard',
-    content: {
-      title: '[[Vocabulary|Vocabulario]]: [[Science and Technology|Ciencia y tecnología]]',
-      instructions: 'Choose the correct word.',
-      questions: [
-        {
-          question: 'Before launching the product, the team built a _______ to test its key functions.',
-          options: ['[[prototype|prototipo]]', '[[hypothesis|hipótesis]]', '[[algorithm|algoritmo]]'],
-          correctAnswer: 0,
-          explanation: 'A prototype = an early version of a product used to test its design.',
-        },
-      ],
-    },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u3-r1',
     type: 'reading-comprehension',
     level: 'C1',
@@ -262,6 +180,31 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u3-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'science-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Science and Technology), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u3-l1',
     type: 'listening-comprehension',
     level: 'C1',
@@ -280,6 +223,56 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           ],
           correctAnswer: 1,
           explanation: 'Had we anticipated = they did NOT anticipate. The third conditional implies a regret about the past.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u3-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'science-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u3-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'science-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
         },
       ],
     },
@@ -310,6 +303,54 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u3-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'proposal-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u3-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'proposal-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u3-s1',
     type: 'multiple-choice',
     level: 'C1',
@@ -328,6 +369,54 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           ],
           correctAnswer: 1,
           explanation: '"One might reasonably posit" = sophisticated C1 hedging and speculation language.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u3-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-speculation',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u3-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'speaking-speculation',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
         },
       ],
     },

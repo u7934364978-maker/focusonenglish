@@ -29,18 +29,6 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u53-g4', type: 'fill-blank', level: 'C1', topic: 'mixed-formal-structures', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Formal Register Control|Control del registro formal]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'One _______ to assume that journalistic objectivity — a cornerstone of professional editorial codes — requires the equal presentation of all viewpoints; it is now more generally argued, however, that false balance, in which fringe or discredited positions are presented as equivalent to scientific consensus, constitutes a distortion rather than an expression of fairness.', options: ['[[tends|tiende]]', '[[is tending|está tendiendo]]', '[[tend|tienden]]'], correctAnswer: 'tends', acceptableAnswers: ['tends'], explanation: '"One tends to + infinitive" = impersonal construction expressing a general habitual inclination. The subject "one" takes singular verb form. "One is tending to" is unnatural (habitual tendency expressed as a progressive). "One tend" is ungrammatical (missing -s).' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u53-g5', type: 'multiple-choice', level: 'C1', topic: 'mixed-formal-structures', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Full Register Integration|Integración completa del registro]]', instructions: 'Choose the response demonstrating the most accomplished formal register.',
-      questions: [{ question: 'Which sentence demonstrates the most complete and natural integration of C1 formal structures in a journalism context?', options: ['[[Far from being a settled professional consensus, the question of whether journalists have obligations beyond accuracy and fairness — including responsibilities towards the subjects of their reporting, to vulnerable sources and to the longer-term consequences of what they publish — is one that is widely debated but rarely resolved; what is perhaps most telling is that the institutions designed to enforce journalistic standards are, it is widely observed, most effective precisely in cases where the journalists and publications least in need of external constraint are willing to submit to it.|Lejos de ser un consenso profesional establecido, la cuestión de si los periodistas tienen obligaciones más allá de la precisión y la imparcialidad es ampliamente debatida pero raramente resuelta; lo que quizás es más revelador es que las instituciones diseñadas para hacer cumplir los estándares periodísticos son, según se observa ampliamente, más efectivas precisamente en los casos donde los periodistas menos necesitados de restricción externa están dispuestos a someterse a ella.]]', '[[Journalism ethics is widely debated. Far from being settled, it is a complex area. What is most telling is that it is allegedly difficult. One tends to think regulations help but it is claimed they do not always work effectively.|La ética periodística es ampliamente debatida. Lejos de estar establecida, es un área compleja.]]', '[[Journalism has many ethical issues. It is widely known these are complex. One tends to debate them. Far from being resolved, what matters is that we address them. It is claimed solutions exist but supposedly they are not implemented.|El periodismo tiene muchos problemas éticos. Es ampliamente conocido que son complejos.]]'], correctAnswer: 0, explanation: 'Option A uses "Far from being", "it is widely debated", "what is perhaps most telling is that" (cleft), and "it is widely observed" — four structures deployed with precision, natural syntax and substantive content.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u53-v1', type: 'multiple-choice', level: 'C1', topic: 'journalism-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Journalism Ethics|Ética periodística]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'The ethical principle that journalists should present multiple perspectives on contested issues, ensuring that readers have access to diverse viewpoints and are not led to a single predetermined conclusion — but which, when applied uncritically, can result in the false equivalence of unequal positions — is known as _______.', options: ['[[impartiality or balance|imparcialidad o equilibrio]]', '[[objectivity|objetividad]]', '[[transparency|transparencia]]'], correctAnswer: 0, explanation: '"Impartiality" or "balance" = giving fair representation to multiple perspectives. Distinct from "objectivity" (the idea of reporting free from personal bias) and "transparency" (being open about methods and sources). The tension between balance and false equivalence is a central contemporary debate in journalism ethics.' }] },
@@ -59,18 +47,6 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u53-v4', type: 'fill-blank', level: 'C1', topic: 'journalism-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Media Accountability|Rendición de cuentas de los medios]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The phenomenon in which journalists, news organisations or public relations professionals use privileged access to information as a tool of power — selectively granting favourable coverage or access to sources that cooperate, and withholding them from those who do not — is sometimes described as an _______ relationship between media and its subjects.', options: ['[[adversarial|adversarial]]', '[[symbiotic|simbiótica]]', '[[transactional|transaccional]]'], correctAnswer: 2, explanation: '"Transactional" relationship = one in which access and favourable coverage are exchanged for cooperation and information — capturing the dynamic of strategic information exchange between journalists and PR-managed sources. "Symbiotic" = mutually beneficial (softer). "Adversarial" = characterised by opposition and scrutiny.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u53-v5', type: 'multiple-choice', level: 'C1', topic: 'journalism-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Libel and Press Law|Difamación y derecho de prensa]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'The publication of false statements of fact that damage the reputation of an identifiable individual or organisation — and which, in many legal systems, gives rise to a civil claim for damages — is known as _______ in its written or broadcast form, as distinct from slander, which refers to spoken defamation.', options: ['[[libel|libelo / difamación escrita]]', '[[contempt|desacato]]', '[[breach of confidence|violación de la confidencialidad]]'], correctAnswer: 0, explanation: '"Libel" = written or broadcast defamation (false statement of fact damaging reputation). "Slander" = spoken defamation. Together they constitute "defamation". "Contempt of court" = behaviour that undermines the authority of the courts. "Breach of confidence" = unauthorised disclosure of private information.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u53-r1', type: 'reading', level: 'C1', topic: 'journalism-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Fourth Estate under Pressure|El cuarto poder bajo presión]]', instructions: 'Read and answer.',
       passage: 'The concept of the press as the "fourth estate" — a quasi-constitutional power of democratic governance whose function is to scrutinise the other three — is widely cited but rarely examined with the rigour it invites. Far from being a natural or inevitable feature of modern societies, the institutional conditions that make independent, public-interest journalism possible are the product of specific historical, legal and economic arrangements that are currently under strain from multiple directions simultaneously. It is widely acknowledged that the collapse of the advertising-based revenue model has forced significant newsroom reductions and a retreat from the expensive, time-consuming investigative work that the fourth-estate metaphor most celebrates. What is less often noted, however, is that media concentration — driven by the same economic pressures — tends to place editorial decision-making in fewer and wealthier hands, with consequences for the range of perspectives that reach mass audiences. It is allegedly possible for a media system to be formally free from government interference whilst remaining subject to forms of structural constraint that are, for practical purposes, no less limiting.',
@@ -85,10 +61,85 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u53-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'journalism-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Journalism Ethics and Press Freedom), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u53-l1', type: 'listening', level: 'C1', topic: 'journalism-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Discussion on Editorial Independence|Un debate sobre independencia editorial]]', instructions: 'Read the transcript and answer.',
       passage: 'Host: How do you maintain editorial independence under commercial pressure? Editor: It is widely assumed that editorial independence is primarily threatened by direct proprietorial interference — an owner telling an editor what to write. In my experience, that is relatively rare, and when it happens, it tends to be visible and therefore resistible. What is far more pervasive and harder to resist is what I would call the anticipatory compliance problem: editors and journalists unconsciously calibrate their decisions to what they believe owners, advertisers or platforms will find acceptable, without any explicit instruction. The self-censorship that results from this process is, it could be argued, more corrosive than overt interference, precisely because it is invisible — neither party has to acknowledge what is happening. Far from being a problem unique to commercial media, this dynamic is found across public service broadcasting too, where editorial decisions are shaped by what it is assumed government or the politically engaged public will tolerate. What distinguishes the most independent newsrooms is not an absence of pressure but a culture that makes those pressures explicit, discussed and therefore more resistible.',
       questions: [{ question: 'What does the editor describe as more pervasive and harder to resist than direct proprietorial interference?', options: ['[[Anticipatory compliance: editors and journalists unconsciously calibrating decisions to what owners, advertisers or platforms will find acceptable without explicit instruction — a form of invisible self-censorship the editor argues is more corrosive than overt interference because neither party has to acknowledge it.|Conformidad anticipatoria: editores y periodistas calibrando inconscientemente las decisiones a lo que los propietarios, anunciantes o plataformas encontrarán aceptable sin instrucción explícita, una forma de autocensura invisible que el editor argumenta es más corrosiva que la interferencia abierta porque ninguna de las partes tiene que reconocerlo.]]', '[[The editor describes advertiser pressure as more pervasive than proprietorial interference, because advertisers can threaten to withdraw revenue without needing to give any explicit instruction, making their influence harder to identify and challenge.|El editor describe la presión de los anunciantes como más generalizada que la interferencia del propietario.]]', '[[Platform power is described as the most pervasive threat to editorial independence, because social media algorithms determine what content reaches audiences and editors must calibrate their decisions to platform preferences to maintain distribution.|El poder de las plataformas se describe como la amenaza más generalizada para la independencia editorial.]]'], correctAnswer: 0, explanation: 'The editor explicitly names "anticipatory compliance" — "editors and journalists unconsciously calibrate their decisions" without explicit instruction — as "far more pervasive and harder to resist" than direct interference, because "neither party has to acknowledge what is happening".' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u53-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'journalism-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u53-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'journalism-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -98,9 +149,105 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u53-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'journalism-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u53-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'journalism-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u53-s1', type: 'speaking', level: 'C1', topic: 'journalism-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Press Freedom Discussion|Debate sobre libertad de prensa]]', instructions: 'Which response best demonstrates integrated C1 formal register in discussion?',
       questions: [{ question: 'Question: "Is press freedom more or less secure today than it was twenty years ago?"', options: ['[[I would resist a simple answer in either direction, because what the data actually shows — and it is widely documented in press freedom indices — is a divergence: press freedom has, far from declining uniformly, improved in some contexts whilst deteriorating significantly in others, often in countries that were regarded as consolidating democracies; what concerns me most is not the overt repression in countries where the situation was already difficult, but what might be described as the quiet narrowing of the conditions for independent journalism in ostensibly democratic societies — through market concentration, legal pressure and platform dependency — that tends to be invisible until it is too late to reverse.|Me resistiría a una respuesta simple en cualquier dirección, porque lo que los datos realmente muestran es una divergencia: la libertad de prensa ha mejorado en algunos contextos mientras se deteriora significativamente en otros; lo que más me preocupa no es la represión abierta sino lo que podría describirse como el silencioso estrechamiento de las condiciones para el periodismo independiente en sociedades ostensiblemente democráticas.]]', '[[Press freedom is less secure today. It is widely believed things are worse. Far from improving, the situation is bad. What concerns experts is that things might well get worse. One tends to think it was better in the past.|La libertad de prensa es menos segura hoy. Se cree ampliamente que las cosas están peor.]]', '[[Press freedom has changed a lot. It is compared to twenty years ago very different. What is described as threats are many. Unlike before, there are new problems that are widely known to affect journalists today.|La libertad de prensa ha cambiado mucho. Se compara con hace veinte años muy diferente.]]'], correctAnswer: 0, explanation: 'Option A uses "what the data shows" (what-cleft), "it is widely documented" (impersonal), "far from declining uniformly" (contrast), "what might be described as" (distancing), and "tends to be invisible" (impersonal) — five structures with genuine analytical depth.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u53-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'journalism-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u53-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'journalism-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

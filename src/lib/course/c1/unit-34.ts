@@ -28,18 +28,6 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u34-g4', type: 'fill-blank', level: 'C1', topic: 'gerund-infinitive', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Go on / Mean|Continuar / Significar / Implicar]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'Accepting this leadership position will mean _______ significantly longer hours, taking on considerably more responsibility and, inevitably, sacrificing a degree of personal autonomy.', options: ['[[working|trabajar]]', '[[to work|trabajar]]', '[[worked|trabajado]]'], correctAnswer: 'working', acceptableAnswers: ['working'], explanation: '"Mean + gerund" = involve or entail as a consequence. "Mean + infinitive" = intend (e.g., "I mean to finish by Friday"). In this context "mean" = "entail", so gerund is required.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u34-g5', type: 'multiple-choice', level: 'C1', topic: 'gerund-infinitive', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Complex Verb Patterns|Patrones verbales complejos]]', instructions: 'Choose the sentence with correct gerund/infinitive usage.',
-      questions: [{ question: 'Which sentence uses verb patterns correctly?', options: ['[[The CEO went on to outline a long-term strategic vision after spending thirty minutes acknowledging the difficulties the company had faced during the previous financial year.|El director ejecutivo continuó esbozando una visión estratégica a largo plazo después de dedicar treinta minutos a reconocer las dificultades que la empresa había enfrentado durante el año fiscal anterior.]]', '[[The CEO went on outlining a long-term strategic vision after spending thirty minutes to acknowledge the difficulties the company had faced during the previous financial year.|El director ejecutivo siguió esbozando una visión estratégica a largo plazo después de dedicar treinta minutos a reconocer las dificultades que la empresa había enfrentado.]]', '[[The CEO went on to outline a long-term strategic vision after to spend thirty minutes acknowledging the difficulties the company had faced during the previous financial year.|El director ejecutivo continuó esbozando una visión estratégica a largo plazo después de pasar treinta minutos reconociendo las dificultades.]]'], correctAnswer: 0, explanation: '"Go on + infinitive" = move on to the next activity. "Go on + gerund" = continue the same activity. "Spend time + gerund" = use time doing something. Option A uses both patterns correctly.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u34-v1', type: 'multiple-choice', level: 'C1', topic: 'leadership-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Leadership Styles|Estilos de liderazgo]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'A leader who consults team members, values collaborative input and ensures decisions reflect collective knowledge, while retaining ultimate accountability, is described as practising _______ leadership.', options: ['[[participative / democratic|participativo / democrático]]', '[[autocratic|autocrático]]', '[[laissez-faire|laissez-faire]]'], correctAnswer: 0, explanation: '"Participative" or "democratic" leadership = involvement of team members in decisions. "Autocratic" = centralised, top-down authority. "Laissez-faire" = minimal leader intervention, high subordinate autonomy.' }] },
@@ -58,18 +46,6 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u34-v4', type: 'fill-blank', level: 'C1', topic: 'leadership-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Performance Management|Gestión del rendimiento]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The performance review process was redesigned to focus on _______ conversations — ongoing, constructive dialogues between managers and employees about development, objectives and feedback — rather than annual appraisal events.', options: ['[[coaching|coaching / entrenamiento]]', '[[disciplinary|disciplinarias]]', '[[compliance|cumplimiento normativo]]'], correctAnswer: 'coaching', acceptableAnswers: ['coaching'], explanation: '"Coaching conversations" = ongoing developmental dialogues between manager and employee. "Disciplinary" = related to rule violations. "Compliance" = regulatory adherence. The text describes a developmental process.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u34-v5', type: 'multiple-choice', level: 'C1', topic: 'leadership-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Corporate Culture|Cultura corporativa]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'An organisation in which information flows freely across hierarchical levels, employees are encouraged to challenge decisions respectfully and leaders actively seek critical feedback is said to have a culture of _______.', options: ['[[psychological safety|seguridad psicológica]]', '[[micromanagement|microgestión]]', '[[hierarchical control|control jerárquico]]'], correctAnswer: 0, explanation: '"Psychological safety" (Amy Edmondson) = the shared belief that the team is safe for interpersonal risk-taking, speaking up and challenging norms. "Micromanagement" = excessive oversight. "Hierarchical control" = the opposite.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u34-r1', type: 'reading', level: 'C1', topic: 'leadership-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[Transformational Leadership|Liderazgo transformacional]]', instructions: 'Read and answer.',
       passage: 'Transformational leadership theory, developed most influentially by James MacGregor Burns and later extended by Bernard Bass, proposes that effective leaders inspire followers to transcend immediate self-interest in pursuit of a higher collective purpose. Rather than relying on transactional exchanges — offering rewards in exchange for compliance — transformational leaders focus on articulating a compelling vision, modelling values and developing the intrinsic motivation of those around them. Critics have noted, however, that transformational leadership risks fostering dependency if followers stop questioning the leader\'s vision and go on simply executing directives. The distinction between inspiring transformation and cultivating uncritical deference is, therefore, one that ethically aware organisations need to continue examining.',
@@ -84,10 +60,85 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u34-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'leadership-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Leadership and Management), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u34-l1', type: 'listening', level: 'C1', topic: 'leadership-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Leadership Masterclass|Una clase magistral de liderazgo]]', instructions: 'Read the transcript and answer.',
       passage: 'Speaker: One thing I always remind new managers is to stop trying to do everything themselves. I remember spending my first year as a department head refusing to delegate, convincing myself that I was the only person capable of delivering the quality the role demanded. What I eventually learned was that by attempting to retain control of every output, I had effectively stopped my team from developing. I went on to implement a structured delegation framework, and within six months the team had not only matched but exceeded the standards I had been straining to maintain alone. The lesson? Effective leadership means accepting that your role is to enable others, not to outperform them.',
       questions: [{ question: 'What change in approach did the speaker make, and what was the outcome?', options: ['[[The speaker introduced a delegation framework, which led to the team matching and then exceeding the standards the speaker had previously maintained alone.|El ponente introdujo un marco de delegación, lo que llevó al equipo a igualar y luego superar los estándares que el ponente había mantenido previamente solo.]]', '[[The speaker hired additional staff to compensate for the team\'s underperformance, which allowed overall quality standards to be maintained without requiring delegation.|El ponente contrató personal adicional para compensar el bajo rendimiento del equipo, lo que permitió mantener los estándares de calidad generales sin requerir delegación.]]', '[[The speaker concluded that delegation was counterproductive and reverted to managing all outputs personally, which restored performance standards within six months.|El ponente concluyó que la delegación era contraproducente y volvió a gestionar todos los resultados personalmente, lo que restableció los estándares de rendimiento en seis meses.]]'], correctAnswer: 0, explanation: 'The speaker implemented a "structured delegation framework" and the team "matched but exceeded the standards" the speaker had maintained alone.' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u34-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'leadership-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u34-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'leadership-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u34-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'leadership-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u34-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'leadership-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u34-s1', type: 'speaking', level: 'C1', topic: 'leadership-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Discussing Professional Development|Hablar sobre el desarrollo profesional]]', instructions: 'Which response demonstrates C1 spoken fluency on leadership and verb patterns?',
       questions: [{ question: 'Question: "What do you think effective managers need to focus on developing?"', options: ['[[Effective managers need to focus on developing their capacity to communicate ambiguity clearly — to stop pretending that decisions are simpler than they are and go on to build the kind of trust that allows teams to tolerate uncertainty productively. I also think they need to try delegating in situations where instinct pushes them towards retaining control, to discover whether others can rise to the challenge.|Los gerentes efectivos necesitan centrarse en desarrollar su capacidad para comunicar la ambigüedad claramente: dejar de pretender que las decisiones son más simples de lo que son y pasar a construir el tipo de confianza que permite a los equipos tolerar la incertidumbre de manera productiva.]]', '[[Good managers need to develop many skills like communication, time management and delegation. They should try to improve these skills every day by reading books and attending courses. This is the best way to become a better manager.|Los buenos gerentes necesitan desarrollar muchas habilidades como la comunicación, la gestión del tiempo y la delegación. Deberían intentar mejorar estas habilidades todos los días leyendo libros y asistiendo a cursos.]]', '[[Managers should focus on developing trust with their team. If people trust their manager then everything is easier. Managers also need to be good at their job technically so that the team respects them.|Los gerentes deben centrarse en desarrollar la confianza con su equipo. Si la gente confía en su gerente entonces todo es más fácil.]]'], correctAnswer: 0, explanation: 'Option A demonstrates precise gerund/infinitive use ("stop pretending", "go on to build", "try delegating") integrated into a substantive C1 argument about leadership development.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u34-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'leadership-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u34-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'leadership-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

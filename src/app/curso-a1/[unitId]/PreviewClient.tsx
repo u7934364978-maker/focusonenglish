@@ -1,13 +1,16 @@
 'use client';
 
 import { useParams, useSearchParams } from 'next/navigation';
-import { useEffect, useState, Suspense } from 'react';
+import { useEffect, useMemo, useState, Suspense } from 'react';
 import ExerciseRenderer from '@/components/ExerciseRenderer';
 import { ArrowLeft, ArrowRight, Home, CheckCircle, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 import { trackUnitTimeSpent, trackExerciseCompletion, trackUnitCompletion } from '@/lib/analytics';
-
-const CHUNK_SIZE = 15;
+import {
+  buildSixLessonLayout,
+  getSixLessonNavState,
+  shouldShowSixLessonCompleteInterstitial,
+} from '@/lib/course/six-lesson-layout';
 
 function UnitPreviewContent() {
   const params = useParams();
@@ -49,12 +52,13 @@ function UnitPreviewContent() {
           setError(`No se encontraron ejercicios en el módulo unit-${unitNumber}`);
           setExercises([]);
         } else {
-          setExercises(unitExercises);
-          
+          const ordered = buildSixLessonLayout(unitExercises).orderedExercises;
+          setExercises(ordered);
+
           const indexParam = searchParams.get('index');
           if (indexParam) {
             const idx = parseInt(indexParam);
-            if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) {
+            if (!isNaN(idx) && idx >= 0 && idx < ordered.length) {
               setCurrentIndex(idx);
             }
           }
@@ -67,6 +71,12 @@ function UnitPreviewContent() {
     }
     loadUnit();
   }, [unitId, searchParams]);
+
+  const sixLayout = useMemo(() => buildSixLessonLayout(exercises), [exercises]);
+  const lessonNav = useMemo(() => {
+    const idx = exercises.length ? Math.min(currentIndex, exercises.length - 1) : 0;
+    return getSixLessonNavState(sixLayout, idx);
+  }, [sixLayout, currentIndex, exercises.length]);
 
   if (loading) return (
     <div className="min-h-screen flex items-center justify-center bg-slate-50">
@@ -105,10 +115,10 @@ function UnitPreviewContent() {
   );
 
   const currentExercise = exercises[currentIndex];
-  const lessonNumber = Math.floor(currentIndex / CHUNK_SIZE) + 1;
-  const totalLessons = Math.ceil(exercises.length / CHUNK_SIZE);
-  const exerciseInLesson = (currentIndex % CHUNK_SIZE) + 1;
-  const exercisesInThisLesson = Math.min(CHUNK_SIZE, exercises.length - (lessonNumber - 1) * CHUNK_SIZE);
+  const lessonNumber = lessonNav.lessonNumber;
+  const totalLessons = lessonNav.totalPedagogicalLessons;
+  const exerciseInLesson = lessonNav.exerciseInLesson;
+  const exercisesInThisLesson = lessonNav.exercisesInThisLesson;
 
   if (showUnitSummary) {
     const durationMinutes = Math.round((Date.now() - startTime) / 60000);
@@ -236,7 +246,7 @@ function UnitPreviewContent() {
             
             if (currentIndex === exercises.length - 1) {
               setShowUnitSummary(true);
-            } else if ((currentIndex + 1) % CHUNK_SIZE === 0) {
+            } else if (shouldShowSixLessonCompleteInterstitial(sixLayout, currentIndex, exercises.length)) {
               setShowLessonComplete(true);
             } else {
               setCurrentIndex(prev => prev + 1);

@@ -28,18 +28,6 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u55-g4', type: 'fill-blank', level: 'C1', topic: 'sentence-variety', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Complex Sentences for Nuance|Oraciones complejas para el matiz]]', instructions: 'Complete the complex sentence.',
-      questions: [{ question: 'Although the compatibilist position — that freedom is compatible with determinism _______ it is defined as acting from one\'s own desires without external coercion, rather than as the ability to have done otherwise — has attracted many distinguished defenders, including Hume, Kant and Frankfurt, it continues to strike some philosophers as a redefinition that saves the word "freedom" at the cost of abandoning what makes the concept philosophically significant.', options: ['[[provided that|siempre que]]', '[[despite|a pesar de]]', '[[however|sin embargo]]'], correctAnswer: 'provided that', acceptableAnswers: ['provided that', 'as long as', 'if'], explanation: '"Provided that" introduces a conditional clause specifying the exact condition under which the claim is true — here, the compatibilist definition of freedom. "Despite" requires a noun phrase. "However" is a conjunction that cannot introduce a conditional within a relative clause like this.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u55-g5', type: 'multiple-choice', level: 'C1', topic: 'sentence-variety', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Rhetorical Question + Short Answer for Effect|Pregunta retórica + respuesta corta para mayor efecto]]', instructions: 'Which passage most effectively uses a rhetorical question for emphasis?',
-      questions: [{ question: 'Which passage uses a rhetorical question most effectively in philosophical prose?', options: ['[[Does it matter whether free will exists? In one sense, profoundly. If our actions are genuinely chosen, then praise, blame, punishment and moral admiration are appropriate responses to what people do. If they are not — if the murderer could no more have refrained from killing than the stone could have refrained from falling — then our entire practice of holding people responsible for their actions is, on this view, not justice but a sophisticated form of scapegoating.|¿Importa si el libre albedrío existe? En un sentido, profundamente. Si nuestras acciones son genuinamente elegidas, entonces el elogio, la culpa, el castigo y la admiración moral son respuestas apropiadas a lo que la gente hace.]]', '[[The question of whether free will matters is one that philosophers and others have debated for a long time and the answer to this question is complex because it depends on whether free will exists and if it does then things are different than if it does not, which is why the debate is important.|La pregunta de si el libre albedrío importa es una que los filósofos y otros han debatido por mucho tiempo.]]', '[[Free will matters a lot. Does it exist? Many people wonder. Philosophers debate it. The answer affects responsibility. If there is no free will, then responsibility is different. This is important. People should think about it.|El libre albedrío importa mucho. ¿Existe? Mucha gente se pregunta.]]'], correctAnswer: 0, explanation: 'Option A uses a two-word rhetorical question ("Does it matter?") followed by an even shorter answer ("In one sense, profoundly.") — creating impact through brevity — then elaborates in two complex parallel conditionals. This structure creates rhythm, emphasis and logical progression.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u55-v1', type: 'multiple-choice', level: 'C1', topic: 'philosophy-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Determinism and Free Will Terms|Términos de determinismo y libre albedrío]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'The philosophical position that holds that freedom of the will is compatible with universal causal determinism — typically by redefining freedom as acting in accordance with one\'s own desires and reasoning without external compulsion, rather than as the ability to have acted otherwise — is known as _______.', options: ['[[compatibilism|compatibilismo]]', '[[libertarianism (philosophical)|libertarismo (filosófico)]]', '[[hard determinism|determinismo duro]]'], correctAnswer: 0, explanation: '"Compatibilism" = the view that free will and determinism are compatible; major defenders include Hume, Kant, Mill and Frankfurt. "Philosophical libertarianism" = free will exists and is incompatible with determinism (free will wins). "Hard determinism" = determinism is true and free will (understood as incompatible with determinism) does not exist.' }] },
@@ -58,18 +46,6 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u55-v4', type: 'fill-blank', level: 'C1', topic: 'philosophy-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Consciousness and Action|Conciencia y acción]]', instructions: 'Complete.',
-      questions: [{ question: 'The philosophical term for the subjective, first-person character of conscious experience — "what it is like" to see red, feel pain or make a decision — which physicalists must either explain in terms of brain processes or accept as a fundamental non-physical feature of reality, is known as _______.', options: ['[[qualia|qualia / cualias]]', '[[cognition|cognición]]', '[[volition|volición]]'], correctAnswer: 'qualia', acceptableAnswers: ['qualia'], explanation: '"Qualia" (singular: quale) = the intrinsic, subjective, phenomenal properties of conscious experience — coined in modern philosophy by C.I. Lewis and popularised by Thomas Nagel and Frank Jackson. "Cognition" = mental processes of knowing and understanding (broader term). "Volition" = the faculty of making choices or decisions.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u55-v5', type: 'multiple-choice', level: 'C1', topic: 'philosophy-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Ethics and Responsibility|Ética y responsabilidad]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'The stance that, because determinism is true and moral responsibility requires the ability to have done otherwise (which determinism rules out), moral praise and blame, punishment and reward are ultimately unjustified — and that a fully rational society would replace punitive responses to harmful behaviour with purely consequentialist interventions aimed at prevention — is associated with _______.', options: ['[[hard incompatibilism or free will scepticism|incompatibilismo duro o escepticismo sobre el libre albedrío]]', '[[moral relativism|relativismo moral]]', '[[ethical egoism|egoísmo ético]]'], correctAnswer: 0, explanation: '"Hard incompatibilism" (or "free will scepticism") = the position that free will is incompatible with determinism AND with indeterminism, so it does not exist, and therefore retributive moral responsibility is unjustified. Key defenders include Derk Pereboom and Gregg Caruso. "Moral relativism" concerns the cultural variation of moral norms. "Ethical egoism" is the view that self-interest is the basis of morality.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u55-r1', type: 'reading', level: 'C1', topic: 'philosophy-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Neuroscience of Choice|La neurociencia de la elección]]', instructions: 'Read and answer.',
       passage: 'The Libet experiments of the 1980s produced results that sent a tremor through the philosophy of mind. Benjamin Libet asked participants to flex their wrist at a moment of their own choosing whilst monitoring both their brain activity and their reported sense of when they had "decided" to move. The results were stark: a measurable electrical signal — the readiness potential — appeared in the brain up to 550 milliseconds before the participants reported becoming consciously aware of intending to move. Consciousness, it seemed, was arriving late to a party that had already started. Philosophers and scientists drew conflicting conclusions. Some took the experiments as compelling evidence that the experience of consciously deciding is a post-hoc rationalisation of processes already underway — that "we" do not initiate our actions so much as observe them. Others were more cautious, noting that the experiments measured only simple wrist movements under highly artificial laboratory conditions, and that the relationship between such micro-decisions and the complex, deliberative choices that matter morally — whether to keep a promise, whether to report a crime — is far from clear.',
@@ -84,10 +60,85 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u55-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'philosophy-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Free Will and Determinism), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u55-l1', type: 'listening', level: 'C1', topic: 'philosophy-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Philosophy Seminar on Free Will|Un seminario de filosofía sobre el libre albedrío]]', instructions: 'Read the transcript and answer.',
       passage: 'Professor: The compatibilist response to neuroscientific challenges to free will is, I think, more robust than it is often given credit for. Student A: But how can you say we are free if the brain has already initiated the action before we are consciously aware of deciding? Professor: Because freedom, on the compatibilist view, is not about the timing of neural processes — it is about the relationship between the action and the person. An action is free in the relevant sense if it flows from the agent\'s own desires, values and reasoning, even if those desires and that reasoning are themselves the products of prior causes. Student B: That seems like a redefinition that evacuates the concept of its content. If everything I want is determined, in what sense is it "mine"? Professor: That is precisely the question. And compatibilists have a response: your desires are "yours" in the sense that matters practically and morally — they are integrated into your character, responsive to reasons, and they constitute who you are. The stone has no desires that can be frustrated; the person does. That difference is real, even in a deterministic universe. Student A: So freedom is a matter of degree, not kind? Professor: On most compatibilist accounts, yes. And that, compatibilists argue, is how it should be — it accords with our intuitions about children, people under coercion and people acting from addiction versus people acting from reflective, reason-responsive agency.',
       questions: [{ question: 'How does the professor respond to Student B\'s challenge that determined desires cannot genuinely be "mine"?', options: ['[[The professor argues that desires are "yours" in the practically and morally relevant sense because they are integrated into your character, responsive to reasons and constitutive of who you are — a real difference between persons and stones that persists even in a deterministic universe.|El profesor argumenta que los deseos son "tuyos" en el sentido práctica y moralmente relevante porque están integrados en tu carácter, son sensibles a las razones y son constitutivos de quien eres, una diferencia real entre personas y piedras que persiste incluso en un universo determinista.]]', '[[The professor concedes that Student B has identified a genuine weakness in compatibilism and proposes a revised account in which freedom requires not only reason-responsiveness but also the ability to have formed different desires under different developmental conditions.|El profesor concede que el estudiante B ha identificado una debilidad genuina en el compatibilismo y propone una cuenta revisada.]]', '[[The professor dismisses the challenge as based on a misunderstanding of what "mine" means in ordinary language and argues that ordinary intuitions about ownership of desires are a reliable guide to the philosophically correct account of freedom.|El profesor descarta el desafío como basado en un malentendido de lo que "mío" significa en el lenguaje ordinario.]]'], correctAnswer: 0, explanation: 'The professor responds: "your desires are \'yours\' in the sense that matters practically and morally — they are integrated into your character, responsive to reasons, and they constitute who you are. The stone has no desires that can be frustrated; the person does. That difference is real, even in a deterministic universe."' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u55-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'philosophy-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u55-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'philosophy-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u55-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'philosophy-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u55-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'philosophy-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u55-s1', type: 'speaking', level: 'C1', topic: 'philosophy-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Discussing Free Will|Hablar sobre el libre albedrío]]', instructions: 'Which response demonstrates the best C1 oral philosophical discussion?',
       questions: [{ question: 'Question: "Do you think people should be held morally responsible for their actions?"', options: ['[[My instinct is yes — and I think it is worth pausing on that word "instinct", because the compatibilist case is actually grounded in exactly that: the reactive attitudes of resentment, indignation and moral admiration that are so deeply embedded in human social life that imagining their wholesale revision is, as Strawson argued, not just practically difficult but conceptually incoherent. The question is not whether to hold people responsible, but how — and whether our practices of doing so, particularly in criminal justice, adequately track the considerations of capacity, understanding and compulsion that determine whether a given instance of responsibility attribution is genuinely appropriate.|Mi instinto es que sí, y creo que vale la pena detenerse en esa palabra "instinto", porque el argumento compatibilista se basa en exactamente eso: las actitudes reactivas de resentimiento, indignación y admiración moral que están tan profundamente arraigadas en la vida social humana que imaginar su revisión total es conceptualmente incoherente.]]', '[[Yes, I think people should be held responsible. It is important for society. If people were not responsible, there would be chaos. Laws depend on responsibility. The free will debate is complex but practically we must hold people responsible.|Sí, creo que las personas deben ser consideradas responsables. Es importante para la sociedad.]]', '[[People should be responsible for actions because this is what society is based on. Without responsibility there is no justice. Free will may or may not exist but we need responsibility anyway for practical purposes.|Las personas deben ser responsables de sus acciones porque esto es en lo que se basa la sociedad.]]'], correctAnswer: 0, explanation: 'Option A uses varied sentence length (short opening + long analytical development), references a specific philosopher (Strawson), distinguishes "whether" from "how" and introduces substantive nuance about the conditions of appropriate responsibility attribution — all markers of C1 oral philosophical discussion.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u55-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'philosophy-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u55-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'philosophy-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

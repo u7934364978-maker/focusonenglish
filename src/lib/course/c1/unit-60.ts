@@ -28,18 +28,6 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u60-g4', type: 'fill-blank', level: 'C1', topic: 'exam-strategy', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[TOEFL Integrated Writing — Attribution|TOEFL Redacción integrada — Atribución]]', instructions: 'Complete with the most appropriate reporting structure for TOEFL integrated writing.',
-      questions: [{ question: 'TOEFL Integrated Writing task: when summarising a lecture that contradicts a reading passage, which structure is most appropriate? "The lecturer _______ that the reading passage\'s claim about carbon capture technology is premature, pointing out that current systems require significantly more energy than the reading acknowledges."', options: ['[[argues / contends / maintains|argumenta / sostiene / mantiene]]', '[[says / tells / speaks|dice / dice / habla]]', '[[thinks / guesses / supposes|piensa / adivina / supone]]'], correctAnswer: 'argues / contends / maintains', acceptableAnswers: ['argues', 'contends', 'maintains', 'asserts', 'disputes'], explanation: '"Argues/contends/maintains" = formal academic reporting verbs used in TOEFL integrated writing to attribute claims to sources. "Says" and "tells" are too informal for academic writing. "Thinks/guesses/supposes" are inappropriate for reporting lecture claims, which are presented as argued positions, not casual speculation.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u60-g5', type: 'multiple-choice', level: 'C1', topic: 'exam-strategy', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[CAE Reading — Understanding Implication|CAE Lectura — Comprender la implicación]]', instructions: 'Choose the answer that correctly identifies what is implied in the passage.',
-      questions: [{ question: 'Text: "The authors\' findings, whilst not without methodological limitations that the authors themselves acknowledge, provide the most compelling case to date for the position that early childhood language exposure has lasting neurological consequences — a position that, notwithstanding its intuitive appeal, had struggled to find robust empirical support until the publication of this study." What does the text IMPLY?', options: ['[[That before this study, the claim that early language exposure has lasting neurological consequences lacked strong empirical support, despite being intuitively plausible — and that this study, though imperfect, has now provided the best evidence yet for that claim.|Que antes de este estudio, la afirmación de que la exposición temprana al lenguaje tiene consecuencias neurológicas duraderas carecía de un sólido respaldo empírico, a pesar de ser intuitivamente plausible, y que este estudio ha proporcionado la mejor evidencia hasta ahora.]]', '[[That the study is methodologically flawed in ways that make its findings unreliable, and that the authors should not have published results that they themselves acknowledged were limited.|Que el estudio tiene fallas metodológicas que hacen que sus hallazgos sean poco confiables, y que los autores no deberían haber publicado resultados que ellos mismos reconocieron como limitados.]]', '[[That the position on early language exposure has always had strong empirical support from multiple studies, and that this new study merely adds to an already extensive body of robust evidence confirming what was well established.|Que la posición sobre la exposición temprana al lenguaje siempre ha tenido un fuerte respaldo empírico de múltiples estudios, y que este nuevo estudio simplemente se suma a un extenso cuerpo de evidencia robusta.]]'], correctAnswer: 0, explanation: '"Had struggled to find robust empirical support" = implies that prior evidence was weak/absent. "Most compelling case to date" = implies this is the best evidence so far (implying previous evidence was less compelling). "Notwithstanding its intuitive appeal" = the idea was plausible but not well-supported. CAE Reading tests understanding of implication and attitude.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u60-v1', type: 'multiple-choice', level: 'C1', topic: 'exam-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[CAE Word Formation|CAE Formación de palabras]]', instructions: 'Choose the correct word form for each context.',
       questions: [{ question: 'CAE Word Formation: Which option correctly fills all three gaps? "The _____ (GOVERN) of digital platforms requires _____ (REGULATE) frameworks that are capable of keeping pace with technological _____ (INNOVATE)."', options: ['[[governance / regulatory / innovation|gobernanza / regulatorio / innovación]]', '[[governing / regulation / innovative|gobernanza / regulación / innovador]]', '[[governmental / regulatable / innovativeness|gubernamental / regulable / innovatividad]]'], correctAnswer: 0, explanation: '"Governance" (noun from GOVERN — not "governing" which is participial, or "governmental" which is adjective). "Regulatory" (adjective modifying "frameworks" — not "regulation" which is a noun). "Innovation" (noun as object of "pace with" — not "innovative" which is adjective). CAE Word Formation tests knowledge of suffixes, prefixes and word family patterns.' }] },
@@ -58,18 +46,6 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u60-v4', type: 'fill-blank', level: 'C1', topic: 'exam-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[TOEFL Reading — Vocabulary in Context|TOEFL Lectura — Vocabulario en contexto]]', instructions: 'Complete with the correct meaning.',
-      questions: [{ question: 'TOEFL Reading Vocabulary Question: Text: "The archaeological evidence suggests that the site was abandoned precipitously, with personal belongings and food stores left in situ, indicating that the inhabitants departed in circumstances that allowed them little time to prepare." In this context, "precipitously" most nearly means _______.', options: ['[[hastily or abruptly|apresuradamente o abruptamente]]', '[[steeply or at a sharp angle|abruptamente o en un ángulo pronunciado]]', '[[carefully or systematically|cuidadosamente o sistemáticamente]]'], correctAnswer: 'hastily or abruptly', acceptableAnswers: ['hastily or abruptly', 'hastily', 'abruptly', 'suddenly'], explanation: '"Precipitously" has two meanings: (1) steeply/abruptly in a physical sense and (2) hastily/rashly in the sense of acting too quickly. In this context, the clue is "personal belongings left behind" and "little time to prepare" — indicating the departure was sudden and hasty. TOEFL tests the ability to infer word meaning from context.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u60-v5', type: 'multiple-choice', level: 'C1', topic: 'exam-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Academic Paraphrase Skills|Habilidades de paráfrasis académica]]', instructions: 'Choose the best paraphrase for the IELTS/TOEFL context.',
-      questions: [{ question: 'Original sentence: "The assumption that economic growth and environmental sustainability are necessarily in conflict has been increasingly challenged by research demonstrating that investments in renewable energy and resource efficiency can, under the right conditions, generate economic benefits while reducing environmental impact." Which is the best IELTS-style paraphrase for an essay introduction?', options: ['[[Recent research has called into question the long-held belief that economic development and ecological preservation are inherently incompatible, suggesting instead that, in favourable circumstances, green investment can simultaneously yield financial returns and reduce environmental damage.|La investigación reciente ha cuestionado la creencia de larga data de que el desarrollo económico y la preservación ecológica son inherentemente incompatibles, sugiriendo en cambio que, en circunstancias favorables, la inversión verde puede simultáneamente generar rendimientos financieros y reducir el daño ambiental.]]', '[[Many people used to think that growing the economy and protecting the environment could not happen at the same time, but now scientists have shown that if you invest in green things like renewable energy you can make money and also help the environment.|Mucha gente solía pensar que hacer crecer la economía y proteger el medio ambiente no podían suceder al mismo tiempo, pero ahora los científicos han demostrado que si inviertes en cosas verdes puedes ganar dinero y también ayudar al medio ambiente.]]', '[[The assumption that economic growth and environmental sustainability are in conflict has been challenged by research demonstrating that investments in renewable energy and resource efficiency can generate economic benefits while reducing environmental impact if the conditions are right.|Se ha desafiado la suposición de que el crecimiento económico y la sostenibilidad ambiental están en conflicto mediante investigaciones que demuestran que las inversiones en energía renovable y eficiencia de recursos pueden generar beneficios económicos mientras reducen el impacto ambiental.]]'], correctAnswer: 0, explanation: 'Option A is a true paraphrase: it changes the vocabulary ("called into question" for "challenged", "long-held belief" for "assumption", "ecological preservation" for "environmental sustainability", "inherently incompatible" for "necessarily in conflict", "yield financial returns" for "generate economic benefits"). Option C barely changes the original — not a genuine paraphrase.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u60-r1', type: 'reading', level: 'C1', topic: 'exam-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[CAE Reading and Use of English — Part 6 (Cross-text Multiple Matching)|CAE Lectura y uso del inglés — Parte 6 (Correspondencia múltiple entre textos)]]', instructions: 'Read both extracts and answer.',
       passage: 'Extract A (Reviewer 1): "The book\'s central argument — that philosophical ethics is best understood as an empirical rather than an a priori discipline, one that treats moral intuitions as data points to be explained and refined rather than as sources of infallible normative truth — is compellingly made and admirably clear. Where the argument risks overstating its case is in its treatment of moral intuitions that conflict with each other: the author\'s procedure for adjudicating between competing intuitions is, it must be said, less clearly articulated than the overall framework would seem to require." Extract B (Reviewer 2): "What is most impressive about this approach is its methodological rigour and the author\'s willingness to follow the argument wherever it leads, even when the conclusions are counterintuitive. The charge that the framework fails to provide a satisfying procedure for resolving conflicting intuitions is a familiar one in this area and is, in my view, somewhat overstated: the author provides more guidance than critics acknowledge, and the difficulty of adjudicating between intuitions is, in any case, not a problem unique to this approach."',
@@ -84,10 +60,85 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u60-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'exam-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Exam Preparation: CAE, IELTS and TOEFL), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u60-l1', type: 'listening', level: 'C1', topic: 'exam-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[CAE Listening — Multiple Choice|CAE Comprensión auditiva — Selección múltiple]]', instructions: 'Read the transcript and answer as in a CAE multiple-choice listening task.',
       passage: 'Interviewer: Your new research challenges some long-held assumptions about bilingualism and cognitive advantage. Can you summarise your findings? Researcher: Yes — and I want to be careful about how I phrase this, because the field has been somewhat polarised. The strong version of the "bilingual advantage" hypothesis — the claim that speaking two languages regularly produces measurable cognitive benefits in areas like executive function and delayed dementia — has attracted enormous media attention. What our meta-analysis found, however, is that when you control for publication bias — the tendency for journals to publish positive results and file away negative ones — the effect sizes claimed in the original studies shrink considerably, and in some cases disappear entirely. This does not mean there is no bilingual advantage; it means we have much weaker evidence for a strong version of the claim than the popular literature suggests. Interviewer: So you are not saying bilingualism has no cognitive effects? Researcher: Absolutely not. What I am saying is that the evidence base currently available supports a much more modest claim: that the cognitive profile of bilinguals differs from that of monolinguals in ways that are real but smaller and more context-dependent than the popular narrative implies — and that we need more methodologically rigorous research before drawing firm conclusions.',
       questions: [{ question: 'What does the researcher say their meta-analysis found?', options: ['[[That when controlling for publication bias, the effect sizes claimed in original bilingual advantage studies shrink considerably and in some cases disappear — meaning the evidence supports only a more modest claim about cognitive differences, not the strong version of the hypothesis that attracted media attention.|Que al controlar el sesgo de publicación, los tamaños de efecto reclamados en los estudios originales de ventaja bilingüe se reducen considerablemente y en algunos casos desaparecen, lo que significa que la evidencia solo apoya una afirmación más modesta sobre las diferencias cognitivas.]]', '[[The meta-analysis confirmed the strong bilingual advantage hypothesis, showing that bilinguals have significantly better executive function and substantially delayed dementia onset compared to monolinguals across all demographic groups studied.|El metaanálisis confirmó la hipótesis de la fuerte ventaja bilingüe, mostrando que los bilingües tienen una función ejecutiva significativamente mejor y un inicio de demencia sustancialmente retrasado.]]', '[[The meta-analysis showed that the bilingual advantage is entirely non-existent — a statistical artefact produced by publication bias — and that there are no meaningful cognitive differences between bilinguals and monolinguals at any level of analysis.|El metaanálisis mostró que la ventaja bilingüe es completamente inexistente, un artefacto estadístico producido por el sesgo de publicación.]]'], correctAnswer: 0, explanation: 'The researcher says: "when you control for publication bias...the effect sizes claimed in the original studies shrink considerably, and in some cases disappear entirely" — but explicitly clarifies "this does not mean there is no bilingual advantage; it means we have much weaker evidence for a strong version of the claim." CAE listening tests precise understanding of hedged academic claims.' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u60-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'exam-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u60-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'exam-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u60-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'exam-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u60-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'exam-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u60-s1', type: 'speaking', level: 'C1', topic: 'exam-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[CAE / IELTS Speaking — Long Turn and Discussion|CAE / IELTS Expresión oral — Turno largo y discusión]]', instructions: 'Which response demonstrates the best C1 exam speaking performance?',
       questions: [{ question: 'IELTS Speaking Part 3: "How has the way people access information changed in recent decades, and what are the implications of these changes for society?"', options: ['[[The transformation has been, in several respects, unprecedented in its speed and scope: whereas thirty years ago access to information was constrained by physical proximity to libraries, educational institutions and broadcast media, the internet has made vast quantities of information available to anyone with a connected device — which in practical terms now includes the majority of the world\'s population. The implications are genuinely double-edged: on the positive side, this democratisation of access has empowered individuals, enabled new forms of political participation and accelerated scientific collaboration; on the negative side, the same infrastructure that distributes knowledge also distributes misinformation, and the attention-economy dynamics of major platforms tend to privilege emotionally engaging content over accurate information. Whether the net effect is positive or negative is, I would argue, not yet clear — it depends on governance choices we have not yet made.|La transformación ha sido, en varios aspectos, sin precedentes en su velocidad y alcance: mientras que hace treinta años el acceso a la información estaba limitado por la proximidad física a bibliotecas e instituciones educativas, internet ha puesto vastas cantidades de información a disposición de cualquier persona con un dispositivo conectado. Las implicaciones son genuinamente ambivalentes: por un lado, esta democratización ha empoderado a los individuos; por otro lado, la misma infraestructura distribuye desinformación.]]', '[[Information access has changed a lot. Before the internet, people used libraries. Now everyone uses the internet. This is good because more people can learn. But it is also bad because there is a lot of false information. Overall I think it is more positive than negative because knowledge is important.|El acceso a la información ha cambiado mucho. Antes del internet, la gente usaba bibliotecas. Ahora todo el mundo usa el internet.]]', '[[The way people access information is very different now. The internet has changed everything. People can find information quickly. There are good things and bad things about this change. It is complicated. I think governments need to do something about misinformation.|La forma en que las personas acceden a la información es muy diferente ahora. El internet ha cambiado todo.]]'], correctAnswer: 0, explanation: 'Option A achieves IELTS/CAE Band 7-8 speaking standards: extended response with genuine elaboration, complex vocabulary ("democratisation", "attention-economy dynamics", "double-edged"), hedging ("I would argue", "not yet clear"), analytical structure (positive/negative framing), and a sophisticated concluding move that connects empirical changes to governance choices.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u60-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'exam-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u60-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'exam-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

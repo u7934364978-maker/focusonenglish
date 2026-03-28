@@ -45,6 +45,7 @@ export function AudioPlayer({ audioUrl, ttsText, transcript, className = '', uni
         const res = await fetch('/api/tts', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
+          credentials: 'same-origin',
           body: JSON.stringify({ text: ttsText }),
         });
         if (!res.ok) throw new Error('TTS failed');

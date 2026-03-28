@@ -1,23 +1,16 @@
 'use client';
 
 import { useParams, useSearchParams } from 'next/navigation';
-import { useEffect, useState, Suspense } from 'react';
+import { useEffect, useMemo, useState, Suspense } from 'react';
 import ExerciseRenderer from '@/components/ExerciseRenderer';
 import { ArrowLeft, ArrowRight, Home, CheckCircle, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 import { trackUnitTimeSpent, trackExerciseCompletion, trackUnitCompletion } from '@/lib/analytics';
-
-const CHUNK_SIZE = 18; // keep consistent with B2 unit lessons
-
-function lessonSkillFromType(t: string) {
-  const type = (t || '').toLowerCase();
-  if (type.includes('speaking') || type === 'pronunciation') return 'speaking';
-  if (type.includes('listening')) return 'listening';
-  if (type.includes('reading')) return 'reading';
-  if (type.includes('writing')) return 'writing';
-  if (type.includes('vocab')) return 'vocabulary';
-  return 'grammar';
-}
+import {
+  buildSixLessonLayout,
+  getSixLessonSlotAtGlobalIndex,
+  SIX_LESSON_KEYS,
+} from '@/lib/course/six-lesson-layout';
 
 function B2TestFinalContent() {
   const params = useParams();
@@ -56,11 +49,11 @@ function B2TestFinalContent() {
       return;
     }
     const counts: Record<string, number> = {};
+    const layout = buildSixLessonLayout(exercises);
     for (let i = 0; i < exercises.length; i++) {
-      const ex = exercises[i];
-      const lessonNumber = Math.floor(i / CHUNK_SIZE) + 1;
-      const skill = lessonSkillFromType((ex?.type as string) ?? 'unknown');
-      const key = `lesson-${lessonNumber}-${skill}`;
+      const slot = getSixLessonSlotAtGlobalIndex(layout, i);
+      const skill = SIX_LESSON_KEYS[slot];
+      const key = `lesson-${slot + 1}-${skill}`;
       counts[key] = (counts[key] ?? 0) + 1;
     }
     setLessonKeyCounts(counts);
@@ -77,11 +70,12 @@ function B2TestFinalContent() {
           setError('No se encontraron ejercicios del test final');
           setExercises([]);
         } else {
-          setExercises(unitExercises);
+          const ordered = buildSixLessonLayout(unitExercises).orderedExercises;
+          setExercises(ordered);
           const indexParam = searchParams.get('index');
           if (indexParam) {
             const idx = parseInt(indexParam);
-            if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
+            if (!isNaN(idx) && idx >= 0 && idx < ordered.length) setCurrentIndex(idx);
           }
         }
       } catch (err: any) {
@@ -92,6 +86,8 @@ function B2TestFinalContent() {
     }
     loadTest();
   }, [searchParams]);
+
+  const sixLayout = useMemo(() => buildSixLessonLayout(exercises), [exercises]);
 
   if (loading) return (
     <div className="min-h-screen flex items-center justify-center bg-slate-50">
@@ -221,9 +217,9 @@ function B2TestFinalContent() {
             try {
               const ex = exercises[currentIndex];
               if (ex) {
-                const lessonNumber = Math.floor(currentIndex / CHUNK_SIZE) + 1;
-                const lessonSkill = lessonSkillFromType((ex?.type as string) ?? 'unknown');
-                const lessonKey = `lesson-${lessonNumber}-${lessonSkill}`;
+                const slot = getSixLessonSlotAtGlobalIndex(sixLayout, currentIndex);
+                const lessonSkill = SIX_LESSON_KEYS[slot];
+                const lessonKey = `lesson-${slot + 1}-${lessonSkill}`;
                 const expectedExercisesTotal = lessonKeyCounts[lessonKey] ?? 0;
 
                 fetch('/api/progress/record', {

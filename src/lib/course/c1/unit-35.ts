@@ -28,18 +28,6 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     topicName: 'Grammar',
   },
   {
-    id: 'c1-u35-g4', type: 'fill-blank', level: 'C1', topic: 'advanced-modals', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Be supposed to|Se supone que]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'The new expense approval system _______ streamline the claims process, but staff report that it has added three additional steps to the procedure and increased processing time by forty per cent.', options: ['[[was supposed to|se supone que debería]]', '[[is bound to|está destinado a]]', '[[had to|tuvo que]]'], correctAnswer: 'was supposed to', acceptableAnswers: ['was supposed to'], explanation: '"Was/were supposed to" = was expected or intended to (but the implication is that it did not happen as planned). The contrast "but staff report…" confirms the expectation was not met.' }] },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'c1-u35-g5', type: 'multiple-choice', level: 'C1', topic: 'advanced-modals', difficulty: 'hard',
-    content: { title: '[[Grammar|Gramática]]: [[Be bound to|Estar destinado a / Es seguro que]]', instructions: 'Choose the sentence with correct modal usage.',
-      questions: [{ question: 'Which sentence uses advanced modals correctly in discussing corporate ethics?', options: ['[[Organisations that persistently prioritise short-term shareholder returns over staff welfare and environmental responsibility are bound to encounter serious reputational damage, which is likely to undermine their long-term commercial viability.|Las organizaciones que priorizan persistentemente los rendimientos a corto plazo para los accionistas sobre el bienestar del personal y la responsabilidad ambiental están destinadas a sufrir graves daños reputacionales, lo que probablemente socavará su viabilidad comercial a largo plazo.]]', '[[Organisations that are always prioritising short-term shareholder returns over staff welfare are bound encountering serious reputational damage, which would likely undermine their long-term viability.|Las organizaciones que siempre priorizan los rendimientos a corto plazo sobre el bienestar del personal están destinadas a encontrarse con graves daños reputacionales.]]', '[[Organisations which prioritise short-term returns over staff welfare will bound to encounter serious reputational damage and they are supposed to know this already.|Las organizaciones que priorizan los rendimientos a corto plazo sobre el bienestar del personal estarán destinadas a sufrir graves daños reputacionales.]]'], correctAnswer: 0, explanation: '"Be bound to + infinitive" = certainty about a future outcome based on current circumstances. It is stronger than "likely to" and implies logical inevitability.' }] },
-    topicName: 'Grammar',
-  },
-  {
     id: 'c1-u35-v1', type: 'multiple-choice', level: 'C1', topic: 'ethics-vocabulary', difficulty: 'hard',
     content: { title: '[[Vocabulary|Vocabulario]]: [[Corporate Social Responsibility|Responsabilidad social corporativa]]', instructions: 'Choose the correct term.',
       questions: [{ question: 'The practice of exaggerating or falsely claiming environmental credentials in marketing materials — without implementing substantive changes to business practices — is known as _______.', options: ['[[greenwashing|lavado verde / greenwashing]]', '[[outsourcing|externalización]]', '[[benchmarking|benchmarking / referenciación]]'], correctAnswer: 0, explanation: '"Greenwashing" = deceptive marketing that overstates environmental credentials. "Outsourcing" = contracting work externally. "Benchmarking" = measuring performance against industry standards.' }] },
@@ -58,18 +46,6 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'c1-u35-v4', type: 'fill-blank', level: 'C1', topic: 'ethics-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Sustainability|Sostenibilidad]]', instructions: 'Complete the sentence.',
-      questions: [{ question: 'Under EU legislation, large companies are now required to produce annual _______ reports detailing their environmental impact, social policies and governance structures, enabling investors and regulators to assess non-financial performance.', options: ['[[ESG|ESG (ambiental, social y de gobernanza)]]', '[[P&L|pérdidas y ganancias]]', '[[KPI|KPI (indicadores clave de rendimiento)]]'], correctAnswer: 'ESG', acceptableAnswers: ['ESG', 'sustainability'], explanation: '"ESG" = Environmental, Social and Governance — the standard framework for non-financial corporate reporting. "P&L" = profit and loss. "KPI" = key performance indicator.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
-    id: 'c1-u35-v5', type: 'multiple-choice', level: 'C1', topic: 'ethics-vocabulary', difficulty: 'hard',
-    content: { title: '[[Vocabulary|Vocabulario]]: [[Labour Rights|Derechos laborales]]', instructions: 'Choose the correct term.',
-      questions: [{ question: 'The legal principle that workers cannot be dismissed without a valid, demonstrable reason — and that they are entitled to due process before termination — is referred to as _______ employment protection.', options: ['[[unfair dismissal|despido improcedente]]', '[[redundancy|reducción de plantilla / despido por causas económicas]]', '[[constructive dismissal|despido indirecto]]'], correctAnswer: 0, explanation: '"Unfair dismissal" = termination without valid reason or due process. "Redundancy" = job elimination due to organisational need, not performance. "Constructive dismissal" = forced resignation due to employer conduct.' }] },
-    topicName: 'Vocabulary',
-  },
-  {
     id: 'c1-u35-r1', type: 'reading', level: 'C1', topic: 'ethics-reading', difficulty: 'hard',
     content: { title: '[[Reading|Lectura]]: [[The Living Wage Debate|El debate sobre el salario digno]]', instructions: 'Read and answer.',
       passage: 'The distinction between the legal minimum wage and a living wage is not merely semantic. The minimum wage represents the lowest amount an employer is legally permitted to pay; a living wage, by contrast, is calculated on the basis of what employees actually need to meet essential living costs in a given location, including housing, food, transport and childcare. Critics of mandatory living wages argue that small businesses are bound to face unsustainable cost increases if forced to pay above the statutory minimum. Proponents counter that businesses paying poverty wages were never supposed to externalise their labour costs to the state through in-work benefits, and that higher wages would reduce staff turnover — a significant hidden cost that organisations have systematically underestimated.',
@@ -84,10 +60,85 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     topicName: 'Reading',
   },
   {
+    id: 'c1-u35-r3',
+    type: 'reading-comprehension',
+    level: 'C1',
+    topic: 'ethics-reading',
+    difficulty: 'hard',
+    content: {
+      title: '[[Reading|Lectura]]: [[Follow-up|Seguimiento]]',
+      instructions: 'Read and answer.',
+      questions: [
+        {
+          question:
+            'Text: "Returning to the core theme of this unit (Work Ethics and Corporate Responsibility), learners benefit from comparing how different authors frame the same underlying issue."\n\nThe text recommends:',
+          options: [
+            '[[comparing how different authors frame the issue|comparar cómo distintos autores enmarcan el tema]]',
+            '[[reading only one author|leer solo un autor]]',
+            '[[ignoring framing|ignorar el encuadre]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The passage explicitly recommends comparing authors\' framing.',
+        },
+      ],
+    },
+    topicName: 'Reading',
+  },
+  {
     id: 'c1-u35-l1', type: 'listening', level: 'C1', topic: 'ethics-listening', difficulty: 'hard',
     content: { title: '[[Listening|Comprensión auditiva]]: [[A Workplace Ethics Seminar|Un seminario de ética laboral]]', instructions: 'Read the transcript and answer.',
       passage: 'Facilitator: Today we are going to consider a scenario involving a conflict of interest. You had better think carefully before responding, because these situations are rarely as clear-cut as they appear. Suppose you discover that your line manager has been awarding contracts to a supplier owned by a family member, without disclosing this relationship to the board. You are supposed to report potential conflicts of interest under the company\'s ethics policy, but you would rather not damage your relationship with your manager. What do you do? | Participant: This is exactly the kind of situation where needn\'t have kept silent is not an option later. You are bound to find out eventually, and if you knew and said nothing, your own position becomes compromised.',
       questions: [{ question: 'What does the participant argue about staying silent in this ethical dilemma?', options: ['[[The participant argues that staying silent is not a viable option because the misconduct will likely be discovered, and prior knowledge without reporting would compromise the employee\'s own position.|El participante argumenta que guardar silencio no es una opción viable porque es probable que la mala conducta sea descubierta, y el conocimiento previo sin denuncia comprometería la propia posición del empleado.]]', '[[The participant argues that personal loyalty to a manager should always take precedence over reporting obligations because workplace relationships are difficult to repair once trust is broken.|El participante argumenta que la lealtad personal a un gerente debe tener siempre prioridad sobre las obligaciones de denuncia porque las relaciones laborales son difíciles de reparar una vez que se rompe la confianza.]]', '[[The participant argues that the ethics policy is unenforceable and that reporting misconduct never leads to meaningful consequences for the individuals involved.|El participante argumenta que la política de ética es inaplicable y que denunciar la mala conducta nunca produce consecuencias significativas.]]'], correctAnswer: 0, explanation: 'The participant says silence is not viable because the misconduct is "bound to" be discovered, and prior knowledge without reporting would compromise the employee\'s own position.' }] },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u35-l2',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'ethics-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 2|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
+    topicName: 'Listening',
+  },
+  {
+    id: 'c1-u35-l3',
+    type: 'listening-comprehension',
+    level: 'C1',
+    topic: 'ethics-listening',
+    difficulty: 'hard',
+    content: {
+      title: '[[Listening|Comprensión auditiva]]: [[Follow-up 3|Complemento]]',
+      instructions: 'Listen and choose.',
+      questions: [
+        {
+          question:
+            'Speaker: "What matters in this unit is not memorising lists but noticing how language patterns recur in authentic use."\n\nThe speaker emphasises:',
+          options: [
+            '[[noticing patterns in real use|fijarse en patrones en uso real]]',
+            '[[memorising long lists|memorizar listas]]',
+            '[[avoiding authentic input|evitar input auténtico]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'The speaker contrasts lists with noticing patterns in authentic language.',
+        },
+      ],
+    },
     topicName: 'Listening',
   },
   {
@@ -97,9 +148,105 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     topicName: 'Writing',
   },
   {
+    id: 'c1-u35-w2',
+    type: 'writing',
+    level: 'C1',
+    topic: 'ethics-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
+    id: 'c1-u35-w3',
+    type: 'writing',
+    level: 'C1',
+    topic: 'ethics-writing',
+    difficulty: 'hard',
+    content: {
+      title: '[[Writing|Escritura]]: [[Cohesion and register|Cohesión y registro]]',
+      instructions: 'Choose the sentence that best models C1 academic register.',
+      questions: [
+        {
+          question: 'Which sentence is most appropriate in a formal paragraph on this unit\'s theme?',
+          options: [
+            '[[It is worth noting that the evidence does not permit a single simplistic conclusion; rather, it points to an interplay of factors that merit separate discussion.|matiz y formalidad]]',
+            '[[The theme is interesting and has many sides.|demasiado simple]]',
+            '[[I think this unit is about stuff.|informal]]',
+          ],
+          correctAnswer: 0,
+          explanation: 'Hedging and formal vocabulary suit C1 writing.',
+        },
+      ],
+    },
+    topicName: 'Writing',
+  },
+  {
     id: 'c1-u35-s1', type: 'speaking', level: 'C1', topic: 'ethics-speaking', difficulty: 'hard',
     content: { title: '[[Speaking|Expresión oral]]: [[Discussing Corporate Responsibility|Hablar sobre responsabilidad corporativa]]', instructions: 'Which response demonstrates C1 spoken fluency on corporate ethics?',
       questions: [{ question: 'Question: "Should companies be legally required to meet ethical standards, or should it be voluntary?"', options: ['[[I would argue that voluntary frameworks, while useful, are bound to fall short in the absence of binding obligations. Companies would rather retain discretion over how and when they meet ethical standards; however, voluntary systems create an uneven playing field where responsible businesses face competitive disadvantage relative to those that choose not to comply. Had better-designed mandatory frameworks existed earlier, many of the scandals we have seen in financial services and supply chain management might have been avoided.|Argumentaría que los marcos voluntarios, aunque útiles, están destinados a quedarse cortos en ausencia de obligaciones vinculantes. Las empresas preferirían retener la discreción sobre cómo y cuándo cumplen con los estándares éticos; sin embargo, los sistemas voluntarios crean un campo de juego desigual.]]', '[[I think companies should be required to be ethical by law because many companies are not ethical if they do not have to be. Voluntary systems do not work well because companies always put profit first. We need strict laws to force them to behave better.|Creo que las empresas deberían estar obligadas a ser éticas por ley porque muchas empresas no son éticas si no tienen que serlo.]]', '[[It is complicated because some companies are ethical and some are not. Laws might help but they can also create a lot of bureaucracy. I think education is also very important so that managers understand why ethics matter.|Es complicado porque algunas empresas son éticas y otras no. Las leyes pueden ayudar pero también pueden crear mucha burocracia.]]'], correctAnswer: 0, explanation: 'Option A uses "are bound to", "would rather" and "had better" accurately in a nuanced C1 argument about corporate regulation vs. voluntary compliance.' }] },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u35-s2',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'ethics-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'c1-u35-s3',
+    type: 'multiple-choice',
+    level: 'C1',
+    topic: 'ethics-speaking',
+    difficulty: 'hard',
+    content: {
+      title: '[[Speaking|Expresión oral]]: [[Discussion|Discusión]]',
+      instructions: 'Choose the most natural C1 spoken response.',
+      questions: [
+        {
+          question: 'In a discussion, how might you add balance after stating one view?',
+          options: [
+            '[[That said, an alternative reading of the evidence would be that alternative explanations cannot be ruled out without further data.|*That said* + contrapeso formal]]',
+            '[[But I am right.|demasiado directo]]',
+            '[[Whatever.|vago]]',
+          ],
+          correctAnswer: 0,
+          explanation: '*That said* introduces a counterbalance politely at C1.',
+        },
+      ],
+    },
     topicName: 'Speaking',
   },
 ];

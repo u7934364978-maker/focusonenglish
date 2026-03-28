@@ -39,6 +39,12 @@ async function C1PreviewContent() {
               Domina el inglés avanzado con las {courseMetadata.totalUnits} unidades del nivel C1.
               Preparación para Cambridge C1 Advanced (CAE) y IELTS 7.0+.
             </p>
+            <p className="text-sm text-slate-500 max-w-2xl mx-auto mt-4 leading-relaxed">
+              El curso está organizado en tres capas: bloques temáticos (unidades 1–58), cierre con
+              consolidación gramatical y simulacro de examen (59–60), y el Language Lab (61–72) para
+              sistemas lingüísticos avanzados. En la vista <span className="font-semibold text-slate-600">Por módulos</span>{' '}
+              verás cada capítulo con su nombre real, no agrupaciones genéricas.
+            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
