@@ -1,6 +1,6 @@
-
 import * as fs from 'fs';
 import * as path from 'path';
+import { runCourseExerciseZodValidation } from './zod-runner.mjs';
 
 // This script audits the C2 course units for structural integrity.
 // It checks for duplicate IDs, missing fields, and incorrect answer mappings.
@@ -88,9 +88,16 @@ unitFiles.forEach(file => {
 });
 
 if (errors.length > 0) {
-  console.log("Validation Errors Found:");
-  errors.forEach(e => console.log(`- ${e}`));
+  console.log('Validation Errors Found:');
+  errors.forEach((e) => console.log(`- ${e}`));
   process.exit(1);
-} else {
-  console.log("No structural errors found in C2 units.");
+}
+
+console.log('No structural errors found in C2 units.');
+
+console.log('\n--- Zod: envelope courseExerciseSchema (src/lib/validation) ---\n');
+const zodExit = runCourseExerciseZodValidation();
+if (zodExit !== 0) {
+  console.log('\n❌ Falló la validación Zod del envelope de ejercicios');
+  process.exit(1);
 }

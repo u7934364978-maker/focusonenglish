@@ -1,3 +1,8 @@
+/**
+ * JSON bajo src/content/cursos — validado con CourseEngine (InteractionSchema).
+ * Para ejercicios tipo ExerciseRenderer + envelope id/type/level/topic/topicName/content,
+ * usar: npm run validate-course-exercises-zod
+ */
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';

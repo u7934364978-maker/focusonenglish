@@ -6,7 +6,7 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = 'Comprensión auditiva';
-const LISTENING_TRANSCRIPT = `[[Hi|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Carlos|Carlos]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Barcelona|Barcelona]], [[Spain|España]]. [[I|Yo]] [[am|tengo]] [[twenty-five|veinticinco]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[am|soy]] [[a|un]] [[student|estudiante]]. [[I|Yo]] [[study|estudio]] [[at|en]] [[the|la]] [[university|universidad]]. [[I|Yo]] [[am|estoy]] [[happy|feliz]] [[to|de]] [[be|estar]] [[here|aquí]]. [[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]]!`;
+const LISTENING_TRANSCRIPT = `[[Hi|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Carlos|Carlos]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Barcelona|Barcelona]], [[Spain|España]]. [[I am twenty-five years old.|Tengo veinticinco años.]] [[I|Yo]] [[am|soy]] [[a|un]] [[student|estudiante]]. [[I|Yo]] [[study|estudio]] [[at|en]] [[the|la]] [[university|universidad]]. [[I|Yo]] [[am|estoy]] [[happy|feliz]] [[to|de]] [[be|estar]] [[here|aquí]]. [[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]]!`;
 
 const INSTRUCTIONS = '[[Listen|Escucha]] [[the|el]] [[audio|audio]] [[below|abajo]]. [[You can|Puedes]] [[read|leer]] [[the|la]] [[transcript|transcripción]] [[after|después]] [[listening|escuchar]]. [[Then|Después]] [[answer|responde]] [[the|las]] [[questions|preguntas]].';
 
@@ -24,7 +24,7 @@ const QUESTIONS = [
     explanation: '[[He|Él]] [[says|dice]] "[[I am from Barcelona, Spain|Soy de Barcelona, España]]".',
   },
   {
-    question: '[[How|Cuántos]] [[old|años]] [[is|tiene]] [[Carlos|Carlos]]?',
+    question: '[[How old is Carlos?|¿Cuántos años tiene Carlos?]]',
     options: ['[[twenty|veinte]]', '[[twenty-three|veintitrés]]', '[[twenty-five|veinticinco]]', '[[thirty|treinta]]'],
     correctAnswer: 2,
     explanation: '[[The|El]] [[speaker|hablante]] [[says|dice]] "[[twenty-five years old|veinticinco años]]".',
@@ -36,25 +36,25 @@ const QUESTIONS = [
     explanation: '[[He|Él]] [[says|dice]] "[[I am a student|Soy estudiante]]".',
   },
   {
-    question: '[[Where|Dónde]] [[does|estudia]] [[he|él]] [[study|estudiar]]?',
+    question: '[[Where does he study?|¿Dónde estudia él?]]',
     options: ['[[at|en]] [[school|el colegio]]', '[[at|en]] [[the|la]] [[university|universidad]]', '[[at|en]] [[home|casa]]', '[[in|en]] [[a|una]] [[library|biblioteca]]'],
     correctAnswer: 1,
     explanation: '[[He|Él]] [[says|dice]] "[[I study at the university|Estudio en la universidad]]".',
   },
   {
-    question: '[[How|Cómo]] [[does|está]] [[Carlos|Carlos]] [[feel|sentirse]]?',
+    question: '[[How does Carlos feel?|¿Cómo se siente Carlos?]]',
     options: ['[[tired|cansado]]', '[[sad|triste]]', '[[happy|feliz]]', '[[angry|enfadado]]'],
     correctAnswer: 2,
     explanation: '[[He|Él]] [[says|dice]] "[[I am happy to be here|Estoy feliz de estar aquí]]".',
   },
   {
-    question: '[[What|Qué]] [[country|país]] [[does|menciona]] [[he|él]] [[mention|mencionar]]?',
+    question: '[[What country does he mention?|¿Qué país menciona él?]]',
     options: ['[[Italy|Italia]]', '[[France|Francia]]', '[[Spain|España]]', '[[Portugal|Portugal]]'],
     correctAnswer: 2,
     explanation: '[[He|Él]] [[says|dice]] "[[from Barcelona, Spain|de Barcelona, España]]".',
   },
   {
-    question: '[[What|Qué]] [[phrase|frase]] [[does|usa]] [[Carlos|Carlos]] [[use|usar]] [[at|al]] [[the end|final]]?',
+    question: '[[What phrase does Carlos use at the end?|¿Qué frase usa Carlos al final?]]',
     options: ['[[Goodbye|Adiós]]', '[[Thank you|Gracias]]', '[[Nice to meet you|Encantado de conocerte]]', '[[How are you?|¿Cómo estás?]]'],
     correctAnswer: 2,
     explanation: '[[He|Él]] [[ends|termina]] [[with|con]] "[[Nice to meet you|Encantado de conocerte]]".',
@@ -78,10 +78,10 @@ const QUESTIONS = [
     explanation: '[[True|Verdadero]]. [[He|Él]] [[says|dice]] "[[I study at the university|Estudio en la universidad]]".',
   },
   {
-    question: '[[Carlos|Carlos]] [[is|tiene]] [[thirty|treinta]] [[years|años]] [[old|de edad]].',
+    question: '[[Carlos|Carlos]] [[is|es]] [[thirty|treinta]] [[years old|años]].',
     options: ['[[True|Verdadero]]', '[[False|Falso]]'],
     correctAnswer: 'False',
-    explanation: '[[False|Falso]]. [[He|Él]] [[is|tiene]] [[twenty-five|veinticinco]] [[years old|años]].',
+    explanation: '[[False|Falso]]. [[He is twenty-five years old.|Tiene veinticinco años.]]',
   },
   {
     question: '[[What|Cuál]] [[is|es]] [[the|el]] [[main|principal]] [[topic|tema]] [[of|del]] [[this|este]] [[audio|audio]]?',

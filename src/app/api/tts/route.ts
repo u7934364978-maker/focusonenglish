@@ -1,7 +1,45 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+/** Vercel / hosting: tiempo máximo para generar audio (segundos). */
+export const maxDuration = 60;
+
+const MAX_TTS_CHARS = 8000;
+const CF_TIMEOUT_MS = 55_000;
+const MAX_ATTEMPTS = 3;
+
 function stripMarkup(text: string): string {
-  return text.replace(/\[\[([^\|]+)\|[^\]]+\]\]/g, '$1');
+  return text
+    .replace(/\[\[([^\]|]+)\|[^\]]+\]\]/g, '$1')
+    .replace(/\[\[([^\]]+)\]\]/g, '$1')
+    .trim();
+}
+
+function normalizeTtsText(raw: unknown): { ok: true; text: string } | { ok: false; error: string } {
+  if (raw === null || raw === undefined) {
+    return { ok: false, error: 'Text is required' };
+  }
+  let s = typeof raw === 'string' ? raw : String(raw);
+  s = stripMarkup(s);
+  s = s.replace(/\s+/g, ' ').trim();
+  if (!s) {
+    return { ok: false, error: 'Text is empty after normalization' };
+  }
+  if (s.length > MAX_TTS_CHARS) {
+    s = `${s.slice(0, MAX_TTS_CHARS).replace(/\s+\S*$/, '')}…`;
+  }
+  return { ok: true, text: s };
+}
+
+function isLikelyMp3(buffer: ArrayBuffer): boolean {
+  if (buffer.byteLength < 32) return false;
+  const u8 = new Uint8Array(buffer);
+  if (u8[0] === 0xff && (u8[1] & 0xe0) === 0xe0) return true;
+  if (u8[0] === 0x49 && u8[1] === 0x44 && u8[2] === 0x33) return true;
+  return false;
+}
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((r) => setTimeout(r, ms));
 }
 
 const FEMALE_NAMES = new Set([
@@ -62,26 +100,16 @@ function detectGender(text: string): 'male' | 'female' {
   return 'male';
 }
 
-export async function POST(request: NextRequest) {
+async function callCloudflareTts(
+  accountId: string,
+  apiToken: string,
+  cleanText: string,
+  speaker: string
+): Promise<Response> {
+  const controller = new AbortController();
+  const t = setTimeout(() => controller.abort(), CF_TIMEOUT_MS);
   try {
-    const { text } = await request.json();
-
-    if (!text) {
-      return NextResponse.json({ error: 'Text is required' }, { status: 400 });
-    }
-
-    const accountId = process.env.CLOUDFLARE_ACCOUNT_ID;
-    const apiToken = process.env.CLOUDFLARE_API_TOKEN;
-
-    if (!accountId || !apiToken) {
-      return NextResponse.json({ error: 'Cloudflare credentials not configured' }, { status: 500 });
-    }
-
-    const cleanText = stripMarkup(text);
-    const gender = detectGender(cleanText);
-    const speaker = gender === 'female' ? 'luna' : 'orion';
-
-    const response = await fetch(
+    return await fetch(
       `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/deepgram/aura-1`,
       {
         method: 'POST',
@@ -90,25 +118,111 @@ export async function POST(request: NextRequest) {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ text: cleanText, speaker }),
+        signal: controller.signal,
       }
     );
+  } finally {
+    clearTimeout(t);
+  }
+}
 
-    if (!response.ok) {
-      const error = await response.text();
-      console.error('Cloudflare TTS error:', error);
-      return NextResponse.json({ error: 'TTS generation failed' }, { status: 500 });
+export async function POST(request: NextRequest) {
+  try {
+    let body: unknown;
+    try {
+      body = await request.json();
+    } catch {
+      return NextResponse.json({ error: 'Invalid JSON body' }, { status: 400 });
     }
 
-    const audioBuffer = await response.arrayBuffer();
+    const textField = (body as { text?: unknown })?.text;
+    const normalized = normalizeTtsText(textField);
+    if (!normalized.ok) {
+      return NextResponse.json({ error: normalized.error }, { status: 400 });
+    }
 
-    return new NextResponse(audioBuffer, {
-      headers: {
-        'Content-Type': 'audio/mpeg',
-        'Cache-Control': 'public, max-age=3600',
-      },
-    });
-  } catch (error: any) {
+    const accountId = process.env.CLOUDFLARE_ACCOUNT_ID;
+    const apiToken = process.env.CLOUDFLARE_API_TOKEN;
+
+    if (!accountId || !apiToken) {
+      console.error('TTS: CLOUDFLARE_ACCOUNT_ID o CLOUDFLARE_API_TOKEN no configurados');
+      return NextResponse.json(
+        { error: 'Cloudflare credentials not configured on server' },
+        { status: 500 }
+      );
+    }
+
+    const cleanText = normalized.text;
+    const gender = detectGender(cleanText);
+    const speaker = gender === 'female' ? 'luna' : 'orion';
+
+    let lastStatus = 0;
+    let lastBody = '';
+
+    for (let attempt = 0; attempt < MAX_ATTEMPTS; attempt++) {
+      if (attempt > 0) {
+        await sleep(250 * 2 ** (attempt - 1));
+      }
+
+      let response: Response;
+      try {
+        response = await callCloudflareTts(accountId, apiToken, cleanText, speaker);
+      } catch (e: unknown) {
+        const name = e instanceof Error ? e.name : '';
+        const msg = e instanceof Error ? e.message : String(e);
+        console.error(`TTS fetch attempt ${attempt + 1}/${MAX_ATTEMPTS}:`, name, msg);
+        if (attempt === MAX_ATTEMPTS - 1) {
+          return NextResponse.json(
+            { error: 'TTS request failed or timed out', detail: name === 'AbortError' ? 'timeout' : msg },
+            { status: 504 }
+          );
+        }
+        continue;
+      }
+
+      lastStatus = response.status;
+
+      if (response.ok) {
+        const audioBuffer = await response.arrayBuffer();
+        if (!isLikelyMp3(audioBuffer)) {
+          const asText = new TextDecoder().decode(audioBuffer.slice(0, 500));
+          console.error('TTS: respuesta no parece MP3:', asText);
+          return NextResponse.json(
+            { error: 'TTS returned invalid audio payload' },
+            { status: 502 }
+          );
+        }
+        return new NextResponse(audioBuffer, {
+          headers: {
+            'Content-Type': 'audio/mpeg',
+            'Cache-Control': 'public, max-age=3600',
+          },
+        });
+      }
+
+      lastBody = await response.text();
+      console.error(`Cloudflare TTS HTTP ${response.status} (attempt ${attempt + 1}):`, lastBody.slice(0, 800));
+
+      const retriable = response.status === 429 || (response.status >= 502 && response.status <= 504);
+      if (!retriable || attempt === MAX_ATTEMPTS - 1) {
+        return NextResponse.json(
+          {
+            error: 'TTS generation failed',
+            status: response.status,
+            detail: lastBody.slice(0, 500),
+          },
+          { status: response.status >= 400 && response.status < 600 ? response.status : 502 }
+        );
+      }
+    }
+
+    return NextResponse.json(
+      { error: 'TTS generation failed', status: lastStatus, detail: lastBody.slice(0, 500) },
+      { status: 502 }
+    );
+  } catch (error: unknown) {
+    const message = error instanceof Error ? error.message : 'TTS error';
     console.error('TTS error:', error);
-    return NextResponse.json({ error: error.message || 'TTS error' }, { status: 500 });
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }

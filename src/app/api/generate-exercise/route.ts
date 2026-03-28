@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { generateExerciseV2 } from '@/lib/ai/generator-v2';
 import { EXERCISE_TYPE_CATALOG } from '@/lib/exercise-types';
+import { validateExercisePayloadForApi } from '@/lib/validation/course-exercise-api';
 
 export async function POST(request: NextRequest) {
   try {
@@ -18,10 +19,20 @@ export async function POST(request: NextRequest) {
     console.log(`🤖 Generando ejercicio V2: ${body.exerciseType} - Nivel ${body.level}`);
     
     const exercise = await generateExerciseV2(body);
+    const level = typeof body?.level === 'string' ? body.level : undefined;
+    const topic = typeof body?.topic === 'string' ? body.topic : undefined;
+    const { value, issues } = validateExercisePayloadForApi(exercise, { level, topic });
+    if (issues.length > 0) {
+      console.warn('[generate-exercise] Zod envelope:', issues.join(' | '));
+    }
 
     return NextResponse.json({
       success: true,
-      exercises: [exercise]
+      exercises: [value],
+      validation: {
+        ok: issues.length === 0,
+        errors: issues.length ? [{ issues }] : [],
+      },
     });
 
   } catch (error: any) {

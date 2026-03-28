@@ -5,11 +5,15 @@
 
 import { Exercise } from '@/lib/exercise-generator';
 
-const LESSON_TITLE = 'Vocabulario: presentación';
-const INSTRUCTIONS_MC = 'Elige la palabra correcta para cada definición o frase.';
-const INSTRUCTIONS_MATCH = 'Relaciona cada palabra en inglés con su traducción.';
-const INSTRUCTIONS_FILL = 'Completa la frase con la palabra correcta del recuadro.';
-const INSTRUCTIONS_CTX = 'Elige la palabra correcta para el contexto.';
+const LESSON_TITLE = '[[Vocabulary: introductions|Vocabulario: presentación]]';
+const INSTRUCTIONS_MC =
+  '[[Choose the correct word for each definition or sentence.|Elige la palabra correcta para cada definición o frase.]]';
+const INSTRUCTIONS_MATCH =
+  '[[Match each English word or phrase with its meaning.|Relaciona cada palabra en inglés con su traducción.]]';
+const INSTRUCTIONS_FILL =
+  '[[Complete the sentence with the correct word from the box.|Completa la frase con la palabra correcta del recuadro.]]';
+const INSTRUCTIONS_CTX =
+  '[[Choose the correct word or phrase for the situation.|Elige la palabra o frase correcta para el contexto.]]';
 
 export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
   // ─── 1–6: Elección múltiple (palabra correcta) ─────────────────────────────
@@ -24,10 +28,12 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: '[[What|Qué]] [[word|palabra]] [[means|significa]] "nombre" [[in|en]] [[English|inglés]]?',
-          options: ['[[age|edad]]', '[[name|nombre]]', '[[city|ciudad]]', '[[country|país]]'],
+          question:
+            '[[What is the English word for “nombre”?|¿Cómo se dice «nombre» en inglés?]]',
+          options: ['age', 'name', 'city', 'country'],
           correctAnswer: 1,
-          explanation: '[[Name|Nombre]] = [[name|nombre]].',
+          explanation:
+            '[[**Name** = nombre (what you are called).|**Name** = nombre (cómo te llamas).]]',
         },
       ],
     },
@@ -44,10 +50,12 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: '"[[Tengo|I have]] [[thirty|treinta]] [[years|años]]" → [[I|Yo]] [[am|tengo]] [[thirty|treinta]] ____ [[old|de edad]].',
-          options: ['[[year|año]]', '[[years|años]]', '[[years old|años]]', '[[age|edad]]'],
+          question:
+            '[[In Spanish you say “Tengo treinta años”. In English: I am thirty ____ .|En español dices «Tengo treinta años». En inglés: I am thirty ____ .]]',
+          options: ['year', 'years', 'years old', 'age'],
           correctAnswer: 2,
-          explanation: '[[We|Nosotros]] [[say|decimos]] "[[years old|años (de edad)]]" [[for|para]] [[age|edad]].',
+          explanation:
+            '[[Use **years old** after the age: *I am thirty years old*.|**years old** va después de la edad: *I am thirty years old*.]]',
         },
       ],
     },
@@ -64,10 +72,12 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: '[[Which|Cuál]] [[word|palabra]] [[means|significa]] "de" [[when|cuando]] [[we|nosotros]] [[talk|hablamos]] [[about|sobre]] [[origin|origen]]?',
-          options: ['[[to|a]]', '[[from|de]]', '[[in|en]]', '[[at|en]]'],
+          question:
+            '[[Which word means “from” (origin) in English?|¿Qué palabra en inglés significa «de» (origen)?]]',
+          options: ['to', 'from', 'in', 'at'],
           correctAnswer: 1,
-          explanation: '"[[I am from Madrid|Soy de Madrid]]" → [[from|de]].',
+          explanation:
+            '[[**From** + place: *I am from Madrid*.|**From** + lugar: *I am from Madrid*.]]',
         },
       ],
     },
@@ -84,10 +94,17 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: '[[What|Qué]] [[do|hacemos]] [[we|nosotros]] [[say|decir]] [[to|para]] [[greet|saludar]] [[someone|alguien]] [[in|por]] [[the|la]] [[morning|mañana]]?',
-          options: ['[[Hello|Hola]]', '[[Good morning|Buenos días]]', '[[Goodbye|Adiós]]', '[[Good night|Buenas noches]]'],
+          question:
+            '[[What do you say to greet someone in the morning?|¿Qué dices para saludar por la mañana?]]',
+          options: [
+            '[[Hello|Hola]]',
+            '[[Good morning|Buenos días]]',
+            '[[Goodbye|Adiós]]',
+            '[[Good night|Buenas noches]]',
+          ],
           correctAnswer: 1,
-          explanation: '[[Good morning|Buenos días]] = [[greeting|saludo]] [[in|por]] [[the|la]] [[morning|mañana]].',
+          explanation:
+            '[[**Good morning** is the usual morning greeting.|**Good morning** es el saludo habitual por la mañana.]]',
         },
       ],
     },
@@ -104,10 +121,12 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: '[[Which|Cuál]] [[word|palabra]] [[means|significa]] "trabajo" [[or|o]] "profesión"?',
-          options: ['[[name|nombre]]', '[[age|edad]]', '[[job|trabajo]]', '[[city|ciudad]]'],
+          question:
+            '[[Which word means “job” or “work” (what you do)?|¿Qué palabra significa «trabajo» o «empleo»?]]',
+          options: ['name', 'age', 'job', 'city'],
           correctAnswer: 2,
-          explanation: '[[Job|Trabajo]] = [[job|trabajo]] [[or|o]] [[profession|profesión]].',
+          explanation:
+            '[[**Job** = the work you do (also *work* as a noun in many contexts).|**Job** = el trabajo que haces.]]',
         },
       ],
     },
@@ -124,10 +143,17 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: '"[[Encantado|Nice]] [[to|de]] [[meet|conocer]] [[you|a ti]]" [[in|en]] [[English|inglés]] [[is|es]]:',
-          options: ['[[Hello|Hola]]', '[[Goodbye|Adiós]]', '[[Nice to meet you|Encantado de conocerte]]', '[[How are you?|¿Cómo estás?]]'],
+          question:
+            '[[How do you say “Encantado de conocerte” in English?|¿Cómo se dice «Encantado de conocerte» en inglés?]]',
+          options: [
+            '[[Hello|Hola]]',
+            '[[Goodbye|Adiós]]',
+            '[[Nice to meet you|Encantado de conocerte]]',
+            '[[How are you?|¿Cómo estás?]]',
+          ],
           correctAnswer: 2,
-          explanation: '[[Nice to meet you|Encantado de conocerte]] [[is|es]] [[the|la]] [[phrase|frase]] [[for|para]] [[first|primera]] [[meeting|reunión]].',
+          explanation:
+            '[[**Nice to meet you** is the usual phrase when you meet someone for the first time.|**Nice to meet you** es la frase habitual al conocer a alguien por primera vez.]]',
         },
       ],
     },
@@ -222,10 +248,11 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_FILL,
       questions: [
         {
-          question: '[[My|Mi]] ____ [[is|es]] [[Ana|Ana]].',
-          options: ['[[name|nombre]]', '[[age|edad]]', '[[city|ciudad]]'],
-          correctAnswer: '[[name|nombre]]',
-          explanation: '[[We|Nosotros]] [[say|decimos]] "[[My name is|Mi nombre es]]" + [[name|nombre]].',
+          question: '[[My ____ is Ana.|Mi ____ es Ana.]]',
+          options: ['name', 'age', 'city'],
+          correctAnswer: 'name',
+          explanation:
+            '[[**My name is** + name.|**My name is** + nombre.]]',
         },
       ],
     },
@@ -242,10 +269,11 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_FILL,
       questions: [
         {
-          question: '[[I|Yo]] [[am|soy]] ____ [[Madrid|Madrid]].',
-          options: ['[[from|de]]', '[[in|en]]', '[[at|en]]'],
-          correctAnswer: '[[from|de]]',
-          explanation: '[[Origin|Origen]]: "[[I am from|Soy de]]" + [[place|lugar]].',
+          question: '[[I am ____ Madrid.|Soy ____ Madrid.]]',
+          options: ['from', 'in', 'at'],
+          correctAnswer: 'from',
+          explanation:
+            '[[**I am from** + city or country.|**I am from** + ciudad o país.]]',
         },
       ],
     },
@@ -262,10 +290,12 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_FILL,
       questions: [
         {
-          question: '[[Context|Contexto]]: [[You|Tú]] [[teach|enseñas]] [[English|inglés]] [[at|en]] [[a|una]] [[school|escuela]]. [[Complete|Completa]]: [[I|Yo]] [[am|soy]] [[a|un]] ____.',
-          options: ['[[teacher|profesor]]', '[[student|estudiante]]', '[[doctor|médico]]'],
-          correctAnswer: '[[teacher|profesor]]',
-          explanation: '[[If|Si]] [[you|tú]] [[teach|enseñas]], [[you are a teacher|eres profesor]]. [[Correct|Correcto]]: "[[I am a teacher|Soy profesor]]".',
+          question:
+            '[[Context: You teach English at a school. Complete: I am a ____ .|Contexto: enseñas inglés en una escuela. Completa: I am a ____ .]]',
+          options: ['teacher', 'student', 'doctor'],
+          correctAnswer: 'teacher',
+          explanation:
+            '[[If you teach, you are a **teacher**.|Si enseñas, eres **teacher** (profesor/a).]]',
         },
       ],
     },
@@ -284,10 +314,17 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_CTX,
       questions: [
         {
-          question: '[[Someone|Alguien]] [[says|dice]] "[[Hi|Hola]]!" [[when|cuando]] [[they|ellos]] [[see|ven]] [[you|a ti]]. [[You|Tú]] [[reply|respondes]]:',
-          options: ['[[Goodbye|Adiós]]', '[[Hi or Hello|Hola]]', '[[Good night|Buenas noches]]', '[[My name is|Mi nombre es]]'],
+          question:
+            '[[Someone says “Hi!” when they see you. What do you reply?|Alguien dice «Hi!» al verte. ¿Qué respondes?]]',
+          options: [
+            '[[Goodbye|Adiós]]',
+            '[[Hi or Hello|Hola]]',
+            '[[Good night|Buenas noches]]',
+            '[[My name is …|Mi nombre es…]]',
+          ],
           correctAnswer: 1,
-          explanation: '[[We|Nosotros]] [[reply|respondemos]] [[with|con]] [[the same|el mismo]] [[greeting|saludo]]: [[Hi or Hello|Hola]].',
+          explanation:
+            '[[Reply with the same kind of short greeting: *Hi!* / *Hello!*.|Responde con el mismo tipo de saludo breve: *Hi!* / *Hello!*.]]',
         },
       ],
     },
@@ -304,10 +341,17 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_CTX,
       questions: [
         {
-          question: '[[Context|Contexto]]: [[You|Tú]] [[meet|conoces]] [[a|una]] [[person|persona]] [[for|por]] [[the first time|la primera vez]]. [[The best|La mejor]] [[phrase|frase]] [[to|para]] [[say|decir]] [[after|después]] [[introductions|presentaciones]] [[is|es]]:',
-          options: ['[[Goodbye|Adiós]]', '[[Nice to meet you|Encantado de conocerte]]', '[[I am twenty|Tengo veinte]]', '[[From Madrid|De Madrid]]'],
+          question:
+            '[[You meet someone for the first time. What is the best phrase after introductions?|Conoces a alguien por primera vez. ¿Qué frase encaja mejor después de presentarse?]]',
+          options: [
+            '[[Goodbye|Adiós]]',
+            '[[Nice to meet you|Encantado de conocerte]]',
+            '[[I am twenty.|Tengo veinte años.]]',
+            '[[From Madrid.|De Madrid.]]',
+          ],
           correctAnswer: 1,
-          explanation: '[[Nice to meet you|Encantado de conocerte]] [[is|es]] [[used|usado]] [[after|después]] [[introductions|presentaciones]].',
+          explanation:
+            '[[Use *Nice to meet you* when you meet someone for the first time.|**Nice to meet you** va cuando conoces a alguien por primera vez.]]',
         },
       ],
     },

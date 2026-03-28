@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
 import { UltraAdaptiveEngine } from '@/lib/course-engine/ultra-adaptive-engine';
+import { validateInteractionForApi } from '@/lib/validation/interaction-api';
 
 export async function POST(request: NextRequest) {
   try {
@@ -31,9 +32,18 @@ export async function POST(request: NextRequest) {
       }, { status: 404 });
     }
 
+    const validation = validateInteractionForApi(exercise);
+    if (!validation.ok) {
+      console.warn(
+        '[adaptive/next] InteractionSchema:',
+        validation.issues.slice(0, 8).join(' | '),
+      );
+    }
+
     return NextResponse.json({
       success: true,
-      exercise
+      exercise,
+      validation,
     });
 
   } catch (error: any) {

@@ -1,4 +1,5 @@
 import { getFirst10LessonsExercises, getFirst10LessonsMeta, FIRST_10_LESSON_NAMES } from '@/lib/course/a1/first-10-lessons';
+import { validateExerciseListForApi } from '@/lib/validation/course-exercise-api';
 import { NextResponse } from 'next/server';
 
 /**
@@ -22,6 +23,8 @@ export async function GET() {
     estimatedTime: ex.estimatedTime,
   }));
 
+  const { exercises: validated, validation } = validateExerciseListForApi(serializable);
+
   return NextResponse.json({
     meta: {
       lessonCount: meta.lessonCount,
@@ -29,6 +32,7 @@ export async function GET() {
       lessonNames: [...FIRST_10_LESSON_NAMES],
       exercisesPerLesson: meta.exercisesPerLesson,
     },
-    exercises: serializable,
+    exercises: validated,
+    validation,
   });
 }

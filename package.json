@@ -39,6 +39,8 @@
     "generate-game-choices": "ts-node --esm scripts/generate-game-choice-assets.ts",
     "validate-exercises": "node scripts/validate-exercises.mjs",
     "validate-exercise-types": "node scripts/validate-exercise-types.mjs",
+    "validate-course-exercises-zod": "ts-node scripts/validate-course-exercises-zod.ts",
+    "validate-c2-structure": "node scripts/validate-c2-structure.mjs",
     "validate-weeks": "node scripts/validate-week.mjs src/content/weeks/*.json",
     "audit-seo": "node scripts/audit-blog-seo.mjs"
   },

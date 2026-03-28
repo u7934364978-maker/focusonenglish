@@ -1,7 +1,7 @@
 'use client';
 
 import { useRef, useState, useEffect, useCallback } from 'react';
-import { Volume2, Loader2 } from 'lucide-react';
+import { Volume2, Loader2, AlertCircle } from 'lucide-react';
 
 function extractEnglish(text: string): string {
   return text
@@ -22,9 +22,12 @@ export default function SpeakButton({
 }) {
   const english = extractEnglish(text);
   const [loading, setLoading] = useState(false);
+  const [ttsError, setTtsError] = useState(false);
   const blobUrlRef = useRef<string | null>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const abortRef = useRef<AbortController | null>(null);
+  const requestGenRef = useRef(0);
+  const errorClearRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const stopAndRevoke = useCallback(() => {
     if (audioRef.current) {
@@ -41,6 +44,7 @@ export default function SpeakButton({
     return () => {
       abortRef.current?.abort();
       stopAndRevoke();
+      if (errorClearRef.current) clearTimeout(errorClearRef.current);
     };
   }, [stopAndRevoke]);
 
@@ -48,9 +52,13 @@ export default function SpeakButton({
     e.stopPropagation();
     if (!english || loading) return;
 
+    if (errorClearRef.current) clearTimeout(errorClearRef.current);
+    setTtsError(false);
+
     abortRef.current?.abort();
     abortRef.current = new AbortController();
     const { signal } = abortRef.current;
+    const gen = ++requestGenRef.current;
 
     stopAndRevoke();
     setLoading(true);
@@ -62,9 +70,10 @@ export default function SpeakButton({
         body: JSON.stringify({ text: english }),
         signal,
       });
-      if (!res.ok) throw new Error('TTS failed');
+      if (!res.ok) throw new Error(`TTS failed: ${res.status}`);
       const blob = await res.blob();
       if (signal.aborted) return;
+      if (blob.size < 64) throw new Error('TTS empty response');
       const url = URL.createObjectURL(blob);
       blobUrlRef.current = url;
       const audio = new Audio(url);
@@ -76,8 +85,12 @@ export default function SpeakButton({
     } catch (err) {
       if ((err as Error).name === 'AbortError') return;
       console.error('SpeakButton TTS:', err);
+      if (gen === requestGenRef.current) {
+        setTtsError(true);
+        errorClearRef.current = setTimeout(() => setTtsError(false), 5000);
+      }
     } finally {
-      if (!signal.aborted) setLoading(false);
+      if (gen === requestGenRef.current) setLoading(false);
     }
   };
 
@@ -92,11 +105,24 @@ export default function SpeakButton({
       onClick={speak}
       type="button"
       disabled={loading}
-      title={loading ? 'Generando audio…' : `Escuchar (voz modelo): "${preview}"`}
-      className={`inline-flex items-center justify-center rounded-full bg-blue-50 hover:bg-blue-100 text-blue-500 transition-colors flex-shrink-0 disabled:opacity-70 ${sz} ${className}`}
+      title={
+        ttsError
+          ? 'No se pudo generar el audio (Cloudflare). Reintenta o revisa la configuración del servidor.'
+          : loading
+            ? 'Generando audio…'
+            : `Escuchar (voz modelo): "${preview}"`
+      }
+      aria-label={ttsError ? 'Error al generar audio' : 'Escuchar pronunciación'}
+      className={`inline-flex items-center justify-center rounded-full transition-colors flex-shrink-0 disabled:opacity-70 ${
+        ttsError
+          ? 'bg-amber-50 hover:bg-amber-100 text-amber-600'
+          : 'bg-blue-50 hover:bg-blue-100 text-blue-500'
+      } ${sz} ${className}`}
     >
       {loading ? (
         <Loader2 size={ic} className="animate-spin" aria-hidden />
+      ) : ttsError ? (
+        <AlertCircle size={ic} aria-hidden />
       ) : (
         <Volume2 size={ic} aria-hidden />
       )}

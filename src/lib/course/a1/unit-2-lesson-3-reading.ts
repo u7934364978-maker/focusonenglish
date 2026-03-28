@@ -130,7 +130,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[How|Cuántos]] [[old|años]] [[is|tiene]] [[Laura|Laura]]?',
+          question: '[[How old is Laura?|¿Cuántos años tiene Laura?]]',
           options: ['[[nineteen|diecinueve]]', '[[twenty|veinte]]', '[[twenty-one|veintiuno]]', '[[twenty-two|veintidós]]'],
           correctAnswer: 1,
           explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[Laura is twenty years old|Laura tiene veinte años]]".',
@@ -151,7 +151,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[How|Cuántos]] [[old|años]] [[is|tiene]] [[Tom|Tom]]?',
+          question: '[[How old is Tom?|¿Cuántos años tiene Tom?]]',
           options: ['[[seventeen|diecisiete]]', '[[eighteen|dieciocho]]', '[[nineteen|diecinueve]]', '[[twenty|veinte]]'],
           correctAnswer: 2,
           explanation: '[[He|Él]] [[says|dice]] "[[I am nineteen years old|Tengo diecinueve años]]".',

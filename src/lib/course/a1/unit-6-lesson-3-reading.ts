@@ -100,7 +100,7 @@ export const UNIT_6_LESSON_3_READING: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS,
       questions: [{
-        question: '[[How|Cuántos]] [[old|años]] [[is|tiene]] [[Ana|Ana]]?',
+        question: '[[How old is Ana?|¿Cuántos años tiene Ana?]]',
         options: ['[[fifteen|quince]]', '[[twenty|veinte]]', '[[twenty-five|veinticinco]]', '[[thirty|treinta]]'],
         correctAnswer: 1,
         explanation: 'My sister Ana is twenty years old.',

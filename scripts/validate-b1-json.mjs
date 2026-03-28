@@ -1,3 +1,4 @@
+// Curso B1 JSON en content/cursos. Envelope TS ejercicios: npm run validate-course-exercises-zod
 import fs from 'fs';
 import path from 'path';
 

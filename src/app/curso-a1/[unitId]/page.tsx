@@ -6,7 +6,7 @@ import ExerciseRenderer from '@/components/ExerciseRenderer';
 import StreakBurst from '@/components/gamification/StreakBurst';
 import { useGamification } from '@/lib/hooks/use-gamification';
 import { useA1ProgressTracking } from '@/hooks/useA1ProgressTracking';
-import { X, Heart, Zap, Trophy, Flame, ArrowLeft, ArrowRight, Home, CheckCircle, XCircle } from 'lucide-react';
+import { X, Heart, Zap, Trophy, Flame, ArrowLeft, ArrowRight, Home, CheckCircle, XCircle, RotateCcw } from 'lucide-react';
 
 // Copy de alta calidad: tono profesional, claro y alentador
 const FEEDBACK_CORRECT_HEADLINES = ['¡Correcto!', '¡Muy bien!', '¡Perfecto!', '¡Excelente!', '¡Lo tienes!'];

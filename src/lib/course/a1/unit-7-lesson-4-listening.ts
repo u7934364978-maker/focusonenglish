@@ -8,7 +8,7 @@ import { Exercise } from '@/lib/exercise-generator';
 const LESSON_TITLE = 'Comprensión auditiva';
 const TOPIC = 'Colors & Physical Descriptions';
 
-const LISTENING_TRANSCRIPT = `[[Lisa|Lisa]]: [[Who|Quién]] [[is|es]] [[that|esa]] [[woman|mujer]] [[with|con]] [[the|el]] [[long|largo]] [[red|rojo]] [[hair|pelo]]? [[Tom|Tom]]: [[She|Ella]] [[is|es]] [[my|mi]] [[sister|hermana]] [[Emma|Emma]]. [[Lisa|Lisa]]: [[She|Ella]] [[is|es]] [[very|muy]] [[tall|alta]]. [[How|Cuántos]] [[old|años]] [[is|tiene]] [[she|ella]]? [[Tom|Tom]]: [[She|Ella]] [[is|es]] [[twenty-five|veinticinco]] [[years|años]] [[old|de edad]]. [[She|Ella]] [[has|tiene]] [[blue|azules]] [[eyes|ojos]] [[too|también]]. [[Lisa|Lisa]]: [[My|Mi]] [[brother|hermano]] [[is|es]] [[short|bajo]] [[and|y]] [[he|él]] [[has|tiene]] [[brown|castaño]] [[hair|pelo]]. [[Tom|Tom]]: [[Is|Es]] [[he|él]] [[young|joven]]? [[Lisa|Lisa]]: [[Yes|Sí]], [[he|él]] [[is|es]] [[only|solo]] [[eighteen|dieciocho]].`;
+const LISTENING_TRANSCRIPT = `[[Lisa|Lisa]]: [[Who|Quién]] [[is|es]] [[that|esa]] [[woman|mujer]] [[with|con]] [[the|el]] [[long|largo]] [[red|rojo]] [[hair|pelo]]? [[Tom|Tom]]: [[She|Ella]] [[is|es]] [[my|mi]] [[sister|hermana]] [[Emma|Emma]]. [[Lisa|Lisa]]: [[She|Ella]] [[is|es]] [[very|muy]] [[tall|alta]]. [[How old is she?|¿Cuántos años tiene ella?]] [[Tom|Tom]]: [[She|Ella]] [[is|es]] [[twenty-five|veinticinco]] [[years|años]] [[old|de edad]]. [[She|Ella]] [[has|tiene]] [[blue|azules]] [[eyes|ojos]] [[too|también]]. [[Lisa|Lisa]]: [[My|Mi]] [[brother|hermano]] [[is|es]] [[short|bajo]] [[and|y]] [[he|él]] [[has|tiene]] [[brown|castaño]] [[hair|pelo]]. [[Tom|Tom]]: [[Is|Es]] [[he|él]] [[young|joven]]? [[Lisa|Lisa]]: [[Yes|Sí]], [[he|él]] [[is|es]] [[only|solo]] [[eighteen|dieciocho]].`;
 
 const INSTRUCTIONS = 'Escucha el audio. Después contesta cada pregunta.';
 
@@ -81,7 +81,7 @@ export const UNIT_7_LESSON_4_LISTENING: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS,
       questions: [{
-        question: '[[How|Cuántos]] [[old|años]] [[is|tiene]] [[Emma|Emma]]?',
+        question: '[[How old is Emma?|¿Cuántos años tiene Emma?]]',
         options: ['[[twenty|veinte]]', '[[twenty-five|veinticinco]]', '[[thirty|treinta]]', '[[eighteen|dieciocho]]'],
         correctAnswer: 1,
         explanation: 'She is twenty-five years old.',
@@ -157,7 +157,7 @@ export const UNIT_7_LESSON_4_LISTENING: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS,
       questions: [{
-        question: '[[How|Cuántos]] [[old|años]] [[is|tiene]] [[Lisa\'s|el]] [[brother|hermano]]?',
+        question: '[[How old is Lisa\'s brother?|¿Cuántos años tiene el hermano de Lisa?]]',
         options: ['[[twenty-five|veinticinco]]', '[[twenty|veinte]]', '[[eighteen|dieciocho]]', '[[thirty|treinta]]'],
         correctAnswer: 2,
         explanation: 'He is only eighteen.',

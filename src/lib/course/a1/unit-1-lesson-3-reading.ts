@@ -6,7 +6,7 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = 'Comprensión lectora';
-const READING_TRANSCRIPT = `[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Maria|María]]. [[I|Yo]] [[am|tengo]] [[twenty-eight|veintiocho]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Madrid|Madrid]], [[Spain|España]]. [[I|Yo]] [[am|soy]] [[a|una]] [[teacher|profesora]]. [[I|Yo]] [[teach|enseño]] [[English|inglés]] [[at|en]] [[a|una]] [[small|pequeña]] [[school|escuela]]. [[I|Yo]] [[am|estoy]] [[happy|feliz]] [[today|hoy]] [[because|porque]] [[it|es]] [[is|es]] [[my|mi]] [[birthday|cumpleaños]]. [[Nice|Encantada]] [[to|de]] [[meet|conocerte]] [[you|a ti]]!`;
+const READING_TRANSCRIPT = `[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Maria|María]]. [[I am twenty-eight years old.|Tengo veintiocho años.]] [[I|Yo]] [[am|soy]] [[from|de]] [[Madrid|Madrid]], [[Spain|España]]. [[I|Yo]] [[am|soy]] [[a|una]] [[teacher|profesora]]. [[I|Yo]] [[teach|enseño]] [[English|inglés]] [[at|en]] [[a|una]] [[small|pequeña]] [[school|escuela]]. [[I|Yo]] [[am|estoy]] [[happy|feliz]] [[today|hoy]] [[because|porque]] [[it|es]] [[is|es]] [[my|mi]] [[birthday|cumpleaños]]. [[Nice|Encantada]] [[to|de]] [[meet|conocerte]] [[you|a ti]]!`;
 
 const INSTRUCTIONS = '[[Read|Lee]] [[the|el]] [[text|texto]] [[below|abajo]]. [[Then|Después]] [[answer|responde]] [[the|las]] [[questions|preguntas]].';
 
@@ -18,7 +18,7 @@ const QUESTIONS = [
     explanation: '[[She|Ella]] [[says|dice]]: "[[My name is Maria|Mi nombre es María]]".',
   },
   {
-    question: '[[How|Cuántos]] [[old|años]] [[is|tiene]] [[Maria|María]]?',
+    question: '[[How old is María?|¿Cuántos años tiene María?]]',
     options: ['[[twenty|veinte]]', '[[twenty-five|veinticinco]]', '[[twenty-eight|veintiocho]]', '[[thirty|treinta]]'],
     correctAnswer: 2,
     explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[twenty-eight years old|veintiocho años]]".',
@@ -36,13 +36,13 @@ const QUESTIONS = [
     explanation: '[[She|Ella]] [[says|dice]] "[[I am a teacher|Soy profesora]]".',
   },
   {
-    question: '[[What|Qué]] [[does|enseña]] [[she|ella]] [[teach|enseñar]]?',
+    question: '[[What does she teach?|¿Qué enseña ella?]]',
     options: ['[[Spanish|Español]]', '[[Math|Matemáticas]]', '[[English|Inglés]]', '[[Science|Ciencias]]'],
     correctAnswer: 2,
     explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[I teach English|Enseño inglés]]".',
   },
   {
-    question: '[[Where|Dónde]] [[does|enseña]] [[she|ella]] [[work|trabajar]]?',
+    question: '[[Where does she work?|¿Dónde trabaja ella?]]',
     options: ['[[at|en]] [[a|una]] [[big|gran]] [[school|escuela]]', '[[at|en]] [[a|una]] [[small|pequeña]] [[school|escuela]]', '[[at|en]] [[home|casa]]', '[[in|en]] [[a|un]] [[hospital|hospital]]'],
     correctAnswer: 1,
     explanation: '[[She|Ella]] [[says|dice]] "[[I teach at a small school|Enseño en una escuela pequeña]]".',
@@ -54,7 +54,7 @@ const QUESTIONS = [
     explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[I am happy today because it is my birthday|Estoy feliz hoy porque es mi cumpleaños]]".',
   },
   {
-    question: '[[What|Qué]] [[phrase|frase]] [[does|usa]] [[Maria|María]] [[use|usar]] [[to|para]] [[end|terminar]] [[the|el]] [[text|texto]]?',
+    question: '[[What phrase does María use to end the text?|¿Qué frase usa María para terminar el texto?]]',
     options: ['[[Goodbye|Adiós]]', '[[How are you?|¿Cómo estás?]]', '[[Nice to meet you|Encantada de conocerte]]', '[[Thank you|Gracias]]'],
     correctAnswer: 2,
     explanation: '[[She|Ella]] [[ends|termina]] [[with|con]] "[[Nice to meet you|Encantada de conocerte]]".',
@@ -96,7 +96,7 @@ const QUESTIONS = [
     explanation: '[[Maria|María]] [[writes|escribe]] [[about|sobre]] [[herself|sí misma]] ("[[My name is|Mi nombre es]]", "[[I am|Yo soy]]").',
   },
   {
-    question: '[[In|En]] [[what|qué]] [[city|ciudad]] [[does|enseña]] [[Maria|María]] [[teach|enseñar]]?',
+    question: '[[In what city does María teach?|¿En qué ciudad enseña María?]]',
     options: ['[[Barcelona|Barcelona]]', '[[Madrid|Madrid]]', '[[Valencia|Valencia]]', '[[Seville|Sevilla]]'],
     correctAnswer: 1,
     explanation: '[[She|Ella]] [[says|dice]] "[[I am from Madrid, Spain|Soy de Madrid, España]]" [[and|y]] "[[I teach at a small school|Enseño en una escuela pequeña]]" [[there|allí]].',

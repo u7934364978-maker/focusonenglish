@@ -1,3 +1,4 @@
+// Semanas JSON (schemas/week.schema.json). Ejercicios TS del renderer: npm run validate-course-exercises-zod
 import Ajv from 'ajv/dist/2020.js';
 import addFormats from 'ajv-formats';
 import fs from 'fs';

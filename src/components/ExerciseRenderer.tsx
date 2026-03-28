@@ -90,6 +90,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
   const [exerciseCompleted, setExerciseCompleted] = useState(false);
   const autoAdvanceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  /** Si alguna pregunta del bloque fue incorrecta, el callback final debe marcar fallo (p. ej. curso A1). */
+  const hadAnyIncorrectRef = useRef(false);
 
   const exerciseContent = exercise.content || exercise;
   const questions = exerciseContent.questions || [];
@@ -123,6 +125,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     setCurrentQuestionIdx(0);
     setExerciseCompleted(false);
     if (autoAdvanceRef.current) clearTimeout(autoAdvanceRef.current);
+    hadAnyIncorrectRef.current = false;
 
     const timer = setTimeout(() => setIsAnimating(false), 300);
     return () => clearTimeout(timer);
@@ -235,6 +238,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         correct = correctAnswers.includes(userAnswerNormalized);
       }
 
+      if (!correct) hadAnyIncorrectRef.current = true;
+
       setIsCorrect(correct);
       const displayCorrectAnswer = Array.isArray(qCorrectAnswer) ? qCorrectAnswer[0] : qCorrectAnswer;
       setEvaluation({
@@ -253,6 +258,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       } else {
         correct = userAnswer !== null && userAnswer !== '';
       }
+
+      if (!correct) hadAnyIncorrectRef.current = true;
 
       setIsCorrect(correct);
       if (correct) {
@@ -278,7 +285,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     } else {
       setExerciseCompleted(true);
       completeExercise(exercise.id, 1, 1);
-      onComplete({ success: true, score: 100 });
+      const ok = !hadAnyIncorrectRef.current;
+      onComplete({ success: ok, score: ok ? 100 : 0 });
     }
   };
 

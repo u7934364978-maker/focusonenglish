@@ -149,7 +149,7 @@ export const UNIT_8_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Contesta en voz alta. Di la edad de un familiar.',
-      targetText: '[[How|Cuántos]] [[old|años]] [[is|tiene]] [[your|tu]] [[brother|hermano]]?',
+      targetText: '[[How old is your brother?|¿Cuántos años tiene tu hermano?]]',
       expectedResponse: 'He is [number] years old.',
     },
     topicName: 'Speaking',
@@ -221,7 +221,7 @@ export const UNIT_8_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Pregunta en voz alta la edad de alguien (amigo, familiar). Usa: How old is your …?',
-      targetText: '[[How|Cuántos]] [[old|años]] [[is|tiene]] [[your|tu]] ____?',
+      targetText: '[[How old is your ____?|¿Cuántos años tiene tu …?]]',
       expectedResponse: 'How old is your [mother/father/friend]?',
     },
     topicName: 'Speaking',

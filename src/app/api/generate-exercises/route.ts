@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { validateExerciseListForApi } from '@/lib/validation/course-exercise-api';
 
 export const runtime = 'edge';
 export const maxDuration = 60;
@@ -236,7 +237,12 @@ Return ONLY the JSON array, nothing else.`;
 
     if ('timeout' in raced) {
       const fallback = buildFallbackExercises({ level, topic, count: safeCount, exerciseTypes });
-      return NextResponse.json({ exercises: fallback, warning: 'AI timeout; returned fallback exercises' });
+      const { exercises, validation } = validateExerciseListForApi(fallback, { level, topic });
+      return NextResponse.json({
+        exercises,
+        validation,
+        warning: 'AI timeout; returned fallback exercises',
+      });
     }
 
     const resOk = raced.ok;
@@ -245,7 +251,12 @@ Return ONLY the JSON array, nothing else.`;
     if (!resOk) {
       console.error('Llama exercise gen error:', resText.slice(0, 500));
       const fallback = buildFallbackExercises({ level, topic, count: safeCount, exerciseTypes });
-      return NextResponse.json({ exercises: fallback, warning: 'AI generation failed; returned fallback exercises' });
+      const { exercises, validation } = validateExerciseListForApi(fallback, { level, topic });
+      return NextResponse.json({
+        exercises,
+        validation,
+        warning: 'AI generation failed; returned fallback exercises',
+      });
     }
 
     let data: any;
@@ -262,7 +273,12 @@ Return ONLY the JSON array, nothing else.`;
     if (!jsonMatch) {
       console.error('No JSON array found in response:', raw.slice(0, 300));
       const fallback = buildFallbackExercises({ level, topic, count: safeCount, exerciseTypes });
-      return NextResponse.json({ exercises: fallback, warning: 'Invalid AI response; returned fallback exercises' });
+      const { exercises, validation } = validateExerciseListForApi(fallback, { level, topic });
+      return NextResponse.json({
+        exercises,
+        validation,
+        warning: 'Invalid AI response; returned fallback exercises',
+      });
     }
 
     let exercises: any[];
@@ -271,7 +287,12 @@ Return ONLY the JSON array, nothing else.`;
     } catch (e) {
       console.error('Failed to parse exercises JSON:', e);
       const fallback = buildFallbackExercises({ level, topic, count: safeCount, exerciseTypes });
-      return NextResponse.json({ exercises: fallback, warning: 'Parse error; returned fallback exercises' });
+      const { exercises, validation } = validateExerciseListForApi(fallback, { level, topic });
+      return NextResponse.json({
+        exercises,
+        validation,
+        warning: 'Parse error; returned fallback exercises',
+      });
     }
 
     const normalizeToQuestionsShape = (ex: any) => {
@@ -337,7 +358,17 @@ Return ONLY the JSON array, nothing else.`;
       isAIGenerated: true,
     })).map(normalizeToQuestionsShape);
 
-    return NextResponse.json({ exercises: validated });
+    const { exercises: zodExercises, validation } = validateExerciseListForApi(validated, {
+      level,
+      topic,
+    });
+    if (!validation.ok) {
+      console.warn(
+        '[generate-exercises] Zod envelope:',
+        validation.errors.map((e) => `${e.id}: ${e.issues.join('; ')}`).join(' || '),
+      );
+    }
+    return NextResponse.json({ exercises: zodExercises, validation });
   } catch (error: any) {
     console.error('Generate exercises error:', error);
     return NextResponse.json({ error: error.message || 'Internal error' }, { status: 500 });

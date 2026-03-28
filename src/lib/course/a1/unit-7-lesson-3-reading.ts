@@ -8,7 +8,7 @@ import { Exercise } from '@/lib/exercise-generator';
 const LESSON_TITLE = 'Comprensión lectora';
 const TOPIC = 'Colors & Physical Descriptions';
 
-const READING_TRANSCRIPT = `[[Can|Puedes]] [[you|tú]] [[describe|describir]] [[your|tu]] [[best|mejor]] [[friend|amigo]]? [[Sure|Claro]]! [[She|Ella]] [[is|es]] [[tall|alta]] [[with|con]] [[long|largo]] [[brown|castaño]] [[hair|pelo]]. [[What|De qué]] [[color|color]] [[are|son]] [[her|sus]] [[eyes|ojos]]? [[Her|Sus]] [[eyes|ojos]] [[are|son]] [[green|verdes]]. [[She|Ella]] [[is|es]] [[very|muy]] [[beautiful|hermosa]]. [[How|Cuántos]] [[old|años]] [[is|tiene]] [[she|ella]]? [[She|Ella]] [[is|es]] [[young|joven]] — [[only|solo]] [[twenty|veinte]] [[years|años]] [[old|de edad]].`;
+const READING_TRANSCRIPT = `[[Can|Puedes]] [[you|tú]] [[describe|describir]] [[your|tu]] [[best|mejor]] [[friend|amigo]]? [[Sure|Claro]]! [[She|Ella]] [[is|es]] [[tall|alta]] [[with|con]] [[long|largo]] [[brown|castaño]] [[hair|pelo]]. [[What|De qué]] [[color|color]] [[are|son]] [[her|sus]] [[eyes|ojos]]? [[Her|Sus]] [[eyes|ojos]] [[are|son]] [[green|verdes]]. [[She|Ella]] [[is|es]] [[very|muy]] [[beautiful|hermosa]]. [[How old is she?|¿Cuántos años tiene ella?]] [[She|Ella]] [[is|es]] [[young|joven]] — [[only|solo]] [[twenty|veinte]] [[years|años]] [[old|de edad]].`;
 
 const INSTRUCTIONS = 'Lee el texto. Después contesta cada pregunta.';
 
@@ -81,7 +81,7 @@ export const UNIT_7_LESSON_3_READING: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS,
       questions: [{
-        question: '[[How|Cuántos]] [[old|años]] [[is|tiene]] [[the|la]] [[friend|amiga]]?',
+        question: '[[How old is the friend?|¿Cuántos años tiene la amiga?]]',
         options: ['[[thirty|treinta]]', '[[twenty|veinte]]', '[[eighteen|dieciocho]]'],
         correctAnswer: 1,
         explanation: 'She is only twenty years old.',

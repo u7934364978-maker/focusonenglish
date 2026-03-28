@@ -137,7 +137,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[How|Cuántos]] [[old|años]] [[is|tiene]] [[Luca|Luca]]?',
+          question: '[[How old is Luca?|¿Cuántos años tiene Luca?]]',
           options: ['[[nineteen|diecinueve]]', '[[twenty|veinte]]', '[[twenty-one|veintiuno]]', '[[twenty-two|veintidós]]'],
           correctAnswer: 2,
           explanation: '[[The|La]] [[transcript|transcripción]] [[says|dice]] "[[Luca is twenty-one years old|Luca tiene veintiún años]]".',
@@ -159,7 +159,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[How|Cuántos]] [[old|años]] [[is|tiene]] [[Anna|Ana]]?',
+          question: '[[How old is Ana?|¿Cuántos años tiene Ana?]]',
           options: ['[[eighteen|dieciocho]]', '[[nineteen|diecinueve]]', '[[twenty|veinte]]', '[[twenty-one|veintiuno]]'],
           correctAnswer: 2,
           explanation: '[[She|Ella]] [[says|dice]] "[[I am twenty years old|Tengo veinte años]]".',

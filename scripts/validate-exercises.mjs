@@ -3,6 +3,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { runCourseExerciseZodValidation } from './zod-runner.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -262,9 +263,7 @@ async function main() {
   if (errors.length === 0) {
     console.log('\n✅ All exercises are valid!');
     console.log('   All exercises have proper statements (title, instructions, prompt, or question)');
-    process.exit(0);
-  }
-  
+  } else {
   const errorsByFile = {};
   errors.forEach(error => {
     if (!errorsByFile[error.file]) {
@@ -307,18 +306,27 @@ async function main() {
       console.log(`\n   ... and ${exerciseIds.length - maxDisplay} more exercises with issues`);
     }
   });
-  
+  }
+
   console.log('\n' + '='.repeat(80));
-  
+
+  console.log('\n--- Zod: envelope courseExerciseSchema (src/lib/validation) ---\n');
+  const zodExit = runCourseExerciseZodValidation();
+
   if (errorCount > 0) {
     console.log('\n❌ Validation failed: Found exercises with missing statements or critical errors');
     console.log('   Action required: Fix the errors listed above');
     process.exit(1);
-  } else {
+  }
+  if (zodExit !== 0) {
+    console.log('\n❌ Falló la validación Zod del envelope de ejercicios');
+    process.exit(1);
+  }
+  if (warningCount > 0) {
     console.log('\n⚠️  Validation completed with warnings only');
     console.log('   Warnings should be reviewed but do not prevent deployment');
-    process.exit(0);
   }
+  process.exit(0);
 }
 
 main().catch(error => {

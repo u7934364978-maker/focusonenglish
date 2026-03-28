@@ -47,7 +47,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Escucha y repite en voz alta.',
-      targetText: '[[I|Yo]] [[am|tengo]] [[twenty-five|veinticinco]] [[years|años]] [[old|de edad]].',
+      targetText: '[[I am twenty-five years old.|Tengo veinticinco años.]]',
       expectedResponse: 'I am twenty-five years old.',
     },
     topicName: 'Speaking',
@@ -163,7 +163,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Responde la pregunta en voz alta.',
-      targetText: '[[Are|Eres]] [[you|tú]] [[twenty|veinte]] [[years|años]] [[old|de edad]]?',
+      targetText: '[[Are you twenty years old?|¿Tienes veinte años?]]',
       expectedResponse: 'Yes, I am. / No, I am not.',
     },
     topicName: 'Speaking',
@@ -192,8 +192,8 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Di en voz alta cuántos años tienes. Modelo: "[[I|Yo]] [[am|tengo]] … [[years|años]] [[old|de edad]]."',
-      targetText: '[[I|Yo]] [[am|tengo]] ____ [[years|años]] [[old|de edad]].',
+      instructions: 'Di en voz alta cuántos años tienes. Modelo en inglés: **I am** + número + **years old** (equivalente a *Tengo … años*).',
+      targetText: '[[I am ____ years old.|Tengo ____ años.]]',
       expectedResponse: 'I am [number] years old.',
     },
     topicName: 'Speaking',
@@ -221,7 +221,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Haz una breve presentación en 3 o 4 frases. Incluye: nombre, edad, ciudad o país y profesión o estudiante.',
-      targetText: '[[My|Mi]] [[name|nombre]] [[is|es]] … [[I|Yo]] [[am|tengo]] … [[years|años]] [[old|de edad]]. [[I|Yo]] [[am|soy]] [[from|de]] … [[I|Yo]] [[am|soy]] [[a|un/una]] …',
+      targetText: '[[My name is … I am … years old. I am from … I am a …|Me llamo… Tengo… años. Soy de… Soy…]]',
       expectedResponse: 'My name is [X]. I am [N] years old. I am from [place]. I am a [student/teacher/...].',
     },
     topicName: 'Speaking',
