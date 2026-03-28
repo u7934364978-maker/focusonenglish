@@ -335,19 +335,10 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
     }
   };
 
+  /** Voz del modelo: siempre Cloudflare AI (Aura) vía `/api/tts`, no MP3 locales. */
   const playModelAudio = () => {
     const text = question.expectedResponse || question.prompt;
-    const raw = question.modelAudioUrl?.trim();
-    const staticUrl =
-      raw && (raw.startsWith('http') || raw.startsWith('blob:'))
-        ? raw
-        : raw
-          ? raw.startsWith('/')
-            ? raw
-            : `/${raw}`
-          : null;
 
-    // Pausar reproducción del modelo (MP3 estático o TTS).
     if (isPlayingModel) {
       if (modelAudioRef.current) {
         modelAudioRef.current.pause();
@@ -361,8 +352,9 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
       }
     }
 
-    const playWithCloudflareTTS = async () => {
-      if (!text) return;
+    if (!text) return;
+
+    void (async () => {
       if (isGeneratingModelAudio) return;
       setIsGeneratingModelAudio(true);
       try {
@@ -392,49 +384,6 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
         setIsPlayingModel(false);
         setIsGeneratingModelAudio(false);
       }
-    };
-
-    const playStaticMp3 = async (): Promise<boolean> => {
-      if (!staticUrl) return false;
-      try {
-        if (modelCloudflareAudioRef.current) {
-          modelCloudflareAudioRef.current.pause();
-          modelCloudflareAudioRef.current = null;
-        }
-        if (modelCloudflareBlobUrl) {
-          URL.revokeObjectURL(modelCloudflareBlobUrl);
-          setModelCloudflareBlobUrl(null);
-        }
-        const audio = new Audio(staticUrl);
-        modelCloudflareAudioRef.current = audio;
-        audio.onended = () => {
-          setIsPlayingModel(false);
-          modelCloudflareAudioRef.current = null;
-        };
-        audio.onerror = () => {
-          setIsPlayingModel(false);
-          modelCloudflareAudioRef.current = null;
-        };
-        await audio.play();
-        setIsPlayingModel(true);
-        return true;
-      } catch (e) {
-        console.warn('Modelo MP3 no disponible, se usará TTS si hay texto.', e);
-        setIsPlayingModel(false);
-        modelCloudflareAudioRef.current = null;
-        return false;
-      }
-    };
-
-    void (async () => {
-      if (staticUrl) {
-        const ok = await playStaticMp3();
-        if (ok) return;
-        await playWithCloudflareTTS();
-        return;
-      }
-      if (!text) return;
-      await playWithCloudflareTTS();
     })();
   };
 
@@ -520,7 +469,7 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
             </div>
           </div>
           
-          {(question.modelAudioUrl || question.expectedResponse) && (
+          {(question.expectedResponse || question.prompt) && (
             <div className="flex items-center gap-3">
               <button
                 onClick={playModelAudio}

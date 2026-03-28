@@ -629,13 +629,11 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       (typeof firstSpeakQ?.targetPhrase === 'string' && firstSpeakQ.targetPhrase.trim()) ||
       (typeof firstSpeakQ?.question === 'string' && firstSpeakQ.question.trim()) ||
       '';
-    const staticModelUrl = resolvePublicAudioUrl(exercise.audioUrl || exerciseContent.audioUrl);
     const pronunciationQuestion = {
       id: exercise.id,
       prompt: exerciseContent.instructions || 'Repite la frase.',
       expectedResponse:
         exerciseContent.expectedResponse || exercise.transcript || phraseFromNested,
-      modelAudioUrl: staticModelUrl || undefined,
       hints: exerciseContent.evaluationCriteria || []
     };
 
