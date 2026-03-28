@@ -5,6 +5,8 @@ import { Clock, Zap, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import { UnitMetadata } from '@/types/premium-course';
 import { trackUnitCardClick } from '@/lib/analytics';
+import { bilingualTitleEnglishPrimary, bilingualTitleForSearch } from '@/lib/utils/bilingual-title';
+import { TranslatedText } from '@/components/course/exercises/TranslatedText';
 
 interface UnitCardProps {
   unit: UnitMetadata;
@@ -91,7 +93,7 @@ const TOPIC_EMOJIS: Record<string, string> = {
 };
 
 function getUnitEmoji(unit: UnitMetadata): string {
-  const search = [unit.title, ...(unit.topics || [])].join(' ').toLowerCase();
+  const search = [bilingualTitleForSearch(unit.title), ...(unit.topics || [])].join(' ').toLowerCase();
   for (const [key, emoji] of Object.entries(TOPIC_EMOJIS)) {
     if (search.includes(key)) return emoji;
   }
@@ -135,7 +137,7 @@ export function UnitCard({ unit, coursePath = '/curso-a1' }: UnitCardProps) {
       <div className="flex flex-col flex-1 p-5 pt-4">
         {/* Title */}
         <h3 className={`font-display text-base font-bold text-slate-900 leading-snug tracking-tight group-hover:${theme.text} transition-colors line-clamp-2 mb-3`}>
-          {unit.title}
+          <TranslatedText text={unit.title} />
         </h3>
 
         {/* Topic chips */}
@@ -175,7 +177,7 @@ export function UnitCard({ unit, coursePath = '/curso-a1' }: UnitCardProps) {
           prefetch
           onClick={handleCardClick}
           className={`flex items-center justify-center gap-2 px-4 py-3 rounded-2xl font-bold text-sm border-2 transition-all duration-200 ${theme.chip} group-hover:bg-gradient-to-r group-hover:${theme.gradient} group-hover:text-white group-hover:border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2`}
-          aria-label={`Practicar ${unit.title}`}
+          aria-label={`Practicar ${bilingualTitleEnglishPrimary(unit.title)}`}
         >
           <span>Practicar</span>
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

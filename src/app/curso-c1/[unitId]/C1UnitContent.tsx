@@ -14,6 +14,13 @@ import {
   shouldShowSixLessonCompleteInterstitial,
   SIX_LESSON_LABEL_ES_C1,
 } from '@/lib/course/six-lesson-layout';
+import { TranslatedText } from '@/components/course/exercises/TranslatedText';
+
+/** Título de unidad sin marcadores [[en|es]] (p. ej. prompts de IA). */
+function plainUnitTitle(title: string): string {
+  const m = title.match(/^\[\[([^|]+)\|[^\]]+\]\]$/);
+  return m ? m[1].trim() : title;
+}
 
 function C1UnitContentInner() {
   const params = useParams();
@@ -160,7 +167,7 @@ function C1UnitContentInner() {
           </div>
           <AIExercisePractice
             courseLevel="C1"
-            mainTopic={unitTitle || 'Advanced English'}
+            mainTopic={plainUnitTitle(unitTitle) || 'Advanced English'}
             onExercisesReady={handleAIPracticeReady}
           />
           <a href="/curso-c1" className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-xl hover:bg-slate-800 transition-all shadow-xl flex items-center justify-center gap-3 transform hover:scale-[1.02] active:scale-95">
@@ -207,7 +214,7 @@ function C1UnitContentInner() {
             <Home className="w-6 h-6 text-slate-600" />
           </Link>
           <h1 className="font-black text-xl text-slate-800 uppercase tracking-tight">
-            C1: {unitTitle}
+            C1: <TranslatedText text={unitTitle || 'C1'} />
             <span className="ml-4 text-slate-400 font-medium text-sm">
               Lección {lessonNumber} de {totalPedagogicalLessons} · {lessonLabelEs} · Ejercicio {exerciseInLesson}{' '}
               de {exercisesInThisLesson}

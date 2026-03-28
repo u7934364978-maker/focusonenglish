@@ -7,6 +7,7 @@ import { UnitCard } from './UnitCard';
 import { ModuleGroup } from './ModuleGroup';
 import { LazyUnitGrid } from './LazyUnitGrid';
 import { groupUnitsIntoModules } from '@/lib/utils/module-grouping';
+import { bilingualTitleForSearch } from '@/lib/utils/bilingual-title';
 import { trackA1PreviewLanding, trackFilterUsage, trackViewModeToggle } from '@/lib/analytics';
 
 interface A1CourseSelectorProps {
@@ -58,7 +59,7 @@ export function A1CourseSelector({ units, courseId }: A1CourseSelectorProps) {
       const query = searchQuery.toLowerCase().trim();
       filtered = filtered.filter(unit => {
         const matchesNumber = unit.unitNumber.toString().includes(query);
-        const matchesTitle = unit.title.toLowerCase().includes(query);
+        const matchesTitle = bilingualTitleForSearch(unit.title).toLowerCase().includes(query);
         const matchesUnitId = unit.unitId.toLowerCase().includes(query);
         
         return matchesNumber || matchesTitle || matchesUnitId;
