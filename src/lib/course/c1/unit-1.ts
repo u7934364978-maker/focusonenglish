@@ -749,7 +749,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Read the extract and choose the best answer.|Lee el extracto y elige la mejor respuesta.]]",
       questions: [
         {
-          question: "[[Text:|Texto:]] \"Our self-concept is actively constructed through social interaction and cultural narratives, not merely 'discovered' in isolation.\"\n\n[[According to the extract:|Según el extracto:]]",
+          question: "[[Text:|Texto:]] \"[[Our self-concept is actively constructed through social interaction and cultural narratives, not merely 'discovered' in isolation.|Nuestro autoconcepto se construye activamente mediante la interacción social y las narrativas culturales; no basta con «descubrirlo» en el aislamiento.]]\"\n\n[[According to the extract:|Según el extracto:]]",
           options: ["[[It is formed through social and cultural influences.|Se forma por influencias sociales y culturales.]]", "[[It is fixed at adolescence.|Fija en la adolescencia.]]", "[[It ignores other people.|Ignora a otras personas.]]"],
           correctAnswer: 0,
           explanation: "The text stresses *constructed* via interaction and narratives.",
@@ -769,7 +769,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Read the extract and choose the best answer.|Lee el extracto y elige la mejor respuesta.]]",
       questions: [
         {
-          question: "[[Text:|Texto:]] \"Goffman likened everyday life to theatre: we perform roles calibrated to each audience.\"\n\n[[According to the extract:|Según el extracto:]]",
+          question: "[[Text:|Texto:]] \"[[Goffman likened everyday life to theatre: we perform roles calibrated to each audience.|Goffman comparó la vida cotidiana con el teatro: interpretamos papeles ajustados a cada audiencia.]]\"\n\n[[According to the extract:|Según el extracto:]]",
           options: ["[[Self-presentation varies by context.|La autopresentación varía según el contexto.]]", "[[We have only one static identity.|Solo hay una identidad estática.]]", "[[Audiences are irrelevant.|El público es irrelevante.]]"],
           correctAnswer: 0,
           explanation: "Performance metaphor → contextual variation.",
@@ -789,7 +789,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Read the extract and choose the best answer.|Lee el extracto y elige la mejor respuesta.]]",
       questions: [
         {
-          question: "[[Text:|Texto:]] \"Narrative identity theory holds that people integrate life events into a revisable life story.\"\n\n[[According to the extract:|Según el extracto:]]",
+          question: "[[Text:|Texto:]] \"[[Narrative identity theory holds that people integrate life events into a revisable life story.|La teoría de la identidad narrativa sostiene que las personas integran los acontecimientos vitales en una historia de vida revisable.]]\"\n\n[[According to the extract:|Según el extracto:]]",
           options: ["[[The story of self can change with new experiences.|La historia del yo puede cambiar.]]", "[[The story is sealed at age thirty.|La historia se cierra a los 30.]]", "[[Events should not be integrated.|Los eventos no deben integrarse.]]"],
           correctAnswer: 0,
           explanation: "*Revisable* implies change over time.",
@@ -809,7 +809,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Read the extract and choose the best answer.|Lee el extracto y elige la mejor respuesta.]]",
       questions: [
         {
-          question: "[[Text:|Texto:]] \"Self-concept clarity — a stable, well-defined sense of who one is — correlates with resilience.\"\n\n[[According to the extract:|Según el extracto:]]",
+          question: "[[Text:|Texto:]] \"[[Self-concept clarity — a stable, well-defined sense of who one is — correlates with resilience.|La claridad del autoconcepto —un sentido estable y definido de quién es uno— se correlaciona con la resiliencia.]]\"\n\n[[According to the extract:|Según el extracto:]]",
           options: ["[[Clear self-knowledge links to coping well with setbacks.|Claridad identitaria y afrontamiento.]]", "[[Clarity removes all emotions.|La claridad elimina emociones.]]", "[[Resilience means avoiding relationships.|Resiliencia evita relaciones.]]"],
           correctAnswer: 0,
           explanation: "Clarity supports resilience according to the extract.",
@@ -829,7 +829,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Read the extract and choose the best answer.|Lee el extracto y elige la mejor respuesta.]]",
       questions: [
         {
-          question: "[[Text:|Texto:]] \"Curated selfies and algorithmic feedback may amplify social comparison and self-doubt.\"\n\n[[According to the extract:|Según el extracto:]]",
+          question: "[[Text:|Texto:]] \"[[Curated selfies and algorithmic feedback may amplify social comparison and self-doubt.|Los selfies seleccionados y la retroalimentación algorítmica pueden amplificar la comparación social y la autoduda.]]\"\n\n[[According to the extract:|Según el extracto:]]",
           options: ["[[Online presentation can worsen comparative self-evaluation.|La presentación online puede empeorar la comparación.]]", "[[Algorithms always improve wellbeing.|Los algoritmos siempre mejoran el bienestar.]]", "[[Selfies have no psychological effects.|Los selfies no tienen efectos.]]"],
           correctAnswer: 0,
           explanation: "Critical view: *amplify comparison and doubt*.",
@@ -849,7 +849,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Read the extract and choose the best answer.|Lee el extracto y elige la mejor respuesta.]]",
       questions: [
         {
-          question: "[[Text:|Texto:]] \"Authenticity is often framed as alignment between values and behaviour, not rigid consistency in every role.\"\n\n[[According to the extract:|Según el extracto:]]",
+          question: "[[Text:|Texto:]] \"[[Authenticity is often framed as alignment between values and behaviour, not rigid consistency in every role.|A menudo se entiende la autenticidad como alineación entre valores y conducta, no como rigidez en cada papel.]]\"\n\n[[According to the extract:|Según el extracto:]]",
           options: ["[[Values-behaviour fit matters more than identical behaviour everywhere.|Encaje valores-comportamiento.]]", "[[Authentic people never adapt to context.|Nunca adaptarse.]]", "[[Roles should be abandoned.|Hay que abandonar roles.]]"],
           correctAnswer: 0,
           explanation: "Nuanced definition of authenticity.",
@@ -869,7 +869,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Read the extract and choose the best answer.|Lee el extracto y elige la mejor respuesta.]]",
       questions: [
         {
-          question: "[[Text:|Texto:]] \"Upward comparison can motivate improvement but undermine self-worth when contextual factors are ignored.\"\n\n[[According to the extract:|Según el extracto:]]",
+          question: "[[Text:|Texto:]] \"[[Upward comparison can motivate improvement but undermine self-worth when contextual factors are ignored.|La comparación ascendente puede motivar la mejora, pero socavar la autoestima si se ignoran factores contextuales.]]\"\n\n[[According to the extract:|Según el extracto:]]",
           options: ["[[It is double-edged: motivation versus self-esteem risk.|De doble filo.]]", "[[It is always beneficial.|Siempre beneficioso.]]", "[[It removes ambition.|Elimina ambición.]]"],
           correctAnswer: 0,
           explanation: "Both benefits and risks are named.",
@@ -889,7 +889,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Read the extract and choose the best answer.|Lee el extracto y elige la mejor respuesta.]]",
       questions: [
         {
-          question: "[[Text:|Texto:]] \"Impostor feelings are common among high achievers who attribute success to luck rather than ability.\"\n\n[[According to the extract:|Según el extracto:]]",
+          question: "[[Text:|Texto:]] \"[[Impostor feelings are common among high achievers who attribute success to luck rather than ability.|Los sentimientos de impostor son frecuentes entre personas de alto rendimiento que atribuyen el éxito a la suerte y no a la capacidad.]]\"\n\n[[According to the extract:|Según el extracto:]]",
           options: ["[[Success can feel undeserved even when evidence is strong.|Éxito percibido como no merecido.]]", "[[Only incompetent people doubt themselves.|Solo los incompetentes dudan.]]", "[[Luck never plays a role in careers.|El azar no influye.]]"],
           correctAnswer: 0,
           explanation: "Impostor phenomenon description.",
@@ -909,7 +909,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Read the extract and choose the best answer.|Lee el extracto y elige la mejor respuesta.]]",
       questions: [
         {
-          question: "[[Text:|Texto:]] \"Belonging cues from peers can buffer stress during identity exploration in emerging adulthood.\"\n\n[[According to the extract:|Según el extracto:]]",
+          question: "[[Text:|Texto:]] \"[[Belonging cues from peers can buffer stress during identity exploration in emerging adulthood.|Las señales de pertenencia entre los iguales pueden amortiguar el estrés durante la exploración identitaria en la adultez emergente.]]\"\n\n[[According to the extract:|Según el extracto:]]",
           options: ["[[Social acceptance supports stress regulation during identity work.|Aceptación social amortigua estrés.]]", "[[Peers always increase stress.|Los pares siempre aumentan estrés.]]", "[[Exploration should be avoided.|Hay que evitar explorar.]]"],
           correctAnswer: 0,
           explanation: "*Buffer* = protective effect.",
@@ -929,7 +929,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Read the extract and choose the best answer.|Lee el extracto y elige la mejor respuesta.]]",
       questions: [
         {
-          question: "[[Text:|Texto:]] \"Minimal self-views emphasise continuity of consciousness rather than narrative richness.\"\n\n[[According to the extract:|Según el extracto:]]",
+          question: "[[Text:|Texto:]] \"[[Minimal self-views emphasise continuity of consciousness rather than narrative richness.|Las visiones mínimas del yo enfatizan la continuidad de la conciencia más que la riqueza narrativa.]]\"\n\n[[According to the extract:|Según el extracto:]]",
           options: ["[[Some models prioritise bare continuity over elaborate stories.|Continuidad vs narrativa elaborada.]]", "[[Narrative richness is the only valid model.|Solo vale la narrativa rica.]]", "[[Consciousness is irrelevant to identity.|La conciencia es irrelevante.]]"],
           correctAnswer: 0,
           explanation: "Contrast with narrative approaches.",
@@ -949,7 +949,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Read the extract and choose the best answer.|Lee el extracto y elige la mejor respuesta.]]",
       questions: [
         {
-          question: "[[Text:|Texto:]] \"Cultural norms prescribe which identity claims are legitimate or taboo in public discourse.\"\n\n[[According to the extract:|Según el extracto:]]",
+          question: "[[Text:|Texto:]] \"[[Cultural norms prescribe which identity claims are legitimate or taboo in public discourse.|Las normas culturales prescriben qué reivindicaciones identitarias son legítimas o tabú en el discurso público.]]\"\n\n[[According to the extract:|Según el extracto:]]",
           options: ["[[Legitimacy of identity claims is culturally regulated.|Regulación cultural de reclamaciones identitarias.]]", "[[All cultures treat identity identically.|Todas las culturas igual.]]", "[[Public discourse ignores identity.|El discurso público ignora la identidad.]]"],
           correctAnswer: 0,
           explanation: "Normative dimension of identity.",
@@ -969,7 +969,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Read the extract and choose the best answer.|Lee el extracto y elige la mejor respuesta.]]",
       questions: [
         {
-          question: "[[Text:|Texto:]] \"Intersectionality highlights that gender, class and ethnicity jointly shape self-understanding.\"\n\n[[According to the extract:|Según el extracto:]]",
+          question: "[[Text:|Texto:]] \"[[Intersectionality highlights that gender, class and ethnicity jointly shape self-understanding.|La interseccionalidad destaca que género, clase y etnia moldean conjuntamente la autocomprensión.]]\"\n\n[[According to the extract:|Según el extracto:]]",
           options: ["[[Axes of identity interact rather than add up simply.|Intersección de ejes.]]", "[[Only one axis matters at a time.|Solo un eje importa.]]", "[[Class erases ethnicity.|La clase borra etnia.]]"],
           correctAnswer: 0,
           explanation: "Joint shaping = intersectionality.",
@@ -989,7 +989,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Read the extract and choose the best answer.|Lee el extracto y elige la mejor respuesta.]]",
       questions: [
         {
-          question: "[[Text:|Texto:]] \"Defensive self-enhancement protects esteem but can block corrective feedback.\"\n\n[[According to the extract:|Según el extracto:]]",
+          question: "[[Text:|Texto:]] \"[[Defensive self-enhancement protects esteem but can block corrective feedback.|La autoexaltación defensiva protege la autoestima, pero puede bloquear la retroalimentación correctiva.]]\"\n\n[[According to the extract:|Según el extracto:]]",
           options: ["[[Self-protection trades off against openness to critique.|Protección vs apertura al feedback.]]", "[[Feedback is never useful.|El feedback nunca sirve.]]", "[[Esteem should be abandoned.|Hay que abandonar la autoestima.]]"],
           correctAnswer: 0,
           explanation: "Trade-off in the extract.",
@@ -1009,7 +1009,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Read the extract and choose the best answer.|Lee el extracto y elige la mejor respuesta.]]",
       questions: [
         {
-          question: "[[Text:|Texto:]] \"Identity plurality acknowledges multiple coherent selves across communities without pathology.\"\n\n[[According to the extract:|Según el extracto:]]",
+          question: "[[Text:|Texto:]] \"[[Identity plurality acknowledges multiple coherent selves across communities without pathology.|La pluralidad identitaria reconoce múltiples yos coherentes en distintas comunidades sin patología.]]\"\n\n[[According to the extract:|Según el extracto:]]",
           options: ["[[Multiple situated selves need not imply disorder.|Pluralidad sin patología.]]", "[[Multiple selves are always pathological.|Siempre patológico.]]", "[[Communities erase individuality.|Las comunidades borran individualidad.]]"],
           correctAnswer: 0,
           explanation: "*Without pathology* is key.",
@@ -1029,7 +1029,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Read the extract and choose the best answer.|Lee el extracto y elige la mejor respuesta.]]",
       questions: [
         {
-          question: "[[Text:|Texto:]] \"Temporal comparison can foster growth when prior setbacks are framed as learning.\"\n\n[[According to the extract:|Según el extracto:]]",
+          question: "[[Text:|Texto:]] \"[[Temporal comparison can foster growth when prior setbacks are framed as learning.|La comparación temporal puede fomentar el crecimiento cuando los reveses previos se enmarcan como aprendizaje.]]\"\n\n[[According to the extract:|Según el extracto:]]",
           options: ["[[Reframing the past can support development.|Reencuadre del pasado.]]", "[[Past failures must be denied.|Hay que negar fracasos.]]", "[[Learning from the past is impossible.|No se puede aprender.]]"],
           correctAnswer: 0,
           explanation: "Framing matters for growth.",
@@ -1049,7 +1049,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Read the extract and choose the best answer.|Lee el extracto y elige la mejor respuesta.]]",
       questions: [
         {
-          question: "[[Text:|Texto:]] \"Stereotype threat can undermine performance on tasks framed as diagnostic of ability.\"\n\n[[According to the extract:|Según el extracto:]]",
+          question: "[[Text:|Texto:]] \"[[Stereotype threat can undermine performance on tasks framed as diagnostic of ability.|La amenaza del estereotipo puede mermar el rendimiento en tareas enmarcadas como diagnósticas de la capacidad.]]\"\n\n[[According to the extract:|Según el extracto:]]",
           options: ["[[Situational framing can trigger anxiety linked to stereotypes.|Amenaza del estereotipo situacional.]]", "[[Stereotypes never affect performance.|Los estereotipos no afectan.]]", "[[Diagnostic tasks are always fair.|Siempre justas.]]"],
           correctAnswer: 0,
           explanation: "Classic social-psychology idea.",
@@ -1069,7 +1069,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Read the extract and choose the best answer.|Lee el extracto y elige la mejor respuesta.]]",
       questions: [
         {
-          question: "[[Text:|Texto:]] \"Self-compassion treats setbacks with kindness rather than harsh self-criticism.\"\n\n[[According to the extract:|Según el extracto:]]",
+          question: "[[Text:|Texto:]] \"[[Self-compassion treats setbacks with kindness rather than harsh self-criticism.|La autocompasión aborda los contratiempos con amabilidad en lugar de autocrítica severa.]]\"\n\n[[According to the extract:|Según el extracto:]]",
           options: ["[[A gentler internal stance toward failure is advocated.|Autocompasión frente al fracaso.]]", "[[Harsh criticism is always best.|La crítica dura siempre es mejor.]]", "[[Setbacks should be ignored.|Hay que ignorar fracasos.]]"],
           correctAnswer: 0,
           explanation: "*Kindness vs harsh criticism*.",
@@ -1089,7 +1089,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Read the extract and choose the best answer.|Lee el extracto y elige la mejor respuesta.]]",
       questions: [
         {
-          question: "[[Text:|Texto:]] \"Identity work continues across the lifespan as roles and commitments evolve.\"\n\n[[According to the extract:|Según el extracto:]]",
+          question: "[[Text:|Texto:]] \"[[Identity work continues across the lifespan as roles and commitments evolve.|El trabajo identitario continúa a lo largo del ciclo vital a medida que evolucionan los roles y los compromisos.]]\"\n\n[[According to the extract:|Según el extracto:]]",
           options: ["[[Identity is an ongoing process, not a one-off achievement.|Proceso continuo.]]", "[[Identity stabilises fully at twenty-five.|Se estabiliza a los 25.]]", "[[Roles never change.|Los roles no cambian.]]"],
           correctAnswer: 0,
           explanation: "*Continues across the lifespan*.",
@@ -1109,7 +1109,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Listen to the extract (read the script if no audio) and answer.|Escucha el extracto (lee el guión si no hay audio) y responde.]]",
       questions: [
         {
-          question: "[[Speaker:|Voz / Hablante:]] \"People with clearer self-concepts often rebound faster after major life stressors.\"\n\n[[The speaker links clarity to:|La voz relaciona la claridad del autoconcepto con:]]",
+          question: "[[Speaker:|Voz / Hablante:]] \"[[People with clearer self-concepts often rebound faster after major life stressors.|Las personas con un autoconcepto más claro a menudo se recuperan antes tras grandes factores estresantes de la vida.]]\"\n\n[[The speaker links clarity to:|La voz relaciona la claridad del autoconcepto con:]]",
           options: ["[[resilience after adversity|resiliencia tras adversidad]]", "[[higher income|mayores ingresos]]", "[[shorter sleep|menos sueño]]"],
           correctAnswer: 0,
           explanation: "Rebound = resilience.",
@@ -1129,7 +1129,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Listen to the extract (read the script if no audio) and answer.|Escucha el extracto (lee el guión si no hay audio) y responde.]]",
       questions: [
         {
-          question: "[[Speaker:|Voz / Hablante:]] \"A turning point narrative marks when someone felt they 'became who they really were'.\"\n\n[[The focus is:|El foco de la intervención es:]]",
+          question: "[[Speaker:|Voz / Hablante:]] \"[[A turning point narrative marks when someone felt they 'became who they really were'.|Una narrativa de punto de inflexión marca cuando alguien sintió que «se volvió quien realmente era».]]\"\n\n[[The focus is:|El foco de la intervención es:]]",
           options: ["[[biographical moments that redefine identity|momentos que redefinen identidad]]", "[[forgetting the past|olvidar el pasado]]", "[[avoiding all change|evitar cambio]]"],
           correctAnswer: 0,
           explanation: "*Turning point* stories.",
@@ -1149,7 +1149,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Listen to the extract (read the script if no audio) and answer.|Escucha el extracto (lee el guión si no hay audio) y responde.]]",
       questions: [
         {
-          question: "[[Lecturer:|Profesor/a (clase magistral):]] \"Upward comparison can erode self-esteem if we discount situational advantages.\"\n\n[[Main risk:|Principal riesgo:]]",
+          question: "[[Lecturer:|Profesor/a (clase magistral):]] \"[[Upward comparison can erode self-esteem if we discount situational advantages.|La comparación ascendente puede erosionar la autoestima si descontamos ventajas situacionales.]]\"\n\n[[Main risk:|Principal riesgo:]]",
           options: ["[[damaged self-worth when context is ignored|autoestima dañada sin contexto]]", "[[guaranteed motivation|motivación garantizada]]", "[[elimination of envy|eliminación de envidia]]"],
           correctAnswer: 0,
           explanation: "Matches upward comparison warning.",
@@ -1169,7 +1169,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Listen to the extract (read the script if no audio) and answer.|Escucha el extracto (lee el guión si no hay audio) y responde.]]",
       questions: [
         {
-          question: "[[Interviewer:|Entrevistador/a:]] \"Performative authenticity online can feel compulsory rather than liberating.\"\n\n[[The tone suggests:|El tono sugiere:]]",
+          question: "[[Interviewer:|Entrevistador/a:]] \"[[Performative authenticity online can feel compulsory rather than liberating.|La autenticidad performativa en línea puede resultar obligatoria más que liberadora.]]\"\n\n[[The tone suggests:|El tono sugiere:]]",
           options: ["[[pressure to appear authentic|presión por parecer auténtico]]", "[[total freedom online|libertad total]]", "[[authenticity is effortless|autenticidad sin esfuerzo]]"],
           correctAnswer: 0,
           explanation: "*Compulsory* implies pressure.",
@@ -1189,7 +1189,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Listen to the extract (read the script if no audio) and answer.|Escucha el extracto (lee el guión si no hay audio) y responde.]]",
       questions: [
         {
-          question: "[[Coach:|Coach:]] \"Name the emotion beneath the self-criticism — that step reduces rumination.\"\n\n[[The advice targets:|El consejo apunta a:]]",
+          question: "[[Coach:|Coach:]] \"[[Name the emotion beneath the self-criticism — that step reduces rumination.|Pon nombre a la emoción detrás de la autocrítica: ese paso reduce la rumiación.]]\"\n\n[[The advice targets:|El consejo apunta a:]]",
           options: ["[[metacognitive awareness of feelings|conciencia metacognitiva]]", "[[suppressing all emotions|suprimir emociones]]", "[[ignoring goals|ignorar metas]]"],
           correctAnswer: 0,
           explanation: "Labeling emotions → metacognition.",
@@ -1209,7 +1209,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Listen to the extract (read the script if no audio) and answer.|Escucha el extracto (lee el guión si no hay audio) y responde.]]",
       questions: [
         {
-          question: "[[Podcast host:|Presentador/a del podcast:]] \"Belonging isn't the same as fitting in — you can conform and still feel alone.\"\n\n[[Distinction:|Distinción que se pide:]]",
+          question: "[[Podcast host:|Presentador/a del podcast:]] \"[[Belonging isn't the same as fitting in — you can conform and still feel alone.|Pertenecer no es lo mismo que encajar: puedes ajustarte y sentirte solo.]]\"\n\n[[Distinction:|Distinción que se pide:]]",
           options: ["[[conformity without connection ≠ belonging|conformidad sin conexión]]", "[[fitting in always equals belonging|encajar siempre es pertenencia]]", "[[belonging requires uniformity|pertenencia exige uniformidad]]"],
           correctAnswer: 0,
           explanation: "Contrast *fitting in* vs *belonging*.",
@@ -1229,7 +1229,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Listen to the extract (read the script if no audio) and answer.|Escucha el extracto (lee el guión si no hay audio) y responde.]]",
       questions: [
         {
-          question: "[[Therapist:|Terapeuta:]] \"Values clarification exercises reduce decision paralysis tied to identity conflicts.\"\n\n[[Intended outcome:|Resultado pretendido:]]",
+          question: "[[Therapist:|Terapeuta:]] \"[[Values clarification exercises reduce decision paralysis tied to identity conflicts.|Los ejercicios de aclaración de valores reducen la parálisis decisional ligada a conflictos identitarios.]]\"\n\n[[Intended outcome:|Resultado pretendido:]]",
           options: ["[[more decisive action aligned with priorities|acción alineada con prioridades]]", "[[elimination of all values|eliminar valores]]", "[[permanent paralysis|parálisis permanente]]"],
           correctAnswer: 0,
           explanation: "Reduce paralysis → clearer decisions.",
@@ -1249,7 +1249,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Listen to the extract (read the script if no audio) and answer.|Escucha el extracto (lee el guión si no hay audio) y responde.]]",
       questions: [
         {
-          question: "[[Debate:|Debate:]] \"If identity is narrative, revision is a feature, not a failure.\"\n\n[[Speaker implies:|El hablante insinúa que:]]",
+          question: "[[Debate:|Debate:]] \"[[If identity is narrative, revision is a feature, not a failure.|Si la identidad es narrativa, la revisión es una característica, no un fallo.]]\"\n\n[[Speaker implies:|El hablante insinúa que:]]",
           options: ["[[changing your story can be healthy|Cambiar la historia puede ser sano]]", "[[revision means pathology|revisar es patología]]", "[[narratives must be static|narrativas estáticas]]"],
           correctAnswer: 0,
           explanation: "*Revision is a feature*.",
@@ -1269,7 +1269,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Listen to the extract (read the script if no audio) and answer.|Escucha el extracto (lee el guión si no hay audio) y responde.]]",
       questions: [
         {
-          question: "[[Seminar leader:|Moderador/a del seminario:]] \"Hedging claims about others' motives avoids unfair moralisation.\"\n\n[[Pedagogical aim:|Objetivo (registro académico):]]",
+          question: "[[Seminar leader:|Moderador/a del seminario:]] \"[[Hedging claims about others' motives avoids unfair moralisation.|Matizar las afirmaciones sobre las motivaciones ajenas evita una moralización injusta.]]\"\n\n[[Pedagogical aim:|Objetivo (registro académico):]]",
           options: ["[[epistemic humility in interpreting behaviour|humildad epistémica]]", "[[certain mind-reading|lectura segura de mentes]]", "[[moral condemnation|condena moral]]"],
           correctAnswer: 0,
           explanation: "Hedge interpretations of motives.",
@@ -1289,7 +1289,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Listen to the extract (read the script if no audio) and answer.|Escucha el extracto (lee el guión si no hay audio) y responde.]]",
       questions: [
         {
-          question: "[[Radio:|Radio:]] \"Impostor feelings spike after promotions because the reference group shifts.\"\n\n[[Explanation:|Qué explica el fragmento:]]",
+          question: "[[Radio:|Radio:]] \"[[Impostor feelings spike after promotions because the reference group shifts.|Los sentimientos de impostor se disparan tras los ascensos porque cambia el grupo de referencia.]]\"\n\n[[Explanation:|Qué explica el fragmento:]]",
           options: ["[[new peers reset comparison standards|nuevos estándares de comparación]]", "[[promotions remove doubt|los ascensos quitan dudas]]", "[[reference groups never change|grupos de referencia fijos]]"],
           correctAnswer: 0,
           explanation: "Reference group shift.",
@@ -1309,7 +1309,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Listen to the extract (read the script if no audio) and answer.|Escucha el extracto (lee el guión si no hay audio) y responde.]]",
       questions: [
         {
-          question: "[[Workshop:|Taller:]] \"Two-factor self-esteem models separate competence from worth.\"\n\n[[Conceptual point:|Punto conceptual:]]",
+          question: "[[Workshop:|Taller:]] \"[[Two-factor self-esteem models separate competence from worth.|Los modelos bifactoriales de autoestima separan la competencia del valor.]]\"\n\n[[Conceptual point:|Punto conceptual:]]",
           options: ["[[performance and global worth are distinguishable|competencia vs valor global]]", "[[competence equals worth always|competencia = valor siempre]]", "[[worth is irrelevant|el valor no importa]]"],
           correctAnswer: 0,
           explanation: "Distinction in models.",
@@ -1329,7 +1329,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Listen to the extract (read the script if no audio) and answer.|Escucha el extracto (lee el guión si no hay audio) y responde.]]",
       questions: [
         {
-          question: "[[Lecture:|Conferencia:]] \"Cultural tightness intensifies sanctioning of deviant self-presentations.\"\n\n[[Implication:|Implicación:]]",
+          question: "[[Lecture:|Conferencia:]] \"[[Cultural tightness intensifies sanctioning of deviant self-presentations.|La rigidez cultural intensifica la sanción de las autopresentaciones desviadas.]]\"\n\n[[Implication:|Implicación:]]",
           options: ["[[stricter norms constrain identity expression|normas más estrictas]]", "[[all cultures are equally loose|todas igual de laxas]]", "[[deviance is always rewarded|la desviación se premia]]"],
           correctAnswer: 0,
           explanation: "*Tight* cultures + sanctions.",
@@ -1349,7 +1349,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Listen to the extract (read the script if no audio) and answer.|Escucha el extracto (lee el guión si no hay audio) y responde.]]",
       questions: [
         {
-          question: "[[Clip:|Extracto de audio:]] \"Self-disclosure reciprocity builds trust faster than charisma alone.\"\n\n[[Mechanism:|Mecanismo:]]",
+          question: "[[Clip:|Extracto de audio:]] \"[[Self-disclosure reciprocity builds trust faster than charisma alone.|La reciprocidad en la autodevelación genera confianza más rápido que el carisma solo.]]\"\n\n[[Mechanism:|Mecanismo:]]",
           options: ["[[mutual vulnerability accelerates rapport|vulnerabilidad mutua]]", "[[charisma is harmful|carisma dañino]]", "[[disclosure never matters|la revelación no importa]]"],
           correctAnswer: 0,
           explanation: "Reciprocity of disclosure.",
@@ -1369,7 +1369,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Listen to the extract (read the script if no audio) and answer.|Escucha el extracto (lee el guión si no hay audio) y responde.]]",
       questions: [
         {
-          question: "[[Interview:|Entrevista:]] \"Identity fusion can explain extreme pro-group action.\"\n\n[[Key idea:|Idea clave:]]",
+          question: "[[Interview:|Entrevista:]] \"[[Identity fusion can explain extreme pro-group action.|La fusión identitaria puede explicar la acción extrema a favor del grupo.]]\"\n\n[[Key idea:|Idea clave:]]",
           options: ["[[blurred self-group boundaries|límites yo-grupo difusos]]", "[[complete independence from groups|independencia total]]", "[[fusion removes all empathy|sin empatía]]"],
           correctAnswer: 0,
           explanation: "Identity fusion concept.",
@@ -1389,7 +1389,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Listen to the extract (read the script if no audio) and answer.|Escucha el extracto (lee el guión si no hay audio) y responde.]]",
       questions: [
         {
-          question: "[[Panel:|Mesa redonda:]] \"Microaggressions accumulate, creating hostile clarity about belonging.\"\n\n[[Effect described:|Efecto descrito:]]",
+          question: "[[Panel:|Mesa redonda:]] \"[[Microaggressions accumulate, creating hostile clarity about belonging.|Las microagresiones se acumulan y generan una claridad hostil sobre la pertenencia.]]\"\n\n[[Effect described:|Efecto descrito:]]",
           options: ["[[cumulative cues signal unwelcome|cues acumulativas]]", "[[single events never matter|un solo evento no importa]]", "[[belonging is guaranteed|pertenencia garantizada]]"],
           correctAnswer: 0,
           explanation: "Cumulative harm.",
@@ -1409,7 +1409,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Listen to the extract (read the script if no audio) and answer.|Escucha el extracto (lee el guión si no hay audio) y responde.]]",
       questions: [
         {
-          question: "[[Talk:|Charla:]] \"Future possible selves motivate study habits when vivid and plausible.\"\n\n[[Condition:|Condición:]]",
+          question: "[[Talk:|Charla:]] \"[[Future possible selves motivate study habits when vivid and plausible.|Los yos posibles futuros motivan los hábitos de estudio cuando son vívidos y plausibles.]]\"\n\n[[Condition:|Condición:]]",
           options: ["[[vivid plausible future self-images|yo futuro vívido y plausible]]", "[[vague fears alone|solo miedos vagos]]", "[[avoiding any imagination|sin imaginación]]"],
           correctAnswer: 0,
           explanation: "Possible selves literature.",
@@ -1429,7 +1429,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Listen to the extract (read the script if no audio) and answer.|Escucha el extracto (lee el guión si no hay audio) y responde.]]",
       questions: [
         {
-          question: "[[Discussion:|Debate grupal:]] \"Labels can scaffold growth but also freeze self-stereotyping.\"\n\n[[Nuanced view:|Visión matizada:]]",
+          question: "[[Discussion:|Debate grupal:]] \"[[Labels can scaffold growth but also freeze self-stereotyping.|Las etiquetas pueden andamiar el crecimiento pero también cristalizar la autoestereotipación.]]\"\n\n[[Nuanced view:|Visión matizada:]]",
           options: ["[[labels have both enabling and limiting effects|efectos mixtos de etiquetas]]", "[[labels are always neutral|siempre neutras]]", "[[growth never needs labels|crecimiento sin etiquetas siempre]]"],
           correctAnswer: 0,
           explanation: "Both sides.",
@@ -1449,7 +1449,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       instructions: "[[Listen to the extract (read the script if no audio) and answer.|Escucha el extracto (lee el guión si no hay audio) y responde.]]",
       questions: [
         {
-          question: "[[Summary:|Resumen:]] \"Integration across minority identities can demand extra cognitive load daily.\"\n\n[[Point:|Idea que resume el fragmento:]]",
+          question: "[[Summary:|Resumen:]] \"[[Integration across minority identities can demand extra cognitive load daily.|Integrar identidades minoritarias puede exigir una carga cognitiva extra a diario.]]\"\n\n[[Point:|Idea que resume el fragmento:]]",
           options: ["[[navigating multiple stigmas is taxing|coste cognitivo de minorías múltiples]]", "[[identity is effortless for everyone|sin esfuerzo para todos]]", "[[cognitive load is mythical|carga cognitiva mítica]]"],
           correctAnswer: 0,
           explanation: "Minority stress / load.",

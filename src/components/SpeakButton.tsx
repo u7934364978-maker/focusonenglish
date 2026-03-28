@@ -2,13 +2,12 @@
 
 import { useRef, useState, useEffect, useCallback } from 'react';
 import { Volume2, Loader2, AlertCircle } from 'lucide-react';
+import { stripBilingualMarkersForSpeech } from '@/lib/utils/bilingual-title';
 
 function extractEnglish(text: string): string {
-  return text
-    .replace(/\[\[(.*?)\|(.*?)\]\]/g, '$1')
-    .replace(/\[\[(.*?)\]\]/g, '$1')
-    .replace(/[[\]]/g, '')
-    .trim();
+  let s = stripBilingualMarkersForSpeech(text);
+  s = s.replace(/\[\[(.*?)\]\]/g, '$1').replace(/[[\]]/g, '');
+  return s.trim();
 }
 
 export default function SpeakButton({

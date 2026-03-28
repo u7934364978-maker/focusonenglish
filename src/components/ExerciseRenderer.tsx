@@ -19,6 +19,7 @@ import { AudioPlayer } from './course/preview/AudioPlayer';
 import { resolveListeningScript } from '@/lib/listening-script';
 import { useGamification } from '@/lib/hooks/use-gamification';
 import SpeakButton from './SpeakButton';
+import { applyC1Unit1QuestionBilingual } from '@/lib/course/c1/c1-unit1-question-es';
 
 interface ExerciseRendererProps {
   exercise: Exercise;
@@ -304,6 +305,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   const OPTION_LETTERS = ['A', 'B', 'C', 'D', 'E', 'F'];
 
   const renderCurrentQuestion = (q: any, qIndex: number) => {
+    const rawQuestion = String(q.question || q.text || q.prompt || '');
+    const questionForUi = applyC1Unit1QuestionBilingual(exercise.id, rawQuestion);
     return (
       <div key={qIndex} className="space-y-4">
         {/* Image */}
@@ -320,10 +323,10 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         <div className={`relative pl-4 border-l-4 border-slate-300 rounded-r-sm mt-1 overflow-visible ${TRANSLATION_TOOLTIP_SPACING.blockWithTranslations}`}>
           <div className="flex items-start justify-between gap-2 mb-1">
             <p className="text-sm font-medium text-slate-500">Responde</p>
-            <SpeakButton text={q.question || q.text || q.prompt || ''} size="sm" />
+            <SpeakButton text={questionForUi} size="sm" />
           </div>
           <div className="text-lg md:text-xl text-slate-800 font-medium leading-snug">
-            <TranslatedText text={q.question || q.text || q.prompt} />
+            <TranslatedText text={questionForUi} />
           </div>
         </div>
 
