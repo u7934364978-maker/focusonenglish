@@ -12,6 +12,7 @@ export const UNIT_1_LESSON_4_LISTENING: Exercise[] = [
     "level": "B2",
     "topic": "Management",
     "difficulty": "medium",
+    "audioUrl": "/audio/courses/recepcionista-b2/unit-1/listening.mp3",
     "content": {
       "title": "Escucha: Gestión hotelera",
       "instructions": "[[Listen|Escucha]] [[to|a]] [[the|el]] [[audio|audio]] [[and|y]] [[answer|responde]] [[the|las]] [[questions|preguntas]].",

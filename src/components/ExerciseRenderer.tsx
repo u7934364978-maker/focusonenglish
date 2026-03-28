@@ -27,6 +27,11 @@ interface ExerciseRendererProps {
 
 const AUTO_ADVANCE_MS = 1400;
 
+function resolvePublicAudioUrl(url?: string | null): string {
+  if (!url) return '';
+  return url.startsWith('/') ? url : `/${url}`;
+}
+
 const TYPE_LABELS: Record<string, { label: string; icon: typeof BookOpen }> = {
   'multiple-choice': { label: 'Opción múltiple', icon: List },
   'true-false': { label: 'Verdadero / Falso', icon: ToggleLeft },
@@ -624,12 +629,13 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       (typeof firstSpeakQ?.targetPhrase === 'string' && firstSpeakQ.targetPhrase.trim()) ||
       (typeof firstSpeakQ?.question === 'string' && firstSpeakQ.question.trim()) ||
       '';
+    const staticModelUrl = resolvePublicAudioUrl(exercise.audioUrl || exerciseContent.audioUrl);
     const pronunciationQuestion = {
       id: exercise.id,
       prompt: exerciseContent.instructions || 'Repite la frase.',
       expectedResponse:
         exerciseContent.expectedResponse || exercise.transcript || phraseFromNested,
-      modelAudioUrl: exercise.audioUrl,
+      modelAudioUrl: staticModelUrl || undefined,
       hints: exerciseContent.evaluationCriteria || []
     };
 
@@ -678,6 +684,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   const listeningTranscript = exercise.transcript || exerciseContent.transcript || '';
   const isListeningExercise =
     exercise.type === 'listening' || exercise.type === 'listening-comprehension';
+  const resolvedExerciseAudioUrl = resolvePublicAudioUrl(exercise.audioUrl || exerciseContent.audioUrl);
 
   return (
     <div className="animate-in fade-in slide-in-from-bottom-4 duration-300">
@@ -703,16 +710,16 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             </div>
           )}
 
-          {/* Audio (exercise-level) */}
-          {exercise.audioUrl && (
+          {/* Audio estático (mismo patrón que podcasts: /public/audio/...) */}
+          {resolvedExerciseAudioUrl && (
             <AudioPlayer
-              audioUrl={exercise.audioUrl.startsWith('/') ? exercise.audioUrl : `/${exercise.audioUrl}`}
-              transcript={exercise.transcript}
+              audioUrl={resolvedExerciseAudioUrl}
+              transcript={listeningTranscript || exercise.transcript}
             />
           )}
 
-          {/* Listening sin audioUrl estático: reproducir con TTS bajo demanda */}
-          {isListeningExercise && !exercise.audioUrl && listeningTranscript && (
+          {/* Listening sin MP3: TTS bajo demanda */}
+          {isListeningExercise && !resolvedExerciseAudioUrl && listeningTranscript && (
             <AudioPlayer
               ttsText={listeningTranscript}
               transcript={listeningTranscript}
@@ -731,10 +738,10 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                   <Markdown content={(exerciseContent.text || exercise.transcript)!} />
                 </div>
               </div>
-              {exercise.audioUrl && (
+              {resolvedExerciseAudioUrl && (
                 <AudioPlayer
-                  audioUrl={exercise.audioUrl.startsWith('/') ? exercise.audioUrl : `/${exercise.audioUrl}`}
-                  transcript={exercise.transcript}
+                  audioUrl={resolvedExerciseAudioUrl}
+                  transcript={listeningTranscript || exercise.transcript}
                 />
               )}
               <button

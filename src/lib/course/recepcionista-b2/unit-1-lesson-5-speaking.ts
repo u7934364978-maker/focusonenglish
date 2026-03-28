@@ -12,6 +12,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     "level": "B2",
     "topic": "Management",
     "difficulty": "medium",
+    "audioUrl": "/audio/courses/recepcionista-b2/unit-1/speaking-01.mp3",
     "content": {
       "title": "Expresión oral: Gestión hotelera",
       "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
@@ -32,6 +33,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     "level": "B2",
     "topic": "Management",
     "difficulty": "medium",
+    "audioUrl": "/audio/courses/recepcionista-b2/unit-1/speaking-02.mp3",
     "content": {
       "title": "Expresión oral: Gestión hotelera",
       "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
@@ -52,6 +54,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     "level": "B2",
     "topic": "Management",
     "difficulty": "medium",
+    "audioUrl": "/audio/courses/recepcionista-b2/unit-1/speaking-03.mp3",
     "content": {
       "title": "Expresión oral: Gestión hotelera",
       "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
@@ -72,6 +75,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     "level": "B2",
     "topic": "Management",
     "difficulty": "medium",
+    "audioUrl": "/audio/courses/recepcionista-b2/unit-1/speaking-04.mp3",
     "content": {
       "title": "Expresión oral: Gestión hotelera",
       "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
@@ -92,6 +96,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     "level": "B2",
     "topic": "Management",
     "difficulty": "medium",
+    "audioUrl": "/audio/courses/recepcionista-b2/unit-1/speaking-05.mp3",
     "content": {
       "title": "Expresión oral: Gestión hotelera",
       "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
@@ -112,6 +117,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     "level": "B2",
     "topic": "Management",
     "difficulty": "medium",
+    "audioUrl": "/audio/courses/recepcionista-b2/unit-1/speaking-06.mp3",
     "content": {
       "title": "Expresión oral: Gestión hotelera",
       "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
@@ -132,6 +138,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     "level": "B2",
     "topic": "Management",
     "difficulty": "medium",
+    "audioUrl": "/audio/courses/recepcionista-b2/unit-1/speaking-07.mp3",
     "content": {
       "title": "Expresión oral: Gestión hotelera",
       "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
@@ -152,6 +159,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     "level": "B2",
     "topic": "Management",
     "difficulty": "medium",
+    "audioUrl": "/audio/courses/recepcionista-b2/unit-1/speaking-08.mp3",
     "content": {
       "title": "Expresión oral: Gestión hotelera",
       "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
@@ -172,6 +180,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     "level": "B2",
     "topic": "Management",
     "difficulty": "medium",
+    "audioUrl": "/audio/courses/recepcionista-b2/unit-1/speaking-09.mp3",
     "content": {
       "title": "Expresión oral: Gestión hotelera",
       "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
@@ -192,6 +201,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     "level": "B2",
     "topic": "Management",
     "difficulty": "medium",
+    "audioUrl": "/audio/courses/recepcionista-b2/unit-1/speaking-10.mp3",
     "content": {
       "title": "Expresión oral: Gestión hotelera",
       "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
@@ -212,6 +222,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     "level": "B2",
     "topic": "Management",
     "difficulty": "medium",
+    "audioUrl": "/audio/courses/recepcionista-b2/unit-1/speaking-11.mp3",
     "content": {
       "title": "Expresión oral: Gestión hotelera",
       "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
@@ -232,6 +243,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     "level": "B2",
     "topic": "Management",
     "difficulty": "medium",
+    "audioUrl": "/audio/courses/recepcionista-b2/unit-1/speaking-12.mp3",
     "content": {
       "title": "Expresión oral: Gestión hotelera",
       "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
@@ -252,6 +264,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     "level": "B2",
     "topic": "Management",
     "difficulty": "medium",
+    "audioUrl": "/audio/courses/recepcionista-b2/unit-1/speaking-13.mp3",
     "content": {
       "title": "Expresión oral: Gestión hotelera",
       "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
@@ -272,6 +285,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     "level": "B2",
     "topic": "Management",
     "difficulty": "medium",
+    "audioUrl": "/audio/courses/recepcionista-b2/unit-1/speaking-14.mp3",
     "content": {
       "title": "Expresión oral: Gestión hotelera",
       "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
@@ -292,6 +306,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     "level": "B2",
     "topic": "Management",
     "difficulty": "medium",
+    "audioUrl": "/audio/courses/recepcionista-b2/unit-1/speaking-15.mp3",
     "content": {
       "title": "Expresión oral: Gestión hotelera",
       "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",

@@ -143,6 +143,22 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
     };
   }, [modelCloudflareBlobUrl]);
 
+  // Al cambiar de frase: cortar modelo y limpiar blob TTS anterior.
+  useEffect(() => {
+    return () => {
+      if (modelCloudflareAudioRef.current) {
+        modelCloudflareAudioRef.current.pause();
+        modelCloudflareAudioRef.current = null;
+      }
+      setModelCloudflareBlobUrl((prev) => {
+        if (prev) URL.revokeObjectURL(prev);
+        return null;
+      });
+      setIsPlayingModel(false);
+      setIsGeneratingModelAudio(false);
+    };
+  }, [question.id]);
+
   const visualizeAudio = (stream: MediaStream) => {
     audioContextRef.current = new AudioContext();
     analyserRef.current = audioContextRef.current.createAnalyser();
@@ -321,8 +337,17 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
 
   const playModelAudio = () => {
     const text = question.expectedResponse || question.prompt;
+    const raw = question.modelAudioUrl?.trim();
+    const staticUrl =
+      raw && (raw.startsWith('http') || raw.startsWith('blob:'))
+        ? raw
+        : raw
+          ? raw.startsWith('/')
+            ? raw
+            : `/${raw}`
+          : null;
 
-    // Pause model audio if currently playing.
+    // Pausar reproducción del modelo (MP3 estático o TTS).
     if (isPlayingModel) {
       if (modelAudioRef.current) {
         modelAudioRef.current.pause();
@@ -336,9 +361,8 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
       }
     }
 
-    if (!text) return;
-
     const playWithCloudflareTTS = async () => {
+      if (!text) return;
       if (isGeneratingModelAudio) return;
       setIsGeneratingModelAudio(true);
       try {
@@ -370,7 +394,48 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
       }
     };
 
-    playWithCloudflareTTS();
+    const playStaticMp3 = async (): Promise<boolean> => {
+      if (!staticUrl) return false;
+      try {
+        if (modelCloudflareAudioRef.current) {
+          modelCloudflareAudioRef.current.pause();
+          modelCloudflareAudioRef.current = null;
+        }
+        if (modelCloudflareBlobUrl) {
+          URL.revokeObjectURL(modelCloudflareBlobUrl);
+          setModelCloudflareBlobUrl(null);
+        }
+        const audio = new Audio(staticUrl);
+        modelCloudflareAudioRef.current = audio;
+        audio.onended = () => {
+          setIsPlayingModel(false);
+          modelCloudflareAudioRef.current = null;
+        };
+        audio.onerror = () => {
+          setIsPlayingModel(false);
+          modelCloudflareAudioRef.current = null;
+        };
+        await audio.play();
+        setIsPlayingModel(true);
+        return true;
+      } catch (e) {
+        console.warn('Modelo MP3 no disponible, se usará TTS si hay texto.', e);
+        setIsPlayingModel(false);
+        modelCloudflareAudioRef.current = null;
+        return false;
+      }
+    };
+
+    void (async () => {
+      if (staticUrl) {
+        const ok = await playStaticMp3();
+        if (ok) return;
+        await playWithCloudflareTTS();
+        return;
+      }
+      if (!text) return;
+      await playWithCloudflareTTS();
+    })();
   };
 
   const evaluateRecording = async () => {
