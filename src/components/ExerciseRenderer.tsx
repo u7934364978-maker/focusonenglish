@@ -34,6 +34,7 @@ const TYPE_LABELS: Record<string, { label: string; icon: typeof BookOpen }> = {
   'reading': { label: 'Comprensión lectora', icon: BookOpen },
   'reading-comprehension': { label: 'Comprensión lectora', icon: BookOpen },
   'listening': { label: 'Comprensión auditiva', icon: BookOpen },
+  'listening-comprehension': { label: 'Comprensión auditiva', icon: BookOpen },
   'spelling': { label: 'Deletreo', icon: Edit3 },
   'sentence-building': { label: 'Construye la frase', icon: Edit3 },
   'writing': { label: 'Escritura', icon: Edit3 },
@@ -50,6 +51,7 @@ const TYPE_THEMES: Record<string, { badge: string; border: string; ring: string 
   'reading':         { badge: UNIFIED_BADGE, border: UNIFIED_BORDER, ring: 'ring-slate-200' },
   'reading-comprehension': { badge: UNIFIED_BADGE, border: UNIFIED_BORDER, ring: 'ring-slate-200' },
   'listening':       { badge: UNIFIED_BADGE, border: UNIFIED_BORDER, ring: 'ring-slate-200' },
+  'listening-comprehension': { badge: UNIFIED_BADGE, border: UNIFIED_BORDER, ring: 'ring-slate-200' },
   'spelling':        { badge: UNIFIED_BADGE, border: UNIFIED_BORDER, ring: 'ring-slate-200' },
   'sentence-building': { badge: UNIFIED_BADGE, border: UNIFIED_BORDER, ring: 'ring-slate-200' },
   'writing':         { badge: UNIFIED_BADGE, border: UNIFIED_BORDER, ring: 'ring-slate-200' },
@@ -617,10 +619,16 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   }
 
   if (exercise.type === 'pronunciation') {
+    const firstSpeakQ = questions[0];
+    const phraseFromNested =
+      (typeof firstSpeakQ?.targetPhrase === 'string' && firstSpeakQ.targetPhrase.trim()) ||
+      (typeof firstSpeakQ?.question === 'string' && firstSpeakQ.question.trim()) ||
+      '';
     const pronunciationQuestion = {
       id: exercise.id,
       prompt: exerciseContent.instructions || 'Repite la frase.',
-      expectedResponse: exerciseContent.expectedResponse || exercise.transcript,
+      expectedResponse:
+        exerciseContent.expectedResponse || exercise.transcript || phraseFromNested,
       modelAudioUrl: exercise.audioUrl,
       hints: exerciseContent.evaluationCriteria || []
     };
@@ -667,6 +675,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   const typeInfo = getTypeInfo(exercise.type);
   const typeTheme = getTypeTheme(exercise.type);
   const TypeIcon = typeInfo.icon;
+  const listeningTranscript = exercise.transcript || exerciseContent.transcript || '';
+  const isListeningExercise =
+    exercise.type === 'listening' || exercise.type === 'listening-comprehension';
 
   return (
     <div className="animate-in fade-in slide-in-from-bottom-4 duration-300">
@@ -701,10 +712,10 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           )}
 
           {/* Listening sin audioUrl estático: reproducir con TTS bajo demanda */}
-          {exercise.type === 'listening' && !exercise.audioUrl && exercise.transcript && (
+          {isListeningExercise && !exercise.audioUrl && listeningTranscript && (
             <AudioPlayer
-              ttsText={exercise.transcript}
-              transcript={exercise.transcript}
+              ttsText={listeningTranscript}
+              transcript={listeningTranscript}
             />
           )}
 
