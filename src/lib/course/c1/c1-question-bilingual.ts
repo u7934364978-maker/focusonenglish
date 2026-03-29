@@ -1,9 +1,11 @@
 import { C1_UNIT1_QUESTION_ES } from './c1-unit1-question-es';
 import { C1_UNIT2_QUESTION_ES } from './c1-unit2-question-es';
+import { C1_UNIT3_QUESTION_ES } from './c1-unit3-question-es';
 
 function c1QuestionEsMapForExercise(exerciseId: string): Record<string, string> | null {
   if (exerciseId.startsWith('c1-u1-')) return C1_UNIT1_QUESTION_ES;
   if (exerciseId.startsWith('c1-u2-')) return C1_UNIT2_QUESTION_ES;
+  if (exerciseId.startsWith('c1-u3-')) return C1_UNIT3_QUESTION_ES;
   return null;
 }
 
