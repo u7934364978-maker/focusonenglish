@@ -5,6 +5,7 @@ import { C1_UNIT4_QUESTION_ES } from './c1-unit4-question-es';
 import { C1_UNIT5_QUESTION_ES } from './c1-unit5-question-es';
 import { C1_UNIT6_QUESTION_ES } from './c1-unit6-question-es';
 import { C1_UNIT7_QUESTION_ES } from './c1-unit7-question-es';
+import { C1_UNIT8_QUESTION_ES } from './c1-unit8-question-es';
 
 function c1QuestionEsMapForExercise(exerciseId: string): Record<string, string> | null {
   if (exerciseId.startsWith('c1-u1-')) return C1_UNIT1_QUESTION_ES;
@@ -14,6 +15,7 @@ function c1QuestionEsMapForExercise(exerciseId: string): Record<string, string> 
   if (exerciseId.startsWith('c1-u5-')) return C1_UNIT5_QUESTION_ES;
   if (exerciseId.startsWith('c1-u6-')) return C1_UNIT6_QUESTION_ES;
   if (exerciseId.startsWith('c1-u7-')) return C1_UNIT7_QUESTION_ES;
+  if (exerciseId.startsWith('c1-u8-')) return C1_UNIT8_QUESTION_ES;
   return null;
 }
 
