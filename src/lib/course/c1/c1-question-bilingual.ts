@@ -32,9 +32,80 @@ function escapeTooltipSegment(s: string): string {
 }
 
 /**
- * Envuelve el enunciado en un único par [[EN|ES]] para que el tooltip muestre la traducción fiel.
- * (El alineamiento proporcional palabra a palabra mezclaba tokens y mostraba español incorrecto.)
- * Si el enunciado ya contiene [[...]], se mantiene un único par para no romper el anidado.
+ * Trocea por espacios (incluye saltos de línea).
+ */
+function tokenizeBilingualLine(s: string): string[] {
+  return s.trim().split(/\s+/).filter(Boolean);
+}
+
+/** Posición [start,end) de cada token en `words.join(' ')`. */
+function charSpansForWords(words: string[]): { start: number; end: number }[] {
+  const n = words.length;
+  if (n === 0) return [];
+  const spans: { start: number; end: number }[] = [];
+  let p = 0;
+  for (let i = 0; i < n; i++) {
+    const w = words[i];
+    spans.push({ start: p, end: p + w.length });
+    p += w.length + (i < n - 1 ? 1 : 0);
+  }
+  return spans;
+}
+
+/**
+ * Alinea tokens ES a cada palabra EN: si hay el mismo número de tokens, emparejamiento 1:1.
+ * Si no, proyecta el intervalo de caracteres de cada palabra EN sobre la frase ES (misma longitud relativa)
+ * y asigna las palabras ES cuyo intervalo solapa — mejor que repartir por índice de palabra.
+ */
+function alignSpanishPerEnglishWord(enWords: string[], esWords: string[]): string[] {
+  const n = enWords.length;
+  const m = esWords.length;
+  if (n === 0) return [];
+  if (m === 0) return Array(n).fill('');
+  if (n === m) return [...esWords];
+  const enJoined = enWords.join(' ');
+  const esJoined = esWords.join(' ');
+  const lenEn = enJoined.length;
+  const lenEs = esJoined.length;
+  const enSpans = charSpansForWords(enWords);
+  const esSpans = charSpansForWords(esWords);
+  const out: string[] = [];
+  for (let i = 0; i < n; i++) {
+    const { start: es, end: ee } = enSpans[i];
+    if (lenEn === 0) {
+      out.push('');
+      continue;
+    }
+    const rs = Math.floor((es / lenEn) * lenEs);
+    const re = Math.min(lenEs, Math.ceil((ee / lenEn) * lenEs));
+    const hits: string[] = [];
+    for (let j = 0; j < m; j++) {
+      const { start: sj, end: ej } = esSpans[j];
+      if (ej > rs && sj < re) hits.push(esWords[j]);
+    }
+    if (hits.length > 0) {
+      out.push(hits.join(' '));
+      continue;
+    }
+    const mid = (rs + re) / 2;
+    let best = esWords[0];
+    let bestD = Infinity;
+    for (let j = 0; j < m; j++) {
+      const c = (esSpans[j].start + esSpans[j].end) / 2;
+      const d = Math.abs(c - mid);
+      if (d < bestD) {
+        bestD = d;
+        best = esWords[j];
+      }
+    }
+    out.push(best);
+  }
+  return out;
+}
+
+/**
+ * Convierte el par (enunciado EN, traducción ES) en marcas [[palabra|traducción]] por token EN.
+ * Si el enunciado ya contiene [[...]], un único par envuelve todo para no romper anidado.
  */
 export function expandC1BlockToWordPairMarkup(questionEn: string, questionEs: string): string {
   const en = questionEn.trim();
@@ -44,7 +115,17 @@ export function expandC1BlockToWordPairMarkup(questionEn: string, questionEs: st
   if (en.includes('[[')) {
     return `[[${questionEn}|${questionEs}]]`;
   }
-  return `[[${escapeTooltipSegment(en)}|${escapeTooltipSegment(es)}]]`;
+
+  const enWords = tokenizeBilingualLine(en);
+  const esWords = tokenizeBilingualLine(es);
+  if (enWords.length === 0) return questionEn;
+
+  const esAligned = alignSpanishPerEnglishWord(enWords, esWords);
+  const pairs = enWords.map((w, i) => {
+    const t = esAligned[i] ?? '';
+    return `[[${escapeTooltipSegment(w)}|${escapeTooltipSegment(t)}]]`;
+  });
+  return pairs.join(' ');
 }
 
 export function shouldSkipC1BilingualQuestionWrap(questionEn: string): boolean {
