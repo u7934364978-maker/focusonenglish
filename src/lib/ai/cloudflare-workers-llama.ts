@@ -2,7 +2,9 @@
  * Llamada centralizada a Cloudflare Workers AI (Llama instruct) vía REST.
  * Misma credencial que `/api/generate-exercises`, `/api/evaluate-speaking`, etc.
  */
-const MODEL = '@cf/meta/llama-3.3-70b-instruct-fp8-fast';
+import { DEFAULT_TEXT_GENERATION_MODEL } from './cloudflare-workers-ai-models';
+
+const MODEL = DEFAULT_TEXT_GENERATION_MODEL;
 
 export type CfLlamaMessage = { role: 'system' | 'user' | 'assistant'; content: string };
 

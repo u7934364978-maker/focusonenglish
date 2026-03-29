@@ -247,17 +247,16 @@ export class B2ComprehensiveGenerator {
   static async generateExercise(config: B2ExerciseConfig): Promise<B2GeneratedExercise> {
     const prompt = this.buildPrompt(config);
     
-    const response = await fetch('/api/generate-exercise', {
+    const response = await fetch('/api/generate-exercises', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        exerciseType: config.exerciseType,
         level: 'B2',
-        difficulty: 'medium',
-        count: 1,
         topic: config.topic?.name || 'general',
-        customPrompt: prompt
-      })
+        count: 1,
+        exerciseTypes: [config.exerciseType],
+        focusOn: prompt,
+      }),
     });
 
     if (!response.ok) {
@@ -265,8 +264,8 @@ export class B2ComprehensiveGenerator {
     }
 
     const data = await response.json();
-    
-    if (!data.success || !data.exercises || data.exercises.length === 0) {
+
+    if (!data.exercises || data.exercises.length === 0) {
       throw new Error('No exercise generated');
     }
 

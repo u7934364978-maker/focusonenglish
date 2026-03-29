@@ -12,7 +12,7 @@ const PUBLIC_ROUTES = new Set([
   "/reset-password",
   "/success",
   "/generador-b2",
-  "/api/generate-exercise",
+  "/api/generate-exercises",
   "/test-nivel",
   "/pilot",
   "/test-toefl",

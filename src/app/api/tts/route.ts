@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { CF_DEEPGRAM_AURA_1 } from '@/lib/ai/cloudflare-workers-ai-models';
 
 /** Vercel / hosting: tiempo máximo para generar audio (segundos). */
 export const maxDuration = 60;
@@ -49,7 +50,7 @@ function base64ToArrayBuffer(b64: string): ArrayBuffer {
 }
 
 /**
- * La API REST `.../ai/run/@cf/deepgram/aura-1` devuelve JSON `{ result: { audio: "<base64>" } }`.
+ * La API REST Workers AI (Deepgram Aura-1) devuelve JSON `{ result: { audio: "<base64>" } }`.
  * Un worker con `returnRawResponse: true` puede devolver MP3 en bruto.
  */
 function decodeTtsResponseBody(buf: ArrayBuffer): { ok: true; mp3: ArrayBuffer } | { ok: false; reason: string } {
@@ -165,7 +166,7 @@ async function callCloudflareTts(
   const t = setTimeout(() => controller.abort(), CF_TIMEOUT_MS);
   try {
     return await fetch(
-      `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/deepgram/aura-1`,
+      `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/${CF_DEEPGRAM_AURA_1}`,
       {
         method: 'POST',
         headers: {

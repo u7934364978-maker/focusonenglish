@@ -37,54 +37,46 @@ export default function ContinuousPractice({ level }: ContinuousPracticeProps) {
     setLoading(true);
     
     try {
-      // Generate mix of exercises from different types
-      const exercisePromises = [];
-      
-      // Pick 3 random exercise types
       const selectedTypes = shuffleArray(exerciseTypes).slice(0, 3);
-      
-      for (const type of selectedTypes) {
-        exercisePromises.push(
-          fetch('/api/generate-exercise', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              exerciseType: type,
-              level: level,
-              difficulty: 'medium',
-              count: 1
-            })
-          }).then(res => res.json())
-        );
-      }
 
-      const results = await Promise.all(exercisePromises);
-      
-      // Extract questions from exercises
-      const allQuestions: any[] = [];
-      
-      results.forEach((result, idx) => {
-        if (result.success && result.exercises) {
-          result.exercises.forEach((exercise: any) => {
-            // Extract individual questions
-            if (exercise.content.questions && Array.isArray(exercise.content.questions)) {
-              exercise.content.questions.forEach((q: any, qIdx: number) => {
-                allQuestions.push({
-                  id: `${exercise.id}_${qIdx}`,
-                  question: q.question || q.text,
-                  options: q.options,
-                  correctAnswer: q.correctAnswer,
-                  explanation: q.explanation,
-                  type: exercise.type === 'multiple-choice' ? 'multiple-choice' : 
-                        exercise.type === 'fill-blank' ? 'fill-blank' : 'multiple-choice',
-                  exerciseType: exercise.type,
-                  level: exercise.level
-                });
-              });
-            }
-          });
-        }
+      const res = await fetch('/api/generate-exercises', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          level,
+          topic: 'Mixed practice',
+          count: 3,
+          exerciseTypes: selectedTypes,
+          focusOn: 'Varied grammar and reading skills',
+        }),
       });
+      const result = await res.json();
+
+      const allQuestions: any[] = [];
+
+      if (result.exercises && Array.isArray(result.exercises)) {
+        result.exercises.forEach((exercise: any) => {
+          if (exercise.content?.questions && Array.isArray(exercise.content.questions)) {
+            exercise.content.questions.forEach((q: any, qIdx: number) => {
+              allQuestions.push({
+                id: `${exercise.id}_${qIdx}`,
+                question: q.question || q.text,
+                options: q.options,
+                correctAnswer: q.correctAnswer,
+                explanation: q.explanation,
+                type:
+                  exercise.type === 'multiple-choice'
+                    ? 'multiple-choice'
+                    : exercise.type === 'fill-blank'
+                      ? 'fill-blank'
+                      : 'multiple-choice',
+                exerciseType: exercise.type,
+                level: exercise.level,
+              });
+            });
+          }
+        });
+      }
 
       // Shuffle questions
       const shuffled = shuffleArray(allQuestions);

@@ -1,4 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
+import {
+  CF_LLAMA_3_3_70B_INSTRUCT_FP8_FAST,
+  CF_WHISPER_LARGE_V3_TURBO,
+} from '@/lib/ai/cloudflare-workers-ai-models';
 import { createClient } from '@/lib/supabase/server';
 import { resolveEntitlements } from '@/lib/access/entitlements';
 import { getUserProfileByAuthId } from '@/lib/access/user-profile';
@@ -92,7 +96,7 @@ export async function POST(request: NextRequest) {
     }
 
     const whisperResponse = await fetch(
-      `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/openai/whisper-large-v3-turbo`,
+      `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/${CF_WHISPER_LARGE_V3_TURBO}`,
       {
         method: 'POST',
         headers: {
@@ -156,7 +160,7 @@ Devuelve este JSON exacto:
 }`;
 
     const llamaResponse = await fetch(
-      `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/meta/llama-3.3-70b-instruct-fp8-fast`,
+      `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/${CF_LLAMA_3_3_70B_INSTRUCT_FP8_FAST}`,
       {
         method: 'POST',
         headers: {

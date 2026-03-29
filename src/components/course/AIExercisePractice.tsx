@@ -45,6 +45,21 @@ export default function AIExercisePractice({
           count,
           exerciseTypes: ['multiple-choice', 'fill-blank', 'true-false', 'translation'],
           focusOn: mode === 'review' ? 'Review and reinforce previously learned material' : '',
+          pedagogy: {
+            emphasizeSpacedRepetition: mode === 'weak' || mode === 'review',
+            spacedRepetitionNotes:
+              mode === 'review' && dueCards.length > 0
+                ? `Spaced repetition: ~${dueCards.length} items are due for review; mix retrieval with light variation.`
+                : undefined,
+            learningObjectives: [
+              `Consolidate ${courseLevel} language related to: ${topic}`,
+              ...(mode === 'weak' ? ['Remediate weak areas with extra exposure and varied contexts'] : []),
+              ...(mode === 'review' ? ['Strengthen long-term memory through retrieval practice'] : []),
+            ],
+            speakingGoals: [
+              `Short, natural utterances for "${topic}" at ${courseLevel} (functional phrases the learner should be able to say aloud)`,
+            ],
+          },
         }),
       });
 

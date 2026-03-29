@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { CF_DEEPGRAM_AURA_2_EN } from '@/lib/ai/cloudflare-workers-ai-models';
 
 export const maxDuration = 30;
 
@@ -32,7 +33,7 @@ const GREETINGS: Record<string, Record<string, string>> = {
 async function textToSpeech(text: string, gender: string, accountId: string, apiToken: string): Promise<Buffer> {
   const speaker = gender === 'female' ? 'luna' : 'orion';
   const res = await fetch(
-    `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/deepgram/aura-2-en`,
+    `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/${CF_DEEPGRAM_AURA_2_EN}`,
     {
       method: 'POST',
       headers: {

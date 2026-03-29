@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { CF_LLAMA_3_3_70B_INSTRUCT_FP8_FAST } from '@/lib/ai/cloudflare-workers-ai-models';
 import {
   callCloudflareLlama,
   extractLlamaResponseText,
@@ -59,7 +60,7 @@ export async function POST(req: NextRequest) {
         ok: true,
         granularity: 'sentence',
         translation: out,
-        model: '@cf/meta/llama-3.3-70b-instruct-fp8-fast',
+        model: CF_LLAMA_3_3_70B_INSTRUCT_FP8_FAST,
       });
     }
 
@@ -122,7 +123,7 @@ export async function POST(req: NextRequest) {
       granularity: 'words',
       words: tokens,
       translations,
-      model: '@cf/meta/llama-3.3-70b-instruct-fp8-fast',
+      model: CF_LLAMA_3_3_70B_INSTRUCT_FP8_FAST,
     });
   } catch (e: unknown) {
     const msg = e instanceof Error ? e.message : 'Unknown error';

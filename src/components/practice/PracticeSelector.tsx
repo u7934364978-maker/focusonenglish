@@ -5,14 +5,15 @@
 // ============================================
 // Interfaz para que el alumno elija qué practicar
 
-import { useState, useEffect } from 'react';
-import { 
-  ExerciseTypeConfig, 
+import { useState } from 'react';
+import {
+  EXERCISE_TYPE_CATALOG,
+  ExerciseTypeConfig,
   ExerciseCategory,
   DifficultyLevel,
   CEFRLevel,
   B2_GRAMMAR_TOPICS,
-  B2_VOCABULARY_TOPICS
+  B2_VOCABULARY_TOPICS,
 } from '@/lib/exercise-types';
 
 interface PracticeSelectorProps {
@@ -29,28 +30,12 @@ export interface PracticeConfig {
 }
 
 export default function PracticeSelector({ onStartPractice, userLevel = 'B2' }: PracticeSelectorProps) {
-  const [exerciseTypes, setExerciseTypes] = useState<ExerciseTypeConfig[]>([]);
+  const exerciseTypes: ExerciseTypeConfig[] = EXERCISE_TYPE_CATALOG;
   const [selectedCategory, setSelectedCategory] = useState<ExerciseCategory | 'all'>('all');
   const [selectedType, setSelectedType] = useState<string>('');
   const [selectedTopic, setSelectedTopic] = useState<string>('');
   const [difficulty, setDifficulty] = useState<DifficultyLevel>('medium');
   const [loading, setLoading] = useState(false);
-
-  // Cargar tipos de ejercicios
-  useEffect(() => {
-    async function loadExerciseTypes() {
-      try {
-        const response = await fetch('/api/generate-exercise');
-        const data = await response.json();
-        if (data.success) {
-          setExerciseTypes(data.exerciseTypes);
-        }
-      } catch (error) {
-        console.error('Error loading exercise types:', error);
-      }
-    }
-    loadExerciseTypes();
-  }, []);
 
   // Filtrar tipos por categoría
   const filteredTypes = selectedCategory === 'all' 

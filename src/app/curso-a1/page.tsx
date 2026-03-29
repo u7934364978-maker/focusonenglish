@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { A1CourseSelector } from '@/components/course/preview/A1CourseSelector';
 import { UnifiedCourseProgressSidebar } from '@/components/course/UnifiedCourseProgressSidebar';
 import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
-import { BookOpen, Clock, Award, RotateCcw } from 'lucide-react';
+import { BookOpen, Clock, Award, RotateCcw, Calendar } from 'lucide-react';
 
 export const dynamic = 'force-dynamic';
 
@@ -80,6 +80,22 @@ async function A1PreviewContent() {
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           <div className="lg:col-span-8">
+            <Link
+              href="/curso-a1/sesion-diaria"
+              className="mb-4 flex items-center gap-4 rounded-2xl border-2 border-emerald-200 bg-emerald-50/90 p-4 transition-all hover:border-emerald-300 hover:bg-emerald-50"
+            >
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-emerald-100 text-2xl">
+                <Calendar className="w-6 h-6 text-emerald-700" />
+              </div>
+              <div className="min-w-0 flex-1">
+                <p className="font-bold text-slate-900">Sesión del día</p>
+                <p className="text-sm text-slate-600">
+                  Repasos reales de tu cola espaciada + ítems nuevos (racha y XP en una sola sesión).
+                </p>
+              </div>
+              <span className="shrink-0 text-sm font-semibold text-emerald-800">Empezar →</span>
+            </Link>
+
             <Link
               href="/curso-a1/practica-inteligente?mode=srs"
               className="mb-4 flex items-center gap-4 rounded-2xl border-2 border-blue-200 bg-blue-50/80 p-4 transition-all hover:border-blue-300 hover:bg-blue-50"

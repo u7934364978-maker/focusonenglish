@@ -165,7 +165,7 @@ Tras enviar la respuesta, el texto debe **enseñar**, no solo etiquetar.
 
 - **Archivo:** `src/lib/validation/course-exercise-schema.ts`
 - **API helpers:** `src/lib/validation/course-exercise-api.ts` — `sanitizeForCourseExerciseEnvelope`, `validateExercisePayloadForApi`, `validateExerciseListForApi` (respuestas JSON incluyen `validation: { ok, errors }` donde aplica). Motor adaptativo: `src/lib/validation/interaction-api.ts` — `validateInteractionForApi` sobre `InteractionSchema`.
-- **Rutas API enlazadas:** `POST /api/generate-exercises`, `POST /api/generate-exercise`, `GET /api/game-content/first-10-lessons`, `GET /api/course/b1/[unitId]` (envelope `courseExerciseSchema`); `POST /api/adaptive/next` (`InteractionSchema` vía `validateInteractionForApi` — motor adaptativo).
+- **Rutas API enlazadas:** `POST /api/generate-exercises`, `GET /api/game-content/first-10-lessons`, `GET /api/course/b1/[unitId]` (envelope `courseExerciseSchema`); `POST /api/adaptive/next` (`InteractionSchema` vía `validateInteractionForApi` — motor adaptativo).
 - **`courseExerciseSchema`:** metadatos §3 (`id`, `type`, `level`, `topic`, `topicName`, `difficulty`, `content` objeto, `transcript`, `audioUrl`, …); `type` como `string` para no bloquear tipos nuevos del catálogo.
 - **`exerciseQuestionSchema` / `exerciseContentSchema`:** forma alineada con `ExerciseRenderer` (preguntas, opciones, `correctAnswer`, campos de listening/reading/writing).
 - **`courseExerciseSchemaNormsStrict`:** reglas extra — `explanation` mínima en preguntas **cerradas** (MC/TF con opciones); `pronunciation` con `expectedResponse` sin `[[EN|ES]]` y con fallback documentado si falta texto plano.

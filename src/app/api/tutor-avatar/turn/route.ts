@@ -1,4 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
+import {
+  CF_DEEPGRAM_AURA_2_EN,
+  CF_LLAMA_3_2_11B_VISION_INSTRUCT,
+  CF_LLAMA_3_3_70B_INSTRUCT_FP8_FAST,
+  CF_WHISPER_LARGE_V3_TURBO,
+} from '@/lib/ai/cloudflare-workers-ai-models';
 
 export const maxDuration = 60;
 
@@ -74,14 +80,14 @@ OR if there is a mistake to correct:
 
 async function transcribeAudio(audioBuffer: Buffer, accountId: string, apiToken: string): Promise<string> {
   const res = await fetch(
-    `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/openai/whisper-large-v3-turbo`,
+    `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/${CF_WHISPER_LARGE_V3_TURBO}`,
     {
       method: 'POST',
       headers: {
         Authorization: `Bearer ${apiToken}`,
         'Content-Type': 'application/octet-stream',
       },
-      body: audioBuffer,
+      body: new Uint8Array(audioBuffer),
     }
   );
   if (!res.ok) {
@@ -98,7 +104,7 @@ async function chatWithLlama(
   apiToken: string
 ): Promise<{ reply: string; feedback: null | { original: string; correction: string; explanation: string } }> {
   const res = await fetch(
-    `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/meta/llama-3.3-70b-instruct-fp8-fast`,
+    `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/${CF_LLAMA_3_3_70B_INSTRUCT_FP8_FAST}`,
     {
       method: 'POST',
       headers: {
@@ -128,7 +134,7 @@ async function chatWithLlama(
 async function textToSpeech(text: string, gender: string, accountId: string, apiToken: string): Promise<Buffer> {
   const speaker = gender === 'female' ? 'luna' : 'orion';
   const res = await fetch(
-    `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/deepgram/aura-2-en`,
+    `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/${CF_DEEPGRAM_AURA_2_EN}`,
     {
       method: 'POST',
       headers: {

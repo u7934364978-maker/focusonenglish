@@ -52,22 +52,18 @@ export async function generateExercise(config: ExerciseConfig): Promise<Exercise
     topic: config.topicName
   });
 
-  // Call the API to generate the exercise
-  const response = await fetch('/api/generate-exercise', {
+  const response = await fetch('/api/generate-exercises', {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      exerciseType: selectedType,
       level: config.level,
-      category: config.category,
-      difficulty: 'medium', // Default difficulty
-      count: 1,
       topic: config.topic,
-      topicKeywords: config.topicKeywords,
-      customInstructions: `Generate a ${config.level} level ${config.category} exercise about ${config.topicName}. Keywords: ${config.topicKeywords.join(', ')}`
-    })
+      count: 1,
+      exerciseTypes: [selectedType],
+      focusOn: `Generate a ${config.level} level ${config.category} exercise about ${config.topicName}. Keywords: ${config.topicKeywords.join(', ')}`,
+    }),
   });
 
   if (!response.ok) {
@@ -89,23 +85,21 @@ export async function generateExercise(config: ExerciseConfig): Promise<Exercise
   }
 
   const data = await response.json();
-  
+
   console.log('✅ API Response:', {
-    success: data.success,
     exercisesCount: data.exercises?.length,
-    firstExerciseType: data.exercises?.[0]?.type
+    firstExerciseType: data.exercises?.[0]?.type,
   });
-  
-  // The API returns { success: true, exercises: [...], sessionId: '...' }
-  if (!data.success || !data.exercises || data.exercises.length === 0) {
+
+  if (!data.exercises || data.exercises.length === 0) {
     throw new Error('No exercise generated');
   }
 
-  const generatedExercise = data.exercises[0]; // Get first exercise
-  
+  const generatedExercise = data.exercises[0];
+
   return {
     id: generatedExercise.id || `ex-${Date.now()}`,
-    type: selectedType,
+    type: generatedExercise.type || selectedType,
     level: config.level,
     topic: config.topic,
     topicName: config.topicName,

@@ -1,5 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { validateExerciseListForApi } from '@/lib/validation/course-exercise-api';
+import { A1_GENERATION_PROMPT_SPEC } from '@/lib/validation/a1-exercise-templates';
+import {
+  buildPedagogyPromptSection,
+  type ExerciseGenerationPedagogyBody,
+} from '@/lib/ai/exercise-generation-pedagogy';
+import { CF_LLAMA_3_3_70B_INSTRUCT_FP8_FAST } from '@/lib/ai/cloudflare-workers-ai-models';
+import { EXERCISE_TYPE_CATALOG } from '@/lib/exercise-types';
 
 export const runtime = 'edge';
 export const maxDuration = 60;
@@ -12,6 +19,37 @@ function coerceCloudflareResponseToText(value: unknown): string {
   } catch {
     return String(value);
   }
+}
+
+/** Intenta obtener un array de ejercicios desde texto de modelo (JSON puro, objeto envoltorio o primer [...]). */
+function tryParseExerciseArray(raw: string): unknown[] | null {
+  const trimmed = raw.trim();
+  if (!trimmed) return null;
+
+  const tryJson = (s: string) => {
+    try {
+      return JSON.parse(s);
+    } catch {
+      return null;
+    }
+  };
+
+  const direct = tryJson(trimmed);
+  if (Array.isArray(direct)) return direct;
+  if (direct && typeof direct === 'object') {
+    const w = direct as { exercises?: unknown; data?: unknown; items?: unknown };
+    if (Array.isArray(w.exercises)) return w.exercises;
+    if (Array.isArray(w.data)) return w.data;
+    if (Array.isArray(w.items)) return w.items;
+  }
+
+  const bracket = trimmed.match(/\[[\s\S]*\]/);
+  if (bracket) {
+    const arr = tryJson(bracket[0]);
+    if (Array.isArray(arr)) return arr;
+  }
+
+  return null;
 }
 
 function buildFallbackExercises(params: {
@@ -29,35 +67,39 @@ function buildFallbackExercises(params: {
       question: '[[What is your name?|¿Cómo te llamas?]]',
       options: ['I am John', 'My name is John', 'I name John', 'My is John'],
       correctAnswer: 1,
-      explanation: '[[We say \"My name is...\" to introduce ourselves.|Decimos \"My name is...\" para presentarnos.]]',
+      explanation:
+        '[[We say "My name is..." to introduce ourselves.|Decimos "My name is..." para presentarnos.]]',
     },
     {
       question: '[[Choose the correct verb: I ___ a student.|Elige el verbo correcto: I ___ a student.]]',
       options: ['am', 'is', 'are', 'be'],
       correctAnswer: 0,
-      explanation: '[[With \"I\", we use \"am\".|Con \"I\", usamos \"am\".]]',
+      explanation: '[[With "I", we use "am".|Con "I", usamos "am".]]',
     },
     {
-      question: '[[Choose the correct article: ___ apple.|Elige el artículo correcto: ___ apple.]]',
+      question:
+        '[[Choose the correct article: ___ apple.|Elige el artículo correcto: ___ apple.]]',
       options: ['a', 'an', 'the', '—'],
       correctAnswer: 1,
-      explanation: '[[We use \"an\" before vowel sounds (a,e,i,o,u).|Usamos \"an\" antes de sonido vocal.]]',
+      explanation:
+        '[[We use "an" before vowel sounds (a,e,i,o,u).|Usamos "an" antes de sonido vocal.]]',
     },
     {
-      question: '[[Choose the correct word: This is my ___. (mother)|Elige la palabra correcta: This is my ___. (mother)]]',
+      question:
+        '[[Choose the correct word: This is my ___. (mother)|Elige la palabra correcta: This is my ___. (mother)]]',
       options: ['mother', 'brother', 'teacher', 'name'],
       correctAnswer: 0,
-      explanation: '[[\"Mother\" means \"madre\".|\"Mother\" significa \"madre\".]]',
+      explanation: '[["Mother" means "madre".|"Mother" significa "madre".]]',
     },
     {
-      question: '[[Translate: \"Hola\"|Traduce: \"Hola\"]]',
+      question: '[[Translate: "Hola"|Traduce: "Hola"]]',
       correctAnswer: 'Hello',
-      explanation: '[[\"Hola\" translates as \"Hello\".|\"Hola\" se traduce como \"Hello\".]]',
+      explanation: '[["Hola" translates as "Hello".|"Hola" se traduce como "Hello".]]',
     },
     {
       question: '[[Complete: I ___ from Spain.|Completa: I ___ from Spain.]]',
       correctAnswer: 'am',
-      explanation: '[[With \"I\", we use \"am\".|Con \"I\", usamos \"am\".]]',
+      explanation: '[[With "I", we use "am".|Con "I", usamos "am".]]',
     },
   ];
 
@@ -91,7 +133,9 @@ function buildFallbackExercises(params: {
               type === 'translation'
                 ? base.correctAnswer
                 : type === 'fill-blank'
-                  ? (typeof base.correctAnswer === 'string' ? base.correctAnswer : '')
+                  ? typeof base.correctAnswer === 'string'
+                    ? base.correctAnswer
+                    : ''
                   : type === 'true-false'
                     ? 'True'
                     : base.correctAnswer,
@@ -102,11 +146,16 @@ function buildFallbackExercises(params: {
       },
     };
 
-    // Ensure multiple-choice always has 4 options.
     if (type === 'multiple-choice' && normalized.content.questions[0].options.length !== 4) {
       normalized.content.questions[0].options = ['A', 'B', 'C', 'D'];
       normalized.content.questions[0].correctAnswer = 0;
-      normalized.content.questions[0].explanation = '[[Ejercicio de reserva por timeout.|Fallback por timeout.]]';
+      normalized.content.questions[0].explanation =
+        '[[Ejercicio de reserva por timeout.|Fallback por timeout.]]';
+    }
+
+    if (type === 'fill-blank' && normalized.content.questions[0].options.length < 2) {
+      const ans = String(normalized.content.questions[0].correctAnswer || 'answer');
+      normalized.content.questions[0].options = [ans, 'option_b', 'option_c'];
     }
 
     return normalized;
@@ -114,19 +163,191 @@ function buildFallbackExercises(params: {
 }
 
 const LEVEL_CONTEXT: Record<string, string> = {
-  A1: 'absolute beginner. Uses present simple, basic vocabulary (greetings, numbers, colors, family, everyday objects). Short sentences.',
-  A2: 'elementary. Uses past simple, present continuous, common adjectives, everyday routines. Can describe simple situations.',
-  B1: 'intermediate. Uses present perfect, conditionals, modal verbs, a range of everyday vocabulary. Can discuss familiar topics.',
-  B2: 'upper-intermediate. Uses complex grammar structures, passive voice, reported speech, wide vocabulary. Can discuss abstract topics.',
+  A1: 'absolute beginner. Present simple, basic vocabulary (greetings, numbers, colors, family). Short sentences.',
+  A2: 'elementary. Past simple, present continuous, everyday routines.',
+  B1: 'intermediate. Present perfect, conditionals, modals, everyday topics.',
+  B2: 'upper-intermediate. Passive, reported speech, abstract topics.',
+  C1: 'advanced. Nuanced vocabulary, complex argumentation.',
+  C2: 'proficiency. Near-native subtlety and range.',
 };
 
 const EXERCISE_TYPE_PROMPTS: Record<string, string> = {
-  'multiple-choice': 'A multiple choice question with exactly 4 options (options array of strings) and correctAnswer as the 0-based index of the correct option.',
-  'fill-blank': 'A fill-in-the-blank sentence where one word is replaced by ___. Include the correct word in correctAnswer (string).',
-  'true-false': 'A true/false statement. correctAnswer must be exactly "True" or "False".',
-  'sentence-building': 'Scrambled words that form a sentence. words array with all words, correctAnswer is the correct sentence string.',
-  'translation': 'A Spanish sentence to translate into English. correctAnswer is the English translation.',
+  'multiple-choice':
+    'Multiple choice: exactly 4 strings in options[]; correctAnswer = 0-based index (integer).',
+  'fill-blank':
+    'Fill blank: sentence with ___ ; options[] = word bank (at least 2 strings); correctAnswer = exact correct word (string).',
+  'true-false':
+    'True/false: options must be ["True","False"]; correctAnswer is "True" or "False".',
+  'sentence-building':
+    'Sentence building: content has words[] (shuffled), correctSentence string; optional title/instructions.',
+  translation:
+    'Translation: question in Spanish or English as appropriate; correctAnswer = English string.',
+  'reading-comprehension':
+    'Reading: optional content.text passage; questions[] with MC or T/F as per type.',
+  'listening-comprehension':
+    'Listening: same shape as reading; transcript can go in exercise.transcript if needed.',
+  'key-word-transformation':
+    'Key word transformation: each question has keyWord, startOfAnswer, correctAnswer as per course.',
+  'word-formation':
+    'Word formation: passage with gaps and base words per question number.',
+  pronunciation:
+    'Pronunciation: content with targetText and expectedResponse (plain English, no [[|]]).',
+  writing:
+    'Writing: content with prompt, minWords, maxWords.',
+  matching:
+    'Matching: content with pairs[{ id, left, right }].',
 };
+
+function buildSystemPrompt(): string {
+  return `You are an expert English teacher aligned with CEFR and communicative teaching. Respect any PEDAGOGICAL CONSTRAINTS block in the user message (objectives, spaced review, vocabulary, grammar, reading/listening focus, oral goals). Output MUST be valid JSON only: a single JSON array of exercise objects, no markdown fences, no commentary.`;
+}
+
+function buildUserPrompt(params: {
+  safeCount: number;
+  level: string;
+  levelCtx: string;
+  topic: string;
+  weakTopics: string[];
+  exerciseTypes: string[];
+  focusOn: string;
+  pedagogy?: ExerciseGenerationPedagogyBody;
+}): string {
+  const { safeCount, level, levelCtx, topic, weakTopics, exerciseTypes, focusOn, pedagogy } =
+    params;
+
+  const pedagogyBlock = buildPedagogyPromptSection(pedagogy, { weakTopics, level });
+
+  const typeLines = exerciseTypes
+    .map((t) => `- "${t}": ${EXERCISE_TYPE_PROMPTS[t] || 'Follow standard discrete-item rules for this type.'}`)
+    .join('\n');
+
+  const weakFocus =
+    weakTopics.length > 0
+      ? `\nPRIORITY topics (student struggled here): ${weakTopics.join(', ')}.`
+      : '';
+
+  const extra = focusOn.trim() ? `\nExtra focus: ${focusOn.trim()}` : '';
+
+  const a1Block =
+    level === 'A1'
+      ? `
+
+${A1_GENERATION_PROMPT_SPEC}
+
+Follow the above shape exactly for each exercise "type". Do not invent extra fields.
+`
+      : '';
+
+  return `Create exactly ${safeCount} English practice exercises for CEFR ${level} (${levelCtx}).
+
+Topic area: ${topic}${weakFocus}${extra}
+${pedagogyBlock}
+Rotate exercise types in order through this list (repeat if needed):
+${typeLines}
+
+Required JSON shape — each array element MUST be an object with:
+- "id": unique string, e.g. "gen-${level.toLowerCase()}-0"
+- "type": one of [${exerciseTypes.map((t) => `"${t}"`).join(', ')}]
+- "level": "${level}"
+- "topic": string (same theme as above)
+- "topicName": human-readable topic label (can match topic)
+- "difficulty": "easy" | "medium" | "hard" (progress slightly from easier to harder within the batch)
+- "content": {
+    "title": string,
+    "instructions": string (Spanish is OK for learner-facing instructions),
+    "questions": [ /* one or more question objects depending on type */ ]
+  }
+
+Question objects (inside content.questions) for discrete types:
+- "question": string (the stem; use ___ for gaps in fill-blank)
+- "options": string[] (required for multiple-choice, true-false, fill-blank word bank)
+- "correctAnswer": number (0-based index) for multiple-choice OR string for fill-blank OR "True"/"False" for true-false
+- "explanation": string (why the answer is correct; Spanish OK)
+
+Important:
+- For types that use them, include content.questions[] as required; for sentence-building, matching, pronunciation, writing follow the A1 spec instead (no questions[] where forbidden).
+- For multiple-choice at non-A1 levels: prefer 4 options unless the type line says otherwise.
+- English for stems/options; explanations can be Spanish or bilingual [[en|es]].
+${a1Block}
+Return ONLY the JSON array, nothing else.`;
+}
+
+function mergeContentFromAi(ex: Record<string, unknown>): Record<string, unknown> {
+  const raw = ex?.content;
+  const rawContent =
+    raw && typeof raw === 'object' && !Array.isArray(raw) ? { ...(raw as Record<string, unknown>) } : {};
+
+  const content: Record<string, unknown> = {
+    ...rawContent,
+    title: rawContent.title ?? 'Práctica personalizada',
+    instructions: rawContent.instructions ?? 'Responde la pregunta.',
+  };
+
+  const hasQuestions = Array.isArray(content.questions) && (content.questions as unknown[]).length > 0;
+  if (!hasQuestions) {
+    content.question = rawContent.question ?? rawContent.text ?? '';
+    content.options = rawContent.options ?? [];
+    content.correctAnswer = rawContent.correctAnswer ?? '';
+    content.explanation = rawContent.explanation ?? '';
+  }
+
+  return content;
+}
+
+function normalizeToQuestionsShape(ex: Record<string, unknown>): Record<string, unknown> {
+  const content = (ex?.content as Record<string, unknown>) ?? {};
+  const questionText = String(content.question ?? content.text ?? content.prompt ?? '');
+  const options = Array.isArray(content.options) ? content.options : [];
+  const correctAnswer = content.correctAnswer ?? '';
+  const explanation = String(content.explanation || '');
+
+  const normalized: Record<string, unknown> = {
+    ...ex,
+    content: {
+      ...content,
+      questions:
+        Array.isArray(content.questions) && (content.questions as unknown[]).length > 0
+          ? content.questions
+          : [
+              {
+                question: questionText,
+                options,
+                correctAnswer,
+                explanation,
+                type: ex?.type,
+              },
+            ],
+    },
+  };
+
+  if (normalized.type === 'multiple-choice' && Array.isArray((normalized.content as Record<string, unknown>).questions)) {
+    const qs = (normalized.content as Record<string, unknown>).questions as Record<string, unknown>[];
+    const q = qs[0];
+    if (
+      q &&
+      typeof q.correctAnswer !== 'number' &&
+      Array.isArray(q.options) &&
+      (q.options as unknown[]).length > 0
+    ) {
+      const norm = (s: string) => s.toLowerCase().trim().replace(/\s+/g, ' ');
+      const answerText = String(q.correctAnswer || '').trim();
+      let idx = (q.options as unknown[]).findIndex((opt) => norm(String(opt)) === norm(answerText));
+      if (idx < 0) idx = 0;
+      q.correctAnswer = idx;
+    }
+  }
+
+  return normalized;
+}
+
+export async function GET() {
+  return NextResponse.json({
+    success: true,
+    message:
+      'POST JSON: { level, topic, count?, exerciseTypes?, weakTopics?, focusOn?, pedagogy? } — pedagogy: learningObjectives, spacedRepetitionNotes, emphasizeSpacedRepetition, vocabulary, expressions, grammarFocus, readingComprehension, listeningComprehension, speakingGoals',
+    exerciseTypes: EXERCISE_TYPE_CATALOG,
+  });
+}
 
 interface GenerateRequest {
   level: string;
@@ -135,6 +356,8 @@ interface GenerateRequest {
   count?: number;
   exerciseTypes?: string[];
   focusOn?: string;
+  /** Objetivos pedagógicos alineados con curriculum / repetición espaciada / skills */
+  pedagogy?: ExerciseGenerationPedagogyBody;
 }
 
 export async function POST(request: NextRequest) {
@@ -147,6 +370,7 @@ export async function POST(request: NextRequest) {
       count = 5,
       exerciseTypes = ['multiple-choice', 'fill-blank', 'true-false'],
       focusOn = '',
+      pedagogy,
     } = body;
 
     const safeCount = Math.max(1, Math.min(8, Number(count) || 5));
@@ -159,56 +383,25 @@ export async function POST(request: NextRequest) {
     }
 
     const levelCtx = LEVEL_CONTEXT[level] || LEVEL_CONTEXT.A1;
-    const typeDescriptions = exerciseTypes
-      .map(t => `- "${t}": ${EXERCISE_TYPE_PROMPTS[t] || 'A practice exercise.'}`)
-      .join('\n');
+    const safeTypes = exerciseTypes.length > 0 ? exerciseTypes : ['multiple-choice'];
 
-    const weakFocus = weakTopics.length > 0
-      ? `\nPRIORITY: Focus especially on these topics where the student has struggled: ${weakTopics.join(', ')}.`
-      : '';
+    const userPrompt = buildUserPrompt({
+      safeCount,
+      level,
+      levelCtx,
+      topic,
+      weakTopics,
+      exerciseTypes: safeTypes,
+      focusOn,
+      pedagogy,
+    });
 
-    const extraFocus = focusOn ? `\nAdditional focus: ${focusOn}` : '';
-
-    const systemPrompt = `You are an expert English language teacher creating exercises for students. Return ONLY valid JSON, no other text.`;
-
-    const userPrompt = `Create exactly ${safeCount} English practice exercises for a ${level} level student (${levelCtx}).
-
-Topic area: ${topic}${weakFocus}${extraFocus}
-
-Exercise types to use (rotate through them):
-${typeDescriptions}
-
-Return a JSON array of exactly ${safeCount} exercise objects. Each object must have:
-- "id": unique string like "gen-${level.toLowerCase()}-1"
-- "type": one of [${exerciseTypes.map(t => `"${t}"`).join(', ')}]
-- "level": "${level}"
-- "topic": topic string
-- "difficulty": "easy", "medium", or "hard" (progress from easy to harder)
-- "content": object containing:
-  - "title": "Práctica personalizada"
-  - "instructions": clear instruction in Spanish for what to do
-  - "question": the exercise question/sentence (string)
-  - "options": array of strings (for multiple-choice and true-false only)
-  - "correctAnswer": the correct answer
-  - "explanation": brief explanation in Spanish of why the answer is correct
-- "topicName": topic display name
-
-IMPORTANT:
-- Make exercises varied and educational, with a clear progression from easy to harder
-- Use natural English, avoid artificial or overly simple examples
-- For fill-blank: the sentence must be grammatically complete with the correct word inserted
-- For multiple-choice: make distractors plausible but clearly wrong to an educated student
-- Ensure all exercises are appropriate for ${level} level
-
-Return ONLY the JSON array, nothing else.`;
-
-    // Hard timeout to avoid Cloudflare 504s in front of Vercel.
-    // We don't rely on AbortController (not always respected); instead we race.
-    const timeoutMs = 20000;
+    const maxTokens = Math.min(4096, 250 + safeCount * 380);
+    const timeoutMs = Math.min(35000, 15000 + safeCount * 2500);
 
     const cloudflareCall = async () => {
       const res = await fetch(
-        `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/meta/llama-3.3-70b-instruct-fp8-fast`,
+        `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/${CF_LLAMA_3_3_70B_INSTRUCT_FP8_FAST}`,
         {
           method: 'POST',
           headers: {
@@ -217,17 +410,27 @@ Return ONLY the JSON array, nothing else.`;
           },
           body: JSON.stringify({
             messages: [
-              { role: 'system', content: systemPrompt },
+              { role: 'system', content: buildSystemPrompt() },
               { role: 'user', content: userPrompt },
             ],
-            // Reduce token budget to lower latency; UI only needs short exercises.
-            max_tokens: 1000,
+            max_tokens: maxTokens,
           }),
-        }
+        },
       );
 
       const text = await res.text();
       return { ok: res.ok, status: res.status, text };
+    };
+
+    const finishWithFallback = (warning: string) => {
+      const fallback = buildFallbackExercises({
+        level,
+        topic,
+        count: safeCount,
+        exerciseTypes: safeTypes,
+      });
+      const { exercises, validation } = validateExerciseListForApi(fallback, { level, topic });
+      return NextResponse.json({ exercises, validation, warning });
     };
 
     const raced = await Promise.race([
@@ -236,127 +439,48 @@ Return ONLY the JSON array, nothing else.`;
     ]);
 
     if ('timeout' in raced) {
-      const fallback = buildFallbackExercises({ level, topic, count: safeCount, exerciseTypes });
-      const { exercises, validation } = validateExerciseListForApi(fallback, { level, topic });
-      return NextResponse.json({
-        exercises,
-        validation,
-        warning: 'AI timeout; returned fallback exercises',
-      });
+      return finishWithFallback('AI timeout; returned fallback exercises');
     }
 
-    const resOk = raced.ok;
-    const resText = raced.text;
+    const { ok: resOk, text: resText } = raced;
 
     if (!resOk) {
       console.error('Llama exercise gen error:', resText.slice(0, 500));
-      const fallback = buildFallbackExercises({ level, topic, count: safeCount, exerciseTypes });
-      const { exercises, validation } = validateExerciseListForApi(fallback, { level, topic });
-      return NextResponse.json({
-        exercises,
-        validation,
-        warning: 'AI generation failed; returned fallback exercises',
-      });
+      return finishWithFallback('AI generation failed; returned fallback exercises');
     }
 
-    let data: any;
+    let data: unknown;
     try {
       data = JSON.parse(resText);
     } catch {
-      // Some providers might return plain text; handle defensively.
       data = { result: { response: resText } };
     }
 
-    const raw = coerceCloudflareResponseToText(data?.result?.response ?? data);
+    const raw = coerceCloudflareResponseToText(
+      (data as { result?: { response?: unknown } })?.result?.response ?? data,
+    );
 
-    const jsonMatch = raw.match(/\[[\s\S]*\]/);
-    if (!jsonMatch) {
+    const exercisesParsed = tryParseExerciseArray(raw);
+    if (!exercisesParsed) {
       console.error('No JSON array found in response:', raw.slice(0, 300));
-      const fallback = buildFallbackExercises({ level, topic, count: safeCount, exerciseTypes });
-      const { exercises, validation } = validateExerciseListForApi(fallback, { level, topic });
-      return NextResponse.json({
-        exercises,
-        validation,
-        warning: 'Invalid AI response; returned fallback exercises',
-      });
+      return finishWithFallback('Invalid AI response; returned fallback exercises');
     }
 
-    let exercises: any[];
-    try {
-      exercises = JSON.parse(jsonMatch[0]);
-    } catch (e) {
-      console.error('Failed to parse exercises JSON:', e);
-      const fallback = buildFallbackExercises({ level, topic, count: safeCount, exerciseTypes });
-      const { exercises, validation } = validateExerciseListForApi(fallback, { level, topic });
-      return NextResponse.json({
-        exercises,
-        validation,
-        warning: 'Parse error; returned fallback exercises',
+    const exercises = exercisesParsed as Record<string, unknown>[];
+
+    const validated = exercises.map((ex, i) => {
+      const merged = mergeContentFromAi(ex);
+      return normalizeToQuestionsShape({
+        id: ex.id || `gen-${level.toLowerCase()}-${Date.now()}-${i}`,
+        type: ex.type || safeTypes[i % safeTypes.length],
+        level: ex.level || level,
+        topic: ex.topic || topic,
+        difficulty: ex.difficulty || 'medium',
+        content: merged,
+        topicName: ex.topicName || topic,
+        isAIGenerated: true,
       });
-    }
-
-    const normalizeToQuestionsShape = (ex: any) => {
-      const content = ex?.content ?? {};
-      const questionText = content.question ?? content.text ?? content.prompt ?? '';
-      const options = Array.isArray(content.options) ? content.options : [];
-      const correctAnswer = content.correctAnswer ?? '';
-      const explanation = content.explanation || '';
-
-      // Many UI components expect `content.questions: [{...}]` even for single-question exercises.
-      const normalized = {
-        ...ex,
-        content: {
-          ...content,
-          questions: Array.isArray(content.questions) && content.questions.length > 0
-            ? content.questions
-            : [
-                {
-                  question: questionText,
-                  options,
-                  correctAnswer,
-                  explanation,
-                  type: ex?.type,
-                } as any,
-              ],
-        },
-      };
-
-      // For multiple-choice, ExerciseRenderer works best with numeric correctAnswer (0-based index).
-      if (normalized.type === 'multiple-choice' && Array.isArray(normalized.content.questions)) {
-        const q = normalized.content.questions[0];
-        if (q && typeof q.correctAnswer !== 'number' && Array.isArray(q.options) && q.options.length > 0) {
-          const norm = (s: string) =>
-            s
-              .toLowerCase()
-              .trim()
-              .replace(/\s+/g, ' ');
-          const answerText = String(q.correctAnswer || '').trim();
-          let idx = q.options.findIndex((opt: any) => norm(String(opt)) === norm(answerText));
-          if (idx < 0) idx = 0;
-          q.correctAnswer = idx;
-        }
-      }
-
-      return normalized;
-    };
-
-    const validated = exercises.map((ex: any, i: number) => ({
-      id: ex.id || `gen-${level.toLowerCase()}-${Date.now()}-${i}`,
-      type: ex.type || exerciseTypes[i % exerciseTypes.length],
-      level: ex.level || level,
-      topic: ex.topic || topic,
-      difficulty: ex.difficulty || 'medium',
-      content: {
-        title: ex.content?.title || 'Práctica personalizada',
-        instructions: ex.content?.instructions || 'Responde la pregunta.',
-        question: ex.content?.question || ex.content?.text || '',
-        options: ex.content?.options || [],
-        correctAnswer: ex.content?.correctAnswer ?? '',
-        explanation: ex.content?.explanation || '',
-      },
-      topicName: ex.topicName || topic,
-      isAIGenerated: true,
-    })).map(normalizeToQuestionsShape);
+    });
 
     const { exercises: zodExercises, validation } = validateExerciseListForApi(validated, {
       level,
@@ -364,13 +488,33 @@ Return ONLY the JSON array, nothing else.`;
     });
     if (!validation.ok) {
       console.warn(
-        '[generate-exercises] Zod envelope:',
+        '[generate-exercises] envelope:',
         validation.errors.map((e) => `${e.id}: ${e.issues.join('; ')}`).join(' || '),
       );
     }
-    return NextResponse.json({ exercises: zodExercises, validation });
-  } catch (error: any) {
+    if (!validation.a1Template.ok) {
+      console.warn(
+        '[generate-exercises] A1 template:',
+        validation.a1Template.errors.map((e) => `${e.id}: ${e.issues.join('; ')}`).join(' || '),
+      );
+    }
+
+    const a1OnlyMismatch =
+      validation.ok && !validation.a1Template.ok && level === 'A1';
+
+    return NextResponse.json({
+      exercises: zodExercises,
+      validation,
+      ...(a1OnlyMismatch
+        ? {
+            warning:
+              'A1 strict template mismatch: exercises are valid for the app but do not match a1GeneratedContentShapeSchema; see validation.a1Template.errors',
+          }
+        : {}),
+    });
+  } catch (error: unknown) {
+    const message = error instanceof Error ? error.message : 'Internal error';
     console.error('Generate exercises error:', error);
-    return NextResponse.json({ error: error.message || 'Internal error' }, { status: 500 });
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }
