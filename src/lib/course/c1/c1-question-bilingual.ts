@@ -30,34 +30,8 @@ function escapeTooltipSegment(s: string): string {
 }
 
 /**
- * Trocea por espacios (incluye saltos de línea).
- */
-function tokenizeBilingualLine(s: string): string[] {
-  return s.trim().split(/\s+/).filter(Boolean);
-}
-
-/**
- * Asigna a cada token inglés un token español por posición proporcional cuando
- * los recuentos no coinciden (las traducciones no son 1:1 palabra a palabra).
- */
-function alignSpanishTokensToEnglish(enWords: string[], esWords: string[]): string[] {
-  const n = enWords.length;
-  const m = esWords.length;
-  if (n === 0) return [];
-  if (m === 0) return Array(n).fill('');
-  if (n === 1) return [esWords.join(' ')];
-  const out: string[] = [];
-  const denom = Math.max(n - 1, 1);
-  for (let i = 0; i < n; i++) {
-    const j = Math.round((i * (m - 1)) / denom);
-    out.push(esWords[j]);
-  }
-  return out;
-}
-
-/**
- * Convierte un par bloque [[pregunta EN|traducción ES]] en marcas [[palabra|traducción]] por token,
- * para que TranslatedText muestre un tooltip por palabra (mejor lectura que un solo subrayado).
+ * Envuelve el enunciado en un único par [[EN|ES]] para que el tooltip muestre la traducción fiel.
+ * (El alineamiento proporcional palabra a palabra mezclaba tokens y mostraba español incorrecto.)
  * Si el enunciado ya contiene [[...]], se mantiene un único par para no romper el anidado.
  */
 export function expandC1BlockToWordPairMarkup(questionEn: string, questionEs: string): string {
@@ -68,17 +42,7 @@ export function expandC1BlockToWordPairMarkup(questionEn: string, questionEs: st
   if (en.includes('[[')) {
     return `[[${questionEn}|${questionEs}]]`;
   }
-
-  const enWords = tokenizeBilingualLine(en);
-  const esWords = tokenizeBilingualLine(es);
-  if (enWords.length === 0) return questionEn;
-
-  const esAligned = alignSpanishTokensToEnglish(enWords, esWords);
-  const pairs = enWords.map((w, i) => {
-    const t = esAligned[i] ?? '';
-    return `[[${escapeTooltipSegment(w)}|${escapeTooltipSegment(t)}]]`;
-  });
-  return pairs.join(' ');
+  return `[[${escapeTooltipSegment(en)}|${escapeTooltipSegment(es)}]]`;
 }
 
 export function shouldSkipC1BilingualQuestionWrap(questionEn: string): boolean {
