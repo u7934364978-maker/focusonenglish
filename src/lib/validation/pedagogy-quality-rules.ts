@@ -80,7 +80,7 @@ export function assessPedagogyQualityForExercise(
     const stem = String(q.question ?? q.text ?? q.prompt ?? '');
     const explanation = String(q.explanation ?? '');
 
-    if (['multiple-choice', 'true-false', 'fill-blank'].includes(type)) {
+    if (['multiple-choice', 'true-false', 'fill-blank', 'translation'].includes(type)) {
       if (stem.trim().length < 8) {
         issues.push({
           ruleId: 'PQ_STEM_MIN',

@@ -80,6 +80,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         'true-false': 'true_false',
         'fillBlanks': 'fill_blanks',
         'fill_blank': 'fill_blanks',
+        'fill-blank': 'fill_blanks',
         'drag-drop': 'reorder_words',
         'matching': 'matching',
         'flashcard': 'flashcard',

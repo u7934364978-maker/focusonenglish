@@ -3,6 +3,7 @@
 import { useState, useCallback } from 'react';
 import { Sparkles, RefreshCw, ChevronRight, Trophy, AlertCircle, Brain } from 'lucide-react';
 import { useSpacedRepetition } from '@/hooks/use-spaced-repetition';
+import { expandPracticeExerciseTypesForCount } from '@/lib/ai/shared-ai-practice-config';
 
 interface AIExercisePracticeProps {
   courseLevel: string;
@@ -43,7 +44,7 @@ export default function AIExercisePractice({
           topic,
           weakTopics: mode === 'weak' ? weakTopics : [],
           count,
-          exerciseTypes: ['multiple-choice', 'fill-blank', 'true-false', 'translation'],
+          exerciseTypes: expandPracticeExerciseTypesForCount(count),
           focusOn: mode === 'review' ? 'Review and reinforce previously learned material' : '',
           pedagogy: {
             emphasizeSpacedRepetition: mode === 'weak' || mode === 'review',

@@ -68,7 +68,48 @@ export function mapCourseExerciseToIndexedInteraction(
     } as IndexedInteraction;
   }
 
-  /* fill-blank: el UI premium mezcla teclado y opciones; aquí omitimos para evitar estados inconsistentes. */
+  if (t === 'fill-blank') {
+    const opts = Array.isArray(optionsRaw) ? (optionsRaw as unknown[]).map(String) : [];
+    if (opts.length < 2) return null;
+    const ca = q0.correctAnswer;
+    let correctStr = '';
+    if (typeof ca === 'string') correctStr = ca.trim();
+    else if (typeof ca === 'number' && opts[ca] !== undefined) correctStr = String(opts[ca]).trim();
+    if (!correctStr) return null;
+    const hasGap = /_{2,}/.test(stem) || /\b_+\b/.test(stem);
+    if (!hasGap) return null;
+    return {
+      interaction_id: id,
+      type: 'fill_blank',
+      level: 'A1',
+      complexity: 2,
+      prompt_es: instructions || 'Completa el hueco.',
+      stimulus_en: stem,
+      options: opts.map((text, i) => ({ id: String(i), text })),
+      correct_answer: correctStr,
+      mastery_tag: String(ex.topic ?? 'ai-generated'),
+      concept_tags: [String(ex.topic ?? 'general')],
+      feedback_correct_es: explanation,
+    } as IndexedInteraction;
+  }
+
+  if (t === 'translation') {
+    const ca = q0.correctAnswer;
+    const correctStr = typeof ca === 'string' ? ca.trim() : String(ca ?? '').trim();
+    if (correctStr.length < 1) return null;
+    return {
+      interaction_id: id,
+      type: 'short_writing',
+      level: 'A1',
+      complexity: 2,
+      prompt_es: instructions || 'Traduce al inglés.',
+      stimulus_es: stem,
+      correct_answer: correctStr,
+      mastery_tag: String(ex.topic ?? 'ai-generated'),
+      concept_tags: [String(ex.topic ?? 'general')],
+      explanation,
+    } as IndexedInteraction;
+  }
 
   return null;
 }

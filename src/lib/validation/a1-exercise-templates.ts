@@ -45,7 +45,11 @@ Use "content" EXACTLY as follows for each "type" (do not mix shapes):
 
 • type "true-false":
   content = { "title", "instructions", "questions": [ { "question", "options": ["True","False"] exactly, "correctAnswer": "True" or "False", "explanation" } ] }
-  At least 1 question.
+  At least 1 question. The "question" must be a single declarative English sentence that is clearly true or false — NOT a gap-fill ("___") and NOT "choose the correct verb/word/article" (those belong in multiple-choice or fill-blank).
+
+• type "translation":
+  content = { "title", "instructions", "questions": [ { "question": string (phrase or sentence to translate; Spanish is OK), "correctAnswer": string (correct English, plain text), "explanation": string } ] }
+  Do not use options[] for translation. At least 1 question.
 
 • type "sentence-building":
   content = { "title", "instructions", "correctSentence": string (full correct sentence), "words": string[] (min 2, scrambled words) }

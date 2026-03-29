@@ -151,6 +151,10 @@ export async function buildPersonalizedGenerationContext(
     emphasizeSpacedRepetition: true,
     spacedRepetitionNotes: spacedBlock,
     vocabulary: mergedPriorityTags.filter((t) => /vocab|word|lex|lexis/i.test(t)).slice(0, 8),
+    /** Misma dimensión que `AIExercisePractice` en unidades (producción oral mínima). */
+    speakingGoals: [
+      `Frases muy cortas y naturales para el tema «${topic.slice(0, 120)}» en nivel A1 (funcionales, pronunciables).`,
+    ],
   };
 
   const orchestration: SessionOrchestrationMeta = {

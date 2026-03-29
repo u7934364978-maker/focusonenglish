@@ -16,6 +16,7 @@ import {
   type SessionOrchestrationMeta,
 } from '@/lib/daily-session/personalized-generation-context';
 import { generateExercisesWithLlama } from '@/lib/ai/generate-exercises-llama';
+import { expandPracticeExerciseTypesForCount } from '@/lib/ai/shared-ai-practice-config';
 import { mapExerciseListToInteractions } from '@/lib/daily-session/map-generated-exercise-to-interaction';
 import type { PedagogyQualityBatchResult } from '@/lib/validation/pedagogy-quality-rules';
 import type { PedagogyDisplayGateSummary } from '@/lib/validation/pedagogy-pre-display-audit';
@@ -110,12 +111,13 @@ export async function POST(request: NextRequest) {
       try {
         const ctx = await buildPersonalizedGenerationContext(supabase, user.id);
         sessionOrchestration = ctx.orchestration;
+        const aiCount = Math.min(8, neededNew);
         const gen = await generateExercisesWithLlama({
           level: 'A1',
           topic: ctx.topic,
           weakTopics: ctx.weakTopics,
-          count: Math.min(8, neededNew),
-          exerciseTypes: ['multiple-choice', 'true-false', 'multiple-choice'],
+          count: aiCount,
+          exerciseTypes: expandPracticeExerciseTypesForCount(aiCount),
           focusOn: ctx.focusOn,
           pedagogy: ctx.pedagogy,
         });
