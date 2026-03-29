@@ -7,6 +7,15 @@ export function isLikelyEnglish(text: string): boolean {
   return !spanishChars.test(text);
 }
 
+/** Texto para TTS o heurísticas: `[[en|es]]` → en; `[[word]]` → word. */
+export function stripBilingualMarkup(text: string): string {
+  if (!text || typeof text !== 'string') return '';
+  return text
+    .replace(/\[\[([^\]|]+)\|([^\]]*)\]\]/g, '$1')
+    .replace(/\[\[([^\]]+)\]\]/g, '$1')
+    .trim();
+}
+
 export function getSolutionText(interaction: PremiumInteraction): string {
   if (!interaction) return "";
 

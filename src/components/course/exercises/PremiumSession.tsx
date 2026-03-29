@@ -18,7 +18,8 @@ import {
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { UnitData, PremiumBlock, PremiumContent } from "@/types/premium-course";
-import { getSolutionText, isLikelyEnglish, getEncouragingMessage } from "@/lib/premium-utils";
+import { TranslatedText, TRANSLATION_TOOLTIP_SPACING } from "@/components/course/exercises/TranslatedText";
+import { getSolutionText, isLikelyEnglish, getEncouragingMessage, stripBilingualMarkup } from "@/lib/premium-utils";
 import { calculateStarRating } from "@/lib/progress";
 import WordSearchExercise from "../../exercises/WordSearchExercise";
 import CrosswordExercise from "../../exercises/CrosswordExercise";
@@ -1655,9 +1656,12 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       case 'role_play':
       case 'chat_simulation':
         return (
-          <div className="w-full max-w-2xl mx-auto space-y-8">
-            <h2 className="text-2xl font-black text-slate-800 text-center">
-              {interaction.prompt_es || (interaction.type === 'chat_simulation' ? 'Responde al mensaje:' : '')}
+          <div className="w-full max-w-xl mx-auto space-y-4 md:space-y-5">
+            <h2 className="text-lg md:text-xl font-black text-slate-800 text-center leading-snug">
+              <TranslatedText
+                text={String(interaction.prompt_es || (interaction.type === 'chat_simulation' ? 'Responde al mensaje:' : ''))}
+                className="inline"
+              />
             </h2>
             {interaction.type === 'chat_simulation' && Array.isArray(interaction.chat_history) && interaction.chat_history.length > 0 ? (
               <div className="space-y-2 max-w-lg mx-auto mb-4">
@@ -1674,9 +1678,11 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                       }`}
                     >
                       <span className="flex items-start gap-2">
-                        <span className="flex-1 whitespace-pre-line">{m.text}</span>
-                        {isLikelyEnglish(m.text) && (
-                          <PronunciationButton text={m.text} className="shrink-0 opacity-70 hover:opacity-100" />
+                        <span className="flex-1 whitespace-pre-line">
+                          <TranslatedText text={m.text} className="inline" />
+                        </span>
+                        {isLikelyEnglish(stripBilingualMarkup(m.text)) && (
+                          <PronunciationButton text={stripBilingualMarkup(m.text)} className="shrink-0 opacity-70 hover:opacity-100" />
                         )}
                       </span>
                     </div>
@@ -1685,14 +1691,14 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
               </div>
             ) : null}
             {interaction.stimulus_en && (interaction.type !== 'chat_simulation' || !interaction.chat_history?.length) && (
-               <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 text-center mb-8 max-h-[40vh] overflow-y-auto relative group">
-                  <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <p className="text-2xl font-bold text-slate-700 leading-relaxed whitespace-pre-line">
-                    {interaction.stimulus_en}
+               <div className={`bg-slate-50 p-4 md:p-5 rounded-2xl border border-slate-200 text-center mb-4 max-h-[min(32vh,220px)] overflow-y-auto relative group ${TRANSLATION_TOOLTIP_SPACING.blockWithTranslations}`}>
+                  <PronunciationButton text={stripBilingualMarkup(interaction.stimulus_en)} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <p className="text-base md:text-lg font-bold text-slate-700 leading-relaxed whitespace-pre-line text-left sm:text-center">
+                    <TranslatedText text={interaction.stimulus_en} className="inline" />
                   </p>
                </div>
             )}
-            <div className="grid gap-4">
+            <div className={`grid gap-2 ${TRANSLATION_TOOLTIP_SPACING.betweenOptions}`}>
               {interaction.options?.map((opt: any) => (
                 <div
                   key={opt.id}
@@ -1705,21 +1711,23 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                       if (!feedback) setSelectedOption(opt.id);
                     }
                   }}
-                  className={`w-full p-6 text-left border-2 border-b-4 rounded-3xl font-bold text-xl transition-all flex items-center justify-between group/opt cursor-pointer ${
+                  className={`w-full py-3 px-4 text-left border-2 border-b-2 rounded-2xl font-semibold text-base transition-all flex items-center justify-between gap-2 group/opt cursor-pointer min-h-0 ${
                     feedback 
                       ? opt.id === interaction.correct_answer ? 'border-green-500 bg-green-50 text-green-700' : 'border-slate-100 bg-white text-slate-300'
                       : selectedOption === opt.id 
-                        ? 'border-indigo-500 bg-indigo-50 text-indigo-700 active:translate-y-1'
-                        : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50 active:translate-y-1'
+                        ? 'border-indigo-500 bg-indigo-50 text-indigo-700 active:translate-y-0.5'
+                        : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50 active:translate-y-0.5'
                   } ${feedback ? 'pointer-events-none' : ''}`}
                 >
-                  <span className="flex items-center gap-3">
-                    {opt.text}
-                    {isLikelyEnglish(opt.text) && (
-                      <PronunciationButton text={opt.text} className="opacity-0 group-hover/opt:opacity-100 transition-opacity" />
+                  <span className="flex items-center gap-2 flex-1 min-w-0">
+                    <span className="text-left leading-snug">
+                      <TranslatedText text={String(opt.text)} className="inline" />
+                    </span>
+                    {isLikelyEnglish(stripBilingualMarkup(String(opt.text))) && (
+                      <PronunciationButton text={stripBilingualMarkup(String(opt.text))} className="opacity-0 group-hover/opt:opacity-100 transition-opacity shrink-0" />
                     )}
                   </span>
-                  {feedback && opt.id === interaction.correct_answer && <CheckCircle2 className="w-6 h-6" />}
+                  {feedback && opt.id === interaction.correct_answer && <CheckCircle2 className="w-5 h-5 shrink-0" />}
                 </div>
               ))}
             </div>
@@ -1743,22 +1751,34 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
           // If multiple blanks, we probably shouldn't use simple MC buttons unless it's designed for it
           // But for A1 "Completa la frase", it's usually 1 blank and 2 options.
           if (gapsCount <= 1) {
+            const stimDisplay =
+              interaction.stimulus_en?.includes('___')
+                ? interaction.stimulus_en.replace(
+                    /_{2,}/g,
+                    ' ' +
+                      (selectedOption
+                        ? interaction.options.find((o: any) => o.id === selectedOption)?.text
+                        : '...') +
+                      ' ',
+                  )
+                : interaction.stimulus_en;
             return (
-              <div className="w-full max-w-2xl mx-auto space-y-8">
-                <h2 className="text-2xl font-black text-slate-800 text-center">
-                  {isSolutionInPrompt ? "Completa el espacio:" : interaction.prompt_es}
+              <div className="w-full max-w-xl mx-auto space-y-4 md:space-y-5">
+                <h2 className="text-lg md:text-xl font-black text-slate-800 text-center">
+                  <TranslatedText
+                    text={String(isSolutionInPrompt ? 'Completa el espacio:' : interaction.prompt_es ?? '')}
+                    className="inline"
+                  />
                 </h2>
                 {interaction.stimulus_en && (
-                  <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 text-center mb-8 relative group">
-                    <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                    <p className="text-2xl font-bold text-slate-700 leading-relaxed whitespace-pre-line">
-                      {interaction.stimulus_en.includes('___') 
-                        ? interaction.stimulus_en.replace(/_{2,}/g, ' ' + (selectedOption ? interaction.options.find((o: any) => o.id === selectedOption)?.text : '...') + ' ')
-                        : interaction.stimulus_en}
+                  <div className={`bg-slate-50 p-4 md:p-5 rounded-2xl border border-slate-200 text-center mb-4 relative group ${TRANSLATION_TOOLTIP_SPACING.blockWithTranslations}`}>
+                    <PronunciationButton text={stripBilingualMarkup(String(stimDisplay))} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                    <p className="text-base md:text-lg font-bold text-slate-700 leading-relaxed whitespace-pre-line text-left sm:text-center">
+                      <TranslatedText text={String(stimDisplay)} className="inline" />
                     </p>
                   </div>
                 )}
-                <div className="grid gap-4">
+                <div className={`grid gap-2 ${TRANSLATION_TOOLTIP_SPACING.betweenOptions}`}>
                   {interaction.options.map((opt: any) => (
                     <div
                       key={opt.id}
@@ -1771,22 +1791,24 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                           if (!feedback) setSelectedOption(opt.id);
                         }
                       }}
-                      className={`w-full p-6 text-left border-2 border-b-4 rounded-3xl font-bold text-xl transition-all flex items-center justify-between group/opt cursor-pointer ${
+                      className={`w-full py-3 px-4 text-left border-2 border-b-2 rounded-2xl font-semibold text-base transition-all flex items-center justify-between gap-2 group/opt cursor-pointer ${
                         feedback 
                           ? opt.text.toLowerCase().trim() === interaction.correct_answer?.toLowerCase().trim() ? 'border-green-500 bg-green-50 text-green-700' : 
                             (selectedOption === opt.id ? 'border-red-500 bg-red-50 text-red-700' : 'border-slate-100 bg-white text-slate-300')
                           : selectedOption === opt.id 
-                            ? 'border-indigo-500 bg-indigo-50 text-indigo-700 active:translate-y-1'
-                            : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50 active:translate-y-1'
+                            ? 'border-indigo-500 bg-indigo-50 text-indigo-700 active:translate-y-0.5'
+                            : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50 active:translate-y-0.5'
                       } ${feedback ? 'pointer-events-none' : ''}`}
                     >
-                      <span className="flex items-center gap-3">
-                        {opt.text}
-                        {isLikelyEnglish(opt.text) && (
-                          <PronunciationButton text={opt.text} className="opacity-0 group-hover/opt:opacity-100 transition-opacity" />
+                      <span className="flex items-center gap-2 flex-1 min-w-0">
+                        <span className="text-left leading-snug">
+                          <TranslatedText text={String(opt.text)} className="inline" />
+                        </span>
+                        {isLikelyEnglish(stripBilingualMarkup(String(opt.text))) && (
+                          <PronunciationButton text={stripBilingualMarkup(String(opt.text))} className="opacity-0 group-hover/opt:opacity-100 transition-opacity shrink-0" />
                         )}
                       </span>
-                      {feedback && opt.text.toLowerCase().trim() === interaction.correct_answer?.toLowerCase().trim() && <CheckCircle2 className="w-6 h-6" />}
+                      {feedback && opt.text.toLowerCase().trim() === interaction.correct_answer?.toLowerCase().trim() && <CheckCircle2 className="w-5 h-5 shrink-0" />}
                     </div>
                   ))}
                 </div>
@@ -1944,14 +1966,16 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
       case 'true_false':
         return (
-          <div className="w-full max-w-xl mx-auto space-y-12">
-            <div className="space-y-6 text-center">
-              <h2 className="text-2xl font-black text-slate-800 leading-tight">{interaction.prompt_es}</h2>
+          <div className="w-full max-w-xl mx-auto space-y-6 md:space-y-8">
+            <div className="space-y-3 text-center">
+              <h2 className="text-lg md:text-xl font-black text-slate-800 leading-tight">
+                <TranslatedText text={String(interaction.prompt_es ?? '')} className="inline" />
+              </h2>
               {interaction.stimulus_en && (
-                <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 max-h-[40vh] overflow-y-auto relative group">
-                  <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <p className="text-2xl font-bold text-slate-700 leading-relaxed">
-                    {interaction.stimulus_en}
+                <div className={`bg-slate-50 p-4 md:p-5 rounded-2xl border border-slate-200 max-h-[min(32vh,220px)] overflow-y-auto relative group ${TRANSLATION_TOOLTIP_SPACING.blockWithTranslations}`}>
+                  <PronunciationButton text={stripBilingualMarkup(interaction.stimulus_en)} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <p className="text-base md:text-lg font-bold text-slate-700 leading-relaxed text-left sm:text-center">
+                    <TranslatedText text={interaction.stimulus_en} className="inline" />
                   </p>
                 </div>
               )}
@@ -1967,30 +1991,30 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
               </div>
             )}
 
-            <div className="grid grid-cols-1 gap-6">
+            <div className="grid grid-cols-1 gap-3">
               <button 
                 onClick={() => setSelectedOption(true)}
                 disabled={!!feedback}
-                className={`p-10 border-2 border-b-[10px] rounded-[2rem] font-black text-3xl transition-all flex items-center justify-between px-12 ${
+                className={`py-4 px-6 border-2 border-b-4 rounded-2xl font-black text-lg md:text-xl transition-all flex items-center justify-between ${
                   feedback ? (interaction.correct_answer === true ? 'bg-green-100 border-green-500 text-green-700' : 'bg-slate-50 border-slate-100 text-slate-200') 
-                  : selectedOption === true ? 'bg-indigo-50 border-indigo-500 text-indigo-700 active:translate-y-2'
-                  : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300 active:translate-y-2'
+                  : selectedOption === true ? 'bg-indigo-50 border-indigo-500 text-indigo-700 active:translate-y-0.5'
+                  : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300 active:translate-y-0.5'
                 }`}
               >
                 VERDADERO
-                {feedback && interaction.correct_answer === true && <CheckCircle2 className="w-10 h-10" />}
+                {feedback && interaction.correct_answer === true && <CheckCircle2 className="w-7 h-7" />}
               </button>
               <button 
                 onClick={() => setSelectedOption(false)}
                 disabled={!!feedback}
-                className={`p-10 border-2 border-b-[10px] rounded-[2rem] font-black text-3xl transition-all flex items-center justify-between px-12 ${
+                className={`py-4 px-6 border-2 border-b-4 rounded-2xl font-black text-lg md:text-xl transition-all flex items-center justify-between ${
                   feedback ? (interaction.correct_answer === false ? 'bg-green-100 border-green-500 text-green-700' : 'bg-slate-50 border-slate-100 text-slate-200') 
-                  : selectedOption === false ? 'bg-indigo-50 border-indigo-500 text-indigo-700 active:translate-y-2'
-                  : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300 active:translate-y-2'
+                  : selectedOption === false ? 'bg-indigo-50 border-indigo-500 text-indigo-700 active:translate-y-0.5'
+                  : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300 active:translate-y-0.5'
                 }`}
               >
                 FALSO
-                {feedback && interaction.correct_answer === false && <CheckCircle2 className="w-10 h-10" />}
+                {feedback && interaction.correct_answer === false && <CheckCircle2 className="w-7 h-7" />}
               </button>
             </div>
           </div>
@@ -2249,7 +2273,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
   return (
     <div className="fixed inset-0 bg-white z-50 flex flex-col overflow-y-auto">
-      <header className="max-w-5xl mx-auto w-full px-6 py-8 md:py-12 flex items-center gap-6">
+      <header className="max-w-5xl mx-auto w-full px-4 sm:px-6 py-4 md:py-8 flex items-center gap-4 shrink-0">
         <button onClick={onExit} className="p-3 text-slate-300 hover:text-slate-600 transition-colors">
           <X className="w-8 h-8" />
         </button>
@@ -2285,14 +2309,14 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         </div>
       </header>
 
-      <main className="flex-1 flex flex-col items-center py-4 md:py-8 overflow-y-auto bg-slate-50/30">
+      <main className="flex-1 flex flex-col items-center py-2 md:py-4 overflow-y-auto bg-slate-50/30 min-h-0">
         <AnimatePresence mode="wait">
           <motion.div
             key={`${currentIndex}-${interactionIndex}-${isRepairing}-${showInteraction}-${currentSceneIndex}`}
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -50 }}
-            className="w-full max-w-5xl mx-auto px-6 flex flex-col justify-start md:justify-center min-h-[60vh]"
+            className="w-full max-w-5xl mx-auto px-4 sm:px-6 flex flex-col justify-center min-h-0 py-2"
           >
             {currentItem?.type === 'transition' 
               ? renderTransition(currentItem) 
@@ -2358,7 +2382,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         })()}
       </AnimatePresence>
 
-      <footer className={`p-4 md:p-6 border-t-2 border-slate-100 bg-white ${feedback || currentItem?.type === 'transition' ? 'hidden' : ''}`}>
+      <footer className={`shrink-0 p-3 md:p-4 border-t-2 border-slate-100 bg-white ${feedback || currentItem?.type === 'transition' ? 'hidden' : ''}`}>
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between gap-4">
           <Button 
             variant="outline" 
