@@ -12,6 +12,8 @@ import { Input } from '@/components/ui/input';
 import { CheckCircle2, XCircle, Lightbulb, Volume2, ArrowRight, BookOpen as BookOpenIcon } from 'lucide-react';
 import { AudioPlayer } from '@/components/course/preview/AudioPlayer';
 import { resolveListeningScript } from '@/lib/listening-script';
+import { TranslatedText } from '@/components/course/exercises/TranslatedText';
+import { applyC1QuestionBilingual } from '@/lib/course/c1/c1-question-bilingual';
 
 function resolvePublicAudioUrl(url?: string | null): string {
   if (!url) return '';
@@ -212,7 +214,9 @@ export default function C1ExerciseDispatcher({ exercise, onComplete, onQuestionC
                 
                 <div className="flex-1 space-y-4">
                   <p className="text-lg font-bold text-slate-800 leading-snug">
-                    {q.question}
+                    <TranslatedText
+                      text={applyC1QuestionBilingual(exercise.id, String(q.question ?? ''))}
+                    />
                   </p>
 
                   {q.options ? (
@@ -239,8 +243,10 @@ export default function C1ExerciseDispatcher({ exercise, onComplete, onQuestionC
                                     : 'border-slate-100 bg-slate-50 text-slate-600 hover:border-slate-200'
                             }`}
                           >
-                            <div className="flex items-center justify-between">
-                              <span>{optStr}</span>
+                            <div className="flex items-center justify-between gap-2">
+                              <span className="flex-1 min-w-0 leading-snug">
+                                <TranslatedText text={optStr} />
+                              </span>
                               {showCorrect && <CheckCircle2 className="h-5 w-5 text-green-500" />}
                               {showWrong && <XCircle className="h-5 w-5 text-red-500" />}
                             </div>
