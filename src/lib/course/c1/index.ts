@@ -79,7 +79,7 @@ export const C1_COURSE = {
     { id: 4,  title: '[[The Natural World|El mundo natural]]', exercises: UNIT_4_EXERCISES },
     { id: 5,  title: '[[Arts and Culture|Arte y cultura]]', exercises: UNIT_5_EXERCISES },
     { id: 6,  title: '[[Work and Economy|Trabajo y economía]]', exercises: UNIT_6_EXERCISES },
-    { id: 7,  title: 'Health and Mind',                        exercises: UNIT_7_EXERCISES  },
+    { id: 7,  title: '[[Health and Mind|Salud y mente]]', exercises: UNIT_7_EXERCISES },
     { id: 8,  title: 'Global Issues',                          exercises: UNIT_8_EXERCISES  },
     { id: 9,  title: 'Media and Information',                  exercises: UNIT_9_EXERCISES  },
     { id: 10, title: 'Philosophy, Ethics and the Future',      exercises: UNIT_10_EXERCISES },
