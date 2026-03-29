@@ -18,6 +18,7 @@ import {
 import { generateExercisesWithLlama } from '@/lib/ai/generate-exercises-llama';
 import { mapExerciseListToInteractions } from '@/lib/daily-session/map-generated-exercise-to-interaction';
 import type { PedagogyQualityBatchResult } from '@/lib/validation/pedagogy-quality-rules';
+import type { PedagogyDisplayGateSummary } from '@/lib/validation/pedagogy-pre-display-audit';
 
 export const dynamic = 'force-dynamic';
 
@@ -103,6 +104,7 @@ export async function POST(request: NextRequest) {
     let aiWarning: string | undefined;
     let sessionOrchestration: SessionOrchestrationMeta | undefined;
     let pedagogyQuality: PedagogyQualityBatchResult | undefined;
+    let pedagogyGate: PedagogyDisplayGateSummary | undefined;
 
     if (generation === 'ai' && neededNew > 0) {
       try {
@@ -118,7 +120,14 @@ export async function POST(request: NextRequest) {
           pedagogy: ctx.pedagogy,
         });
         pedagogyQuality = gen.pedagogyQuality;
+        pedagogyGate = gen.pedagogyGate;
         if (gen.warning) aiWarning = gen.warning;
+        if (gen.pedagogyGate?.rejectedCount) {
+          console.warn(
+            '[api/a1/daily-session] pedagogy gate rejected:',
+            gen.pedagogyGate.rejected,
+          );
+        }
         const mapped = mapExerciseListToInteractions(gen.exercises);
         for (const m of mapped) {
           if (newInteractions.length >= neededNew) break;
@@ -171,6 +180,7 @@ export async function POST(request: NextRequest) {
         aiWarning,
         ...(sessionOrchestration ? { orchestration: sessionOrchestration } : {}),
         ...(pedagogyQuality ? { pedagogyQuality } : {}),
+        ...(pedagogyGate ? { pedagogyGate } : {}),
       },
     });
   } catch (e) {

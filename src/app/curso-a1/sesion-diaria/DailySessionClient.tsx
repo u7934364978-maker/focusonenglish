@@ -13,6 +13,7 @@ import {
   fetchStreakStats,
 } from '@/lib/daily-session/client-streak';
 import type { PedagogyQualityBatchResult } from '@/lib/validation/pedagogy-quality-rules';
+import type { PedagogyDisplayGateSummary } from '@/lib/validation/pedagogy-pre-display-audit';
 import {
   A1_SESION_DEL_DIA,
   a1SesionDelDiaEnOracion,
@@ -37,6 +38,8 @@ interface PlanMeta {
   };
   /** Reglas PQ_* tras generación IA (solo debug / generation: ai). */
   pedagogyQuality?: PedagogyQualityBatchResult;
+  /** Ítems excluidos por la puerta pedagógica antes de mostrar (solo debug). */
+  pedagogyGate?: PedagogyDisplayGateSummary;
 }
 
 interface AdaptiveExercise {
@@ -316,6 +319,21 @@ export default function DailySessionClient() {
               {plan.aiWarning ? (
                 <div className="text-amber-200/90">
                   <span className="text-emerald-300/90">aiWarning</span> · {plan.aiWarning}
+                </div>
+              ) : null}
+              {plan.pedagogyGate?.rejectedCount ? (
+                <div className="space-y-1 border-t border-white/10 pt-3 text-amber-100/90">
+                  <span className="text-emerald-300/90 font-bold">pedagogyGate</span>
+                  <div>
+                    excluidos antes de mostrar: {plan.pedagogyGate.rejectedCount}
+                  </div>
+                  <ul className="list-none space-y-1 pl-0">
+                    {plan.pedagogyGate.rejected.map((r) => (
+                      <li key={r.id}>
+                        <span className="text-emerald-300/90">{r.id}</span> · {r.ruleIds.join(', ')}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               ) : null}
               {plan.pedagogyQuality ? (

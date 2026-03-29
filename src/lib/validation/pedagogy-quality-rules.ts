@@ -132,6 +132,24 @@ export function assessPedagogyQualityForExercise(
           });
         }
       }
+
+      const parenHint = stem.match(/\(([A-Za-z][A-Za-z\s'-]{0,39})\)/);
+      if (parenHint && opts.length > 0) {
+        const hintNorm = norm(parenHint[1]);
+        if (hintNorm.length >= 2 && hintNorm.split(/\s+/).length <= 3) {
+          const optNorms = opts.map((o) => norm(o));
+          const spoils = optNorms.some((o) => o === hintNorm || o.includes(hintNorm) || hintNorm.includes(o));
+          if (spoils) {
+            issues.push({
+              ruleId: 'PQ_MC_SPOILER_PAREN',
+              severity: 'warn',
+              message:
+                'Pista entre paréntesis en el enunciado coincide con una opción: anula la dificultad; quitar el spoiler o reformular.',
+              path: `${path}.question`,
+            });
+          }
+        }
+      }
     }
 
     if (type === 'true-false') {
@@ -146,6 +164,29 @@ export function assessPedagogyQualityForExercise(
           severity: 'warn',
           message: 'true-false: options deben ser exactamente True y False (orden libre si el índice cuadra).',
           path: `${path}.options`,
+        });
+      }
+
+      const blobTf = `${instructions} ${title} ${stem}`.toLowerCase();
+      if (
+        /choose the correct (verb|word|article)/i.test(blobTf) ||
+        /elige (la palabra correcta|el verbo correcto|el artículo correcto)/i.test(blobTf)
+      ) {
+        issues.push({
+          ruleId: 'PQ_TF_VS_MC_INSTRUCTION',
+          severity: 'error',
+          message:
+            'Ítem true-false con instrucción de elección léxica/gramatical: usar multiple-choice o fill-blank, no V/F.',
+          path: `${path}.question`,
+        });
+      }
+      if (/_\s{0,2}_/.test(stem) || /_{3,}/.test(stem)) {
+        issues.push({
+          ruleId: 'PQ_TF_FILLBLANK_STEM',
+          severity: 'error',
+          message:
+            'Ítem true-false con hueco tipo rellenar (___): el formato no encaja con verdadero/falso.',
+          path: `${path}.question`,
         });
       }
     }
@@ -209,7 +250,10 @@ export const PEDAGOGY_QUALITY_RULE_IDS = [
   'PQ_MC_OPTIONS_COUNT',
   'PQ_MC_OPTIONS_DISTINCT',
   'PQ_MC_INDEX_RANGE',
+  'PQ_MC_SPOILER_PAREN',
   'PQ_TF_OPTIONS',
+  'PQ_TF_VS_MC_INSTRUCTION',
+  'PQ_TF_FILLBLANK_STEM',
   'PQ_FILL_CORRECT_EMPTY',
   'PQ_A1_READING_TRANSCRIPT_SHORT',
 ] as const;

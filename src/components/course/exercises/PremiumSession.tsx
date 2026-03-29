@@ -177,7 +177,8 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
   }, [currentIndex]);
 
   const currentItem = queue[currentIndex];
-  const progress = (currentIndex / queue.length) * 100;
+  const progress =
+    queue.length > 0 ? ((currentIndex + 1) / queue.length) * 100 : 0;
 
   const playAudio = async (url?: string, text?: string) => {
     if (!url && !text) return;

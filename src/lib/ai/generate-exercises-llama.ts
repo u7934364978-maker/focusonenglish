@@ -18,6 +18,11 @@ import {
   validateExerciseListPedagogyQuality,
   type PedagogyQualityBatchResult,
 } from '@/lib/validation/pedagogy-quality-rules';
+import {
+  partitionExercisesByPedagogyGate,
+  summarizePedagogyGateRejected,
+  type PedagogyDisplayGateSummary,
+} from '@/lib/validation/pedagogy-pre-display-audit';
 import type { z } from 'zod';
 import { courseExerciseSchema } from '@/lib/validation/course-exercise-schema';
 
@@ -95,7 +100,7 @@ function buildFallbackExercises(params: {
     },
     {
       question:
-        '[[Choose the correct word: This is my ___. (mother)|Elige la palabra correcta: This is my ___. (mother)]]',
+        '[[Choose the correct word: This is my ___.|Elige la palabra correcta: This is my ___.]]',
       options: ['mother', 'brother', 'teacher', 'name'],
       correctAnswer: 0,
       explanation: '[["Mother" means "madre".|"Mother" significa "madre".]]',
@@ -368,10 +373,44 @@ export type GenerateExercisesRequest = {
 export type GenerateExercisesLlamaResult = {
   exercises: z.infer<typeof courseExerciseSchema>[];
   validation: ExerciseListValidationResult;
-  /** Reglas pedagógicas comprobables (explicación mínima, índices MC, etc.). */
+  /** Reglas pedagógicas comprobables (explicación mínima, índices MC, etc.) sobre lo entregado. */
   pedagogyQuality?: PedagogyQualityBatchResult;
+  /** Ítems excluidos por la puerta previa a mostrar (PQ_*). */
+  pedagogyGate?: PedagogyDisplayGateSummary;
   warning?: string;
 };
+
+type CourseEx = z.infer<typeof courseExerciseSchema>;
+
+function finalizeExercisesForDisplay(
+  exercises: CourseEx[],
+  level: string,
+  validation: ExerciseListValidationResult,
+  baseWarning?: string,
+): GenerateExercisesLlamaResult {
+  const { accepted, rejected } = partitionExercisesByPedagogyGate(exercises, level);
+  const pedagogyQuality = validateExerciseListPedagogyQuality(accepted, level);
+
+  const parts: string[] = [];
+  if (baseWarning?.trim()) parts.push(baseWarning.trim());
+  if (rejected.length) {
+    parts.push(
+      `Puerta pedagógica: se excluyeron ${rejected.length} ítem(s) con problemas PQ_* antes de mostrarlos.`,
+    );
+    console.warn(
+      '[pedagogy-display-gate] excluded:',
+      rejected.map((r) => `${r.id}: ${r.issues.map((i) => i.ruleId).join(',')}`).join(' | '),
+    );
+  }
+
+  return {
+    exercises: accepted,
+    validation,
+    pedagogyQuality,
+    ...(rejected.length ? { pedagogyGate: summarizePedagogyGateRejected(rejected) } : {}),
+    ...(parts.length ? { warning: parts.join(' ') } : {}),
+  };
+}
 
 export async function generateExercisesWithLlama(
   body: GenerateExercisesRequest,
@@ -443,12 +482,7 @@ export async function generateExercisesWithLlama(
       exerciseTypes: safeTypes,
     });
     const { exercises, validation } = validateExerciseListForApi(fallback, { level, topic });
-    const pedagogyQuality = validateExerciseListPedagogyQuality(exercises, level);
-    const extra =
-      !pedagogyQuality.ok
-        ? ' Pedagogy quality: some items failed PQ_* rules (see pedagogyQuality.exercises).'
-        : '';
-    return { exercises, validation, pedagogyQuality, warning: warning + extra };
+    return finalizeExercisesForDisplay(exercises, level, validation, warning);
   };
 
   const raced = await Promise.race([
@@ -505,17 +539,6 @@ export async function generateExercisesWithLlama(
     topic,
   });
 
-  const pedagogyQuality = validateExerciseListPedagogyQuality(zodExercises, level);
-  if (!pedagogyQuality.ok) {
-    console.warn(
-      '[generate-exercises-llama] pedagogy quality:',
-      pedagogyQuality.exercises
-        .filter((e) => e.issues.some((i) => i.severity === 'error'))
-        .map((e) => `${e.id}: ${e.issues.map((i) => i.ruleId).join(',')}`)
-        .join(' || '),
-    );
-  }
-
   if (!validation.ok) {
     console.warn(
       '[generate-exercises-llama] envelope:',
@@ -537,16 +560,10 @@ export async function generateExercisesWithLlama(
       'A1 strict template mismatch: exercises are valid for the app but do not match a1GeneratedContentShapeSchema; see validation.a1Template.errors',
     );
   }
-  if (!pedagogyQuality.ok) {
-    warningParts.push(
-      'Pedagogy quality: some items failed PQ_* rules (see pedagogyQuality.exercises).',
-    );
-  }
-
-  return {
-    exercises: zodExercises,
+  return finalizeExercisesForDisplay(
+    zodExercises,
+    level,
     validation,
-    pedagogyQuality,
-    ...(warningParts.length ? { warning: warningParts.join(' ') } : {}),
-  };
+    warningParts.length ? warningParts.join(' ') : undefined,
+  );
 }
