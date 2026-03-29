@@ -17,7 +17,7 @@ export const C1_EXERCISES_PER_UNIT = 18 as const;
 export const C1_EXERCISES_PER_LESSON_SLOT = 3 as const;
 
 /** Unidades con 18 ítems por lección (108 en total). El validador y el player admiten ambos modelos. */
-export const C1_UNITS_FULL_LESSON_DEPTH: readonly number[] = [1, 2, 3, 4, 5, 6, 7, 8] as const;
+export const C1_UNITS_FULL_LESSON_DEPTH: readonly number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9] as const;
 
 /** Total ejercicios en modelo ampliado (6 × 18). */
 export const C1_EXERCISES_PER_UNIT_FULL = 108 as const;
