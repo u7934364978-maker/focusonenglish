@@ -76,7 +76,7 @@ export const C1_COURSE = {
     { id: 1,  title: '[[Personal Identity and Self-Image|Identidad personal e imagen personal]]', exercises: UNIT_1_EXERCISES },
     { id: 2,  title: '[[Language and Communication|Lenguaje y comunicación]]', exercises: UNIT_2_EXERCISES },
     { id: 3,  title: '[[Science and Technology|Ciencia y tecnología]]', exercises: UNIT_3_EXERCISES },
-    { id: 4,  title: 'The Natural World',                      exercises: UNIT_4_EXERCISES  },
+    { id: 4,  title: '[[The Natural World|El mundo natural]]', exercises: UNIT_4_EXERCISES },
     { id: 5,  title: 'Arts and Culture',                       exercises: UNIT_5_EXERCISES  },
     { id: 6,  title: 'Work and Economy',                       exercises: UNIT_6_EXERCISES  },
     { id: 7,  title: 'Health and Mind',                        exercises: UNIT_7_EXERCISES  },
