@@ -73,8 +73,8 @@ import { UNIT_72_EXERCISES } from './unit-72';
 
 export const C1_COURSE = {
   units: [
-    { id: 1,  title: 'Personal Identity and Self-Image',       exercises: UNIT_1_EXERCISES  },
-    { id: 2,  title: 'Language and Communication',             exercises: UNIT_2_EXERCISES  },
+    { id: 1,  title: '[[Personal Identity and Self-Image|Identidad personal e imagen personal]]', exercises: UNIT_1_EXERCISES },
+    { id: 2,  title: '[[Language and Communication|Lenguaje y comunicación]]', exercises: UNIT_2_EXERCISES },
     { id: 3,  title: 'Science and Technology',                 exercises: UNIT_3_EXERCISES  },
     { id: 4,  title: 'The Natural World',                      exercises: UNIT_4_EXERCISES  },
     { id: 5,  title: 'Arts and Culture',                       exercises: UNIT_5_EXERCISES  },

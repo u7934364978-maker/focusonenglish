@@ -19,7 +19,7 @@ import { AudioPlayer } from './course/preview/AudioPlayer';
 import { resolveListeningScript } from '@/lib/listening-script';
 import { useGamification } from '@/lib/hooks/use-gamification';
 import SpeakButton from './SpeakButton';
-import { applyC1Unit1QuestionBilingual } from '@/lib/course/c1/c1-unit1-question-es';
+import { applyC1QuestionBilingual } from '@/lib/course/c1/c1-question-bilingual';
 
 interface ExerciseRendererProps {
   exercise: Exercise;
@@ -306,7 +306,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
   const renderCurrentQuestion = (q: any, qIndex: number) => {
     const rawQuestion = String(q.question || q.text || q.prompt || '');
-    const questionForUi = applyC1Unit1QuestionBilingual(exercise.id, rawQuestion);
+    const questionForUi = applyC1QuestionBilingual(exercise.id, rawQuestion);
     return (
       <div key={qIndex} className="space-y-4">
         {/* Image */}

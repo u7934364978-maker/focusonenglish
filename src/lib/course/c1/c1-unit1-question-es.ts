@@ -148,27 +148,3 @@ export const C1_UNIT1_QUESTION_ES: Record<string, string> = {
   'c1-u1-s18':
     'Termina con una pregunta prospectiva (debate):',
 };
-
-export function applyC1Unit1QuestionBilingual(exerciseId: string, questionEn: string): string {
-  const es = C1_UNIT1_QUESTION_ES[exerciseId];
-  if (!es) return questionEn;
-  if (questionEn.includes('[[Text:|Texto:]]')) return questionEn;
-  if (questionEn.includes('[[Speaker:|')) return questionEn;
-  if (questionEn.includes('[[Lecturer:|')) return questionEn;
-  if (questionEn.includes('[[Interviewer:|')) return questionEn;
-  if (questionEn.includes('[[Coach:|')) return questionEn;
-  if (questionEn.includes('[[Podcast host:|')) return questionEn;
-  if (questionEn.includes('[[Therapist:|')) return questionEn;
-  if (questionEn.includes('[[Debate:|')) return questionEn;
-  if (questionEn.includes('[[Seminar leader:|')) return questionEn;
-  if (questionEn.includes('[[Radio:|')) return questionEn;
-  if (questionEn.includes('[[Workshop:|')) return questionEn;
-  if (questionEn.includes('[[Lecture:|')) return questionEn;
-  if (questionEn.includes('[[Clip:|')) return questionEn;
-  if (questionEn.includes('[[Interview:|')) return questionEn;
-  if (questionEn.includes('[[Panel:|')) return questionEn;
-  if (questionEn.includes('[[Talk:|')) return questionEn;
-  if (questionEn.includes('[[Discussion:|')) return questionEn;
-  if (questionEn.includes('[[Summary:|')) return questionEn;
-  return `[[${questionEn}|${es}]]`;
-}
