@@ -12,6 +12,7 @@ import {
   formatUnitOrderHint,
   mergePriorityTags,
 } from '@/lib/daily-session/unified-session-prompt';
+import { a1SesionDelDiaTemaPromptGeneral } from '@/lib/copy/a1-sesion-del-dia';
 
 const A1_BASE_OBJECTIVES = [
   'Comunicarse en situaciones cotidianas muy simples (presentarse, saludar, pedir información básica).',
@@ -78,7 +79,7 @@ export async function buildPersonalizedGenerationContext(
   const topic =
     mergedPriorityTags.length > 0
       ? `Repaso focalizado: ${mergedPriorityTags.slice(0, 3).join(', ')}`
-      : 'Sesión diaria A1 — práctica general';
+      : a1SesionDelDiaTemaPromptGeneral();
 
   const focusOn =
     mergedPriorityTags.length > 0

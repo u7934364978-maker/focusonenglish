@@ -4,6 +4,7 @@ import { A1CourseSelector } from '@/components/course/preview/A1CourseSelector';
 import { UnifiedCourseProgressSidebar } from '@/components/course/UnifiedCourseProgressSidebar';
 import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
 import { BookOpen, Clock, Award, RotateCcw, Calendar } from 'lucide-react';
+import { A1_SESION_DEL_DIA } from '@/lib/copy/a1-sesion-del-dia';
 
 export const dynamic = 'force-dynamic';
 
@@ -88,7 +89,7 @@ async function A1PreviewContent() {
                 <Calendar className="w-6 h-6 text-emerald-700" />
               </div>
               <div className="min-w-0 flex-1">
-                <p className="font-bold text-slate-900">Sesión del día</p>
+                <p className="font-bold text-slate-900">{A1_SESION_DEL_DIA}</p>
                 <p className="text-sm text-slate-600">
                   Repasos reales de tu cola espaciada + ítems nuevos (racha y XP en una sola sesión).
                 </p>

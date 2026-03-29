@@ -13,6 +13,10 @@ import {
   fetchStreakStats,
 } from '@/lib/daily-session/client-streak';
 import type { PedagogyQualityBatchResult } from '@/lib/validation/pedagogy-quality-rules';
+import {
+  A1_SESION_DEL_DIA,
+  a1SesionDelDiaEnOracion,
+} from '@/lib/copy/a1-sesion-del-dia';
 
 interface PlanMeta {
   reviewCount: number;
@@ -49,20 +53,20 @@ function buildUnitData(interactions: AdaptiveExercise[]): UnitData {
   return {
     course: {
       unit_id: 'A1_DAILY_SESSION',
-      unit_title: 'Sesión del día',
+      unit_title: A1_SESION_DEL_DIA,
       level: 'A1',
       total_duration_minutes: interactions.length * 2,
       language_ui: 'es-ES',
       target_language: 'en',
     },
     learning_outcomes: [
-      'Repasar lo pendiente del algoritmo de repetición espaciada',
-      'Practicar ítems generados según tus debilidades (concept_tag en user_mastery)',
+      'Repasar lo pendiente de tu repaso espaciado',
+      'Practicar ejercicios nuevos adaptados a lo que más te cuesta',
     ],
     blocks: [
       {
         block_id: 'A1_DAILY_BLOCK',
-        title: 'Sesión diaria',
+        title: A1_SESION_DEL_DIA,
         duration_minutes: interactions.length * 2,
         content: interactions,
       },
@@ -221,7 +225,7 @@ export default function DailySessionClient() {
         <div className="flex flex-col items-center gap-4">
           <div className="w-12 h-12 rounded-full border-4 border-emerald-500 border-t-transparent animate-spin" />
           <p className="text-xs font-black tracking-widest text-slate-400 uppercase">
-            Montando tu sesión del día…
+            Preparando tu {a1SesionDelDiaEnOracion()}…
           </p>
         </div>
       </div>
@@ -261,7 +265,7 @@ export default function DailySessionClient() {
             </Link>
             <div>
               <p className="text-[10px] font-black uppercase tracking-[0.2em] text-emerald-200/90">
-                Curso A1 · Sesión del día
+                Curso A1 · {A1_SESION_DEL_DIA}
               </p>
               <h1 className="text-xl md:text-2xl font-black tracking-tight flex items-center gap-2">
                 <Calendar className="w-6 h-6 text-emerald-300" />
