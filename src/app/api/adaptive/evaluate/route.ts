@@ -20,7 +20,15 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ success: false, error: 'Unauthorized' }, { status: 401 });
     }
 
-    const { interactionId, isCorrect, responseTimeMs } = await request.json();
+    const body = await request.json();
+    const { interactionId, isCorrect, responseTimeMs, conceptTags, level, complexity } = body as {
+      interactionId?: string;
+      isCorrect?: boolean;
+      responseTimeMs?: number;
+      conceptTags?: string[];
+      level?: string;
+      complexity?: number;
+    };
 
     if (!interactionId) {
       return NextResponse.json({ success: false, error: 'Missing interactionId' }, { status: 400 });
@@ -29,8 +37,15 @@ export async function POST(request: NextRequest) {
     await UltraAdaptiveEngine.evaluateAnswer(
       finalUserId,
       interactionId,
-      isCorrect,
-      responseTimeMs || 5000
+      Boolean(isCorrect),
+      responseTimeMs || 5000,
+      conceptTags?.length
+        ? {
+            concept_tags: conceptTags,
+            level: typeof level === 'string' ? level : undefined,
+            complexity: typeof complexity === 'number' ? complexity : undefined,
+          }
+        : undefined,
     );
 
     return NextResponse.json({

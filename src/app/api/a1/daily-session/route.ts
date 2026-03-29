@@ -10,6 +10,14 @@ import {
   DAILY_NEW_CAP,
 } from '@/lib/daily-session/constants';
 import { validateInteractionForApi } from '@/lib/validation/interaction-api';
+import { isPremiumRenderableType } from '@/lib/daily-session/premium-renderable-types';
+import {
+  buildPersonalizedGenerationContext,
+  type SessionOrchestrationMeta,
+} from '@/lib/daily-session/personalized-generation-context';
+import { generateExercisesWithLlama } from '@/lib/ai/generate-exercises-llama';
+import { mapExerciseListToInteractions } from '@/lib/daily-session/map-generated-exercise-to-interaction';
+import type { PedagogyQualityBatchResult } from '@/lib/validation/pedagogy-quality-rules';
 
 export const dynamic = 'force-dynamic';
 
@@ -41,6 +49,7 @@ export async function POST(request: NextRequest) {
     }
 
     const body = await request.json().catch(() => ({}));
+    const generation = body.generation === 'ai' ? 'ai' : 'catalog';
     const sessionTotal = Math.min(
       16,
       Math.max(4, Number(body.sessionTotal) || DAILY_SESSION_TOTAL),
@@ -75,7 +84,7 @@ export async function POST(request: NextRequest) {
     for (const row of dueRows) {
       if (reviewInteractions.length >= reviewCap) break;
       const hit = provider.getInteractionById(row.exercise_id);
-      if (hit && hit.level === 'A1') {
+      if (hit && hit.level === 'A1' && isPremiumRenderableType(hit.type)) {
         reviewInteractions.push(hit);
       } else {
         missedExerciseIds.push(row.exercise_id);
@@ -91,12 +100,46 @@ export async function POST(request: NextRequest) {
       ...reviewInteractions.map((i) => i.interaction_id),
     ]);
 
+    let aiWarning: string | undefined;
+    let sessionOrchestration: SessionOrchestrationMeta | undefined;
+    let pedagogyQuality: PedagogyQualityBatchResult | undefined;
+
+    if (generation === 'ai' && neededNew > 0) {
+      try {
+        const ctx = await buildPersonalizedGenerationContext(supabase, user.id);
+        sessionOrchestration = ctx.orchestration;
+        const gen = await generateExercisesWithLlama({
+          level: 'A1',
+          topic: ctx.topic,
+          weakTopics: ctx.weakTopics,
+          count: Math.min(8, neededNew),
+          exerciseTypes: ['multiple-choice', 'true-false', 'multiple-choice'],
+          focusOn: ctx.focusOn,
+          pedagogy: ctx.pedagogy,
+        });
+        pedagogyQuality = gen.pedagogyQuality;
+        if (gen.warning) aiWarning = gen.warning;
+        const mapped = mapExerciseListToInteractions(gen.exercises);
+        for (const m of mapped) {
+          if (newInteractions.length >= neededNew) break;
+          const id = m.interaction_id || `ai-${Date.now()}-${newInteractions.length}`;
+          if (seen.has(id)) continue;
+          seen.add(id);
+          newInteractions.push({ ...m, interaction_id: id });
+        }
+      } catch (e) {
+        console.error('[api/a1/daily-session] AI generation', e);
+        aiWarning = 'AI generation unavailable; using catalog items.';
+      }
+    }
+
     let attempts = 0;
     const maxAttempts = Math.max(neededNew * 12, 24);
     while (newInteractions.length < neededNew && attempts < maxAttempts) {
       attempts += 1;
       const ex = await UltraAdaptiveEngine.getNextExercise(user.id, 'A1');
       if (!ex?.interaction_id) continue;
+      if (!isPremiumRenderableType(ex.type)) continue;
       if (seen.has(ex.interaction_id)) continue;
       seen.add(ex.interaction_id);
       newInteractions.push(ex);
@@ -124,6 +167,10 @@ export async function POST(request: NextRequest) {
         missedExerciseIds,
         dueQueueLength: dueRows.length,
         validationWarnings: validationNotes.slice(0, 5),
+        generation,
+        aiWarning,
+        ...(sessionOrchestration ? { orchestration: sessionOrchestration } : {}),
+        ...(pedagogyQuality ? { pedagogyQuality } : {}),
       },
     });
   } catch (e) {

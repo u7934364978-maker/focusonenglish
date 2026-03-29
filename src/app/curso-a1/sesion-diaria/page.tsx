@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { createClient } from '@/lib/supabase/server';
 import { GlobalContentProvider } from '@/lib/course-engine/global-content-provider';
 import DailySessionClient from './DailySessionClient';
@@ -33,5 +34,15 @@ export default async function SesionDiariaPage() {
 
   await GlobalContentProvider.getInstance().loadAllContent();
 
-  return <DailySessionClient />;
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-screen flex items-center justify-center bg-[#0c4a3e] px-4">
+          <p className="text-sm font-bold text-emerald-100/80">Cargando sesión…</p>
+        </div>
+      }
+    >
+      <DailySessionClient />
+    </Suspense>
+  );
 }

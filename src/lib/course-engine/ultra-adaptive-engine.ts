@@ -118,40 +118,45 @@ export class UltraAdaptiveEngine {
     userId: string,
     interactionId: string,
     isCorrect: boolean,
-    responseTimeMs: number
+    responseTimeMs: number,
+    /** Ítems fuera del catálogo (p. ej. IA): mismas etiquetas que en la interacción generada */
+    fallback?: { concept_tags?: string[]; level?: string; complexity?: number },
   ): Promise<void> {
     const interaction = this.provider.getInteractionById(interactionId);
-    if (!interaction) return;
+    const conceptTags = interaction?.concept_tags?.length
+      ? interaction.concept_tags
+      : fallback?.concept_tags;
+    const level = interaction?.level ?? fallback?.level ?? 'A1';
+    const complexity = interaction?.complexity ?? fallback?.complexity ?? 2;
+
+    if (!interaction && (!conceptTags || conceptTags.length === 0)) return;
 
     try {
       const supabase = await createClient();
 
-      // 1. Update Mastery (Existing Supabase function)
-      if (interaction.concept_tags && interaction.concept_tags.length > 0) {
+      if (conceptTags && conceptTags.length > 0) {
         await supabase.rpc('update_concept_mastery', {
           p_user_id: userId,
-          p_concept_tags: interaction.concept_tags,
-          p_success: isCorrect
+          p_concept_tags: conceptTags,
+          p_success: isCorrect,
         });
       }
 
-      // 2. Update SRS
       await supabase.rpc('update_srs_item', {
         p_user_id: userId,
         p_item_id: interactionId,
-        p_quality: isCorrect ? 5 : 0 // Simplified quality for now
+        p_quality: isCorrect ? 5 : 0,
       });
 
-      // 3. Update Ultra State
       await supabase.rpc('update_ultra_state', {
         p_user_id: userId,
         p_is_correct: isCorrect,
         p_response_time: responseTimeMs,
-        p_complexity: interaction.complexity || 1,
-        p_level: interaction.level
+        p_complexity: complexity,
+        p_level: level,
       });
     } catch (e) {
-      console.warn("Could not update state in DB (expected in dev without DB):", e);
+      console.warn('Could not update state in DB (expected in dev without DB):', e);
     }
   }
 

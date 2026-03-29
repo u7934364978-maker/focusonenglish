@@ -2,7 +2,8 @@
 
 import { useCallback, useEffect, useState } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, Calendar, Flame, Loader2, Sparkles, Zap } from 'lucide-react';
+import { useSearchParams } from 'next/navigation';
+import { ArrowLeft, Bug, Calendar, Flame, Loader2, Sparkles, Zap } from 'lucide-react';
 import PremiumCourseSession from '@/components/course/exercises/PremiumSession';
 import type { UnitData } from '@/types/premium-course';
 import { useSpacedRepetition } from '@/hooks/use-spaced-repetition';
@@ -11,6 +12,7 @@ import {
   completeDailySessionRemote,
   fetchStreakStats,
 } from '@/lib/daily-session/client-streak';
+import type { PedagogyQualityBatchResult } from '@/lib/validation/pedagogy-quality-rules';
 
 interface PlanMeta {
   reviewCount: number;
@@ -18,12 +20,27 @@ interface PlanMeta {
   sessionTotal: number;
   missedExerciseIds: string[];
   dueQueueLength: number;
+  generation?: 'catalog' | 'ai';
+  aiWarning?: string;
+  /** Metadatos de unificación SRS + temario + mastery (solo generation: ai) */
+  orchestration?: {
+    srsDueCount: number;
+    srsSkipped?: boolean;
+    srsPriorityTags: string[];
+    masteryWeakTags: string[];
+    mergedPriorityTags: string[];
+    unitOrdersFromSrs: number[];
+  };
+  /** Reglas PQ_* tras generación IA (solo debug / generation: ai). */
+  pedagogyQuality?: PedagogyQualityBatchResult;
 }
 
 interface AdaptiveExercise {
   interaction_id: string;
   type: string;
   mastery_tag?: string;
+  concept_tags?: string[];
+  complexity?: number;
   prompt_es?: string;
   [key: string]: unknown;
 }
@@ -40,7 +57,7 @@ function buildUnitData(interactions: AdaptiveExercise[]): UnitData {
     },
     learning_outcomes: [
       'Repasar lo pendiente del algoritmo de repetición espaciada',
-      'Añadir ítems nuevos del motor adaptativo en la misma sesión',
+      'Practicar ítems generados según tus debilidades (concept_tag en user_mastery)',
     ],
     blocks: [
       {
@@ -61,7 +78,27 @@ function topicFromInteraction(ex: AdaptiveExercise): string {
   return 'General';
 }
 
+function TagList({ label, tags }: { label: string; tags: string[] }) {
+  if (!tags.length) return null;
+  return (
+    <div>
+      <span className="text-emerald-300/90">{label}</span>
+      <ul className="mt-1 list-disc list-inside text-emerald-50/95 break-words">
+        {tags.map((t) => (
+          <li key={t}>{t}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 export default function DailySessionClient() {
+  const searchParams = useSearchParams();
+  const showDebugPanel =
+    process.env.NODE_ENV === 'development' ||
+    searchParams.get('debug') === '1' ||
+    searchParams.get('debug') === 'true';
+
   const [unitData, setUnitData] = useState<UnitData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -93,7 +130,7 @@ export default function DailySessionClient() {
         const res = await fetch('/api/a1/daily-session', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({}),
+          body: JSON.stringify({ generation: 'ai' }),
         });
         if (!res.ok) {
           if (res.status === 401) {
@@ -134,18 +171,35 @@ export default function DailySessionClient() {
         setSessionXp((p) => p + 10);
       }
 
+      const content = (unitData?.blocks[0]?.content ?? []) as AdaptiveExercise[];
+      const ex = content.find((i) => i.interaction_id === interactionId);
+      const conceptTags = Array.isArray(ex?.concept_tags)
+        ? ex.concept_tags
+        : ex?.mastery_tag
+          ? [String(ex.mastery_tag)]
+          : [];
+
       try {
         await fetch('/api/adaptive/evaluate', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ interactionId, isCorrect: true, responseTimeMs: 5000 }),
+          body: JSON.stringify({
+            interactionId,
+            isCorrect: true,
+            responseTimeMs: 5000,
+            ...(conceptTags.length > 0
+              ? {
+                  conceptTags,
+                  level: 'A1',
+                  complexity: typeof ex?.complexity === 'number' ? ex.complexity : 2,
+                }
+              : {}),
+          }),
         });
       } catch {
         /* no bloquear */
       }
 
-      const content = (unitData?.blocks[0]?.content ?? []) as AdaptiveExercise[];
-      const ex = content.find((i) => i.interaction_id === interactionId);
       const topic = ex ? topicFromInteraction(ex) : 'General';
       recordResult(interactionId, topic, true, 100);
     },
@@ -238,6 +292,106 @@ export default function DailySessionClient() {
           Repasos tomados de tu cola espaciada (mismos ejercicios que marcaste) mezclados con ítems nuevos del
           motor adaptativo.
         </p>
+
+        {showDebugPanel && plan && (
+          <details className="mb-4 rounded-2xl border border-amber-400/40 bg-amber-950/30 text-left">
+            <summary className="cursor-pointer list-none px-4 py-3 flex items-center gap-2 text-xs font-black uppercase tracking-widest text-amber-100/95 [&::-webkit-details-marker]:hidden">
+              <Bug className="w-4 h-4 shrink-0 text-amber-300" />
+              Diagnóstico sesión (debug)
+              <span className="ml-auto font-mono font-normal normal-case tracking-normal text-amber-200/70">
+                {process.env.NODE_ENV === 'development' ? 'dev · ' : ''}
+                añade ?debug=1 en producción
+              </span>
+            </summary>
+            <div className="px-4 pb-4 pt-0 space-y-3 text-[11px] sm:text-xs font-mono text-emerald-50/95 leading-relaxed border-t border-amber-400/20">
+              <div>
+                <span className="text-emerald-300/90">generation</span> ·{' '}
+                {plan.generation ?? '—'} · sessionTotal {plan.sessionTotal} · cola SRS due{' '}
+                {plan.dueQueueLength}
+              </div>
+              {plan.aiWarning ? (
+                <div className="text-amber-200/90">
+                  <span className="text-emerald-300/90">aiWarning</span> · {plan.aiWarning}
+                </div>
+              ) : null}
+              {plan.pedagogyQuality ? (
+                <div className="space-y-2 border-t border-white/10 pt-3">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="text-emerald-300/90 font-bold">pedagogyQuality</span>
+                    <span
+                      className={
+                        plan.pedagogyQuality.ok
+                          ? 'rounded px-1.5 py-0.5 bg-emerald-500/25 text-emerald-100'
+                          : 'rounded px-1.5 py-0.5 bg-amber-500/30 text-amber-100'
+                      }
+                    >
+                      ok: {String(plan.pedagogyQuality.ok)}
+                    </span>
+                  </div>
+                  <ul className="list-none space-y-1.5 pl-0">
+                    {plan.pedagogyQuality.exercises.map((row) => {
+                      const errs = row.issues.filter((i) => i.severity === 'error');
+                      const warns = row.issues.filter((i) => i.severity === 'warn');
+                      if (!row.issues.length) {
+                        return (
+                          <li key={row.id} className="text-emerald-200/70">
+                            {row.id} · sin incidencias PQ
+                          </li>
+                        );
+                      }
+                      return (
+                        <li key={row.id} className="text-emerald-50/95">
+                          <span className="text-emerald-300/90">{row.id}</span>
+                          {errs.length > 0 ? (
+                            <span className="text-rose-200/95">
+                              {' '}
+                              · error: {errs.map((e) => e.ruleId).join(', ')}
+                            </span>
+                          ) : null}
+                          {warns.length > 0 ? (
+                            <span className="text-amber-200/85">
+                              {' '}
+                              · warn: {warns.map((w) => w.ruleId).join(', ')}
+                            </span>
+                          ) : null}
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              ) : null}
+              {plan.missedExerciseIds?.length ? (
+                <div>
+                  <span className="text-emerald-300/90">missedExerciseIds</span> ·{' '}
+                  {plan.missedExerciseIds.slice(0, 8).join(', ')}
+                  {plan.missedExerciseIds.length > 8 ? '…' : ''}
+                </div>
+              ) : null}
+              {plan.orchestration ? (
+                <div className="space-y-2 border-t border-white/10 pt-3">
+                  <div className="text-emerald-300/90 font-bold">orchestration</div>
+                  <div>
+                    srsDueCount: {plan.orchestration.srsDueCount}
+                    {plan.orchestration.srsSkipped ? ' · srsSkipped (tabla ausente)' : ''}
+                  </div>
+                  <TagList label="srsPriorityTags" tags={plan.orchestration.srsPriorityTags} />
+                  <TagList label="masteryWeakTags" tags={plan.orchestration.masteryWeakTags} />
+                  <TagList label="mergedPriorityTags" tags={plan.orchestration.mergedPriorityTags} />
+                  {plan.orchestration.unitOrdersFromSrs.length > 0 ? (
+                    <div>
+                      <span className="text-emerald-300/90">unitOrdersFromSrs</span> ·{' '}
+                      {plan.orchestration.unitOrdersFromSrs.join(', ')}
+                    </div>
+                  ) : null}
+                </div>
+              ) : (
+                <div className="text-emerald-200/60 border-t border-white/10 pt-3">
+                  Sin bloque orchestration (p. ej. generation catalog o respuesta antigua).
+                </div>
+              )}
+            </div>
+          </details>
+        )}
 
         <div className="bg-slate-900/40 rounded-3xl border border-emerald-700/50 shadow-xl p-3 md:p-4">
           <PremiumCourseSession

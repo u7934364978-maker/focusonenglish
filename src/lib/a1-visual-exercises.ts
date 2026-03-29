@@ -245,7 +245,9 @@ export const A1_KIDS_EXERCISES = [
       {
         interaction_id: 'c3-chat-greet',
         type: 'chat_simulation' as const,
+        prompt_es: 'Elige la respuesta más natural:',
         stimulus_en: "Hi! How are you?",
+        correct_answer: '1',
         options: [
           { id: '1', text: "I'm fine, thank you." },
           { id: '2', text: "I am fine." },

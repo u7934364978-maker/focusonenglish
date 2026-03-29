@@ -76,6 +76,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       const typeMap: Record<string, string> = {
         'multipleChoice': 'multiple_choice',
         'multiple-choice': 'multiple_choice',
+        'true-false': 'true_false',
         'fillBlanks': 'fill_blanks',
         'fill_blank': 'fill_blanks',
         'drag-drop': 'reorder_words',
@@ -232,6 +233,11 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       if (item.stimulus_en) texts.push(item.stimulus_en);
       if (item.prompt_en) texts.push(item.prompt_en);
       if (item.text) texts.push(item.text);
+      if (Array.isArray(item.chat_history)) {
+        item.chat_history.forEach((m: { text?: string }) => {
+          if (m?.text && isLikelyEnglish(m.text)) texts.push(m.text);
+        });
+      }
       
       if (item.options) {
         item.options.forEach((opt: any) => {
@@ -443,7 +449,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       if (interaction.correct_sentence_en) candidates.add(normalizeSentence(interaction.correct_sentence_en));
 
       isAnswerCorrect = Array.from(candidates).some((candidate) => candidate.length > 0 && candidate === selectedText);
-    } else if (['true_false', 'odd_one_out', 'multiple_choice', 'role_play', 'listening_image_mc', 'fill_blanks', 'fill_blank', 'fill-blank', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
+    } else if (['true_false', 'odd_one_out', 'multiple_choice', 'role_play', 'chat_simulation', 'listening_image_mc', 'fill_blanks', 'fill_blank', 'fill-blank', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
       // Robust comparison for boolean and string values
       const normalizedOption = String(optionId).toLowerCase().trim();
       
@@ -657,7 +663,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     let ready = false;
     let payload: any = null;
 
-    if (['multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'reading-comprehension', 'writing-analysis', 'role_play'].includes(interaction.type)) {
+    if (['multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'reading-comprehension', 'writing-analysis', 'role_play', 'chat_simulation'].includes(interaction.type)) {
       ready = selectedOption !== null;
       payload = selectedOption;
     } else if (['matching', 'multiple_matching', 'vocabulary-match'].includes(interaction.type)) {
@@ -1647,10 +1653,38 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       case 'multiple_choice':
       case 'odd_one_out':
       case 'role_play':
+      case 'chat_simulation':
         return (
           <div className="w-full max-w-2xl mx-auto space-y-8">
-            <h2 className="text-2xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
-            {interaction.stimulus_en && (
+            <h2 className="text-2xl font-black text-slate-800 text-center">
+              {interaction.prompt_es || (interaction.type === 'chat_simulation' ? 'Responde al mensaje:' : '')}
+            </h2>
+            {interaction.type === 'chat_simulation' && Array.isArray(interaction.chat_history) && interaction.chat_history.length > 0 ? (
+              <div className="space-y-2 max-w-lg mx-auto mb-4">
+                {interaction.chat_history.map((m: { role: string; text: string }, idx: number) => (
+                  <div
+                    key={idx}
+                    className={`flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}
+                  >
+                    <div
+                      className={`rounded-2xl px-4 py-3 text-base font-bold max-w-[90%] shadow-sm ${
+                        m.role === 'user'
+                          ? 'bg-indigo-600 text-white'
+                          : 'bg-slate-100 text-slate-800 border-2 border-slate-200'
+                      }`}
+                    >
+                      <span className="flex items-start gap-2">
+                        <span className="flex-1 whitespace-pre-line">{m.text}</span>
+                        {isLikelyEnglish(m.text) && (
+                          <PronunciationButton text={m.text} className="shrink-0 opacity-70 hover:opacity-100" />
+                        )}
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ) : null}
+            {interaction.stimulus_en && (interaction.type !== 'chat_simulation' || !interaction.chat_history?.length) && (
                <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 text-center mb-8 max-h-[40vh] overflow-y-auto relative group">
                   <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                   <p className="text-2xl font-bold text-slate-700 leading-relaxed whitespace-pre-line">
@@ -2365,7 +2399,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 if (['short_writing', 'dictation_guided'].includes(interaction.type)) {
                   return !inputValues[0] || inputValues[0].trim().length === 0;
                 }
-                if (['multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
+                if (['multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'reading-comprehension', 'writing-analysis', 'role_play', 'chat_simulation'].includes(interaction.type)) {
                   return selectedOption === null;
                 }
                 return false;
@@ -2390,7 +2424,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 else if (['short_writing', 'dictation_guided', 'writing_task'].includes(interaction.type)) {
                    handleCheckAnswer(inputValues[0] || "");
                 }
-                else if (['multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
+                else if (['multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'reading-comprehension', 'writing-analysis', 'role_play', 'chat_simulation'].includes(interaction.type)) {
                   if (selectedOption !== null) handleCheckAnswer(selectedOption);
                 }
                 else if (interaction.type === 'ai-mission') {
@@ -2403,7 +2437,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 const interaction = isVideoMode ? currentItem.video.interactions[interactionIndex] : currentItem;
                 if (!interaction) return 'SIGUIENTE';
                 if (interaction.type === 'ai-mission') return 'COMPLETAR MISIÓN';
-                return ['reorder_words', 'matching', 'multiple_matching', 'short_writing', 'transformation', 'fill_blanks', 'fill_blank', 'fill-blank', 'categorization', 'dictation_guided', 'multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'gapped_text', 'multiple_choice_cloze', 'writing_task', 'reading-comprehension', 'writing-analysis', 'vocabulary-match'].includes(interaction.type) ? 'COMPROBAR' : 'SIGUIENTE';
+                return ['reorder_words', 'matching', 'multiple_matching', 'short_writing', 'transformation', 'fill_blanks', 'fill_blank', 'fill-blank', 'categorization', 'dictation_guided', 'multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'gapped_text', 'multiple_choice_cloze', 'writing_task', 'reading-comprehension', 'writing-analysis', 'vocabulary-match', 'role_play', 'chat_simulation'].includes(interaction.type) ? 'COMPROBAR' : 'SIGUIENTE';
               })()}
             </Button>
           )}

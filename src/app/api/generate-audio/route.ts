@@ -15,6 +15,10 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ error: 'Text is required' }, { status: 400 });
     }
 
+    if (!process.env.OPENAI_API_KEY) {
+      return NextResponse.json({ error: 'OpenAI API key is not configured' }, { status: 500 });
+    }
+
     const mp3 = await openai.audio.speech.create({
       model: "tts-1",
       voice: voice as any,
