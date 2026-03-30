@@ -80,7 +80,9 @@ function extractEpisodes(filePath) {
     .replace(/\bas\s+const\b/g, '');
 
   try {
-    const fn = new Function(`${js}\nreturn typeof A1_EPISODES_M1 !== 'undefined' ? A1_EPISODES_M1 : typeof A1_EPISODES_M2 !== 'undefined' ? A1_EPISODES_M2 : A1_EPISODES_M3;`);
+    const fn = new Function(
+      `${js}\nreturn typeof A1_EPISODES_M1 !== 'undefined' ? A1_EPISODES_M1 : typeof A1_EPISODES_M2 !== 'undefined' ? A1_EPISODES_M2 : typeof A1_EPISODES_M3 !== 'undefined' ? A1_EPISODES_M3 : A1_EPISODES_M4;`
+    );
     return fn();
   } catch (e) {
     console.error(`Failed to parse ${filePath}:`, e.message);
@@ -91,7 +93,8 @@ function extractEpisodes(filePath) {
 const m1 = extractEpisodes(path.join(ROOT, 'src/lib/podcasts/a1-episodes-m1.ts'));
 const m2 = extractEpisodes(path.join(ROOT, 'src/lib/podcasts/a1-episodes-m2.ts'));
 const m3 = extractEpisodes(path.join(ROOT, 'src/lib/podcasts/a1-episodes-m3.ts'));
-const ALL_EPISODES = [...m1, ...m2, ...m3];
+const m4 = extractEpisodes(path.join(ROOT, 'src/lib/podcasts/a1-episodes-m4.ts'));
+const ALL_EPISODES = [...m1, ...m2, ...m3, ...m4];
 
 console.log(`📚  Loaded ${ALL_EPISODES.length} episodes total`);
 

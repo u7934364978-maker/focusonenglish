@@ -27,7 +27,7 @@ export interface PodcastEpisode {
   level: PodcastLevel
   track: PodcastTrack
   durationMinutes: PodcastDuration
-  module: 1 | 2 | 3
+  module: 1 | 2 | 3 | 4
   title: string
   description: string
   topic: string
