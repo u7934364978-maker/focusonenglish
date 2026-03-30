@@ -7,15 +7,24 @@ type CourseEx = z.infer<typeof courseExerciseSchema>;
 
 function stripTrailingTrueFalseNoMarker(stem: string): string {
   const s = stem.trim();
-  // Quita marcadores tipo "no" suelto al final (patrón típico cuando el modelo añade
-  // un "no" para indicar falsedad en vez de construir la frase correcta).
-  // Mantiene "no" que venga dentro del sentido (p. ej. doesn't -> no en el markup).
-  const withoutBilingual = s.replace(/\s*\[\[no\|no\]\]\s*$/i, '').trim();
-  if (withoutBilingual !== s) return withoutBilingual;
+  // Quita marcadores tipo "no" añadido al final (patrón típico cuando el modelo
+  // añade un marcador de falsedad en vez de construir la frase correcta).
+  // Mantiene "no" que venga dentro del sentido (p. ej. doesn't -> no dentro del markup).
 
-  // Quita " no" o "no" final si queda como token aislado.
-  const withoutPlain = s.replace(/(\s*[.!?])?\s+no\s*$/i, '$1').replace(/\s+$/,'').trim();
-  return withoutPlain;
+  // 1) Marcadores en markup bilingüe que acaban traducidos a "no".
+  // Incluimos variantes típicas de negación: "no", "not", "n't".
+  const bilingualMarkerAtEnd = s.replace(
+    /\s*\[\[(?:no|not|n['’`]t|n\u2019t|n't)\|no\]\]\s*[.!?,]?(?:["'”’])?\s*$/i,
+    '',
+  ).trim();
+  if (bilingualMarkerAtEnd !== s) return bilingualMarkerAtEnd;
+
+  // 2) Token "no" o "no." suelto final (por si llega sin markup).
+  const plainMarkerAtEnd = s
+    .replace(/\bno\b\s*[.!?,]?(?:["'”’])?\s*$/i, '')
+    .replace(/\s+$/g, '')
+    .trim();
+  return plainMarkerAtEnd;
 }
 
 /**

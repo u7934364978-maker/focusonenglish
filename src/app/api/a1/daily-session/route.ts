@@ -163,7 +163,58 @@ export async function POST(request: NextRequest) {
       newInteractions.push(ex);
     }
 
-    const ordered = interleave(reviewInteractions, newInteractions);
+    const interleaved = interleave(reviewInteractions, newInteractions);
+
+    // Orden pedagógico simple por fases:
+    // 1) Reconocimiento (MC/TF/matching/fill-blank)
+    // 2) Comprensión (reading/listening)
+    // 3) Producción (writing/speaking)
+    // Esto reduce la sensación de "random" y acerca la consecución a un guion.
+    const phaseRank: Record<string, number> = {
+      // Fase 1: reconocimiento / práctica guiada
+      true_false: 0,
+      'multiple_choice': 0,
+      multiple_choice: 0,
+      odd_one_out: 0,
+      matching: 1,
+      'vocabulary-match': 1,
+      'multiple_matching': 1,
+      fill_blank: 2,
+      'fill_blanks': 2,
+      'fill-blank': 2,
+      'fill-blanks': 2,
+      transformation: 3,
+      categorization: 3,
+      reorder_words: 3,
+
+      // Fase 2: comprensión
+      'reading-comprehension': 4,
+      gapped_text: 4,
+      multiple_choice_cloze: 4,
+      'listening_image_mc': 5,
+      'listening_dictation': 5,
+
+      // Fase 3: producción
+      short_writing: 6,
+      dictation_guided: 6,
+      writing_task: 6,
+      speaking_task: 6,
+      role_play: 6,
+      chat_simulation: 6,
+      'ai-mission': 6,
+      pronunciation: 6,
+    };
+
+    const ordered = interleaved
+      .map((ex, i) => ({ ex, i }))
+      .sort((a, b) => {
+        const ra = phaseRank[a.ex.type] ?? 10;
+        const rb = phaseRank[b.ex.type] ?? 10;
+        if (ra !== rb) return ra - rb;
+        // Mantiene estabilidad: conserva el orden original dentro de la fase.
+        return a.i - b.i;
+      })
+      .map((x) => x.ex);
 
     const validationNotes: string[] = [];
     for (const ex of ordered) {
