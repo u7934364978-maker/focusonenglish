@@ -19,7 +19,13 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { UnitData, PremiumBlock, PremiumContent } from "@/types/premium-course";
 import { TranslatedText, TRANSLATION_TOOLTIP_SPACING } from "@/components/course/exercises/TranslatedText";
-import { getSolutionText, isLikelyEnglish, getEncouragingMessage, stripBilingualMarkup } from "@/lib/premium-utils";
+import {
+  getSolutionText,
+  isLikelyEnglish,
+  getEncouragingMessage,
+  stripBilingualMarkup,
+  shouldSkipTtsPrefetch,
+} from "@/lib/premium-utils";
 import { calculateStarRating } from "@/lib/progress";
 import WordSearchExercise from "../../exercises/WordSearchExercise";
 import CrosswordExercise from "../../exercises/CrosswordExercise";
@@ -233,25 +239,32 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       const texts: string[] = [];
       if (!item) return texts;
 
-      if (item.stimulus_en) texts.push(item.stimulus_en);
-      if (item.prompt_en) texts.push(item.prompt_en);
-      if (item.text) texts.push(item.text);
+      const pushTts = (raw: string | undefined) => {
+        if (!raw || typeof raw !== 'string') return;
+        const c = stripBilingualMarkup(raw).trim();
+        if (!c || shouldSkipTtsPrefetch(c)) return;
+        if (isLikelyEnglish(c)) texts.push(c);
+      };
+
+      if (item.stimulus_en) pushTts(item.stimulus_en);
+      if (item.prompt_en) pushTts(item.prompt_en);
+      if (item.text) pushTts(item.text);
       if (Array.isArray(item.chat_history)) {
         item.chat_history.forEach((m: { text?: string }) => {
-          if (m?.text && isLikelyEnglish(m.text)) texts.push(m.text);
+          if (m?.text) pushTts(m.text);
         });
       }
       
       if (item.options) {
         item.options.forEach((opt: any) => {
-          if (opt.text && isLikelyEnglish(opt.text)) texts.push(opt.text);
+          pushTts(opt.text);
         });
       }
 
       if (item.pairs) {
         item.pairs.forEach((p: any) => {
-          if (p.left && isLikelyEnglish(p.left)) texts.push(p.left);
-          if (p.right && isLikelyEnglish(p.right)) texts.push(p.right);
+          if (p.left) pushTts(p.left);
+          if (p.right) pushTts(p.right);
         });
       }
 
@@ -279,10 +292,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       }
 
       const solution = getSolutionText(item);
-      if (solution && isLikelyEnglish(solution)) texts.push(solution);
+      if (solution) pushTts(solution);
 
       if (item.type === 'true_false' && item.correct_sentence_en) {
-          texts.push(item.correct_sentence_en);
+        pushTts(item.correct_sentence_en);
       }
 
       return [...new Set(texts)].filter(t => t.trim().length > 0);
@@ -2027,15 +2040,19 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         return (
           <div className="w-full max-w-2xl mx-auto space-y-12">
              <div className="space-y-4">
-                <h2 className="text-2xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
+                <h2 className="text-2xl font-black text-slate-800 text-center">
+                  <TranslatedText text={String(interaction.prompt_es ?? '')} className="inline" />
+                </h2>
                 {interaction.stimulus_es && (
-                   <p className="text-center text-indigo-600 font-black text-3xl mb-8">
-                     &quot;{interaction.stimulus_es}&quot;
+                   <p className={`text-center text-indigo-600 font-black text-2xl md:text-3xl mb-8 ${TRANSLATION_TOOLTIP_SPACING.blockWithTranslations}`}>
+                     <span className="text-slate-500 font-bold text-lg mr-1">&quot;</span>
+                     <TranslatedText text={String(interaction.stimulus_es)} className="inline" />
+                     <span className="text-slate-500 font-bold text-lg ml-1">&quot;</span>
                    </p>
                 )}
                 {interaction.example && (
                    <p className="text-center text-slate-400 font-bold text-lg italic">
-                     Ejemplo: &quot;{interaction.example}&quot;
+                     Ejemplo: <TranslatedText text={String(interaction.example)} className="inline" />
                    </p>
                 )}
              </div>

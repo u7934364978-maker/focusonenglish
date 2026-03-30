@@ -38,6 +38,36 @@ describe('mapCourseExerciseToIndexedInteraction', () => {
     expect(m!.options?.length).toBe(4);
   });
 
+  it('si translation trae enunciado de hueco + opciones, reinterpreta como fill-blank', () => {
+    const m = mapCourseExerciseToIndexedInteraction(
+      ex({
+        id: 'tr-mc',
+        type: 'translation',
+        level: 'A1',
+        topic: 't',
+        topicName: 'Vocab',
+        content: {
+          title: 'T',
+          instructions: 'Responde la pregunta.',
+          questions: [
+            {
+              question:
+                '[[Choose the correct word: This is my ____.|Elige la palabra correcta: This is my ____.]]',
+              options: ['mother', 'brother', 'teacher', 'name'],
+              correctAnswer: 0,
+              explanation: 'Mother means madre.',
+            },
+          ],
+        },
+      }),
+      0,
+    );
+    expect(m).not.toBeNull();
+    expect(m!.type).toBe('fill_blank');
+    expect(m!.stimulus_en).toContain('___');
+    expect(m!.correct_answer).toBe('mother');
+  });
+
   it('mapea translation a short_writing', () => {
     const m = mapCourseExerciseToIndexedInteraction(
       ex({

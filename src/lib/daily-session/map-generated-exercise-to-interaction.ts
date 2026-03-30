@@ -1,6 +1,7 @@
 import type { z } from 'zod';
 import type { courseExerciseSchema } from '@/lib/validation/course-exercise-schema';
 import type { IndexedInteraction } from '@/lib/course-engine/global-content-provider';
+import { stripBilingualMarkup } from '@/lib/premium-utils';
 
 type CourseEx = z.infer<typeof courseExerciseSchema>;
 
@@ -94,6 +95,20 @@ export function mapCourseExerciseToIndexedInteraction(
   }
 
   if (t === 'translation') {
+    const opts = Array.isArray(optionsRaw) ? (optionsRaw as unknown[]).map(String) : [];
+    const stemPlain = stripBilingualMarkup(stem);
+    const hasGap = /_{2,}/.test(stem) || /_{2,}/.test(stemPlain);
+    const looksLikeChoice =
+      /choose the correct|elige (la )?(palabra|verbo|artículo)/i.test(stemPlain) ||
+      /choose the correct|elige (la )?(palabra|verbo|artículo)/i.test(stem);
+    if (opts.length >= 2 && (hasGap || looksLikeChoice)) {
+      const coerced: CourseEx = {
+        ...ex,
+        type: hasGap ? 'fill-blank' : 'multiple-choice',
+      } as CourseEx;
+      return mapCourseExerciseToIndexedInteraction(coerced, index);
+    }
+
     const ca = q0.correctAnswer;
     const correctStr = typeof ca === 'string' ? ca.trim() : String(ca ?? '').trim();
     if (correctStr.length < 1) return null;

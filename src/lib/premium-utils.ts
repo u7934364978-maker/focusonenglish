@@ -127,6 +127,14 @@ export function getSolutionText(interaction: PremiumInteraction): string {
   return "";
 }
 
+/** Evita prefetch TTS de placeholders del banco de reserva (p. ej. option_b, option_c). */
+export function shouldSkipTtsPrefetch(text: string): boolean {
+  const t = text.trim().toLowerCase();
+  if (!t) return true;
+  if (/^option_[a-z0-9_]+$/.test(t)) return true;
+  return false;
+}
+
 export function getEncouragingMessage(isCorrect: boolean, failCount: number): string {
   if (isCorrect) {
     return "¡Excelente!";
