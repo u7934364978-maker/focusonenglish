@@ -2109,7 +2109,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                     value={inputValues[0] || ""}
                     autoFocus
                     disabled={!!feedback}
-                    className="w-full p-6 text-2xl font-black border-b-8 border-indigo-500 bg-transparent text-center focus:outline-none placeholder:text-slate-200"
+                    className="w-full p-6 text-2xl font-black border-b-8 border-indigo-500 bg-transparent text-slate-800 text-center focus:outline-none placeholder:text-slate-400"
                     placeholder="Escribe aquí..."
                     onChange={(e) => setInputValues(prev => ({ ...prev, 0: e.target.value }))}
                     onKeyDown={(e) => { 
