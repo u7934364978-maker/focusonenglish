@@ -136,20 +136,29 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onC
 
       // Normalize pairs for matching
       if (normalized.pairs && normalized.pairs.length > 0) {
-        normalized.pairs = normalized.pairs.map((p: any, idx: number) => {
-          const left = p.left ?? p.word ?? '';
-          const right = p.right ?? p.correctMatch ?? '';
-          return {
-            ...p,
-            // Aseguramos un id estable/único para evitar colisiones en matching.
-            id: p.id ?? `${idx}-${String(left)}`,
-            left,
-            right,
-            // Alias para compatibilidad con diferentes shapes de contenido.
-            word: left,
-            correctMatch: right,
-          };
-        });
+        const seenPairKeys = new Set<string>();
+        normalized.pairs = normalized.pairs
+          .map((p: any, idx: number) => {
+            const left = String(p.left ?? p.word ?? '').trim();
+            const right = String(p.right ?? p.correctMatch ?? '').trim();
+            return {
+              ...p,
+              // Aseguramos un id estable/único para evitar colisiones en matching.
+              id: p.id ?? `${idx}-${left}`,
+              left,
+              right,
+              // Alias para compatibilidad con diferentes shapes de contenido.
+              word: left,
+              correctMatch: right,
+            };
+          })
+          // Evita pares duplicados exactos (mismo izquierda+derecha), que ensucian la UX.
+          .filter((p: any) => {
+            const key = `${String(p.left).toLowerCase()}::${String(p.right).toLowerCase()}`;
+            if (seenPairKeys.has(key)) return false;
+            seenPairKeys.add(key);
+            return true;
+          });
       }
 
       // Normalize reorder_words (drag-drop)
