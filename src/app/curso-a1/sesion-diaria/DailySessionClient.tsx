@@ -110,6 +110,7 @@ export default function DailySessionClient() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [plan, setPlan] = useState<PlanMeta | null>(null);
+  const [sessionNonce, setSessionNonce] = useState(0);
   const [sessionXp, setSessionXp] = useState(0);
   const [streak, setStreak] = useState(0);
 
@@ -130,43 +131,49 @@ export default function DailySessionClient() {
     };
   }, []);
 
-  useEffect(() => {
+  const loadDailySession = useCallback(async () => {
+    setLoading(true);
+    setError(null);
     let cancelled = false;
-    async function load() {
-      try {
-        const res = await fetch('/api/a1/daily-session', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ generation: 'ai' }),
-        });
-        if (!res.ok) {
-          if (res.status === 401) {
-            setError('Debes iniciar sesión.');
-            return;
-          }
-          throw new Error('No se pudo cargar la sesión');
-        }
-        const data = await res.json();
-        if (cancelled) return;
-        if (!data.success || !Array.isArray(data.exercises) || data.exercises.length === 0) {
-          setError('No hay ejercicios disponibles ahora. Inténtalo más tarde.');
+    try {
+      const res = await fetch('/api/a1/daily-session', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ generation: 'ai' }),
+      });
+      if (!res.ok) {
+        if (res.status === 401) {
+          setError('Debes iniciar sesión.');
           return;
         }
-        setPlan(data.plan as PlanMeta);
-        setUnitData(buildUnitData(data.exercises as AdaptiveExercise[]));
-      } catch (e: unknown) {
-        if (!cancelled) {
-          setError(e instanceof Error ? e.message : 'Error de red');
-        }
-      } finally {
-        if (!cancelled) setLoading(false);
+        throw new Error('No se pudo cargar la sesión');
       }
+      const data = await res.json();
+      if (cancelled) return;
+      if (!data.success || !Array.isArray(data.exercises) || data.exercises.length === 0) {
+        setError('No hay ejercicios disponibles ahora. Inténtalo más tarde.');
+        return;
+      }
+      setPlan(data.plan as PlanMeta);
+      setUnitData(buildUnitData(data.exercises as AdaptiveExercise[]));
+      setSessionNonce((n) => n + 1); // fuerza remount del componente
+    } catch (e: unknown) {
+      if (!cancelled) {
+        setError(e instanceof Error ? e.message : 'Error de red');
+      }
+    } finally {
+      if (!cancelled) setLoading(false);
     }
-    load();
-    return () => {
-      cancelled = true;
-    };
   }, []);
+
+  useEffect(() => {
+    loadDailySession().catch(() => {});
+  }, [loadDailySession]);
+
+  const handleContinueExercises = useCallback(() => {
+    // No llama a completeDailySessionRemote(): permite hacer más ejercicios desde el mismo flujo.
+    loadDailySession().catch(() => {});
+  }, [loadDailySession]);
 
   const handleInteractionCorrect = useCallback(
     async (interactionId: string) => {
@@ -417,9 +424,11 @@ export default function DailySessionClient() {
 
         <div className="bg-slate-900/40 rounded-3xl border border-emerald-700/50 shadow-xl p-3 md:p-4">
           <PremiumCourseSession
+            key={sessionNonce}
             unitData={unitData}
             onComplete={handleComplete}
             onExit={() => {}}
+            onContinue={handleContinueExercises}
             onInteractionCorrect={handleInteractionCorrect}
           />
         </div>

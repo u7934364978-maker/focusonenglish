@@ -35,13 +35,14 @@ interface Props {
   unitData: UnitData;
   onComplete: () => void;
   onExit: () => void;
+  onContinue?: () => void;
   onInteractionCorrect?: (interactionId: string) => void;
   onExerciseComplete?: (interactionId: string) => void;
   initialIndex?: number;
   userId?: string;
 }
 
-export default function PremiumCourseSession({ unitData, onComplete, onExit, onInteractionCorrect, onExerciseComplete, initialIndex = 0, userId }: Props) {
+export default function PremiumCourseSession({ unitData, onComplete, onExit, onContinue, onInteractionCorrect, onExerciseComplete, initialIndex = 0, userId }: Props) {
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
   const [selectedOption, setSelectedOption] = useState<any>(null);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
@@ -890,6 +891,15 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
           transition={{ delay: 0.6 }}
           className="flex flex-col gap-4 w-full max-w-xs z-10"
         >
+          {onContinue ? (
+            <Button
+              variant="outline"
+              onClick={onContinue}
+              className="h-16 rounded-2xl border-2 border-indigo-200 text-indigo-700 text-lg font-bold hover:bg-indigo-50"
+            >
+              SEGUIR PRACTICANDO
+            </Button>
+          ) : null}
           <Button onClick={onComplete} className="h-16 rounded-2xl bg-indigo-600 text-white text-xl font-black shadow-lg hover:bg-indigo-700 border-b-8 border-indigo-800 active:translate-y-1 active:border-b-0 transition-all">
             FINALIZAR
           </Button>
