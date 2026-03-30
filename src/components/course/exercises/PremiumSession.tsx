@@ -713,7 +713,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onC
 
     autoContinueTimerRef.current = setTimeout(() => {
       handleFeedbackContinue();
-    }, feedback.correct ? 900 : 1200);
+    }, feedback.correct ? 2200 : 1400);
   }, [feedback]);
 
   // Auto-check objective interactions once a valid answer is available.
