@@ -149,7 +149,11 @@ function buildFallbackExercises(params: {
                 : type === 'fill-blank'
                   ? typeof base.correctAnswer === 'string'
                     ? base.correctAnswer
-                    : ''
+                    : typeof base.correctAnswer === 'number'
+                      ? Array.isArray(base.options) && base.options[base.correctAnswer] != null
+                        ? String(base.options[base.correctAnswer])
+                        : ''
+                      : ''
                   : type === 'true-false'
                     ? 'True'
                     : base.correctAnswer,

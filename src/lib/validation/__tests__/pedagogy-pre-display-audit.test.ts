@@ -78,6 +78,26 @@ describe('partitionExercisesByPedagogyGate', () => {
     },
   });
 
+  const badFillBlankNoGap = exerciseFrom({
+    id: 'fb-no-gap',
+    type: 'fill-blank',
+    level: 'A1',
+    topic: 'family',
+    topicName: 'Vocabulary',
+    content: {
+      title: 'Family',
+      instructions: 'Responde la pregunta.',
+      questions: [
+        {
+          question: 'I have a sister and a dog.',
+          options: ['brother', 'sister', 'mother', 'father'],
+          correctAnswer: 'sister',
+          explanation: '"Sister" es una palabra de familia en inglés (ejemplo).',
+        },
+      ],
+    },
+  });
+
   it('acepta lista vacía', () => {
     const { accepted, rejected } = partitionExercisesByPedagogyGate([], 'A1');
     expect(accepted).toEqual([]);
@@ -124,6 +144,14 @@ describe('partitionExercisesByPedagogyGate', () => {
     expect(accepted).toHaveLength(0);
     expect(rejected).toHaveLength(1);
     expect(rejected[0].issues.some((i) => i.ruleId === 'PQ_MC_SPOILER_PAREN')).toBe(true);
+  });
+
+  it('rechaza fill-blank sin hueco ___', () => {
+    const { accepted, rejected } = partitionExercisesByPedagogyGate([badFillBlankNoGap], 'A1');
+    expect(accepted).toHaveLength(0);
+    expect(rejected).toHaveLength(1);
+    const ruleIds = rejected[0].issues.map((i) => i.ruleId);
+    expect(ruleIds).toEqual(expect.arrayContaining(['PQ_FILLBLANK_MISSING_GAP']));
   });
 });
 

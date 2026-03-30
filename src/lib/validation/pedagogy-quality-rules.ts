@@ -191,15 +191,55 @@ export function assessPedagogyQualityForExercise(
       }
     }
 
-    if (type === 'fill-blank' && typeof q.correctAnswer === 'string') {
-      const ca = String(q.correctAnswer).trim();
-      if (ca.length < 1) {
+    if (type === 'fill-blank') {
+      const caRaw = q.correctAnswer;
+      const ca = typeof caRaw === 'string' ? caRaw.trim() : String(caRaw ?? '').trim();
+      if (!ca) {
         issues.push({
           ruleId: 'PQ_FILL_CORRECT_EMPTY',
           severity: 'error',
           message: 'fill-blank: correctAnswer vacío.',
           path: `${path}.correctAnswer`,
         });
+      }
+
+      const stemNoParen = stem.replace(/\([^)]*\)/g, '');
+      const hasGap = /_{2,}/.test(stemNoParen);
+      if (!hasGap) {
+        issues.push({
+          ruleId: 'PQ_FILLBLANK_MISSING_GAP',
+          severity: 'error',
+          message: 'fill-blank debe mostrar hueco con ___ (no una frase ya completada).',
+          path: `${path}.question`,
+        });
+      }
+
+      if (ca) {
+        // Detecta spoilers: la palabra correcta ya aparece en el enunciado (fuera del hueco).
+        const stemNorm = norm(stemNoParen);
+        const caNorm = norm(ca);
+        if (caNorm && stemNorm.includes(caNorm)) {
+          issues.push({
+            ruleId: 'PQ_FILLBLANK_SPOILER_IN_STEM',
+            severity: 'error',
+            message: 'fill-blank: la opción correcta aparece ya en el enunciado (posible spoiler).',
+            path: `${path}.question`,
+          });
+        }
+      }
+
+      const opts = Array.isArray(q.options) ? q.options.map(optionToString) : [];
+      if (ca && opts.length >= 2) {
+        const caNorm = norm(ca);
+        const optNorms = opts.map((o) => norm(o));
+        if (!optNorms.includes(caNorm)) {
+          issues.push({
+            ruleId: 'PQ_FILLBLANK_OPTION_MISSING_MATCH',
+            severity: 'warn',
+            message: 'fill-blank: correctAnswer no coincide con ninguna opción del banco (revisar coherencia).',
+            path: `${path}.options`,
+          });
+        }
       }
     }
   }
@@ -254,6 +294,9 @@ export const PEDAGOGY_QUALITY_RULE_IDS = [
   'PQ_TF_OPTIONS',
   'PQ_TF_VS_MC_INSTRUCTION',
   'PQ_TF_FILLBLANK_STEM',
+  'PQ_FILLBLANK_MISSING_GAP',
+  'PQ_FILLBLANK_SPOILER_IN_STEM',
+  'PQ_FILLBLANK_OPTION_MISSING_MATCH',
   'PQ_FILL_CORRECT_EMPTY',
   'PQ_A1_READING_TRANSCRIPT_SHORT',
 ] as const;
