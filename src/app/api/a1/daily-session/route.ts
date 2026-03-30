@@ -52,6 +52,10 @@ export async function POST(request: NextRequest) {
 
     const body = await request.json().catch(() => ({}));
     const generation = body.generation === 'ai' ? 'ai' : 'catalog';
+    const excludeExerciseIds: string[] = Array.isArray(body.excludeExerciseIds)
+      ? body.excludeExerciseIds.map((x: unknown) => String(x))
+      : [];
+    const excludeSet = new Set(excludeExerciseIds);
     const sessionTotal = Math.min(
       16,
       Math.max(4, Number(body.sessionTotal) || DAILY_SESSION_TOTAL),
@@ -85,6 +89,7 @@ export async function POST(request: NextRequest) {
 
     for (const row of dueRows) {
       if (reviewInteractions.length >= reviewCap) break;
+      if (excludeSet.has(row.exercise_id)) continue;
       const hit = provider.getInteractionById(row.exercise_id);
       if (hit && hit.level === 'A1' && isPremiumRenderableType(hit.type)) {
         reviewInteractions.push(hit);
@@ -100,6 +105,7 @@ export async function POST(request: NextRequest) {
     const newInteractions: IndexedInteraction[] = [];
     const seen = new Set<string>([
       ...reviewInteractions.map((i) => i.interaction_id),
+      ...excludeExerciseIds,
     ]);
 
     let aiWarning: string | undefined;
@@ -111,7 +117,8 @@ export async function POST(request: NextRequest) {
       try {
         const ctx = await buildPersonalizedGenerationContext(supabase, user.id);
         sessionOrchestration = ctx.orchestration;
-        const aiCount = Math.min(8, neededNew);
+        // Generamos solo una parte: el resto lo cubre UltraAdaptiveEngine (para variedad de tipos).
+        const aiCount = Math.min(3, neededNew);
         const gen = await generateExercisesWithLlama({
           level: 'A1',
           topic: ctx.topic,

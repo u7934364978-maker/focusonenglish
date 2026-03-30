@@ -131,7 +131,7 @@ export default function DailySessionClient() {
     };
   }, []);
 
-  const loadDailySession = useCallback(async () => {
+  const loadDailySession = useCallback(async (excludeExerciseIds: string[] = []) => {
     setLoading(true);
     setError(null);
     let cancelled = false;
@@ -139,7 +139,7 @@ export default function DailySessionClient() {
       const res = await fetch('/api/a1/daily-session', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ generation: 'ai' }),
+        body: JSON.stringify({ generation: 'ai', excludeExerciseIds }),
       });
       if (!res.ok) {
         if (res.status === 401) {
@@ -167,13 +167,17 @@ export default function DailySessionClient() {
   }, []);
 
   useEffect(() => {
-    loadDailySession().catch(() => {});
+    loadDailySession([]).catch(() => {});
   }, [loadDailySession]);
 
   const handleContinueExercises = useCallback(() => {
     // No llama a completeDailySessionRemote(): permite hacer más ejercicios desde el mismo flujo.
-    loadDailySession().catch(() => {});
-  }, [loadDailySession]);
+    const currentIds =
+      (unitData?.blocks?.[0]?.content ?? [])
+        .map((x: any) => x?.interaction_id)
+        .filter(Boolean) as string[];
+    loadDailySession(currentIds).catch(() => {});
+  }, [loadDailySession, unitData]);
 
   const handleInteractionCorrect = useCallback(
     async (interactionId: string) => {

@@ -1794,6 +1794,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onC
       case 'fill_blank':
       case 'fill-blank':
       case 'fill-blanks-mc':
+        const stimulusEnRaw = String(interaction.stimulus_en || '');
         const stimulusEnPlain = stripBilingualMarkup(String(interaction.stimulus_en || ''));
         const hasBlank = /_{2,}/.test(stimulusEnPlain);
         const isSolutionInPrompt = interaction.prompt_es && interaction.correct_answer && 
@@ -1885,9 +1886,11 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onC
                <PronunciationButton text={stimulusEnPlain} size="md" className="absolute right-6 top-6 opacity-0 group-hover:opacity-100 transition-opacity" />
                {hasBlank ? (
                  <div className="text-2xl font-bold text-slate-700 flex flex-wrap justify-center items-center gap-x-4 gap-y-8">
-                   {(stimulusEnPlain || "").split(/_{2,}/).map((part: string, i: number, arr: any[]) => (
+                   {(stimulusEnRaw || "").split(/_{2,}/).map((part: string, i: number, arr: any[]) => (
                      <React.Fragment key={i}>
-                       <span>{part}</span>
+                       <span>
+                         <TranslatedText text={String(part)} className="inline" />
+                       </span>
                        {i < arr.length - 1 && (
                          <input 
                            type="text" 
@@ -1916,7 +1919,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onC
                  </div>
                ) : (
                  <div className="space-y-8">
-                   <p className="text-3xl font-bold text-slate-700">{stimulusEnPlain || interaction.text}</p>
+                   <p className="text-3xl font-bold text-slate-700">
+                     <TranslatedText text={stimulusEnRaw || interaction.text} className="inline" />
+                   </p>
                     <input 
                       type="text" 
                       autoFocus
