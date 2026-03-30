@@ -216,11 +216,19 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Invalid JSON body' }, { status: 400 });
     }
 
-    const textField = (body as { text?: unknown })?.text;
+    const rawBody = body as { text?: unknown; speaker?: unknown };
+    const textField = rawBody?.text;
     const normalized = normalizeTtsText(textField);
     if (!normalized.ok) {
       return NextResponse.json({ error: normalized.error }, { status: 400 });
     }
+
+    /** Para podcasts / batch: voces explícitas (`orion` | `luna`). Si no viene, se infiere del texto. */
+    const speakerRaw = rawBody?.speaker;
+    const explicitSpeaker =
+      typeof speakerRaw === 'string' && (speakerRaw === 'orion' || speakerRaw === 'luna')
+        ? speakerRaw
+        : null;
 
     const workerUrl = process.env.CLOUDFLARE_TTS_WORKER_URL?.trim();
     const workerSecret = process.env.CLOUDFLARE_TTS_WORKER_SECRET;
@@ -242,8 +250,8 @@ export async function POST(request: NextRequest) {
     }
 
     const cleanText = normalized.text;
-    const gender = detectGender(cleanText);
-    const speaker = gender === 'female' ? 'luna' : 'orion';
+    const speaker =
+      explicitSpeaker ?? (detectGender(cleanText) === 'female' ? 'luna' : 'orion');
 
     let lastStatus = 0;
     let lastBody = '';

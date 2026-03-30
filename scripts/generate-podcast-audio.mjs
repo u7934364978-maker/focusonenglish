@@ -9,7 +9,10 @@
  *   node scripts/generate-podcast-audio.mjs --duration 2
  *   node scripts/generate-podcast-audio.mjs --force
  *
- * Requires: CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_API_TOKEN in .env.local
+ * Requires one of:
+ *   - TTS_HTTP_URL — POST JSON { text, speaker } → MP3 (p. ej. https://tudominio.com/api/tts)
+ *   - CLOUDFLARE_TTS_WORKER_URL (+ opcional CLOUDFLARE_TTS_WORKER_SECRET)
+ *   - CLOUDFLARE_ACCOUNT_ID + CLOUDFLARE_API_TOKEN (API REST Workers AI)
  */
 
 import fs from 'fs';
@@ -30,14 +33,19 @@ if (fs.existsSync(envPath)) {
   }
 }
 
+const TTS_HTTP_URL = process.env.TTS_HTTP_URL?.trim();
 const ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID;
 const API_TOKEN = process.env.CLOUDFLARE_API_TOKEN;
 const WORKER_TTS_URL = process.env.CLOUDFLARE_TTS_WORKER_URL?.trim();
 const WORKER_SECRET = process.env.CLOUDFLARE_TTS_WORKER_SECRET;
 
-if (!WORKER_TTS_URL && (!ACCOUNT_ID || !API_TOKEN)) {
+const useHttp = Boolean(TTS_HTTP_URL);
+const useWorker = Boolean(WORKER_TTS_URL);
+const useRest = Boolean(ACCOUNT_ID && API_TOKEN);
+
+if (!useHttp && !useWorker && !useRest) {
   console.error(
-    '❌  Set CLOUDFLARE_TTS_WORKER_URL or CLOUDFLARE_ACCOUNT_ID + CLOUDFLARE_API_TOKEN in .env.local'
+    '❌  Set TTS_HTTP_URL, or CLOUDFLARE_TTS_WORKER_URL, or CLOUDFLARE_ACCOUNT_ID + CLOUDFLARE_API_TOKEN in .env.local'
   );
   process.exit(1);
 }
@@ -128,14 +136,28 @@ function bufferFromTtsResponse(buf) {
 async function ttsWithRetry(text, speaker, retries = MAX_RETRIES) {
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
+      if (useHttp) {
+        const res = await fetch(TTS_HTTP_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text, speaker }),
+        });
+        if (!res.ok) {
+          const err = await res.text();
+          throw new Error(`HTTP ${res.status}: ${err}`);
+        }
+        const raw = Buffer.from(await res.arrayBuffer());
+        return bufferFromTtsResponse(raw);
+      }
+
       const headers = { 'Content-Type': 'application/json' };
-      if (WORKER_TTS_URL) {
+      if (useWorker) {
         if (WORKER_SECRET) headers.Authorization = `Bearer ${WORKER_SECRET}`;
       } else {
         headers.Authorization = `Bearer ${API_TOKEN}`;
       }
 
-      const body = WORKER_TTS_URL
+      const body = useWorker
         ? JSON.stringify({ text, speaker })
         : JSON.stringify({ text, speaker, encoding: 'mp3' });
 
