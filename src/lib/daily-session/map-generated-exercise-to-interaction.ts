@@ -42,10 +42,31 @@ export function mapCourseExerciseToIndexedInteraction(
   const t = String(ex.type);
 
   if (t === 'multiple-choice') {
-    const opts = Array.isArray(optionsRaw) ? (optionsRaw as unknown[]).map(String) : [];
-    if (opts.length < 2) return null;
+    const optsRaw = Array.isArray(optionsRaw) ? (optionsRaw as unknown[]).map(String) : [];
+    if (optsRaw.length < 2) return null;
+
+    // A veces el modelo devuelve placeholders tipo "Wrong1"/"Wrong2" en vez de distractores reales.
+    // Los filtramos para evitar ejercicios con opciones incompletas.
+    const looksLikePlaceholderWrong = (s: string) => /^\s*wrong\s*\d+\s*$/i.test(s);
+
+    // Determinamos primero el texto correcto antes de filtrar (porque los índices cambiarán).
     const ca = q0.correctAnswer;
-    const idx = typeof ca === 'number' ? ca : 0;
+    const correctTextRaw =
+      typeof ca === 'number' ? optsRaw[ca] : typeof ca === 'string' ? ca : '';
+    const correctText = String(correctTextRaw ?? '').trim();
+
+    const opts = optsRaw.filter((o) => !looksLikePlaceholderWrong(o));
+    if (opts.length < 2) return null;
+
+    // Buscamos el índice correcto en el array ya filtrado.
+    const normalize = (x: string) => stripBilingualMarkup(String(x)).toLowerCase().trim();
+    const correctIndex = correctText
+      ? Math.max(
+          0,
+          opts.findIndex((o) => normalize(o) === normalize(correctText)),
+        )
+      : 0;
+
     return {
       interaction_id: id,
       type: 'multiple_choice',
@@ -54,7 +75,7 @@ export function mapCourseExerciseToIndexedInteraction(
       prompt_es: instructions || 'Elige la opción correcta.',
       stimulus_en: stem,
       options: opts.map((text, i) => ({ id: String(i), text })),
-      correct_answer: String(Math.min(Math.max(0, idx), opts.length - 1)),
+      correct_answer: String(correctIndex >= 0 ? correctIndex : 0),
       mastery_tag: String(ex.topic ?? 'ai-generated'),
       concept_tags: [String(ex.topic ?? 'general')],
       feedback_correct_es: explanation,
