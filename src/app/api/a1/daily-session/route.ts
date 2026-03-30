@@ -33,6 +33,105 @@ type Row = {
   next_review_at: string;
 };
 
+const COMPREHENSION_TYPES = new Set([
+  'reading-comprehension',
+  'gapped_text',
+  'multiple_choice_cloze',
+  'listening_image_mc',
+  'listening_dictation',
+]);
+
+const PRODUCTION_TYPES = new Set([
+  'short_writing',
+  'dictation_guided',
+  'writing_task',
+  'speaking_task',
+  'role_play',
+  'chat_simulation',
+  'ai-mission',
+  'pronunciation',
+]);
+
+const RECOGNITION_TYPES = new Set([
+  'true_false',
+  'multiple_choice',
+  'odd_one_out',
+  'matching',
+  'vocabulary-match',
+  'multiple_matching',
+  'fill_blank',
+  'fill_blanks',
+  'fill-blank',
+  'fill-blanks',
+  'transformation',
+  'categorization',
+  'reorder_words',
+]);
+
+function exerciseTextFootprint(ex: IndexedInteraction): string {
+  const conceptTags = Array.isArray(ex.concept_tags) ? ex.concept_tags.join(' ') : '';
+  const mastery = String(ex.mastery_tag ?? '');
+  const prompt = String((ex as any).prompt_es ?? '');
+  const stimulus = String((ex as any).stimulus_en ?? '');
+  const text = String((ex as any).text ?? '');
+  return `${conceptTags} ${mastery} ${prompt} ${stimulus} ${text}`.toLowerCase();
+}
+
+function isBasicLexicalExercise(ex: IndexedInteraction): boolean {
+  const t = exerciseTextFootprint(ex);
+  const lexicalHints =
+    /(noun|verb|adjective|sustantiv|verbo|adjetiv|vocab|vocabulary|lexic|word|palabra|greeting|saludo|numbers|números|family|familia|colors|colores|food|comida|introduc|personal info|present simple|verbo be|to be)/i;
+  return lexicalHints.test(t);
+}
+
+function buildStructuredA1Sequence(items: IndexedInteraction[]): IndexedInteraction[] {
+  if (items.length <= 1) return items;
+  const remaining = [...items];
+  const out: IndexedInteraction[] = [];
+
+  const take = (predicate: (ex: IndexedInteraction) => boolean, amount: number) => {
+    if (amount <= 0) return;
+    let taken = 0;
+    for (let i = 0; i < remaining.length && taken < amount; ) {
+      if (predicate(remaining[i])) {
+        out.push(remaining[i]);
+        remaining.splice(i, 1);
+        taken += 1;
+      } else {
+        i += 1;
+      }
+    }
+  };
+
+  // Cupos pedagógicos para A1 diario:
+  // 1) Base léxica, 2) Comprensión, 3) Producción guiada.
+  const total = items.length;
+  const lexicalTarget = Math.min(4, Math.max(2, Math.ceil(total * 0.45)));
+  const comprehensionTarget = Math.min(2, Math.max(1, Math.floor(total * 0.25)));
+  const productionTarget = Math.min(2, Math.max(1, Math.floor(total * 0.2)));
+
+  // A) Inicio: vocabulario básico + reconocimiento.
+  take(
+    (ex) => RECOGNITION_TYPES.has(ex.type) && isBasicLexicalExercise(ex) && Number(ex.complexity ?? 2) <= 2,
+    lexicalTarget,
+  );
+  // Fallback de reconocimiento básico si no alcanzó.
+  take((ex) => RECOGNITION_TYPES.has(ex.type) && isBasicLexicalExercise(ex), lexicalTarget - out.length);
+
+  // B) Comprensión.
+  take((ex) => COMPREHENSION_TYPES.has(ex.type), comprehensionTarget);
+
+  // C) Producción guiada.
+  take((ex) => PRODUCTION_TYPES.has(ex.type), productionTarget);
+
+  // D) Relleno pedagógico: reconocimiento restante, luego lo demás.
+  take((ex) => RECOGNITION_TYPES.has(ex.type), total - out.length);
+  take(() => true, total - out.length);
+
+  // Si no se alcanzaron cupos por falta de tipos, el fallback ya garantiza longitud total.
+  return out;
+}
+
 /**
  * POST /api/a1/daily-session
  * Body opcional: { reviewCap?: number, newCap?: number, sessionTotal?: number }
@@ -164,57 +263,7 @@ export async function POST(request: NextRequest) {
     }
 
     const interleaved = interleave(reviewInteractions, newInteractions);
-
-    // Orden pedagógico simple por fases:
-    // 1) Reconocimiento (MC/TF/matching/fill-blank)
-    // 2) Comprensión (reading/listening)
-    // 3) Producción (writing/speaking)
-    // Esto reduce la sensación de "random" y acerca la consecución a un guion.
-    const phaseRank: Record<string, number> = {
-      // Fase 1: reconocimiento / práctica guiada
-      true_false: 0,
-      'multiple_choice': 0,
-      multiple_choice: 0,
-      odd_one_out: 0,
-      matching: 1,
-      'vocabulary-match': 1,
-      'multiple_matching': 1,
-      fill_blank: 2,
-      'fill_blanks': 2,
-      'fill-blank': 2,
-      'fill-blanks': 2,
-      transformation: 3,
-      categorization: 3,
-      reorder_words: 3,
-
-      // Fase 2: comprensión
-      'reading-comprehension': 4,
-      gapped_text: 4,
-      multiple_choice_cloze: 4,
-      'listening_image_mc': 5,
-      'listening_dictation': 5,
-
-      // Fase 3: producción
-      short_writing: 6,
-      dictation_guided: 6,
-      writing_task: 6,
-      speaking_task: 6,
-      role_play: 6,
-      chat_simulation: 6,
-      'ai-mission': 6,
-      pronunciation: 6,
-    };
-
-    const ordered = interleaved
-      .map((ex, i) => ({ ex, i }))
-      .sort((a, b) => {
-        const ra = phaseRank[a.ex.type] ?? 10;
-        const rb = phaseRank[b.ex.type] ?? 10;
-        if (ra !== rb) return ra - rb;
-        // Mantiene estabilidad: conserva el orden original dentro de la fase.
-        return a.i - b.i;
-      })
-      .map((x) => x.ex);
+    const ordered = buildStructuredA1Sequence(interleaved);
 
     const validationNotes: string[] = [];
     for (const ex of ordered) {

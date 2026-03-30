@@ -124,6 +124,47 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onC
         }));
       }
 
+      // Limpia placeholders de baja calidad tipo "Wrong1", "Wrong2" que pueden venir
+      // de generadores externos y rompen la experiencia pedagógica.
+      if (Array.isArray(normalized.options) && normalized.options.length > 0) {
+        const isWrongPlaceholder = (value: unknown) =>
+          /^\s*wrong\s*\d+\s*$/i.test(String(value ?? '').trim());
+
+        const prevOptions = [...normalized.options];
+        const prevCorrect = normalized.correct_answer;
+
+        normalized.options = normalized.options.filter((opt: any) => {
+          const text = typeof opt === 'string' ? opt : opt?.text;
+          const id = typeof opt === 'string' ? opt : opt?.id;
+          return !isWrongPlaceholder(text) && !isWrongPlaceholder(id);
+        });
+
+        // Reindexamos y ajustamos correct_answer para mantener consistencia en MC.
+        if (normalized.type === 'multiple_choice') {
+          normalized.options = normalized.options.map((opt: any, idx: number) => ({
+            ...opt,
+            id: String(idx),
+          }));
+
+          if (prevCorrect !== undefined && prevCorrect !== null) {
+            const prevCorrectText = String(
+              prevOptions.find((o: any) => String(o?.id) === String(prevCorrect))?.text ??
+                prevCorrect
+            )
+              .toLowerCase()
+              .trim();
+            const newCorrectIndex = normalized.options.findIndex(
+              (o: any) => String(o?.text ?? '').toLowerCase().trim() === prevCorrectText
+            );
+            if (newCorrectIndex >= 0) {
+              normalized.correct_answer = String(newCorrectIndex);
+            } else if (normalized.options.length > 0) {
+              normalized.correct_answer = '0';
+            }
+          }
+        }
+      }
+
       // Normalize correct_answer for multiple_choice
       if (normalized.answerIndex !== undefined && normalized.type === 'multiple_choice') {
         normalized.correct_answer = normalized.answerIndex.toString();
