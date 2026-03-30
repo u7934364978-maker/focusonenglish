@@ -465,16 +465,45 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       if (interaction.correct_sentence_en) candidates.add(normalizeSentence(interaction.correct_sentence_en));
 
       isAnswerCorrect = Array.from(candidates).some((candidate) => candidate.length > 0 && candidate === selectedText);
-    } else if (['true_false', 'odd_one_out', 'multiple_choice', 'role_play', 'chat_simulation', 'listening_image_mc', 'fill_blanks', 'fill_blank', 'fill-blank', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
+    } else if (['fill_blanks', 'fill_blank', 'fill-blank'].includes(interaction.type)) {
+      // Comparación específica para fill-blank con banco: comparamos contra el TEXTO de la opción correcta.
+      const normalizedOption = String(optionId).toLowerCase().trim();
+      const q = interaction;
+      const opts = (q.options ?? []) as Array<{ id?: unknown; text?: unknown }>;
+
+      const rawCorrect = String(q.correct_answer ?? q.correctAnswer ?? interaction.correct_answer ?? '')
+        .toLowerCase()
+        .trim();
+
+      // Normalizamos la respuesta correcta a su TEXT visible (si existe en options).
+      let correctTextNorm = rawCorrect;
+      if (opts.length > 0 && rawCorrect) {
+        const correctOpt =
+          opts.find((o) => String(o?.id ?? '').toLowerCase().trim() === rawCorrect) ||
+          opts.find((o) => String(o?.text ?? '').toLowerCase().trim() === rawCorrect);
+        if (correctOpt?.text != null) correctTextNorm = String(correctOpt.text).toLowerCase().trim();
+      }
+
+      // Normalizamos la elección a su TEXT visible (si llega como id, usamos el text de options).
+      let selectedTextNorm = normalizedOption;
+      if (opts.length > 0) {
+        const selectedOpt =
+          opts.find((o) => String(o?.id ?? '').toLowerCase().trim() === normalizedOption) ||
+          opts.find((o) => String(o?.text ?? '').toLowerCase().trim() === normalizedOption);
+        if (selectedOpt?.text != null) selectedTextNorm = String(selectedOpt.text).toLowerCase().trim();
+      }
+
+      isAnswerCorrect = selectedTextNorm === correctTextNorm;
+    } else if (['true_false', 'odd_one_out', 'multiple_choice', 'role_play', 'chat_simulation', 'listening_image_mc', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
       // Robust comparison for boolean and string values
       const normalizedOption = String(optionId).toLowerCase().trim();
-      
+
       const q = (interaction.type === 'reading-comprehension' || interaction.type === 'writing-analysis')
-        ? ((interaction.options && interaction.options.length > 0) ? interaction : (interaction.content?.questions?.[0] || interaction.content || interaction))
+        ? ((interaction.options && interaction.options.length > 0) ? interaction : (interaction.content?.questions?.[0] || interaction))
         : interaction;
-        
+
       const normalizedCorrect = String(q.correct_answer || q.correctAnswer || interaction.correct_answer).toLowerCase().trim();
-      
+
       if (interaction.type === 'true_false') {
         // Specifically handle True/False which might be stored as strings "true"/"false" or booleans
         const optBool = normalizedOption === 'true';
@@ -485,9 +514,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         // we might want to also check if the text matches just in case of mapping mismatches
         const optionText = q.options?.find((o: any) => (o.id === optionId || o === optionId))?.text || optionId;
         const correctText = q.options?.find((o: any) => (o.id === normalizedCorrect || o === normalizedCorrect))?.text || normalizedCorrect;
-        
-        isAnswerCorrect = normalizedOption === normalizedCorrect || 
-                         String(optionText).toLowerCase().trim() === String(correctText).toLowerCase().trim();
+
+        isAnswerCorrect =
+          normalizedOption === normalizedCorrect ||
+          String(optionText).toLowerCase().trim() === String(correctText).toLowerCase().trim();
       }
     } else if (['matching', 'multiple_matching', 'vocabulary-match'].includes(interaction.type)) {
       const pairs = (interaction.type === 'vocabulary-match')
@@ -538,7 +568,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         return categorizedItems[itemId] === correctCatId;
       });
       isAnswerCorrect = allCategorizedCorrectly && Object.keys(categorizedItems).length === allItems.length;
-    } else if (['transformation', 'fill_blanks', 'fill_blank', 'fill-blank'].includes(interaction.type)) {
+    } else if (interaction.type === 'transformation') {
       const input = (optionId as string).trim().toLowerCase();
       const q = interaction;
       const correct = String(q.correct_answer || q.correctAnswer || interaction.correct_answer).toLowerCase().trim();
