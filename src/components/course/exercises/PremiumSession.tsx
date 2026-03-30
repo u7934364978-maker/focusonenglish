@@ -2433,10 +2433,20 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                   return Object.keys(matchingPairs).length < pairs.length;
                 }
                 if (['transformation', 'fill_blanks', 'fill_blank', 'fill-blank'].includes(interaction.type)) {
-                  const stim = interaction.stimulus_en || "";
-                  const gaps = stim.match(/_{2,}/g) || [];
+                  const stimPlain = stripBilingualMarkup(String(interaction.stimulus_en || ''));
+                  const hasBlank = /_{2,}/.test(stimPlain);
+                  const hasOptions = interaction.options && interaction.options.length > 0;
+                  // Si hay opciones (o no hay huecos), el UI se renderiza como selección por botones,
+                  // así que COMPROBAR depende de `selectedOption` y no de `inputValues`.
+                  if (!hasBlank || hasOptions) {
+                    return selectedOption === null;
+                  }
+
+                  const gaps = stimPlain.match(/_{2,}/g) || [];
                   const exp = gaps.length || 1;
-                  const filledCount = Object.values(inputValues).filter(v => v && v.toString().trim().length > 0).length;
+                  const filledCount = Object.values(inputValues).filter(
+                    (v) => v && v.toString().trim().length > 0,
+                  ).length;
                   return filledCount < exp;
                 }
                 if (interaction.type === 'categorization') {
@@ -2461,11 +2471,25 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 else if (interaction.type === 'categorization') handleCheckAnswer(Object.keys(categorizedItems));
                 else if (['gapped_text', 'multiple_choice_cloze'].includes(interaction.type)) handleCheckAnswer(inputValues);
                 else if (['transformation', 'fill_blanks', 'fill_blank', 'fill-blank'].includes(interaction.type)) {
-                  const stim = interaction.stimulus_en || "";
-                  const gaps = stim.match(/_{2,}/g) || [];
+                  const stimPlain = stripBilingualMarkup(String(interaction.stimulus_en || ''));
+                  const hasBlank = /_{2,}/.test(stimPlain);
+                  const hasOptions = interaction.options && interaction.options.length > 0;
+
+                  // Mismo criterio que el render: si el UI es selección por botones,
+                  // evaluamos usando el texto de la opción elegida.
+                  if (!hasBlank || hasOptions) {
+                    const chosenOpt = (interaction.options || []).find(
+                      (o: any) => String(o?.id) === String(selectedOption),
+                    );
+                    const chosenText = chosenOpt?.text ?? selectedOption;
+                    if (chosenText != null) handleCheckAnswer(String(chosenText).trim());
+                    return;
+                  }
+
+                  const gaps = stimPlain.match(/_{2,}/g) || [];
                   const exp = gaps.length || 1;
-                  const answers = [];
-                  for (let j = 0; j < exp; j++) answers.push(inputValues[j] || "");
+                  const answers: string[] = [];
+                  for (let j = 0; j < exp; j++) answers.push(inputValues[j] || '');
                   handleCheckAnswer(answers.join(' ').trim());
                 }
                 else if (['short_writing', 'dictation_guided', 'writing_task'].includes(interaction.type)) {
