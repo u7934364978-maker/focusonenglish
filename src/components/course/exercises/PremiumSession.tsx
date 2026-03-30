@@ -1754,21 +1754,22 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       case 'fill_blank':
       case 'fill-blank':
       case 'fill-blanks-mc':
-        const hasBlank = /_{2,}/.test(interaction.stimulus_en || '');
+        const stimulusEnPlain = stripBilingualMarkup(String(interaction.stimulus_en || ''));
+        const hasBlank = /_{2,}/.test(stimulusEnPlain);
         const isSolutionInPrompt = interaction.prompt_es && interaction.correct_answer && 
                                    interaction.prompt_es.toLowerCase().trim() === interaction.correct_answer.toLowerCase().trim();
         const hasOptions = interaction.options && interaction.options.length > 0;
         
         // Fallback for transformation exercises that are actually multiple choice
         if ((!hasBlank || hasOptions) && interaction.options && interaction.options.length > 0) {
-          const gapsCount = (interaction.stimulus_en?.match(/_{2,}/g) || []).length;
+          const gapsCount = (stimulusEnPlain?.match(/_{2,}/g) || []).length;
           
           // If multiple blanks, we probably shouldn't use simple MC buttons unless it's designed for it
           // But for A1 "Completa la frase", it's usually 1 blank and 2 options.
           if (gapsCount <= 1) {
             const stimDisplay =
-              interaction.stimulus_en?.includes('___')
-                ? interaction.stimulus_en.replace(
+              stimulusEnPlain?.includes('___')
+                ? stimulusEnPlain.replace(
                     /_{2,}/g,
                     ' ' +
                       (selectedOption
@@ -1776,7 +1777,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                         : '...') +
                       ' ',
                   )
-                : interaction.stimulus_en;
+                : stimulusEnPlain;
             return (
               <div className="w-full max-w-xl mx-auto space-y-4 md:space-y-5">
                 <h2 className="text-lg md:text-xl font-black text-slate-800 text-center">
@@ -1785,7 +1786,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                     className="inline"
                   />
                 </h2>
-                {interaction.stimulus_en && (
+                {stimulusEnPlain && (
                   <div className={`bg-slate-50 p-4 md:p-5 rounded-2xl border border-slate-200 text-center mb-4 relative group ${TRANSLATION_TOOLTIP_SPACING.blockWithTranslations}`}>
                     <PronunciationButton text={stripBilingualMarkup(String(stimDisplay))} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                     <p className="text-base md:text-lg font-bold text-slate-700 leading-relaxed whitespace-pre-line text-left sm:text-center">
@@ -1835,13 +1836,16 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         return (
           <div className="w-full max-w-2xl mx-auto space-y-8">
             <h2 className="text-2xl font-black text-slate-800 text-center">
-              {isSolutionInPrompt ? "Completa el espacio:" : interaction.prompt_es}
+              <TranslatedText
+                text={String(isSolutionInPrompt ? 'Completa el espacio:' : interaction.prompt_es ?? '')}
+                className="inline"
+              />
             </h2>
             <div className="bg-slate-50 p-10 rounded-[3rem] border-4 border-slate-200 shadow-inner text-center relative group">
-               <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-6 top-6 opacity-0 group-hover:opacity-100 transition-opacity" />
+               <PronunciationButton text={stimulusEnPlain} size="md" className="absolute right-6 top-6 opacity-0 group-hover:opacity-100 transition-opacity" />
                {hasBlank ? (
                  <div className="text-2xl font-bold text-slate-700 flex flex-wrap justify-center items-center gap-x-4 gap-y-8">
-                   {(interaction.stimulus_en || "").split(/_{2,}/).map((part: string, i: number, arr: any[]) => (
+                   {(stimulusEnPlain || "").split(/_{2,}/).map((part: string, i: number, arr: any[]) => (
                      <React.Fragment key={i}>
                        <span>{part}</span>
                        {i < arr.length - 1 && (
@@ -1855,7 +1859,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                            onChange={(e) => setInputValues(prev => ({ ...prev, [i]: e.target.value }))}
                            onKeyDown={(e) => { 
                              if (e.key === 'Enter') {
-                               const stim = interaction.stimulus_en || "";
+                               const stim = stimulusEnPlain || "";
                                const gaps = (stim.match(/_{2,}/g) || []).length || 1;
                                const filledCount = Object.values(inputValues).filter(v => v.trim().length > 0).length;
                                if (filledCount >= gaps) {
@@ -1872,7 +1876,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                  </div>
                ) : (
                  <div className="space-y-8">
-                    <p className="text-3xl font-bold text-slate-700">{interaction.stimulus_en || interaction.text}</p>
+                   <p className="text-3xl font-bold text-slate-700">{stimulusEnPlain || interaction.text}</p>
                     <input 
                       type="text" 
                       autoFocus
