@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { ArrowLeft, Bug, Calendar, Flame, Loader2, Sparkles, Zap } from 'lucide-react';
@@ -113,6 +113,7 @@ export default function DailySessionClient() {
   const [sessionNonce, setSessionNonce] = useState(0);
   const [sessionXp, setSessionXp] = useState(0);
   const [streak, setStreak] = useState(0);
+  const seenExerciseIdsRef = useRef<Set<string>>(new Set());
 
   const { recordResult } = useSpacedRepetition('A1');
 
@@ -131,7 +132,7 @@ export default function DailySessionClient() {
     };
   }, []);
 
-  const loadDailySession = useCallback(async (excludeExerciseIds: string[] = []) => {
+  const loadDailySession = useCallback(async (excludeExerciseIds: string[] = [], resetSeen = false) => {
     setLoading(true);
     setError(null);
     let cancelled = false;
@@ -156,6 +157,10 @@ export default function DailySessionClient() {
       }
       setPlan(data.plan as PlanMeta);
       setUnitData(buildUnitData(data.exercises as AdaptiveExercise[]));
+      if (resetSeen) seenExerciseIdsRef.current.clear();
+      for (const ex of data.exercises as Array<any>) {
+        if (ex?.interaction_id) seenExerciseIdsRef.current.add(String(ex.interaction_id));
+      }
       setSessionNonce((n) => n + 1); // fuerza remount del componente
     } catch (e: unknown) {
       if (!cancelled) {
@@ -167,17 +172,14 @@ export default function DailySessionClient() {
   }, []);
 
   useEffect(() => {
-    loadDailySession([]).catch(() => {});
+    loadDailySession([], true).catch(() => {});
   }, [loadDailySession]);
 
   const handleContinueExercises = useCallback(() => {
     // No llama a completeDailySessionRemote(): permite hacer más ejercicios desde el mismo flujo.
-    const currentIds =
-      (unitData?.blocks?.[0]?.content ?? [])
-        .map((x: any) => x?.interaction_id)
-        .filter(Boolean) as string[];
-    loadDailySession(currentIds).catch(() => {});
-  }, [loadDailySession, unitData]);
+    const excludeIds = Array.from(seenExerciseIdsRef.current);
+    loadDailySession(excludeIds).catch(() => {});
+  }, [loadDailySession]);
 
   const handleInteractionCorrect = useCallback(
     async (interactionId: string) => {

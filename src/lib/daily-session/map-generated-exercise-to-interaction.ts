@@ -5,6 +5,19 @@ import { stripBilingualMarkup } from '@/lib/premium-utils';
 
 type CourseEx = z.infer<typeof courseExerciseSchema>;
 
+function stripTrailingTrueFalseNoMarker(stem: string): string {
+  const s = stem.trim();
+  // Quita marcadores tipo "no" suelto al final (patrón típico cuando el modelo añade
+  // un "no" para indicar falsedad en vez de construir la frase correcta).
+  // Mantiene "no" que venga dentro del sentido (p. ej. doesn't -> no en el markup).
+  const withoutBilingual = s.replace(/\s*\[\[no\|no\]\]\s*$/i, '').trim();
+  if (withoutBilingual !== s) return withoutBilingual;
+
+  // Quita " no" o "no" final si queda como token aislado.
+  const withoutPlain = s.replace(/(\s*[.!?])?\s+no\s*$/i, '$1').replace(/\s+$/,'').trim();
+  return withoutPlain;
+}
+
 /**
  * Convierte ejercicios del envelope `courseExerciseSchema` a interacciones planas
  * que `PremiumSession` ya normaliza (MC, T/F, fill-blank con banco).
@@ -61,7 +74,7 @@ export function mapCourseExerciseToIndexedInteraction(
       level: 'A1',
       complexity: 1,
       prompt_es: instructions || 'Verdadero o falso.',
-      stimulus_en: stem,
+      stimulus_en: stripTrailingTrueFalseNoMarker(stem),
       correct_answer: truth,
       mastery_tag: String(ex.topic ?? 'ai-generated'),
       concept_tags: [String(ex.topic ?? 'general')],

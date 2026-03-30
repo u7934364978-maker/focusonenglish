@@ -135,12 +135,21 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onC
       }
 
       // Normalize pairs for matching
-      if (normalized.pairs && normalized.pairs.length > 0 && normalized.pairs[0].word) {
-        normalized.pairs = normalized.pairs.map((p: any) => ({
-          id: p.id || Math.random().toString(36).substr(2, 9),
-          left: p.word,
-          right: p.correctMatch
-        }));
+      if (normalized.pairs && normalized.pairs.length > 0) {
+        normalized.pairs = normalized.pairs.map((p: any, idx: number) => {
+          const left = p.left ?? p.word ?? '';
+          const right = p.right ?? p.correctMatch ?? '';
+          return {
+            ...p,
+            // Aseguramos un id estable/único para evitar colisiones en matching.
+            id: p.id ?? `${idx}-${String(left)}`,
+            left,
+            right,
+            // Alias para compatibilidad con diferentes shapes de contenido.
+            word: left,
+            correctMatch: right,
+          };
+        });
       }
 
       // Normalize reorder_words (drag-drop)
@@ -351,13 +360,13 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onC
       : currentItem;
       
     if ((interaction?.type === 'matching' || interaction?.type === 'vocabulary-match') && shuffledRight.length === 0) {
-      const pairs = (interaction.type === 'vocabulary-match') 
+      const pairs = (interaction.type === 'vocabulary-match')
         ? (interaction.content?.pairs || interaction.pairs || [])
         : (interaction.pairs || []);
         
-      const rightItems = pairs.map((p: any) => ({ 
-        id: p.id, 
-        text: (interaction.type === 'vocabulary-match') ? p.correctMatch : p.right 
+      const rightItems = pairs.map((p: any, idx: number) => ({
+        id: p.id ?? `${idx}-${String(p.right ?? p.correctMatch ?? '')}`,
+        text: String(p.right ?? p.correctMatch ?? ''),
       }));
       // Fisher-Yates shuffle
       const shuffled = [...rightItems];
@@ -535,8 +544,8 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onC
           
           // If ID doesn't match, check if the text of the selected option 
           // matches the expected correct text (handles duplicate values like "a"/"an")
-          const expectedText = String((interaction.type === 'vocabulary-match') ? p.correctMatch : p.right).toLowerCase().trim();
-          const selectedText = String((shuffledRight || []).find((r: any) => r.id === selectedRightId)?.text || "").toLowerCase().trim();
+          const expectedText = String(p.right ?? p.correctMatch ?? '').toLowerCase().trim();
+          const selectedText = String((shuffledRight || []).find((r: any) => r.id === selectedRightId)?.text || '').toLowerCase().trim();
           return selectedText === expectedText;
         });
       } else {
