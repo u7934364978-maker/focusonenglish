@@ -49,6 +49,40 @@ interface TranslatedTextProps {
 let cachedLexiconMap: Map<string, string> | null = null;
 let cachedLexiconRegexPattern: string | null = null;
 
+// Fallback mínimo para cubrir palabras funcionales frecuentes que a veces no están
+// en GLOBAL_LEXICON y dejan frases parcialmente sin traducción visible.
+const COMMON_FALLBACK_TRANSLATIONS: Record<string, string> = {
+  someone: 'alguien',
+  somebody: 'alguien',
+  anyone: 'alguien / cualquiera',
+  anybody: 'alguien / cualquiera',
+  everyone: 'todos',
+  everybody: 'todos',
+  first: 'primero/a',
+  second: 'segundo/a',
+  third: 'tercero/a',
+  time: 'tiempo / vez',
+  times: 'veces',
+  when: 'cuando',
+  where: 'dónde',
+  why: 'por qué',
+  who: 'quién',
+  whom: 'a quién',
+  whose: 'de quién',
+  this: 'esto / este/a',
+  that: 'eso / ese/a',
+  these: 'estos/as',
+  those: 'esos/as',
+  here: 'aquí',
+  there: 'allí',
+  please: 'por favor',
+  sorry: 'lo siento',
+  thank: 'gracias',
+  goodbye: 'adiós',
+  hello: 'hola',
+  meet: 'conocer',
+};
+
 function getLexiconData() {
   if (cachedLexiconMap && cachedLexiconRegexPattern) {
     return { lexiconMap: cachedLexiconMap, lexiconRegexPattern: cachedLexiconRegexPattern };
@@ -63,6 +97,10 @@ function getLexiconData() {
       }
     });
   }
+
+  Object.entries(COMMON_FALLBACK_TRANSLATIONS).forEach(([k, v]) => {
+    if (!lexiconMap.has(k)) lexiconMap.set(k, v);
+  });
 
   const sortedLexiconWords = Array.from(lexiconMap.keys()).sort((a, b) => b.length - a.length);
   
