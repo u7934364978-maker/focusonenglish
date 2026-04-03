@@ -267,7 +267,7 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
       "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|significa]] \"upsell\" [[mean|significar]]?",
+          "question": "[[What does \"upsell\" mean?|¿Qué significa «upsell»?]]",
           "options": [
             "venta adicional",
             "mejora de categoría",
@@ -292,7 +292,7 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
       "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|significa]] \"amenity\" [[mean|significar]]?",
+          "question": "[[What does \"amenity\" mean?|¿Qué significa «amenity»?]]",
           "options": [
             "servicio/amenidad",
             "tipo de habitación",
@@ -317,7 +317,7 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
       "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|significa]] \"upgrade\" [[mean|significar]]?",
+          "question": "[[What does \"upgrade\" mean?|¿Qué significa «upgrade»?]]",
           "options": [
             "mejora de categoría",
             "venta adicional",

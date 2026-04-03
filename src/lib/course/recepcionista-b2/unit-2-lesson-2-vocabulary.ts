@@ -267,7 +267,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|significa]] \"account manager\" [[mean|significar]]?",
+          "question": "[[What does \"account manager\" mean?|¿Qué significa «account manager»?]]",
           "options": [
             "gestor de cuenta",
             "factura",
@@ -292,7 +292,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|significa]] \"RFP\" [[mean|significar]]?",
+          "question": "[[What does \"RFP\" mean?|¿Qué significa «RFP»?]]",
           "options": [
             "solicitud de propuesta",
             "facturación",
@@ -317,7 +317,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|significa]] \"SLA\" [[mean|significar]]?",
+          "question": "[[What does \"SLA\" mean?|¿Qué significa «SLA»?]]",
           "options": [
             "acuerdo de nivel de servicio",
             "contrato",

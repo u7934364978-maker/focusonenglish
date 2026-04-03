@@ -29,7 +29,7 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
           "explanation": "[[The text|El texto]] [[is about|trata sobre]] [[Crisis Communication|Crisis Communication]]."
         },
         {
-          "question": "[[Is|Es]] [[this|este]] [[text|texto]] [[about|sobre]] [[professional|profesional]] [[English|inglés]]?",
+          "question": "[[Is this text about professional English?|¿Este texto trata del inglés profesional?]]",
           "options": [
             "[[True|Verdadero]]",
             "[[False|Falso]]"

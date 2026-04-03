@@ -14,19 +14,20 @@ const INSTRUCTIONS =
 const QUESTIONS = [
   {
     question:
-      '[[What|Qué]] [[does|significa]] "KPI" [[mean|significar]] [[in|en]] [[this|este]] [[conversation|conversación]]?',
+      '[[According to the report, what happened to the occupancy rate compared to last year?|Según el informe, ¿qué ocurrió con la tasa de ocupación (occupancy rate) respecto al año pasado?]]',
     options: [
-      '[[indicador clave|indicador clave]]',
-      '[[tasa de ocupación|tasa de ocupación]]',
-      '[[ingresos por habitación|ingresos por habitación]]',
-      '[[reseña online|reseña online]]',
+      '[[It increased by eight percent|Aumentó un ocho por ciento]]',
+      '[[It decreased by eight percent|Disminuyó un ocho por ciento]]',
+      '[[It stayed the same|Se mantuvo igual]]',
+      '[[It is not mentioned|No se menciona]]',
     ],
     correctAnswer: 0,
-    explanation: '[[Kpi|Indicador clave]] [[is the correct meaning|es el significado correcto]].',
+    explanation:
+      '[[The speaker says|El hablante dice]] "our occupancy rate has increased by eight percent compared to last year".',
   },
   {
     question:
-      '[[Is|Es]] "[[occupancy rate|tasa de ocupación]]" [[mentioned|mencionado]] [[in|en]] [[the|la]] [[conversation|conversación]]?',
+      '[[Is "occupancy rate" mentioned in the conversation?|¿Se menciona «occupancy rate» en la conversación?]]',
     options: ['[[True|Verdadero]]', '[[False|Falso]]'],
     correctAnswer: 'True',
     explanation:
@@ -34,20 +35,20 @@ const QUESTIONS = [
   },
   {
     question:
-      '[[Which|Cuál]] [[of these|de estas]] [[expressions|expresiones]] [[is|es]] [[used|usada]] [[professionally|profesionalmente]] [[in|en]] [[this|este]] [[context|contexto]]?',
+      '[[Which platform is mentioned for guest reviews?|¿Qué plataforma se menciona para las reseñas de huéspedes?]]',
     options: [
-      '[[revenue per room|ingresos por habitación]]',
-      '[[online review|reseña online]]',
-      '[[brand standards|estándares de marca]]',
-      '[[mystery guest|cliente misterioso]]',
+      '[[Booking.com|Booking.com]]',
+      '[[TripAdvisor|TripAdvisor]]',
+      '[[Google Maps|Google Maps]]',
+      '[[Expedia|Expedia]]',
     ],
     correctAnswer: 0,
     explanation:
-      '"[[revenue per room|ingresos por habitación]]" [[is the most professional expression here|es la expresión más profesional aquí]].',
+      '[[The speaker mentions|El hablante menciona]] "on Booking.com".',
   },
   {
     question:
-      '[[What|Qué]] [[does|significa]] "online review" [[mean|significar]] [[in|en]] [[this|este]] [[conversation|conversación]]?',
+      '[[What does "online review" mean in this conversation?|¿Qué significa «online review» en esta conversación?]]',
     options: [
       '[[reseña online|reseña online]]',
       '[[estándares de marca|estándares de marca]]',
@@ -59,7 +60,7 @@ const QUESTIONS = [
   },
   {
     question:
-      '[[Is|Es]] "[[brand standards|estándares de marca]]" [[mentioned|mencionado]] [[in|en]] [[the|la]] [[conversation|conversación]]?',
+      '[[Is "brand standards" mentioned in the conversation?|¿Se menciona «brand standards» en la conversación?]]',
     options: ['[[True|Verdadero]]', '[[False|Falso]]'],
     correctAnswer: 'False',
     explanation:
@@ -67,32 +68,33 @@ const QUESTIONS = [
   },
   {
     question:
-      '[[Which|Cuál]] [[of these|de estas]] [[expressions|expresiones]] [[is|es]] [[used|usada]] [[professionally|profesionalmente]] [[in|en]] [[this|este]] [[context|contexto]]?',
+      '[[What do most negative reviews mention, according to the speaker?|¿Qué mencionan la mayoría de las reseñas negativas, según el hablante?]]',
     options: [
-      '[[mystery guest|cliente misterioso]]',
-      '[[audit|auditoría]]',
-      '[[compliance|cumplimiento]]',
-      '[[performance review|evaluación de desempeño]]',
+      '[[Delays at check-in|Retrasos en el check-in]]',
+      '[[Room size|Tamaño de la habitación]]',
+      '[[Breakfast quality|Calidad del desayuno]]',
+      '[[Parking|Parking]]',
     ],
     correctAnswer: 0,
     explanation:
-      '"[[mystery guest|cliente misterioso]]" [[is the most professional expression here|es la expresión más profesional aquí]].',
+      '[[The speaker says|El hablante dice]] "Most negative reviews mention delays at check-in".',
   },
   {
     question:
-      '[[What|Qué]] [[does|significa]] "audit" [[mean|significar]] [[in|en]] [[this|este]] [[conversation|conversación]]?',
+      '[[What does the speaker want the reception team to do?|¿Qué quiere el hablante que haga el equipo de recepción?]]',
     options: [
-      '[[auditoría|auditoría]]',
-      '[[cumplimiento|cumplimiento]]',
-      '[[evaluación de desempeño|evaluación de desempeño]]',
-      '[[punto de referencia|punto de referencia]]',
+      '[[Analyze the comments and present a service improvement plan|Analizar los comentarios y presentar un plan de mejora del servicio]]',
+      '[[Close the front desk|Cerrar la recepción]]',
+      '[[Ignore the reviews|Ignorar las reseñas]]',
+      '[[Reduce room prices|Reducir los precios de las habitaciones]]',
     ],
     correctAnswer: 0,
-    explanation: '[[Audit|Auditoría]] [[is the correct meaning|es el significado correcto]].',
+    explanation:
+      '[[The speaker asks|El hablante pide]] the reception team to analyze comments and present a service improvement plan.',
   },
   {
     question:
-      '[[Is|Es]] "[[compliance|cumplimiento]]" [[mentioned|mencionado]] [[in|en]] [[the|la]] [[conversation|conversación]]?',
+      '[[Is "compliance" mentioned in the conversation?|¿Se menciona «compliance» en la conversación?]]',
     options: ['[[True|Verdadero]]', '[[False|Falso]]'],
     correctAnswer: 'False',
     explanation:
@@ -100,32 +102,20 @@ const QUESTIONS = [
   },
   {
     question:
-      '[[Which|Cuál]] [[of these|de estas]] [[expressions|expresiones]] [[is|es]] [[used|usada]] [[professionally|profesionalmente]] [[in|en]] [[this|este]] [[context|contexto]]?',
+      '[[What happened to the online review score?|¿Qué ocurrió con la puntuación de reseñas online?]]',
     options: [
-      '[[performance review|evaluación de desempeño]]',
-      '[[benchmark|punto de referencia]]',
-      '[[KPI|indicador clave]]',
-      '[[occupancy rate|tasa de ocupación]]',
+      '[[It dropped from 8.4 to 8.1|Bajó de 8,4 a 8,1]]',
+      '[[It rose from 8.1 to 8.4|Subió de 8,1 a 8,4]]',
+      '[[It stayed at 8.4|Se mantuvo en 8,4]]',
+      '[[It is not mentioned|No se menciona]]',
     ],
     correctAnswer: 0,
     explanation:
-      '"[[performance review|evaluación de desempeño]]" [[is the most professional expression here|es la expresión más profesional aquí]].',
+      '[[The speaker says|El hablante dice]] the score dropped from 8.4 to 8.1.',
   },
   {
     question:
-      '[[What|Qué]] [[does|significa]] "benchmark" [[mean|significar]] [[in|en]] [[this|este]] [[conversation|conversación]]?',
-    options: [
-      '[[punto de referencia|punto de referencia]]',
-      '[[indicador clave|indicador clave]]',
-      '[[tasa de ocupación|tasa de ocupación]]',
-      '[[ingresos por habitación|ingresos por habitación]]',
-    ],
-    correctAnswer: 0,
-    explanation: '[[Benchmark|Punto de referencia]] [[is the correct meaning|es el significado correcto]].',
-  },
-  {
-    question:
-      '[[Is|Es]] "[[KPI|indicador clave]]" [[mentioned|mencionado]] [[in|en]] [[the|la]] [[conversation|conversación]]?',
+      '[[Is "KPI" mentioned in the conversation?|¿Se menciona «KPI» en la conversación?]]',
     options: ['[[True|Verdadero]]', '[[False|Falso]]'],
     correctAnswer: 'False',
     explanation:
@@ -133,33 +123,28 @@ const QUESTIONS = [
   },
   {
     question:
-      '[[Which|Cuál]] [[of these|de estas]] [[expressions|expresiones]] [[is|es]] [[used|usada]] [[professionally|profesionalmente]] [[in|en]] [[this|este]] [[context|contexto]]?',
-    options: [
-      '[[occupancy rate|tasa de ocupación]]',
-      '[[revenue per room|ingresos por habitación]]',
-      '[[online review|reseña online]]',
-      '[[brand standards|estándares de marca]]',
-    ],
-    correctAnswer: 0,
+      '[[Is "check-in" mentioned in the conversation?|¿Se menciona el check-in en la conversación?]]',
+    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
+    correctAnswer: 'True',
     explanation:
-      '"[[occupancy rate|tasa de ocupación]]" [[is the most professional expression here|es la expresión más profesional aquí]].',
+      '[[Negative reviews mention|Las reseñas negativas mencionan]] "delays at check-in".',
   },
   {
     question:
-      '[[What|Qué]] [[does|significa]] "revenue per room" [[mean|significar]] [[in|en]] [[this|este]] [[conversation|conversación]]?',
+      '[[By when does the speaker want the improvement plan?|¿Para cuándo quiere el hablante el plan de mejora?]]',
     options: [
-      '[[ingresos por habitación|ingresos por habitación]]',
-      '[[reseña online|reseña online]]',
-      '[[estándares de marca|estándares de marca]]',
-      '[[cliente misterioso|cliente misterioso]]',
+      '[[By the end of the month|Para fin de mes]]',
+      '[[Tomorrow|Mañana]]',
+      '[[Next year|El año que viene]]',
+      '[[It is not specified|No se especifica]]',
     ],
     correctAnswer: 0,
     explanation:
-      '[[Revenue per room|Ingresos por habitación]] [[is the correct meaning|es el significado correcto]].',
+      '[[The speaker says|El hablante dice]] "by the end of the month".',
   },
   {
     question:
-      '[[Is|Es]] "[[online review|reseña online]]" [[mentioned|mencionado]] [[in|en]] [[the|la]] [[conversation|conversación]]?',
+      '[[Is "online review" (or "reviews") mentioned in the conversation?|¿Se menciona «online review» o «reviews» en la conversación?]]',
     options: ['[[True|Verdadero]]', '[[False|Falso]]'],
     correctAnswer: 'True',
     explanation:
@@ -167,16 +152,11 @@ const QUESTIONS = [
   },
   {
     question:
-      '[[Which|Cuál]] [[of these|de estas]] [[expressions|expresiones]] [[is|es]] [[used|usada]] [[professionally|profesionalmente]] [[in|en]] [[this|este]] [[context|contexto]]?',
-    options: [
-      '[[brand standards|estándares de marca]]',
-      '[[mystery guest|cliente misterioso]]',
-      '[[audit|auditoría]]',
-      '[[compliance|cumplimiento]]',
-    ],
-    correctAnswer: 0,
+      '[[Compared to last year, is the hotel performing better in online reviews?|Comparado con el año pasado, ¿el hotel va mejor en reseñas online?]]',
+    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
+    correctAnswer: 'False',
     explanation:
-      '"[[brand standards|estándares de marca]]" [[is the most professional expression here|es la expresión más profesional aquí]].',
+      '[[The review score dropped|La puntuación de reseñas bajó]], [[so performance in reviews is worse|así que el rendimiento en reseñas es peor]].',
   },
 ];
 

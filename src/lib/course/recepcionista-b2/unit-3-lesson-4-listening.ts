@@ -18,7 +18,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
       "transcript": "I have just been informed by the health authority that two guests have reported symptoms of food poisoning following last night's gala dinner. We must act immediately. First, the restaurant will be closed for a deep clean and inspection. Second, all guests from last night will be contacted and offered medical assistance. Third, we will prepare a press [[statement|declaración]] confirming we are cooperating fully with the [[investigation|investigación]]. I need the communication ready within the hour.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|significa]] \"crisis communication\" [[mean|significar]] [[in|en]] [[this|este]] [[conversation|conversación]]?",
+          "question": "[[What does \"crisis communication\" mean in this conversation?|¿Qué significa «crisis communication» en esta conversación?]]",
           "options": [
             "[[comunicación de crisis|comunicación de crisis]]",
             "[[comunicado de prensa|comunicado de prensa]]",
@@ -29,7 +29,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Crisis communication|Comunicación de crisis]] [[is the correct meaning|es el significado correcto]]."
         },
         {
-          "question": "[[Is|Es]] \"[[press statement|comunicado de prensa]]\" [[mentioned|mencionado]] [[in|en]] [[the|la]] [[conversation|conversación]]?",
+          "question": "[[Is \"press statement\" mentioned in the conversation?|¿Se menciona «press statement» en la conversación?]]",
           "options": [
             "[[True|Verdadero]]",
             "[[False|Falso]]"
@@ -38,7 +38,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Listen carefully|Escucha con atención]] [[to the audio|al audio]] [[for the answer|para la respuesta]]."
         },
         {
-          "question": "[[Which|Cuál]] [[of these|de estas]] [[expressions|expresiones]] [[is|es]] [[used|usada]] [[professionally|profesionalmente]] [[in|en]] [[this context|este contexto]]?",
+          "question": "[[Which of these expressions is used professionally in this context?|¿Cuál de estas expresiones se usa de forma profesional en este contexto?]]",
           "options": [
             "[[spokesperson|portavoz]]",
             "[[damage control|control de daños]]",
@@ -49,7 +49,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "\"[[spokesperson|portavoz]]\" [[is the most professional expression here|es la expresión más profesional aquí]]."
         },
         {
-          "question": "[[What|Qué]] [[does|significa]] \"damage control\" [[mean|significar]] [[in|en]] [[this|este]] [[conversation|conversación]]?",
+          "question": "[[What does \"damage control\" mean in this conversation?|¿Qué significa «damage control» en esta conversación?]]",
           "options": [
             "[[control de daños|control de daños]]",
             "[[riesgo reputacional|riesgo reputacional]]",
@@ -60,7 +60,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Damage control|Control de daños]] [[is the correct meaning|es el significado correcto]]."
         },
         {
-          "question": "[[Is|Es]] \"[[reputational risk|riesgo reputacional]]\" [[mentioned|mencionado]] [[in|en]] [[the|la]] [[conversation|conversación]]?",
+          "question": "[[Is \"reputational risk\" mentioned in the conversation?|¿Se menciona «reputational risk» en la conversación?]]",
           "options": [
             "[[True|Verdadero]]",
             "[[False|Falso]]"
@@ -69,7 +69,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Listen carefully|Escucha con atención]] [[to the audio|al audio]] [[for the answer|para la respuesta]]."
         },
         {
-          "question": "[[Which|Cuál]] [[of these|de estas]] [[expressions|expresiones]] [[is|es]] [[used|usada]] [[professionally|profesionalmente]] [[in|en]] [[this context|este contexto]]?",
+          "question": "[[Which of these expressions is used professionally in this context?|¿Cuál de estas expresiones se usa de forma profesional en este contexto?]]",
           "options": [
             "[[stakeholder|parte interesada]]",
             "[[media inquiry|consulta de medios]]",
@@ -80,7 +80,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "\"[[stakeholder|parte interesada]]\" [[is the most professional expression here|es la expresión más profesional aquí]]."
         },
         {
-          "question": "[[What|Qué]] [[does|significa]] \"media inquiry\" [[mean|significar]] [[in|en]] [[this|este]] [[conversation|conversación]]?",
+          "question": "[[What does \"media inquiry\" mean in this conversation?|¿Qué significa «media inquiry» en esta conversación?]]",
           "options": [
             "[[consulta de medios|consulta de medios]]",
             "[[declaración|declaración]]",
@@ -91,7 +91,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Media inquiry|Consulta de medios]] [[is the correct meaning|es el significado correcto]]."
         },
         {
-          "question": "[[Is|Es]] \"[[statement|declaración]]\" [[mentioned|mencionado]] [[in|en]] [[the|la]] [[conversation|conversación]]?",
+          "question": "[[Is \"statement\" mentioned in the conversation?|¿Se menciona «statement» en la conversación?]]",
           "options": [
             "[[True|Verdadero]]",
             "[[False|Falso]]"
@@ -100,7 +100,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Listen carefully|Escucha con atención]] [[to the audio|al audio]] [[for the answer|para la respuesta]]."
         },
         {
-          "question": "[[Which|Cuál]] [[of these|de estas]] [[expressions|expresiones]] [[is|es]] [[used|usada]] [[professionally|profesionalmente]] [[in|en]] [[this context|este contexto]]?",
+          "question": "[[Which of these expressions is used professionally in this context?|¿Cuál de estas expresiones se usa de forma profesional en este contexto?]]",
           "options": [
             "[[investigation|investigación]]",
             "[[transparency|transparencia]]",
@@ -111,7 +111,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "\"[[investigation|investigación]]\" [[is the most professional expression here|es la expresión más profesional aquí]]."
         },
         {
-          "question": "[[What|Qué]] [[does|significa]] \"transparency\" [[mean|significar]] [[in|en]] [[this|este]] [[conversation|conversación]]?",
+          "question": "[[What does \"transparency\" mean in this conversation?|¿Qué significa «transparency» en esta conversación?]]",
           "options": [
             "[[transparencia|transparencia]]",
             "[[comunicación de crisis|comunicación de crisis]]",
@@ -122,7 +122,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Transparency|Transparencia]] [[is the correct meaning|es el significado correcto]]."
         },
         {
-          "question": "[[Is|Es]] \"[[crisis communication|comunicación de crisis]]\" [[mentioned|mencionado]] [[in|en]] [[the|la]] [[conversation|conversación]]?",
+          "question": "[[Is \"crisis communication\" mentioned in the conversation?|¿Se menciona «crisis communication» en la conversación?]]",
           "options": [
             "[[True|Verdadero]]",
             "[[False|Falso]]"
@@ -131,7 +131,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Listen carefully|Escucha con atención]] [[to the audio|al audio]] [[for the answer|para la respuesta]]."
         },
         {
-          "question": "[[Which|Cuál]] [[of these|de estas]] [[expressions|expresiones]] [[is|es]] [[used|usada]] [[professionally|profesionalmente]] [[in|en]] [[this context|este contexto]]?",
+          "question": "[[Which of these expressions is used professionally in this context?|¿Cuál de estas expresiones se usa de forma profesional en este contexto?]]",
           "options": [
             "[[press statement|comunicado de prensa]]",
             "[[spokesperson|portavoz]]",
@@ -142,7 +142,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "\"[[press statement|comunicado de prensa]]\" [[is the most professional expression here|es la expresión más profesional aquí]]."
         },
         {
-          "question": "[[What|Qué]] [[does|significa]] \"spokesperson\" [[mean|significar]] [[in|en]] [[this|este]] [[conversation|conversación]]?",
+          "question": "[[What does \"spokesperson\" mean in this conversation?|¿Qué significa «spokesperson» en esta conversación?]]",
           "options": [
             "[[portavoz|portavoz]]",
             "[[control de daños|control de daños]]",
@@ -153,7 +153,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Spokesperson|Portavoz]] [[is the correct meaning|es el significado correcto]]."
         },
         {
-          "question": "[[Is|Es]] \"[[damage control|control de daños]]\" [[mentioned|mencionado]] [[in|en]] [[the|la]] [[conversation|conversación]]?",
+          "question": "[[Is \"damage control\" mentioned in the conversation?|¿Se menciona «damage control» en la conversación?]]",
           "options": [
             "[[True|Verdadero]]",
             "[[False|Falso]]"
@@ -162,7 +162,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Listen carefully|Escucha con atención]] [[to the audio|al audio]] [[for the answer|para la respuesta]]."
         },
         {
-          "question": "[[Which|Cuál]] [[of these|de estas]] [[expressions|expresiones]] [[is|es]] [[used|usada]] [[professionally|profesionalmente]] [[in|en]] [[this context|este contexto]]?",
+          "question": "[[Which of these expressions is used professionally in this context?|¿Cuál de estas expresiones se usa de forma profesional en este contexto?]]",
           "options": [
             "[[reputational risk|riesgo reputacional]]",
             "[[stakeholder|parte interesada]]",

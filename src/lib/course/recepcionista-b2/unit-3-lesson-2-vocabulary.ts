@@ -267,7 +267,7 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
       "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|significa]] \"media inquiry\" [[mean|significar]]?",
+          "question": "[[What does \"media inquiry\" mean?|¿Qué significa «media inquiry»?]]",
           "options": [
             "consulta de medios",
             "portavoz",
@@ -292,7 +292,7 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
       "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|significa]] \"statement\" [[mean|significar]]?",
+          "question": "[[What does \"statement\" mean?|¿Qué significa «statement»?]]",
           "options": [
             "declaración",
             "control de daños",
@@ -317,7 +317,7 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
       "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|significa]] \"investigation\" [[mean|significar]]?",
+          "question": "[[What does \"investigation\" mean?|¿Qué significa «investigation»?]]",
           "options": [
             "investigación",
             "riesgo reputacional",

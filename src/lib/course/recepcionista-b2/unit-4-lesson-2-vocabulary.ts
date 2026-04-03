@@ -267,7 +267,7 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
       "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|significa]] \"performance improvement\" [[mean|significar]]?",
+          "question": "[[What does \"performance improvement\" mean?|¿Qué significa «performance improvement»?]]",
           "options": [
             "mejora del desempeño",
             "juego de rol",
@@ -292,7 +292,7 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
       "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|significa]] \"upskilling\" [[mean|significar]]?",
+          "question": "[[What does \"upskilling\" mean?|¿Qué significa «upskilling»?]]",
           "options": [
             "mejora de habilidades",
             "evaluación",
@@ -317,7 +317,7 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
       "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|significa]] \"e-learning\" [[mean|significar]]?",
+          "question": "[[What does \"e-learning\" mean?|¿Qué significa «e-learning»?]]",
           "options": [
             "aprendizaje online",
             "certificación",

@@ -18,7 +18,7 @@ export const UNIT_4_LESSON_4_LISTENING: Exercise[] = [
       "transcript": "Welcome to the Hotel Plaza team. This week you will spend two days learning our reservation system, one day shadowing an experienced receptionist, and two days in role-play training for common guest scenarios. By the end of the week, you will be assessed on your ability to handle a complete check-in independently. Do not hesitate to ask questions — we are all here to support you.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|significa]] \"onboarding\" [[mean|significar]] [[in|en]] [[this|este]] [[conversation|conversación]]?",
+          "question": "[[What does \"onboarding\" mean in this conversation?|¿Qué significa «onboarding» en esta conversación?]]",
           "options": [
             "[[incorporación|incorporación]]",
             "[[mentoría|mentoría]]",
@@ -29,7 +29,7 @@ export const UNIT_4_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Onboarding|Incorporación]] [[is the correct meaning|es el significado correcto]]."
         },
         {
-          "question": "[[Is|Es]] \"[[mentoring|mentoría]]\" [[mentioned|mencionado]] [[in|en]] [[the|la]] [[conversation|conversación]]?",
+          "question": "[[Is \"mentoring\" mentioned in the conversation?|¿Se menciona «mentoring» en la conversación?]]",
           "options": [
             "[[True|Verdadero]]",
             "[[False|Falso]]"
@@ -38,7 +38,7 @@ export const UNIT_4_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Listen carefully|Escucha con atención]] [[to the audio|al audio]] [[for the answer|para la respuesta]]."
         },
         {
-          "question": "[[Which|Cuál]] [[of these|de estas]] [[expressions|expresiones]] [[is|es]] [[used|usada]] [[professionally|profesionalmente]] [[in|en]] [[this context|este contexto]]?",
+          "question": "[[Which of these expressions is used professionally in this context?|¿Cuál de estas expresiones se usa de forma profesional en este contexto?]]",
           "options": [
             "[[role play|juego de rol]]",
             "[[assessment|evaluación]]",
@@ -49,7 +49,7 @@ export const UNIT_4_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "\"[[role play|juego de rol]]\" [[is the most professional expression here|es la expresión más profesional aquí]]."
         },
         {
-          "question": "[[What|Qué]] [[does|significa]] \"assessment\" [[mean|significar]] [[in|en]] [[this|este]] [[conversation|conversación]]?",
+          "question": "[[What does \"assessment\" mean in this conversation?|¿Qué significa «assessment» en esta conversación?]]",
           "options": [
             "[[evaluación|evaluación]]",
             "[[certificación|certificación]]",
@@ -60,7 +60,7 @@ export const UNIT_4_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Assessment|Evaluación]] [[is the correct meaning|es el significado correcto]]."
         },
         {
-          "question": "[[Is|Es]] \"[[certification|certificación]]\" [[mentioned|mencionado]] [[in|en]] [[the|la]] [[conversation|conversación]]?",
+          "question": "[[Is \"certification\" mentioned in the conversation?|¿Se menciona «certification» en la conversación?]]",
           "options": [
             "[[True|Verdadero]]",
             "[[False|Falso]]"
@@ -69,7 +69,7 @@ export const UNIT_4_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Listen carefully|Escucha con atención]] [[to the audio|al audio]] [[for the answer|para la respuesta]]."
         },
         {
-          "question": "[[Which|Cuál]] [[of these|de estas]] [[expressions|expresiones]] [[is|es]] [[used|usada]] [[professionally|profesionalmente]] [[in|en]] [[this context|este contexto]]?",
+          "question": "[[Which of these expressions is used professionally in this context?|¿Cuál de estas expresiones se usa de forma profesional en este contexto?]]",
           "options": [
             "[[probationary period|período de prueba]]",
             "[[performance improvement|mejora del desempeño]]",
@@ -80,7 +80,7 @@ export const UNIT_4_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "\"[[probationary period|período de prueba]]\" [[is the most professional expression here|es la expresión más profesional aquí]]."
         },
         {
-          "question": "[[What|Qué]] [[does|significa]] \"performance improvement\" [[mean|significar]] [[in|en]] [[this|este]] [[conversation|conversación]]?",
+          "question": "[[What does \"performance improvement\" mean in this conversation?|¿Qué significa «performance improvement» en esta conversación?]]",
           "options": [
             "[[mejora del desempeño|mejora del desempeño]]",
             "[[mejora de habilidades|mejora de habilidades]]",
@@ -91,7 +91,7 @@ export const UNIT_4_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Performance improvement|Mejora del desempeño]] [[is the correct meaning|es el significado correcto]]."
         },
         {
-          "question": "[[Is|Es]] \"[[upskilling|mejora de habilidades]]\" [[mentioned|mencionado]] [[in|en]] [[the|la]] [[conversation|conversación]]?",
+          "question": "[[Is \"upskilling\" mentioned in the conversation?|¿Se menciona «upskilling» en la conversación?]]",
           "options": [
             "[[True|Verdadero]]",
             "[[False|Falso]]"
@@ -100,7 +100,7 @@ export const UNIT_4_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Listen carefully|Escucha con atención]] [[to the audio|al audio]] [[for the answer|para la respuesta]]."
         },
         {
-          "question": "[[Which|Cuál]] [[of these|de estas]] [[expressions|expresiones]] [[is|es]] [[used|usada]] [[professionally|profesionalmente]] [[in|en]] [[this context|este contexto]]?",
+          "question": "[[Which of these expressions is used professionally in this context?|¿Cuál de estas expresiones se usa de forma profesional en este contexto?]]",
           "options": [
             "[[e-learning|aprendizaje online]]",
             "[[succession planning|planificación de la sucesión]]",
@@ -111,7 +111,7 @@ export const UNIT_4_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "\"[[e-learning|aprendizaje online]]\" [[is the most professional expression here|es la expresión más profesional aquí]]."
         },
         {
-          "question": "[[What|Qué]] [[does|significa]] \"succession planning\" [[mean|significar]] [[in|en]] [[this|este]] [[conversation|conversación]]?",
+          "question": "[[What does \"succession planning\" mean in this conversation?|¿Qué significa «succession planning» en esta conversación?]]",
           "options": [
             "[[planificación de la sucesión|planificación de la sucesión]]",
             "[[incorporación|incorporación]]",
@@ -122,7 +122,7 @@ export const UNIT_4_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Succession planning|Planificación de la sucesión]] [[is the correct meaning|es el significado correcto]]."
         },
         {
-          "question": "[[Is|Es]] \"[[onboarding|incorporación]]\" [[mentioned|mencionado]] [[in|en]] [[the|la]] [[conversation|conversación]]?",
+          "question": "[[Is \"onboarding\" mentioned in the conversation?|¿Se menciona «onboarding» en la conversación?]]",
           "options": [
             "[[True|Verdadero]]",
             "[[False|Falso]]"
@@ -131,7 +131,7 @@ export const UNIT_4_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Listen carefully|Escucha con atención]] [[to the audio|al audio]] [[for the answer|para la respuesta]]."
         },
         {
-          "question": "[[Which|Cuál]] [[of these|de estas]] [[expressions|expresiones]] [[is|es]] [[used|usada]] [[professionally|profesionalmente]] [[in|en]] [[this context|este contexto]]?",
+          "question": "[[Which of these expressions is used professionally in this context?|¿Cuál de estas expresiones se usa de forma profesional en este contexto?]]",
           "options": [
             "[[mentoring|mentoría]]",
             "[[role play|juego de rol]]",
@@ -142,7 +142,7 @@ export const UNIT_4_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "\"[[mentoring|mentoría]]\" [[is the most professional expression here|es la expresión más profesional aquí]]."
         },
         {
-          "question": "[[What|Qué]] [[does|significa]] \"role play\" [[mean|significar]] [[in|en]] [[this|este]] [[conversation|conversación]]?",
+          "question": "[[What does \"role play\" mean in this conversation?|¿Qué significa «role play» en esta conversación?]]",
           "options": [
             "[[juego de rol|juego de rol]]",
             "[[evaluación|evaluación]]",
@@ -153,7 +153,7 @@ export const UNIT_4_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Role play|Juego de rol]] [[is the correct meaning|es el significado correcto]]."
         },
         {
-          "question": "[[Is|Es]] \"[[assessment|evaluación]]\" [[mentioned|mencionado]] [[in|en]] [[the|la]] [[conversation|conversación]]?",
+          "question": "[[Is \"assessment\" mentioned in the conversation?|¿Se menciona «assessment» en la conversación?]]",
           "options": [
             "[[True|Verdadero]]",
             "[[False|Falso]]"
@@ -162,7 +162,7 @@ export const UNIT_4_LESSON_4_LISTENING: Exercise[] = [
           "explanation": "[[Listen carefully|Escucha con atención]] [[to the audio|al audio]] [[for the answer|para la respuesta]]."
         },
         {
-          "question": "[[Which|Cuál]] [[of these|de estas]] [[expressions|expresiones]] [[is|es]] [[used|usada]] [[professionally|profesionalmente]] [[in|en]] [[this context|este contexto]]?",
+          "question": "[[Which of these expressions is used professionally in this context?|¿Cuál de estas expresiones se usa de forma profesional en este contexto?]]",
           "options": [
             "[[certification|certificación]]",
             "[[probationary period|período de prueba]]",
