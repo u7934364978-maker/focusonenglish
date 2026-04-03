@@ -14,31 +14,31 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
     topic: 'Crisis Communication',
     difficulty: 'medium',
     content: {
-      title: '[[Modal Verbs|Verbos Modales]] — [[Obligation & Advice|Obligación y Consejo]]',
+      title: '[[Modal Verbs — Obligation & Advice|Verbos modales — Obligación y consejo]]',
       instructions: '[[Complete the sentence with the correct modal verb: must, must not, should, should not, or ought to.|Completa la frase con el verbo modal correcto: must, must not, should, should not u ought to.]]',
       questions: [
         {
-          question: 'All guests ___ be evacuated immediately — there is a fire on the second floor. This is not optional.',
+          question: '[[All guests ___ be evacuated immediately — there is a fire on the second floor. This is not optional.|Todos los huéspedes ___ ser evacuados de inmediato: hay un incendio en el segundo piso. No es opcional.]]',
           correctAnswer: 'must',
           explanation: '"Must" [[expresses|expresa]] [[strong obligation or necessity|obligación fuerte o necesidad]], [[often from the speaker\'s authority|a menudo desde la autoridad del hablante]]. [[In an emergency|En una emergencia]], [[the obligation is absolute|la obligación es absoluta]]: there is no choice.',
         },
         {
-          question: 'You ___ leave the building via the lifts during a fire evacuation — always use the emergency stairs.',
+          question: '[[You ___ leave the building via the lifts during a fire evacuation — always use the emergency stairs.|No ___ salir del edificio en ascensores durante una evacuación por incendio; usa siempre las escaleras de emergencia.]]',
           correctAnswer: 'must not',
           explanation: '"Must not" (mustn\'t) [[expresses|expresa]] [[prohibition|prohibición]] — [[something that is forbidden|algo que está prohibido]]. [[It is much stronger|Es mucho más fuerte]] [[than|que]] "should not", [[which is advice|que es consejo]]. [[In safety situations|En situaciones de seguridad]], [[prohibition is the correct register|la prohibición es el registro correcto]].',
         },
         {
-          question: 'You ___ inform the duty manager as soon as possible if a guest reports a medical emergency. It is the correct procedure.',
+          question: '[[You ___ inform the duty manager as soon as possible if a guest reports a medical emergency. It is the correct procedure.|___ informar al encargado de turno lo antes posible si un huésped informa de una emergencia médica. Es el procedimiento correcto.]]',
           correctAnswer: 'should',
           explanation: '"Should" [[expresses|expresa]] [[recommendation or advice|recomendación o consejo]] — [[the right or expected course of action|el curso de acción correcto o esperado]]. [[It is less absolute|Es menos absoluto]] [[than "must"|que "must"]] [[but still strongly recommended|pero sigue siendo fuertemente recomendado]].',
         },
         {
-          question: 'Staff ___ remain calm when speaking to guests during a crisis — a panicked tone makes situations worse.',
+          question: '[[Staff ___ remain calm when speaking to guests during a crisis — a panicked tone makes situations worse.|El personal ___ mantener la calma al hablar con huéspedes durante una crisis: un tono de pánico empeora la situación.]]',
           correctAnswer: 'ought to',
           explanation: '"Ought to" [[is similar to "should"|es similar a "should"]] [[and expresses|y expresa]] [[moral obligation or the right thing to do|obligación moral o lo correcto]]. [[It is slightly more formal|Es ligeramente más formal]] [[than "should"|que "should"]] [[and is common in written procedures|y es común en procedimientos escritos]].',
         },
         {
-          question: 'The incident report ___ be completed within two hours of the event — this is a company policy requirement.',
+          question: '[[The incident report ___ be completed within two hours of the event — this is a company policy requirement.|El informe de incidencias ___ completarse en las dos horas siguientes al suceso: es un requisito de la política de la empresa.]]',
           correctAnswer: 'must',
           explanation: '"Must" [[indicates|indica]] [[strict obligation based on a rule or policy|obligación estricta basada en una norma o política]]. [[When something is required by company policy|Cuando algo es requerido por la política de la empresa]], "must" [[is the appropriate modal|es el modal apropiado]], [[not just "should"|no solo "should"]].',
         },
@@ -53,11 +53,11 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
     topic: 'Crisis Communication',
     difficulty: 'medium',
     content: {
-      title: '[[Modal Verbs|Verbos Modales]] — [[Choose the correct modal|Elige el modal correcto]]',
+      title: '[[Modal Verbs — Choose the correct modal|Verbos modales — Elige el modal correcto]]',
       instructions: '[[Choose the modal verb that best fits the meaning in context.|Elige el verbo modal que mejor encaja el significado en contexto.]]',
       questions: [
         {
-          question: 'Receptionists ___ reveal a guest\'s room number to anyone who has not provided valid identification. This is a security policy.',
+          question: '[[Receptionists ___ reveal a guest\'s room number to anyone who has not provided valid identification. This is a security policy.|Los recepcionistas ___ revelar el número de habitación de un huésped a quien no haya mostrado identificación válida. Es política de seguridad.]]',
           options: [
             'must not',
             'should not',
@@ -68,7 +68,7 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
           explanation: '"Must not" [[expresses|expresa]] [[prohibition|prohibición]] — [[something that is strictly forbidden|algo que está estrictamente prohibido]]. [[This is a security policy|Esto es una política de seguridad]], [[so the obligation is absolute|por lo que la obligación es absoluta]]. "Should not" [[would sound like advice|sonaría como consejo]], [[not a firm rule|no una norma firme]].',
         },
         {
-          question: '"I think you ___ call the guest to apologise personally — it would help restore their confidence in the hotel."',
+          question: '[[\"I think you ___ call the guest to apologise personally — it would help restore their confidence in the hotel.\"|«Creo que ___ llamar al huésped para disculparte en persona: ayudaría a recuperar su confianza en el hotel.»]]',
           options: [
             'should',
             'must',
@@ -79,7 +79,7 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
           explanation: '"Should" [[expresses|expresa]] [[advice or recommendation|consejo o recomendación]]. [[The speaker is suggesting|El hablante está sugiriendo]] [[what would be a good course of action|cuál sería un buen curso de acción]], [[not imposing a strict obligation|no imponiendo una obligación estricta]]. "Must" [[would be too strong|sería demasiado fuerte]] [[for personal advice|para un consejo personal]].',
         },
         {
-          question: 'During a lockdown procedure, guests ___ stay in their rooms until the all-clear is given by security.',
+          question: '[[During a lockdown procedure, guests ___ stay in their rooms until the all-clear is given by security.|Durante un confinamiento, los huéspedes ___ permanecer en su habitación hasta que seguridad dé el visto bueno.]]',
           options: [
             'must',
             'should',
@@ -90,7 +90,7 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
           explanation: '[[A lockdown is a compulsory safety measure|Un confinamiento es una medida de seguridad obligatoria]]. "Must" [[is correct because|es correcto porque]] [[there is no choice|no hay opción]]. "Should" [[would suggest|sugeriría]] [[it is optional or just advisable|que es opcional o solo recomendable]], [[which is not appropriate|lo que no es apropiado]] [[in this life-safety context|en este contexto de seguridad vital]].',
         },
         {
-          question: 'You ___ have informed the guests about the fire drill in advance — many of them were very alarmed.',
+          question: '[[You ___ have informed the guests about the fire drill in advance — many of them were very alarmed.|___ haber informado a los huéspedes del simulacro de incendios con antelación: muchos se alarmaron mucho.]]',
           options: [
             'should have',
             'must have',
@@ -101,7 +101,7 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
           explanation: '"Should have + [[past participle|participio pasado]]" [[expresses|expresa]] [[criticism or regret about a past action|crítica o pesar por una acción pasada]] — [[something that did not happen but was the right thing to do|algo que no sucedió pero era lo correcto]]. "Must have" [[expresses|expresa]] [[deduction about the past|deducción sobre el pasado]], [[not criticism|no crítica]].',
         },
         {
-          question: '"The risk assessment ___ be conducted by a qualified safety officer — it is a legal requirement."',
+          question: '[[\"The risk assessment ___ be conducted by a qualified safety officer — it is a legal requirement.\"|«La evaluación de riesgos ___ ser realizada por un oficial de seguridad cualificado: es un requisito legal.»]]',
           options: [
             'must',
             'should',
@@ -122,31 +122,31 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
     topic: 'Crisis Communication',
     difficulty: 'hard',
     content: {
-      title: '[[Perfect Modals|Modales Perfectos]] — [[Past Obligation & Advice|Obligación y Consejo en Pasado]]',
+      title: '[[Perfect Modals — Past Obligation & Advice|Modales perfectos — Obligación y consejo en pasado]]',
       instructions: '[[Complete each sentence with the correct past modal form (must have, should have, need not have, or ought to have + past participle).|Completa cada frase con la forma modal correcta en pasado (must have, should have, need not have u ought to have + participio pasado).]]',
       questions: [
         {
-          question: 'The duty manager ___ (inform) head office immediately after the incident — it was a clear protocol requirement that was overlooked.',
+          question: '[[The duty manager ___ (inform) head office immediately after the incident — it was a clear protocol requirement that was overlooked.|El encargado de turno ___ (informar) a la central inmediatamente tras el incidente: era un requisito claro del protocolo que se pasó por alto.]]',
           correctAnswer: 'should have informed',
           explanation: '"Should have + [[past participle|participio pasado]]" [[expresses|expresa]] [[that something was the right thing to do but was not done|que algo era lo correcto pero no se hizo]]. [[It is used for|Se usa para]] [[criticism or regret about a past omission|crítica o pesar por una omisión pasada]].',
         },
         {
-          question: 'You ___ (call) an ambulance — the guest had a minor cut, nothing serious. It was unnecessary.',
+          question: '[[You ___ (call) an ambulance — the guest had a minor cut, nothing serious. It was unnecessary.|___ (llamar) a una ambulancia: el huésped tenía un corte menor, nada grave. Era innecesario.]]',
           correctAnswer: 'need not have called',
           explanation: '"Need not have + [[past participle|participio pasado]]" [[expresses|expresa]] [[that something was done but was unnecessary|que algo se hizo pero era innecesario]]. [[The action was completed|La acción se completó]] [[but it was not required|pero no era necesaria]]. [[Compare|Compara]]: "should not have called" [[also works|también funciona]] ([[implying it was wrong|implicando que estuvo mal]]).',
         },
         {
-          question: 'The lights are off and the emergency generator is running — there ___ (be) a power cut during the storm last night.',
+          question: '[[The lights are off and the emergency generator is running — there ___ (be) a power cut during the storm last night.|Las luces están apagadas y el generador de emergencia funciona: ___ (haber) un corte de suministro durante la tormenta anoche.]]',
           correctAnswer: 'must have been',
           explanation: '"Must have + [[past participle|participio pasado]]" [[expresses|expresa]] [[a logical deduction about the past|una deducción lógica sobre el pasado]]. [[Based on the evidence|Basándose en la evidencia]] (no lights, generator running), [[the speaker concludes|el hablante concluye]] [[that a power cut occurred|que se produjo un corte de luz]].',
         },
         {
-          question: 'The contingency plan ___ (review) before the peak season — we were completely unprepared for the overbooking situation.',
+          question: '[[The contingency plan ___ (review) before the peak season — we were completely unprepared for the overbooking situation.|El plan de contingencia ___ (revisar) antes de la temporada alta: no estábamos nada preparados para el overbooking.]]',
           correctAnswer: 'should have been reviewed',
           explanation: '"Should have been + [[past participle|participio pasado]]" [[is the passive form|es la forma pasiva]] [[of the past modal|del modal pasado]]. [[The plan was not reviewed|El plan no fue revisado]] — [[this is presented as a past mistake|esto se presenta como un error pasado]]. [[Passive is used|Se usa la pasiva]] [[because the agent is unspecified|porque el agente no está especificado]].',
         },
         {
-          question: 'She arrived very late and looked exhausted — she ___ (travel) overnight to reach the hotel in time.',
+          question: '[[She arrived very late and looked exhausted — she ___ (travel) overnight to reach the hotel in time.|Llegó muy tarde y parecía agotada: ___ (viajar) de noche para llegar al hotel a tiempo.]]',
           correctAnswer: 'must have travelled',
           explanation: '"Must have + [[past participle|participio pasado]]" [[for deduction|para deducción]]. [[The speaker does not know for certain|El hablante no sabe con certeza]] [[but is making a strong logical inference|pero está haciendo una inferencia lógica fuerte]] [[based on the evidence|basada en la evidencia]] (late arrival, exhausted appearance).',
         },
@@ -161,21 +161,21 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
     topic: 'Crisis Communication',
     difficulty: 'medium',
     content: {
-      title: '[[Modal Verbs|Verbos Modales]] — [[Sentence Building|Construye la frase]]',
+      title: '[[Modal Verbs — Sentence Building|Verbos modales — Construye la frase]]',
       instructions: '[[Put the words in the correct order to form a sentence using a modal verb. The first word is given.|Pon las palabras en el orden correcto para formar una frase usando un verbo modal. La primera palabra está dada.]]',
       questions: [
         {
-          question: 'guests / All / during / evacuate / must / a / fire / alarm. / immediately [Starts with: All]',
+          question: '[[guests / All / during / evacuate / must / a / fire / alarm. / immediately [Starts with: All]|Ordena las palabras en inglés (obligación fuerte). Pista: «Todos los huéspedes deben evacuar de inmediato durante una alarma de incendio.» [Empieza por: All]]',
           correctAnswer: 'All guests must evacuate immediately during a fire alarm.',
           explanation: '[[Modal verb "must"|Verbo modal "must"]] [[for strong obligation|para obligación fuerte]]: subject + must + [[bare infinitive|infinitivo]] (evacuate). [[The adverb|El adverbio]] "immediately" [[can go after the main verb|puede ir después del verbo principal]].',
         },
         {
-          question: 'manager / The / have / duty / should / informed / the / general / manager / immediately. [Starts with: The]',
+          question: '[[manager / The / have / duty / should / informed / the / general / manager / immediately. [Starts with: The]|Ordena las palabras en inglés (should have + participio). Pista: «El encargado de turno debería haber informado al director general de inmediato.» [Empieza por: The]]',
           correctAnswer: 'The duty manager should have informed the general manager immediately.',
           explanation: '"Should have + [[past participle|participio pasado]]": [[subject|sujeto]] + should + have + [[past participle|participio pasado]] (informed) + [[object|objeto]] + [[time adverb|adverbio de tiempo]]. [[This expresses|Esto expresa]] [[regret or criticism about a past action|pesar o crítica por una acción pasada]].',
         },
         {
-          question: 'not / Receptionists / must / room / a / number / guest\'s / to / reveal / anyone. [Starts with: Receptionists]',
+          question: '[[not / Receptionists / must / room / a / number / guest\'s / to / reveal / anyone. [Starts with: Receptionists]|Ordena las palabras en inglés (prohibición). Pista: «Los recepcionistas no deben revelar el número de habitación de un huésped a nadie.» [Empieza por: Receptionists]]',
           correctAnswer: 'Receptionists must not reveal a guest\'s room number to anyone.',
           explanation: '[[Prohibition with|Prohibición con]] "must not": subject + must + not + [[bare infinitive|infinitivo]] (reveal) + object. [[Note|Nota]]: "must not" [[is stronger than|es más fuerte que]] "should not" — [[it signals a strict rule|señala una norma estricta]].',
         },
@@ -190,36 +190,36 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
     topic: 'Crisis Communication',
     difficulty: 'medium',
     content: {
-      title: '[[Modal Verbs|Verbos Modales]] — [[True or False|Verdadero o Falso]]',
+      title: '[[Modal Verbs — True or False|Verbos modales — Verdadero o falso]]',
       instructions: '[[Decide if each sentence uses the modal verb correctly. Pay attention to the meaning (obligation, prohibition, advice, deduction).|Decide si cada frase usa el verbo modal correctamente. Presta atención al significado (obligación, prohibición, consejo, deducción).]]',
       questions: [
         {
-          question: '"You should call security immediately — there is an intruder in the building." — [[Does "should" correctly express|¿Expresa "should" correctamente]] [[the urgency of this situation|la urgencia de esta situación]]?',
+          question: '[[\"You should call security immediately — there is an intruder in the building.\" — Does \"should\" correctly express the urgency of this situation?|«You should call security immediately — there is an intruder in the building.» — ¿Expresa \"should\" correctamente la urgencia de esta situación?]]',
           options: ['[[True|Verdadero]] — [[It is appropriate here|Es apropiado aquí]]', '[[False|Falso]] — [[A stronger modal would be better|Un modal más fuerte sería mejor]]'],
           correctAnswer: 'False',
           explanation: '[[In a genuine emergency|En una emergencia real]] [[involving an intruder|que implica un intruso]], "must" [[would be more appropriate|sería más apropiado]] [[than "should"|que "should"]]. "Should" [[sounds like advice|suena como consejo]]; "must" [[signals|señala]] [[urgent, non-negotiable obligation|obligación urgente e innegociable]]. [[Better|Mejor]]: "You must call security immediately."',
         },
         {
-          question: '"All staff must complete the emergency training before the end of this month — it is a regulatory requirement." — [[Is "must" used correctly here|¿Se usa "must" correctamente aquí]]?',
+          question: '[[\"All staff must complete the emergency training before the end of this month — it is a regulatory requirement.\" — Is \"must\" used correctly here?|«Todo el personal debe completar la formación de emergencias antes de fin de mes: es un requisito reglamentario.» — ¿Se usa \"must\" correctamente aquí?]]',
           options: ['[[True|Verdadero]] — [[It is correct|Es correcto]]', '[[False|Falso]] — [[It should be replaced|Debería reemplazarse]]'],
           correctAnswer: 'True',
           explanation: '[[Correct|Correcto]]. "Must" [[expresses|expresa]] [[obligation based on a rule or regulation|obligación basada en una norma o reglamento]]. [[A regulatory requirement|Un requisito reglamentario]] [[is a strong external obligation|es una obligación externa fuerte]], [[which matches|lo que coincide]] [[the force of "must"|con la fuerza de "must"]].',
         },
         {
-          question: '"You must not to leave the front desk unattended at any time." — [[Is this sentence|¿Esta frase es]] [[grammatically correct|gramaticalmente correcta]]?',
+          question: '[[\"You must not to leave the front desk unattended at any time.\" — Is this sentence grammatically correct?|«You must not to leave the front desk unattended at any time.» — ¿Esta frase es gramaticalmente correcta?]]',
           options: ['[[True|Verdadero]] — [[It is correct|Es correcta]]', '[[False|Falso]] — [[It contains an error|Contiene un error]]'],
           correctAnswer: 'False',
           explanation: '[[Incorrect|Incorrecta]]. [[Modal verbs|Los verbos modales]] [[are ALWAYS followed by|van SIEMPRE seguidos de]] [[the bare infinitive|el infinitivo]] ([[without "to"|sin "to"]]). [[Correct form|Forma correcta]]: "You must not leave the front desk unattended at any time." [[Never|Nunca]]: "must not to leave".',
         },
         {
-          question: '"She ought to have contacted the guests before the planned maintenance work — they complained about the noise." — [[Is this sentence|¿Esta frase es]] [[grammatically correct|gramaticalmente correcta]] [[and used appropriately|y usada apropiadamente]]?',
+          question: '[[\"She ought to have contacted the guests before the planned maintenance work — they complained about the noise.\" — Is this sentence grammatically correct and used appropriately?|«Debería haber contactado a los huéspedes antes del mantenimiento programado: se quejaron del ruido.» — ¿Esta frase es gramaticalmente correcta y apropiada?]]',
           options: ['[[True|Verdadero]] — [[It is correct and appropriate|Es correcta y apropiada]]', '[[False|Falso]] — [[There is an error or it is inappropriate|Hay un error o es inapropiada]]'],
           correctAnswer: 'True',
           explanation: '[[Correct|Correcta]]. "Ought to have + [[past participle|participio pasado]]" [[expresses|expresa]] [[that something was the right thing to do but was not done|que algo era lo correcto pero no se hizo]]. [[It is similar to "should have"|Es similar a "should have"]] [[but slightly more formal|pero ligeramente más formal]]. [[Grammar and meaning are both correct here|La gramática y el significado son ambos correctos aquí]].',
         },
         {
-          question: '"The security team must have noticed the suspicious behaviour — they were watching the CCTV all evening." — [[Does "must have" correctly express|¿Expresa "must have" correctamente]] [[deduction about the past|deducción sobre el pasado]]?',
-          options: ['[[True|Verdadero]] — [[It is correct|Es correcto]]', '[[False|Falso]] — [[It should be "should have"|Debería ser "should have"]]'],
+          question: '[[\"The security team must have noticed the suspicious behaviour — they were watching the CCTV all evening.\" — Does \"must have\" correctly express deduction about the past?|«El equipo de seguridad debió de notar el comportamiento sospechoso: estuvieron viendo el CCTV toda la tarde.» — ¿Expresa \"must have\" correctamente deducción sobre el pasado?]]',
+          options: ['[[True|Verdadero]] — [[It is correct|Es correcto]]', '[[False|Falso]] — [[It should be \"should have\"|Debería ser \"should have\"]]'],
           correctAnswer: 'True',
           explanation: '[[Correct|Correcto]]. "Must have + [[past participle|participio pasado]]" [[expresses|expresa]] [[a strong logical deduction about the past|una deducción lógica fuerte sobre el pasado]]. [[The speaker is reasoning from evidence|El hablante razona a partir de evidencia]] (CCTV watched all evening) [[to reach a confident conclusion|para llegar a una conclusión segura]]. [[This is different from "should have"|Esto es diferente de "should have"]], [[which expresses|que expresa]] [[obligation or regret|obligación o pesar]].',
         },
