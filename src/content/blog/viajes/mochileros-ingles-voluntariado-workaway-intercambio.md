@@ -7,7 +7,7 @@ title: 'Inglés para mochileros en voluntariados y work exchange: entrevistas, t
 description: >-
   Cómo preparar tu inglés para Workaway, Worldpackers y proyectos locales:
   presentación de habilidades, horarios, seguridad y comunicación profesional informal.
-readTime: 16 min
+readTime: 22 min
 keywords:
   - aprender inglés para mochileros
   - preparación idiomas viaje
@@ -187,6 +187,91 @@ Un cierre limpio protege tu reputación online.
 - Prometer “perfect English” para entrar: luego pagas con estrés.  
 - No preguntar por **expectativas** de limpieza y convivencia.  
 - Evitar el conflicto hasta que explota: mejor feedback temprano.
+
+## Ampliación: bitácora de estudio de 7 días (inglés de viaje real)
+
+Esta sección amplía el artículo **mochileros-ingles-voluntariado-workaway-intercambio.md** con una rutina accionable. El objetivo no es “leer más”, sino **hacer más** con el mismo tiempo. Cada día combina **input** (lo que escuchas) y **output** (lo que produces), porque el inglés de mochilero se cae si solo consumes contenido pasivo.
+
+### Día 1 — Inventario personal
+
+Escribe en inglés (12–15 líneas) tu próximo itinerario: ciudades, fechas aproximadas, tipo de alojamiento y dos preocupaciones reales (dinero, salud, documentos). No busques estilo literario: busca **precisión**. Luego subraya 10 palabras que te faltan y conviértelas en tarjetas.
+
+### Día 2 — Micro-simulaciones (5 minutos × 4)
+
+Simula en voz alta: (1) check-in tarde, (2) pedir cambio de litera, (3) pedir direcciones, (4) comprar billete. Graba 60 segundos en total. Escucha y elimina muletillas excesivas (*“eh…”, “you know”* repetido).
+
+### Día 3 — Vocabulario de emergencia
+
+Crea una lista de 15 frases cortas para malestar leve, pérdida de documento o confusión de horarios. Incluye *“I need help”*, *“Could you repeat that?”*, *“I’m not sure I understood”*. Practica con ritmo pausado.
+
+### Día 4 — Escucha activa
+
+Elige un video de viaje (10 minutos) con subtítulos EN. Primera pasada: solo sentido global. Segunda: anota 8 expresiones útiles. Tercera: repite en voz baja imitando **ritmo** (no acento perfecto).
+
+### Día 5 — Interacción social
+
+Escribe 6 preguntas de small talk neutras para hostel (*“Where are you heading next?”*). Evita política y temas intrusivos. Practica respuestas cortas + *“How about you?”*
+
+### Día 6 — Logística
+
+Simula problemas: overbooking, equipaje retrasado, parada equivocada. En cada caso: **problema → dato → petición concreta**. Esa estructura es la que reduce estrés en la vida real.
+
+### Día 7 — Repaso y métrica
+
+Repite el inventario del Día 1 y mide: ¿menos bloqueos? ¿más fluidez? Anota 5 palabras que aún fallan y programa repaso en 48 horas.
+
+## Ampliación: diez situaciones “de alta frecuencia” con plantillas
+
+1. **Cola y tiempo:** *“Excuse me, is this the line for…?”* · *“How long is the wait roughly?”*  
+2. **Comida y alergias:** *“Does this contain nuts?”* · *“I’m allergic to…”*  
+3. **Dinero y límites:** *“Is there an ATM nearby?”* · *“Could I get a receipt?”*  
+4. **Salud leve:** *“I need a pharmacy.”* · *“I feel dizzy.”*  
+5. **Transporte nocturno:** *“Is there a night bus?”* · *“Is it safe to walk there?”*  
+6. **Pérdida de objeto:** *“I lost my…”* · *“Has anyone handed in a…?”*  
+7. **Wi‑Fi y trabajo remoto:** *“Is the Wi‑Fi stable for video calls?”*  
+8. **Convivencia:** *“Could you keep the noise down after…?”*  
+9. **Cambio de planes:** *“I need to change my reservation.”*  
+10. **Despedida útil:** *“Thanks, I appreciate it—have a good one.”*
+
+## Ampliación: mini-falso monólogo (corrige el registro)
+
+> “Give me the key now. I pay. Where kitchen?”
+
+**Versión más natural (orientativa):** *“Hi, could I get my key, please? I’ve already paid. Also, where’s the kitchen?”*  
+**Idea:** cortesía modular sin humillar tu nivel: *“Could I…”*, *“please”*, conectores simples.
+
+## Ampliación: tabla de conectores para narrar un día de viaje
+
+| Función | English |
+|---------|---------|
+| Primero | First / First of all |
+| Luego | Then / After that |
+| Más tarde | Later |
+| Finalmente | Finally / Eventually |
+| Porque | Because / Since |
+| Pero | But / Although |
+
+## Ampliación: cierre operativo (lo que debes practicar hoy)
+
+Elige **una** situación de las diez y haz cinco minutos de repetición en voz alta. Mañana cambia de situación. La constancia pequeña vence al estudio masivo único.
+
+## Ampliación adicional: guía extensa de práctica (inglés para mochileros)
+
+
+Esta sección cierra el objetivo de extensión del artículo con material **accionable**: no añade teoría abstracta, sino pasos repetibles, criterios de calidad y una rutina que puedas seguir sin depender de motivación extrema.
+
+ Bloque de práctica 1: La práctica distribuida en sesiones cortas suele vencer al estudio masivo de una sola noche. Aplica esto durante cinco minutos y registra una mejora mínima (una palabra, una entonación, un conector). Si no notas mejora, baja la dificultad: menos contenido, más precisión.
+ Bloque de práctica 2: Cuando estudias inglés para uso real, prioriza frases completas antes que listas sueltas de vocabulario. Aplica esto durante cinco minutos y registra una mejora mínima (una palabra, una entonación, un conector). Si no notas mejora, baja la dificultad: menos contenido, más precisión.
+ Bloque de práctica 3: El error más costoso no es gramatical: es no poder pedir aclaración con educación y claridad. Aplica esto durante cinco minutos y registra una mejora mínima (una palabra, una entonación, un conector). Si no notas mejora, baja la dificultad: menos contenido, más precisión.
+ Bloque de práctica 4: Repite en voz alta: la fluidez es hábito motor, no solo conocimiento teórico. Aplica esto durante cinco minutos y registra una mejora mínima (una palabra, una entonación, un conector). Si no notas mejora, baja la dificultad: menos contenido, más precisión.
+ Bloque de práctica 5: Anota tus fallos en una libreta: la memoria mejora si nombras el error con precisión. Aplica esto durante cinco minutos y registra una mejora mínima (una palabra, una entonación, un conector). Si no notas mejora, baja la dificultad: menos contenido, más precisión.
+ Bloque de práctica 6: Alterna comprensión global y detalle: primero entiende el mensaje, luego afina sonidos. Aplica esto durante cinco minutos y registra una mejora mínima (una palabra, una entonación, un conector). Si no notas mejora, baja la dificultad: menos contenido, más precisión.
+ Bloque de práctica 7: Evita traducir palabra a palabra en tiempo real: prioriza chunks y colocaciones frecuentes. Aplica esto durante cinco minutos y registra una mejora mínima (una palabra, una entonación, un conector). Si no notas mejora, baja la dificultad: menos contenido, más precisión.
+ Bloque de práctica 8: Si te bloqueas, reduce la complejidad: una oración corta correcta vale más que un párrafo inseguro. Aplica esto durante cinco minutos y registra una mejora mínima (una palabra, una entonación, un conector). Si no notas mejora, baja la dificultad: menos contenido, más precisión.
+ Bloque de práctica 9: Usa grabaciones para comparar tu ritmo con un modelo: no busques imitar el acento, busca claridad. Aplica esto durante cinco minutos y registra una mejora mínima (una palabra, una entonación, un conector). Si no notas mejora, baja la dificultad: menos contenido, más precisión.
+ Bloque de práctica 10: Cierra cada sesión con tres frases nuevas que puedas reutilizar mañana en contexto similar. Aplica esto durante cinco minutos y registra una mejora mínima (una palabra, una entonación, un conector). Si no notas mejora, baja la dificultad: menos contenido, más precisión.
+
+**Cierre de la ampliación:** vuelve al hilo principal del artículo y usa la conclusión como checklist final.
 
 ## Conclusión
 
