@@ -14,7 +14,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Proceso de check-in avanzado",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "Have you stayed with us before?",
@@ -34,7 +34,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Proceso de check-in avanzado",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "You stayed with us last March, didn't you?",
@@ -54,7 +54,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Proceso de check-in avanzado",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "We've prepared a complimentary upgrade to a deluxe room for you.",
@@ -74,7 +74,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Proceso de check-in avanzado",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "Your digital key has already been sent to the hotel app on your phone.",
@@ -94,7 +94,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Proceso de check-in avanzado",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "As a Gold member of our loyalty program, you're entitled to a room upgrade.",
@@ -114,7 +114,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Proceso de check-in avanzado",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "pre-arrival",
@@ -134,7 +134,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Proceso de check-in avanzado",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "express check-in",
@@ -154,7 +154,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Proceso de check-in avanzado",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "loyalty program",
@@ -174,7 +174,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Proceso de check-in avanzado",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "upgrade",
@@ -194,7 +194,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Proceso de check-in avanzado",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "upsell",
@@ -214,7 +214,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Proceso de check-in avanzado",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "digital key",
@@ -234,7 +234,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Proceso de check-in avanzado",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "amenity",
@@ -254,7 +254,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Proceso de check-in avanzado",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "room preference",
@@ -274,7 +274,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Proceso de check-in avanzado",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "early arrival",
@@ -294,7 +294,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Proceso de check-in avanzado",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "room type",

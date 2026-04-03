@@ -14,10 +14,10 @@ export const UNIT_3_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Gestión de crisis",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"comunicación de crisis\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"comunicación de crisis\".",
           "options": [
             "crisis communication",
             "press statement",
@@ -25,7 +25,7 @@ export const UNIT_3_LESSON_6_WRITING: Exercise[] = [
             "damage control"
           ],
           "correctAnswer": "crisis communication",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[crisis communication|comunicación de crisis]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[crisis communication|comunicación de crisis]]\"."
         }
       ]
     },
@@ -39,10 +39,10 @@ export const UNIT_3_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Gestión de crisis",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"comunicado de prensa\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"comunicado de prensa\".",
           "options": [
             "press statement",
             "spokesperson",
@@ -50,7 +50,7 @@ export const UNIT_3_LESSON_6_WRITING: Exercise[] = [
             "reputational risk"
           ],
           "correctAnswer": "press statement",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[press statement|comunicado de prensa]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[press statement|comunicado de prensa]]\"."
         }
       ]
     },
@@ -64,10 +64,10 @@ export const UNIT_3_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Gestión de crisis",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"portavoz\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"portavoz\".",
           "options": [
             "spokesperson",
             "damage control",
@@ -75,7 +75,7 @@ export const UNIT_3_LESSON_6_WRITING: Exercise[] = [
             "stakeholder"
           ],
           "correctAnswer": "spokesperson",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[spokesperson|portavoz]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[spokesperson|portavoz]]\"."
         }
       ]
     },
@@ -89,10 +89,10 @@ export const UNIT_3_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Gestión de crisis",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"control de daños\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"control de daños\".",
           "options": [
             "damage control",
             "reputational risk",
@@ -100,7 +100,7 @@ export const UNIT_3_LESSON_6_WRITING: Exercise[] = [
             "media inquiry"
           ],
           "correctAnswer": "damage control",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[damage control|control de daños]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[damage control|control de daños]]\"."
         }
       ]
     },
@@ -114,10 +114,10 @@ export const UNIT_3_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Gestión de crisis",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"riesgo reputacional\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"riesgo reputacional\".",
           "options": [
             "reputational risk",
             "stakeholder",
@@ -125,7 +125,7 @@ export const UNIT_3_LESSON_6_WRITING: Exercise[] = [
             "statement"
           ],
           "correctAnswer": "reputational risk",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[reputational risk|riesgo reputacional]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[reputational risk|riesgo reputacional]]\"."
         }
       ]
     },

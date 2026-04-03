@@ -7,9 +7,9 @@ import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = 'Expresión oral: Gestión hotelera';
 const INSTRUCTIONS_PHRASE =
-  '[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].';
+  '[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]';
 const INSTRUCTIONS_WORD =
-  '[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].';
+  '[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]';
 
 export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
   {
@@ -67,7 +67,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_PHRASE,
       targetText:
-        '[[Were|Si]] [[we|nosotros]] [[to|a]] [[reduce|reducir]] [[check-in|registro]] [[time|tiempo]], [[our|nuestras]] [[review scores|puntuaciones de reseñas]] [[would improve|mejorarían]] [[significantly|significativamente]].',
+        '[[Were we to reduce check-in time, our review scores would improve significantly.|Si redujéramos el tiempo de check-in, nuestras puntuaciones en reseñas mejorarían significativamente.]]',
       expectedResponse:
         'Were we to reduce check-in time, our review scores would improve significantly.',
     },

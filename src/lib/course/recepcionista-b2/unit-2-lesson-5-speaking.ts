@@ -14,7 +14,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Clientes corporativos",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "We are delighted to offer your company a preferential corporate rate.",
@@ -34,7 +34,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Clientes corporativos",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "In accordance with our service level agreement, all invoices will be sent monthly.",
@@ -54,7 +54,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Clientes corporativos",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "Your dedicated account manager will be available around the clock.",
@@ -74,7 +74,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Clientes corporativos",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "We would be pleased to arrange a site visit for your procurement team.",
@@ -94,7 +94,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Clientes corporativos",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "The contract renewal terms have been prepared and are ready for your review.",
@@ -114,7 +114,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Clientes corporativos",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "corporate account",
@@ -134,7 +134,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Clientes corporativos",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "rate agreement",
@@ -154,7 +154,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Clientes corporativos",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "invoice",
@@ -174,7 +174,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Clientes corporativos",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "billing",
@@ -194,7 +194,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Clientes corporativos",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "contract",
@@ -214,7 +214,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Clientes corporativos",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "volume discount",
@@ -234,7 +234,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Clientes corporativos",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "account manager",
@@ -254,7 +254,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Clientes corporativos",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "RFP",
@@ -274,7 +274,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Clientes corporativos",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "SLA",
@@ -294,7 +294,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Clientes corporativos",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "renewal",

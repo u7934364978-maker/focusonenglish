@@ -14,10 +14,10 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Gestión hotelera",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"indicador clave\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"indicador clave\".",
           "options": [
             "KPI",
             "occupancy rate",
@@ -25,7 +25,7 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
             "online review"
           ],
           "correctAnswer": "KPI",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[KPI|indicador clave]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[KPI|indicador clave]]\"."
         }
       ]
     },
@@ -39,10 +39,10 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Gestión hotelera",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"tasa de ocupación\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"tasa de ocupación\".",
           "options": [
             "occupancy rate",
             "revenue per room",
@@ -50,7 +50,7 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
             "brand standards"
           ],
           "correctAnswer": "occupancy rate",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[occupancy rate|tasa de ocupación]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[occupancy rate|tasa de ocupación]]\"."
         }
       ]
     },
@@ -64,10 +64,10 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Gestión hotelera",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"ingresos por habitación\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"ingresos por habitación\".",
           "options": [
             "revenue per room",
             "online review",
@@ -75,7 +75,7 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
             "mystery guest"
           ],
           "correctAnswer": "revenue per room",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[revenue per room|ingresos por habitación]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[revenue per room|ingresos por habitación]]\"."
         }
       ]
     },
@@ -89,10 +89,10 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Gestión hotelera",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"reseña online\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"reseña online\".",
           "options": [
             "online review",
             "brand standards",
@@ -100,7 +100,7 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
             "audit"
           ],
           "correctAnswer": "online review",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[online review|reseña online]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[online review|reseña online]]\"."
         }
       ]
     },
@@ -114,10 +114,10 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Gestión hotelera",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"estándares de marca\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"estándares de marca\".",
           "options": [
             "brand standards",
             "mystery guest",
@@ -125,7 +125,7 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
             "compliance"
           ],
           "correctAnswer": "brand standards",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[brand standards|estándares de marca]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[brand standards|estándares de marca]]\"."
         }
       ]
     },

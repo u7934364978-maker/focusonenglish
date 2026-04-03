@@ -14,7 +14,7 @@ export const UNIT_4_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Formación del personal",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "Training staff to handle complaints effectively requires consistent practice.",
@@ -34,7 +34,7 @@ export const UNIT_4_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Formación del personal",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "I recommend spending the first week shadowing an experienced colleague.",
@@ -54,7 +54,7 @@ export const UNIT_4_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Formación del personal",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "The assessment will cover both technical skills and interpersonal communication.",
@@ -74,7 +74,7 @@ export const UNIT_4_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Formación del personal",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "Ongoing upskilling is essential in our rapidly changing industry.",
@@ -94,7 +94,7 @@ export const UNIT_4_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Formación del personal",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "We invest in our people because they are our most valuable asset.",
@@ -114,7 +114,7 @@ export const UNIT_4_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Formación del personal",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "onboarding",
@@ -134,7 +134,7 @@ export const UNIT_4_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Formación del personal",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "mentoring",
@@ -154,7 +154,7 @@ export const UNIT_4_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Formación del personal",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "role play",
@@ -174,7 +174,7 @@ export const UNIT_4_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Formación del personal",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "assessment",
@@ -194,7 +194,7 @@ export const UNIT_4_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Formación del personal",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "certification",
@@ -214,7 +214,7 @@ export const UNIT_4_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Formación del personal",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "probationary period",
@@ -234,7 +234,7 @@ export const UNIT_4_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Formación del personal",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "performance improvement",
@@ -254,7 +254,7 @@ export const UNIT_4_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Formación del personal",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "upskilling",
@@ -274,7 +274,7 @@ export const UNIT_4_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Formación del personal",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "e-learning",
@@ -294,7 +294,7 @@ export const UNIT_4_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Formación del personal",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "succession planning",

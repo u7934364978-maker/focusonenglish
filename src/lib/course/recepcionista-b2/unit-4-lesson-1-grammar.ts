@@ -15,7 +15,7 @@ export const UNIT_4_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[Reported Speech|Estilo Indirecto]] — [[Statements|Afirmaciones]]',
-      instructions: '[[Complete|Completa]] [[the reported speech version|la versión en estilo indirecto]] [[of the sentence|de la frase]]. [[Change the verb tense|Cambia el tiempo verbal]] [[and pronouns|y pronombres]] [[as necessary|según sea necesario]].',
+      instructions: '[[Complete the reported speech version of the sentence. Change the verb tense and pronouns as necessary.|Completa la versión en estilo indirecto de la frase. Cambia el tiempo verbal y los pronombres según sea necesario.]]',
       questions: [
         {
           question: 'Direct: "The training will begin at nine o\'clock sharp." → She said that the training ___ at nine o\'clock sharp.',
@@ -54,7 +54,7 @@ export const UNIT_4_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[Reported Speech|Estilo Indirecto]] — [[Questions & Commands|Preguntas y Órdenes]]',
-      instructions: '[[Choose|Elige]] [[the correct reported version|la versión correcta en estilo indirecto]] [[of each sentence|de cada frase]].',
+      instructions: '[[Choose the correct reported version of each sentence.|Elige la versión correcta en estilo indirecto de cada frase.]]',
       questions: [
         {
           question: 'Direct question: "Have you completed your appraisal form?" → The supervisor asked her ___.',
@@ -123,7 +123,7 @@ export const UNIT_4_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'hard',
     content: {
       title: '[[Reported Speech|Estilo Indirecto]] — [[Time & Place Shifts|Cambios de Tiempo y Lugar]]',
-      instructions: '[[Rewrite|Reescribe]] [[the direct speech sentence|la frase en estilo directo]] [[in reported speech|en estilo indirecto]], [[making all necessary changes|haciendo todos los cambios necesarios]] ([[verb tenses|tiempos verbales]], [[pronouns|pronombres]], [[time expressions|expresiones de tiempo]]).',
+      instructions: '[[Rewrite the direct speech sentence in reported speech, making all necessary changes (verb tenses, pronouns, time expressions).|Reescribe la frase en estilo directo en estilo indirecto, haciendo todos los cambios necesarios (tiempos verbales, pronombres, expresiones de tiempo).]]',
       questions: [
         {
           question: '"I will send you the training materials here tomorrow." (The trainer said this on Monday.) → The trainer said that she ___ the training materials ___ the ___ day.',
@@ -162,7 +162,7 @@ export const UNIT_4_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[Reported Speech|Estilo Indirecto]] — [[Sentence Building|Construye la frase]]',
-      instructions: '[[Put the words|Pon las palabras]] [[in the correct order|en el orden correcto]] [[to form a reported speech sentence|para formar una frase en estilo indirecto]].',
+      instructions: '[[Put the words in the correct order to form a reported speech sentence.|Pon las palabras en el orden correcto para formar una frase en estilo indirecto.]]',
       questions: [
         {
           question: 'that / The / the / would / said / training / manager / at / begin / nine. [Starts with: The]',
@@ -191,7 +191,7 @@ export const UNIT_4_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[Reported Speech|Estilo Indirecto]] — [[True or False|Verdadero o Falso]]',
-      instructions: '[[Decide|Decide]] [[if the reported speech sentence|si la frase en estilo indirecto]] [[is grammatically correct|es gramaticalmente correcta]]. [[Pay attention|Presta atención]] [[to tense backshifts|a los retrocesos temporales]], [[pronouns|pronombres]], [[and word order|y el orden de palabras]].',
+      instructions: '[[Decide if the reported speech sentence is grammatically correct. Pay attention to tense backshifts, pronouns, and word order.|Decide si la frase en estilo indirecto es gramaticalmente correcta. Presta atención a los retrocesos temporales, pronombres y al orden de palabras.]]',
       questions: [
         {
           question: '"The HR manager told the new staff that they must to complete the induction form before their first shift." — [[Is this sentence|¿Esta frase es]] [[grammatically correct|gramaticalmente correcta]]?',

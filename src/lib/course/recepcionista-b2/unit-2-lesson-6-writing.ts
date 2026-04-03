@@ -14,10 +14,10 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Clientes corporativos",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"cuenta corporativa\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"cuenta corporativa\".",
           "options": [
             "corporate account",
             "rate agreement",
@@ -25,7 +25,7 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
             "billing"
           ],
           "correctAnswer": "corporate account",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[corporate account|cuenta corporativa]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[corporate account|cuenta corporativa]]\"."
         }
       ]
     },
@@ -39,10 +39,10 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Clientes corporativos",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"acuerdo de tarifas\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"acuerdo de tarifas\".",
           "options": [
             "rate agreement",
             "invoice",
@@ -50,7 +50,7 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
             "contract"
           ],
           "correctAnswer": "rate agreement",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[rate agreement|acuerdo de tarifas]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[rate agreement|acuerdo de tarifas]]\"."
         }
       ]
     },
@@ -64,10 +64,10 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Clientes corporativos",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"factura\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"factura\".",
           "options": [
             "invoice",
             "billing",
@@ -75,7 +75,7 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
             "volume discount"
           ],
           "correctAnswer": "invoice",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[invoice|factura]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[invoice|factura]]\"."
         }
       ]
     },
@@ -89,10 +89,10 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Clientes corporativos",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"facturación\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"facturación\".",
           "options": [
             "billing",
             "contract",
@@ -100,7 +100,7 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
             "account manager"
           ],
           "correctAnswer": "billing",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[billing|facturación]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[billing|facturación]]\"."
         }
       ]
     },
@@ -114,10 +114,10 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Clientes corporativos",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"contrato\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"contrato\".",
           "options": [
             "contract",
             "volume discount",
@@ -125,7 +125,7 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
             "RFP"
           ],
           "correctAnswer": "contract",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[contract|contrato]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[contract|contrato]]\"."
         }
       ]
     },

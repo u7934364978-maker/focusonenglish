@@ -14,10 +14,10 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Proceso de check-in avanzado",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"pre-llegada\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"pre-llegada\".",
           "options": [
             "pre-arrival",
             "express check-in",
@@ -25,7 +25,7 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
             "loyalty program"
           ],
           "correctAnswer": "pre-arrival",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[pre-arrival|pre-llegada]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[pre-arrival|pre-llegada]]\"."
         }
       ]
     },
@@ -39,10 +39,10 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Proceso de check-in avanzado",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"check-in exprés\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"check-in exprés\".",
           "options": [
             "express check-in",
             "digital key",
@@ -50,7 +50,7 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
             "room preference"
           ],
           "correctAnswer": "express check-in",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[express check-in|check-in exprés]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[express check-in|check-in exprés]]\"."
         }
       ]
     },
@@ -64,10 +64,10 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Proceso de check-in avanzado",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"llave digital\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"llave digital\".",
           "options": [
             "digital key",
             "loyalty program",
@@ -75,7 +75,7 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
             "early arrival"
           ],
           "correctAnswer": "digital key",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[digital key|llave digital]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[digital key|llave digital]]\"."
         }
       ]
     },
@@ -89,10 +89,10 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Proceso de check-in avanzado",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"programa de fidelización\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"programa de fidelización\".",
           "options": [
             "loyalty program",
             "room preference",
@@ -100,7 +100,7 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
             "upsell"
           ],
           "correctAnswer": "loyalty program",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[loyalty program|programa de fidelización]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[loyalty program|programa de fidelización]]\"."
         }
       ]
     },
@@ -114,10 +114,10 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Proceso de check-in avanzado",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"preferencia de habitación\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"preferencia de habitación\".",
           "options": [
             "room preference",
             "early arrival",
@@ -125,7 +125,7 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
             "upgrade"
           ],
           "correctAnswer": "room preference",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[room preference|preferencia de habitación]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[room preference|preferencia de habitación]]\"."
         }
       ]
     },
@@ -139,10 +139,10 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Proceso de check-in avanzado",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"llegada anticipada\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"llegada anticipada\".",
           "options": [
             "early arrival",
             "upsell",
@@ -150,7 +150,7 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
             "room type"
           ],
           "correctAnswer": "early arrival",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[early arrival|llegada anticipada]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[early arrival|llegada anticipada]]\"."
         }
       ]
     },
@@ -164,10 +164,10 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Proceso de check-in avanzado",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"venta adicional\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"venta adicional\".",
           "options": [
             "upsell",
             "upgrade",
@@ -175,7 +175,7 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
             "amenity"
           ],
           "correctAnswer": "upsell",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[upsell|venta adicional]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[upsell|venta adicional]]\"."
         }
       ]
     },
@@ -189,10 +189,10 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Proceso de check-in avanzado",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"mejora de categoría\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"mejora de categoría\".",
           "options": [
             "upgrade",
             "room type",
@@ -200,7 +200,7 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
             "pre-arrival"
           ],
           "correctAnswer": "upgrade",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[upgrade|mejora de categoría]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[upgrade|mejora de categoría]]\"."
         }
       ]
     },
@@ -214,10 +214,10 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Proceso de check-in avanzado",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"tipo de habitación\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"tipo de habitación\".",
           "options": [
             "room type",
             "amenity",
@@ -225,7 +225,7 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
             "express check-in"
           ],
           "correctAnswer": "room type",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[room type|tipo de habitación]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[room type|tipo de habitación]]\"."
         }
       ]
     },
@@ -239,10 +239,10 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Proceso de check-in avanzado",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"servicio/amenidad\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"servicio/amenidad\".",
           "options": [
             "amenity",
             "pre-arrival",
@@ -250,7 +250,7 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
             "digital key"
           ],
           "correctAnswer": "amenity",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[amenity|servicio/amenidad]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[amenity|servicio/amenidad]]\"."
         }
       ]
     },

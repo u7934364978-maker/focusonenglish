@@ -15,7 +15,7 @@ export const UNIT_1_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[Passive Voice|Voz Pasiva]] — [[Present|Presente]]',
-      instructions: '[[Complete|Completa]] [[the sentence|la frase]] [[with|con]] [[the correct passive form|la forma pasiva correcta]] [[of the verb in brackets|del verbo entre paréntesis]].',
+      instructions: '[[Complete the sentence with the correct passive form of the verb in brackets.|Completa la frase con la forma pasiva correcta del verbo entre paréntesis.]]',
       questions: [
         {
           question: 'Guest satisfaction scores ___ (analyse) by the management team every Monday morning.',
@@ -54,7 +54,7 @@ export const UNIT_1_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[Passive Voice|Voz Pasiva]] — [[Choose the correct form|Elige la forma correcta]]',
-      instructions: '[[Choose|Elige]] [[the option|la opción]] [[that correctly completes|que completa correctamente]] [[each sentence|cada frase]].',
+      instructions: '[[Choose the option that correctly completes each sentence.|Elige la opción que completa correctamente cada frase.]]',
       questions: [
         {
           question: 'The hotel\'s brand standards ___ during the annual compliance audit.',
@@ -123,7 +123,7 @@ export const UNIT_1_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'hard',
     content: {
       title: '[[Active to Passive|Activa a Pasiva]] — [[Transform the sentence|Transforma la frase]]',
-      instructions: '[[Rewrite|Reescribe]] [[the underlined active verb|el verbo activo subrayado]] [[in the passive voice|en voz pasiva]]. [[Keep the same tense|Mantén el mismo tiempo verbal]].',
+      instructions: '[[Rewrite the underlined active verb in the passive voice. Keep the same tense.|Reescribe el verbo activo subrayado en voz pasiva. Mantén el mismo tiempo verbal.]]',
       questions: [
         {
           question: 'The management team [reviews] all negative guest feedback before the weekly meeting. → All negative guest feedback ___ by the management team before the weekly meeting.',
@@ -162,7 +162,7 @@ export const UNIT_1_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[Passive Voice|Voz Pasiva]] — [[Sentence Building|Construye la frase]]',
-      instructions: '[[Put the words|Pon las palabras]] [[in the correct order|en el orden correcto]] [[to form a passive sentence|para formar una frase en pasiva]]. [[The first word|La primera palabra]] [[is given|está dada]].',
+      instructions: '[[Put the words in the correct order to form a passive sentence. The first word is given.|Pon las palabras en el orden correcto para formar una frase en pasiva. La primera palabra está dada.]]',
       questions: [
         {
           question: 'The / room / occupancy / reviewed / rate / each / is / morning. [Starts with: The]',
@@ -191,7 +191,7 @@ export const UNIT_1_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[Passive Voice|Voz Pasiva]] — [[True or False|Verdadero o Falso]]',
-      instructions: '[[Decide|Decide]] [[if the sentence|si la frase]] [[is correctly written|está escrita correctamente]] [[in the passive voice|en voz pasiva]]. [[If it is wrong|Si es incorrecta]], [[think about|piensa en]] [[what the correct form would be|cuál sería la forma correcta]].',
+      instructions: '[[Decide if the sentence is correctly written in the passive voice. If it is wrong, think about what the correct form would be.|Decide si la frase está escrita correctamente en voz pasiva. Si es incorrecta, piensa en cuál sería la forma correcta.]]',
       questions: [
         {
           question: '"The revenue per room is calculated by the revenue manager every day." — [[Is this sentence|¿Esta frase está]] [[correctly written|correctamente escrita]] [[in the passive voice|en voz pasiva]]?',

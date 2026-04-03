@@ -15,7 +15,7 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[Modal Verbs|Verbos Modales]] — [[Obligation & Advice|Obligación y Consejo]]',
-      instructions: '[[Complete|Completa]] [[the sentence|la frase]] [[with|con]] [[the correct modal verb|el verbo modal correcto]]: must, must not, should, should not, [[or|o]] ought to.',
+      instructions: '[[Complete the sentence with the correct modal verb: must, must not, should, should not, or ought to.|Completa la frase con el verbo modal correcto: must, must not, should, should not u ought to.]]',
       questions: [
         {
           question: 'All guests ___ be evacuated immediately — there is a fire on the second floor. This is not optional.',
@@ -54,7 +54,7 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[Modal Verbs|Verbos Modales]] — [[Choose the correct modal|Elige el modal correcto]]',
-      instructions: '[[Choose|Elige]] [[the modal verb|el verbo modal]] [[that best fits|que mejor encaja]] [[the meaning in context|el significado en contexto]].',
+      instructions: '[[Choose the modal verb that best fits the meaning in context.|Elige el verbo modal que mejor encaja el significado en contexto.]]',
       questions: [
         {
           question: 'Receptionists ___ reveal a guest\'s room number to anyone who has not provided valid identification. This is a security policy.',
@@ -123,7 +123,7 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'hard',
     content: {
       title: '[[Perfect Modals|Modales Perfectos]] — [[Past Obligation & Advice|Obligación y Consejo en Pasado]]',
-      instructions: '[[Complete|Completa]] [[each sentence|cada frase]] [[with|con]] [[the correct past modal form|la forma modal correcta en pasado]] (must have, should have, need not have, [[or|o]] ought to have + [[past participle|participio pasado]]).',
+      instructions: '[[Complete each sentence with the correct past modal form (must have, should have, need not have, or ought to have + past participle).|Completa cada frase con la forma modal correcta en pasado (must have, should have, need not have u ought to have + participio pasado).]]',
       questions: [
         {
           question: 'The duty manager ___ (inform) head office immediately after the incident — it was a clear protocol requirement that was overlooked.',
@@ -162,7 +162,7 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[Modal Verbs|Verbos Modales]] — [[Sentence Building|Construye la frase]]',
-      instructions: '[[Put the words|Pon las palabras]] [[in the correct order|en el orden correcto]] [[to form a sentence|para formar una frase]] [[using a modal verb|usando un verbo modal]]. [[The first word|La primera palabra]] [[is given|está dada]].',
+      instructions: '[[Put the words in the correct order to form a sentence using a modal verb. The first word is given.|Pon las palabras en el orden correcto para formar una frase usando un verbo modal. La primera palabra está dada.]]',
       questions: [
         {
           question: 'guests / All / during / evacuate / must / a / fire / alarm. / immediately [Starts with: All]',
@@ -191,7 +191,7 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[Modal Verbs|Verbos Modales]] — [[True or False|Verdadero o Falso]]',
-      instructions: '[[Decide|Decide]] [[if each sentence|si cada frase]] [[uses the modal verb correctly|usa el verbo modal correctamente]]. [[Pay attention|Presta atención]] [[to the meaning|al significado]] ([[obligation, prohibition, advice, deduction|obligación, prohibición, consejo, deducción]]).',
+      instructions: '[[Decide if each sentence uses the modal verb correctly. Pay attention to the meaning (obligation, prohibition, advice, deduction).|Decide si cada frase usa el verbo modal correctamente. Presta atención al significado (obligación, prohibición, consejo, deducción).]]',
       questions: [
         {
           question: '"You should call security immediately — there is an intruder in the building." — [[Does "should" correctly express|¿Expresa "should" correctamente]] [[the urgency of this situation|la urgencia de esta situación]]?',

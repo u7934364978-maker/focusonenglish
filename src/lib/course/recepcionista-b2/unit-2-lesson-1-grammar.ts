@@ -15,7 +15,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[2nd Conditional|Condicional 2.º]] — [[Unreal Present|Irreal en Presente]]',
-      instructions: '[[Complete|Completa]] [[the sentence|la frase]] [[with|con]] [[the correct conditional form|la forma condicional correcta]] [[of the verb in brackets|del verbo entre paréntesis]].',
+      instructions: '[[Complete the sentence with the correct conditional form of the verb in brackets.|Completa la frase con la forma condicional correcta del verbo entre paréntesis.]]',
       questions: [
         {
           question: 'If the corporate client ___ (sign) a three-year contract, we would offer a significantly better rate.',
@@ -54,7 +54,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[2nd & 3rd Conditional|Condicionales 2.º y 3.º]] — [[Choose the correct form|Elige la forma correcta]]',
-      instructions: '[[Choose|Elige]] [[the option|la opción]] [[that correctly completes|que completa correctamente]] [[each sentence|cada frase]].',
+      instructions: '[[Choose the option that correctly completes each sentence.|Elige la opción que completa correctamente cada frase.]]',
       questions: [
         {
           question: 'If the preferred partner programme ___ more benefits, we would recommend it to all our corporate clients.',
@@ -123,7 +123,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'hard',
     content: {
       title: '[[Mixed Conditionals|Condicionales Mixtos]] — [[Error Correction|Corrección de errores]]',
-      instructions: '[[Each sentence contains one error|Cada frase contiene un error]]. [[Write the correct version|Escribe la versión correcta]] [[of the underlined part|de la parte subrayada]].',
+      instructions: '[[Each sentence contains one error. Write the correct version of the underlined part.|Cada frase contiene un error. Escribe la versión correcta de la parte subrayada.]]',
       questions: [
         {
           question: 'If the credit facility [would cover] international bookings, we would use this hotel for all our overseas events. → Correct form: ___',
@@ -162,7 +162,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[Conditionals|Condicionales]] — [[Sentence Building|Construye la frase]]',
-      instructions: '[[Put the words|Pon las palabras]] [[in the correct order|en el orden correcto]] [[to form a conditional sentence|para formar una frase condicional]]. [[The first word|La primera palabra]] [[is given|está dada]].',
+      instructions: '[[Put the words in the correct order to form a conditional sentence. The first word is given.|Pon las palabras en el orden correcto para formar una frase condicional. La primera palabra está dada.]]',
       questions: [
         {
           question: 'were / If / renewed / the / contract / we / offer / would / rates. / better [Starts with: If]',
@@ -191,7 +191,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[Conditionals|Condicionales]] — [[True or False|Verdadero o Falso]]',
-      instructions: '[[Decide|Decide]] [[if the sentence|si la frase]] [[is grammatically correct|es gramaticalmente correcta]]. [[Think carefully|Piensa con cuidado]] [[about the conditional structure|sobre la estructura condicional]].',
+      instructions: '[[Decide if the sentence is grammatically correct. Think carefully about the conditional structure.|Decide si la frase es gramaticalmente correcta. Piensa con cuidado sobre la estructura condicional.]]',
       questions: [
         {
           question: '"If the corporate rate agreement would include airport transfers, more companies would choose this package." — [[Is this sentence|¿Esta frase es]] [[grammatically correct|gramaticalmente correcta]]?',

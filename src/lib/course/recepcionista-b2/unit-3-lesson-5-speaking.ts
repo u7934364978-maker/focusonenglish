@@ -14,7 +14,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Gestión de crisis",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "We are committed to full transparency throughout this process.",
@@ -34,7 +34,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Gestión de crisis",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "A thorough investigation is currently underway.",
@@ -54,7 +54,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Gestión de crisis",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "The safety and wellbeing of our guests is our absolute priority.",
@@ -74,7 +74,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Gestión de crisis",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "We are cooperating fully with the relevant authorities.",
@@ -94,7 +94,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Gestión de crisis",
-      "instructions": "[[Read|Lee]] [[the|la]] [[phrase|frase]] [[aloud|en voz alta]] [[and|y]] [[record|graba]] [[your|tu]] [[pronunciation|pronunciación]].",
+      "instructions": "[[Read the phrase aloud and record your pronunciation.|Lee la frase en voz alta y graba tu pronunciación.]]",
       "questions": [
         {
           "question": "A further statement will be issued once the investigation is complete.",
@@ -114,7 +114,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Gestión de crisis",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "crisis communication",
@@ -134,7 +134,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Gestión de crisis",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "press statement",
@@ -154,7 +154,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Gestión de crisis",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "spokesperson",
@@ -174,7 +174,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Gestión de crisis",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "damage control",
@@ -194,7 +194,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Gestión de crisis",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "reputational risk",
@@ -214,7 +214,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Gestión de crisis",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "stakeholder",
@@ -234,7 +234,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Gestión de crisis",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "media inquiry",
@@ -254,7 +254,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Gestión de crisis",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "statement",
@@ -274,7 +274,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Gestión de crisis",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "investigation",
@@ -294,7 +294,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Expresión oral: Gestión de crisis",
-      "instructions": "[[Pronounce|Pronuncia]] [[this|esta]] [[word|palabra]] [[or|o]] [[phrase|frase]] [[correctly|correctamente]].",
+      "instructions": "[[Pronounce this word or phrase correctly.|Pronuncia esta palabra o frase correctamente.]]",
       "questions": [
         {
           "question": "transparency",

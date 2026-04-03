@@ -15,7 +15,7 @@ export const UNIT_5_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[Present Perfect vs. Past Simple|Presente Perfecto vs. Pasado Simple]] — [[Complete the verb|Completa el verbo]]',
-      instructions: '[[Complete|Completa]] [[each sentence|cada frase]] [[with the correct form|con la forma correcta]] [[of the verb in brackets|del verbo entre paréntesis]]. [[Use present perfect or past simple|Usa presente perfecto o pasado simple]].',
+      instructions: '[[Complete each sentence with the correct form of the verb in brackets. Use present perfect or past simple.|Completa cada frase con la forma correcta del verbo entre paréntesis. Usa presente perfecto o pasado simple.]]',
       questions: [
         {
           question: '"Good morning, Mr. Carter. ___ (you / stay) with us before?"',
@@ -54,7 +54,7 @@ export const UNIT_5_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[Present Perfect vs. Past Simple|Presente Perfecto vs. Pasado Simple]] — [[Choose the correct form|Elige la forma correcta]]',
-      instructions: '[[Choose|Elige]] [[the option|la opción]] [[that correctly completes|que completa correctamente]] [[each sentence|cada frase]].',
+      instructions: '[[Choose the option that correctly completes each sentence.|Elige la opción que completa correctamente cada frase.]]',
       questions: [
         {
           question: 'A guest walks up to the desk: "Excuse me, I ___ the wrong floor — my room is on the 8th, not the 7th."',
@@ -123,7 +123,7 @@ export const UNIT_5_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'hard',
     content: {
       title: '[[Error Correction|Corrección de Errores]] — [[Present Perfect or Past Simple?|¿Presente Perfecto o Pasado Simple?]]',
-      instructions: '[[Each sentence contains one error|Cada frase contiene un error]] [[with the verb tense|con el tiempo verbal]]. [[Write the correct form|Escribe la forma correcta]] [[of the verb|del verbo]].',
+      instructions: '[[Each sentence contains one error with the verb tense. Write the correct form of the verb.|Cada frase contiene un error con el tiempo verbal. Escribe la forma correcta del verbo.]]',
       questions: [
         {
           question: '"Have you visited our spa when you were here last summer?" → Correct form: ___',
@@ -162,7 +162,7 @@ export const UNIT_5_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[Present Perfect vs. Past Simple|Presente Perfecto vs. Pasado Simple]] — [[Sentence Building|Construye la frase]]',
-      instructions: '[[Put the words|Pon las palabras]] [[in the correct order|en el orden correcto]] [[to form a correct sentence|para formar una frase correcta]]. [[The first word|La primera palabra]] [[is given|está dada]].',
+      instructions: '[[Put the words in the correct order to form a correct sentence. The first word is given.|Pon las palabras en el orden correcto para formar una frase correcta. La primera palabra está dada.]]',
       questions: [
         {
           question: 'you / stayed / our / before? / Have / hotel / with / at [Starts with: Have]',
@@ -191,7 +191,7 @@ export const UNIT_5_LESSON_1_GRAMMAR: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: '[[Present Perfect vs. Past Simple|Presente Perfecto vs. Pasado Simple]] — [[True or False|Verdadero o Falso]]',
-      instructions: '[[Decide|Decide]] [[if the sentence|si la frase]] [[uses the correct tense|usa el tiempo correcto]]. [[If it is wrong|Si es incorrecta]], [[think about|piensa en]] [[which tense should be used and why|qué tiempo debería usarse y por qué]].',
+      instructions: '[[Decide if the sentence uses the correct tense. If it is wrong, think about which tense should be used and why.|Decide si la frase usa el tiempo correcto. Si es incorrecta, piensa en qué tiempo debería usarse y por qué.]]',
       questions: [
         {
           question: '"I have checked in yesterday at three o\'clock." — [[Is the verb tense|¿El tiempo verbal]] [[correct|es correcto]]?',

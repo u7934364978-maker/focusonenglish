@@ -14,10 +14,10 @@ export const UNIT_4_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Formación del personal",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"incorporación\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"incorporación\".",
           "options": [
             "onboarding",
             "mentoring",
@@ -25,7 +25,7 @@ export const UNIT_4_LESSON_6_WRITING: Exercise[] = [
             "assessment"
           ],
           "correctAnswer": "onboarding",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[onboarding|incorporación]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[onboarding|incorporación]]\"."
         }
       ]
     },
@@ -39,10 +39,10 @@ export const UNIT_4_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Formación del personal",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"mentoría\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"mentoría\".",
           "options": [
             "mentoring",
             "role play",
@@ -50,7 +50,7 @@ export const UNIT_4_LESSON_6_WRITING: Exercise[] = [
             "certification"
           ],
           "correctAnswer": "mentoring",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[mentoring|mentoría]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[mentoring|mentoría]]\"."
         }
       ]
     },
@@ -64,10 +64,10 @@ export const UNIT_4_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Formación del personal",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"juego de rol\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"juego de rol\".",
           "options": [
             "role play",
             "assessment",
@@ -75,7 +75,7 @@ export const UNIT_4_LESSON_6_WRITING: Exercise[] = [
             "probationary period"
           ],
           "correctAnswer": "role play",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[role play|juego de rol]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[role play|juego de rol]]\"."
         }
       ]
     },
@@ -89,10 +89,10 @@ export const UNIT_4_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Formación del personal",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"evaluación\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"evaluación\".",
           "options": [
             "assessment",
             "certification",
@@ -100,7 +100,7 @@ export const UNIT_4_LESSON_6_WRITING: Exercise[] = [
             "performance improvement"
           ],
           "correctAnswer": "assessment",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[assessment|evaluación]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[assessment|evaluación]]\"."
         }
       ]
     },
@@ -114,10 +114,10 @@ export const UNIT_4_LESSON_6_WRITING: Exercise[] = [
     "difficulty": "medium",
     "content": {
       "title": "Escritura: Formación del personal",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Complete the sentence with the correct word.|Completa la frase con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[In|En]] [[a professional|un contexto profesional]] [[context|,]] [[you|tú]] [[would say|dirías]] ___ [[instead of|en lugar de]] \"certificación\".",
+          "question": "[[In a professional context, you would say|En un contexto profesional, dirías]] ___ [[instead of|en lugar de]] \"certificación\".",
           "options": [
             "certification",
             "probationary period",
@@ -125,7 +125,7 @@ export const UNIT_4_LESSON_6_WRITING: Exercise[] = [
             "upskilling"
           ],
           "correctAnswer": "certification",
-          "explanation": "[[The professional|La expresión profesional]] [[expression|correcta]] [[is|es]] \"[[certification|certificación]]\"."
+          "explanation": "[[The correct professional expression is|La expresión profesional correcta es]] \"[[certification|certificación]]\"."
         }
       ]
     },
