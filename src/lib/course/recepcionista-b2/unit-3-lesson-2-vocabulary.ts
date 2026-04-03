@@ -13,11 +13,11 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Crisis Communication",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Crisis Vocabulary",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Crisis Communication Vocabulary|Vocabulario de comunicación de crisis]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"comunicación de crisis\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"comunicación de crisis\" in English?|¿Cómo se dice «comunicación de crisis» en inglés?]]",
           "options": [
             "crisis communication",
             "press statement",
@@ -38,11 +38,11 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Crisis Communication",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Crisis Vocabulary",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Crisis Communication Vocabulary|Vocabulario de comunicación de crisis]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"comunicado de prensa\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"comunicado de prensa\" in English?|¿Cómo se dice «comunicado de prensa» en inglés?]]",
           "options": [
             "press statement",
             "spokesperson",
@@ -63,11 +63,11 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Crisis Communication",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Crisis Vocabulary",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Crisis Communication Vocabulary|Vocabulario de comunicación de crisis]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"portavoz\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"portavoz\" in English?|¿Cómo se dice «portavoz» en inglés?]]",
           "options": [
             "spokesperson",
             "damage control",
@@ -88,11 +88,11 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Crisis Communication",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Crisis Vocabulary",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Crisis Communication Vocabulary|Vocabulario de comunicación de crisis]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"control de daños\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"control de daños\" in English?|¿Cómo se dice «control de daños» en inglés?]]",
           "options": [
             "damage control",
             "reputational risk",
@@ -113,11 +113,11 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Crisis Communication",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Crisis Vocabulary",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Crisis Communication Vocabulary|Vocabulario de comunicación de crisis]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"riesgo reputacional\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"riesgo reputacional\" in English?|¿Cómo se dice «riesgo reputacional» en inglés?]]",
           "options": [
             "reputational risk",
             "stakeholder",
@@ -138,11 +138,11 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Crisis Communication",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Crisis Vocabulary",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Crisis Communication Vocabulary|Vocabulario de comunicación de crisis]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"parte interesada\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"parte interesada\" in English?|¿Cómo se dice «parte interesada» en inglés?]]",
           "options": [
             "stakeholder",
             "media inquiry",
@@ -163,11 +163,11 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Crisis Communication",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Crisis Vocabulary",
-      "instructions": "[[Fill in|Completa]] [[the|el]] [[blank|hueco]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "title": "[[Crisis Communication Vocabulary|Vocabulario de comunicación de crisis]]",
+      "instructions": "[[Fill in the blank with the correct word.|Completa el hueco con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[I need|Necesito]] [[the|el/la]] ___ [[for this task|para esta tarea]]. [[(portavoz)|(portavoz)]]",
+          "question": "[[I need the ___ for this task. (portavoz)|Necesito el/la ___ para esta tarea. (pista: portavoz)]]",
           "options": [
             "spokesperson",
             "reputational risk",
@@ -188,11 +188,11 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Crisis Communication",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Crisis Vocabulary",
-      "instructions": "[[Fill in|Completa]] [[the|el]] [[blank|hueco]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "title": "[[Crisis Communication Vocabulary|Vocabulario de comunicación de crisis]]",
+      "instructions": "[[Fill in the blank with the correct word.|Completa el hueco con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[I need|Necesito]] [[the|el/la]] ___ [[for this task|para esta tarea]]. [[(control de daños)|(control de daños)]]",
+          "question": "[[I need the ___ for this task. (control de daños)|Necesito el/la ___ para esta tarea. (pista: control de daños)]]",
           "options": [
             "damage control",
             "stakeholder",
@@ -213,11 +213,11 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Crisis Communication",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Crisis Vocabulary",
-      "instructions": "[[Fill in|Completa]] [[the|el]] [[blank|hueco]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "title": "[[Crisis Communication Vocabulary|Vocabulario de comunicación de crisis]]",
+      "instructions": "[[Fill in the blank with the correct word.|Completa el hueco con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[I need|Necesito]] [[the|el/la]] ___ [[for this task|para esta tarea]]. [[(riesgo reputacional)|(riesgo reputacional)]]",
+          "question": "[[I need the ___ for this task. (riesgo reputacional)|Necesito el/la ___ para esta tarea. (pista: riesgo reputacional)]]",
           "options": [
             "reputational risk",
             "media inquiry",
@@ -238,11 +238,11 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Crisis Communication",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Crisis Vocabulary",
-      "instructions": "[[Fill in|Completa]] [[the|el]] [[blank|hueco]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "title": "[[Crisis Communication Vocabulary|Vocabulario de comunicación de crisis]]",
+      "instructions": "[[Fill in the blank with the correct word.|Completa el hueco con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[I need|Necesito]] [[the|el/la]] ___ [[for this task|para esta tarea]]. [[(parte interesada)|(parte interesada)]]",
+          "question": "[[I need the ___ for this task. (parte interesada)|Necesito el/la ___ para esta tarea. (pista: parte interesada)]]",
           "options": [
             "stakeholder",
             "statement",
@@ -263,8 +263,8 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Crisis Communication",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Crisis Vocabulary",
-      "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
+      "title": "[[Crisis Communication Vocabulary|Vocabulario de comunicación de crisis]]",
+      "instructions": "[[Match the word with its correct meaning.|Relaciona la palabra con su significado correcto.]]",
       "questions": [
         {
           "question": "[[What does \"media inquiry\" mean?|¿Qué significa «media inquiry»?]]",
@@ -288,8 +288,8 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Crisis Communication",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Crisis Vocabulary",
-      "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
+      "title": "[[Crisis Communication Vocabulary|Vocabulario de comunicación de crisis]]",
+      "instructions": "[[Match the word with its correct meaning.|Relaciona la palabra con su significado correcto.]]",
       "questions": [
         {
           "question": "[[What does \"statement\" mean?|¿Qué significa «statement»?]]",
@@ -313,8 +313,8 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Crisis Communication",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Crisis Vocabulary",
-      "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
+      "title": "[[Crisis Communication Vocabulary|Vocabulario de comunicación de crisis]]",
+      "instructions": "[[Match the word with its correct meaning.|Relaciona la palabra con su significado correcto.]]",
       "questions": [
         {
           "question": "[[What does \"investigation\" mean?|¿Qué significa «investigation»?]]",
@@ -338,11 +338,11 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Crisis Communication",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Crisis Vocabulary",
-      "instructions": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+      "title": "[[Crisis Communication Vocabulary|Vocabulario de comunicación de crisis]]",
+      "instructions": "[[True or False|Verdadero o falso]]",
       "questions": [
         {
-          "question": "\"[[investigation|investigation]]\" [[means|significa]] \"investigación\".",
+          "question": "[[\"investigation\" means \"investigación\".|«investigation» significa «investigación».]]",
           "options": [
             "[[True|Verdadero]]",
             "[[False|Falso]]"
@@ -361,11 +361,11 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Crisis Communication",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Crisis Vocabulary",
-      "instructions": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+      "title": "[[Crisis Communication Vocabulary|Vocabulario de comunicación de crisis]]",
+      "instructions": "[[True or False|Verdadero o falso]]",
       "questions": [
         {
-          "question": "\"[[transparency|transparency]]\" [[means|significa]] \"transparencia\".",
+          "question": "[[\"transparency\" means \"transparencia\".|«transparency» significa «transparencia».]]",
           "options": [
             "[[True|Verdadero]]",
             "[[False|Falso]]"

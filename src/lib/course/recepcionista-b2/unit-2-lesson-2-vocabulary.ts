@@ -13,11 +13,11 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Corporate Accounts",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Corporate Language",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Corporate Language Vocabulary|Vocabulario de inglés corporativo]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"cuenta corporativa\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"cuenta corporativa\" in English?|¿Cómo se dice «cuenta corporativa» en inglés?]]",
           "options": [
             "corporate account",
             "rate agreement",
@@ -38,11 +38,11 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Corporate Accounts",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Corporate Language",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Corporate Language Vocabulary|Vocabulario de inglés corporativo]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"acuerdo de tarifas\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"acuerdo de tarifas\" in English?|¿Cómo se dice «acuerdo de tarifas» en inglés?]]",
           "options": [
             "rate agreement",
             "invoice",
@@ -63,11 +63,11 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Corporate Accounts",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Corporate Language",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Corporate Language Vocabulary|Vocabulario de inglés corporativo]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"factura\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"factura\" in English?|¿Cómo se dice «factura» en inglés?]]",
           "options": [
             "invoice",
             "billing",
@@ -88,11 +88,11 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Corporate Accounts",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Corporate Language",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Corporate Language Vocabulary|Vocabulario de inglés corporativo]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"facturación\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"facturación\" in English?|¿Cómo se dice «facturación» en inglés?]]",
           "options": [
             "billing",
             "contract",
@@ -113,11 +113,11 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Corporate Accounts",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Corporate Language",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Corporate Language Vocabulary|Vocabulario de inglés corporativo]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"contrato\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"contrato\" in English?|¿Cómo se dice «contrato» en inglés?]]",
           "options": [
             "contract",
             "volume discount",
@@ -138,11 +138,11 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Corporate Accounts",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Corporate Language",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Corporate Language Vocabulary|Vocabulario de inglés corporativo]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"descuento por volumen\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"descuento por volumen\" in English?|¿Cómo se dice «descuento por volumen» en inglés?]]",
           "options": [
             "volume discount",
             "account manager",
@@ -163,11 +163,11 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Corporate Accounts",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Corporate Language",
-      "instructions": "[[Fill in|Completa]] [[the|el]] [[blank|hueco]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "title": "[[Corporate Language Vocabulary|Vocabulario de inglés corporativo]]",
+      "instructions": "[[Fill in the blank with the correct word.|Completa el hueco con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[I need|Necesito]] [[the|el/la]] ___ [[for this task|para esta tarea]]. [[(factura)|(factura)]]",
+          "question": "[[I need the ___ for this task. (factura)|Necesito el/la ___ para esta tarea. (pista: factura)]]",
           "options": [
             "invoice",
             "contract",
@@ -188,11 +188,11 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Corporate Accounts",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Corporate Language",
-      "instructions": "[[Fill in|Completa]] [[the|el]] [[blank|hueco]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "title": "[[Corporate Language Vocabulary|Vocabulario de inglés corporativo]]",
+      "instructions": "[[Fill in the blank with the correct word.|Completa el hueco con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[I need|Necesito]] [[the|el/la]] ___ [[for this task|para esta tarea]]. [[(facturación)|(facturación)]]",
+          "question": "[[I need the ___ for this task. (facturación)|Necesito el/la ___ para esta tarea. (pista: facturación)]]",
           "options": [
             "billing",
             "volume discount",
@@ -213,11 +213,11 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Corporate Accounts",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Corporate Language",
-      "instructions": "[[Fill in|Completa]] [[the|el]] [[blank|hueco]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "title": "[[Corporate Language Vocabulary|Vocabulario de inglés corporativo]]",
+      "instructions": "[[Fill in the blank with the correct word.|Completa el hueco con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[I need|Necesito]] [[the|el/la]] ___ [[for this task|para esta tarea]]. [[(contrato)|(contrato)]]",
+          "question": "[[I need the ___ for this task. (contrato)|Necesito el/la ___ para esta tarea. (pista: contrato)]]",
           "options": [
             "contract",
             "account manager",
@@ -238,11 +238,11 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Corporate Accounts",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Corporate Language",
-      "instructions": "[[Fill in|Completa]] [[the|el]] [[blank|hueco]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "title": "[[Corporate Language Vocabulary|Vocabulario de inglés corporativo]]",
+      "instructions": "[[Fill in the blank with the correct word.|Completa el hueco con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[I need|Necesito]] [[the|el/la]] ___ [[for this task|para esta tarea]]. [[(descuento por volumen)|(descuento por volumen)]]",
+          "question": "[[I need the ___ for this task. (descuento por volumen)|Necesito el/la ___ para esta tarea. (pista: descuento por volumen)]]",
           "options": [
             "volume discount",
             "RFP",
@@ -263,8 +263,8 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Corporate Accounts",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Corporate Language",
-      "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
+      "title": "[[Corporate Language Vocabulary|Vocabulario de inglés corporativo]]",
+      "instructions": "[[Match the word with its correct meaning.|Relaciona la palabra con su significado correcto.]]",
       "questions": [
         {
           "question": "[[What does \"account manager\" mean?|¿Qué significa «account manager»?]]",
@@ -288,8 +288,8 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Corporate Accounts",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Corporate Language",
-      "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
+      "title": "[[Corporate Language Vocabulary|Vocabulario de inglés corporativo]]",
+      "instructions": "[[Match the word with its correct meaning.|Relaciona la palabra con su significado correcto.]]",
       "questions": [
         {
           "question": "[[What does \"RFP\" mean?|¿Qué significa «RFP»?]]",
@@ -313,8 +313,8 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Corporate Accounts",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Corporate Language",
-      "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
+      "title": "[[Corporate Language Vocabulary|Vocabulario de inglés corporativo]]",
+      "instructions": "[[Match the word with its correct meaning.|Relaciona la palabra con su significado correcto.]]",
       "questions": [
         {
           "question": "[[What does \"SLA\" mean?|¿Qué significa «SLA»?]]",
@@ -338,11 +338,11 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Corporate Accounts",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Corporate Language",
-      "instructions": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+      "title": "[[Corporate Language Vocabulary|Vocabulario de inglés corporativo]]",
+      "instructions": "[[True or False|Verdadero o falso]]",
       "questions": [
         {
-          "question": "\"[[SLA|SLA]]\" [[means|significa]] \"acuerdo de nivel de servicio\".",
+          "question": "[[\"SLA\" means \"acuerdo de nivel de servicio\".|«SLA» significa «acuerdo de nivel de servicio».]]",
           "options": [
             "[[True|Verdadero]]",
             "[[False|Falso]]"
@@ -361,11 +361,11 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Corporate Accounts",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Corporate Language",
-      "instructions": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+      "title": "[[Corporate Language Vocabulary|Vocabulario de inglés corporativo]]",
+      "instructions": "[[True or False|Verdadero o falso]]",
       "questions": [
         {
-          "question": "\"[[renewal|renewal]]\" [[means|significa]] \"renovación\".",
+          "question": "[[\"renewal\" means \"renovación\".|«renewal» significa «renovación».]]",
           "options": [
             "[[True|Verdadero]]",
             "[[False|Falso]]"

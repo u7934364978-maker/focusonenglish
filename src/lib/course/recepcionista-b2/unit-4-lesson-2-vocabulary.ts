@@ -13,11 +13,11 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Training & Development",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Training Vocabulary",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Staff Training Vocabulary|Vocabulario de formación del personal]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"incorporación\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"incorporación\" in English?|¿Cómo se dice «incorporación» en inglés?]]",
           "options": [
             "onboarding",
             "mentoring",
@@ -38,11 +38,11 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Training & Development",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Training Vocabulary",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Staff Training Vocabulary|Vocabulario de formación del personal]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"mentoría\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"mentoría\" in English?|¿Cómo se dice «mentoría» en inglés?]]",
           "options": [
             "mentoring",
             "role play",
@@ -63,11 +63,11 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Training & Development",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Training Vocabulary",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Staff Training Vocabulary|Vocabulario de formación del personal]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"juego de rol\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"juego de rol\" in English?|¿Cómo se dice «juego de rol» en inglés?]]",
           "options": [
             "role play",
             "assessment",
@@ -88,11 +88,11 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Training & Development",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Training Vocabulary",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Staff Training Vocabulary|Vocabulario de formación del personal]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"evaluación\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"evaluación\" in English?|¿Cómo se dice «evaluación» en inglés?]]",
           "options": [
             "assessment",
             "certification",
@@ -113,11 +113,11 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Training & Development",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Training Vocabulary",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Staff Training Vocabulary|Vocabulario de formación del personal]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"certificación\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"certificación\" in English?|¿Cómo se dice «certificación» en inglés?]]",
           "options": [
             "certification",
             "probationary period",
@@ -138,11 +138,11 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Training & Development",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Training Vocabulary",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Staff Training Vocabulary|Vocabulario de formación del personal]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"período de prueba\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"período de prueba\" in English?|¿Cómo se dice «período de prueba» en inglés?]]",
           "options": [
             "probationary period",
             "performance improvement",
@@ -163,11 +163,11 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Training & Development",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Training Vocabulary",
-      "instructions": "[[Fill in|Completa]] [[the|el]] [[blank|hueco]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "title": "[[Staff Training Vocabulary|Vocabulario de formación del personal]]",
+      "instructions": "[[Fill in the blank with the correct word.|Completa el hueco con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[I need|Necesito]] [[the|el/la]] ___ [[for this task|para esta tarea]]. [[(juego de rol)|(juego de rol)]]",
+          "question": "[[I need the ___ for this task. (juego de rol)|Necesito el/la ___ para esta tarea. (pista: juego de rol)]]",
           "options": [
             "role play",
             "certification",
@@ -188,11 +188,11 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Training & Development",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Training Vocabulary",
-      "instructions": "[[Fill in|Completa]] [[the|el]] [[blank|hueco]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "title": "[[Staff Training Vocabulary|Vocabulario de formación del personal]]",
+      "instructions": "[[Fill in the blank with the correct word.|Completa el hueco con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[I need|Necesito]] [[the|el/la]] ___ [[for this task|para esta tarea]]. [[(evaluación)|(evaluación)]]",
+          "question": "[[I need the ___ for this task. (evaluación)|Necesito el/la ___ para esta tarea. (pista: evaluación)]]",
           "options": [
             "assessment",
             "probationary period",
@@ -213,11 +213,11 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Training & Development",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Training Vocabulary",
-      "instructions": "[[Fill in|Completa]] [[the|el]] [[blank|hueco]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "title": "[[Staff Training Vocabulary|Vocabulario de formación del personal]]",
+      "instructions": "[[Fill in the blank with the correct word.|Completa el hueco con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[I need|Necesito]] [[the|el/la]] ___ [[for this task|para esta tarea]]. [[(certificación)|(certificación)]]",
+          "question": "[[I need the ___ for this task. (certificación)|Necesito el/la ___ para esta tarea. (pista: certificación)]]",
           "options": [
             "certification",
             "performance improvement",
@@ -238,11 +238,11 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Training & Development",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Training Vocabulary",
-      "instructions": "[[Fill in|Completa]] [[the|el]] [[blank|hueco]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "title": "[[Staff Training Vocabulary|Vocabulario de formación del personal]]",
+      "instructions": "[[Fill in the blank with the correct word.|Completa el hueco con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[I need|Necesito]] [[the|el/la]] ___ [[for this task|para esta tarea]]. [[(período de prueba)|(período de prueba)]]",
+          "question": "[[I need the ___ for this task. (período de prueba)|Necesito el/la ___ para esta tarea. (pista: período de prueba)]]",
           "options": [
             "probationary period",
             "upskilling",
@@ -263,8 +263,8 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Training & Development",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Training Vocabulary",
-      "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
+      "title": "[[Staff Training Vocabulary|Vocabulario de formación del personal]]",
+      "instructions": "[[Match the word with its correct meaning.|Relaciona la palabra con su significado correcto.]]",
       "questions": [
         {
           "question": "[[What does \"performance improvement\" mean?|¿Qué significa «performance improvement»?]]",
@@ -288,8 +288,8 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Training & Development",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Training Vocabulary",
-      "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
+      "title": "[[Staff Training Vocabulary|Vocabulario de formación del personal]]",
+      "instructions": "[[Match the word with its correct meaning.|Relaciona la palabra con su significado correcto.]]",
       "questions": [
         {
           "question": "[[What does \"upskilling\" mean?|¿Qué significa «upskilling»?]]",
@@ -313,8 +313,8 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Training & Development",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Training Vocabulary",
-      "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
+      "title": "[[Staff Training Vocabulary|Vocabulario de formación del personal]]",
+      "instructions": "[[Match the word with its correct meaning.|Relaciona la palabra con su significado correcto.]]",
       "questions": [
         {
           "question": "[[What does \"e-learning\" mean?|¿Qué significa «e-learning»?]]",
@@ -338,11 +338,11 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Training & Development",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Training Vocabulary",
-      "instructions": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+      "title": "[[Staff Training Vocabulary|Vocabulario de formación del personal]]",
+      "instructions": "[[True or False|Verdadero o falso]]",
       "questions": [
         {
-          "question": "\"[[e-learning|e-learning]]\" [[means|significa]] \"aprendizaje online\".",
+          "question": "[[\"e-learning\" means \"aprendizaje online\".|«e-learning» significa «aprendizaje online».]]",
           "options": [
             "[[True|Verdadero]]",
             "[[False|Falso]]"
@@ -361,11 +361,11 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "Training & Development",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Training Vocabulary",
-      "instructions": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+      "title": "[[Staff Training Vocabulary|Vocabulario de formación del personal]]",
+      "instructions": "[[True or False|Verdadero o falso]]",
       "questions": [
         {
-          "question": "\"[[succession planning|succession planning]]\" [[means|significa]] \"planificación de la sucesión\".",
+          "question": "[[\"succession planning\" means \"planificación de la sucesión\".|«succession planning» significa «planificación de la sucesión».]]",
           "options": [
             "[[True|Verdadero]]",
             "[[False|Falso]]"

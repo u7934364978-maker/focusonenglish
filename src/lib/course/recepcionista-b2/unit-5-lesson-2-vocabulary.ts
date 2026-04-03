@@ -13,11 +13,11 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "CheckIn",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Check-in Vocabulary",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Advanced Check-in Vocabulary|Vocabulario de check-in avanzado]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"pre-llegada\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"pre-llegada\" in English?|¿Cómo se dice «pre-llegada» en inglés?]]",
           "options": [
             "pre-arrival",
             "express check-in",
@@ -38,11 +38,11 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "CheckIn",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Check-in Vocabulary",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Advanced Check-in Vocabulary|Vocabulario de check-in avanzado]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"check-in exprés\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"check-in exprés\" in English?|¿Cómo se dice «check-in exprés» en inglés?]]",
           "options": [
             "express check-in",
             "digital key",
@@ -63,11 +63,11 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "CheckIn",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Check-in Vocabulary",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Advanced Check-in Vocabulary|Vocabulario de check-in avanzado]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"llave digital\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"llave digital\" in English?|¿Cómo se dice «llave digital» en inglés?]]",
           "options": [
             "digital key",
             "loyalty program",
@@ -88,11 +88,11 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "CheckIn",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Check-in Vocabulary",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Advanced Check-in Vocabulary|Vocabulario de check-in avanzado]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"programa de fidelización\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"programa de fidelización\" in English?|¿Cómo se dice «programa de fidelización» en inglés?]]",
           "options": [
             "loyalty program",
             "room preference",
@@ -113,11 +113,11 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "CheckIn",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Check-in Vocabulary",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Advanced Check-in Vocabulary|Vocabulario de check-in avanzado]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"mejora de categoría\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"mejora de categoría\" in English?|¿Cómo se dice «mejora de categoría» en inglés?]]",
           "options": [
             "upgrade",
             "upsell",
@@ -138,11 +138,11 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "CheckIn",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Check-in Vocabulary",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Advanced Check-in Vocabulary|Vocabulario de check-in avanzado]]",
+      "instructions": "[[Choose the correct option.|Elige la opción correcta.]]",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[do you say|se dice]] \"servicio/amenidad\" [[in|en]] [[English|inglés]]?",
+          "question": "[[How do you say \"servicio/amenidad\" in English?|¿Cómo se dice «servicio/amenidad» en inglés?]]",
           "options": [
             "amenity",
             "room type",
@@ -163,11 +163,11 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "CheckIn",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Check-in Vocabulary",
-      "instructions": "[[Fill in|Completa]] [[the|el]] [[blank|hueco]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "title": "[[Advanced Check-in Vocabulary|Vocabulario de check-in avanzado]]",
+      "instructions": "[[Fill in the blank with the correct word.|Completa el hueco con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[I need|Necesito]] [[the|el/la]] ___ [[for this task|para esta tarea]]. [[(llegada anticipada)|(llegada anticipada)]]",
+          "question": "[[I need the ___ for this task. (llegada anticipada)|Necesito el/la ___ para esta tarea. (pista: llegada anticipada)]]",
           "options": [
             "early arrival",
             "room preference",
@@ -188,11 +188,11 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "CheckIn",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Check-in Vocabulary",
-      "instructions": "[[Fill in|Completa]] [[the|el]] [[blank|hueco]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "title": "[[Advanced Check-in Vocabulary|Vocabulario de check-in avanzado]]",
+      "instructions": "[[Fill in the blank with the correct word.|Completa el hueco con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[I need|Necesito]] [[the|el/la]] ___ [[for this task|para esta tarea]]. [[(preferencia de habitación)|(preferencia de habitación)]]",
+          "question": "[[I need the ___ for this task. (preferencia de habitación)|Necesito el/la ___ para esta tarea. (pista: preferencia de habitación)]]",
           "options": [
             "room preference",
             "upsell",
@@ -213,11 +213,11 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "CheckIn",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Check-in Vocabulary",
-      "instructions": "[[Fill in|Completa]] [[the|el]] [[blank|hueco]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "title": "[[Advanced Check-in Vocabulary|Vocabulario de check-in avanzado]]",
+      "instructions": "[[Fill in the blank with the correct word.|Completa el hueco con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[I need|Necesito]] [[the|el/la]] ___ [[for this task|para esta tarea]]. [[(venta adicional)|(venta adicional)]]",
+          "question": "[[I need the ___ for this task. (venta adicional)|Necesito el/la ___ para esta tarea. (pista: venta adicional)]]",
           "options": [
             "upsell",
             "room type",
@@ -238,11 +238,11 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "CheckIn",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Check-in Vocabulary",
-      "instructions": "[[Fill in|Completa]] [[the|el]] [[blank|hueco]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "title": "[[Advanced Check-in Vocabulary|Vocabulario de check-in avanzado]]",
+      "instructions": "[[Fill in the blank with the correct word.|Completa el hueco con la palabra correcta.]]",
       "questions": [
         {
-          "question": "[[I need|Necesito]] [[the|el/la]] ___ [[for this task|para esta tarea]]. [[(tipo de habitación)|(tipo de habitación)]]",
+          "question": "[[I need the ___ for this task. (tipo de habitación)|Necesito el/la ___ para esta tarea. (pista: tipo de habitación)]]",
           "options": [
             "room type",
             "loyalty program",
@@ -263,8 +263,8 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "CheckIn",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Check-in Vocabulary",
-      "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
+      "title": "[[Advanced Check-in Vocabulary|Vocabulario de check-in avanzado]]",
+      "instructions": "[[Match the word with its correct meaning.|Relaciona la palabra con su significado correcto.]]",
       "questions": [
         {
           "question": "[[What does \"upsell\" mean?|¿Qué significa «upsell»?]]",
@@ -288,8 +288,8 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "CheckIn",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Check-in Vocabulary",
-      "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
+      "title": "[[Advanced Check-in Vocabulary|Vocabulario de check-in avanzado]]",
+      "instructions": "[[Match the word with its correct meaning.|Relaciona la palabra con su significado correcto.]]",
       "questions": [
         {
           "question": "[[What does \"amenity\" mean?|¿Qué significa «amenity»?]]",
@@ -313,8 +313,8 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "CheckIn",
     "difficulty": "medium",
     "content": {
-      "title": "Vocabulario: Check-in Vocabulary",
-      "instructions": "[[Match|Relaciona]] [[the|la]] [[word|palabra]] [[with|con]] [[its|su]] [[correct|correcta]] [[meaning|significado]].",
+      "title": "[[Advanced Check-in Vocabulary|Vocabulario de check-in avanzado]]",
+      "instructions": "[[Match the word with its correct meaning.|Relaciona la palabra con su significado correcto.]]",
       "questions": [
         {
           "question": "[[What does \"upgrade\" mean?|¿Qué significa «upgrade»?]]",
@@ -338,11 +338,11 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "CheckIn",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Check-in Vocabulary",
-      "instructions": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+      "title": "[[Advanced Check-in Vocabulary|Vocabulario de check-in avanzado]]",
+      "instructions": "[[True or False|Verdadero o falso]]",
       "questions": [
         {
-          "question": "\"[[loyalty program|loyalty program]]\" [[means|significa]] \"programa de fidelización\".",
+          "question": "[[\"loyalty program\" means \"programa de fidelización\".|«loyalty program» significa «programa de fidelización».]]",
           "options": [
             "[[True|Verdadero]]",
             "[[False|Falso]]"
@@ -361,11 +361,11 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
     "topic": "CheckIn",
     "difficulty": "easy",
     "content": {
-      "title": "Vocabulario: Check-in Vocabulary",
-      "instructions": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+      "title": "[[Advanced Check-in Vocabulary|Vocabulario de check-in avanzado]]",
+      "instructions": "[[True or False|Verdadero o falso]]",
       "questions": [
         {
-          "question": "\"[[digital key|digital key]]\" [[means|significa]] \"llave digital\".",
+          "question": "[[\"digital key\" means \"llave digital\".|«digital key» significa «llave digital».]]",
           "options": [
             "[[True|Verdadero]]",
             "[[False|Falso]]"
