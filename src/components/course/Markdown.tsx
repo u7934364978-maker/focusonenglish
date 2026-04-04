@@ -15,6 +15,7 @@ const VocabularyContext = createContext<{
   vocabulary: VocabularyItem[];
   isFirstRef: React.MutableRefObject<boolean>;
   plain: boolean;
+  expandWordPairs?: boolean;
 } | null>(null);
 
 function VocabularyTooltip({ word, definition, children, position = 'top' }: { word: string, definition: string, children: React.ReactNode, position?: 'top' | 'bottom' }) {
@@ -135,7 +136,11 @@ function useApplyTooltips() {
       return (
         <>
           {finalParts.map((p, i) => (
-            typeof p === 'string' ? <TranslatedText key={i} text={p} /> : p
+            typeof p === 'string' ? (
+              <TranslatedText key={i} text={p} expandWordPairs={ctx.expandWordPairs} />
+            ) : (
+              p
+            )
           ))}
         </>
       );
@@ -272,7 +277,18 @@ function normalizeMarkdown(input: string) {
   return out.join("\n");
 }
 
-export default function Markdown({ content, vocabulary, plain }: { content: string, vocabulary?: VocabularyItem[], plain?: boolean }) {
+export default function Markdown({
+  content,
+  vocabulary,
+  plain,
+  expandWordPairs,
+}: {
+  content: string;
+  vocabulary?: VocabularyItem[];
+  plain?: boolean;
+  /** Trocea [[EN|ES]] en tooltips por palabra (curso recepcionista). */
+  expandWordPairs?: boolean;
+}) {
   const normalized = normalizeMarkdown(content);
   const isFirstRef = useRef(true);
 
@@ -285,13 +301,19 @@ export default function Markdown({ content, vocabulary, plain }: { content: stri
     vocabulary: vocabulary || [],
     isFirstRef,
     plain: plain ?? false,
-  }), [vocabulary, plain]);
+    expandWordPairs: expandWordPairs ?? false,
+  }), [vocabulary, plain, expandWordPairs]);
 
   return (
     <VocabularyContext.Provider value={contextValue}>
       <MarkdownBody content={normalized} />
     </VocabularyContext.Provider>
   );
+}
+
+function MarkdownTextLeaf({ value }: { value: string }) {
+  const ctx = useContext(VocabularyContext);
+  return <TranslatedText text={value} expandWordPairs={ctx?.expandWordPairs} />;
 }
 
 function MarkdownBody({ content }: { content: string }) {
@@ -332,7 +354,7 @@ function useMarkdownComponents() {
   return useMemo(() => ({
     // Text nodes
     text({ value }: any) {
-      return <TranslatedText text={value} />;
+      return <MarkdownTextLeaf value={value} />;
     },
     // Override text-heavy components to apply tooltips
     p({ children }: any) {

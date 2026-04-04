@@ -11,6 +11,7 @@
  */
 import React, { useMemo, useState, useEffect, useId, useRef } from 'react';
 import { GLOBAL_LEXICON } from '@/lib/course/engine/lexicon';
+import { expandExplicitWordPairMarkupInString } from '@/lib/bilingual-word-pairs';
 import AudioButton from '../AudioButton';
 
 /** Store global: solo un tooltip visible en toda la app (el de la palabra bajo el cursor). */
@@ -43,6 +44,8 @@ interface TranslatedTextProps {
   text: string;
   className?: string;
   useStrong?: boolean;
+  /** Si true, cada [[frase EN|frase ES]] se trocea en tooltips palabra a palabra (p. ej. curso recepcionista). */
+  expandWordPairs?: boolean;
 }
 
 // Module-level cache for the regex and map to avoid recomputing if not needed
@@ -175,10 +178,12 @@ function getLexiconData() {
   return { lexiconMap, lexiconRegexPattern };
 }
 
-export const TranslatedText: React.FC<TranslatedTextProps> = ({ text, className, useStrong = false }) => {
+export const TranslatedText: React.FC<TranslatedTextProps> = ({ text, className, useStrong = false, expandWordPairs = false }) => {
   const { lexiconMap, lexiconRegexPattern } = useMemo(() => getLexiconData(), []);
 
   if (!text || typeof text !== 'string') return text;
+
+  const textForParsing = expandWordPairs ? expandExplicitWordPairMarkupInString(text) : text;
 
   // 1. Handle explicit translations: [[word|translation]] or [[word]]
   const explicitRegex = /\[\[(.*?)(?:\|(.*?))?\]\]/g;
@@ -187,9 +192,9 @@ export const TranslatedText: React.FC<TranslatedTextProps> = ({ text, className,
   let lastIndex = 0;
   let match;
   
-  while ((match = explicitRegex.exec(text)) !== null) {
+  while ((match = explicitRegex.exec(textForParsing)) !== null) {
     if (match.index > lastIndex) {
-      parts.push(text.substring(lastIndex, match.index));
+      parts.push(textForParsing.substring(lastIndex, match.index));
     }
 
     const word = match[1];
@@ -201,8 +206,8 @@ export const TranslatedText: React.FC<TranslatedTextProps> = ({ text, className,
     lastIndex = explicitRegex.lastIndex;
   }
 
-  if (lastIndex < text.length) {
-    parts.push(text.substring(lastIndex));
+  if (lastIndex < textForParsing.length) {
+    parts.push(textForParsing.substring(lastIndex));
   }
 
   // 2. Process remaining text parts for Lexicon matches

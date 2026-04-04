@@ -20,6 +20,7 @@ import { resolveListeningScript } from '@/lib/listening-script';
 import { useGamification } from '@/lib/hooks/use-gamification';
 import SpeakButton from './SpeakButton';
 import { applyC1QuestionBilingual } from '@/lib/course/c1/c1-question-bilingual';
+import { isRecepcionistaExerciseId } from '@/lib/recepcionista-exercise-ids';
 
 interface ExerciseRendererProps {
   exercise: Exercise;
@@ -97,6 +98,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
   const exerciseContent = exercise.content || exercise;
   const questions = exerciseContent.questions || [];
+  const expandWordPairs = isRecepcionistaExerciseId(exercise.id);
 
   const longFormText =
     (typeof exercise.transcript === 'string' && exercise.transcript) ||
@@ -326,7 +328,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             <SpeakButton text={questionForUi} size="sm" />
           </div>
           <div className="text-lg md:text-xl text-slate-800 font-medium leading-snug">
-            <TranslatedText text={questionForUi} />
+            <TranslatedText text={questionForUi} expandWordPairs={expandWordPairs} />
           </div>
         </div>
 
@@ -367,7 +369,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                     } disabled:cursor-not-allowed`}
                   >
                     <span className="block text-2xl mb-1">{option === 'True' ? '✅' : '❌'}</span>
-                    <TranslatedText text={option === 'True' ? '[[True|Verdadero]]' : '[[False|Falso]]'} />
+                    <TranslatedText text={option === 'True' ? '[[True|Verdadero]]' : '[[False|Falso]]'} expandWordPairs={expandWordPairs} />
                     {showAsCorrect && <CheckCircle className="absolute top-3 right-3 w-5 h-5 text-green-500" />}
                     {showAsIncorrect && <XCircle className="absolute top-3 right-3 w-5 h-5 text-red-500" />}
                   </button>
@@ -416,7 +418,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                       <span className={`text-base font-medium flex-1 leading-snug text-slate-700 ${
                         showAsCorrect ? '!text-green-800' : showAsIncorrect ? '!text-red-800' : isUserAnswer ? 'text-slate-900' : ''
                       }`}>
-                        <TranslatedText text={typeof option === 'string' ? option : option.text} />
+                        <TranslatedText text={typeof option === 'string' ? option : option.text} expandWordPairs={expandWordPairs} />
                       </span>
                       <SpeakButton text={typeof option === 'string' ? option : option.text} size="sm" className="opacity-50 hover:opacity-100" />
                     </div>
@@ -568,7 +570,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                       {evaluation.isCorrect ? 'Respuesta correcta' : 'Respuesta incorrecta'}
                     </div>
                     <div className={`text-sm mt-0.5 leading-snug ${evaluation.isCorrect ? 'text-green-600' : 'text-red-500'}`}>
-                      <Markdown content={evaluation.feedback} vocabulary={vocabulary} />
+                      <Markdown content={evaluation.feedback} vocabulary={vocabulary} expandWordPairs={expandWordPairs} />
                     </div>
                   </div>
                 </div>
@@ -584,7 +586,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                         Por qué
                       </p>
                       <div className="text-sm font-normal text-slate-700 leading-relaxed">
-                        <Markdown content={explanationText} vocabulary={vocabulary} />
+                        <Markdown content={explanationText} vocabulary={vocabulary} expandWordPairs={expandWordPairs} />
                       </div>
                     </div>
                   ) : null;
@@ -632,7 +634,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
               onClick={() => onComplete({ success: finishScore >= 70, score: finishScore })}
               className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white py-4 rounded-2xl font-semibold text-base shadow-lg flex items-center justify-center gap-2"
             >
-              <TranslatedText text="[[Continue|Continuar]]" />
+              <TranslatedText text="[[Continue|Continuar]]" expandWordPairs={expandWordPairs} />
               <ArrowRight className="w-5 h-5" />
             </button>
           </div>
@@ -671,7 +673,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
               onClick={() => onComplete({ success: finishScore >= 70, score: finishScore })}
               className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white py-4 rounded-2xl font-semibold text-base shadow-lg flex items-center justify-center gap-2"
             >
-              <TranslatedText text="[[Continue|Continuar]]" />
+              <TranslatedText text="[[Continue|Continuar]]" expandWordPairs={expandWordPairs} />
               <ArrowRight className="w-5 h-5" />
             </button>
           </div>
@@ -716,14 +718,14 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
               </div>
             </div>
             <h2 className={`text-xl md:text-2xl font-semibold text-slate-900 leading-snug border-l-4 pl-4 ${typeTheme.border} rounded-r-sm`}>
-              <TranslatedText text={exerciseContent.title || 'Ejercicio'} />
+              <TranslatedText text={exerciseContent.title || 'Ejercicio'} expandWordPairs={expandWordPairs} />
             </h2>
           </div>
           {exerciseContent.instructions && (
             <div className="mt-1 flex gap-2.5 p-3.5 bg-slate-50 border border-slate-200 rounded-xl">
               <Info size={18} className="text-slate-500 flex-shrink-0 mt-0.5" aria-hidden />
               <div className="text-slate-700 text-base font-normal leading-relaxed">
-                <TranslatedText text={exerciseContent.instructions} />
+                <TranslatedText text={exerciseContent.instructions} expandWordPairs={expandWordPairs} />
               </div>
             </div>
           )}
@@ -753,7 +755,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                   Lee el texto con calma antes de responder
                 </p>
                 <div className="text-slate-800 text-base md:text-lg leading-relaxed font-normal">
-                  <Markdown content={longFormText} />
+                  <Markdown content={longFormText} expandWordPairs={expandWordPairs} />
                 </div>
               </div>
               {resolvedExerciseAudioUrl && (
@@ -781,7 +783,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                         <div className="rounded-xl bg-sky-50 border border-sky-200 p-4">
                           <p className="text-sm font-semibold text-sky-800 mb-1">Pista (expresiones que puedes usar):</p>
                           <div className="text-slate-700 text-sm leading-relaxed whitespace-pre-line">
-                            <TranslatedText text={exerciseContent.expressionHint} />
+                            <TranslatedText text={exerciseContent.expressionHint} expandWordPairs={expandWordPairs} />
                           </div>
                         </div>
                       )}
@@ -789,7 +791,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                         <div className="rounded-xl bg-amber-50 border border-amber-200 p-4">
                           <p className="text-sm font-semibold text-amber-800 mb-2">Modelo (guía):</p>
                           <div className="text-slate-800 text-sm md:text-base leading-relaxed whitespace-pre-line">
-                            <TranslatedText text={exerciseContent.modelExample} />
+                            <TranslatedText text={exerciseContent.modelExample} expandWordPairs={expandWordPairs} />
                           </div>
                         </div>
                       )}
